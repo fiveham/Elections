@@ -350,13 +350,6 @@
     <!-- Address search box -->
     <input id="pac-input" class="controls installed-controls top-control" type="text" placeholder="Find an Address">
     
-    <!-- Layer-select box -->
-    <div id="layer-select" class="installed-controls left-control no-select">
-      <div class="layer-header sharing-click" id="sharing-click" title="Share map with current center, zoom, and layers" onclick="on();">
-        Share
-      </div>
-    </div>
-    
     <!-- Sharing popup -->
     <div id="modal" class="modal">
       <div class="closer" onclick="off();" title="close the sharing window">
@@ -430,8 +423,9 @@
       }
       
       function updateLayers(){
-        clearLayers();
-        rebuildLayers();
+        //clearLayers();
+        //rebuildLayers();
+        hookUpMap(docs[0])
       }
       
       function careful_extract(params, key, func, min, max, def){
@@ -603,10 +597,6 @@
         autocomplete.setFields(["geometry"]);
         map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
         
-        //Move the layer-select box to the center left
-        var layer_select = document.getElementById("layer-select");
-        map.controls[google.maps.ControlPosition.LEFT_CENTER].push(layer_select);
-        
         //Move the sharing-box div to the center
         var sharebox = document.getElementById("modal");
         map.controls[google.maps.ControlPosition.CENTER].push(sharebox);
@@ -629,10 +619,6 @@
         }
         
         //turn on the initial map layers
-        var layer = careful_extract(url_params, "layer", index_layer, 0, 8, 0);
-        document.getElementById("layer-dropdown").selectedIndex = layer;
-        var ppLayer = careful_extract(url_params, "pp", check_early, 0, 2, 0);
-        document.getElementById("polling-places-dropdown").selectedIndex = ppLayer;
         updateLayers();
       }
       
