@@ -352,36 +352,6 @@
     
     <!-- Layer-select box -->
     <div id="layer-select" class="installed-controls left-control no-select">
-      <div title="Switch to a different set of districts" class="hr-bottom">
-        <div class="layer-header select-label">
-          <label for="layer-dropdown">
-            District Map
-          </label>
-        </div>
-        <select id="layer-dropdown" class="layer-dropdown" onchange="updateLayers();">
-          <option value="house" title="Show districts for the North Carolina state house of representatives">State House</option>
-          <option value="senate" title="Show districts for the North Carolina state senate">State Senate</option>
-          <option value="statewide" title="Show layer for statewide offices and issues">Statewide</option>
-          <option value="prosecutorial" title="Show districts for District Attorney">Prosecutorial</option>
-          <option value="congress" title="Show districts for the United States House of Representatives">Congressional</option>
-          <option value="county" title="Show counties">County</option>
-          <option value="superior" title="Show districts for North Carolina superior court">Superior Court</option>
-          <option value="district" title="Show districts for North Carolina district court">District Court</option>
-          <option value="precinct" title="Show electoral precincts">Voting Precincts</option>
-        </select>
-      </div>
-      <div title="Choose a set of polling places" class="hr-bottom">
-        <div class="layer-header select-label">
-          <label for="polling-places-dropdown">
-            Polling Places
-          </label>
-        </div>
-        <select id="polling-places-dropdown" class="layer-dropdown" onchange="updateLayers();" style="width: 100%;">
-          <option value="none" title="Do not show polling places">&lt;None&gt;</option>
-          <option value="regular" title="Show polling places for November 6">Election Day</option>
-          <option value="early" title="Show one-stop absentee polling places (early voting)">Early Voting</option>
-        </select>
-      </div>
       <div class="layer-header sharing-click" id="sharing-click" title="Share map with current center, zoom, and layers" onclick="on();">
         Share
       </div>
@@ -411,18 +381,7 @@
       var map;
       var marker;
       var icon;
-      var docs = [{  docId:"1n1hdJZLRStlIZA8K0TKdtq6kXZt3JVo9Ii2bRONj", templateId: 2, layer:null, select:"geometry",      value:"house"},
-                  {  docId:"1WZDuAjipPtq5amQyBKDvgevyTDHeKEV9ol9X_MUr", templateId: 2, layer:null, select:"geometry",      value:"senate"},
-                  {  docId:"1zJU1Qe9zBbGUWco7i8qjVe6C0bBJq5YMZVF4A2ZP", templateId: 2, layer:null, select:"geometry",      value:"statewide"},
-                  {  docId:"1b02qjP5mCjBNK80uHctZfXhYqZP0fzisGJXYG8KI", templateId: 2, layer:null, select:"geometry",      value:"prosecutorial"},
-                  {  docId:"1-yQcmQaSPo-O2bYAKHlL3an1Ferv6gyffzhZJC-T", templateId: 3, layer:null, select:"geometry",      value:"congress"},
-                  {  docId:"1uP-G0nMrAdaaobSl_CTdBW11hhK1xUmLIbNdqp3K", templateId: 2, layer:null, select:"geometry",      value:"county"},
-                  {  docId:"1UD87OisW8cSkdZ334R0Y82DM0Uu8zuosHLrkhspz", templateId: 2, layer:null, select:"geometry",      value:"superior"},
-                  {  docId:"1BlEwGRVlZqoxoLYTEe5bwc4Fi81KTtENMvgbS7J9", templateId: 2, layer:null, select:"geometry",      value:"district"},
-                  {  docId:"1wSQK0mnN5gpx_yZ7KCa-T96A3WcURImqEAe6F1uw", templateId: 2, layer:null, select:"geometry",      value:"precinct"}];
-      
-      var ppDocs = [{docId:"15JEm_-AqJqi9Ju9X0URTb6bpKu76XxH3fzTEqXim", templateId: 2, layer:null, select:"latlong",       value:"pollingplace"}, 
-                    {docId:"1SWHiu8MZn5P_WbpjlGmdotrWkt9Jx8CgVsgzaNAO", templateId: 2, layer:null, select:"col5\x3e\x3e0", value:"early"}];
+      var docs = [{docId:"1U0346NZdjHTKqY1P8l6fW-y59ufsmfJeWydoi6i2", templateId: 2, layer:null, select:"geometry", value:"house"}];
       
       function gen_layer(doc){
         return new google.maps.FusionTablesLayer({
