@@ -486,8 +486,8 @@
       }
       
       function gen_map(param_dict){
-        var lat = careful_extract(param_dict, "lat", parseFloat, -90, 90, 35.40504720215536);
-        var lng = careful_extract(param_dict, "lng", parseFloat, -180, 180, -79.79899755009092);
+        var lat = careful_extract(param_dict, "lat", parseFloat, -90, 90, 32.733969);
+        var lng = careful_extract(param_dict, "lng", parseFloat, -180, 180, -89.747445);
         var zoom = careful_extract(param_dict, "zoom", parseInt10, 0, 22, 7);
         
         return new google.maps.Map(document.getElementById('map'), {
