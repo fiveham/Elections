@@ -1,1 +1,754 @@
-replace content later lol
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      ATTRIBUTIONS:
+      The source code for this page is a modification of work created and shared by 
+      Google and is used according to the terms described in the Apache 2.0 license.
+      
+      The geolocation symbol used on this page comes from Pixabay at 
+      https://pixabay.com/en/icon-marker-map-black-157354/ and is used under 
+      the CC0 Creative Commons license.
+      
+      APACHE LICENSE TEXT:
+      The text of the Apache 2.0 license can be found at this URL (last retrieved July 23, 2018): 
+      https://www.apache.org/licenses/LICENSE-2.0
+      
+      SOURCES:
+      The in-page styling in the style element and several portions of the function 
+      initAutocomplete are derived from sample code at 
+      https://developers.google.com/maps/documentation/javascript/examples/places-searchbox 
+      (last retrieved July 23, 2018). Some other portions of initAutocomplete and most 
+      of the function geolocate are derived from sample code at 
+      https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform
+      (last retrieved July 27, 2018).
+    -->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <meta property="og:image" content="http://fiveham.github.io/NC-elections/images/newui-county-thumb.png" />
+    <meta property="og:image:url" content="http://fiveham.github.io/NC-elections/images/newui-county-thumb.png" />
+    <meta property="og:image:secure_url" content="https://fiveham.github.io/NC-elections/images/newui-county-thumb.png" />
+    <meta property="og:image:alt" content="A screenshot of this interactive map of North Carolina, with the county layer turned on and no polling places" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="856" />
+    <meta property="og:image:height" content="773" />
+    <meta property="og:url" content="https://fiveham.github.io/NC-elections/all-districts" />
+    <meta property="og:type" content="website" />
+    <meta property="og:determiner" content="" />
+    <meta property="og:title" content="NC Midterms 2018 - Interactive Map" />
+    <meta property="og:description" content="Interactive map of polling places, districts, and candidates for the 2018 midterm election November 6th" />
+    
+    <title>NC Midterms 2018 - Interactive Map</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #description {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+      }
+      
+      #infowindow-content .title {
+        font-weight: bold;
+      }
+      
+      #infowindow-content {
+        display: none;
+      }
+      
+      #map #infowindow-content {
+        display: inline;
+      }
+      
+      .pac-card {
+        margin: 10px 10px 0 0;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        font-family: Roboto;
+      }
+      
+      #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+      }
+      
+      .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+      }
+      
+      .pac-controls label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+      
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 6px 5px;
+        text-overflow: ellipsis;
+        min-width: 110px;
+        width: 400px;
+        max-width: 400px;
+        max-width: -webkit-calc(100% - 337px);
+        max-width:   expression(100% - 337px);
+        max-width:    -moz-calc(100% - 337px);
+        max-width:      -o-calc(100% - 337px);
+        max-width:         calc(100% - 337px);
+      }
+      
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+      
+      #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 6px 12px;
+      }
+      
+      #target {
+        width: 345px;
+      }
+      
+      #layer-select{
+        display: inline-block;
+        background: white;
+        margin: 10px;
+        padding-top: 4px;
+        padding-right: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        border: 1px solid #a9a9a9;
+      }
+      
+      .layer-dropdown{
+        cursor: pointer;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: 14px;
+      }
+      
+      .layer-header{
+        font-weight: bold;
+        text-align: center;
+      }
+      
+      .installed-controls{
+        position: absolute;
+        opacity: 0;
+        transition: opacity 1s ease-in;
+      }
+      
+      .top-control{
+        margin: 10px 10px 0 0;
+      }
+      
+      .left-control{
+        margin: 0 0 0 10px;
+      }
+      
+      .geolocate{
+        display: block;
+        height: 40px;
+        width: 40px;
+        background-color: #fff;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 2px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+        overflow: hidden;
+      }
+      
+      .geolocate:hover{
+        background-color: #ebebeb;
+      }
+      
+      .modal{
+        visibility: hidden;
+        position: absolute;
+        width: 300px;
+        max-width: 95%;
+        max-height: 95%;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid #a9a9a9;
+      }
+      
+      .closer{
+        position: absolute;
+        top: 5px;
+        right: 6px;
+        cursor: pointer;
+      }
+      
+      .sharing-click{
+        cursor: pointer;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        border-radius: 2px;
+        background-color: #f0f0f0;
+      }
+      
+      .sharing-click:hover{
+        background-color: #ebebeb;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+      }
+      
+      /* Begin popup balloon dimensional controls */
+      
+      /* Specify static fallbacks in case of lack of support for calc functions.
+       * Allow a constant buffer size to fit the controls around the edges. */
+      div.googft-info-window{
+        max-height: 300px;
+        max-height: -webkit-calc(100vh - 150px);
+        max-height:   expression(100vh - 150px);
+        max-height:    -moz-calc(100vh - 150px);
+        max-height:      -o-calc(100vh - 150px);
+        max-height:         calc(100vh - 150px);
+        max-width: 400px;
+        max-width: -webkit-calc(100vw - 300px);
+        max-width:   expression(100vw - 300px);
+        max-width:    -moz-calc(100vw - 300px);
+        max-width:      -o-calc(100vw - 300px);
+        max-width:         calc(100vw - 300px);
+      }
+      
+      /* Reduce balloon dimensions to the fallback
+       * values when the screen is too large. */
+      @media only screen and (min-width: 800px){
+        div.googft-info-window {
+          max-width: 400px;
+        }
+      }
+      @media only screen and (min-height: 500px){
+        div.googft-info-window {
+          max-height: 300px;
+        }
+      }
+      
+      /* Crude tool to target mobile Safari to work
+       * around its lack of support for the calc() function
+       * and the vh and vw units. */
+      @supports (-webkit-overflow-scrolling: touch) {
+        @media only screen and (orientation: landscape){
+          @media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+            div.googft-info-window{
+              max-height: 170px;
+              max-width: 268px;
+            }
+          }
+          
+          @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+            div.googft-info-window{
+              max-height: 170px;
+              max-width: 200px;
+            }
+          }
+          
+          @media only screen and (min-device-width: 375px) and (max-device-width: 812px){
+            div.googft-info-window{
+              max-height: 225px;
+              max-width: 400px;
+            }
+          }
+          
+          @media only screen and (min-device-width: 375px) and (max-device-width: 667px){
+            div.googft-info-window{
+              max-height: 225px;
+              max-width: 367px;
+            }
+          }
+          
+          @media only screen and (min-device-width: 414px) and (max-device-width: 736px){
+            div.googft-info-window{
+              max-height: 264px;
+              max-width: 400px;
+            }
+          }
+        }
+        
+        @media only screen and (orientation: portrait){
+          div.googft-info-window{
+            max-height: 300px;
+            max-width: 200px;
+          }
+        }
+        
+        @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+          div.googft-info-window{
+            max-height: 300px;
+            max-width: 400px;
+          }
+        }
+      }
+      /* End popup balloon dimensional controls */
+      
+      .sharing-url{
+        width: 100%;
+        margin-bottom: 5px;
+      }
+      
+      .no-select{
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select:   none; /* Safari */
+        -khtml-user-select:    none; /* Konqueror HTML */
+        -moz-user-select:      none; /* Firefox */
+        -ms-user-select:       none; /* Internet Explorer/Edge */
+        user-select:           none; /* Non-prefixed version, currently
+                                        supported by Chrome and Opera */
+      }
+      
+      .sharing-body{
+        margin-top: 10px;
+      }
+      
+      .select-label{
+        width: 100%;
+        margin-bottom: 4px;
+      }
+      
+      .hr-bottom{
+        border-bottom: 1px solid #a9a9a9;
+        width: 100%;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+      }
+      
+      div.ossite td:last-child{
+        padding-left: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <!-- Geolocator button -->
+    <div id="geolocation" class="geolocate installed-controls top-control" onclick="geolocate();" role="button" title="Go to your geolocation">
+      <div style="width: 100%; height: 1px;"></div>
+      <img src="./images/icon-157354_640.png" height="38" width="21" title="Go to your geolocation">
+    </div>
+    
+    <!-- Address search box -->
+    <input id="pac-input" class="controls installed-controls top-control" type="text" placeholder="Find an Address">
+    
+    <!-- Layer-select box -->
+    <div id="layer-select" class="installed-controls left-control no-select">
+      <div title="Switch to a different set of districts" class="hr-bottom">
+        <div class="layer-header select-label">
+          <label for="layer-dropdown">
+            District Map
+          </label>
+        </div>
+        <select id="layer-dropdown" class="layer-dropdown" onchange="updateLayers();">
+          <option value="house" title="Show districts for the North Carolina state house of representatives">State House</option>
+          <option value="senate" title="Show districts for the North Carolina state senate">State Senate</option>
+          <option value="statewide" title="Show layer for statewide offices and issues">Statewide</option>
+          <option value="prosecutorial" title="Show districts for District Attorney">Prosecutorial</option>
+          <option value="congress" title="Show districts for the United States House of Representatives">Congressional</option>
+          <option value="county" title="Show counties">County</option>
+          <option value="superior" title="Show districts for North Carolina superior court">Superior Court</option>
+          <option value="district" title="Show districts for North Carolina district court">District Court</option>
+          <option value="precinct" title="Show electoral precincts">Voting Precincts</option>
+        </select>
+      </div>
+      <div title="Choose a set of polling places" class="hr-bottom">
+        <div class="layer-header select-label">
+          <label for="polling-places-dropdown">
+            Polling Places
+          </label>
+        </div>
+        <select id="polling-places-dropdown" class="layer-dropdown" onchange="updateLayers();" style="width: 100%;">
+          <option value="none" title="Do not show polling places">&lt;None&gt;</option>
+          <option value="regular" title="Show polling places for November 6">Election Day</option>
+          <option value="early" title="Show one-stop absentee polling places (early voting)">Early Voting</option>
+        </select>
+      </div>
+      <div class="layer-header sharing-click" id="sharing-click" title="Share map with current center, zoom, and layers" onclick="on();">
+        Share
+      </div>
+    </div>
+    
+    <!-- Sharing popup -->
+    <div id="modal" class="modal">
+      <div class="closer" onclick="off();" title="close the sharing window">
+        <img src="./images/close.png" title="close the sharing window" height="23" width="24">
+      </div>
+      <div><b>Share View</b></div>
+      <div class="sharing-body">
+        <div>
+          <label for="sharing-url">Link to this map with the current center, zoom, and layers</label>
+          <input id="sharing-url" type="text" readonly class="sharing-url" onClick="this.setSelectionRange(0, this.value.length)">
+        </div>
+        <div class="layer-header sharing-click no-select" id="copier" title="Copy link to clipboard" onclick="copy_sharing_url();">
+          Copy to clipboard
+        </div>
+      </div>
+    </div>
+    
+    <!-- The map itself -->
+    <div id="map"></div>
+    
+    <script>
+      var map;
+      var marker;
+      var icon;
+      var docs = [{  docId:"1n1hdJZLRStlIZA8K0TKdtq6kXZt3JVo9Ii2bRONj", templateId: 2, layer:null, select:"geometry",      value:"house"},
+                  {  docId:"1WZDuAjipPtq5amQyBKDvgevyTDHeKEV9ol9X_MUr", templateId: 2, layer:null, select:"geometry",      value:"senate"},
+                  {  docId:"1zJU1Qe9zBbGUWco7i8qjVe6C0bBJq5YMZVF4A2ZP", templateId: 2, layer:null, select:"geometry",      value:"statewide"},
+                  {  docId:"1b02qjP5mCjBNK80uHctZfXhYqZP0fzisGJXYG8KI", templateId: 2, layer:null, select:"geometry",      value:"prosecutorial"},
+                  {  docId:"1-yQcmQaSPo-O2bYAKHlL3an1Ferv6gyffzhZJC-T", templateId: 3, layer:null, select:"geometry",      value:"congress"},
+                  {  docId:"1uP-G0nMrAdaaobSl_CTdBW11hhK1xUmLIbNdqp3K", templateId: 2, layer:null, select:"geometry",      value:"county"},
+                  {  docId:"1UD87OisW8cSkdZ334R0Y82DM0Uu8zuosHLrkhspz", templateId: 2, layer:null, select:"geometry",      value:"superior"},
+                  {  docId:"1BlEwGRVlZqoxoLYTEe5bwc4Fi81KTtENMvgbS7J9", templateId: 2, layer:null, select:"geometry",      value:"district"},
+                  {  docId:"1wSQK0mnN5gpx_yZ7KCa-T96A3WcURImqEAe6F1uw", templateId: 2, layer:null, select:"geometry",      value:"precinct"}];
+      
+      var ppDocs = [{docId:"15JEm_-AqJqi9Ju9X0URTb6bpKu76XxH3fzTEqXim", templateId: 2, layer:null, select:"latlong",       value:"pollingplace"}, 
+                    {docId:"1SWHiu8MZn5P_WbpjlGmdotrWkt9Jx8CgVsgzaNAO", templateId: 2, layer:null, select:"col5\x3e\x3e0", value:"early"}];
+      
+      function gen_layer(doc){
+        return new google.maps.FusionTablesLayer({
+          query: {
+            select: doc.select,
+            from: doc.docId
+          },
+          map: map,
+          styleId: 2,
+          templateId: doc.templateId
+        });
+      }
+      
+      function hookUpMap(doc){
+        if(!doc.layer){
+          doc.layer = gen_layer(doc);
+        }
+        doc.layer.setMap(map);
+      }
+      
+      function unhookMap(doc){
+        if(doc.layer){
+          doc.layer.setMap(null);
+        }
+      }
+      
+      function clearLayers(){
+        for(var i = 0; i < docs.length; i++){
+          unhookMap(docs[i]);
+        }
+        for(var i = 0; i < ppDocs.length; i++){
+          unhookMap(ppDocs[i]);
+        }
+      }
+      
+      function rebuildLayers(){
+        var index = document.getElementById("layer-dropdown").selectedIndex;
+        var doc = docs[index];
+        hookUpMap(doc);
+        
+        var ppIndex = document.getElementById("polling-places-dropdown").selectedIndex;
+        if(ppIndex > 0){
+          var ppDoc = ppDocs[ppIndex - 1];
+          hookUpMap(ppDoc);
+        }
+      }
+      
+      function updateLayers(){
+        clearLayers();
+        rebuildLayers();
+      }
+      
+      function careful_extract(params, key, func, min, max, def){
+        var val = def;
+        if(key in params){
+          var param_val = func(params[key]);
+          if(min <= param_val && param_val <= max){
+            val = param_val;
+          }
+        }
+        return val;
+      }
+      
+      function find_layer(name){
+        var select = document.getElementById("layer-dropdown");
+        var options = select.options;
+        var lc_param = name.toLowerCase();
+        for(var i = 0; i < select.length; i++){
+          var option = options.item(i);
+          if(option.value.toLowerCase() === lc_param){
+            return i;
+          }
+        }
+        return 0;
+      }
+      
+      function parseInt10(text){
+        return parseInt(text, 10);
+      }
+      
+      function index_layer(text){
+        var parsed = parseInt10(text);
+        return isNaN(parsed) ? find_layer(text) : parsed;
+      }
+      
+      function get_url_params(){
+        var url = window.location.href;
+        var q = url.indexOf("?");
+        var h = url.indexOf("#");
+        if(h < 0){
+          h = url.length;
+        }
+        var params = (q == -1
+            ? []
+            : url.slice(q+1,h).split("&"));
+        var param_dict = {};
+        for(var i = 0; i < params.length; i++){
+          var kv = params[i].split("=");
+          param_dict[kv[0]] = kv[1] ? kv[1] : null;
+        }
+        return param_dict;
+      }
+      
+      function gen_map(param_dict){
+        var lat = careful_extract(param_dict, "lat", parseFloat, -90, 90, 35.40504720215536);
+        var lng = careful_extract(param_dict, "lng", parseFloat, -180, 180, -79.79899755009092);
+        var zoom = careful_extract(param_dict, "zoom", parseInt10, 0, 22, 7);
+        
+        return new google.maps.Map(document.getElementById('map'), {
+          center: new google.maps.LatLng(lat, lng),
+          zoom: zoom,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          gestureHandling: 'greedy'
+        });
+      }
+      
+      function show_extras(){
+        document.getElementById("layer-select").style.opacity = "1";
+        document.getElementById("pac-input").style.opacity = "1";
+        document.getElementById("geolocation").style.opacity = "1";
+      }
+      
+      function establishIcon(){
+        if(!icon){
+          icon = {
+            url: "https://maps.google.com/mapfiles/ms/micons/ylw-pushpin.png",
+            size: new google.maps.Size(71, 71),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(17, 34),
+            scaledSize: new google.maps.Size(25, 25)};
+        }
+      }
+      
+      function genMarker(latLng){
+        establishIcon();
+        return new google.maps.Marker({
+            map: map,
+            icon: icon,
+            position: latLng
+        });
+      }
+      
+      function go_to_place(place){
+        if (!place.geometry) {
+          console.log("Returned place contains no geometry");
+          return null;
+        }
+        
+        var marker = genMarker(place.geometry.location);
+        
+        var bounds = new google.maps.LatLngBounds();
+        if (place.geometry.viewport) {
+          // Only geocodes have viewport.
+          bounds.union(place.geometry.viewport);
+        } else {
+          bounds.extend(place.geometry.location);
+        }
+        map.fitBounds(bounds);
+        
+        return marker;
+      }
+      
+      function replaceMarker(newMarker){
+        if(marker){
+          marker.setMap(null);
+        }
+        marker = newMarker;
+      }
+      
+      function getBounds(url_params){
+        if(!("bounds" in url_params)){
+          return null;
+        }
+        var val = url_params["bounds"];
+        
+        var bounds = {
+          east:  null, 
+          west:  null,
+          north: null,
+          south: null
+        };
+        
+        for(var key in bounds){
+          var k = key.slice(0,2);
+          var o = val.indexOf(k);
+          if(o < 0){
+            return null;
+          }
+          var sl = val.slice(o + k.length);
+          var oriented = parseFloat(sl);
+          if(isNaN(oriented)){
+            return null;
+          }
+          bounds[key] = oriented;
+        }
+        
+        return bounds;
+      }
+      
+      function check_early(param){
+        return param == "early" ? 2 : 1;
+      }
+      
+      function initAutocomplete() {
+        var url_params = get_url_params();
+        map = gen_map(url_params);
+        var triggers = ["tilesloaded","mousemove","zoom_changed","idle"];
+        for(var i = 0; i < triggers.length; i++){
+          google.maps.event.addListenerOnce(map, triggers[i], show_extras);
+        }
+        
+        //Move the geolocate button to the upper left
+        var geolocButton = document.getElementById("geolocation");
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(geolocButton);
+        
+        // Create the autocomplete object, and link it to the UI element.
+        var input = document.getElementById('pac-input');
+        var autocomplete = new google.maps.places.Autocomplete(input, {types: ["geocode"]});
+        autocomplete.setFields(["geometry"]);
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+        
+        //Move the layer-select box to the center left
+        var layer_select = document.getElementById("layer-select");
+        map.controls[google.maps.ControlPosition.LEFT_CENTER].push(layer_select);
+        
+        //Move the sharing-box div to the center
+        var sharebox = document.getElementById("modal");
+        map.controls[google.maps.ControlPosition.CENTER].push(sharebox);
+        
+        // Bias the Autocomplete results towards current map's viewport.
+        map.addListener('bounds_changed', function() {
+          autocomplete.setBounds(map.getBounds());
+        });
+        
+        // Listen for the event fired when the user selects a prediction and place a
+        // marker on the map for that place.
+        autocomplete.addListener('place_changed', function(){
+          replaceMarker(go_to_place(autocomplete.getPlace()));
+        });
+        
+        //fit bounds if specified
+        var bounds = getBounds(url_params);
+        if(bounds){
+          map.fitBounds(bounds);
+        }
+        
+        //turn on the initial map layers
+        var layer = careful_extract(url_params, "layer", index_layer, 0, 8, 0);
+        document.getElementById("layer-dropdown").selectedIndex = layer;
+        var ppLayer = careful_extract(url_params, "pp", check_early, 0, 2, 0);
+        document.getElementById("polling-places-dropdown").selectedIndex = ppLayer;
+        updateLayers();
+      }
+      
+      function geolocate() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var geolocation = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+            var circle = new google.maps.Circle({
+              center: geolocation,
+              radius: position.coords.accuracy
+            });
+            replaceMarker(genMarker(geolocation));
+            map.fitBounds(circle.getBounds());
+          });
+        }
+      }
+      
+      function gen_sharing_url(){
+        var url = location.href;
+        var q = url.indexOf("?");
+        if(q < 0){
+          q = url.length;
+        }
+        url = url.slice(0,q);
+        
+        var center = map.getCenter().toJSON();
+        url += "?lat=" + center.lat;
+        url += "&lng=" + center.lng;
+        url += "&zoom=" + map.getZoom();
+        
+        var layer = null;
+        for(var i = 0; i < docs.length; i++){
+          if(docs[i].layer && docs[i].layer.getMap()){
+            url += "&layer=" + docs[i].value;
+            break;
+          }
+        }
+        
+        var pp = null;
+        for(var i = 0; i < ppDocs.length; i++){
+          if(ppDocs[i].layer && ppDocs[i].layer.getMap()){
+            pp = ppDocs[i];
+            break;
+          }
+        }
+        if(pp){
+          url += "&pp";
+          if(pp.value == "early"){
+            url += "=early";
+          }
+        }
+        
+        return url;
+      }
+      
+      function on(){
+        url = gen_sharing_url();
+        
+        document.getElementById("sharing-url").value = url;
+        document.getElementById("modal").style.visibility = "visible";
+      }
+      
+      function off(){
+        document.getElementById("modal").style.visibility = "hidden";
+      }
+      
+      function copy_sharing_url(){
+        document.getElementById("sharing-url").select();
+        document.execCommand("copy");
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBUgIS5Twxlddoq-hcWoW8FbZtmPDvz2k&libraries=places&callback=initAutocomplete"
+         async defer></script>
+  </body>
+</html>
