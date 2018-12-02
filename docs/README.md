@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## US Elections - In Map Form
 
-You can use the [editor on GitHub](https://github.com/fiveham/Elections/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The plan is to populate this repository with single-state election maps for the off-year elections in 2019 and 2020 and if possible to do a countywide map for 2020.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+For now, the only map available as part of this project is a single-layer map of outdated MS precincts with sometimes-incorrect polling place names and addresses: https://fiveham.github.io/Elections/2018/general/MS
 
-### Markdown
+Each state map should address
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* State legislature districts
+* Statewide offices on the ballot
+* County/Parish/Borough-level offices
+* Judges and other judicial positions (in applicable states)
+* Polling places
+ * Maybe even early voting locations
 
-```markdown
-Syntax highlighted code block
+Other map information that would be nice, but which may not make it into final maps:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fiveham/Elections/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* How to register to vote
+* How to vote absentee
+* Early voting available or not
