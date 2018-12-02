@@ -13,6 +13,7 @@ Each state map should address
 * Judges and other judicial positions (in applicable states)
 * Polling places
     * Maybe even early voting locations
+* Precincts/Wards/VTD districts
 
 Other map information that would be nice, but which may not make it into final maps:
 
