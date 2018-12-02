@@ -18,4 +18,8 @@ Other map information that would be nice, but which may not make it into final m
 
 * How to register to vote
 * How to vote absentee
-* Early voting available or not
+ * Need an excuse?
+* Early voting
+ * Not available?
+* ID requirements
+ * None?
