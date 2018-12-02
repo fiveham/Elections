@@ -7,6 +7,7 @@ For now, the only map available as part of this project is a single-layer map of
 Each state map should address
 
 * State legislature districts
+* Congressional districts
 * Statewide offices on the ballot
 * County/Parish/Borough-level offices
 * Judges and other judicial positions (in applicable states)
