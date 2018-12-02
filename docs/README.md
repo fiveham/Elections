@@ -12,14 +12,14 @@ Each state map should address
 * County/Parish/Borough-level offices
 * Judges and other judicial positions (in applicable states)
 * Polling places
- * Maybe even early voting locations
+    * Maybe even early voting locations
 
 Other map information that would be nice, but which may not make it into final maps:
 
 * How to register to vote
 * How to vote absentee
- * Need an excuse?
+    * Need an excuse?
 * Early voting
- * Not available?
+    * Not available?
 * ID requirements
- * None?
+    * None?
