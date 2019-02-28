@@ -8,6 +8,8 @@ Such locations include (according to https://www.ncsbe.gov/Voters/Registering-to
     https://statelibrary.ncdcr.gov/ld/about-libraries/library-directory/download
   Public high schools or college admissions offices.
   North Carolina Department of Motor Vehicles (NC DMV) (driver license only)
+    https://www.ncdot.gov/dmv/offices-services/locate-dmv-office/Pages/dmv-offices.aspx
+    (Search by county 100 times)
   Public Assistance Agencies
     Departments of Social Services (DSS)
       https://www.ncdhhs.gov/documents/dss-county-directory
