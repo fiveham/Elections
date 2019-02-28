@@ -18,7 +18,12 @@ Such locations include (according to https://www.ncsbe.gov/Voters/Registering-to
       (Search by county, but watch out for multiple counties using the same location, e.g. Ashe & Alleghany)
   Disability Services Agencies
     Vocational Rehabilitation offices
+      https://www.ncdhhs.gov/divisions/dvrs/vr-local-offices
     Departments of Services for the Blind
+      (Could not find office locations)
     Departments of Services for the Deaf & Hard of Hearing
+      https://www.ncdhhs.gov/assistance/hearing-loss/regional-centers-for-the-deaf-hard-of-hearing
     Departments of Mental Health Services
+      (Could not find office locations)
     Employment Security Commission (ESC)
+      (Could not find office locations)
