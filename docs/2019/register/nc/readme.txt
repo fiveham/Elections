@@ -10,6 +10,7 @@ Such locations include (according to https://www.ncsbe.gov/Voters/Registering-to
   North Carolina Department of Motor Vehicles (NC DMV) (driver license only)
   Public Assistance Agencies
     Departments of Social Services (DSS)
+      https://www.ncdhhs.gov/documents/dss-county-directory
     Departments of Public Health (WIC)
   Disability Services Agencies
     Vocational Rehabilitation offices
