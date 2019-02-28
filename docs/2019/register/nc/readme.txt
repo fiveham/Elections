@@ -14,6 +14,8 @@ Such locations include (according to https://www.ncsbe.gov/Voters/Registering-to
     Departments of Social Services (DSS)
       https://www.ncdhhs.gov/documents/dss-county-directory
     Departments of Public Health (WIC)
+      https://www.nutritionnc.com/wic/directory.htm
+      (Search by county, but watch out for multiple counties using the same location, e.g. Ashe & Alleghany)
   Disability Services Agencies
     Vocational Rehabilitation offices
     Departments of Services for the Blind
