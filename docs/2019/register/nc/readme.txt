@@ -7,6 +7,8 @@ Such locations include (according to https://www.ncsbe.gov/Voters/Registering-to
   Public libraries
     https://statelibrary.ncdcr.gov/ld/about-libraries/library-directory/download
   Public high schools or college admissions offices.
+    http://apps.schools.nc.gov/eddie
+    (Use instructions from http://www.ncpublicschools.org/nceddirectory)
   North Carolina Department of Motor Vehicles (NC DMV) (driver license only)
     https://www.ncdot.gov/dmv/offices-services/locate-dmv-office/Pages/dmv-offices.aspx
     (Search by county 100 times)
