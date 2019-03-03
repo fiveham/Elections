@@ -1,0 +1,141 @@
+ID	District	Name	Lat	Long	OfficeType	County	Notes	IsMobile	ContactPhone	ContactFax	StreetName	City	Zip
+2058	4	Graham Driver License Office	36.0549006	-79.3983141	license	Alamance		False	(336) 570-6811		111 East Crescent Square	Graham	27253
+2060	6	Taylorsville Driver License Office	35.9154291	-81.1362046	license	Alexander		False	(828) 632-1159		2390 NC Highway 90 E.	Taylorsville	28681
+2062	5	Blue Ridge Business Development Center Driver License Office	36.51366	-81.11907	license	Alleghany		False	(336) 372-6442		115 Atwood St. Suite 508	Sparta	28675
+2064	6	Polkton Driver License Office	34.9900203	-80.1571987	license	Anson		False	(704) 694-5534	(704) 694-6348	5920 Highway 74 W.	Polkton	28135
+2066	5	Ashe County Law Enforcement Center Driver License Office	36.41878	-81.458993	license	Ashe		False	(336) 246-5001	(336) 246-4568	140 Government Circle	Jefferson	28640
+2322	8	Newland Town Hall Driver License Office	36.089666	-81.928203	license	Avery		False	(828) 733-8284	(828) 733-2069	301 Cranberry Street	Newland	28657
+2069	1	Washington Driver License Office	35.573632	-77.064925	license	Beaufort		False	(252) 946-3995		1821 Carolina Avenue (U.S. Highway 17 N.)	Washington	27889
+2073	2	Elizabethtown Driver License Office	34.630515	-78.608691	license	Bladen		False	(910) 862-3169	(910) 862-0918	197 S PINE ST	ELIZABETHTOWN	28337-9162
+2076	2	Shallotte Driver License Office	33.965054	-78.395702	license	Brunswick		False	(910) 754-5114	(910) 754-9141	5298 MAIN ST	SHALLOTTE	28470-3438
+2513	3	Mobile Unit at Fire Department Downtown Substation	33.919391	-78.018812	license	Brunswick	This is a mobile unit location. Availability is limited.	False	(919) 715-7000		111 E NASH ST	SOUTHPORT	28461-3933
+2080	7	Asheville Driver License Office	35.570658	-82.618487	license	Buncombe		False	(828) 782-9600	(828) 232-2436	1624 Patton Avenue	Asheville	28806
+2082	7	Morganton Driver License Office	35.718555	-81.675548	license	Burke		False	(828) 438-6294	(828) 433-4042	115 Government Drive	Morganton	28655
+2086	6	Concord Driver License Office	35.4455385	-80.6148351	license	Cabarrus	Please be advised access to this office may be difficult at times due to an ongoing area road construction project.  Online services are available at MyNCDMV.gov.	False	(704) 782-7214	(704) 792-0222	2192 Kannapolis Highway	Concord	28027
+2088	5	Hudson Driver License Office 	35.8459328	-81.479913	license	Caldwell		False	(828) 726-2504	(828) 726-2519	309 Pine Mountain Road	Hudson	28638
+2090	1	Morehead City Driver License Office	34.734685	-76.7912562	license	Carteret		False	(252) 726-5586	(252) 808-2094	5347 US 70 W.	Morehead City	28557
+2092	4	Yanceyville Driver License Office	36.4208	-79.335808	license	Caswell		False	(336) 694-9498		958 Fire Tower Road	Yanceyville	27379
+2095	6	Lenoir-Rhyne Plaza Driver License Office	35.7170445	-81.3139905	license	Catawba		False	(828) 326-9126	(828) 326-7096	1158 Lenoir-Rhyne Boulevard SE	Hickory	28602
+2096	7	Newton Driver License Office	35.629737	-81.220523	license	Catawba		False	(828) 466-5516	(828) 466-5603	1033 Smyre Farm Road	Newton	28658
+2097	4	Siler City Driver License Office	35.734124	-79.466881	license	Chatham		False	(919) 663-2601	(919) 663-2581	1103 North 2nd Avenue Exit (U.S. 421 S/64 W)	Siler City	27344
+2436	7	Andrews Driver License Office	35.201972	-83.817793	license	Cherokee	Commercial driver license road skills tests available on Wednesdays by appointment only.	False	(828) 321-1442	(828) 321-1443	1440 Main St.	Andrews	28901
+2101	1	Edenton Driver License Office	36.0676553	-76.6061839	license	Chowan		False	(252) 482-8941	(252) 482-2285	307 W FREEMASON ST	EDENTON	27932-1878
+2103	1	Mobile Unit at Clay County Social Services	35.0468533	-83.8162614	license	Clay	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		1 Riverside Circle	Hayesville	28904
+2105	6	Shelby Driver License Office	35.2665452	-81.4825114	license	Cleveland		False	(704) 480-5408	(704) 480-5498	US 74 Bypass 1914 East Dixon Boulevard	Shelby	28152
+2107	2	Whiteville Driver License Office	34.336137	-78.722669	license	Columbus		False	(910) 642-2017	(910) 640-2551	917 Washington Street	Whiteville	28472
+2111	1	Craven County Office Building Driver License Office	34.883043	-76.915932	license	Craven		False	(252) 444-6425	(252) 444-4175	300 Miller Boulevard	Havelock	28532
+2112	1	New Bern Driver License Office	35.11397	-77.07007	license	Craven		False	(252) 514-4734	(252) 514-4791	2106 Neuse Boulevard	New Bern	28560
+2116	2	South Fayetteville Driver License Office	35.0152675	-78.8965569	license	Cumberland	This office will be open 8 a.m.-4 p.m. on Saturday, March 2 for the purpose of issuing first-time or renewed REAL IDs, along with driver license and state-issued ID renewals.  This office will not be issuing first-time driver licenses, first-time state-issued IDs or conducting road skills tests on Saturday.	False	(910) 486-1353	(910) 437-0252	2439 Gillespie St.	Fayetteville	28303
+2117	2	Eutaw Village Shopping Center Driver License Office	35.075653	-78.926096	license	Cumberland		False	(910) 484-6249	(910) 484-6517	831 ELM ST	FAYETTEVILLE	28303-4151
+2498	2	Stedman Driver License Office	35.036356	-78.7535	license	Cumberland		False	(910) 483-3096	(910) 483-7670	4705 Clinton Road	Stedman	28312-8524
+2539	2	Mobile Unit at the Fort Bragg Soldier Support Center	35.1386719	-79.0006252	license	Cumberland	This mobile unit location services military and civilian personnel at Fort Bragg.	False	(919) 715-7000		2843 Normandy Drive	Fort Bragg	28307
+2118	1	Mobile Unit at the NC Cooperative Extension-Currituck County Center	36.3911285	-76.0123048	license	Currituck	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		120 COMMUNITY WAY	BARCO	27917-9559
+2121	3	Mobile Unit at the Hatteras Civic Center	35.2191296	-75.6900782	license	Dare	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		57709 NC Highway 12	Hatteras	27943
+2512	1	Nags Head Driver License Office	35.980144	-75.641981	license	Dare		False	(252) 480-6465	(252) 480-6467	2808 S CROATAN HWY	NAGS HEAD	27959-9024
+2124	5	Lexington Driver License Office	35.8039439	-80.2810228	license	Davidson		False	(336) 248-5179	(336) 248-8905	2314 South Main Street	Lexington	27292
+2125	5	Thomasville Driver License Office	35.865568	-80.070907	license	Davidson		False	(336) 472-7334	(336) 472-0144	1033 Randolph Street Suite 16	Thomasville	27360
+2126	7	Mobile Unit at the Denton Fire Department	35.6334363	-80.1168936	license	Davidson	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		101 W. Newsome Avenue	Denton	27239
+2128	5	Mocksville Driver License Office	35.8987753	-80.5561553	license	Davie		False	(336) 751-5016	(336) 751-2643	161 Poplar Street Suite 101	Mocksville	27028
+2130	2	Driver License Office Adjacent to The Kenansville Town Hall	34.961863	-77.958792	license	Duplin		False	(910) 296-0234	(910) 296-1546	133 ROUTLEDGE ST	KENANSVILLE	28349-8002
+2134	3	East Durham Driver License Office	35.987053	-78.862611	license	Durham		False	(919) 560-6896	(919) 560-5431	101 South Miami Boulevard	Durham	27703
+2135	3	Shops of Hope Valley Shopping Center Driver License Office	35.9475799	-78.9220051	license	Durham		False	(919) 560-3378	(919) 560-5432	3825 South Roxboro Street Suite 119	Durham	27713
+2137	3	Tarboro Driver License Office	35.8958956	-77.5326019	license	Edgecombe		False	(252) 823-0242		125 E Granville Street	Tarboro	27886
+2142	5	Winston-Salem North Driver License Office	36.138906	-80.242609	license	Forsyth		False	(336) 761-2259	(336) 761-2036	3637 North Patterson Avenue	Winston-Salem	27105
+2143	5	Winston-Salem South Driver License Office	36.070585	-80.267612	license	Forsyth		False	(336) 761-2258	(336) 761-2244	2001 Silas Creek Parkway	Winston-Salem	27103
+2144	5	North Main Crossing Driver License Office	36.129315	-80.0590069	license	Forsyth		False	(336) 993-5651		810A North Main Street	Kernersville	27284
+2146	3	Louisburg Driver License Office	36.097456	-78.29283	license	Franklin		False	(919) 496-2590	(919) 496-1415	90 Tanglewood Drive	Louisburg	27549-2698
+2148	6	Gastonia Driver License Office	35.25961	-81.228515	license	Gaston		False	(704) 853-5372	(704) 853-5393	2560 W FRANKLIN BLVD	GASTONIA	28052-1250
+2149	6	Mount Holly Municipal Building Driver License Office	35.3035054	-81.0271425	license	Gaston		False	(704) 827-9486	(704) 827-8403	785 W Charlotte Avenue	Mount Holly	28120
+2150	7	Mobile Unit at the Gates County Community Center	36.446394	-76.7063815	license	Gates	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		130 US HIGHWAY 158 W	GATESVILLE	27938-9437
+2152	3	Mobile Unit at Graham County Social Services	35.3281599	-83.810188	license	Graham	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		196 Knight Street	Robbinsville	28771
+2154	3	Oxford Driver License Office	36.304996	-78.607034	license	Granville		False	(919) 693-6128	(919) 690-0107	100 PROVIDENCE RD	OXFORD	27565-3162
+2155	3	Mobile Unit at the South Granville Senior Center	36.1232952	-78.6783957	license	Granville	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		108 Wilton Avenue	Creedmoor	27522
+2156	1	Mobile Unit at the County Office Complex Library	35.4527435	-77.6840043	license	Greene	This is a mobile unit location. Availability is limited. 	True	(919) 715-7000		229 Kingold Boulevard	Snow Hill	28580
+2160	4	East Greensboro Driver License Office	36.079311	-79.752739	license	Guilford		False	(336) 334-5745	(336) 334-5131	2527 E Market Street	Greensboro	27401
+2161	4	West Greensboro Driver License Office	36.0438889	-79.8165865	license	Guilford		False	(336) 334-5438	(336) 256-0549	2391 Coliseum Boulevard	Greensboro	27403
+2162	4	High Point Driver License Office	35.938289	-79.982669	license	Guilford		False	(336) 884-1003	(336) 884-7399	650 Francis Street	High Point	27263
+2163	3	Roanoke Rapids Driver License Office	36.403502	-77.647389	license	Halifax		False	(252) 536-4046	(252) 536-0155	26 Three Bridges Road	Roanoke Rapids	27870
+2164	3	Mobile Unit at the Senior Center	36.129122	-77.421398	license	Halifax	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		1403 CHURCH ST	SCOTLAND NECK	27874-1336
+2166	4	Harnett County Emergency Services Driver License Office	35.3920793	-78.8032186	license	Harnett		False	(910) 893-8939	(910) 893-9054	1005 Edwards Brothers Drive	Lillington	27546
+2167	4	Erwin Driver License Office	35.339712	-78.679064	license	Harnett		False	(910) 892-1456	(910) 891-5685	125 West Jackson Boulevard	Erwin	28339
+2171	7	Clyde Driver License Office	35.530619	-82.935746	license	Haywood		False	(828) 627-6969	(828) 627-3659	290 Lee Road	Clyde	28721
+2174	7	Hendersonville Driver License Office	35.360357	-82.481329	license	Henderson		False	(828) 692-6915	(828) 692-5996	125 Baystone Drive 	Hendersonville	28791
+2177	1	Ahoskie Driver License Office	36.278448	-77.013999	license	Hertford		False	(252) 332-5525	(252) 332-1635	242 NC 42 West	Ahoskie	27910
+2180	2	Civil Preparedness Building Driver License Office	34.996219	-79.183834	license	Hoke		False	(910) 875-2442	(910) 904-0574	3144 Highway 401 Business	Raeford	28376
+2182	3	Mobile Unit at the Volunteer Fire Department	35.108699	-75.977116	license	Hyde	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		822 Irvin Garrish Highway	Ocracoke	27960
+2183	3	Mobile Unit at the Hyde County Government Building	35.406289	-76.328967	license	Hyde	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		13 MAIN ST	SWAN QUARTER	27885-9382
+2185	7	Design Center Driver License Office	35.592263	-80.806274	license	Iredell		False	(704) 664-3344	(704) 664-7464	533 Patterson Ave Suite 100	Mooresville	28115
+2186	6	Statesville Driver License Office	35.806059	-80.878639	license	Iredell		False	(704) 878-4220		905 Carolina Avenue North	Statesville	28677
+2444	6	Commercial Driver License Skills Testing Site	35.854652	-80.851143	license	Iredell		False	(855) 220-1313	(704) 876-1089	1028 Turnersburg Hwy	Statesville	28625
+2189	7	Skyland Service Center Driver License Office	35.388727	-83.207812	license	Jackson		False	(828) 586-5413		876 Skyland Drive, Suite 2	Sylva	28779
+2191	3	Shotwell Station Driver License Office	35.6695357	-78.4786006	license	Johnston		False	(919) 550-2351	(919) 550-2425	1665 OLD US 70 HWY W	CLAYTON	27520-6566
+2192	3	Smithfield Driver License Office	35.4711912	-78.3835284	license	Johnston		False	(919) 934-3187	(919) 934-2344	3783 US 301 South	Smithfield	27577
+2194	1	Mobile Unit at the Civic Center	35.0786633	-77.4041675	license	Jones	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		N.C Highway 58	Trenton	28585
+2195	4	Sanford Driver License Office	35.445734	-79.21415	license	Lee		False	(919) 776-1113	(919) 774-4803	2210 Carthage Street	Sanford	27330
+2197	1	Kinston Driver License Office	35.269199	-77.612813	license	Lenoir		False	(252) 526-4432	(252) 526-6763	2214 West Vernon Avenue	Kinston	28501
+2199	6	Lincolnton Driver License Office	35.4898079	-81.249179	license	Lincoln		False	(704) 735-6923	(704) 735-3956	1450 North Aspen Street	Lincolnton	28092
+2201	7	Franklin Driver License Office	35.182163	-83.37899	license	Macon		False	(828) 524-3592	(828) 524-3486	16 PATTON AVE	FRANKLIN	28734-3043
+2203	7	Jackie Ball Building Driver License Office	35.798273	-82.686613	license	Madison		False	(828) 649-2248	(828) 649-3394	164 North Main Street	Marshall	28753
+2205	1	Martin County Government Center Driver License Office	35.856616	-77.052298	license	Martin		False	(252) 789-4395		305 E MAIN ST.          STE 116	WILLIAMSTON	27892-2566
+2207	7	Marion Driver License Office	35.6524443	-81.955681	license	McDowell		False	(828) 652-5828	(828) 652-3557	3975 NC 226 South	Marion	28752
+2209	6	East Charlotte Driver License Office	35.204432	-80.731043	license	Mecklenburg		False	(704) 531-5563	(704) 531-5628	6635 Executive Circle, Suite 130	Charlotte	28212
+2211	6	South Charlotte Driver License Office	35.133849	-80.893405	license	Mecklenburg		False	(704) 527-2563	(704) 527-6518	201-H West Arrowood Road	Charlotte	28217
+2212	6	West Charlotte Driver License Office	35.284753	-80.903616	license	Mecklenburg		False	(704) 392-3267	(704) 392-7889	6016 Brookshire Boulevard	Charlotte	28216
+2435	6	Huntersville Driver License Office	35.389027	-80.854668	license	Mecklenburg		False	(704) 547-5786	(704) 331-4585	12101 Mt. Holly-Huntersville Road	Huntersville	28078
+2541	6	Mobile Unit at Pineville Communication Systems	35.086667	-80.888316	license	Mecklenburg	This is a mobile unit location. Availability is limited to every Wednesday of a full week.	False	(919) 715-7000		118 COLLEGE ST	PINEVILLE	28134-9706
+2215	7	Spruce Pine Driver License Office	35.9195059	-82.0584136	license	Mitchell		False	(828) 766-7649	(828) 766-7636	1032 OAK AVE	SPRUCE PINE	28777-2834
+2217	6	Troy Driver License Office	35.379317	-79.880845	license	Montgomery	This office will be closed for lunch each day this week from 11:45 a.m.-1 p.m.	False	(910) 572-2001		168 Glenn Road	Troy	27371
+2219	6	Aberdeen Driver License Office	35.126093	-79.433596	license	Moore		False	(910) 944-7555	(910) 944-3087	521 South Sandhills Boulevard	Aberdeen	28315
+2220	1	Mobile Unit at the Robbins Area Library	35.431765	-79.58739	license	Moore	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		161 East Magnolia Drive	Robbins	27325
+2223	3	Rocky Mount Driver License Office	35.9997309	-77.7758865	license	Nash		False	(252) 442-8905	(252) 985-5769	2617 North Wesleyan Boulevard	Rocky Mount	27804
+2225	2	Wilmington North Driver License Office	34.258574	-77.830516	license	New Hanover		False	(910) 350-2005		One Station Road 	Wilmington	28405
+2226	2	South Square Plaza Driver License Office	34.195909	-77.936872	license	New Hanover		False	(910) 251-5747		2390 CAROLINA BEACH RD;        STE 104	WILMINGTON	28401-7629
+2230	1	Jacksonville Driver License Office	34.746138	-77.454154	license	Onslow		False	(910) 347-3613	(910) 938-5804	299 Wilmington Highway	Jacksonville	28540
+2550	1	Mobile Unit at Camp Lejeune Hadnot Point Plaza	34.6694841	-77.3427414	license	Onslow	This mobile unit location services military and civilian personnel at Camp Lejeune by appointment only using the website link provided to base personnel.  (https://bit.ly/2A5VD1L)	False			84 Holcomb Blvd.	Camp Lejeune	28540
+2232	4	Carrboro Plaza Shopping Center Driver License Office	35.9164975	-79.09455109999999	license	Orange		False	(919) 929-4161	(919) 929-8821	104 NC Highway 54, Suite GG	Carrboro	27510
+2233	4	Hillsborough Driver License Office	36.085039	-79.124645	license	Orange		False	(919) 732-2427	(919) 732-1799	1201 US HIGHWAY 70 W	HILLSBOROUGH	27278-7004
+2235	1	Mobile Unit at the Pamlico County Human Services Center	35.1445993	-76.8102629	license	Pamlico	This is a mobile unit location. Availability is limited. 	True	(919) 715-7000		828 Alliance St.	BAYBORO	28515
+2237	1	Elizabeth City Driver License Office	36.2821092	-76.277515	license	Pasquotank		False	(252) 331-4776	(252) 331-4843	1164 US 17 South	Elizabeth City	27909
+2239	1	Burgaw Driver License Office	34.542667	-77.91019	license	Pender		False	(910) 259-2799	(910) 259-5417	781 U.S. 117 South	Burgaw	28425
+2532	1	Mobile Unit at the Perquimans County Municipal Building	36.189954	-76.467914	license	Perquimans	This is a mobile unit location. Availability is limited.	False	(919) 715-7000		114 W. Grubb St.	HERTFORD	27944
+2242	4	Roxboro Driver License Office	36.3542599	-79.043172	license	Person		False	(336) 597-5636	(336) 597-8951	3434 Burlington Road	Roxboro	27573
+2244	1	Greenville Square Driver License Office	35.589186	-77.370617	license	Pitt		False	(252) 830-3457		703 SE Greenville Blvd., Unit #124	Greenville	27858
+2248	1	Mobile Unit at the Polk County License Plate Agency	35.249595	-82.197819	license	Polk	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		51 WALKER ST	COLUMBUS	28722-7497
+2249	4	Asheboro Driver License Office	35.6738998	-79.8256368	license	Randolph		False	(336) 629-1949	(336) 626-0635	2754 US Highway 220 Business South	Asheboro	27205
+2251	2	Hamlet Driver License Office	34.907439	-79.712457	license	Richmond		False	(910) 582-7032	(910) 582-7218	200 COLLEGE DR	HAMLET	28345-4637
+2253	2	Lumberton Driver License Office	34.660013	-79.008085	license	Robeson		False	(910) 618-5552		4650 Kahn Drive	Lumberton	28358-2308
+2254	2	Commercial Driver License Skills Testing Site	34.6088069	-78.9738738	license	Robeson		False	1 (866) 484-4930		2479 E Fifth Street	Lumberton	28358-6809
+2255	2	Pembroke Driver License Office	34.6814421	-79.1913072	license	Robeson		False	(910) 668-1492		100 South Union Chapel Road	Pembroke	28372
+2258	2	Mobile Unit at the St. Pauls Police Station	34.8057717	-78.9728238	license	Robeson	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		210 West Blue Street	St. Pauls	28384
+2260	2	Mobile Unit at the Fairmont Fire Department	34.4940846	-79.1075674	license	Robeson	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		103 Cottage Street	Fairmont	28340
+2261	4	Wentworth Driver License Office	36.371898	-79.73257	license	Rockingham		False	(336) 634-5608	(336) 634-5678	111 Wilson-Way Road	Reidsville	27320
+2265	5	Salisbury Driver License Office	35.603619	-80.5425659	license	Rowan		False	(704) 633-5873	(704) 857-9700	5780 South Main Street	Salisbury	28144
+2267	7	Forest City Driver License Office	35.343354	-81.898223	license	Rutherford		False	(828) 286-2973	(828) 286-8615	596 Withrow Road	Forest City	28043
+2269	2	Clinton Driver License Office	35.0159064	-78.3287315	license	Sampson		False	(910) 592-5820	(910) 596-0428	305 North Boulevard	Clinton	28328
+2271	2	Highway Patrol Building Driver License Office	34.759554	-79.493348	license	Scotland		False	(910) 277-2430	(910) 227-3140	1421 West Boulevard	Laurinburg	28352
+2273	6	Albemarle Driver License Office	35.3553349	-80.217076	license	Stanly		False	(704) 982-4014		611 Concord Road	Albemarle	28001
+2323	5	Walnut Cove Driver License Office	36.299517	-80.141748	license	Stokes		False	(336) 591-1136		111 W. Sixth Street	Walnut Cove	27052
+2276	5	Elkin Driver License Office	36.276533	-80.853234	license	Surry		False	(336) 835-5247	(336) 526-1979	1687 North Bridge Street	Elkin	28621
+2277	5	Mount Airy Driver License Office	36.528803	-80.629609	license	Surry		False	(336) 786-7015	(336) 786-7308	155 Patrol Station Road	Mount Airy	27030
+2281	7	Bryson City Driver License Office	35.434678	-83.411912	license	Swain		False	(828) 488-3684		2650 GOVERNORS ISLAND RD	BRYSON CITY	28713-7983
+2283	7	Brevard Driver License Office	35.240824	-82.735221	license	Transylvania		False	(828) 883-2070	(828) 877-5377	50 COMMERCE ST;        STE 4	BREVARD	28712-4692
+2285	8	Mobile Unit at the Municipal Library	35.917526	-76.251883	license	Tyrrell	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		403 Main Street	Columbia	27925
+2287	6	Monroe Driver License Office	35.0243292	-80.5831194	license	Union		False	(704) 283-4264	(704) 291-7353	3122 US 74 West	Monroe	28110
+2542	6	Mobile Unit at Edwards Memorial Library	34.9911903	-80.3637335	license	Union	This is a mobile unit location. Availability is limited.	False	(919) 715-7000		414 HASTY ST	MARSHVILLE	28103-1242
+2289	3	Henderson Driver License Office	36.325965	-78.382194	license	Vance		False	(252) 438-8930	(252) 438-8536	1080 Eastern Boulevard	Henderson	27536
+2292	3	Spring Forest Pavilion Driver License Office	35.86035	-78.59846	license	Wake		False	(919) 855-6877	(919) 855-6891	2431 Spring Forest Road, Unit 101	Raleigh	27615
+2293	3	Avent Ferry Shopping Center Driver License Office	35.767765	-78.696068	license	Wake		False	(919) 816-9128	(919) 816-9276	3231 Avent Ferry Road	Raleigh	27606
+2295	3	Forest Hills Shopping Center Driver License Office	35.707258	-78.6231171	license	Wake		False	(919) 662-4366	(919) 773-2811	222 Forest Hills Drive	Garner	27529
+2297	3	Fuquay -Varina Municipal Building Driver License Office	35.583326	-78.797907	license	Wake		False	(919) 552-1895	(919) 552-0660	131 South Fuquay Avenue	Fuquay-Varina	27526
+2437	3	Freeman Center Driver License Office	35.788471	-78.76386	license	Wake		False	(919) 468-0319	(919) 468-9612	1387 SE Maynard Road	Cary	27511
+2497	3	Wendell Driver License Office	35.794178	-78.38022	license	Wake		False	(919) 365-9516	(919) 365-0787	2851 WENDELL BLVD	WENDELL	27591-6904
+2528	3	Mobile Unit at the Renaissance Center	35.9741886	-78.5087581	license	Wake	This is a mobile unit location. Availability is limited.	False	(919) 715-7000		405 BROOKS ST	WAKE FOREST	27587-2930
+2304	3	Mobile Unit at the Old N.C. National Guard Armory	36.4039167	-78.16156060000002	license	Warren	This is a mobile unit location. Availability is limited.	True	(919) 715-7000		501 US 158 Business East	WARRENTON	27589
+2530	1	Mobile Unit at the Pettigrew Library	35.86595	-76.746464	license	Washington	This is a mobile unit location. Availability is limited.	False	(919) 715-7000		201 E. Third St.	Plymouth	27962
+2307	5	Boone Driver License Office	36.205642	-81.622937	license	Watauga		False	(828) 265-5384	(828) 265-5425	4469 BAMBOO RD;         STE 103	BOONE	28607-6555
+2310	3	Goldsboro Driver License Office	35.3985879	-78.001919	license	Wayne		False	(919) 731-7963	(919) 731-7937	701 West Grantham Street	Goldsboro	27530
+2311	3	Old Steele Library Building Driver License Office	35.196581	-78.067312	license	Wayne		False	(919) 658-3942	(919) 658-2586	110 North Chestnut Street	Mount Olive	28365
+2314	5	Wilkesboro Driver License Office	36.136461	-81.177123	license	Wilkes		False	(336) 838-4725	(336) 838-3976	1230 School Street	Wilkesboro	28697
+2316	3	Wilson Driver License Office	35.7159043	-77.9237774	license	Wilson		False	(252) 243-4072	(252) 234-1127	1822 Goldsboro Street SW	Wilson	27893
+2318	5	Yadkinville Driver License Office	36.1168961	-80.6571136	license	Yadkin		False	(336) 679-3232	(336) 679-7228	225 Ash Street	Yadkinville	27055
+2320	7	Burnsville Driver License Office	35.918608	-82.299735	license	Yancey		False	(828) 682-9619	(828) 682-7372	116 North Main Street	Burnsville	28714
