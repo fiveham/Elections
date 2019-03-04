@@ -1,0 +1,102 @@
+County	Name	AddrLine1	AddrLine2
+Alamance	Alamance County DSS	319 North Graham Hopedale Road, Suite C	Burlington, NC 27217
+Alexander	Alexander County DSS	604 7th Street, SW	Taylorsville, NC 28681
+Alleghany	Alleghany County DSS	182 Doctor Street	Sparta, NC 28675
+Anson	Anson County DSS	118 North Washington Street	Wadesboro, NC 28170
+Ashe	Ashe County DSS	150 Government Circle, Suite 1400	Jefferson, NC 28640
+Avery	Avery County DSS	175 Linville Street	Newland, NC 28657
+Beaufort	Beaufort County DSS	632 West 5th Street	Washington, NC 27889
+Bertie	Bertie County DSS	1006 Wayland Street	Windsor, NC 27983
+Bladen	Bladen County DSS	208 McKay Street	Elizabethtown, NC 28337
+Brunswick	Brunswick County DSS	60 Government Drive, NE	Bolivia, NC 28422-0219
+Buncombe	Buncombe County DSS	40 Coxe Avenue	Asheville, NC 28802
+Burke	Burke County DSS	700 East Parker Road	Morganton, NC 28680-0549
+Cabarrus	Cabarrus County DSS	1303 South Cannon Boulevard	Kannapolis, NC 28083
+Caldwell	Caldwell County DSS	2345 Morganton Blvd SW, Suite A	Lenoir, NC 28645
+Camden	Camden County DSS	117 North Highway 343	Camden, NC 27921
+Carteret	Carteret County DSS	210 Craven Street	Beaufort, NC 28516
+Caswell	Caswell County DSS	175 East Church Street	Yanceyville, NC 27379
+Catawba	Catawba County DSS	3030 11th Avenue Drive, SE	Hickory, NC 28602
+Chatham	Chatham County DSS	102 Camp Drive	Pittsboro, NC 27312
+Cherokee	Cherokee County DSS	4800 W US Highway 64	Murphy, NC 28906
+Chowan	Chowan County DSS	100 W. Freemason Circle	Edenton, NC 27932
+Clay	Clay County DSS	119 Courthouse Dr.	Hayesville, NC 28904
+Cleveland	Cleveland County DSS	130 South Post Road	Shelby, NC 28150
+Columbus	Columbus County DSS	40 Government Complex Road	Whiteville, NC 28472-0397
+Craven	Craven County DSS	2818 Neuse Boulevard	New Bern, NC 28561-2039
+Cumberland	Cumberland County DSS	1225 Ramsey Street	Fayetteville, NC 28301
+Currituck	Currituck County DSS	153 Courthouse Rd., Suite 400	Currituck, NC 27929
+Dare	Dare County DSS	107 Exeter Street	Manteo, NC 27954
+Davidson	Davidson County DSS	913 Greensboro Street	Lexington, NC 27293
+Davie	Davie County DSS	228 Hospital St	Mocksville, NC 27028
+Duplin	Duplin County DSS	423 North Main Street	Kenansville, NC 28349
+Durham	Durham County DSS	414 East Main Street	Durham, NC 27702-0810
+Edgecombe	Edgecombe County DSS, Tarboro Office	122 E. St. James Street	Tarboro, NC 27886
+Edgecombe	Edgecombe County DSS, Rocky Mount Office	301 South. Fairview Road	Rocky Mount, NC 27801
+Forsyth	Forsyth County DSS	741 North Highland Avenue	Winston-Salem, NC 27101
+Franklin	Franklin County DSS	107 Industrial Drive	Louisburg, NC 27549
+Gaston	Gaston County DSS	330 Dr. Martin Luther King Jr. Way	Gastonia, NC 28052
+Gates	Gates County DSS	200 Court Street	Gatesville, NC 27938
+Graham	Graham County DSS	196 Knight Street	Robbinsville, NC 28771
+Granville	Granville County DSS	410 West Spring Street	Oxford, NC 27565
+Greene	Greene County DSS	227 Kingold Boulevard, Suite A	Snow Hill, NC 28580
+Guilford	Guilford County DSS	1203 Maple Street (27405)	Greensboro, NC 27402-3388
+Halifax	Halifax County DSS	4421 Hwy 301	Halifax, NC 27839
+Harnett	Harnett County DSS	311 Cornelius Harnett Boulevard	Lillington, NC 27546
+Haywood	Haywood County DSS	157 Paragon Parkway, Suite 300	Clyde, NC 28721
+Henderson	Henderson County DSS	1200 Spartanburg Highway, Suite 300	Hendersonville, NC 28792
+Hertford	Hertford County DSS	704 King Street	Winton, NC 27986
+Hoke	Hoke County DSS	314 S. Magnolia Street	Raeford, NC 28376
+Hyde	Hyde County DSS	35015 US Hwy 264	Engelhard, NC 27824
+Iredell	Iredell County DSS	549 Eastside Drive	Statesville, NC 28625
+Jackson	Jackson County DSS	15 Griffin Street	Sylva, NC 28779
+Johnston	Johnston County DSS	714 North Street	Smithfield, NC 27577
+Jones	Jones County DSS	118 Highway 58 North	Trenton, NC 28585
+Lee	Lee County DSS	530 Carthage Street	Sanford, NC 27330
+Lenoir	Lenoir County DSS	130 West King Street	Kinston, NC 28502-0006
+Lincoln	Lincoln County DSS	1136 East Main Street	Lincolnton, NC 28093-0130
+Macon	Macon County DSS, Lakeside Government Complex	1832 Lakeside Drive	Franklin, NC 28734
+Madison	Madison County DSS	5707 U.S. Highway 25/70, Unit D	Marshall, NC 28753
+Martin	Martin County DSS	305 East Main Street	Williamston, NC 27892
+McDowell	McDowell County DSS	145 East Court Street	Marion, NC 28752
+Mecklenburg	Mecklenburg County DSS	301 Billingsley Road	Charlotte, NC 28222
+Mitchell	Mitchell County DSS	347 Long View Drive	Bakersville, NC 28705-0365
+Montgomery	Montgomery County DSS	102 E. Spring Street	Troy, NC 27371
+Moore	Moore County DSS	1036 Carriage Oaks Drive	Carthage, NC 28327
+Nash	Nash County DSS	120 West Washington Street	Nashville, NC 27856
+New Hanover	New Hanover County DSS	1650 Greenfield Street	Wilmington, NC 28402
+Northampton	Northampton County DSS	9467 NC 305 Highway	Jackson, NC 27845
+Onslow	Onslow County DSS	1915 Onslow Drive Extension	Jacksonville, NC 28541
+Orange	Orange County DSS	113 Mayo St.	Hillsborough, NC 27278
+Pamlico	Pamlico County Human Services Center	828 Alliance Main St.	Bayboro, NC 28515
+Pasquotank	Pasquotank County DSS	709 Roanoke Avenue	Elizabeth City, NC 27909
+Pender	Pender County DSS	810 South Walker Street	Burgaw, NC 28425
+Perquimans	Perquimans County DSS	103 Charles Street	Hertford, NC 27944
+Person	Person County DSS	355B S. Madison Blvd	Roxboro, NC 27573
+Pitt	Pitt County DSS	1717 West Fifth Street	Greenville, NC 27834
+Polk	Polk County DSS	231 Wolverine Trail.	Mill Spring, NC 28756
+Randolph	Randolph County DSS	1512 North Fayetteville Street	Asheboro, NC 27204-3239
+Richmond	Richmond County DSS	125 Caroline Street	Rockingham, NC 28380
+Robeson	Robeson County DSS	120 Glen Cowan Road	Lumberton, NC 28360
+Rockingham	Rockingham County DSS	411 NC Hwy. 65	Wentworth, NC 27375
+Rowan	Rowan County DSS	1236 West Innes Street	Salisbury, NC 28144
+Rutherford	Rutherford County DSS	389 Fairground Road	Spindale, NC 28160
+Sampson	Sampson County DSS	360 County Complex Rd. Suite 100	Clinton, NC 28328
+Scotland	Scotland County DSS	1405 West Boulevard	Laurinburg, NC 28353
+Stanly	Stanly County DSS	1000 North First Street, Suite 2	Albemarle, NC 28001
+Stokes	Stokes County DSS	1010 Highway 8 & 89 North	Danbury, NC 27016
+Surry	Surry County DSS	118 Hamby Road	Dobson, NC 27017
+Swain	Swain County DSS	80 Academy St.	Bryson City, NC 28713
+Transylvania	Transylvania County DSS	106 E. Morgan St.	Brevard, NC 28712
+Tyrrell	Tyrrell County DSS	102 N. Road Street	Columbia, NC 27925
+Union	Union County DSS	2330 Concord Avenue	Monroe, NC 28110
+Vance	Vance County DSS	350 Ruin Creek Road	Henderson, NC 27536
+Wake	Wake County Human Services	220 Swinburne Road	Raleigh, NC 27620-6833
+Warren	Warren County DSS	307 North Main Street	Warrenton, NC 27589
+Washington	Washington County DSS	209 East Main Street	Plymouth, NC 27962
+Watauga	Watauga County DSS	132 Poplar Grove Road Connector, Suite C	Boone, NC 28607
+Wayne	Wayne County DSS	301 North Herman Street	Goldsboro, NC 27530
+Wilkes	Wilkes County DSS	304 College Street	Wilkesboro, NC 28697
+Wilson	Wilson County DSS	100 N.E Gold Street	Wilson, NC 27894-0459
+Yadkin	Yadkin County DSS	250 Willow Street	Yadkinville, NC 27055
+Yancey	Yancey County DSS	320 Pensacola Road	Burnsville, NC 28714
