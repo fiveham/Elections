@@ -1,0 +1,73 @@
+Office	Address
+Albemarle	702 Henson Street 28001
+Asheboro	958 S Park Street 27203
+Asheville	8 Barbetta Drive 28806
+Boone	245 Winklers Creek Road, Suite A 28607
+Brevard	Community Services Building 28712
+Burlington	2615 Alamance Rd. 27215
+Chapel Hill	548 Smith Level Road Carrboro 27510
+Charlotte	5501 Executive Center Dr., Suite 101 28212
+Charlotte	7140 Forest Point Blvd., Suite B 28217
+Clinton	215 W Main Street 28328
+Concord	820 Florence Street, NW 28027
+Creedmoor	402 North Main Street 27522
+Dunn	214 W Edgerton 28334
+Durham	4312 Western Park Place 27705
+Elizabeth City	401 South Griffin St, Suite 100 27909
+Elizabethtown	2948 W Broad Street 28337
+Fayetteville	155 Eastwood Avenue 28301
+Flat Rock	578 Upward Road, Unit 6 28731
+Forest City	277 Commercial Drive 28043
+Gastonia	109 W Eighth Avenue 28054
+Goldsboro	2719 Graves Dr., Ste.14 27534
+Goldsboro WorkSource East	902 Corporate Drive 27534
+Graham	609 Ray Street 27215
+Greensboro	3401-A West Wendover Ave 27407
+Greenville	101 Fox Haven Drive 27858
+Henderson	10 Medical Court 27536
+Hickory	1261 10th Avenue Lane SE 28602
+High Point	919 Phillips Avenue, Suite 105 27262
+Jacksonville	39B Office Park Drive 28546
+Kenansville	103 W Hill Street 28349
+Kinston	1003-B Hardee Road 28504
+Laurinburg	915-D South Main Street 28352
+Lenoir	675 Pennton Ave SW 28645
+Lexington	414 Piedmont Drive 27295
+Lincolnton	529 N. Aspen Street 28092
+Louisburg	101 North Main Street 27549
+Lumberton	289 Corporate Drive, Ste. A 28358
+Marion	451 North Main Street, Suite 107 28752
+Marshall	190 Health Care Lane 28753
+Matthews	10801 Monroe Rd., Suite B 28105
+Mocksville	377 Hospital Street, Suite 100 27028
+Monroe	1121 Skyway Drive 28110
+Morehead City	310-A Commerce Avenue 28557
+Morganton	517-F West Fleming Drive 28655
+Morganton WorkSource West	200 Enola Road 28655
+Mount Airy	784 W Lebanon Street 27030
+Murphy	510 US 64 West 28906
+New Bern	2832 Neuse Blvd 28562
+Newland	815 Pineola St, Newland, NC 28657
+North Wilkesboro	318 Wilkesboro Avenue 28659
+Pinehurst	150 Blake Blvd 28374
+Raleigh	4900 Waters Edge Drive 27606
+Roanoke Rapids	615 Julian Alsbrook Hwy 27870
+Rockingham	1793 E. Broad Ave. 28379
+Rocky Mount	Station Square, Suite 100 27804
+Roxboro	157 Semora Road 27573
+Salisbury	205 Guffy Street 28147
+Sanford	201 Commercial Court 27330
+Shelby	1427 E Marion St, Suite A 28150
+Siler City	104 Village Lake Drive 27344
+Smithfield	18 Noble Street 27577
+Statesville	2042 Davie Avenue 28625
+Sylva	100 Bonnie Lane, Suite A 28779
+Tarboro	201 St Andrews Street 27886
+Washington	953 Washington Square Mall 27889
+Waynesville	9 Haywood Office Park, Suite 103 28785
+Wentworth	116 NC 65 Reidsville 27320
+Whiteville	118 Memory Plaza 28472
+Williamston	405 East Boulevard 27892
+Wilmington	3340 Jaeckle Drive, Suite 201 28403
+Wilson	306 W Nash Street 27893
+Winston-Salem	2201 Brewer Road 27127
