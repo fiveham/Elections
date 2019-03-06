@@ -1,0 +1,8 @@
+name	addrline1	addr1_sup	addrline2
+Asheville District Office	50 S. French Broad Avenue		Asheville, NC 28801
+Charlotte District Office	5501 Executive Center Drive	Suite 102	Charlotte, NC 28212
+Fayetteville District Office	2950 Village Drive	Suite 201	Fayetteville, NC 28304
+Greenville District Office	404 St. Andrews Drive		Greenville, NC 27834
+Raleigh District Office	307 Ashe Avenue		Raleigh, NC 27606
+Wilmington District Office	3240 Burnt Mill Drive	Suite 7	Wilmington, NC 28403
+Winston-Salem District Office	4265 Brownsboro Road	Suite 100	Winston-Salem, NC 27106
