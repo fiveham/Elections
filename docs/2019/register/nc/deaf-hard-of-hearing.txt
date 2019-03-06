@@ -1,0 +1,8 @@
+name	addrline1	addr1_sup	addrline2
+Asheville Regional Center	12 Barbetta Drive		Asheville, NC 28806
+Charlotte Regional Center	5501 Executive Ctr. Dr.	Suite 200	Charlotte, NC 28212
+Greensboro Regional Center	122 North Elm Street	Suite 900	Greensboro, NC 27401
+Morganton Regional Center	107 Foothills Drive		Morganton, NC 28655
+Raleigh Regional Center	4900 Waters Edge Drive		Raleigh, NC 27606
+Wilmington Regional Center	3240 Burnt Mill Drive	Suite 5	Wilmington, NC 28403
+Wilson Regional Center	2705 Wooten Boulevard		Wilson, NC 27893
