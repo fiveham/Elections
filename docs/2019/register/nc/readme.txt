@@ -22,7 +22,7 @@ Such locations include (according to https://www.ncsbe.gov/Voters/Registering-to
     Vocational Rehabilitation offices
       https://www.ncdhhs.gov/divisions/dvrs/vr-local-offices
     Departments of Services for the Blind
-      (Could not find office locations)
+      https://www.ncdhhs.gov/divisions/dsb/district-offices
     Departments of Services for the Deaf & Hard of Hearing
       https://www.ncdhhs.gov/assistance/hearing-loss/regional-centers-for-the-deaf-hard-of-hearing
     Departments of Mental Health Services
