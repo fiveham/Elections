@@ -1,0 +1,145 @@
+name	sitename	addrline1	addr1_sup	addrline2
+Alamance County Health Department		319 N. Graham-Hopedale Rd.		Burlington, NC 27217
+Alexander County Health Department		338 First Avenue SW	Suite 1	Taylorsville, NC 28681
+Alleghany County Health Department	Appalachian Health District	157 Health Service Rd		Sparta, NC 28675
+Anson County Health Department		110 Ashe St.		Wadesboro, NC 28170
+Ashe County Health Department	Appalachian Health District	413 McConnell St.		Jefferson, NC 28640
+Avery County Health Department	Toe River Health District	545 Schultz Circle		Newland, NC 28657
+Beaufort County Health Department		1436 Highland Dr.		Washington, NC 27889
+Bertie County Health Department	Albemarle Regional Health Services	102 Rhodes Ave.		Windsor, NC 27983
+Bladen County Health Department		300 Mercer Mill Rd.		Elizabethtown, NC 28337
+Brunswick County Health Department		25 Courthouse Dr., N.E.		Bolivia, NC 28422
+Brunswick County Health Department		1492 Village Road		Leland, NC 28451
+Brunswick County Health Department	Eastgate Plaza	1509 Holden Beach Rd		Shallotte, NC 28470
+Buncombe County Health Center		7 Yorkshire Ave.		Asheville, NC 28803
+Buncombe County Health Center		336 Leicester Highway	Suite 120	Asheville, NC 28806
+Buncombe County Health Center		257 Biltmore Avenue		Asheville, NC 28801
+Buncombe County Health Center		119 Hendersonville Rd		Asheville, NC 28803
+Burke County Health Department		700 East Parker Rd.		Morganton, NC 28655
+Cabarrus Health Alliance		300 Mooresville Rd.		Kannapolis, NC 28081
+Cabarrus Health Alliance	Logan Clinic	298 Lincoln St.		Concord, NC 28025
+Caldwell County Health Department		2345 Morganton Blvd.	Suite B	Lenoir, NC 28645
+Camden County Health Department	Albemarle Regional Health Services	160 US Hwy 158 East	Building B	Camden, NC 27921
+Carteret County Health Department		3820 A Bridges St.		Morehead City, NC 28557
+Caswell County Health Department		189 County Park Rd.		Yanceyville, NC 27379
+Caswell County Health Department	Prospect Hill Community Health Center (Piedmont Health Services)	322 Main St.		Prospect Hill, NC 27314
+Catawba County Health Department		3070 11th Ave Dr. SE		Hickory, NC 28602
+Chatham County	Moncure Community Health Center (Piedmont Health Services)	728 Pittsboro-Moncure Rd.		Moncure, NC 27559
+Chatham County	Siler City Community Health Center (Piedmont Health Services)	224 South 10th Ave.		Siler City, NC 27344
+Cherokee County Health Department		228 Hilton St.		Murphy, NC 28906
+Cherokee County Health Department	Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC	73 Kaiser Wilnoty Dr.		Cherokee, NC 28719
+Chowan County Health Department	Albemarle Regional Health Services	202 W. Hicks St.		Edenton, NC 27932
+Clay County Health Department		345 Court House Dr.		Hayesville, NC 28904
+Clay County Health Department	Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC	73 Kaiser Wilnoty Dr.		Cherokee, NC 28719
+Cleveland County Health Department		200 S. Post Road		Shelby, NC 28152
+Columbus County Health Department		304 Jefferson St.	Miller Building	Whiteville, NC 28472
+Craven County Health Department		2818 Neuse Blvd		New Bern, NC 28561
+Cumberland County Health Department		1235 Ramsey Street,		Fayetteville, NC 28301
+Cumberland County Health Department	Spring Lake	103 Laketree Blvd.		Spring Lake, NC 28390
+Cumberland County Health Department	Hope Mills	2622 Hope Mills Rd.		Hope Mills, NC 28306
+Currituck County Health Department	Albemarle Regional Health Services	2795 Caratoke Hwy.		Currituck, NC 27929
+Dare County Health Department		109 Exeter St.		Manteo, NC 27954
+Dare County Health Department		50347 NC Hwy 12		Frisco, NC 27936
+Dare County Health Department		2601 N. Croatan Hwy		Kill Devil Hills, NC 27948 252-475-5748
+Davidson County Health Department		915 Greensboro St.		Lexington, NC 27293
+Davie County Health Department		210 Hospital St.		Mocksville, NC 27028
+Duplin County Health Department		340 Seminary Street		Kenansville, NC 28349
+Durham County Health Department	Lincoln Community Health Center	1301 Fayetteville St.		Durham, NC 27717-2119
+Eastern Band of Cherokee Indians	Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC	73 Kaiser Wilnoty Dr.		Cherokee, NC 28719
+Edgecombe County Health Department		122 East James St.		Tarboro, NC 27886
+Edgecombe County Health Department	Rocky Mount Branch	107 Atlantic Ave.		Rocky Mount, NC 27801
+Forsyth County Health Department		799 N. Highland Ave.		Winston-Salem, NC 27102-0686
+Forsyth County Health Department	Downtown Health Plaza	1200 N. Martin Luther King, Jr. Dr.		Winston-Salem, NC 27101 336-713-9702
+Forsyth County Health Department	Cleveland Site	501 N. Cleveland Ave.		Winston-Salem, NC 27101
+Forsyth County Health Department	Kernersville Site	431 West Bodenhamer St.		Kernersville, NC 27285
+Franklin County Health Department		107 Industrial Dr.		Louisburg, NC 27549
+Gaston County Health Department		991 West Hudson Blvd.		Gastonia, NC 28052
+Gaston County Health Department	Highland Health Center	609 N. Highland St.		Gastonia, NC 28052
+Gates County Health Department	Albemarle Regional Health Services	29 Medical Center Rd.		Gates, NC 27937
+Graham County Health Department		21 South Main St.		Robbinsville, NC 28771
+Graham County Health Department	Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC	73 Kaiser Wilnoty Dr.		Cherokee, NC 28719
+Granville-Vance District Health Department		101 Hunt Dr.		Oxford, NC 27565
+Greene County Health Department		227 Kingold Blvd., Suite B		Snow Hill, NC 28580
+Guilford County Health Department		1100 E. Wendover Avenue		Greensboro, NC 27405
+Guilford County Health Department		1203 Maple St. Room 308		Greensboro, NC 27404
+Guilford County Health Department		501 East Green St.		High Point, NC 27260
+Halifax County Public Health Authority		204 Evans St.		Hollister, NC 27844
+Halifax County Public Health Authority		116 West 3rd Street	A	Roanoke Rapids, NC 27870
+Halifax County Public Health Authority		19 Dobbs St.		Halifax, NC 27839
+Harnett County Health Department		307 West Cornelius Harnett Blvd.		Lillington, NC 27546
+Harnett County Health Department	CommWell Health	3331 Easy St.		Dunn, NC 28366
+Haywood County Health Department		157 Paragon Parkway	Suite 800	Clyde, NC 28721
+Haywood County Health Department	Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC	73 Kaiser Wilnoty Dr.		Cherokee, NC 28719
+Henderson County Health Department		1200 Spartanburg Hwy.	Suite 100	Hendersonville, NC 28792
+Albemarle Regional Health Services		828 S Academy Street		Ahoskie, NC 27910
+Hoke County Health Department		683 East Palmer Rd.		Raeford, NC 28376
+Hyde County Health Department		1151 Main St.		Swan Quarter, NC 27885
+Iredell County Health Department		318 Turnersburg Hwy.		Statesville, NC 28625
+Iredell County Health Department	Government Center South	610 E Center Ave.		Mooresville, NC 28115
+Jackson County Department of Public Health		538 Scotts Creek Rd., Ste. 100		Sylva, NC 28779
+Johnston County Public Health Department		517 North Bright Leaf Blvd.		Smithfield, NC 27577-4194
+Johnston County Public Health Department	CommWell Health	3331 Easy St.		Dunn, NC 28366
+Jones County Health Department		418 Highway 58 North		Trenton, NC 28585
+Lee County Health Department		106 Hillcrest Dr.		Sanford, NC 27331-1528
+Lenoir County Health Department		201 North McLewean St.		Kinston, NC 28502
+Lincoln County Health Department		151 Sigmon Rd.		Lincolnton, NC 28092
+Macon County Health Department		1830 Lakeside Dr.		Franklin, NC 28734
+Madison County Health Department		493 Medical Park Dr.		Marshall, NC 28753
+Martin County Health Department	MTW Health District	210 West Liberty St.		Williamston, NC 27892
+McDowell County Health Department	Rutherford, Polk, McDowell Health District	408 Spaulding Rd.		Marion, NC 28752
+Mecklenburg County Health Department		2845 Beatties Ford Rd.		Charlotte, NC 28216
+Mecklenburg County Health Department		5624 Executive Center Dr.	Suite 100	Charlotte, NC 28212
+Mecklenburg County Health Department		801 Clanton Rd.		Charlotte, NC 28217
+Mecklenburg County Health Department		249 Billingsley Rd.		Charlotte, NC 28211
+Mitchell County Health Department	Toe River District	130 Forest Service Dr.	Suite A	Bakersville, NC 28705
+Montgomery County Health Department		217 South Main St.		Troy, NC 27371
+Moore County Health Department		705 Pinehurst Ave.		Carthage, NC 28327
+Nash County Health Department		214 South Barnes St.		Nashville, NC 27856
+Nash County Health Department	Rocky Mount Office	322 S. Franklin St.		Rocky Mount, NC 27804
+New Hanover County Health Department		2029 South 17th St.		Wilmington, NC 28401
+Northampton County Health Department		9495 NC Hwy. 305		Jackson, NC 27845
+Onslow County Health Department		612 College St.		Jacksonville, NC 28540
+Onslow County Health Department	Tarawa Terrace	2455 Iwo Jima Blvd.		Tarawa Terrace, NC 28543
+Orange County Health Department	Piedmont Health Services, Inc. (located within the Orange County Health Department)	300 W. Tryon St.		Hillsborough, NC 27278
+Orange County Health Department	Carrboro Community Health Center (Piedmont Health Services)	301 Lloyd St.		Carrboro, NC 27510
+Pamlico County Health Department		203 North St.		Bayboro, NC 28515
+Pasquotank County Health Department	Albemarle Regional Health Services	711 Roanoke Ave.		Elizabeth City, NC 27907
+Pender County Health Department		803 South Walker St.		Burgaw, NC 28425
+Perquimans County Health Department	Albemarle Regional Health Services	103 ARPDC St.		Hertford, NC 27944
+Person County Health Department		355 A South Madison Blvd.		Roxboro, NC 27573
+Pitt County Health Center - WIC		201 Government Circle		Greenville, NC 27834
+Polk County Health Department	Rutherford, Polk, McDowell Health District	161 Walker St.		Columbus, NC 28722
+Randolph County Health Department		2222 S. Fayetteville St.	B	Asheboro, NC 27205
+Richmond County Health Department		127 Caroline St.		Rockingham, NC 28379
+Robeson County Health Department		460 Country Club Rd.		Lumberton, NC 28360
+Rockingham County Health Department		371 NC Hwy 65 West		Wentworth, NC 27375-0204
+Rowan County Health Department		1811 E. Innes St.		Salisbury, NC 28146
+Rutherford County Health Department	Rutherford, Polk, McDowell Health District	221 Callahan-Koon Rd.		Spindale, NC 28160
+Sampson County Health Department		360 County Complex Rd.		Clinton, NC 28328
+Scotland County Health Department		1405 West Blvd.		Laurinburg, NC 28352
+Stanly County Health Department		1000 North First St., Ste 3		Albemarle, NC 28001
+Stokes County Health Department		1009 N. Main St.		Danbury, NC 27016
+Stokes County Health Department	Southwest Service Center	104 Hartgrove Rd.		King, NC 27021
+Surry County Health & Nutrition Center		118 Hamby Rd.		Dobson, NC 27017
+Swain County Health Department		545 Center St.		Bryson City, NC 28713
+Swain County Health Department	Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC	73 Kaiser Wilnoty Dr.		Cherokee, NC 28719
+Transylvania County Health Department	Community Services Bldg.	98 East Morgan St., Suite 170		Brevard, NC 28712
+Tyrrell County Health Department	MTW Health District	408 Bridge St.		Columbia, NC 27925
+Union County Health Department		2330 Concord Avenue		Monroe, NC 28110
+Vance County	Granville-Vance District Health Department	115 Charles Rollins Rd.		Henderson, NC 27536
+Wake County Human Services		10 Sunnybrook Rd.		Raleigh, NC 27620-4049
+Wake County Human Services		111 James Jackson Ave.	Suite 201	Cary, NC 27513
+Wake County Human Services		130 N. Judd Parkway Northeast		Fuquay Varina, NC 27526
+Wake County Human Services		2909 E. Millbrook Rd.		Raleigh, NC 27604
+Wake County Human Services		350 E. Holding Ave.		Wake Forest, NC 27587
+Wake County Human Services		1002 Dogwood Dr.		Zebulon, NC 27597
+Warren County Health Department		544 West Ridgeway St.		Warrenton, NC 27589
+Washington County Health Department	MTW Health District	198 NC Hwy 45 North		Plymouth, NC 27962
+Watauga County Health Department	Appalachian Health District	126 Poplar Grove Connector Rd.		Boone, NC 28607
+Wayne County Health Department		301 North Herman St.		Goldsboro, NC 27530
+Wayne County Health Department		108 W. Main St.		Mount Olive, NC 28365
+Wayne County Health Department	Seymour Johnson Air Force Base Building 3602	1200 Wright Brothers Ave.		Goldsboro, NC 27530
+Wilkes County Health Department		306 College St.		Wilkesboro, NC 28697
+Wilson County Health Department		1801 Glendale Dr. SW		Wilson, NC 27893-4401
+Yadkin County Human Services Agency		217 East Willow St.		Yadkinville, NC 27055
+Yancey County Health Department	Toe River District	202 Medical Campus Dr.		Burnsville, NC 28714
