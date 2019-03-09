@@ -1,0 +1,669 @@
+School Name	Address Line1	Address Line2	City	Zip Code 5
+ABSS Early College at ACC	1247 Jimmie Kerr Road	-	Graham	27253
+Career and Technical Education Center	2550 Buckingham Road	-	Burlington	27217
+Eastern Alamance High	4040 Mebane Rogers	-	Mebane	27302
+Graham High	903 Trollinger Road	-	Graham	27253
+Hugh M Cummings High	2200 N Mebane Street	-	Burlington	27217
+Ray Street Academy	609 Ray Street	-	Graham	27253
+Southern Alamance High	631 Southern High Road	-	Graham	27253
+Walter M Williams High	1307 S Church Street	-	Burlington	27215
+Western Alamance High	1731 N NC 87	-	Elon	27244
+River Mill Academy	235 Cheeks Lane	-	Graham	27253
+Clover Garden	2454 Altamahaw Union Ridge Road	-	Burlington	27217
+The Hawbridge School	1735 Saxapahaw Bethlehem Church Rd	-	Saxapahaw	27340
+Alexander Central High	223 School Drive	-	Taylorsville	28681
+Alleghany High	404 Trojan Avenue	-	Sparta	28675
+Anson Co. Early College High	177 Ledbetter Street	-	Polkton	28135
+Anson Academy	118 N. Ashe Street	-	Wadesboro	28170
+Anson High School	96 Anson High School Road	-	Wadesboro	28170
+Ashe County High	184 Campus Drive	-	West Jefferson	28694
+Avery County High	401 Avery County High School Road	-	Newland	28657
+Blue Ridge Academy	76 Old Montezuma Rd	-	Newland	28657
+Avery High STEM Academy	401 Avery County High School Rd	-	Newland	28657
+Grandfather Academy	64 Grandfather Home Drive	-	Banner Elk	28604
+Marjorie Williams Academy	129 Allen Circle	-	Crossnore	28616
+B C Ed Tech Center	820 North Bridge St	-	Washington	27899
+Beaufort Co Early College High	5337 Hwy 264 East	Building 10	Washington	27889
+Northside High	7868 Free Union Church Road	-	Pinetown	27865
+Southside High	5700 Hwy 33 East	-	Chocowinity	27817
+Washington High	400 Slatestone Road	-	Washington	27889
+Washington Montessori	2330 Old Bath Hwy	-	Washington	27889
+Bertie Early College High	819 Governors Road	-	Windsor	27983
+Bertie High	716 US Hwy 13 North	-	Windsor	27983
+East Bladen High	5600 NC Hwy 87 East	-	Elizabethtown	28337
+West Bladen High	1600 NC Hwy 410	-	Bladenboro	28320
+Paul R Brown Leadership Academy	1300 Martin L King Jr Dr	-	Elizabethtown	28337
+Brunswick County Early College	50 College Road NE	-	Bolivia	28422
+The COAST	1109 Old Ocean Highway	-	Bolivia	28422
+North Brunswick High	114 Scorpion Drive	-	Leland	28451
+South Brunswick High	280 Cougar Drive BSL	-	Southport	28461
+West Brunswick High	550 Whiteville Road NW	-	Shallotte	28470
+Community High School	235 Old US 70	-	Swannanoa	28778
+Reynolds High	1 Rocket Drive	-	Asheville	28803
+Early College	340 Victoria Road	-	Asheville	28801
+Middle College	340 Victoria Road	-	Asheville	28801
+Owen High	99 Lake Eden Road	-	Black Mountain	28711
+Erwin High	60 Lees Creek Road	-	Asheville	28806
+Enka High	475 Enka Lake Road	-	Candler	28715
+North Buncombe High	890 Clarks Chapel Road	-	Weaverville	28787
+Roberson High	250 Overlook Road	-	Asheville	28803
+Nesbitt Discovery Academy	175 Bingham Rd Ste 10	-	Asheville	28806
+Asheville High	419 McDowell Street	-	Asheville	28803
+School of Inquiry and Life Sciences	419 McDowell Street	-	Asheville	28803
+IC Imagine 	1000 Brevard Road	Suite 175	Asheville	28806
+The Franklin School of Innovation	21 Innovation Dr	-	Asheville	28806
+Hallyburton Academy	205 South Main Street	-	Drexel	28619
+Burke Middle College	1001 Burkemont Ave	-	Morganton	28655
+East Burke High	3695 East Burke Boulevard	-	Connelly Springs	28612
+Freedom High	511 Independence Boulevard	-	Morganton	28655
+Jimmy C Draughn High School	709 Lovelady Road NE	-	Valdese	28690
+North Liberty	523 Enola Road	-	Morganton	28655
+Robert L. Patton High School	701 Enola Road	-	Morganton	28655
+Cox Mill High School	1355 Cox Mill Rd	-	Concord	28027
+Central Cabarrus High	505 Hwy 49 S	-	Concord	28025
+Concord High	481 Burrage Road NE	-	Concord	28025
+Jay M Robinson High	300 Pitts School Road SW	-	Concord	28027
+Cabarrus Co Opportunity School	120 Marsh Avenue NW	-	Concord	28025
+Mount Pleasant High	700 Walker Road	-	Mount Pleasant	28124
+Northwest Cabarrus High	5130 NW Cabarrus Drive	-	Concord	28027
+Hickory Ridge High	7321 Raging Ridge Road	-	Harrisburg	28075
+Performance Learning Center	4521 Weddington Road	-	Concord	28027
+Cabarrus-Kannapolis Early Coll	1531 Trinity Church Rd	-	Concord	28027
+A L Brown High	415 E 1st Street	-	Kannapolis	28083
+Carolina International School	9545 Poplar Tent Road	-	Concord	28027
+Cabarrus Charter Academy	355 Poplar Crossing Dr NW	-	Concord	28027
+Caldwell Career Cen Mid. Coll.	2857 Hickory Boulevard	-	Hudson	28638
+Gateway School	1889 Dudley Shoals Road	-	Granite Falls	28630
+Caldwell Early College	2859 Hickory Blvd SW	-	Hudson	28638
+Hibriten High	1350 Panther Trail SE	-	Lenoir	28645
+South Caldwell High	7035 Spartan Drive	-	Hudson	28638
+West Caldwell High	300 W Caldwell Drive	-	Lenoir	28645
+Camden County High	103 US 158 W	-	Camden	27921
+Camden Early College High	103 US Highway 158 West	A	Camden	27921
+Bridges School	140 Vashti Dr	-	Morehead City	28557
+East Carteret High	3263 Hwy 70 E	-	Beaufort	28516
+Croatan High	1 Cougar Lane	-	Newport	28570
+West Carteret High	4700 Country Club Road	-	Morehead City	28557
+Bartlett Yancey High	466 Main Street E	-	Yanceyville	27379
+Bandys High	5040 E Bandys Road	-	Catawba	28609
+Bunker Hill High	4675 Oxford School Road	-	Claremont	28610
+Catawba Rosenwald Education Center	403 6th Ave SW	-	Catawba	28609
+Challenger Early College High	2550 Hwy 70 SE	-	Hickory	28602
+Fred T Foard High	3407 Plateau Road	-	Newton	28658
+Maiden High	600 West Main Street	-	Maiden	28650
+Saint Stephens High	3205 34th Street Drive NE	-	Hickory	28601
+Hickory Career  Arts Magnet High School	409 8th Avenue NE	-	Hickory	28601
+Hickory High 	1234 3rd Street NE	-	Hickory	28601
+Conover Special Education	108 7th Street Place SW	-	Conover	28613
+Newton-Conover High	338 W 15th Street	-	Newton	28658
+Discovery High School	301 West 18th St	-	Newton	28658
+SAGE Academy	501 Martin L King Jr Blvd	-	Siler City	27344
+Chatham Central High	14950 NC Hwy 902 W	-	Bear Creek	27207
+Jordan Matthews High	910 East Cardinal Street	-	Siler City	27344
+Northwood High	310 Northwood High School Road	-	Pittsboro	27312
+Chatham Charter	2200 Hamp Stone Rd	-	Siler City	27344
+Woods Charter	160 Woodland Grove Ln	-	Chapel Hill	27516
+Andrews High	50 High School Drive	-	Andrews	28901
+Hiwassee Dam High	267 Blue Eagle Circle	-	Murphy	28906
+The Oaks Academy	2230 Airport Road	-	Marble	28905
+Murphy High	234 High School Circle	-	Murphy	28906
+Tri-County Early College High	4650 E US 64 Alt.	-	Murphy	28906
+Cherokee High	200 Ravensford Drive	-	Cherokee	28719
+John A Holmes High	600 Woodard Street	-	Edenton	27932
+Hayesville High	205 Yellow Jacket Drive	-	Hayesville	28904
+Burns High	307 E Stagecoach Trail	-	Lawndale	28090
+Cleveland ECHS	1800 E. Marion Street	-	Shelby	28152
+Crest High	800 Old Boiling Springs	-	Shelby	28152
+Turning Point Academy	409 West Sumter Street	-	Shelby	28150
+Kings Mountain High	500 Phifer Road	-	Kings Mountain	28086
+North Shelby	1701 Charles Road	-	Shelby	28152
+Shelby High	230 E Dixon Boulevard	-	Shelby	28152
+East Columbus High	32 Gator Lane	-	Lake Waccamaw	28450
+South Columbus High	40 Stallion Drive	-	Tabor City	28463
+CCCA - Fair Bluff /Southeastern Campuses	4564 Chadbourn Hwy	-	Whiteville	28472
+West Columbus High	7294 Andrew Jackson Hwy	-	Cerro Gordo	28430
+North Whiteville Academy	310 S Martin Luther King Jr Ave	-	Whiteville	28472
+Whiteville High	413 N Lee Street	-	Whiteville	28472
+Thomas Academy	206 Rube McCray Circle	B	Lake Waccamaw	28450
+Craven Early College High	800 College Court	-	New Bern	28562
+Early College EAST High	104 Middle School Lane	-	Havelock	28532
+Havelock High	101 Webb Boulevard	-	Havelock	28532
+New Bern High	4200 Academic Drive	-	New Bern	28562
+West Craven High	2600 Streets Ferry Road	-	Vanceboro	28586
+Jack Britt High	7403 Rockfish Road	-	Fayetteville	28306
+Douglas Byrd High	1624 Ireland Drive	-	Fayetteville	28304
+Cape Fear High	4762 Clinton Road	-	Fayetteville	28312
+Cumberland International Early College	1200 Murchison Rd	J Knuckles Science Annex	Fayetteville	28301
+Cross Creek Early College	1200 Murchison Road	-	Fayetteville	28301
+Grays Creek High	5301 Celebration Drive	-	Hope Mills	28348
+E E Smith High	1800 Seabrook Road	-	Fayetteville	28301
+Alger B. Wilkins High School 	1429 Skibo Road	-	Fayetteville	28303
+Massey Hill Classical High	1062 Southern Avenue	-	Fayetteville	28306
+Pine Forest High	525 Andrews Road	-	Fayetteville	28311
+Reid Ross Classical High	3200 Ramsey Street	-	Fayetteville	28301
+Seventy-First High	6764 Raeford Road	-	Fayetteville	28304
+South View High	4184 Elk Road	-	Hope Mills	28348
+Terry Sanford High	2301 Fort Bragg Road	-	Fayetteville	28303
+Ramsey Street High	117 Quincy St	-	Fayetteville	28301
+Westover High	277 Bonanza Drive	-	Fayetteville	28303
+Cumberland Polytechnic	2201 Hull Rd	-	Fayetteville	28303
+Currituck County High	4203 Caratoke Hwy	-	Barco	27917
+The JP Knapp ECH (i)School	2966 Caratoke Hwy	-	Currituck	27929
+Cape Hatteras Secondary School	48576  Highway 12	-	Buxton	27920
+Dare Learning Academy	132 Russell Twiford Road	-	Manteo	27954
+Manteo High School	829 Wingina Avenue	-	Manteo	27954
+First Flight High School	100 Veterans Drive	-	Kill Devil Hills	27948
+Central Davidson High	2747 NC Hwy 47	-	Lexington	27292
+Stoner-Thomas School	215 County School Road	-	Lexington	27292
+Davidson County High School	2061 E Holly Grove Road	-	Lexington	27292
+Davidson Early College	297 DCCC Road	-	Lexington	27295
+East Davidson High	1408 Lake Road	-	Thomasville	27360
+Ledford Senior High	140 Jesse Green Road	-	Thomasville	27360
+North Davidson High	7227 Old US Hwy 52	-	Lexington	27295
+Oak Grove High	3507 Midway School Rd	-	Winston-Salem	27107
+South Davidson High	14956 South NC Hwy 109	-	Denton	27239
+West Davidson High	200 Dragon Drive	-	Lexington	27295
+Yadkin Valley Regional Career Academy	2065 E. Holly Grove Road	-	Lexington	27292
+Lexington Senior High School	26 Penry Street	-	Lexington	27292
+South Lexington Developmental Center	1006 Cotton Grove Road	-	Lexington	27292
+Thomasville High	410 Unity Street	-	Thomasville	27360
+Eastern NC School for the Deaf	1131 Hwy 301 South	-	Wilson	27893
+Gov. Morehead School f/t Blind	303 Ashe Avenue	-	Raleigh	27606
+NC School for the Deaf	517 W Fleming Dr	-	Morganton	28655
+Central Davie Academy	160 Martin Luther King Jr. Road	-	Mocksville	27028
+Davie County High	180 War Eagle Drive	-	Mocksville	27028
+Davie County Early College High	1211 Salisbury Road	-	Mocksville	27028
+Duplin Early College High	212 James Sprunt Dr	-	Kenansville	28349
+East Duplin High	394 North NC Highway 111	-	Beulaville	28518
+James Kenan High	1241 NC 24 & 50	-	Warsaw	28398
+North Duplin Jr Sr High	1388 West NC 403 Highway	-	Mt. Olive	28365
+Wallace-Rose Hill High	602 High School Road	-	Teachey	28464
+J D Clement Early College HS	1801 Fayetteville Street	NCCU-Robinson Science Building	Durham	27707
+C E Jordan High	6806 Garrett Road	-	Durham	27707
+The School for Creative Studies	5001 Red Mill Rd	-	Durham	27704
+City of Medicine Academy	301 Crutchfield Road	-	Durham	27704
+Durham's Performance Learning Center	401 North Driver Street	-	Durham	27703
+Durham School of the Arts	401 North Duke Street	-	Durham	27701
+Hillside High	3727 Fayetteville St	-	Durham	27707
+Lakeview School	3507 Dearborn Drive	-	Durham	27704
+Middle College HS @ DTCC	1637 Lawson Street	-	Durham	27703
+Northern High	117 Tom Wilkinson Road	-	Durham	27712
+Riverside High	3218 Rose of Sharon Road	-	Durham	27712
+Southern School of Energy and Sustainabi	800 Clayton Road	-	Durham	27703
+Hillside New Tech High	3727 Fayetteville St	-	Durham	27707
+Voyager Academy	4302 Ben Franklin Blvd	-	Durham	27704
+Research Triangle High School	3106 East NC Highway 54	-	Durham	27709
+Edgecombe Early College High	2009 West Wilson St	-	Tarboro	27886
+North Edgecombe High	7589 NC 33-NW	-	Tarboro	27886
+SouthWest Edgecombe High	5912 NC 43 North	-	Pinetops	27864
+Tarboro High	1400 Howard Avenue	-	Tarboro	27886
+North East Carolina Prep	274 Husky Trail	-	Tarboro	27886
+Atkins Academic & Tech High	3605 Old Greensboro Road	-	Winston-Salem	27101
+Carver High	3545 Carver School Road	-	Winston Salem	27105
+Career Center	910 Highland Court	-	Winston Salem	27101
+Carter High School	851 Highland Court	-	Winston Salem	27101
+Early College of Forsyth Co	2100 Silas Creek Prky	-	Winston Salem	27103
+East Forsyth High	2500 W Mountain Street	-	Kernersville	27284
+Robert B Glenn High School	1600 Union Cross Road	-	Kernersville	27284
+Main Street Academy	2700 S Main Street	-	Winston-Salem	27127
+Homebound/ Hospital Education	2020 E. 12th Street	-	Winston-Salem	27101
+Kingswood School	1001 Reynolda Road	-	Winston-Salem	27104
+Middle College of Forsyth Cnty	2100 Silas Creek Parkway	-	Winston-Salem	27103
+Mount Tabor High School	342 Petree Road	-	Winston Salem	27106
+North Forsyth High	5705 Shattalon Drive	-	Winston Salem	27105
+Parkland High	1600 Brewer Road	-	Winston Salem	27127
+J F Kennedy High	890 E 11th Street	-	Winston Salem	27101
+Ronald W Reagan High School	3750 Transou Road	-	Pfafftown	27040
+R J Reynolds High	301 N Hawthorne Road	-	Winston Salem	27104
+Walkertown High	5240 Sullivantown Road	-	Walkertown	27051
+West Forsyth High	1735 Lewisville-Clemmons	-	Clemmons	27012
+Winston-Salem Preparatory Acad	1215 North Cameron Avenue	-	Winston-Salem	27101
+Quality Education Academy	5012 Lansing Dr	D	Winston-Salem	27105
+Carter G Woodson School	437 Goldfloss Street	-	Winston-Salem	27127
+NC Leadership Charter Academy	4353 High Point Rd	-	Kernersville	27284
+Bunn High	29 Bunn Elem School Road	-	Bunn	27508
+Franklin County Early College	8150 NC Highway 56	-	Louisburg	27549
+Franklinton High	910 Cedar Creek Road	-	Franklinton	27525
+Louisburg High	201 Allen Lane	-	Louisburg	27549
+Ashbrook High	2222 S New Hope Road	-	Gastonia	28054
+Bessemer City High	119 Yellow Jacket Lane	-	Bessemer City	28016
+Gaston Early College High School	201 Hwy 321 South	Lena Sue Beam Bldg	Dallas	28034
+Cherryville High	313 Ridge Avenue	-	Cherryville	28021
+Warlick Academy	1316 Spencer Mountain Road	-	Gastonia	28054
+Stuart W Cramer High	101 Lakewood Rd	-	Belmont	28012
+East Gaston High	1744 Lane Road	-	Mount Holly	28120
+Webb Street School	1623 N Webb Street	-	Gastonia	28052
+Forestview High	5545 Union Road	-	Gastonia	28056
+Highland Sch of Technology	1600 N Morris Street	-	Gastonia	28052
+Hunter Huss High	1518 Edgefield Avenue	-	Gastonia	28052
+North Gaston High	1133 Ratchford Road	-	Dallas	28034
+South Point High	906 South Point Road	-	Belmont	28012
+Piedmont Community Charter School	119 E. 2nd Avenue	-	Gastonia	28052
+Mountain Island Charter School	13440 Lucia-Riverbend Highway	-	Mt. Holly	28120
+Gates County Senior High	088 Hwy 158 West	-	Gatesville	27938
+Robbinsville High	301 Sweetwater Road	-	Robbinsville	28771
+Phoenix Academy	204 Taylor St	-	Oxford	27565
+Granville Academy	2642 Philo White Rd	-	Franklinton	27525
+Granville Central High	2043 Sanders Rd	-	Stem	27581
+Granville Early College High	1552 South Campus Dr	-	Creedmoor	27522
+J. F. Webb High	3200 Webb School Rd	-	Oxford	27565
+South Granville High	701 N Crescent Dr	-	Creedmoor	27522
+JF Webb HS Of Health And Life Sciences	3200 Webb School Rd	-	Oxford	27565
+Falls Lake Academy	1701 East Lyon Station Road	-	Creedmoor	27522
+Oxford Preparatory	6041 Landis Rd	-	Oxford	27565
+Greene Central High	140 School Drive	-	Snow Hill	28580
+Greene Early College High	818 Highway 91	-	Snow Hill	28580
+T Wingate Andrews High	1920 McGuinn Drive	-	High Point	27265
+Middle College High at Bennett	610 Gorrell Street	-	Greensboro	27406
+James B Dudley High	1200 Lincoln Street	-	Greensboro	27401
+Eastern Guilford High	415 Peeden Drive	-	Gibsonville	27249
+Gateway Education Center	3205 East Wendover Aveune	-	Greensboro	27405
+GC Middle College High	815 West Market Street	-	Greensboro	27401
+Penn-Griffin Schools	825 Washington Street	-	High Point	27260
+Grimsley High	801 N Josephine Boyd St.	-	Greensboro	27408
+Early College at Guilford	5608 West Friendly Avenue	-	Greensboro	27410
+Doris Henderson Newcomers Sch	411 Friendway Road	-	Greensboro	27410
+Middle College at GTCC-Greensboro	3505 East Wendover Avenue	-	Greensboro	27405
+GTCC Middle College High	601 East Main Street	-	Jamestown	27282
+High Point Central High	801 Ferndale Boulevard	-	High Point	27262
+Kearns Academy	1710 McGuinn Dr.	-	High Point	27265
+Middle College at GTCC-High Point	901 South Main Street	-	High Point	27260
+C Joyner Greene Education Center	604 East Main Street	-	Jamestown	27282
+Haynes Inman Education Center	200 Haynes Road	-	Jamestown	27282
+Middle College at NC A&T	1601 East Market Street	-	Greensboro	27411
+Northeast Guilford High	6700 McLeansville Road	-	McLeansville	27301
+Northern Guilford High	7101 Spencer Dixon Road	-	Greensboro	27455
+Northwest Guilford High	5240 Northwest School Road	-	Greensboro	27409
+Page High	201 Alma Pinnix Drive	-	Greensboro	27405
+Lucy Ragsdale High	1000 Lucy Ragsdale Drive	-	Jamestown	27282
+SCALE School	116 Pisgah Church Road	-	Greensboro	27455
+Pruette SCALE Academy	900 English Road	-	High Point	27262
+Ben L. Smith High School	2407 South Holden Road	-	Greensboro	27407
+Academy at Smith	2225 South Holden Road	-	Greensboro	27407
+Southeast Guilford High	4530 Southeast School Road	-	Greensboro	27406
+Southern Guilford High	5700 Drake Road	-	Greensboro	27406
+Southwest Guilford High	4364 Barrow Road	-	High Point	27265
+STEM Early College @ NC A&T SU	402 Laurel Street	-	Greensboro	27411
+UNCG Early/Middle College	1408 Walker Avenue	-	Greensboro	27412
+Philip J Weaver Ed Center	300 South Spring Street	-	Greensboro	27401
+Western Guilford High	409 Friendway Road	-	Greensboro	27410
+Triad Math and Science Academy	700 Creek Ridge Rd	-	Greensboro	27406
+Cornerstone Charter Academy-CFA	7800 Airport Center Drive	-	Greensboro	27409
+College Prep and Leadership Academy	4201 Furniture Avenue	-	Jamestown	27282
+Piedmont Classical High School	4100 Yanceyville St	-	Browns Summit	27214
+Northwest Halifax Collegiate and Technic	8492 Hwy 48	-	Littleton	27850
+Southeast Halifax Collegiate Prep Academ	16683 Hwy 125	-	Halifax	27839
+Roanoke Rapids High School	800 Hamilton Street	-	Roanoke Rapids	27870
+Roanoke Rapids Early College High	844 Hamilton St	-	Roanoke Rapids	27870
+Roanoke Valley Early College	100 College Dr	600 Building	Weldon	27890
+Weldon STEM High School Career Academies	415 County Road	-	Weldon	27890
+Harnett Early College (HCEC)	660 E Johnson St	-	Dunn	28334
+STAR Academy	900 11th Street	-	Lillington	27546
+Harnett Central High	2911 Harnett Central Rd	-	Angier	27501
+Overhills High	2495 Ray Road	-	Spring Lake	28390
+Triton High	215 Maynard Lake Road	-	Erwin	28339
+Western Harnett High	10637 NC Hwy 27 West	-	Lillington	27546
+Central Haywood High	3215 Broad Street	-	Clyde	28721
+Haywood Early College	185 Freedlander Drive	-	Clyde	28721
+Pisgah High	1 Black Bear Drive	-	Canton	28716
+Tuscola High	564 Tuscola School Rd	-	Waynesville	28786
+East Henderson High	150 Eagle Pride Drive	-	East Flat Rock	28726
+Hendersonville High	1 Bearcat Boulevard	-	Hendersonville	28791
+North Henderson High	35 Fruitland Road	-	Hendersonville	28792
+Henderson County Career Academy	300 East Campus Way	-	Flat Rock	28731
+West Henderson High	3600 Haywood Road	-	Hendersonville	28791
+Henderson County Early College	300 East Campus Way	-	Flat Rock	28731
+Hertford County High	1500 W First St	-	Ahoskie	27910
+Hertford Co Early College	109 Community College Rd	-	Ahoskie	27910
+CS Brown High	102 CSB Dr	-	Winton	27986
+Hoke County High	505 S Bethel Road	-	Raeford	28376
+J W Turlington School	116 W Prospect Ave	-	Raeford	28376
+SandHoke Early College High	1110 East Central Avenue	-	Raeford	28376
+Ocracoke School	120 Schoolhouse Rd	-	Ocracoke	27960
+Mattamuskeet Early College High	20392 Hwy US 264	-	Swan Quarter	27885
+Agriculture and Science Early College	158 Raider Rd	-	Olin	28660
+Career Academy and Technical School	350 Old Murdock Rd	-	Troutman	28166
+Collaborative College for Technology	500 West Broad Street	-	Statesville	28677
+Lake Norman High	186 Doolie Road	-	Mooresville	28117
+North Iredell High	156 Raider Road	-	Olin	28660
+Pressly School	222 Knox St	-	Statesville	28677
+Statesville High	474 N Center St	-	Statesville	28677
+Crossroads Arts Sciences Early College	476 N Center St	-	Statesville	28677
+South Iredell High	299 Old Mountain Rd	-	Statesville	28677
+West Iredell High	213 Warrior Dr	-	Statesville	28677
+NF Woods Campus	574 W McLelland Ave	-	Mooresville	28115
+Mooresville High School	659 E Center Ave	-	Mooresville	28115
+Pine Lake Preparatory	104 Yellow Wood Circle	-	Mooresville	28115
+Langtree Charter Academy	154 Foundation Ct	-	Mooresville	28117
+Blue Ridge Early College	95 Bobcat Dr	-	Cashiers	28717
+Jackson Co Early College	404 College Drive	-	Sylva	28779
+Jackson Co Sch of Alternatives	3770 Skyland Drive	-	Sylva	28779
+Smoky Mountain High School	100 Smoky Mountain Drive	-	Sylva	28779
+Clayton High	600 S Fayetteville St	-	Clayton	27520
+Cleveland High	1892 Polenta Rd	-	Clayton	27520
+Corinth Holders High	6875 Applewhite Rd	-	Wendell	27591
+Johnston Co Early College Academy	245 College Rd	-	Smithfield	27577
+North Johnston High	5915 US Hwy 301 N	-	Kenly	27542
+Princeton High	101 Dr Donnie H Jones Jr Blvd	-	Princeton	27569
+Smithfield-Selma High	700 Booker Dairy Rd	-	Smithfield	27577
+South Johnston High	10381 US Hwy 301 S	-	Four Oaks	27524
+West Johnston High	5935 Raleigh Road	-	Benson	27504
+Neuse Charter School	909 Booker Dairy Rd	-	Smithfield	27577
+Jones Senior High	1490 Hwy 58 South	-	Trenton	28585
+Bragg Street Academy	504 Bragg Street	-	Sanford	27330
+Floyd L Knight Children Center	607 W McIntosh St	-	Sanford	27330
+Lee Early College	1105 Kelly Drive	-	Sanford	27330
+Lee County High	1708 Nash Street	-	Sanford	27330
+Southern Lee High School	2301 Tramway Road	-	Sanford	27332
+Kinston High	2601 N Queen St	-	Kinston	28501
+Lenoir County Early College High	231 Hwy 58 South	-	Kinston	28502
+Lenoir County Learning Academy	2529 Cedar Dell Lane	Haigler-Overcash Education Center	Kinston	28504
+North Lenoir High	2400 Institute Road	-	La Grange	28551
+South Lenoir High	3355 Old Hwy 11 South	-	Deep Run	28525
+Asbury Academy	221 Salem Church Road	-	Lincolnton	28092
+East Lincoln High	6471 Hwy 73	-	Denver	28037
+Lincolnton High	803 N Aspen St	-	Lincolnton	28092
+North Lincoln High	2737 Lee Lawing Road	-	Lincolnton	28092
+West Lincoln High	172 Shoal Rd	-	Lincolnton	28092
+Lincoln Charter School	7834 Galway Lane	-	Denver	28037
+Franklin High	100 Panther Drive	-	Franklin	28734
+Highlands School	545 Pierson Dr	-	Highlands	28741
+Macon Early College High School	77 Siler Farm Road	-	Franklin	28734
+Nantahala School	213 Windingstairs Rd	-	Topton	28781
+Union Academy	158 Union School Rd	-	Franklin	28734
+Madison Early College High	5734 US 25/70 Hwy	-	Marshall	28753
+Madison High School	5740 US Hwy 25-70	-	Marshall	28753
+South Creek Middle/High	21077 NC Hwy 903	-	Robersonville	27871
+Riverside High	1260 Godwin Ave	-	Williamston	27892
+Bear Grass Charter School	6344 E Bear Grass Rd	-	Williamston	27982
+McDowell Academy for Innovation	172 Lukin St	-	Marion	28752
+McDowell Early College	54 College Drive	-	Marion	28752
+McDowell High School	600 McDowell High School Dr	-	Marion	28752
+Ardrey Kell High	10220 Ardrey Kell Rd	-	Charlotte	28277
+William Amos Hough High	12420 Bailey Rd	-	Cornelius	28031
+Cato Middle College High	8120 Grier Rd   Suite 171-B	-	Charlotte	28215
+Cochrane Collegiate Academy	6200 Starhaven Dr	-	Charlotte	28215
+Butler High	1810 Matthews-Mint Hill Rd	-	Matthews	28105
+Military and Global Leadership Academy	1411 Hawthorne Lane, Ste A	-	Charlotte	28205
+East Mecklenburg High	6800 Monroe Rd	-	Charlotte	28212
+Hawthorne Academy of Health Sciences	1411 Hawthorne Ln	-	Charlotte	28205
+Garinger High	1100 Eastway Dr  	-	Charlotte	28205
+Harper Middle College High	315 W Hebron St	-	Charlotte	28273
+Harding University High	2001 Alleghany St	-	Charlotte	28208
+Hopewell High	11530 Beatties Ford Rd	-	Huntersville	28078
+Independence High	1967 Patriot Dr	-	Charlotte	28227
+Turning Point Academy	8701 Moores Chapel Rd	-	Charlotte	28214
+Levine Middle College High	2728 Campus Ridge Rd	-	Matthews	28105
+Mallard Creek High	3825 Johnston Oehler Rd	-	Charlotte	28269
+Metro School	405 S. Davidson St	-	Charlotte	28202
+Rocky River High	10505 Clear Creek Commerce Dr	-	Mint Hill	28227
+Lincoln Heights Academy	1900 Newcastle St	-	Charlotte	28216
+Myers Park High	2400 Colony Rd	-	Charlotte	28209
+North Mecklenburg High	11201 Old Statesville Rd	-	Huntersville	28078
+Northwest School of the Arts	1415 Beatties Ford Rd	-	Charlotte	28216
+Olympic High	4301 Sandy Porter Rd	-	Charlotte	28273
+Phillip O Berry Academy of Technology	1430 Alleghany St	-	Charlotte	28208
+Performance Learning Center	2300 W Sugar Creek Road	-	Charlotte	28262
+Providence High	1800 Pineville-Matthews Rd	-	Charlotte	28270
+South Mecklenburg High	8900 Park Rd	-	Charlotte	28210
+Charlotte Engineering Early College-UNCC	9000 Robert Snyder Rd	-	Charlotte	28262
+West Charlotte High	2219 Senior Dr	-	Charlotte	28216
+West Mecklenburg High	7400 Tuckaseegee Rd	-	Charlotte	28214
+Vance High	7600 IBM Dr	-	Charlotte	28262
+Merancas Middle College High	11930 Verhoeff Dr	-	Huntersville	28078
+Sugar Creek Charter	4101 N Tryon Street	-	Charlotte	28206
+Lake Norman Charter	12435 Old Statesville Road	-	Huntersville	28078
+Queen's Grant Community School	6400 Matthews Mint Hill Road	-	Mint Hill	28227
+Community School of Davidson	404 Armour Street	-	Davidson	28036
+Charlotte Secondary	8601 McAlpine Park Dr	-	Charlotte	28211
+Bradford Preparatory School	2502 Salome Church Rd	-	Charlotte	28262
+Commonwealth High	5112 Central Ave	-	Charlotte	28205
+Charlotte Learning Academy	800 Briar Creek Rd. 	DD400	Charlotte	28205
+Mayland Early College	264 Mayland Dr	-	Spruce Pine	28777
+Mitchell High	416 Ledger School Rd	-	Bakersville	28705
+Stewart Creek High	2701 Freedom Dr	F	Charlotte	28208
+Montgomery Learning Academy	310 S Main	-	Troy	27371
+East Montgomery High	157 Eagle Lane	-	Biscoe	27209
+West Montgomery High	147 Warrior Drive	-	Mount Gilead	27306
+The Community Learning Center @ Pinckney	160 Pinckney Road	-	Carthage	28327
+North Moore High	1504 North Moore Rd	-	Robbins	27325
+Pinecrest High	250 Voit Gilmore Lane	-	Southern Pines	28387
+Union Pines High	1981 Union Church Rd	-	Cameron	28326
+Tar River Academy	224 S. Pearl Street	-	Rocky Mount	27804
+Nash Central High	4279 Nash Central High Road	-	Rocky Mount	27804
+NRM Early College High School	530 North Old Carriage Road	-	Rocky Mount	27804
+Northern Nash High	4230 Green Hills Road	-	Rocky Mount	27804
+Rocky Mount High	1400 Bethlehem Road	-	Rocky Mount	27803
+Southern Nash High	6446 Southern Nash High Road	-	Bailey	27807
+Rocky Mount Preparatory	3334 Bishop Road	-	Rocky Mount	27804
+Emsley A Laney High	2700 N College Rd	-	Wilmington	28405
+Eugene Ashley High	555 Halyburton Memorial Parkwy	-	Wilmington	28412
+Isaac M Bear Early College High School	630 MacMillan Avenue	-	Wilmington	28403
+John T Hoggard High	4305 Shipyard Blvd	-	Wilmington	28403
+New Hanover High	1307 Market St	-	Wilmington	28401
+J. C. Roe Center	2875 Worth Drive	-	Wilmington	28412
+Career Readiness Academy at Mosley PLC	3702 Princess Place Drive	-	Wilmington	28405
+Wilmington Early College High	4500 Blue Clay Rd 	WECHS Bldg.ND122	Castle Hayne	28429
+Northampton County High School	152 Hurricane Drive	-	Gaston	27832
+Northampton Early College	100 College Dr.	-	Weldon	27890
+KIPP Gaston College Preparatory	320 Pleasant Hill Road	-	Gaston	27832
+Dixon High	160 Dixon School Rd	-	Holly Ridge	28445
+Jacksonville High	1021 Henderson Dr	-	Jacksonville	28540
+Northside High	365 Commons Drive South	-	Jacksonville	28546
+Richlands High	8100 Richlands Hwy	-	Richlands	28574
+Southwest High	1420 Burgaw Hwy	-	Jacksonville	28540
+Swansboro High	161 Queens Creek Rd	-	Swansboro	28584
+White Oak High	1001 Piney Green Rd	-	Jacksonville	28546
+Lejeune High	835 Stone St	-	Camp Lejeune	28547
+Cedar Ridge High	1125 New Grady Brown Sch Rd	-	Hillsborough	27278
+Orange High	500 Orange High Rd	-	Hillsborough	27278
+Partnership Academy	1006 East Storey Lane	-	Hillsborough	27278
+Carrboro High	201 Rock Haven Rd	-	Carrboro	27510
+Chapel Hill High	1709 High School Rd	-	Chapel Hill	27516
+East Chapel Hill High	500 Weaver Dairy Rd	-	Chapel Hill	27514
+UNC Hospital School	101 Manning Dr	-	Chapel Hill	27514
+Phoenix Academy High	750 S Merritt Mill Rd	-	Chapel Hill	27516
+Eno River Academy	1212 NC Highway 57 North	-	Hillsborough	27278
+Pamlico County High	601 Main Street	-	Bayboro	28515
+Arapahoe Charter School	9005 NC Hwy 306 S	-	Arapahoe	28510
+H L Trigg Community	1004 Parkview Drive	-	Elizabeth City	27909
+Northeastern High	963 Oak Stump Rd	-	Elizabeth City	27909
+Pasquotank County High	1064 Northside Road	-	Elizabeth City	27909
+Northeast Academy of Aerospace & AdvTech	1810 Weeksville Rd	ECSU ITC Bldg	Elizabeth City	27909
+Heide Trask High	14328 NC Hwy 210	-	Rocky Point	28457
+Pender High	5380 NC Hwy 53 W	-	Burgaw	28425
+Pender Early College High	100 East Industrial Drive	-	Burgaw	28425
+Topsail High	245 St. Johns Church Road	-	Hampstead	28443
+Perquimans County High	305 Edenton Road St	-	Hertford	27944
+Person High	1010 Ridge Rd	-	Roxboro	27573
+Roxboro Community School	115 Lake Drive	-	Roxboro	27573
+Ayden-Grifton High	7653 NC 11 South	-	Ayden	28513
+D H Conley High	2006 Worthington Rd	-	Greenville	27858
+Farmville Central High	3308 E Wilson Street	-	Farmville	27828
+Junius H Rose High	600 W Arlington Blvd	-	Greenville	27834
+North Pitt High	5659 NC 11 North	-	Bethel	27812
+Vidant  Health	400 Spruce Street	-	Greenville	27834
+South Central	570 W Forlines Road	-	Winterville	28590
+Early College High School	1959 Warren Drive	Pitt Community College	Winterville	28590
+Polk County Early College	1545 East NC 108 Hwy	-	Columbus	28722
+Polk County High School	1681 East NC 108 Hwy	-	Columbus	28722
+Eastern Randolph High	390 Eastern Randolph Rd	-	Ramseur	27316
+Providence Grove High	5555 Mack Lineberry Rd	-	Climax	27233
+Randleman High	4396 Tigers Den Rd	-	Randleman	27317
+Randolph Early College High	629 Industrial Park Avenue	-	Asheboro	27205
+Southwestern Randolph High	1641 Hopewell Friends Rd	-	Asheboro	27205
+Trinity High	5746 Trinity High School Rd	-	Trinity	27370
+Wheatmore High	3678 Finch Farm Rd	-	Trinity	27370
+Asheboro High	1221 S Park St	-	Asheboro	27203
+Uwharrie Charter Academy	5326 US Hwy 220 Business South	-	Asheboro	27205
+Ashley Chapel Educational Center	377 Mizpah Road	-	Rockingham	28379
+Richmond Senior High	838 US 1 North	-	Rockingham	28379
+Richmond Early College High	1042 W Hamlet Ave	-	Hamlet	28345
+Fairmont High	5419 Old Stage Road	-	Fairmont	28340
+Lumberton Senior High	3901 Fayetteville Rd	-	Lumberton	28358
+PSRC Early College at RCC	5160 Fayetteville Road	-	Lumberton	28360
+Red Springs High	509 N Vance Street	-	Red Springs	28377
+Saint Pauls High	648 North Stage Rd	-	Saint Pauls	28384
+South Robeson High	3268 South Robeson Rd	-	Rowland	28383
+Purnell Swett High	11344 Deep Branch Road	-	Pembroke	28372
+Dalton McMichael High	6845 Hwy 135	-	Mayodan	27027
+John M Morehead High	134 N Pierce St	-	Eden	27288
+Reidsville High	1901 S Park Dr	-	Reidsville	27320
+Rockingham County High	180 High School Rd	-	Reidsville	27320
+Rockingham Co Early College High	315 Wrenn Memorial Road	-	Wentworth	27375
+The SCORE Center	401 Moss Street	-	Reidsville	27320
+Henderson High	1215 North Main St	-	Salisbury	28144
+East Rowan High	175 St Luke's Church Rd	-	Salisbury	28146
+Carson High	290 Kress Venture Dr	-	China Grove	28023
+North Rowan High	300 North Whitehead Ave	-	Spencer	28159
+Rowan Co Early College	1333 Jake Alexander Blvd S	-	Salisbury	28146
+Salisbury High	500 Lincolnton Rd	-	Salisbury	28144
+South Rowan High	1655 Patterson St	-	China Grove	28023
+West Rowan High	8050 NC 801 Hwy	-	Mount Ulla	28125
+Chase High School	1603 Chase High Rd	-	Forest City	28043
+East Rutherford High School	331 East High Rd	-	Bostic	28018
+R-S Central High School	641 Hwy 221 North	-	Rutherfordton	28139
+Rutherford Early College High School	286 ICC Loop Road	-	Spindale	28160
+Rutherford Opportunity Center	140 Old Caroleen Road	-	Forest City	28043
+Thomas Jefferson Class Academy	2527 US 221A Hwy	-	Mooresboro	28114
+Lake Lure Classical Academy	1058 Island Creek Rd. 	-	Lake Lure	28746
+Sampson Early College High	1801 Sunset Ave	-	Clinton	28329
+Hobbton High	12201 Hobbton Hwy	-	Newton Grove	28366
+Lakewood High	245 Lakewood School Rd	-	Salemburg	28385
+Midway High	15274 Spiveys Corner Highway	-	Newton Grove	28366
+Union High	1189 Kader Merritt Road	-	Rose Hill	28458
+Clinton High	340 Indian Town Road	-	Clinton	28328
+Shaw Academy	18700 Old Wire Road	-	Laurinburg	28352
+Scotland High School	1000 West Church St	-	Laurinburg	28352
+Scotland Early College High	1700 Dogwood Mile	-	Laurinburg	28352
+Albemarle High	311 Park Ridge Road	-	Albemarle	28001
+North Stanly High	40206 US Hwy 52 N	-	New London	28127
+South Stanly High	40488 S Stanly School Rd	-	Norwood	28128
+Stanly Early College High	141 College Drive	-	Albemarle	28001
+West Stanly High	306 East Red Cross Road	-	Oakboro	28129
+Stanly Academy Learning Center	1121 Austin Street	-	Albemarle	28001
+Gray Stone Day	49464 Merner Terrace	-	Misenheimer	28109
+Meadowbrook Academy	817 Meadowbrook Drive	-	King	27021
+North Stokes High	1350 N Stokes Sch Rd	-	Danbury	27016
+South Stokes High	1100 S Stokes High Drive	-	Walnut Cove	27052
+West Stokes High	1400 Priddy Road	-	King	27021
+Stokes Early College	1165 Dodgetown Rd	-	Walnut Cove	27052
+East Surry High	801 W Main Street	-	Pilot Mountain	27041
+North Surry High	2440 W Pine Street	-	Mount Airy	27030
+Surry Central High	716 South Main Street	-	Dobson	27017
+Surry Early College	630 South Main Street	-	Dobson	27017
+Elkin High	334 Elk Spur St	-	Elkin	28621
+Mount Airy High	1011 N South St	-	Mount Airy	27030
+Millennium Charter Academy	500 Old Springs Rd	-	Mount Airy	27030
+Cherokee Extension School	50 Main Street	-	Bryson City	28713
+Swain County High School	1415 Fontana Road	-	Bryson City	28713
+Brevard High	609 N. Country Club Rd	-	Brevard	28712
+Davidson River School	970 Ecusta Rd	-	Brevard	28712
+Rosman High	749 Pickens Hwy	-	Rosman	28772
+Columbia High	902 Main St	-	Columbia	27925
+Cuthbertson High	1400 Cuthbertson Rd	-	Waxhaw	28173
+Forest Hills High	100 Forest Hills School Rd	-	Marshville	28103
+Monroe High	1 High School Dr	-	Monroe	28112
+Porter Ridge High School	2839 Ridge Road	-	Indian Trail	28079
+Parkwood High	3220 Parkwood School Rd	-	Monroe	28112
+Piedmont High	3006 Sikes Mill Road	-	Monroe	28110
+Sun Valley High	5211 Old Charlotte Hwy	-	Monroe	28110
+South Providence	500 South Providence Street	-	Waxhaw	28173
+Central Academy of Technology and Arts	600 Brewer Dr	-	Monroe	28112
+Union County Early College	4209 Old Charlotte Hwy	A	Monroe	28110
+Weddington High	4901 Monroe-Weddington Road	-	Matthews	28104
+Wolfe School	722 Brewer Drive	-	Monroe	28112
+Marvin Ridge High	2825 Crane Road	-	Waxhaw	28173
+Union Academy	675 North ML King Jr Blvd	-	Monroe	28110
+AdVance Academy	219 Charles Street	-	Henderson	27536
+Vance County High School	925 Garrett Road	-	Henderson	27537
+Vance Co Early College	200 Community College Rd	-	Henderson	27537
+Henderson Collegiate	1071 Old Epsom Rd	-	Henderson	27536
+Apex High	7600 Roberts Road	-	Cary	27519
+Apex Friendship High	7801 Humie Olive Rd	-	Apex	27502
+Athens Drive High	1420 Athens Drive	-	Raleigh	27606
+Longview	318 N King Charles Rd	-	Raleigh	27610
+Needham Broughton High	723 Saint Mary's St	-	Raleigh	27605
+Cary High	638 Walnut St	-	Cary	27511
+Crossroads FLEX 	5651 Dillard Dr	-	Cary	27518
+East Wake High	5101 Rolesville Rd	-	Wendell	27591
+Enloe High	128 Clarendon Crescent	-	Raleigh	27610
+Fuquay-Varina High	201 Bengal Blvd	-	Fuquay-Varina	27526
+Garner High	2101 Spring Drive	-	Garner	27529
+Green Hope High	2500 Carpenter Upchurch Road	-	Cary	27519
+Heritage High	1150 Forestville Road	-	Wake Forest	27587
+Holly Springs High	5329 Cass Holt Road	-	Holly Springs	27540
+Knightdale High	100 Bryan Chalk Lane	-	Knightdale	27545
+Leesville Road High	8410 Pride Way	-	Raleigh	27613
+Middle Creek High	123 Middle Creek Park Avenue	-	Apex	27539
+Millbrook High	2201 Spring Forest Rd	-	Raleigh	27615
+North Wake College and Career Academy	931 Durham Rd	-	Wake Forest	27587
+Panther Creek High	6770 McCrimmon Parkway	-	Cary	27519
+Phillips High	1923 Milburnie Rd	-	Raleigh	27610
+Rolesville High	1099 East Young St	-	Rolesville 	27571
+Sanderson High	5500 Dixon Drive	-	Raleigh	27609
+SCORE Academy	5651 Dillard Dr	-	Cary 	27518
+Southeast Raleigh High	2600 Rock Quarry Road	-	Raleigh	27610
+Vernon Malone College and Career Academy	2200 S Wilmington St	-	Raleigh	27603
+Wake STEM Early College High School	715 Barbour Dr	-	Raleigh	27603
+Wake Early College of Health and Science	2901 Holston Lane	-	Raleigh	27610
+Wake Young Men's Leadership Academy	567 East Hargett St	-	Raleigh	27601
+Wake Young Women's Leadership Academy	301 Ashe Avenue	Governor Morehead	Raleigh	27606
+Wake Forest High School	420 West Stadium Drive	-	Wake Forest	27587
+Wakefield High	2200 Wakefield Pines Drive	-	Raleigh	27614
+Franklin Academy	648 Flaherty Ave	-	Wake Forest	27587
+East Wake Academy	821 Charter School Way	-	Zebulon	27597
+Raleigh Charter High School	1307 Glenwood Avenue	-	Raleigh	27605
+Southern Wake Academy	5108 Old Powell Rd	-	Holly Springs	27540
+Triangle Math and Science Academy	312 Gregson Dr.	-	Cary	27511
+Longleaf School of the Arts	322 Chapanoke Road	-	Raleigh	27603
+Warren County High	149 Campus Drive	-	Warrenton	27589
+Warren Early College High	210 Ridgeway St	-	Warrenton	27589
+Warren New Tech High	219 US Hwy 158 Bypass	-	Warrenton	27589
+Haliwa-Saponi Tribal School	130 Haliwa-Saponi Trail	-	Hollister	27844
+Central Wake High School	1425 Rock Quarry Road 	-	Raleigh	27610
+Washington County High	800 E Main St	-	Plymouth	27962
+Washington Early College High	102 NC Hwy 32 North	-	Roper	27970
+Northeast Regional School - Biotech/Agri	1215 Saint Andrews St	-	Jamesville	27846
+Watauga High	300 Go Pioneers Drive	-	Boone	28607
+Watauga Innovation Academy	300 Go Pioneers Drive	-	Boone	28607
+Charles B Aycock High	5460 US 117 North	-	Pikeville	27863
+Eastern Wayne High	1135 New Hope Road	-	Goldsboro	27534
+Edgewood Cmty Developmental	1601 Peachtree St	-	Goldsboro	27530
+Goldsboro High	901 E Beech Street	-	Goldsboro	27530
+Rosewood High	900 Rosewood Road	-	Goldsboro	27530
+Southern Wayne High	124 Walter Fulcher Rd	-	Dudley	28333
+Spring Creek High	4340 Indian Springs Rd	-	Seven Springs	28578
+Wayne Middle / High Academy	801 N Lionel St	-	Goldsboro	27530
+Wayne Early / Middle College High	3000 Wayne Memorial Drive	-	Goldsboro	27534
+Wayne School of Engineering	700 N Herman St	-	Goldsboro	27530
+East Wilkes High School	13315 Elkin Hwy 268	-	Ronda	28670
+North Wilkes High School	2986 Traphill Rd	-	Hays	28635
+West Wilkes High School	6598 Boone Trail	-	Millers Creek	28651
+Wilkes Central High School	1179 Moravian Falls Rd	-	Wilkesboro	28697
+Wilkes Early College High School	1328 S Collegiate Dr	-	Wilkesboro	28697
+Milton M Daniels Learning Center	723 Elvie Street	-	Wilson	27893
+Beddingfield High	4510 Old Stantonsburg Rd	-	Wilson	27893
+Fike High	500 Harrison Dr N	-	Wilson	27893
+James Hunt High	4559 Lamm Rd	-	Wilson	27893
+Wilson Early College Academy	902 Herring St	-	Wilson	27893
+Wilson Preparatory Academy	2755 Tilghman Rd N	-	Wilson	27896
+Boonville Elementary	232 East Main Street	-	Boonville	27011
+Forbush High	1525 Falcon Road	-	East Bend	27018
+Starmount High	2516 Longtown Rd	-	Boonville	27011
+Yadkin Early College	1001 College Drive	-	Yadkinville	27055
+Yadkin Success Academy	733 East Main Street	-	Yadkinville	27055
+Mountain Heritage High	333 Mtn Heritage HS Road	-	Burnsville	28714
+Edgecombe Youth Development Center	78 Positive Way	-	Rocky Mount	27801
+Dobbs/Lenoir Youth Development Center	3055 Dobbs Farm Rd	-	Kinston	28504
+Stonewall Jackson Youth Dev Ctr	850 Holshouser Rd	-	Concord	28027
+Cumberland - NC State Learning Academy	1911 Coliseum Dr	-	Fayetteville	28306
+Cabarrus - NC State Learning Academy	822 McWhorter Road	-	Concord	28027
+New Hanover - NC State Learning Academy	3830 Juvenile Center Rd	-	Castle Hayne	28429
+Pitt - NC State Learning Academy	451 Belvoir Road	-	Greenville	27834
+Wake - NC State Learning Academy	700 Beacon Lake Dr	-	Raleigh	27610
+Alexander - NC State Learning Academy	928 NC HWY 16 South	-	Taylorsville	28681
+Chatham Youth Dev Center	560 Progress Blvd	-	Siler City	27344
+Eckerd - Candor	500 E Ku Sumee Rd	-	Candor	27229
+Eckerd - Boomer	4654 High Rock Rd	-	Boomer	28606
+Westcare NC Girls Academy	633 Shepard’s Way Lane	-	Manson	27553
