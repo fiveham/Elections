@@ -13,7 +13,7 @@ Such locations include (according to https://www.ncsbe.gov/Voters/Registering-to
     Source:
       https://statelibrary.ncdcr.gov/ld/about-libraries/library-directory/download
     File:
-      Library-Directory.txt
+      pub-lib.txt
         Fields to use: Branch Name, Street Address, City, ZIP Code
   Public high schools or college admissions offices.
     Source:
