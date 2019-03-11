@@ -1,5 +1,5 @@
 Source Table	Place Name	addr1	addr_sup	city	zip	lat	long
-state-boe.txt	NORTH CAROLINA STATE BOARD OF ELECTIONS	430 N. Salisbury St.	Third floor	Raleigh	27611		
+state-boe.txt	NORTH CAROLINA STATE BOARD OF ELECTIONS	430 N. Salisbury St.	Third floor	Raleigh	27603		
 county-boe.txt	ALAMANCE COUNTY BOARD OF ELECTIONS	115 SOUTH MAPLE STREET		GRAHAM	 27253		
 county-boe.txt	ALEXANDER COUNTY BOARD OF ELECTIONS	370 1ST AVENUE SW		TAYLORSVILLE	 28681		
 county-boe.txt	ALLEGHANY COUNTY BOARD OF ELECTIONS	348 S. MAIN ST. LOWER LEVEL 10		SPARTA	 28675		
@@ -1174,7 +1174,7 @@ high-school-table.txt	Alexander - NC State Learning Academy	928 NC HWY 16 South	
 high-school-table.txt	Chatham Youth Dev Center	560 Progress Blvd		Siler City	27344		
 high-school-table.txt	Eckerd - Candor	500 E Ku Sumee Rd		Candor	27229		
 high-school-table.txt	Eckerd - Boomer	4654 High Rock Rd		Boomer	28606		
-high-school-table.txt	Westcare NC Girls Academy	633 Shepard’s Way Lane		Manson	27553		
+high-school-table.txt	Westcare NC Girls Academy	633 ShepardÂ’s Way Lane		Manson	27553		
 license-offices.txt	Graham Driver License Office	111 East Crescent Square		Graham	27253	36.0549006	-79.3983141
 license-offices.txt	Taylorsville Driver License Office	2390 NC Highway 90 E.		Taylorsville	28681	35.9154291	-81.1362046
 license-offices.txt	Blue Ridge Business Development Center Driver License Office	115 Atwood St. Suite 508		Sparta	28675	36.51366	-81.11907
