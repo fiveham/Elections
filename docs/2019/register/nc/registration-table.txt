@@ -1,0 +1,1647 @@
+Source Table	Place Name	addr1	addr_sup	city	zip	lat	long
+county-boe.txt	ALAMANCE COUNTY BOARD OF ELECTIONS	115 SOUTH MAPLE STREET		GRAHAM	 27253		
+county-boe.txt	ALEXANDER COUNTY BOARD OF ELECTIONS	370 1ST AVENUE SW		TAYLORSVILLE	 28681		
+county-boe.txt	ALLEGHANY COUNTY BOARD OF ELECTIONS	348 S. MAIN ST. LOWER LEVEL 10		SPARTA	 28675		
+county-boe.txt	ANSON COUNTY BOARD OF ELECTIONS	402 MORVEN ROAD		WADESBORO	 28170		
+county-boe.txt	ASHE COUNTY BOARD OF ELECTIONS	150 GOVERNMENT CIRCLE, STE 2100		JEFFERSON	 28640		
+county-boe.txt	AVERY COUNTY BOARD OF ELECTIONS	200 MONTEZUMA ST, SUITE 307	COURT HOUSE ANNEX	NEWLAND	 28657		
+county-boe.txt	BEAUFORT COUNTY BOARD OF ELECTIONS	1308 HIGHLAND DRIVE, SUITE 104		WASHINGTON	 27889		
+county-boe.txt	BERTIE COUNTY BOARD OF ELECTIONS	210 W. WATSON ST.		WINDSOR	 27983		
+county-boe.txt	BLADEN COUNTY BOARD OF ELECTIONS	301 SOUTH CYPRESS STREET		ELIZABETHTOWN	 28337		
+county-boe.txt	BRUNSWICK COUNTY BOARD OF ELECTIONS	75 STAMP ACT DRIVE NE	BUILDING H	BOLIVIA	 28422		
+county-boe.txt	BUNCOMBE COUNTY BOARD OF ELECTIONS	77 MCDOWELL STREET		ASHEVILLE	 28801		
+county-boe.txt	BURKE COUNTY BOARD OF ELECTIONS	2128 S STERLING ST	STE. 100	MORGANTON	 28655		
+county-boe.txt	CABARRUS COUNTY BOARD OF ELECTIONS	369 CHURCH ST N		CONCORD	 28025		
+county-boe.txt	CALDWELL COUNTY BOARD OF ELECTIONS	905 WEST AVENUE		LENOIR	 28645		
+county-boe.txt	CAMDEN COUNTY BOARD OF ELECTIONS	117 NC HWY 343 N		CAMDEN	 27921		
+county-boe.txt	CARTERET COUNTY BOARD OF ELECTIONS	1702 LIVE OAK ST, SUITE 200		BEAUFORT	 28516		
+county-boe.txt	CASWELL COUNTY BOARD OF ELECTIONS	140 MAIN STREET		YANCEYVILLE	 27379		
+county-boe.txt	CATAWBA COUNTY BOARD OF ELECTIONS	25 GOVERNMENT DRIVE		NEWTON	 28658		
+county-boe.txt	CHATHAM COUNTY BOARD OF ELECTIONS	984 THOMPSON ST., STE. D		PITTSBORO	 27312		
+county-boe.txt	CHEROKEE COUNTY BOARD OF ELECTIONS	40 PEACHTREE STREET		MURPHY	 28906		
+county-boe.txt	CHOWAN COUNTY BOARD OF ELECTIONS	730 N GRANVILLE STREET	SUITE "D"	EDENTON	 27932		
+county-boe.txt	CLAY COUNTY BOARD OF ELECTIONS	54 CHURCH STREET		HAYESVILLE	 28904		
+county-boe.txt	CLEVELAND COUNTY BOARD OF ELECTIONS	215 PATTON DR.		SHELBY	 28150		
+county-boe.txt	COLUMBUS COUNTY BOARD OF ELECTIONS	2322 JAMES B. WHITE HWY. N		WHITEVILLE	 28472		
+county-boe.txt	CRAVEN COUNTY BOARD OF ELECTIONS	406 CRAVEN STREET		NEW BERN	 28560		
+county-boe.txt	CUMBERLAND COUNTY BOARD OF ELECTIONS	227 FOUNTAINHEAD LANE SUITE 101		FAYETTEVILLE	 28301		
+county-boe.txt	CURRITUCK COUNTY BOARD OF ELECTIONS	2811 CARATOKE HIGHWAY		CURRITUCK	 27929		
+county-boe.txt	DARE COUNTY BOARD OF ELECTIONS	954 MARSHALL COLLINS DRIVE		MANTEO	 27954		
+county-boe.txt	DAVIDSON COUNTY BOARD OF ELECTIONS	945 N MAIN ST SUITE A		LEXINGTON	 27292		
+county-boe.txt	DAVIE COUNTY BOARD OF ELECTIONS	161 POPLAR ST. SUITE 102		MOCKSVILLE	 27028		
+county-boe.txt	DUPLIN COUNTY BOARD OF ELECTIONS	160 MALLARD STREET		KENANSVILLE	 28349		
+county-boe.txt	DURHAM COUNTY BOARD OF ELECTIONS	201 N. ROXBORO ST		DURHAM	 27701		
+county-boe.txt	EDGECOMBE COUNTY BOARD OF ELECTIONS	201 ST ANDREW ST., RM 434		TARBORO	 27886		
+county-boe.txt	FORSYTH COUNTY BOARD OF ELECTIONS	201 N. CHESTNUT STREET		WINSTON SALEM	 27101		
+county-boe.txt	FRANKLIN COUNTY BOARD OF ELECTIONS	107 INDUSTRIAL DRIVE		LOUISBURG	 27549		
+county-boe.txt	GASTON COUNTY BOARD OF ELECTIONS	410 W. FRANKLIN BLVD., STE. 50		GASTONIA	 28052		
+county-boe.txt	GATES COUNTY BOARD OF ELECTIONS	931 MAIN ST		GATESVILLE	 27938		
+county-boe.txt	GRAHAM COUNTY BOARD OF ELECTIONS	18 COURT STREET		ROBBINSVILLE	 28771		
+county-boe.txt	GRANVILLE COUNTY BOARD OF ELECTIONS	208 WALL STREET		OXFORD	 27565		
+county-boe.txt	GREENE COUNTY BOARD OF ELECTIONS	110 SE FIRST STREET		SNOW HILL	 28580		
+county-boe.txt	GUILFORD COUNTY BOARD OF ELECTIONS	301 W. MARKET ST, ROOM 115		GREENSBORO	 27401		
+county-boe.txt	HALIFAX COUNTY BOARD OF ELECTIONS	10 N. KING STREET		HALIFAX	 27839		
+county-boe.txt	HARNETT COUNTY BOARD OF ELECTIONS	308 W. DUNCAN ST		LILLINGTON	 27546		
+county-boe.txt	HAYWOOD COUNTY BOARD OF ELECTIONS	63 ELMWOOD WAY	SUITE A	WAYNESVILLE	 28786		
+county-boe.txt	HENDERSON COUNTY BOARD OF ELECTIONS	75 E. CENTRAL ST.		HENDERSONVILLE	 28792		
+county-boe.txt	HERTFORD COUNTY BOARD OF ELECTIONS	418 EVERETT ST	SUITE A	AHOSKIE	 27910		
+county-boe.txt	HOKE COUNTY BOARD OF ELECTIONS	227 N MAIN ST		RAEFORD	 28376		
+county-boe.txt	HYDE COUNTY BOARD OF ELECTIONS	1223 MAIN STREET		SWAN QUARTER	 27885		
+county-boe.txt	IREDELL COUNTY BOARD OF ELECTIONS	203 STOCKTON ST.		STATESVILLE	 28677		
+county-boe.txt	JACKSON COUNTY BOARD OF ELECTIONS	876 SKYLAND DRIVE	SUITE 1	SYLVA	 28779		
+county-boe.txt	JOHNSTON COUNTY BOARD OF ELECTIONS	205 S. SECOND ST.		SMITHFIELD	 27577		
+county-boe.txt	JONES COUNTY BOARD OF ELECTIONS	367-B HWY 58-S		TRENTON	 28585		
+county-boe.txt	LEE COUNTY BOARD OF ELECTIONS	225 S. STEELE ST.		SANFORD	 27330		
+county-boe.txt	LENOIR COUNTY BOARD OF ELECTIONS	110-C S HERRITAGE ST		KINSTON	 28501		
+county-boe.txt	LINCOLN COUNTY BOARD OF ELECTIONS	115 W MAIN ST, ROOM 201		LINCOLNTON	 28092		
+county-boe.txt	MACON COUNTY BOARD OF ELECTIONS	5 W MAIN ST	FLOOR 1	FRANKLIN	 28734		
+county-boe.txt	MADISON COUNTY BOARD OF ELECTIONS	5707 HWY 25-70 RM 16		MARSHALL	 28753		
+county-boe.txt	MARTIN COUNTY BOARD OF ELECTIONS	305 E MAIN ST, ROOM 120		WILLIAMSTON	 27892		
+county-boe.txt	MCDOWELL COUNTY BOARD OF ELECTIONS	60 E. COURT ST		MARION	 28752		
+county-boe.txt	MECKLENBURG COUNTY BOARD OF ELECTIONS	741 KENILWORTH AVE STE 202		CHARLOTTE	 28204		
+county-boe.txt	MITCHELL COUNTY BOARD OF ELECTIONS	11 N MITCHELL AVE	ROOM 108	BAKERSVILLE	 28705		
+county-boe.txt	MONTGOMERY COUNTY BOARD OF ELECTIONS	327 NORTH MAIN STREET		TROY	 27371		
+county-boe.txt	MOORE COUNTY BOARD OF ELECTIONS	700 PINEHURST AVENUE		CARTHAGE	 28327		
+county-boe.txt	NASH COUNTY BOARD OF ELECTIONS	1006 EASTERN AVENUE, RM 109		NASHVILLE	 27856		
+county-boe.txt	NEW HANOVER COUNTY BOARD OF ELECTIONS	230 GOVERNMENT CENTER DR., SUITE 38		WILMINGTON	 28403		
+county-boe.txt	NORTHAMPTON COUNTY BOARD OF ELECTIONS	9495 NC HWY 305, JW FAISON ADMIN BLDG		JACKSON	 27845		
+county-boe.txt	ONSLOW COUNTY BOARD OF ELECTIONS	246 GEORGETOWN RD.		JACKSONVILLE	 28540		
+county-boe.txt	ORANGE COUNTY BOARD OF ELECTIONS	208 S. CAMERON ST		HILLSBOROUGH	 27278		
+county-boe.txt	PAMLICO COUNTY BOARD OF ELECTIONS	202 MAIN STREET		BAYBORO	 28515		
+county-boe.txt	PASQUOTANK COUNTY BOARD OF ELECTIONS	1409 PARKVIEW DR.		ELIZABETH CITY	 27909		
+county-boe.txt	PENDER COUNTY BOARD OF ELECTIONS	807 S. WALKER ST.		BURGAW	 28425		
+county-boe.txt	PERQUIMANS COUNTY BOARD OF ELECTIONS	601A S EDENTON RD ST		HERTFORD	 27944		
+county-boe.txt	PERSON COUNTY BOARD OF ELECTIONS	331 SOUTH MORGAN STREET		ROXBORO	 27573		
+county-boe.txt	PITT COUNTY BOARD OF ELECTIONS	1717 WEST 5TH STREET		GREENVILLE	 27834		
+county-boe.txt	POLK COUNTY BOARD OF ELECTIONS	40 COURTHOUSE ST		COLUMBUS	 28722		
+county-boe.txt	RANDOLPH COUNTY BOARD OF ELECTIONS	158 WORTH STREET	SHAW BUILDING	ASHEBORO	 27203		
+county-boe.txt	RICHMOND COUNTY BOARD OF ELECTIONS	221 S. HANCOCK ST		ROCKINGHAM	 28379		
+county-boe.txt	ROBESON COUNTY BOARD OF ELECTIONS	800 N. WALNUT STREET		LUMBERTON	 28358		
+county-boe.txt	ROCKINGHAM COUNTY BOARD OF ELECTIONS	240 CHEROKEE CAMP RD.		REIDSVILLE	 27320		
+county-boe.txt	ROWAN COUNTY BOARD OF ELECTIONS	1935 JAKE ALEXANDER BLVD W	SUITE D10	SALISBURY	 28147		
+county-boe.txt	RUTHERFORD COUNTY BOARD OF ELECTIONS	298 FAIRGROUND ROAD		SPINDALE	 28160		
+county-boe.txt	SAMPSON COUNTY BOARD OF ELECTIONS	120 COUNTY COMPLEX ROAD	SUITE 110	CLINTON	 28328		
+county-boe.txt	SCOTLAND COUNTY BOARD OF ELECTIONS	231 EAST CRONLY ST, SUITE 305		LAURINBURG	 28352		
+county-boe.txt	STANLY COUNTY BOARD OF ELECTIONS	1000 N FIRST STREET SUITE 16		ALBEMARLE	 28001		
+county-boe.txt	STOKES COUNTY BOARD OF ELECTIONS	1012 MAIN STREET		DANBURY	 27016		
+county-boe.txt	SURRY COUNTY BOARD OF ELECTIONS	915 E. ATKINS STREET		DOBSON	 27017		
+county-boe.txt	SWAIN COUNTY BOARD OF ELECTIONS	1422 HWY 19 S.		BRYSON CITY	 28713		
+county-boe.txt	TRANSYLVANIA COUNTY BOARD OF ELECTIONS	150 SOUTH GASTON STREET	SUITE A	BREVARD	 28712		
+county-boe.txt	TYRRELL COUNTY BOARD OF ELECTIONS	403 MAIN STREET		COLUMBIA	 27925		
+county-boe.txt	UNION COUNTY BOARD OF ELECTIONS	316-B EAST WINDSOR ST		MONROE	 28112		
+county-boe.txt	VANCE COUNTY BOARD OF ELECTIONS	300 S. GARNETT ST, STE C		HENDERSON	 27536		
+county-boe.txt	WAKE COUNTY BOARD OF ELECTIONS	337 S SALISBURY STREET		RALEIGH	 27601		
+county-boe.txt	WARREN COUNTY BOARD OF ELECTIONS	309 N MAIN STREET-ANNEX BUILDING		WARRENTON	 27589		
+county-boe.txt	WASHINGTON COUNTY BOARD OF ELECTIONS	116 ADAMS ST		PLYMOUTH	 27962		
+county-boe.txt	WATAUGA COUNTY BOARD OF ELECTIONS	842 WEST KING STREET, STE. 6		BOONE	 28607		
+county-boe.txt	WAYNE COUNTY BOARD OF ELECTIONS	309 E. CHESTNUT ST.		GOLDSBORO	 27530		
+county-boe.txt	WILKES COUNTY BOARD OF ELECTIONS	110 NORTH STREET, RM 315		WILKESBORO	 28697		
+county-boe.txt	WILSON COUNTY BOARD OF ELECTIONS	112 DOUGLAS ST. EAST		WILSON	 27893		
+county-boe.txt	YADKIN COUNTY BOARD OF ELECTIONS	213 EAST ELM STREET ROOM 100		YADKINVILLE	 27055		
+county-boe.txt	YANCEY COUNTY BOARD OF ELECTIONS	30 EAST US HWY 19E BY-PASS	SUITE 2	BURNSVILLE	 28714		
+pub-lib.txt	May Memorial Library (Main)	342 S Spring St		Burlington	27215		
+pub-lib.txt	Graham Public Library	211 S Main St		Graham	27253		
+pub-lib.txt	Mebane Public Library	101 S First St		Mebane	27302		
+pub-lib.txt	North Park Library / Community Center	849 Sharpe Rd		Burlington	27217		
+pub-lib.txt	Ahoskie Public Library	210 E Church St		Ahoskie	27910		
+pub-lib.txt	Gates County Library	14 Cypress Creek Dr		Gatesville	27938		
+pub-lib.txt	Hertford County Library	303 W Tryon St		Winton	27986		
+pub-lib.txt	Bertie County Public Library	111 US Hwy 13/17 Bypass		Windsor	27983		
+pub-lib.txt	Elizabeth Sewell Parker Library	213 E Main St		Murfreesboro	27855		
+pub-lib.txt	Northampton County Memorial Library	207 W Jefferson St		Jackson	27845		
+pub-lib.txt	Sallie H. Jenkins Memorial Library	302 Broad St		Aulander	27805		
+pub-lib.txt	Alexander County Library (Main)	77 1st Ave Sw		Taylorsville	28681		
+pub-lib.txt	Bethlehem Branch Library	45 Rink Dam Rd		Hickory	28601		
+pub-lib.txt	Stony Point Branch Library	431 Ruritan Park Rd		Stony Point	28678		
+pub-lib.txt	Ashe County Library	148 Library Dr		West Jefferson	28694		
+pub-lib.txt	Traphill Branch Library	6938 Traphill Rd		Traphill	28685		
+pub-lib.txt	Watauga County Public Library	140 Queen St		Boone	28607		
+pub-lib.txt	Western Watauga Branch Library	1085 Old US Hwy 421		Sugar Grove	28679		
+pub-lib.txt	Wilkes County Library	215 10th St		North Wilkesboro	28659		
+pub-lib.txt	Avery County Library	150 Library Pl		Newland	28657		
+pub-lib.txt	Avery-Mitchell-Yancey Regional Library Bookmobile	289 Burnsville School Rd		Burnsville	28714		
+pub-lib.txt	Mitchell County Library	18 N Mitchell Ave		Bakersville	28705		
+pub-lib.txt	Spruce Pine Public Library	142 Walnut Ave		Spruce Pine	28777		
+pub-lib.txt	Yancey County Library	321 School Cir		Burnsville	28714		
+pub-lib.txt	Bath Community Library	102 S Harding St		Bath	27808		
+pub-lib.txt	BHM Regional Library	158 N Market St		Washington	27889		
+pub-lib.txt	Belhaven Public Library	333 E Main St		Belhaven	27810		
+pub-lib.txt	Hazel W. Guilford Memorial Library	524 Main St		Aurora	27806		
+pub-lib.txt	Martin Memorial Library	200 N Smithwick St		Williamston	27892		
+pub-lib.txt	Ocracoke Branch Library	225 Back Rd		Ocracoke	27960		
+pub-lib.txt	Robersonville Public Library	119 S Main St		Robersonville	27871		
+pub-lib.txt	Hyde County Public Library	33460 US Hwy 264		Engelhard	27824		
+pub-lib.txt	Bladen County Public Library (Main)	111 N Cypress St		Elizabethtown	28337		
+pub-lib.txt	Bridger Memorial Library	313 S Main St		Bladenboro	28320		
+pub-lib.txt	Bladen County Public Library Bookmobile	111 N Cypress St		Elizabethtown	28337		
+pub-lib.txt	Clarkton Public Library	10413 N College St		Clarkton	28433		
+pub-lib.txt	Braswell Memorial Public Library (Main)	727 N Grace St		Rocky Mount	27804		
+pub-lib.txt	Wesley Privette Memorial Library	6280 Main St		Bailey	27807		
+pub-lib.txt	Whitakers Public Library	106 W Pippen St		Whitakers	27891		
+pub-lib.txt	Middlesex Public Library	12480 W Hanes Ave		Middlesex	27557		
+pub-lib.txt	Spring Hope Public Library	101 N Ash St		Spring Hope	27882		
+pub-lib.txt	Harper Library	109 W Moore St		Southport	28461		
+pub-lib.txt	Leland Branch Library	487 Village Rd		Leland	28451		
+pub-lib.txt	"G. V. Barbee, Sr. Library"	8200 E Oak Island Dr		Oak Island	28465		
+pub-lib.txt	Rourk Branch Library	5068 Main St		Shallotte	28459		
+pub-lib.txt	Southwest Brunswick Branch Library	9400 Ocean Hwy West		Carolina Shores	28467		
+pub-lib.txt	Pack Memorial Library (Main)	67 Haywood St		Asheville	28801		
+pub-lib.txt	Black Mountain Branch Library	105 Dougherty St		Black Mountain	28711		
+pub-lib.txt	Buncombe County Law Library	60 Court Plz		Asheville	28801		
+pub-lib.txt	East Asheville Branch Library	902 Tunnel Rd		Asheville	28805		
+pub-lib.txt	Enka Branch Library	1404 Sandhill Rd		Enka	28728		
+pub-lib.txt	Fairview Branch Library	1 Taylor Rd		Fairview	28730		
+pub-lib.txt	Leicester Branch Library	1561 Alexander Rd		Leicester	28748		
+pub-lib.txt	North Asheville Branch Library	1230 Merrimon Ave		Asheville	28804		
+pub-lib.txt	South Asheville Branch Library	749 Fairview Rd		Asheville	28803		
+pub-lib.txt	South Buncombe - Skyland Library	260 Overlook Rd		Skyland	28776		
+pub-lib.txt	Swannanoa Branch Library	101 W Charleston St		Swannonoa	28778		
+pub-lib.txt	Weaverville Library	41 N Main St		Weaverville	28787		
+pub-lib.txt	West Asheville Branch Library	942 Haywood Rd		Asheville	28806		
+pub-lib.txt	Burke County Public Library (Main)	204 S King St		Morganton	28655		
+pub-lib.txt	C. B. Hildebrand Public Library	101B Main Ave West		Hildebran	28637		
+pub-lib.txt	Valdese Public Library	213 Saint Germain Ave Se		Valdese	28690		
+pub-lib.txt	Cabarrus County Public Library (Main)	27 Union St N		Concord	28025		
+pub-lib.txt	Kannapolis Branch Library	850 Mountain St		Kannapolis	28081		
+pub-lib.txt	Mt. Pleasant Branch Library	8556 Cook St		Mount Pleasant	28124		
+pub-lib.txt	Harrisburg Library	201 Sims Pkwy		Harrisburg	28075		
+pub-lib.txt	Caldwell County Public Library (Main)	120 Hospital Ave		Lenoir	28645		
+pub-lib.txt	Granite Falls Branch Library	24 S Main St		Granite Falls	28630		
+pub-lib.txt	Hudson Branch Library	530 Central St		Hudson	28638		
+pub-lib.txt	Gunn Memorial Public Library	118 W Main St		Yanceyville	27379		
+pub-lib.txt	Conover Branch Library	403 Conover Station Se		Conover	28613		
+pub-lib.txt	Catawba County Library (Main)	115 W C St		Newton	28658		
+pub-lib.txt	Maiden Branch Library	11 S A Ave		Maiden	28650		
+pub-lib.txt	Sherrills Ford-Terrell Branch	9154 Sherrills Ford Rd		Terrell	28682		
+pub-lib.txt	Southwest Branch Library	2944 S NC 127 Hwy		Hickory	28602		
+pub-lib.txt	St. Stephens Branch Library	3225 Springs Rd		Hickory	28601		
+pub-lib.txt	Claremont Branch Library	3288 E Main St		Claremont	28610		
+pub-lib.txt	Chapel Hill Public Library	100 Library Dr		Chapel Hill	27514		
+pub-lib.txt	Beatties Ford Road Regional Library	2412 Beatties Ford Rd		Charlotte	28216		
+pub-lib.txt	Cornelius Branch Library	21105 Catawba Ave		Cornelius	28031		
+pub-lib.txt	Davidson Branch Library	119 S Main St		Davidson	28036		
+pub-lib.txt	Hickory Grove Branch Library	5935 Hickory Grove Rd		Charlotte	28215		
+pub-lib.txt	Imaginon: The Joe & Joan Martin Center	300 E 7th St		Charlotte	28202		
+pub-lib.txt	Independence Regional Library	6015 Conference Dr		Charlotte	28212		
+pub-lib.txt	Charlotte Mecklenburg Library (Main)	310 N Tryon St		Charlotte	28202		
+pub-lib.txt	Matthews Branch Library	230 Matthews Station St		Matthews	28105		
+pub-lib.txt	Mint Hill Branch Library	6840 Matthews-Mint Hill Rd		Charlotte	28227		
+pub-lib.txt	Morrison Regional Library	7015 Morrison Blvd		Charlotte	28211		
+pub-lib.txt	Mountain Island Branch Library	4420 Hoyt Galvin Wy		Charlotte	28214		
+pub-lib.txt	Myers Park Branch Library	1361 Queens Rd		Charlotte	28207		
+pub-lib.txt	North County Regional Library	16500 Holly Crest Ln		Huntersville	28078		
+pub-lib.txt	Plaza Midwood Branch Library	1623 Central Ave		Charlotte	28205		
+pub-lib.txt	Scaleybark Branch Library	101 Scaleybark Rd		Charlotte	28209		
+pub-lib.txt	South County Regional Library	5801 Rea Rd		Charlotte	28277		
+pub-lib.txt	Steele Creek Branch Library	13620 Steele Creek Rd		Charlotte	28273		
+pub-lib.txt	Sugar Creek Branch Library	4045 N Tryon St		Charlotte	28206		
+pub-lib.txt	University City Regional Library	301 E W T Harris Rd		Charlotte	28262		
+pub-lib.txt	West Boulevard Branch Library	2157 West Blvd		Charlotte	28208		
+pub-lib.txt	Goldston Public Library	9235 Pittsboro-Goldston Rd		Goldston	27252		
+pub-lib.txt	Chatham Community Library (Main)	197 NC Hwy 87 N		Pittsboro	27312		
+pub-lib.txt	Wren Memorial Library	500 N 2nd Ave		Siler City	27344		
+pub-lib.txt	Cleveland County Memorial Library (Main)	104 Howie Dr		Shelby	28150		
+pub-lib.txt	Spangler Branch Library	112 Piedmont Dr		Lawndale	28090		
+pub-lib.txt	Chadbourn Community Library	301 N Wilson St		Chadbourn	28431		
+pub-lib.txt	Columbus County Public Library (Main)	407 N JK Powell Blvd		Whiteville	28472		
+pub-lib.txt	Columbus County Public Library Bookmobile	407 N JK Powell Blvd		Whiteville	28472		
+pub-lib.txt	East Columbus Branch Library	103 Church Rd		Riegelwood	28456		
+pub-lib.txt	Fair Bluff Community Library	315 Railroad St		Fair Bluff	28439		
+pub-lib.txt	Rube Mccray Memorial Library	301 Fleming Dr		Lake Waccamaw	28450		
+pub-lib.txt	Tabor City Public Library	1 E 5th St		Tabor City	28463		
+pub-lib.txt	Bogue Banks Public Library	320 Salter Path Rd		Pine Knoll Shores	28512		
+pub-lib.txt	Carteret County Public Library	1702 Live Oak St. Suite 100		Beaufort	28516		
+pub-lib.txt	Cove City-Craven County Public Library	102 N Main St		Cove City	28523		
+pub-lib.txt	Down East Public Library	702 Hwy 70 E Otway		Beaufort	28516		
+pub-lib.txt	Havelock-Craven County Public	301 Cunningham Blvd		Havelock	28532		
+pub-lib.txt	New Bern-Craven County Public Library	400 Johnson St		New Bern	28560		
+pub-lib.txt	Newport Public Library	210 Howard Blvd		Newport	28570		
+pub-lib.txt	Pamlico County Library	603 Main St		Bayboro	28515		
+pub-lib.txt	Vanceboro-Craven County Public Library	7931 Main St		Vanceboro	28586		
+pub-lib.txt	Western Carteret Library	230 Taylor Notion Rd		Cape Carteret	28584		
+pub-lib.txt	Bordeaux Branch Library	3711 Village Dr		Fayetteville	28304		
+pub-lib.txt	Cliffdale Branch Library	6882 Cliffdale Rd		Fayetteville	28314		
+pub-lib.txt	Cumberland County Public Library & Information Center (Main)	300 Maiden Ln		Fayetteville	28301		
+pub-lib.txt	East Regional Branch Library	4809 Clinton Rd		Fayetteville	28312		
+pub-lib.txt	Hope Mills Branch Library	3411 Golfview Rd		Hope Mills	28348		
+pub-lib.txt	North Regional Branch Library	855 McArthur Rd		Fayetteville	28311		
+pub-lib.txt	Spring Lake Branch Library	101 Laketree Blvd		Spring Lake	28390		
+pub-lib.txt	West Regional Branch Library	7469 Century Cir		Fayetteville	28306		
+pub-lib.txt	Lexington Public Library (Main)	602 S Main St		Lexington	27292		
+pub-lib.txt	Denton Public Library	310 W Salisbury St		Denton	27239		
+pub-lib.txt	Davidson County Bookmobile	602 S Main St		Lexington	27292		
+pub-lib.txt	North Davidson Branch Library	559 Critcher Dr		Welcome	27374		
+pub-lib.txt	Thomasville Public Library	14 Randolph St		Thomasville	27360		
+pub-lib.txt	West Davidson Public Library	246 Tyro School Rd		Lexington	27295		
+pub-lib.txt	Cooleemee Branch Library	7796 Hwy 801 S		Cooleemee	27014		
+pub-lib.txt	Davie County Public Library (Main)	371 N Main St		Mocksville	27028		
+pub-lib.txt	Florence Gallier Library	104 W Main St		Magnolia	28453		
+pub-lib.txt	Dorothy Wightman Library (Main)	107 Bowden Dr		Kenansville	28349		
+pub-lib.txt	Emily Hill Library	106 Park Cir		Faison	28341		
+pub-lib.txt	Phillip Leff Memorial Library	807 E Broad St		Beulaville	28518		
+pub-lib.txt	Rose Hill Library	113 S Walnut St		Rose Hill	28458		
+pub-lib.txt	Warsaw-Kornegay Public Library	117 E College St		Warsaw	28398		
+pub-lib.txt	East Regional Branch Library	211 Lick Creek Ln		Durham	27703		
+pub-lib.txt	South Regional Library	4505 S Alston Ave		Durham	27713		
+pub-lib.txt	Bragtown Branch Library	3200 Dearborn Dr		Durham	27704		
+pub-lib.txt	Durham County Library (Main)	300 N Roxboro St		Durham	27701		
+pub-lib.txt	North Regional Library	221 Milton Rd		Durham	27712		
+pub-lib.txt	Southwest Regional Library	3605 Shannon Rd		Durham	27707		
+pub-lib.txt	Stanford L Warren Branch Library	1201 Fayetteville St		Durham	27707		
+pub-lib.txt	Camden County Public Library	104 Investor's Way Unit C-F		Camden	27921		
+pub-lib.txt	Corolla Branch Library	1123 Ocean Trail		Corolla	27927		
+pub-lib.txt	Currituck County Library	4261 Caratoke Hwy		Barco	27917		
+pub-lib.txt	Dare County Library	700 N Highway 64/264		Manteo	27954		
+pub-lib.txt	Hatteras Branch Library	57709 Highway 12		Hatteras	27943		
+pub-lib.txt	Kill Devil Hills Branch Library	400 Mustian St		Kill Devil Hills	27948		
+pub-lib.txt	Moyock Public Library	126 Campus Dr		Moyock	27958		
+pub-lib.txt	Pasquotank Library Bookmobile	100 E Colonial Ave		Elizabeth City	27909		
+pub-lib.txt	Pasquotank County Library	100 E Colonial Ave		Elizabeth City	27909		
+pub-lib.txt	Edgecombe County Memorial Library (Main)	909 Main St		Tarboro	27886		
+pub-lib.txt	Pinetops Branch Library	201 S 1st St		Pinetops	27864		
+pub-lib.txt	Farmville Public Library	4276 W Church St		Farmville	27828		
+pub-lib.txt	Albert Carlton-Cashiers Community Library	249 Frank Allen Rd		Cashiers	28717		
+pub-lib.txt	Hudson Library	554 Main St		Highlands	28741		
+pub-lib.txt	Jackson County Public Library	310 Keener St		Sylva	28779		
+pub-lib.txt	Macon County Public Library	149 Siler Farm Rd		Franklin	28734		
+pub-lib.txt	Marianna Black Library	33 Fryemont Rd		Bryson City	28713		
+pub-lib.txt	Nantahala Community Library	128 Nantahala School Rd		Topton	28781		
+pub-lib.txt	Carver School Road Branch Library	4915 Lansing Dr		Winston-Salem	27105		
+pub-lib.txt	Clemmons Branch Library	3554 Clemmons Rd		Clemmons	27012		
+pub-lib.txt	Malloy/Jordan East Winston Heritage Center	1110 E 7th St		Winston-Salem	27101		
+pub-lib.txt	Forsyth County Public Library Bookmobile	1110 E 7th St		Winston-Salem	27101		
+pub-lib.txt	Forsyth County Public Library (Main)	660 W Fifth Street		Winston-Salem	27101		
+pub-lib.txt	Paddison Memorial Branch Library	248 Harmon Ln		Kernersville	27284		
+pub-lib.txt	Lewisville Branch Library	6490 Shallowford Rd		Lewisville	27023		
+pub-lib.txt	Rural Hall Branch Library	7125 Broad St		Rural Hall	27045		
+pub-lib.txt	Southside Branch Library	3185 Buchanan St		Winston-Salem	27127		
+pub-lib.txt	Walkertown Branch Library	2969 Main St		Walkertown	27051		
+pub-lib.txt	Reynolda Manor Branch Library	2839 Fairlawn Dr		Winston-Salem	27106		
+pub-lib.txt	Bunn Branch Library	610 Main St		Bunn	27508		
+pub-lib.txt	Franklin County Library (Main)	906 N Main St		Louisburg	27549		
+pub-lib.txt	Franklinton Public Library	9 W Mason St		Franklinton	27525		
+pub-lib.txt	Franklin County Bookmobile	906 N Main St		Louisburg	27549		
+pub-lib.txt	Youngsville Branch Library	218 US 1A Hwy S		Youngsville	27596		
+pub-lib.txt	Belmont Branch Library	125 N Central Ave		Belmont	28012		
+pub-lib.txt	Bessemer City Branch Library	207 N 12th St		Bessemer City	28016		
+pub-lib.txt	Cherryville Branch Library	605 E Main St		Cherryville	28021		
+pub-lib.txt	Dallas Branch Library	105 S Holland St		Dallas	28034		
+pub-lib.txt	Ferguson Branch Library	913 N Pryor St		Gastonia	28052		
+pub-lib.txt	Gaston County Public Library (Main)	1555 E Garrison Blvd		Gastonia	28054		
+pub-lib.txt	Lowell Branch Library	203 McAdenville Rd		Lowell	28098		
+pub-lib.txt	Mt. Holly Branch Library	245 W Catawba Ave		Mount Holly	28120		
+pub-lib.txt	Stanley Branch Library	205 Peterson St		Stanley	28164		
+pub-lib.txt	Union Road Branch Library	5800 Union Rd		Gastonia	28056		
+pub-lib.txt	George H. & Laura E. Brown Public Library	122 Van Norden St		Washington	27889		
+pub-lib.txt	Berea Branch Library	1211 Hwy 158		Oxford	27565		
+pub-lib.txt	Richard H. Thornton Library (Main)	210 Main St		Oxford	27565		
+pub-lib.txt	South Branch Library	1550 S Campus Dr		Creedmoor	27522		
+pub-lib.txt	Stovall Branch Library	300 Main St		Stovall	27582		
+pub-lib.txt	Blanche Benjamin Branch Library	1530 Benjamin Pkwy		Greensboro	27408		
+pub-lib.txt	Glenwood Branch Library	1901 W Florida St		Greensboro	27403		
+pub-lib.txt	Glenn McNairy Branch Library	4860 Lake Jeanette Rd		Greensboro	27455		
+pub-lib.txt	Greensboro Public Library (Main)	219 N Church St		Greensboro	27401		
+pub-lib.txt	Kathleen Clay Edwards Family Branch	1420 Price Park Rd		Greensboro	27410		
+pub-lib.txt	McGirt-Horton Branch Library	2501 Phillips Ave		Greensboro	27405		
+pub-lib.txt	Hemphill Branch Library	2301 W Vandalia Rd		Greensboro	27407		
+pub-lib.txt	Vance H. Chavis Lifelong Learning Branch Library	900 S Benbow Rd		Greensboro	27406		
+pub-lib.txt	Enfield Library	103 S Railroad St		Enfield	27823		
+pub-lib.txt	Halifax County Library (Main)	33 Granville St		Halifax	27839		
+pub-lib.txt	Littleton Public Library	114 E South Main St		Littleton	27850		
+pub-lib.txt	Scotland Neck Memorial Library	1600 Main St		Scotland Neck	27874		
+pub-lib.txt	Weldon Memorial Library	6 W 1st St		Weldon	27890		
+pub-lib.txt	Angier Public Library	28 N Raleigh St		Angier	27546		
+pub-lib.txt	Coats Public Library	29 E Main St		Coats	27521		
+pub-lib.txt	Dunn Public Library	110 E Divine St		Dunn	28334		
+pub-lib.txt	Erwin Public Library	110 W F St		Erwin	28339		
+pub-lib.txt	Harnett County Public Library (Main)	601 S Main St		Lillington	27546		
+pub-lib.txt	Anderson Creek Public Library	914 Anderson Creek School Rd		Bunnlevel	28323		
+pub-lib.txt	Boone Trail Community Center & Library	8500 Old US 421		Lillington	27546		
+pub-lib.txt	Harold D. Cooley Library	114 W Church St		Nashville	27856		
+pub-lib.txt	Fines Creek Branch Library	190 Fines Creek Rd		Clyde	28721		
+pub-lib.txt	Canton Branch Library	11 Pennsylvania Ave		Canton	28716		
+pub-lib.txt	Haywood County Public Library (Main)	678 S Haywood St		Waynesville	28786		
+pub-lib.txt	Maggie Valley Branch Library	3987 Soco Rd		Maggie Valley	28751		
+pub-lib.txt	Edneyville Branch Library	2 Firehouse Ln		Hendersonville	28792		
+pub-lib.txt	Etowah Branch Library	101 Brickyard Rd		Etowah	28729		
+pub-lib.txt	Fletcher Branch Library	120 Library Rd		Fletcher	28732		
+pub-lib.txt	Green River Branch Library	50 Green River Rd		Zirconia	28790		
+pub-lib.txt	Henderson County Public Library (Main)	301 N Washington St		Hendersonville	28739		
+pub-lib.txt	Mills River Branch Library	124 Town Center Dr Ste 1		Mills River	28759		
+pub-lib.txt	Patrick Beaver Memorial Library (Main)	375 3rd St Ne		Hickory	28601		
+pub-lib.txt	Ridgeview Branch Library	706 1st St Sw		Hickory	28602		
+pub-lib.txt	High Point Public Library (Main)	901 N Main St		High Point	27262		
+pub-lib.txt	Books & Beyond Mobile Library	901 N Main St		High Point	27262		
+pub-lib.txt	Hocutt-Ellington Memorial Library	100 S Church Street		Clayton	27520		
+pub-lib.txt	Iredell County Library (Main)	201 N Tradd St		Statesville	28687		
+pub-lib.txt	Harmony Branch Library	3393 Harmony Hwy		Harmony	28634		
+pub-lib.txt	J. Hoyt Hayes Memorial Troutman Branch Library	215 W Church St		Troutman	28166		
+pub-lib.txt	Mauney Memorial Library	100 S Piedmont Ave		Kings Mountain	28086		
+pub-lib.txt	Broadway Branch Library	206 S Main St		Broadway	27505		
+pub-lib.txt	Lee County Library (Main)	107 Hawkins Ave		Sanford	27330		
+pub-lib.txt	Charles R. Jonas Library (Main)	306 W Main St		Lincolnton	28092		
+pub-lib.txt	Florence S. Shanklin Branch Library	7837 Fairfield Forest Rd		Denver	28037		
+pub-lib.txt	West Lincoln Branch Library	5545 W NC Hwy 27		Vale	28168		
+pub-lib.txt	Hot Springs Branch Library	170 Bridge St		Hot Springs	28743		
+pub-lib.txt	Madison County Public Library (Main)	1335 N Main St		Marshall	28753		
+pub-lib.txt	Mars Hill Branch Library	25 Library St		Mars Hill	28754		
+pub-lib.txt	McDowell County Public Library (Main)	90 W Court St		Marion	28752		
+pub-lib.txt	Old Fort Branch Library	65 E Mitchell St		Old Fort	28762		
+pub-lib.txt	Mooresville Public Library	304 S Main St		Mooresville	28115		
+pub-lib.txt	Andrews Public Library	871 Main St		Andrews	28901		
+pub-lib.txt	Graham County Public Library	80 Knight St		Robbinsville	28771		
+pub-lib.txt	Moss Memorial Library	26 Anderson St		Hayesville	28904		
+pub-lib.txt	Murphy Public Library	9 Blumenthal St		Murphy	28906		
+pub-lib.txt	Nantahala Regional Library Bookmobile	11 Blumenthal St		Murphy	28906		
+pub-lib.txt	Comfort Branch Library	4889 Highway 41 W		Trenton	28585		
+pub-lib.txt	Greene County Library	229G Kingold Blvd		Snow Hill	28580		
+pub-lib.txt	Kinston-Lenoir County Public Library	510 N Queen St		Kinston	28501		
+pub-lib.txt	La Grange Branch Library	119 E Washington St		La Grange	28551		
+pub-lib.txt	Maysville Branch Library	601 7th St		Maysville	28555		
+pub-lib.txt	Pink Hill Branch Library	114 W Broadway St		Pink Hill	28572		
+pub-lib.txt	Pollocksville Branch Library	415 Green Hill St		Pollocksville	28573		
+pub-lib.txt	Trenton Branch Library	204 Lakeview Dr		Trenton	28585		
+pub-lib.txt	Northeast Regional Library	1241 Military Cutoff Rd		Wilmington	28405		
+pub-lib.txt	Pleasure Island Library	"1401 North Lake Blvd, Ste 72"		Carolina Beach	28428		
+pub-lib.txt	Myrtle Grove Branch Library	5155 S College Rd		Wilmington	28412		
+pub-lib.txt	New Hanover County Public Library (Main)	201 Chestnut St		Wilmington	28401		
+pub-lib.txt	Alleghany County Public Library	115 Atwood St		Sparta	28675		
+pub-lib.txt	Charles H. Stone Memorial Library	319 W Main St		Pilot Mountain	27041		
+pub-lib.txt	Danbury Public Library	1104 Main St		Danbury	27016		
+pub-lib.txt	Dobson Community Library	113 Crutchfield St		Dobson	27017		
+pub-lib.txt	East Bend Public Library	420 Flint Hill Rd		East Bend	27018		
+pub-lib.txt	Elkin Public Library	111 N Front St		Elkin	28621		
+pub-lib.txt	Jonesville Public Library	560 Winston Rd		Jonesville	28642		
+pub-lib.txt	King Public Library	101 Pilot View Dr		King	27021		
+pub-lib.txt	Lowgap Public Library	5210 W Pine St		Lowgap	27024		
+pub-lib.txt	Mount Airy Public Library	145 Rockford St		Mount Airy	27030		
+pub-lib.txt	Walnut Cove Public Library	106 W Fifth St		Walnut Cove	27052		
+pub-lib.txt	Yadkin County Public Library	233 E Main St		Yadkinville	27055		
+pub-lib.txt	Boonville Community Public Library	121 W Main St		Boonville	27011		
+pub-lib.txt	Danbury Public Library Bookmobile	1104 Main St		Danbury	27016		
+pub-lib.txt	Onslow County Public Library (Main)	58 Doris Avenue E		Jacksonville	28540		
+pub-lib.txt	Richlands Public Library	299 S Wilmington St		Richlands	28574		
+pub-lib.txt	Sneads Ferry Branch Library	1330 Highway 210		Sneads Ferry	28460		
+pub-lib.txt	Swansboro Branch Library	1460 W Corbett Ave		Swansboro	28584		
+pub-lib.txt	Carrboro Branch Library/McDougle Middle School	900 Old Fayetteville Rd		Chapel Hill	27516		
+pub-lib.txt	Carrboro Cybrary	100 N Greensboro St		Carrboro	27510		
+pub-lib.txt	Orange County Public Library (Main)	137 W Margaret Ln		Hillsborough	27278		
+pub-lib.txt	Hampstead Branch Library	75 Library Dr		Hampstead	28443		
+pub-lib.txt	Pender County Public Library (Main)	103 S Cowan St		Burgaw	28425		
+pub-lib.txt	Perry Memorial Library	205 Breckenridge St		Henderson	27536		
+pub-lib.txt	Person County Public Library	319 S Main St		Roxboro	27573		
+pub-lib.txt	Perquimans County Library	514 S Church St		Hertford	27944		
+pub-lib.txt	Shepard-Pruden Memorial Library	106 W Water St		Edenton	27932		
+pub-lib.txt	Tyrrell County Library	414 Main St		Columbia	27925		
+pub-lib.txt	Washington County Library	201 E Third St		Plymouth	27962		
+pub-lib.txt	Saluda Library	44 West Main St		Saluda	28773		
+pub-lib.txt	Columbus Library (Main)	1289 W Mills St		Columbus	28722		
+pub-lib.txt	James Bryan Creech Library	206 W Hatcher St		Four Oaks	27524		
+pub-lib.txt	Kenly Public Library	205 Edgerton St		Kenly	27542		
+pub-lib.txt	Mary Duncan Public Library	100 W Main St		Benson	27504		
+pub-lib.txt	Princeton Public Library	"101 Doctor Donnie H. Jones, Jr Blvd"		Princeton	27569		
+pub-lib.txt	Public Library Of Johnston County & Smithfield (Main)	305 Market St		Smithfield	27577		
+pub-lib.txt	Public Library Of Johnston County & Smithfield Bookmobile	305 Market St		Smithfield	27577		
+pub-lib.txt	Selma Public Library	301 N Pollock St		Selma	27576		
+pub-lib.txt	Archdale Public Library	10433 S Main St		Archdale	27263		
+pub-lib.txt	John W. Clark Public Library	111 Sumner Pl		Franklinville	27248		
+pub-lib.txt	Liberty Public Library	239 S Fayetteville St		Liberty	27298		
+pub-lib.txt	Ramseur Public Library	1512 Main St		Ramseur	27316		
+pub-lib.txt	Randleman Public Library	142 W Academy Street		Randleman	27317		
+pub-lib.txt	Randolph Public Library (Main)	201 Worth St		Asheboro	27203		
+pub-lib.txt	Seagrove Public Library	530 Seagrove Plank Rd		Seagrove	27341		
+pub-lib.txt	Roanoke Rapids Public Library	319 Roanoke Ave		Roanoke Rapids	27870		
+pub-lib.txt	McMillan Memorial Library	205 E 2nd Ave		Red Springs	28377		
+pub-lib.txt	Gilbert Patterson Memorial Public Library	210 N Florence St		Maxton	28364		
+pub-lib.txt	Hector MacLean Public Library	106 S Main St		Fairmont	28340		
+pub-lib.txt	Pembroke Public Library	413 S Blaine St		Pembroke	28372		
+pub-lib.txt	Robeson County Public Library (Main)	101 N Chestnut St		Lumberton	28358		
+pub-lib.txt	Rowland Public Library	113 E Main St		Rowland	28383		
+pub-lib.txt	Robeson County Public Library Bookmobile	101 N Chestnut St		Lumberton	28358		
+pub-lib.txt	St. Pauls Public Library	221 W Broad St		Saint Pauls	28384		
+pub-lib.txt	Eden Branch Library	598 S Pierce St		Eden	27288		
+pub-lib.txt	Madison-Mayodan Public Library	611 Burton St		Madison	27025		
+pub-lib.txt	Reidsville Branch Library	204 W Morehead St		Reidsville	27320		
+pub-lib.txt	Rockingham County Public Library Bookmobile	527 Boone Rd		Eden	27288		
+pub-lib.txt	Stoneville Branch Library	201 E Main St		Stoneville	27048		
+pub-lib.txt	East Branch Library	110 Broad St		Rockwell	28138		
+pub-lib.txt	Rowan Public Library (Main)	201 W Fisher St		Salisbury	28144		
+pub-lib.txt	Rowan Public Library Bookmobile	201 W Fisher St		Salisbury	28144		
+pub-lib.txt	South Rowan Regional Library	920 Kimball Rd		China Grove	28088		
+pub-lib.txt	Haynes Public Library	"141 N Main St, Ste 110"		Henrietta	28076		
+pub-lib.txt	Mountains Branch Library	150 Bills Creek Rd		Lake Lure	28746		
+pub-lib.txt	Rutherford County Library (Main)	255 Callahan Koon Rd		Spindale	28160		
+pub-lib.txt	Bryan Memorial Library	302 W Weeksdale St		Newton Grove	28366		
+pub-lib.txt	Miriam B. Lamb Memorial Library	144 S Church Ave		Garland	28441		
+pub-lib.txt	Roseboro Public Library	300 W Roseboro St		Roseboro	28382		
+pub-lib.txt	J.C. Holliday Library (Main)	217 Graham St		Clinton	28328		
+pub-lib.txt	Anson County Bookmobile	120 S Greene St		Wadesboro	28170		
+pub-lib.txt	Moore County Bookmobile	101 Saunders St		Carthage	28327		
+pub-lib.txt	Allen Library	307 Page St		Biscoe	27209		
+pub-lib.txt	Currie Memorial Library	138 S School St		Candor	27229		
+pub-lib.txt	Hamlet Public Library	302 Main St		Hamlet	28345		
+pub-lib.txt	Hampton B. Allen Library	120 S Greene St		Wadesboro	28170		
+pub-lib.txt	Hoke County Public Library	334 N Main St		Raeford	28376		
+pub-lib.txt	Kemp Sugg Memorial Library	279 2nd St		Ellerbe	28338		
+pub-lib.txt	Leath Memorial Library	412 E Franklin St		Rockingham	28379		
+pub-lib.txt	Montgomery County Library	215 W Main St		Troy	27371		
+pub-lib.txt	Moore County Library	101 Saunders St		Carthage	28327		
+pub-lib.txt	Mount Gilead Library	110 W Allenton St		Mount Gilead	27306		
+pub-lib.txt	Page Memorial Library	100 S Poplar St		Aberdeen	28315		
+pub-lib.txt	Pinebluff Public Library	305 E Baltimore Ave		Pinebluff	28373		
+pub-lib.txt	Robbins Area Library	161 E Magnolia Dr		Robbins	27325		
+pub-lib.txt	Star Branch Library	222 S Main St		Star	27356		
+pub-lib.txt	Vass Area Library	128 Seaboard St		Vass	28394		
+pub-lib.txt	Scotland County Memorial Library	312 W Church St		Laurinburg	28352		
+pub-lib.txt	Scotland County Memorial Library Bookmobile	312 W Church St		Laurinburg	28352		
+pub-lib.txt	Blount Library	201 Ives St		Bethel	27812		
+pub-lib.txt	Winterville Public Library	2613 Railroad St		Winterville	28590		
+pub-lib.txt	Carver Branch Library	618 W 14th Ave		Greenville	27834		
+pub-lib.txt	East Branch Library	2000 Cedar Ln		Greenville	27858		
+pub-lib.txt	Sheppard Memorial Library (Main)	530 S Evans St		Greenville	27858		
+pub-lib.txt	Pitt County Bookmobile	530 S Evans St		Greenville	27858		
+pub-lib.txt	Southern Pines Public Library	170 W Connecticut Ave		Southern Pines	28387		
+pub-lib.txt	Badin Branch Library	62 Pine St		Badin	28009		
+pub-lib.txt	Locust Branch Library	213 Town Centre Dr		Locust	28097		
+pub-lib.txt	Norwood Branch Library	207 Pee Dee Ave		Norwood	28128		
+pub-lib.txt	Oakboro Branch Library	214 S Main St		Oakboro	28129		
+pub-lib.txt	Stanly County Public Library (Main)	133 E Main St		Albemarle	28001		
+pub-lib.txt	Transylvania County Library	212 S Gaston St		Brevard	28712		
+pub-lib.txt	Transylvania County Library Bookmobile	212 S Gaston St		Brevard	28712		
+pub-lib.txt	Union West Regional Library	123 Unionville-Indian Trail Rd		Indian Trail	28079		
+pub-lib.txt	Lois Morgan Edwards Memorial Library	414 Hasty St		Marshville	28103		
+pub-lib.txt	Union County Public Library (Main)	316 E Windsor St		Monroe	28112		
+pub-lib.txt	Waxhaw Library	509 S Providence St		Waxhaw	28173		
+pub-lib.txt	Athens Drive High School Library	1420 Athens Dr		Raleigh	27606		
+pub-lib.txt	Cameron Village Regional Library	1930 Clark Ave		Raleigh	27605		
+pub-lib.txt	Cary Community Library	310 S Academy St		Cary	27511		
+pub-lib.txt	East Regional Library	946 Steeple Square Ct		Knightdale	27545		
+pub-lib.txt	Duraleigh Road Community Library	5800 Duraleigh Rd		Raleigh	27612		
+pub-lib.txt	Eva Perry Regional Library	2100 Shepherds Vineyard Dr		Apex	27502		
+pub-lib.txt	Express Library Fayetteville Street	336 Fayetteville St		Raleigh	27601		
+pub-lib.txt	Fuquay-Varina Community Library	133 S Fuquay Ave		Fuquay-Varina	27526		
+pub-lib.txt	Green Road Community Library	4101 Green Rd		Raleigh	27604		
+pub-lib.txt	Holly Springs Community Library	300 W Ballentine St		Holly Springs	27540		
+pub-lib.txt	Leesville Community Library	5105 Country Trl		Raleigh	27613		
+pub-lib.txt	Middle Creek Community Library	111 Middle Creek Park Ave		Apex	27539		
+pub-lib.txt	North Regional Library	7009 Harps Mill Rd		Raleigh	27615		
+pub-lib.txt	Northeast Regional Library	14401 Green Elm Lane		Raleigh	27614		
+pub-lib.txt	Olivia Raney Local History Library	4016 Carya Dr		Raleigh	27610		
+pub-lib.txt	Richard B. Harrison Community Library	1313 New Bern Ave		Raleigh	27610		
+pub-lib.txt	Southgate Community Library	1601-14 Crosslink Rd		Raleigh	27610		
+pub-lib.txt	Southeast Regional Library	908 7th Ave		Garner	27529		
+pub-lib.txt	Wake Forest Community Library	400 E Holding Ave		Wake Forest	27587		
+pub-lib.txt	Wendell Community Library	207 S Hollybrook Rd		Wendell	27591		
+pub-lib.txt	West Regional Library	4000 Louis Stephens Dr		Cary	27519		
+pub-lib.txt	Zebulon Community Library	1000 Dogwood Dr		Zebulon	27597		
+pub-lib.txt	Warren County Memorial Library	119 S Front St		Warrenton	27589		
+pub-lib.txt	Fremont Public Library	202 N Goldsboro St		Fremont	27830		
+pub-lib.txt	Pikeville Public Library	107 W Main St		Pikeville	27863		
+pub-lib.txt	Steele Memorial Library	119 W Main St		Mount Olive	28365		
+pub-lib.txt	Wayne County Public Library (Main)	1001 E Ash St		Goldsboro	27530		
+pub-lib.txt	Black Creek Branch Library	103 Central Ave		Black Creek	27813		
+pub-lib.txt	Crocker Branch Library	114 S Main St		Stantonsburg	27883		
+pub-lib.txt	East Branch Library	1006-C Ward Blvd		Wilson	27893		
+pub-lib.txt	Elm City Branch Library	114 N Railroad St		Elm City	27822		
+pub-lib.txt	Lucama Branch Library	103 E Spring St		Lucama	27851		
+pub-lib.txt	Wilson County Public Library (Main)	249 Nash St W		Wilson	27893		
+pub-lib.txt	Wilson County Public Library Bookmobile	249 W Nash St		Wilson	27893		
+high-school-table.txt	ABSS Early College at ACC	1247 Jimmie Kerr Road		Graham	27253		
+high-school-table.txt	Career and Technical Education Center	2550 Buckingham Road		Burlington	27217		
+high-school-table.txt	Eastern Alamance High	4040 Mebane Rogers		Mebane	27302		
+high-school-table.txt	Graham High	903 Trollinger Road		Graham	27253		
+high-school-table.txt	Hugh M Cummings High	2200 N Mebane Street		Burlington	27217		
+high-school-table.txt	Ray Street Academy	609 Ray Street		Graham	27253		
+high-school-table.txt	Southern Alamance High	631 Southern High Road		Graham	27253		
+high-school-table.txt	Walter M Williams High	1307 S Church Street		Burlington	27215		
+high-school-table.txt	Western Alamance High	1731 N NC 87		Elon	27244		
+high-school-table.txt	River Mill Academy	235 Cheeks Lane		Graham	27253		
+high-school-table.txt	Clover Garden	2454 Altamahaw Union Ridge Road		Burlington	27217		
+high-school-table.txt	The Hawbridge School	1735 Saxapahaw Bethlehem Church Rd		Saxapahaw	27340		
+high-school-table.txt	Alexander Central High	223 School Drive		Taylorsville	28681		
+high-school-table.txt	Alleghany High	404 Trojan Avenue		Sparta	28675		
+high-school-table.txt	Anson Co. Early College High	177 Ledbetter Street		Polkton	28135		
+high-school-table.txt	Anson Academy	118 N. Ashe Street		Wadesboro	28170		
+high-school-table.txt	Anson High School	96 Anson High School Road		Wadesboro	28170		
+high-school-table.txt	Ashe County High	184 Campus Drive		West Jefferson	28694		
+high-school-table.txt	Avery County High	401 Avery County High School Road		Newland	28657		
+high-school-table.txt	Blue Ridge Academy	76 Old Montezuma Rd		Newland	28657		
+high-school-table.txt	Avery High STEM Academy	401 Avery County High School Rd		Newland	28657		
+high-school-table.txt	Grandfather Academy	64 Grandfather Home Drive		Banner Elk	28604		
+high-school-table.txt	Marjorie Williams Academy	129 Allen Circle		Crossnore	28616		
+high-school-table.txt	B C Ed Tech Center	820 North Bridge St		Washington	27899		
+high-school-table.txt	Beaufort Co Early College High	5337 Hwy 264 East	Building 10	Washington	27889		
+high-school-table.txt	Northside High	7868 Free Union Church Road		Pinetown	27865		
+high-school-table.txt	Southside High	5700 Hwy 33 East		Chocowinity	27817		
+high-school-table.txt	Washington High	400 Slatestone Road		Washington	27889		
+high-school-table.txt	Washington Montessori	2330 Old Bath Hwy		Washington	27889		
+high-school-table.txt	Bertie Early College High	819 Governors Road		Windsor	27983		
+high-school-table.txt	Bertie High	716 US Hwy 13 North		Windsor	27983		
+high-school-table.txt	East Bladen High	5600 NC Hwy 87 East		Elizabethtown	28337		
+high-school-table.txt	West Bladen High	1600 NC Hwy 410		Bladenboro	28320		
+high-school-table.txt	Paul R Brown Leadership Academy	1300 Martin L King Jr Dr		Elizabethtown	28337		
+high-school-table.txt	Brunswick County Early College	50 College Road NE		Bolivia	28422		
+high-school-table.txt	The COAST	1109 Old Ocean Highway		Bolivia	28422		
+high-school-table.txt	North Brunswick High	114 Scorpion Drive		Leland	28451		
+high-school-table.txt	South Brunswick High	280 Cougar Drive BSL		Southport	28461		
+high-school-table.txt	West Brunswick High	550 Whiteville Road NW		Shallotte	28470		
+high-school-table.txt	Community High School	235 Old US 70		Swannanoa	28778		
+high-school-table.txt	Reynolds High	1 Rocket Drive		Asheville	28803		
+high-school-table.txt	Early College	340 Victoria Road		Asheville	28801		
+high-school-table.txt	Middle College	340 Victoria Road		Asheville	28801		
+high-school-table.txt	Owen High	99 Lake Eden Road		Black Mountain	28711		
+high-school-table.txt	Erwin High	60 Lees Creek Road		Asheville	28806		
+high-school-table.txt	Enka High	475 Enka Lake Road		Candler	28715		
+high-school-table.txt	North Buncombe High	890 Clarks Chapel Road		Weaverville	28787		
+high-school-table.txt	Roberson High	250 Overlook Road		Asheville	28803		
+high-school-table.txt	Nesbitt Discovery Academy	175 Bingham Rd Ste 10		Asheville	28806		
+high-school-table.txt	Asheville High	419 McDowell Street		Asheville	28803		
+high-school-table.txt	School of Inquiry and Life Sciences	419 McDowell Street		Asheville	28803		
+high-school-table.txt	IC Imagine 	1000 Brevard Road	Suite 175	Asheville	28806		
+high-school-table.txt	The Franklin School of Innovation	21 Innovation Dr		Asheville	28806		
+high-school-table.txt	Hallyburton Academy	205 South Main Street		Drexel	28619		
+high-school-table.txt	Burke Middle College	1001 Burkemont Ave		Morganton	28655		
+high-school-table.txt	East Burke High	3695 East Burke Boulevard		Connelly Springs	28612		
+high-school-table.txt	Freedom High	511 Independence Boulevard		Morganton	28655		
+high-school-table.txt	Jimmy C Draughn High School	709 Lovelady Road NE		Valdese	28690		
+high-school-table.txt	North Liberty	523 Enola Road		Morganton	28655		
+high-school-table.txt	Robert L. Patton High School	701 Enola Road		Morganton	28655		
+high-school-table.txt	Cox Mill High School	1355 Cox Mill Rd		Concord	28027		
+high-school-table.txt	Central Cabarrus High	505 Hwy 49 S		Concord	28025		
+high-school-table.txt	Concord High	481 Burrage Road NE		Concord	28025		
+high-school-table.txt	Jay M Robinson High	300 Pitts School Road SW		Concord	28027		
+high-school-table.txt	Cabarrus Co Opportunity School	120 Marsh Avenue NW		Concord	28025		
+high-school-table.txt	Mount Pleasant High	700 Walker Road		Mount Pleasant	28124		
+high-school-table.txt	Northwest Cabarrus High	5130 NW Cabarrus Drive		Concord	28027		
+high-school-table.txt	Hickory Ridge High	7321 Raging Ridge Road		Harrisburg	28075		
+high-school-table.txt	Performance Learning Center	4521 Weddington Road		Concord	28027		
+high-school-table.txt	Cabarrus-Kannapolis Early Coll	1531 Trinity Church Rd		Concord	28027		
+high-school-table.txt	A L Brown High	415 E 1st Street		Kannapolis	28083		
+high-school-table.txt	Carolina International School	9545 Poplar Tent Road		Concord	28027		
+high-school-table.txt	Cabarrus Charter Academy	355 Poplar Crossing Dr NW		Concord	28027		
+high-school-table.txt	Caldwell Career Cen Mid. Coll.	2857 Hickory Boulevard		Hudson	28638		
+high-school-table.txt	Gateway School	1889 Dudley Shoals Road		Granite Falls	28630		
+high-school-table.txt	Caldwell Early College	2859 Hickory Blvd SW		Hudson	28638		
+high-school-table.txt	Hibriten High	1350 Panther Trail SE		Lenoir	28645		
+high-school-table.txt	South Caldwell High	7035 Spartan Drive		Hudson	28638		
+high-school-table.txt	West Caldwell High	300 W Caldwell Drive		Lenoir	28645		
+high-school-table.txt	Camden County High	103 US 158 W		Camden	27921		
+high-school-table.txt	Camden Early College High	103 US Highway 158 West	A	Camden	27921		
+high-school-table.txt	Bridges School	140 Vashti Dr		Morehead City	28557		
+high-school-table.txt	East Carteret High	3263 Hwy 70 E		Beaufort	28516		
+high-school-table.txt	Croatan High	1 Cougar Lane		Newport	28570		
+high-school-table.txt	West Carteret High	4700 Country Club Road		Morehead City	28557		
+high-school-table.txt	Bartlett Yancey High	466 Main Street E		Yanceyville	27379		
+high-school-table.txt	Bandys High	5040 E Bandys Road		Catawba	28609		
+high-school-table.txt	Bunker Hill High	4675 Oxford School Road		Claremont	28610		
+high-school-table.txt	Catawba Rosenwald Education Center	403 6th Ave SW		Catawba	28609		
+high-school-table.txt	Challenger Early College High	2550 Hwy 70 SE		Hickory	28602		
+high-school-table.txt	Fred T Foard High	3407 Plateau Road		Newton	28658		
+high-school-table.txt	Maiden High	600 West Main Street		Maiden	28650		
+high-school-table.txt	Saint Stephens High	3205 34th Street Drive NE		Hickory	28601		
+high-school-table.txt	Hickory Career  Arts Magnet High School	409 8th Avenue NE		Hickory	28601		
+high-school-table.txt	Hickory High 	1234 3rd Street NE		Hickory	28601		
+high-school-table.txt	Conover Special Education	108 7th Street Place SW		Conover	28613		
+high-school-table.txt	Newton-Conover High	338 W 15th Street		Newton	28658		
+high-school-table.txt	Discovery High School	301 West 18th St		Newton	28658		
+high-school-table.txt	SAGE Academy	501 Martin L King Jr Blvd		Siler City	27344		
+high-school-table.txt	Chatham Central High	14950 NC Hwy 902 W		Bear Creek	27207		
+high-school-table.txt	Jordan Matthews High	910 East Cardinal Street		Siler City	27344		
+high-school-table.txt	Northwood High	310 Northwood High School Road		Pittsboro	27312		
+high-school-table.txt	Chatham Charter	2200 Hamp Stone Rd		Siler City	27344		
+high-school-table.txt	Woods Charter	160 Woodland Grove Ln		Chapel Hill	27516		
+high-school-table.txt	Andrews High	50 High School Drive		Andrews	28901		
+high-school-table.txt	Hiwassee Dam High	267 Blue Eagle Circle		Murphy	28906		
+high-school-table.txt	The Oaks Academy	2230 Airport Road		Marble	28905		
+high-school-table.txt	Murphy High	234 High School Circle		Murphy	28906		
+high-school-table.txt	Tri-County Early College High	4650 E US 64 Alt.		Murphy	28906		
+high-school-table.txt	Cherokee High	200 Ravensford Drive		Cherokee	28719		
+high-school-table.txt	John A Holmes High	600 Woodard Street		Edenton	27932		
+high-school-table.txt	Hayesville High	205 Yellow Jacket Drive		Hayesville	28904		
+high-school-table.txt	Burns High	307 E Stagecoach Trail		Lawndale	28090		
+high-school-table.txt	Cleveland ECHS	1800 E. Marion Street		Shelby	28152		
+high-school-table.txt	Crest High	800 Old Boiling Springs		Shelby	28152		
+high-school-table.txt	Turning Point Academy	409 West Sumter Street		Shelby	28150		
+high-school-table.txt	Kings Mountain High	500 Phifer Road		Kings Mountain	28086		
+high-school-table.txt	North Shelby	1701 Charles Road		Shelby	28152		
+high-school-table.txt	Shelby High	230 E Dixon Boulevard		Shelby	28152		
+high-school-table.txt	East Columbus High	32 Gator Lane		Lake Waccamaw	28450		
+high-school-table.txt	South Columbus High	40 Stallion Drive		Tabor City	28463		
+high-school-table.txt	CCCA - Fair Bluff /Southeastern Campuses	4564 Chadbourn Hwy		Whiteville	28472		
+high-school-table.txt	West Columbus High	7294 Andrew Jackson Hwy		Cerro Gordo	28430		
+high-school-table.txt	North Whiteville Academy	310 S Martin Luther King Jr Ave		Whiteville	28472		
+high-school-table.txt	Whiteville High	413 N Lee Street		Whiteville	28472		
+high-school-table.txt	Thomas Academy	206 Rube McCray Circle	B	Lake Waccamaw	28450		
+high-school-table.txt	Craven Early College High	800 College Court		New Bern	28562		
+high-school-table.txt	Early College EAST High	104 Middle School Lane		Havelock	28532		
+high-school-table.txt	Havelock High	101 Webb Boulevard		Havelock	28532		
+high-school-table.txt	New Bern High	4200 Academic Drive		New Bern	28562		
+high-school-table.txt	West Craven High	2600 Streets Ferry Road		Vanceboro	28586		
+high-school-table.txt	Jack Britt High	7403 Rockfish Road		Fayetteville	28306		
+high-school-table.txt	Douglas Byrd High	1624 Ireland Drive		Fayetteville	28304		
+high-school-table.txt	Cape Fear High	4762 Clinton Road		Fayetteville	28312		
+high-school-table.txt	Cumberland International Early College	1200 Murchison Rd	J Knuckles Science Annex	Fayetteville	28301		
+high-school-table.txt	Cross Creek Early College	1200 Murchison Road		Fayetteville	28301		
+high-school-table.txt	Grays Creek High	5301 Celebration Drive		Hope Mills	28348		
+high-school-table.txt	E E Smith High	1800 Seabrook Road		Fayetteville	28301		
+high-school-table.txt	Alger B. Wilkins High School 	1429 Skibo Road		Fayetteville	28303		
+high-school-table.txt	Massey Hill Classical High	1062 Southern Avenue		Fayetteville	28306		
+high-school-table.txt	Pine Forest High	525 Andrews Road		Fayetteville	28311		
+high-school-table.txt	Reid Ross Classical High	3200 Ramsey Street		Fayetteville	28301		
+high-school-table.txt	Seventy-First High	6764 Raeford Road		Fayetteville	28304		
+high-school-table.txt	South View High	4184 Elk Road		Hope Mills	28348		
+high-school-table.txt	Terry Sanford High	2301 Fort Bragg Road		Fayetteville	28303		
+high-school-table.txt	Ramsey Street High	117 Quincy St		Fayetteville	28301		
+high-school-table.txt	Westover High	277 Bonanza Drive		Fayetteville	28303		
+high-school-table.txt	Cumberland Polytechnic	2201 Hull Rd		Fayetteville	28303		
+high-school-table.txt	Currituck County High	4203 Caratoke Hwy		Barco	27917		
+high-school-table.txt	The JP Knapp ECH (i)School	2966 Caratoke Hwy		Currituck	27929		
+high-school-table.txt	Cape Hatteras Secondary School	48576  Highway 12		Buxton	27920		
+high-school-table.txt	Dare Learning Academy	132 Russell Twiford Road		Manteo	27954		
+high-school-table.txt	Manteo High School	829 Wingina Avenue		Manteo	27954		
+high-school-table.txt	First Flight High School	100 Veterans Drive		Kill Devil Hills	27948		
+high-school-table.txt	Central Davidson High	2747 NC Hwy 47		Lexington	27292		
+high-school-table.txt	Stoner-Thomas School	215 County School Road		Lexington	27292		
+high-school-table.txt	Davidson County High School	2061 E Holly Grove Road		Lexington	27292		
+high-school-table.txt	Davidson Early College	297 DCCC Road		Lexington	27295		
+high-school-table.txt	East Davidson High	1408 Lake Road		Thomasville	27360		
+high-school-table.txt	Ledford Senior High	140 Jesse Green Road		Thomasville	27360		
+high-school-table.txt	North Davidson High	7227 Old US Hwy 52		Lexington	27295		
+high-school-table.txt	Oak Grove High	3507 Midway School Rd		Winston-Salem	27107		
+high-school-table.txt	South Davidson High	14956 South NC Hwy 109		Denton	27239		
+high-school-table.txt	West Davidson High	200 Dragon Drive		Lexington	27295		
+high-school-table.txt	Yadkin Valley Regional Career Academy	2065 E. Holly Grove Road		Lexington	27292		
+high-school-table.txt	Lexington Senior High School	26 Penry Street		Lexington	27292		
+high-school-table.txt	South Lexington Developmental Center	1006 Cotton Grove Road		Lexington	27292		
+high-school-table.txt	Thomasville High	410 Unity Street		Thomasville	27360		
+high-school-table.txt	Eastern NC School for the Deaf	1131 Hwy 301 South		Wilson	27893		
+high-school-table.txt	Gov. Morehead School f/t Blind	303 Ashe Avenue		Raleigh	27606		
+high-school-table.txt	NC School for the Deaf	517 W Fleming Dr		Morganton	28655		
+high-school-table.txt	Central Davie Academy	160 Martin Luther King Jr. Road		Mocksville	27028		
+high-school-table.txt	Davie County High	180 War Eagle Drive		Mocksville	27028		
+high-school-table.txt	Davie County Early College High	1211 Salisbury Road		Mocksville	27028		
+high-school-table.txt	Duplin Early College High	212 James Sprunt Dr		Kenansville	28349		
+high-school-table.txt	East Duplin High	394 North NC Highway 111		Beulaville	28518		
+high-school-table.txt	James Kenan High	1241 NC 24 & 50		Warsaw	28398		
+high-school-table.txt	North Duplin Jr Sr High	1388 West NC 403 Highway		Mt. Olive	28365		
+high-school-table.txt	Wallace-Rose Hill High	602 High School Road		Teachey	28464		
+high-school-table.txt	J D Clement Early College HS	1801 Fayetteville Street	NCCU-Robinson Science Building	Durham	27707		
+high-school-table.txt	C E Jordan High	6806 Garrett Road		Durham	27707		
+high-school-table.txt	The School for Creative Studies	5001 Red Mill Rd		Durham	27704		
+high-school-table.txt	City of Medicine Academy	301 Crutchfield Road		Durham	27704		
+high-school-table.txt	Durham's Performance Learning Center	401 North Driver Street		Durham	27703		
+high-school-table.txt	Durham School of the Arts	401 North Duke Street		Durham	27701		
+high-school-table.txt	Hillside High	3727 Fayetteville St		Durham	27707		
+high-school-table.txt	Lakeview School	3507 Dearborn Drive		Durham	27704		
+high-school-table.txt	Middle College HS @ DTCC	1637 Lawson Street		Durham	27703		
+high-school-table.txt	Northern High	117 Tom Wilkinson Road		Durham	27712		
+high-school-table.txt	Riverside High	3218 Rose of Sharon Road		Durham	27712		
+high-school-table.txt	Southern School of Energy and Sustainabi	800 Clayton Road		Durham	27703		
+high-school-table.txt	Hillside New Tech High	3727 Fayetteville St		Durham	27707		
+high-school-table.txt	Voyager Academy	4302 Ben Franklin Blvd		Durham	27704		
+high-school-table.txt	Research Triangle High School	3106 East NC Highway 54		Durham	27709		
+high-school-table.txt	Edgecombe Early College High	2009 West Wilson St		Tarboro	27886		
+high-school-table.txt	North Edgecombe High	7589 NC 33-NW		Tarboro	27886		
+high-school-table.txt	SouthWest Edgecombe High	5912 NC 43 North		Pinetops	27864		
+high-school-table.txt	Tarboro High	1400 Howard Avenue		Tarboro	27886		
+high-school-table.txt	North East Carolina Prep	274 Husky Trail		Tarboro	27886		
+high-school-table.txt	Atkins Academic & Tech High	3605 Old Greensboro Road		Winston-Salem	27101		
+high-school-table.txt	Carver High	3545 Carver School Road		Winston Salem	27105		
+high-school-table.txt	Career Center	910 Highland Court		Winston Salem	27101		
+high-school-table.txt	Carter High School	851 Highland Court		Winston Salem	27101		
+high-school-table.txt	Early College of Forsyth Co	2100 Silas Creek Prky		Winston Salem	27103		
+high-school-table.txt	East Forsyth High	2500 W Mountain Street		Kernersville	27284		
+high-school-table.txt	Robert B Glenn High School	1600 Union Cross Road		Kernersville	27284		
+high-school-table.txt	Main Street Academy	2700 S Main Street		Winston-Salem	27127		
+high-school-table.txt	Homebound/ Hospital Education	2020 E. 12th Street		Winston-Salem	27101		
+high-school-table.txt	Kingswood School	1001 Reynolda Road		Winston-Salem	27104		
+high-school-table.txt	Middle College of Forsyth Cnty	2100 Silas Creek Parkway		Winston-Salem	27103		
+high-school-table.txt	Mount Tabor High School	342 Petree Road		Winston Salem	27106		
+high-school-table.txt	North Forsyth High	5705 Shattalon Drive		Winston Salem	27105		
+high-school-table.txt	Parkland High	1600 Brewer Road		Winston Salem	27127		
+high-school-table.txt	J F Kennedy High	890 E 11th Street		Winston Salem	27101		
+high-school-table.txt	Ronald W Reagan High School	3750 Transou Road		Pfafftown	27040		
+high-school-table.txt	R J Reynolds High	301 N Hawthorne Road		Winston Salem	27104		
+high-school-table.txt	Walkertown High	5240 Sullivantown Road		Walkertown	27051		
+high-school-table.txt	West Forsyth High	1735 Lewisville-Clemmons		Clemmons	27012		
+high-school-table.txt	Winston-Salem Preparatory Acad	1215 North Cameron Avenue		Winston-Salem	27101		
+high-school-table.txt	Quality Education Academy	5012 Lansing Dr	D	Winston-Salem	27105		
+high-school-table.txt	Carter G Woodson School	437 Goldfloss Street		Winston-Salem	27127		
+high-school-table.txt	NC Leadership Charter Academy	4353 High Point Rd		Kernersville	27284		
+high-school-table.txt	Bunn High	29 Bunn Elem School Road		Bunn	27508		
+high-school-table.txt	Franklin County Early College	8150 NC Highway 56		Louisburg	27549		
+high-school-table.txt	Franklinton High	910 Cedar Creek Road		Franklinton	27525		
+high-school-table.txt	Louisburg High	201 Allen Lane		Louisburg	27549		
+high-school-table.txt	Ashbrook High	2222 S New Hope Road		Gastonia	28054		
+high-school-table.txt	Bessemer City High	119 Yellow Jacket Lane		Bessemer City	28016		
+high-school-table.txt	Gaston Early College High School	201 Hwy 321 South	Lena Sue Beam Bldg	Dallas	28034		
+high-school-table.txt	Cherryville High	313 Ridge Avenue		Cherryville	28021		
+high-school-table.txt	Warlick Academy	1316 Spencer Mountain Road		Gastonia	28054		
+high-school-table.txt	Stuart W Cramer High	101 Lakewood Rd		Belmont	28012		
+high-school-table.txt	East Gaston High	1744 Lane Road		Mount Holly	28120		
+high-school-table.txt	Webb Street School	1623 N Webb Street		Gastonia	28052		
+high-school-table.txt	Forestview High	5545 Union Road		Gastonia	28056		
+high-school-table.txt	Highland Sch of Technology	1600 N Morris Street		Gastonia	28052		
+high-school-table.txt	Hunter Huss High	1518 Edgefield Avenue		Gastonia	28052		
+high-school-table.txt	North Gaston High	1133 Ratchford Road		Dallas	28034		
+high-school-table.txt	South Point High	906 South Point Road		Belmont	28012		
+high-school-table.txt	Piedmont Community Charter School	119 E. 2nd Avenue		Gastonia	28052		
+high-school-table.txt	Mountain Island Charter School	13440 Lucia-Riverbend Highway		Mt. Holly	28120		
+high-school-table.txt	Gates County Senior High	088 Hwy 158 West		Gatesville	27938		
+high-school-table.txt	Robbinsville High	301 Sweetwater Road		Robbinsville	28771		
+high-school-table.txt	Phoenix Academy	204 Taylor St		Oxford	27565		
+high-school-table.txt	Granville Academy	2642 Philo White Rd		Franklinton	27525		
+high-school-table.txt	Granville Central High	2043 Sanders Rd		Stem	27581		
+high-school-table.txt	Granville Early College High	1552 South Campus Dr		Creedmoor	27522		
+high-school-table.txt	J. F. Webb High	3200 Webb School Rd		Oxford	27565		
+high-school-table.txt	South Granville High	701 N Crescent Dr		Creedmoor	27522		
+high-school-table.txt	JF Webb HS Of Health And Life Sciences	3200 Webb School Rd		Oxford	27565		
+high-school-table.txt	Falls Lake Academy	1701 East Lyon Station Road		Creedmoor	27522		
+high-school-table.txt	Oxford Preparatory	6041 Landis Rd		Oxford	27565		
+high-school-table.txt	Greene Central High	140 School Drive		Snow Hill	28580		
+high-school-table.txt	Greene Early College High	818 Highway 91		Snow Hill	28580		
+high-school-table.txt	T Wingate Andrews High	1920 McGuinn Drive		High Point	27265		
+high-school-table.txt	Middle College High at Bennett	610 Gorrell Street		Greensboro	27406		
+high-school-table.txt	James B Dudley High	1200 Lincoln Street		Greensboro	27401		
+high-school-table.txt	Eastern Guilford High	415 Peeden Drive		Gibsonville	27249		
+high-school-table.txt	Gateway Education Center	3205 East Wendover Aveune		Greensboro	27405		
+high-school-table.txt	GC Middle College High	815 West Market Street		Greensboro	27401		
+high-school-table.txt	Penn-Griffin Schools	825 Washington Street		High Point	27260		
+high-school-table.txt	Grimsley High	801 N Josephine Boyd St.		Greensboro	27408		
+high-school-table.txt	Early College at Guilford	5608 West Friendly Avenue		Greensboro	27410		
+high-school-table.txt	Doris Henderson Newcomers Sch	411 Friendway Road		Greensboro	27410		
+high-school-table.txt	Middle College at GTCC-Greensboro	3505 East Wendover Avenue		Greensboro	27405		
+high-school-table.txt	GTCC Middle College High	601 East Main Street		Jamestown	27282		
+high-school-table.txt	High Point Central High	801 Ferndale Boulevard		High Point	27262		
+high-school-table.txt	Kearns Academy	1710 McGuinn Dr.		High Point	27265		
+high-school-table.txt	Middle College at GTCC-High Point	901 South Main Street		High Point	27260		
+high-school-table.txt	C Joyner Greene Education Center	604 East Main Street		Jamestown	27282		
+high-school-table.txt	Haynes Inman Education Center	200 Haynes Road		Jamestown	27282		
+high-school-table.txt	Middle College at NC A&T	1601 East Market Street		Greensboro	27411		
+high-school-table.txt	Northeast Guilford High	6700 McLeansville Road		McLeansville	27301		
+high-school-table.txt	Northern Guilford High	7101 Spencer Dixon Road		Greensboro	27455		
+high-school-table.txt	Northwest Guilford High	5240 Northwest School Road		Greensboro	27409		
+high-school-table.txt	Page High	201 Alma Pinnix Drive		Greensboro	27405		
+high-school-table.txt	Lucy Ragsdale High	1000 Lucy Ragsdale Drive		Jamestown	27282		
+high-school-table.txt	SCALE School	116 Pisgah Church Road		Greensboro	27455		
+high-school-table.txt	Pruette SCALE Academy	900 English Road		High Point	27262		
+high-school-table.txt	Ben L. Smith High School	2407 South Holden Road		Greensboro	27407		
+high-school-table.txt	Academy at Smith	2225 South Holden Road		Greensboro	27407		
+high-school-table.txt	Southeast Guilford High	4530 Southeast School Road		Greensboro	27406		
+high-school-table.txt	Southern Guilford High	5700 Drake Road		Greensboro	27406		
+high-school-table.txt	Southwest Guilford High	4364 Barrow Road		High Point	27265		
+high-school-table.txt	STEM Early College @ NC A&T SU	402 Laurel Street		Greensboro	27411		
+high-school-table.txt	UNCG Early/Middle College	1408 Walker Avenue		Greensboro	27412		
+high-school-table.txt	Philip J Weaver Ed Center	300 South Spring Street		Greensboro	27401		
+high-school-table.txt	Western Guilford High	409 Friendway Road		Greensboro	27410		
+high-school-table.txt	Triad Math and Science Academy	700 Creek Ridge Rd		Greensboro	27406		
+high-school-table.txt	Cornerstone Charter Academy-CFA	7800 Airport Center Drive		Greensboro	27409		
+high-school-table.txt	College Prep and Leadership Academy	4201 Furniture Avenue		Jamestown	27282		
+high-school-table.txt	Piedmont Classical High School	4100 Yanceyville St		Browns Summit	27214		
+high-school-table.txt	Northwest Halifax Collegiate and Technic	8492 Hwy 48		Littleton	27850		
+high-school-table.txt	Southeast Halifax Collegiate Prep Academ	16683 Hwy 125		Halifax	27839		
+high-school-table.txt	Roanoke Rapids High School	800 Hamilton Street		Roanoke Rapids	27870		
+high-school-table.txt	Roanoke Rapids Early College High	844 Hamilton St		Roanoke Rapids	27870		
+high-school-table.txt	Roanoke Valley Early College	100 College Dr	600 Building	Weldon	27890		
+high-school-table.txt	Weldon STEM High School Career Academies	415 County Road		Weldon	27890		
+high-school-table.txt	Harnett Early College (HCEC)	660 E Johnson St		Dunn	28334		
+high-school-table.txt	STAR Academy	900 11th Street		Lillington	27546		
+high-school-table.txt	Harnett Central High	2911 Harnett Central Rd		Angier	27501		
+high-school-table.txt	Overhills High	2495 Ray Road		Spring Lake	28390		
+high-school-table.txt	Triton High	215 Maynard Lake Road		Erwin	28339		
+high-school-table.txt	Western Harnett High	10637 NC Hwy 27 West		Lillington	27546		
+high-school-table.txt	Central Haywood High	3215 Broad Street		Clyde	28721		
+high-school-table.txt	Haywood Early College	185 Freedlander Drive		Clyde	28721		
+high-school-table.txt	Pisgah High	1 Black Bear Drive		Canton	28716		
+high-school-table.txt	Tuscola High	564 Tuscola School Rd		Waynesville	28786		
+high-school-table.txt	East Henderson High	150 Eagle Pride Drive		East Flat Rock	28726		
+high-school-table.txt	Hendersonville High	1 Bearcat Boulevard		Hendersonville	28791		
+high-school-table.txt	North Henderson High	35 Fruitland Road		Hendersonville	28792		
+high-school-table.txt	Henderson County Career Academy	300 East Campus Way		Flat Rock	28731		
+high-school-table.txt	West Henderson High	3600 Haywood Road		Hendersonville	28791		
+high-school-table.txt	Henderson County Early College	300 East Campus Way		Flat Rock	28731		
+high-school-table.txt	Hertford County High	1500 W First St		Ahoskie	27910		
+high-school-table.txt	Hertford Co Early College	109 Community College Rd		Ahoskie	27910		
+high-school-table.txt	CS Brown High	102 CSB Dr		Winton	27986		
+high-school-table.txt	Hoke County High	505 S Bethel Road		Raeford	28376		
+high-school-table.txt	J W Turlington School	116 W Prospect Ave		Raeford	28376		
+high-school-table.txt	SandHoke Early College High	1110 East Central Avenue		Raeford	28376		
+high-school-table.txt	Ocracoke School	120 Schoolhouse Rd		Ocracoke	27960		
+high-school-table.txt	Mattamuskeet Early College High	20392 Hwy US 264		Swan Quarter	27885		
+high-school-table.txt	Agriculture and Science Early College	158 Raider Rd		Olin	28660		
+high-school-table.txt	Career Academy and Technical School	350 Old Murdock Rd		Troutman	28166		
+high-school-table.txt	Collaborative College for Technology	500 West Broad Street		Statesville	28677		
+high-school-table.txt	Lake Norman High	186 Doolie Road		Mooresville	28117		
+high-school-table.txt	North Iredell High	156 Raider Road		Olin	28660		
+high-school-table.txt	Pressly School	222 Knox St		Statesville	28677		
+high-school-table.txt	Statesville High	474 N Center St		Statesville	28677		
+high-school-table.txt	Crossroads Arts Sciences Early College	476 N Center St		Statesville	28677		
+high-school-table.txt	South Iredell High	299 Old Mountain Rd		Statesville	28677		
+high-school-table.txt	West Iredell High	213 Warrior Dr		Statesville	28677		
+high-school-table.txt	NF Woods Campus	574 W McLelland Ave		Mooresville	28115		
+high-school-table.txt	Mooresville High School	659 E Center Ave		Mooresville	28115		
+high-school-table.txt	Pine Lake Preparatory	104 Yellow Wood Circle		Mooresville	28115		
+high-school-table.txt	Langtree Charter Academy	154 Foundation Ct		Mooresville	28117		
+high-school-table.txt	Blue Ridge Early College	95 Bobcat Dr		Cashiers	28717		
+high-school-table.txt	Jackson Co Early College	404 College Drive		Sylva	28779		
+high-school-table.txt	Jackson Co Sch of Alternatives	3770 Skyland Drive		Sylva	28779		
+high-school-table.txt	Smoky Mountain High School	100 Smoky Mountain Drive		Sylva	28779		
+high-school-table.txt	Clayton High	600 S Fayetteville St		Clayton	27520		
+high-school-table.txt	Cleveland High	1892 Polenta Rd		Clayton	27520		
+high-school-table.txt	Corinth Holders High	6875 Applewhite Rd		Wendell	27591		
+high-school-table.txt	Johnston Co Early College Academy	245 College Rd		Smithfield	27577		
+high-school-table.txt	North Johnston High	5915 US Hwy 301 N		Kenly	27542		
+high-school-table.txt	Princeton High	101 Dr Donnie H Jones Jr Blvd		Princeton	27569		
+high-school-table.txt	Smithfield-Selma High	700 Booker Dairy Rd		Smithfield	27577		
+high-school-table.txt	South Johnston High	10381 US Hwy 301 S		Four Oaks	27524		
+high-school-table.txt	West Johnston High	5935 Raleigh Road		Benson	27504		
+high-school-table.txt	Neuse Charter School	909 Booker Dairy Rd		Smithfield	27577		
+high-school-table.txt	Jones Senior High	1490 Hwy 58 South		Trenton	28585		
+high-school-table.txt	Bragg Street Academy	504 Bragg Street		Sanford	27330		
+high-school-table.txt	Floyd L Knight Children Center	607 W McIntosh St		Sanford	27330		
+high-school-table.txt	Lee Early College	1105 Kelly Drive		Sanford	27330		
+high-school-table.txt	Lee County High	1708 Nash Street		Sanford	27330		
+high-school-table.txt	Southern Lee High School	2301 Tramway Road		Sanford	27332		
+high-school-table.txt	Kinston High	2601 N Queen St		Kinston	28501		
+high-school-table.txt	Lenoir County Early College High	231 Hwy 58 South		Kinston	28502		
+high-school-table.txt	Lenoir County Learning Academy	2529 Cedar Dell Lane	Haigler-Overcash Education Center	Kinston	28504		
+high-school-table.txt	North Lenoir High	2400 Institute Road		La Grange	28551		
+high-school-table.txt	South Lenoir High	3355 Old Hwy 11 South		Deep Run	28525		
+high-school-table.txt	Asbury Academy	221 Salem Church Road		Lincolnton	28092		
+high-school-table.txt	East Lincoln High	6471 Hwy 73		Denver	28037		
+high-school-table.txt	Lincolnton High	803 N Aspen St		Lincolnton	28092		
+high-school-table.txt	North Lincoln High	2737 Lee Lawing Road		Lincolnton	28092		
+high-school-table.txt	West Lincoln High	172 Shoal Rd		Lincolnton	28092		
+high-school-table.txt	Lincoln Charter School	7834 Galway Lane		Denver	28037		
+high-school-table.txt	Franklin High	100 Panther Drive		Franklin	28734		
+high-school-table.txt	Highlands School	545 Pierson Dr		Highlands	28741		
+high-school-table.txt	Macon Early College High School	77 Siler Farm Road		Franklin	28734		
+high-school-table.txt	Nantahala School	213 Windingstairs Rd		Topton	28781		
+high-school-table.txt	Union Academy	158 Union School Rd		Franklin	28734		
+high-school-table.txt	Madison Early College High	5734 US 25/70 Hwy		Marshall	28753		
+high-school-table.txt	Madison High School	5740 US Hwy 25-70		Marshall	28753		
+high-school-table.txt	South Creek Middle/High	21077 NC Hwy 903		Robersonville	27871		
+high-school-table.txt	Riverside High	1260 Godwin Ave		Williamston	27892		
+high-school-table.txt	Bear Grass Charter School	6344 E Bear Grass Rd		Williamston	27982		
+high-school-table.txt	McDowell Academy for Innovation	172 Lukin St		Marion	28752		
+high-school-table.txt	McDowell Early College	54 College Drive		Marion	28752		
+high-school-table.txt	McDowell High School	600 McDowell High School Dr		Marion	28752		
+high-school-table.txt	Ardrey Kell High	10220 Ardrey Kell Rd		Charlotte	28277		
+high-school-table.txt	William Amos Hough High	12420 Bailey Rd		Cornelius	28031		
+high-school-table.txt	Cato Middle College High	8120 Grier Rd   Suite 171-B		Charlotte	28215		
+high-school-table.txt	Cochrane Collegiate Academy	6200 Starhaven Dr		Charlotte	28215		
+high-school-table.txt	Butler High	1810 Matthews-Mint Hill Rd		Matthews	28105		
+high-school-table.txt	Military and Global Leadership Academy	1411 Hawthorne Lane, Ste A		Charlotte	28205		
+high-school-table.txt	East Mecklenburg High	6800 Monroe Rd		Charlotte	28212		
+high-school-table.txt	Hawthorne Academy of Health Sciences	1411 Hawthorne Ln		Charlotte	28205		
+high-school-table.txt	Garinger High	1100 Eastway Dr  		Charlotte	28205		
+high-school-table.txt	Harper Middle College High	315 W Hebron St		Charlotte	28273		
+high-school-table.txt	Harding University High	2001 Alleghany St		Charlotte	28208		
+high-school-table.txt	Hopewell High	11530 Beatties Ford Rd		Huntersville	28078		
+high-school-table.txt	Independence High	1967 Patriot Dr		Charlotte	28227		
+high-school-table.txt	Turning Point Academy	8701 Moores Chapel Rd		Charlotte	28214		
+high-school-table.txt	Levine Middle College High	2728 Campus Ridge Rd		Matthews	28105		
+high-school-table.txt	Mallard Creek High	3825 Johnston Oehler Rd		Charlotte	28269		
+high-school-table.txt	Metro School	405 S. Davidson St		Charlotte	28202		
+high-school-table.txt	Rocky River High	10505 Clear Creek Commerce Dr		Mint Hill	28227		
+high-school-table.txt	Lincoln Heights Academy	1900 Newcastle St		Charlotte	28216		
+high-school-table.txt	Myers Park High	2400 Colony Rd		Charlotte	28209		
+high-school-table.txt	North Mecklenburg High	11201 Old Statesville Rd		Huntersville	28078		
+high-school-table.txt	Northwest School of the Arts	1415 Beatties Ford Rd		Charlotte	28216		
+high-school-table.txt	Olympic High	4301 Sandy Porter Rd		Charlotte	28273		
+high-school-table.txt	Phillip O Berry Academy of Technology	1430 Alleghany St		Charlotte	28208		
+high-school-table.txt	Performance Learning Center	2300 W Sugar Creek Road		Charlotte	28262		
+high-school-table.txt	Providence High	1800 Pineville-Matthews Rd		Charlotte	28270		
+high-school-table.txt	South Mecklenburg High	8900 Park Rd		Charlotte	28210		
+high-school-table.txt	Charlotte Engineering Early College-UNCC	9000 Robert Snyder Rd		Charlotte	28262		
+high-school-table.txt	West Charlotte High	2219 Senior Dr		Charlotte	28216		
+high-school-table.txt	West Mecklenburg High	7400 Tuckaseegee Rd		Charlotte	28214		
+high-school-table.txt	Vance High	7600 IBM Dr		Charlotte	28262		
+high-school-table.txt	Merancas Middle College High	11930 Verhoeff Dr		Huntersville	28078		
+high-school-table.txt	Sugar Creek Charter	4101 N Tryon Street		Charlotte	28206		
+high-school-table.txt	Lake Norman Charter	12435 Old Statesville Road		Huntersville	28078		
+high-school-table.txt	Queen's Grant Community School	6400 Matthews Mint Hill Road		Mint Hill	28227		
+high-school-table.txt	Community School of Davidson	404 Armour Street		Davidson	28036		
+high-school-table.txt	Charlotte Secondary	8601 McAlpine Park Dr		Charlotte	28211		
+high-school-table.txt	Bradford Preparatory School	2502 Salome Church Rd		Charlotte	28262		
+high-school-table.txt	Commonwealth High	5112 Central Ave		Charlotte	28205		
+high-school-table.txt	Charlotte Learning Academy	800 Briar Creek Rd. 	DD400	Charlotte	28205		
+high-school-table.txt	Mayland Early College	264 Mayland Dr		Spruce Pine	28777		
+high-school-table.txt	Mitchell High	416 Ledger School Rd		Bakersville	28705		
+high-school-table.txt	Stewart Creek High	2701 Freedom Dr	F	Charlotte	28208		
+high-school-table.txt	Montgomery Learning Academy	310 S Main		Troy	27371		
+high-school-table.txt	East Montgomery High	157 Eagle Lane		Biscoe	27209		
+high-school-table.txt	West Montgomery High	147 Warrior Drive		Mount Gilead	27306		
+high-school-table.txt	The Community Learning Center @ Pinckney	160 Pinckney Road		Carthage	28327		
+high-school-table.txt	North Moore High	1504 North Moore Rd		Robbins	27325		
+high-school-table.txt	Pinecrest High	250 Voit Gilmore Lane		Southern Pines	28387		
+high-school-table.txt	Union Pines High	1981 Union Church Rd		Cameron	28326		
+high-school-table.txt	Tar River Academy	224 S. Pearl Street		Rocky Mount	27804		
+high-school-table.txt	Nash Central High	4279 Nash Central High Road		Rocky Mount	27804		
+high-school-table.txt	NRM Early College High School	530 North Old Carriage Road		Rocky Mount	27804		
+high-school-table.txt	Northern Nash High	4230 Green Hills Road		Rocky Mount	27804		
+high-school-table.txt	Rocky Mount High	1400 Bethlehem Road		Rocky Mount	27803		
+high-school-table.txt	Southern Nash High	6446 Southern Nash High Road		Bailey	27807		
+high-school-table.txt	Rocky Mount Preparatory	3334 Bishop Road		Rocky Mount	27804		
+high-school-table.txt	Emsley A Laney High	2700 N College Rd		Wilmington	28405		
+high-school-table.txt	Eugene Ashley High	555 Halyburton Memorial Parkwy		Wilmington	28412		
+high-school-table.txt	Isaac M Bear Early College High School	630 MacMillan Avenue		Wilmington	28403		
+high-school-table.txt	John T Hoggard High	4305 Shipyard Blvd		Wilmington	28403		
+high-school-table.txt	New Hanover High	1307 Market St		Wilmington	28401		
+high-school-table.txt	J. C. Roe Center	2875 Worth Drive		Wilmington	28412		
+high-school-table.txt	Career Readiness Academy at Mosley PLC	3702 Princess Place Drive		Wilmington	28405		
+high-school-table.txt	Wilmington Early College High	4500 Blue Clay Rd 	WECHS Bldg.ND122	Castle Hayne	28429		
+high-school-table.txt	Northampton County High School	152 Hurricane Drive		Gaston	27832		
+high-school-table.txt	Northampton Early College	100 College Dr.		Weldon	27890		
+high-school-table.txt	KIPP Gaston College Preparatory	320 Pleasant Hill Road		Gaston	27832		
+high-school-table.txt	Dixon High	160 Dixon School Rd		Holly Ridge	28445		
+high-school-table.txt	Jacksonville High	1021 Henderson Dr		Jacksonville	28540		
+high-school-table.txt	Northside High	365 Commons Drive South		Jacksonville	28546		
+high-school-table.txt	Richlands High	8100 Richlands Hwy		Richlands	28574		
+high-school-table.txt	Southwest High	1420 Burgaw Hwy		Jacksonville	28540		
+high-school-table.txt	Swansboro High	161 Queens Creek Rd		Swansboro	28584		
+high-school-table.txt	White Oak High	1001 Piney Green Rd		Jacksonville	28546		
+high-school-table.txt	Lejeune High	835 Stone St		Camp Lejeune	28547		
+high-school-table.txt	Cedar Ridge High	1125 New Grady Brown Sch Rd		Hillsborough	27278		
+high-school-table.txt	Orange High	500 Orange High Rd		Hillsborough	27278		
+high-school-table.txt	Partnership Academy	1006 East Storey Lane		Hillsborough	27278		
+high-school-table.txt	Carrboro High	201 Rock Haven Rd		Carrboro	27510		
+high-school-table.txt	Chapel Hill High	1709 High School Rd		Chapel Hill	27516		
+high-school-table.txt	East Chapel Hill High	500 Weaver Dairy Rd		Chapel Hill	27514		
+high-school-table.txt	UNC Hospital School	101 Manning Dr		Chapel Hill	27514		
+high-school-table.txt	Phoenix Academy High	750 S Merritt Mill Rd		Chapel Hill	27516		
+high-school-table.txt	Eno River Academy	1212 NC Highway 57 North		Hillsborough	27278		
+high-school-table.txt	Pamlico County High	601 Main Street		Bayboro	28515		
+high-school-table.txt	Arapahoe Charter School	9005 NC Hwy 306 S		Arapahoe	28510		
+high-school-table.txt	H L Trigg Community	1004 Parkview Drive		Elizabeth City	27909		
+high-school-table.txt	Northeastern High	963 Oak Stump Rd		Elizabeth City	27909		
+high-school-table.txt	Pasquotank County High	1064 Northside Road		Elizabeth City	27909		
+high-school-table.txt	Northeast Academy of Aerospace & AdvTech	1810 Weeksville Rd	ECSU ITC Bldg	Elizabeth City	27909		
+high-school-table.txt	Heide Trask High	14328 NC Hwy 210		Rocky Point	28457		
+high-school-table.txt	Pender High	5380 NC Hwy 53 W		Burgaw	28425		
+high-school-table.txt	Pender Early College High	100 East Industrial Drive		Burgaw	28425		
+high-school-table.txt	Topsail High	245 St. Johns Church Road		Hampstead	28443		
+high-school-table.txt	Perquimans County High	305 Edenton Road St		Hertford	27944		
+high-school-table.txt	Person High	1010 Ridge Rd		Roxboro	27573		
+high-school-table.txt	Roxboro Community School	115 Lake Drive		Roxboro	27573		
+high-school-table.txt	Ayden-Grifton High	7653 NC 11 South		Ayden	28513		
+high-school-table.txt	D H Conley High	2006 Worthington Rd		Greenville	27858		
+high-school-table.txt	Farmville Central High	3308 E Wilson Street		Farmville	27828		
+high-school-table.txt	Junius H Rose High	600 W Arlington Blvd		Greenville	27834		
+high-school-table.txt	North Pitt High	5659 NC 11 North		Bethel	27812		
+high-school-table.txt	Vidant  Health	400 Spruce Street		Greenville	27834		
+high-school-table.txt	South Central	570 W Forlines Road		Winterville	28590		
+high-school-table.txt	Early College High School	1959 Warren Drive	Pitt Community College	Winterville	28590		
+high-school-table.txt	Polk County Early College	1545 East NC 108 Hwy		Columbus	28722		
+high-school-table.txt	Polk County High School	1681 East NC 108 Hwy		Columbus	28722		
+high-school-table.txt	Eastern Randolph High	390 Eastern Randolph Rd		Ramseur	27316		
+high-school-table.txt	Providence Grove High	5555 Mack Lineberry Rd		Climax	27233		
+high-school-table.txt	Randleman High	4396 Tigers Den Rd		Randleman	27317		
+high-school-table.txt	Randolph Early College High	629 Industrial Park Avenue		Asheboro	27205		
+high-school-table.txt	Southwestern Randolph High	1641 Hopewell Friends Rd		Asheboro	27205		
+high-school-table.txt	Trinity High	5746 Trinity High School Rd		Trinity	27370		
+high-school-table.txt	Wheatmore High	3678 Finch Farm Rd		Trinity	27370		
+high-school-table.txt	Asheboro High	1221 S Park St		Asheboro	27203		
+high-school-table.txt	Uwharrie Charter Academy	5326 US Hwy 220 Business South		Asheboro	27205		
+high-school-table.txt	Ashley Chapel Educational Center	377 Mizpah Road		Rockingham	28379		
+high-school-table.txt	Richmond Senior High	838 US 1 North		Rockingham	28379		
+high-school-table.txt	Richmond Early College High	1042 W Hamlet Ave		Hamlet	28345		
+high-school-table.txt	Fairmont High	5419 Old Stage Road		Fairmont	28340		
+high-school-table.txt	Lumberton Senior High	3901 Fayetteville Rd		Lumberton	28358		
+high-school-table.txt	PSRC Early College at RCC	5160 Fayetteville Road		Lumberton	28360		
+high-school-table.txt	Red Springs High	509 N Vance Street		Red Springs	28377		
+high-school-table.txt	Saint Pauls High	648 North Stage Rd		Saint Pauls	28384		
+high-school-table.txt	South Robeson High	3268 South Robeson Rd		Rowland	28383		
+high-school-table.txt	Purnell Swett High	11344 Deep Branch Road		Pembroke	28372		
+high-school-table.txt	Dalton McMichael High	6845 Hwy 135		Mayodan	27027		
+high-school-table.txt	John M Morehead High	134 N Pierce St		Eden	27288		
+high-school-table.txt	Reidsville High	1901 S Park Dr		Reidsville	27320		
+high-school-table.txt	Rockingham County High	180 High School Rd		Reidsville	27320		
+high-school-table.txt	Rockingham Co Early College High	315 Wrenn Memorial Road		Wentworth	27375		
+high-school-table.txt	The SCORE Center	401 Moss Street		Reidsville	27320		
+high-school-table.txt	Henderson High	1215 North Main St		Salisbury	28144		
+high-school-table.txt	East Rowan High	175 St Luke's Church Rd		Salisbury	28146		
+high-school-table.txt	Carson High	290 Kress Venture Dr		China Grove	28023		
+high-school-table.txt	North Rowan High	300 North Whitehead Ave		Spencer	28159		
+high-school-table.txt	Rowan Co Early College	1333 Jake Alexander Blvd S		Salisbury	28146		
+high-school-table.txt	Salisbury High	500 Lincolnton Rd		Salisbury	28144		
+high-school-table.txt	South Rowan High	1655 Patterson St		China Grove	28023		
+high-school-table.txt	West Rowan High	8050 NC 801 Hwy		Mount Ulla	28125		
+high-school-table.txt	Chase High School	1603 Chase High Rd		Forest City	28043		
+high-school-table.txt	East Rutherford High School	331 East High Rd		Bostic	28018		
+high-school-table.txt	R-S Central High School	641 Hwy 221 North		Rutherfordton	28139		
+high-school-table.txt	Rutherford Early College High School	286 ICC Loop Road		Spindale	28160		
+high-school-table.txt	Rutherford Opportunity Center	140 Old Caroleen Road		Forest City	28043		
+high-school-table.txt	Thomas Jefferson Class Academy	2527 US 221A Hwy		Mooresboro	28114		
+high-school-table.txt	Lake Lure Classical Academy	1058 Island Creek Rd. 		Lake Lure	28746		
+high-school-table.txt	Sampson Early College High	1801 Sunset Ave		Clinton	28329		
+high-school-table.txt	Hobbton High	12201 Hobbton Hwy		Newton Grove	28366		
+high-school-table.txt	Lakewood High	245 Lakewood School Rd		Salemburg	28385		
+high-school-table.txt	Midway High	15274 Spiveys Corner Highway		Newton Grove	28366		
+high-school-table.txt	Union High	1189 Kader Merritt Road		Rose Hill	28458		
+high-school-table.txt	Clinton High	340 Indian Town Road		Clinton	28328		
+high-school-table.txt	Shaw Academy	18700 Old Wire Road		Laurinburg	28352		
+high-school-table.txt	Scotland High School	1000 West Church St		Laurinburg	28352		
+high-school-table.txt	Scotland Early College High	1700 Dogwood Mile		Laurinburg	28352		
+high-school-table.txt	Albemarle High	311 Park Ridge Road		Albemarle	28001		
+high-school-table.txt	North Stanly High	40206 US Hwy 52 N		New London	28127		
+high-school-table.txt	South Stanly High	40488 S Stanly School Rd		Norwood	28128		
+high-school-table.txt	Stanly Early College High	141 College Drive		Albemarle	28001		
+high-school-table.txt	West Stanly High	306 East Red Cross Road		Oakboro	28129		
+high-school-table.txt	Stanly Academy Learning Center	1121 Austin Street		Albemarle	28001		
+high-school-table.txt	Gray Stone Day	49464 Merner Terrace		Misenheimer	28109		
+high-school-table.txt	Meadowbrook Academy	817 Meadowbrook Drive		King	27021		
+high-school-table.txt	North Stokes High	1350 N Stokes Sch Rd		Danbury	27016		
+high-school-table.txt	South Stokes High	1100 S Stokes High Drive		Walnut Cove	27052		
+high-school-table.txt	West Stokes High	1400 Priddy Road		King	27021		
+high-school-table.txt	Stokes Early College	1165 Dodgetown Rd		Walnut Cove	27052		
+high-school-table.txt	East Surry High	801 W Main Street		Pilot Mountain	27041		
+high-school-table.txt	North Surry High	2440 W Pine Street		Mount Airy	27030		
+high-school-table.txt	Surry Central High	716 South Main Street		Dobson	27017		
+high-school-table.txt	Surry Early College	630 South Main Street		Dobson	27017		
+high-school-table.txt	Elkin High	334 Elk Spur St		Elkin	28621		
+high-school-table.txt	Mount Airy High	1011 N South St		Mount Airy	27030		
+high-school-table.txt	Millennium Charter Academy	500 Old Springs Rd		Mount Airy	27030		
+high-school-table.txt	Cherokee Extension School	50 Main Street		Bryson City	28713		
+high-school-table.txt	Swain County High School	1415 Fontana Road		Bryson City	28713		
+high-school-table.txt	Brevard High	609 N. Country Club Rd		Brevard	28712		
+high-school-table.txt	Davidson River School	970 Ecusta Rd		Brevard	28712		
+high-school-table.txt	Rosman High	749 Pickens Hwy		Rosman	28772		
+high-school-table.txt	Columbia High	902 Main St		Columbia	27925		
+high-school-table.txt	Cuthbertson High	1400 Cuthbertson Rd		Waxhaw	28173		
+high-school-table.txt	Forest Hills High	100 Forest Hills School Rd		Marshville	28103		
+high-school-table.txt	Monroe High	1 High School Dr		Monroe	28112		
+high-school-table.txt	Porter Ridge High School	2839 Ridge Road		Indian Trail	28079		
+high-school-table.txt	Parkwood High	3220 Parkwood School Rd		Monroe	28112		
+high-school-table.txt	Piedmont High	3006 Sikes Mill Road		Monroe	28110		
+high-school-table.txt	Sun Valley High	5211 Old Charlotte Hwy		Monroe	28110		
+high-school-table.txt	South Providence	500 South Providence Street		Waxhaw	28173		
+high-school-table.txt	Central Academy of Technology and Arts	600 Brewer Dr		Monroe	28112		
+high-school-table.txt	Union County Early College	4209 Old Charlotte Hwy	A	Monroe	28110		
+high-school-table.txt	Weddington High	4901 Monroe-Weddington Road		Matthews	28104		
+high-school-table.txt	Wolfe School	722 Brewer Drive		Monroe	28112		
+high-school-table.txt	Marvin Ridge High	2825 Crane Road		Waxhaw	28173		
+high-school-table.txt	Union Academy	675 North ML King Jr Blvd		Monroe	28110		
+high-school-table.txt	AdVance Academy	219 Charles Street		Henderson	27536		
+high-school-table.txt	Vance County High School	925 Garrett Road		Henderson	27537		
+high-school-table.txt	Vance Co Early College	200 Community College Rd		Henderson	27537		
+high-school-table.txt	Henderson Collegiate	1071 Old Epsom Rd		Henderson	27536		
+high-school-table.txt	Apex High	7600 Roberts Road		Cary	27519		
+high-school-table.txt	Apex Friendship High	7801 Humie Olive Rd		Apex	27502		
+high-school-table.txt	Athens Drive High	1420 Athens Drive		Raleigh	27606		
+high-school-table.txt	Longview	318 N King Charles Rd		Raleigh	27610		
+high-school-table.txt	Needham Broughton High	723 Saint Mary's St		Raleigh	27605		
+high-school-table.txt	Cary High	638 Walnut St		Cary	27511		
+high-school-table.txt	Crossroads FLEX 	5651 Dillard Dr		Cary	27518		
+high-school-table.txt	East Wake High	5101 Rolesville Rd		Wendell	27591		
+high-school-table.txt	Enloe High	128 Clarendon Crescent		Raleigh	27610		
+high-school-table.txt	Fuquay-Varina High	201 Bengal Blvd		Fuquay-Varina	27526		
+high-school-table.txt	Garner High	2101 Spring Drive		Garner	27529		
+high-school-table.txt	Green Hope High	2500 Carpenter Upchurch Road		Cary	27519		
+high-school-table.txt	Heritage High	1150 Forestville Road		Wake Forest	27587		
+high-school-table.txt	Holly Springs High	5329 Cass Holt Road		Holly Springs	27540		
+high-school-table.txt	Knightdale High	100 Bryan Chalk Lane		Knightdale	27545		
+high-school-table.txt	Leesville Road High	8410 Pride Way		Raleigh	27613		
+high-school-table.txt	Middle Creek High	123 Middle Creek Park Avenue		Apex	27539		
+high-school-table.txt	Millbrook High	2201 Spring Forest Rd		Raleigh	27615		
+high-school-table.txt	North Wake College and Career Academy	931 Durham Rd		Wake Forest	27587		
+high-school-table.txt	Panther Creek High	6770 McCrimmon Parkway		Cary	27519		
+high-school-table.txt	Phillips High	1923 Milburnie Rd		Raleigh	27610		
+high-school-table.txt	Rolesville High	1099 East Young St		Rolesville 	27571		
+high-school-table.txt	Sanderson High	5500 Dixon Drive		Raleigh	27609		
+high-school-table.txt	SCORE Academy	5651 Dillard Dr		Cary 	27518		
+high-school-table.txt	Southeast Raleigh High	2600 Rock Quarry Road		Raleigh	27610		
+high-school-table.txt	Vernon Malone College and Career Academy	2200 S Wilmington St		Raleigh	27603		
+high-school-table.txt	Wake STEM Early College High School	715 Barbour Dr		Raleigh	27603		
+high-school-table.txt	Wake Early College of Health and Science	2901 Holston Lane		Raleigh	27610		
+high-school-table.txt	Wake Young Men's Leadership Academy	567 East Hargett St		Raleigh	27601		
+high-school-table.txt	Wake Young Women's Leadership Academy	301 Ashe Avenue	Governor Morehead	Raleigh	27606		
+high-school-table.txt	Wake Forest High School	420 West Stadium Drive		Wake Forest	27587		
+high-school-table.txt	Wakefield High	2200 Wakefield Pines Drive		Raleigh	27614		
+high-school-table.txt	Franklin Academy	648 Flaherty Ave		Wake Forest	27587		
+high-school-table.txt	East Wake Academy	821 Charter School Way		Zebulon	27597		
+high-school-table.txt	Raleigh Charter High School	1307 Glenwood Avenue		Raleigh	27605		
+high-school-table.txt	Southern Wake Academy	5108 Old Powell Rd		Holly Springs	27540		
+high-school-table.txt	Triangle Math and Science Academy	312 Gregson Dr.		Cary	27511		
+high-school-table.txt	Longleaf School of the Arts	322 Chapanoke Road		Raleigh	27603		
+high-school-table.txt	Warren County High	149 Campus Drive		Warrenton	27589		
+high-school-table.txt	Warren Early College High	210 Ridgeway St		Warrenton	27589		
+high-school-table.txt	Warren New Tech High	219 US Hwy 158 Bypass		Warrenton	27589		
+high-school-table.txt	Haliwa-Saponi Tribal School	130 Haliwa-Saponi Trail		Hollister	27844		
+high-school-table.txt	Central Wake High School	1425 Rock Quarry Road 		Raleigh	27610		
+high-school-table.txt	Washington County High	800 E Main St		Plymouth	27962		
+high-school-table.txt	Washington Early College High	102 NC Hwy 32 North		Roper	27970		
+high-school-table.txt	Northeast Regional School - Biotech/Agri	1215 Saint Andrews St		Jamesville	27846		
+high-school-table.txt	Watauga High	300 Go Pioneers Drive		Boone	28607		
+high-school-table.txt	Watauga Innovation Academy	300 Go Pioneers Drive		Boone	28607		
+high-school-table.txt	Charles B Aycock High	5460 US 117 North		Pikeville	27863		
+high-school-table.txt	Eastern Wayne High	1135 New Hope Road		Goldsboro	27534		
+high-school-table.txt	Edgewood Cmty Developmental	1601 Peachtree St		Goldsboro	27530		
+high-school-table.txt	Goldsboro High	901 E Beech Street		Goldsboro	27530		
+high-school-table.txt	Rosewood High	900 Rosewood Road		Goldsboro	27530		
+high-school-table.txt	Southern Wayne High	124 Walter Fulcher Rd		Dudley	28333		
+high-school-table.txt	Spring Creek High	4340 Indian Springs Rd		Seven Springs	28578		
+high-school-table.txt	Wayne Middle / High Academy	801 N Lionel St		Goldsboro	27530		
+high-school-table.txt	Wayne Early / Middle College High	3000 Wayne Memorial Drive		Goldsboro	27534		
+high-school-table.txt	Wayne School of Engineering	700 N Herman St		Goldsboro	27530		
+high-school-table.txt	East Wilkes High School	13315 Elkin Hwy 268		Ronda	28670		
+high-school-table.txt	North Wilkes High School	2986 Traphill Rd		Hays	28635		
+high-school-table.txt	West Wilkes High School	6598 Boone Trail		Millers Creek	28651		
+high-school-table.txt	Wilkes Central High School	1179 Moravian Falls Rd		Wilkesboro	28697		
+high-school-table.txt	Wilkes Early College High School	1328 S Collegiate Dr		Wilkesboro	28697		
+high-school-table.txt	Milton M Daniels Learning Center	723 Elvie Street		Wilson	27893		
+high-school-table.txt	Beddingfield High	4510 Old Stantonsburg Rd		Wilson	27893		
+high-school-table.txt	Fike High	500 Harrison Dr N		Wilson	27893		
+high-school-table.txt	James Hunt High	4559 Lamm Rd		Wilson	27893		
+high-school-table.txt	Wilson Early College Academy	902 Herring St		Wilson	27893		
+high-school-table.txt	Wilson Preparatory Academy	2755 Tilghman Rd N		Wilson	27896		
+high-school-table.txt	Boonville Elementary	232 East Main Street		Boonville	27011		
+high-school-table.txt	Forbush High	1525 Falcon Road		East Bend	27018		
+high-school-table.txt	Starmount High	2516 Longtown Rd		Boonville	27011		
+high-school-table.txt	Yadkin Early College	1001 College Drive		Yadkinville	27055		
+high-school-table.txt	Yadkin Success Academy	733 East Main Street		Yadkinville	27055		
+high-school-table.txt	Mountain Heritage High	333 Mtn Heritage HS Road		Burnsville	28714		
+high-school-table.txt	Edgecombe Youth Development Center	78 Positive Way		Rocky Mount	27801		
+high-school-table.txt	Dobbs/Lenoir Youth Development Center	3055 Dobbs Farm Rd		Kinston	28504		
+high-school-table.txt	Stonewall Jackson Youth Dev Ctr	850 Holshouser Rd		Concord	28027		
+high-school-table.txt	Cumberland - NC State Learning Academy	1911 Coliseum Dr		Fayetteville	28306		
+high-school-table.txt	Cabarrus - NC State Learning Academy	822 McWhorter Road		Concord	28027		
+high-school-table.txt	New Hanover - NC State Learning Academy	3830 Juvenile Center Rd		Castle Hayne	28429		
+high-school-table.txt	Pitt - NC State Learning Academy	451 Belvoir Road		Greenville	27834		
+high-school-table.txt	Wake - NC State Learning Academy	700 Beacon Lake Dr		Raleigh	27610		
+high-school-table.txt	Alexander - NC State Learning Academy	928 NC HWY 16 South		Taylorsville	28681		
+high-school-table.txt	Chatham Youth Dev Center	560 Progress Blvd		Siler City	27344		
+high-school-table.txt	Eckerd - Candor	500 E Ku Sumee Rd		Candor	27229		
+high-school-table.txt	Eckerd - Boomer	4654 High Rock Rd		Boomer	28606		
+high-school-table.txt	Westcare NC Girls Academy	633 Shepard’s Way Lane		Manson	27553		
+license-offices.txt	Graham Driver License Office	111 East Crescent Square		Graham	27253	36.0549006	-79.3983141
+license-offices.txt	Taylorsville Driver License Office	2390 NC Highway 90 E.		Taylorsville	28681	35.9154291	-81.1362046
+license-offices.txt	Blue Ridge Business Development Center Driver License Office	115 Atwood St. Suite 508		Sparta	28675	36.51366	-81.11907
+license-offices.txt	Polkton Driver License Office	5920 Highway 74 W.		Polkton	28135	34.9900203	-80.1571987
+license-offices.txt	Ashe County Law Enforcement Center Driver License Office	140 Government Circle		Jefferson	28640	36.41878	-81.458993
+license-offices.txt	Newland Town Hall Driver License Office	301 Cranberry Street		Newland	28657	36.089666	-81.928203
+license-offices.txt	Washington Driver License Office	1821 Carolina Avenue (U.S. Highway 17 N.)		Washington	27889	35.573632	-77.064925
+license-offices.txt	Elizabethtown Driver License Office	197 S PINE ST		ELIZABETHTOWN	28337-9162	34.630515	-78.608691
+license-offices.txt	Shallotte Driver License Office	5298 MAIN ST		SHALLOTTE	28470-3438	33.965054	-78.395702
+license-offices.txt	Mobile Unit at Fire Department Downtown Substation	111 E NASH ST		SOUTHPORT	28461-3933	33.919391	-78.018812
+license-offices.txt	Asheville Driver License Office	1624 Patton Avenue		Asheville	28806	35.570658	-82.618487
+license-offices.txt	Morganton Driver License Office	115 Government Drive		Morganton	28655	35.718555	-81.675548
+license-offices.txt	Concord Driver License Office	2192 Kannapolis Highway		Concord	28027	35.4455385	-80.6148351
+license-offices.txt	Hudson Driver License Office 	309 Pine Mountain Road		Hudson	28638	35.8459328	-81.479913
+license-offices.txt	Morehead City Driver License Office	5347 US 70 W.		Morehead City	28557	34.734685	-76.7912562
+license-offices.txt	Yanceyville Driver License Office	958 Fire Tower Road		Yanceyville	27379	36.4208	-79.335808
+license-offices.txt	Lenoir-Rhyne Plaza Driver License Office	1158 Lenoir-Rhyne Boulevard SE		Hickory	28602	35.7170445	-81.3139905
+license-offices.txt	Newton Driver License Office	1033 Smyre Farm Road		Newton	28658	35.629737	-81.220523
+license-offices.txt	Siler City Driver License Office	1103 North 2nd Avenue Exit (U.S. 421 S/64 W)		Siler City	27344	35.734124	-79.466881
+license-offices.txt	Andrews Driver License Office	1440 Main St.		Andrews	28901	35.201972	-83.817793
+license-offices.txt	Edenton Driver License Office	307 W FREEMASON ST		EDENTON	27932-1878	36.0676553	-76.6061839
+license-offices.txt	Mobile Unit at Clay County Social Services	1 Riverside Circle		Hayesville	28904	35.0468533	-83.8162614
+license-offices.txt	Shelby Driver License Office	US 74 Bypass 1914 East Dixon Boulevard		Shelby	28152	35.2665452	-81.4825114
+license-offices.txt	Whiteville Driver License Office	917 Washington Street		Whiteville	28472	34.336137	-78.722669
+license-offices.txt	Craven County Office Building Driver License Office	300 Miller Boulevard		Havelock	28532	34.883043	-76.915932
+license-offices.txt	New Bern Driver License Office	2106 Neuse Boulevard		New Bern	28560	35.11397	-77.07007
+license-offices.txt	South Fayetteville Driver License Office	2439 Gillespie St.		Fayetteville	28303	35.0152675	-78.8965569
+license-offices.txt	Eutaw Village Shopping Center Driver License Office	831 ELM ST		FAYETTEVILLE	28303-4151	35.075653	-78.926096
+license-offices.txt	Stedman Driver License Office	4705 Clinton Road		Stedman	28312-8524	35.036356	-78.7535
+license-offices.txt	Mobile Unit at the Fort Bragg Soldier Support Center	2843 Normandy Drive		Fort Bragg	28307	35.1386719	-79.0006252
+license-offices.txt	Mobile Unit at the NC Cooperative Extension-Currituck County Center	120 COMMUNITY WAY		BARCO	27917-9559	36.3911285	-76.0123048
+license-offices.txt	Mobile Unit at the Hatteras Civic Center	57709 NC Highway 12		Hatteras	27943	35.2191296	-75.6900782
+license-offices.txt	Nags Head Driver License Office	2808 S CROATAN HWY		NAGS HEAD	27959-9024	35.980144	-75.641981
+license-offices.txt	Lexington Driver License Office	2314 South Main Street		Lexington	27292	35.8039439	-80.2810228
+license-offices.txt	Thomasville Driver License Office	1033 Randolph Street Suite 16		Thomasville	27360	35.865568	-80.070907
+license-offices.txt	Mobile Unit at the Denton Fire Department	101 W. Newsome Avenue		Denton	27239	35.6334363	-80.1168936
+license-offices.txt	Mocksville Driver License Office	161 Poplar Street Suite 101		Mocksville	27028	35.8987753	-80.5561553
+license-offices.txt	Driver License Office Adjacent to The Kenansville Town Hall	133 ROUTLEDGE ST		KENANSVILLE	28349-8002	34.961863	-77.958792
+license-offices.txt	East Durham Driver License Office	101 South Miami Boulevard		Durham	27703	35.987053	-78.862611
+license-offices.txt	Shops of Hope Valley Shopping Center Driver License Office	3825 South Roxboro Street Suite 119		Durham	27713	35.9475799	-78.9220051
+license-offices.txt	Tarboro Driver License Office	125 E Granville Street		Tarboro	27886	35.8958956	-77.5326019
+license-offices.txt	Winston-Salem North Driver License Office	3637 North Patterson Avenue		Winston-Salem	27105	36.138906	-80.242609
+license-offices.txt	Winston-Salem South Driver License Office	2001 Silas Creek Parkway		Winston-Salem	27103	36.070585	-80.267612
+license-offices.txt	North Main Crossing Driver License Office	810A North Main Street		Kernersville	27284	36.129315	-80.0590069
+license-offices.txt	Louisburg Driver License Office	90 Tanglewood Drive		Louisburg	27549-2698	36.097456	-78.29283
+license-offices.txt	Gastonia Driver License Office	2560 W FRANKLIN BLVD		GASTONIA	28052-1250	35.25961	-81.228515
+license-offices.txt	Mount Holly Municipal Building Driver License Office	785 W Charlotte Avenue		Mount Holly	28120	35.3035054	-81.0271425
+license-offices.txt	Mobile Unit at the Gates County Community Center	130 US HIGHWAY 158 W		GATESVILLE	27938-9437	36.446394	-76.7063815
+license-offices.txt	Mobile Unit at Graham County Social Services	196 Knight Street		Robbinsville	28771	35.3281599	-83.810188
+license-offices.txt	Oxford Driver License Office	100 PROVIDENCE RD		OXFORD	27565-3162	36.304996	-78.607034
+license-offices.txt	Mobile Unit at the South Granville Senior Center	108 Wilton Avenue		Creedmoor	27522	36.1232952	-78.6783957
+license-offices.txt	Mobile Unit at the County Office Complex Library	229 Kingold Boulevard		Snow Hill	28580	35.4527435	-77.6840043
+license-offices.txt	East Greensboro Driver License Office	2527 E Market Street		Greensboro	27401	36.079311	-79.752739
+license-offices.txt	West Greensboro Driver License Office	2391 Coliseum Boulevard		Greensboro	27403	36.0438889	-79.8165865
+license-offices.txt	High Point Driver License Office	650 Francis Street		High Point	27263	35.938289	-79.982669
+license-offices.txt	Roanoke Rapids Driver License Office	26 Three Bridges Road		Roanoke Rapids	27870	36.403502	-77.647389
+license-offices.txt	Mobile Unit at the Senior Center	1403 CHURCH ST		SCOTLAND NECK	27874-1336	36.129122	-77.421398
+license-offices.txt	Harnett County Emergency Services Driver License Office	1005 Edwards Brothers Drive		Lillington	27546	35.3920793	-78.8032186
+license-offices.txt	Erwin Driver License Office	125 West Jackson Boulevard		Erwin	28339	35.339712	-78.679064
+license-offices.txt	Clyde Driver License Office	290 Lee Road		Clyde	28721	35.530619	-82.935746
+license-offices.txt	Hendersonville Driver License Office	125 Baystone Drive 		Hendersonville	28791	35.360357	-82.481329
+license-offices.txt	Ahoskie Driver License Office	242 NC 42 West		Ahoskie	27910	36.278448	-77.013999
+license-offices.txt	Civil Preparedness Building Driver License Office	3144 Highway 401 Business		Raeford	28376	34.996219	-79.183834
+license-offices.txt	Mobile Unit at the Volunteer Fire Department	822 Irvin Garrish Highway		Ocracoke	27960	35.108699	-75.977116
+license-offices.txt	Mobile Unit at the Hyde County Government Building	13 MAIN ST		SWAN QUARTER	27885-9382	35.406289	-76.328967
+license-offices.txt	Design Center Driver License Office	533 Patterson Ave Suite 100		Mooresville	28115	35.592263	-80.806274
+license-offices.txt	Statesville Driver License Office	905 Carolina Avenue North		Statesville	28677	35.806059	-80.878639
+license-offices.txt	Commercial Driver License Skills Testing Site	1028 Turnersburg Hwy		Statesville	28625	35.854652	-80.851143
+license-offices.txt	Skyland Service Center Driver License Office	876 Skyland Drive, Suite 2		Sylva	28779	35.388727	-83.207812
+license-offices.txt	Shotwell Station Driver License Office	1665 OLD US 70 HWY W		CLAYTON	27520-6566	35.6695357	-78.4786006
+license-offices.txt	Smithfield Driver License Office	3783 US 301 South		Smithfield	27577	35.4711912	-78.3835284
+license-offices.txt	Mobile Unit at the Civic Center	N.C Highway 58		Trenton	28585	35.0786633	-77.4041675
+license-offices.txt	Sanford Driver License Office	2210 Carthage Street		Sanford	27330	35.445734	-79.21415
+license-offices.txt	Kinston Driver License Office	2214 West Vernon Avenue		Kinston	28501	35.269199	-77.612813
+license-offices.txt	Lincolnton Driver License Office	1450 North Aspen Street		Lincolnton	28092	35.4898079	-81.249179
+license-offices.txt	Franklin Driver License Office	16 PATTON AVE		FRANKLIN	28734-3043	35.182163	-83.37899
+license-offices.txt	Jackie Ball Building Driver License Office	164 North Main Street		Marshall	28753	35.798273	-82.686613
+license-offices.txt	Martin County Government Center Driver License Office	305 E MAIN ST.          STE 116		WILLIAMSTON	27892-2566	35.856616	-77.052298
+license-offices.txt	Marion Driver License Office	3975 NC 226 South		Marion	28752	35.6524443	-81.955681
+license-offices.txt	East Charlotte Driver License Office	6635 Executive Circle, Suite 130		Charlotte	28212	35.204432	-80.731043
+license-offices.txt	South Charlotte Driver License Office	201-H West Arrowood Road		Charlotte	28217	35.133849	-80.893405
+license-offices.txt	West Charlotte Driver License Office	6016 Brookshire Boulevard		Charlotte	28216	35.284753	-80.903616
+license-offices.txt	Huntersville Driver License Office	12101 Mt. Holly-Huntersville Road		Huntersville	28078	35.389027	-80.854668
+license-offices.txt	Mobile Unit at Pineville Communication Systems	118 COLLEGE ST		PINEVILLE	28134-9706	35.086667	-80.888316
+license-offices.txt	Spruce Pine Driver License Office	1032 OAK AVE		SPRUCE PINE	28777-2834	35.9195059	-82.0584136
+license-offices.txt	Troy Driver License Office	168 Glenn Road		Troy	27371	35.379317	-79.880845
+license-offices.txt	Aberdeen Driver License Office	521 South Sandhills Boulevard		Aberdeen	28315	35.126093	-79.433596
+license-offices.txt	Mobile Unit at the Robbins Area Library	161 East Magnolia Drive		Robbins	27325	35.431765	-79.58739
+license-offices.txt	Rocky Mount Driver License Office	2617 North Wesleyan Boulevard		Rocky Mount	27804	35.9997309	-77.7758865
+license-offices.txt	Wilmington North Driver License Office	One Station Road 		Wilmington	28405	34.258574	-77.830516
+license-offices.txt	South Square Plaza Driver License Office	2390 CAROLINA BEACH RD;        STE 104		WILMINGTON	28401-7629	34.195909	-77.936872
+license-offices.txt	Jacksonville Driver License Office	299 Wilmington Highway		Jacksonville	28540	34.746138	-77.454154
+license-offices.txt	Mobile Unit at Camp Lejeune Hadnot Point Plaza	84 Holcomb Blvd.		Camp Lejeune	28540	34.6694841	-77.3427414
+license-offices.txt	Carrboro Plaza Shopping Center Driver License Office	104 NC Highway 54, Suite GG		Carrboro	27510	35.9164975	-79.09455109999999
+license-offices.txt	Hillsborough Driver License Office	1201 US HIGHWAY 70 W		HILLSBOROUGH	27278-7004	36.085039	-79.124645
+license-offices.txt	Mobile Unit at the Pamlico County Human Services Center	828 Alliance St.		BAYBORO	28515	35.1445993	-76.8102629
+license-offices.txt	Elizabeth City Driver License Office	1164 US 17 South		Elizabeth City	27909	36.2821092	-76.277515
+license-offices.txt	Burgaw Driver License Office	781 U.S. 117 South		Burgaw	28425	34.542667	-77.91019
+license-offices.txt	Mobile Unit at the Perquimans County Municipal Building	114 W. Grubb St.		HERTFORD	27944	36.189954	-76.467914
+license-offices.txt	Roxboro Driver License Office	3434 Burlington Road		Roxboro	27573	36.3542599	-79.043172
+license-offices.txt	Greenville Square Driver License Office	703 SE Greenville Blvd., Unit #124		Greenville	27858	35.589186	-77.370617
+license-offices.txt	Mobile Unit at the Polk County License Plate Agency	51 WALKER ST		COLUMBUS	28722-7497	35.249595	-82.197819
+license-offices.txt	Asheboro Driver License Office	2754 US Highway 220 Business South		Asheboro	27205	35.6738998	-79.8256368
+license-offices.txt	Hamlet Driver License Office	200 COLLEGE DR		HAMLET	28345-4637	34.907439	-79.712457
+license-offices.txt	Lumberton Driver License Office	4650 Kahn Drive		Lumberton	28358-2308	34.660013	-79.008085
+license-offices.txt	Commercial Driver License Skills Testing Site	2479 E Fifth Street		Lumberton	28358-6809	34.6088069	-78.9738738
+license-offices.txt	Pembroke Driver License Office	100 South Union Chapel Road		Pembroke	28372	34.6814421	-79.1913072
+license-offices.txt	Mobile Unit at the St. Pauls Police Station	210 West Blue Street		St. Pauls	28384	34.8057717	-78.9728238
+license-offices.txt	Mobile Unit at the Fairmont Fire Department	103 Cottage Street		Fairmont	28340	34.4940846	-79.1075674
+license-offices.txt	Wentworth Driver License Office	111 Wilson-Way Road		Reidsville	27320	36.371898	-79.73257
+license-offices.txt	Salisbury Driver License Office	5780 South Main Street		Salisbury	28144	35.603619	-80.5425659
+license-offices.txt	Forest City Driver License Office	596 Withrow Road		Forest City	28043	35.343354	-81.898223
+license-offices.txt	Clinton Driver License Office	305 North Boulevard		Clinton	28328	35.0159064	-78.3287315
+license-offices.txt	Highway Patrol Building Driver License Office	1421 West Boulevard		Laurinburg	28352	34.759554	-79.493348
+license-offices.txt	Albemarle Driver License Office	611 Concord Road		Albemarle	28001	35.3553349	-80.217076
+license-offices.txt	Walnut Cove Driver License Office	111 W. Sixth Street		Walnut Cove	27052	36.299517	-80.141748
+license-offices.txt	Elkin Driver License Office	1687 North Bridge Street		Elkin	28621	36.276533	-80.853234
+license-offices.txt	Mount Airy Driver License Office	155 Patrol Station Road		Mount Airy	27030	36.528803	-80.629609
+license-offices.txt	Bryson City Driver License Office	2650 GOVERNORS ISLAND RD		BRYSON CITY	28713-7983	35.434678	-83.411912
+license-offices.txt	Brevard Driver License Office	50 COMMERCE ST;        STE 4		BREVARD	28712-4692	35.240824	-82.735221
+license-offices.txt	Mobile Unit at the Municipal Library	403 Main Street		Columbia	27925	35.917526	-76.251883
+license-offices.txt	Monroe Driver License Office	3122 US 74 West		Monroe	28110	35.0243292	-80.5831194
+license-offices.txt	Mobile Unit at Edwards Memorial Library	414 HASTY ST		MARSHVILLE	28103-1242	34.9911903	-80.3637335
+license-offices.txt	Henderson Driver License Office	1080 Eastern Boulevard		Henderson	27536	36.325965	-78.382194
+license-offices.txt	Spring Forest Pavilion Driver License Office	2431 Spring Forest Road, Unit 101		Raleigh	27615	35.86035	-78.59846
+license-offices.txt	Avent Ferry Shopping Center Driver License Office	3231 Avent Ferry Road		Raleigh	27606	35.767765	-78.696068
+license-offices.txt	Forest Hills Shopping Center Driver License Office	222 Forest Hills Drive		Garner	27529	35.707258	-78.6231171
+license-offices.txt	Fuquay -Varina Municipal Building Driver License Office	131 South Fuquay Avenue		Fuquay-Varina	27526	35.583326	-78.797907
+license-offices.txt	Freeman Center Driver License Office	1387 SE Maynard Road		Cary	27511	35.788471	-78.76386
+license-offices.txt	Wendell Driver License Office	2851 WENDELL BLVD		WENDELL	27591-6904	35.794178	-78.38022
+license-offices.txt	Mobile Unit at the Renaissance Center	405 BROOKS ST		WAKE FOREST	27587-2930	35.9741886	-78.5087581
+license-offices.txt	Mobile Unit at the Old N.C. National Guard Armory	501 US 158 Business East		WARRENTON	27589	36.4039167	-78.16156060000002
+license-offices.txt	Mobile Unit at the Pettigrew Library	201 E. Third St.		Plymouth	27962	35.86595	-76.746464
+license-offices.txt	Boone Driver License Office	4469 BAMBOO RD;         STE 103		BOONE	28607-6555	36.205642	-81.622937
+license-offices.txt	Goldsboro Driver License Office	701 West Grantham Street		Goldsboro	27530	35.3985879	-78.001919
+license-offices.txt	Old Steele Library Building Driver License Office	110 North Chestnut Street		Mount Olive	28365	35.196581	-78.067312
+license-offices.txt	Wilkesboro Driver License Office	1230 School Street		Wilkesboro	28697	36.136461	-81.177123
+license-offices.txt	Wilson Driver License Office	1822 Goldsboro Street SW		Wilson	27893	35.7159043	-77.9237774
+license-offices.txt	Yadkinville Driver License Office	225 Ash Street		Yadkinville	27055	36.1168961	-80.6571136
+license-offices.txt	Burnsville Driver License Office	116 North Main Street		Burnsville	28714	35.918608	-82.299735
+dss-table.txt	Alamance County DSS	319 North Graham Hopedale Road	Suite C	Burlington	 27217		
+dss-table.txt	Alexander County DSS	604 7th Street, SW		Taylorsville	 28681		
+dss-table.txt	Alleghany County DSS	182 Doctor Street		Sparta	 28675		
+dss-table.txt	Anson County DSS	118 North Washington Street		Wadesboro	 28170		
+dss-table.txt	Ashe County DSS	150 Government Circle	Suite 1400	Jefferson	 28640		
+dss-table.txt	Avery County DSS	175 Linville Street		Newland	 28657		
+dss-table.txt	Beaufort County DSS	632 West 5th Street		Washington	 27889		
+dss-table.txt	Bertie County DSS	1006 Wayland Street		Windsor	 27983		
+dss-table.txt	Bladen County DSS	208 McKay Street		Elizabethtown	 28337		
+dss-table.txt	Brunswick County DSS	60 Government Drive, NE		Bolivia	 28422-0219		
+dss-table.txt	Buncombe County DSS	40 Coxe Avenue		Asheville	 28802		
+dss-table.txt	Burke County DSS	700 East Parker Road		Morganton	 28680-0549		
+dss-table.txt	Cabarrus County DSS	1303 South Cannon Boulevard		Kannapolis	 28083		
+dss-table.txt	Caldwell County DSS	2345 Morganton Blvd SW	Suite A	Lenoir	 28645		
+dss-table.txt	Camden County DSS	117 North Highway 343		Camden	 27921		
+dss-table.txt	Carteret County DSS	210 Craven Street		Beaufort	 28516		
+dss-table.txt	Caswell County DSS	175 East Church Street		Yanceyville	 27379		
+dss-table.txt	Catawba County DSS	3030 11th Avenue Drive, SE		Hickory	 28602		
+dss-table.txt	Chatham County DSS	102 Camp Drive		Pittsboro	 27312		
+dss-table.txt	Cherokee County DSS	4800 W US Highway 64		Murphy	 28906		
+dss-table.txt	Chowan County DSS	100 W. Freemason Circle		Edenton	 27932		
+dss-table.txt	Clay County DSS	119 Courthouse Dr.		Hayesville	 28904		
+dss-table.txt	Cleveland County DSS	130 South Post Road		Shelby	 28150		
+dss-table.txt	Columbus County DSS	40 Government Complex Road		Whiteville	 28472-0397		
+dss-table.txt	Craven County DSS	2818 Neuse Boulevard		New Bern	 28561-2039		
+dss-table.txt	Cumberland County DSS	1225 Ramsey Street		Fayetteville	 28301		
+dss-table.txt	Currituck County DSS	153 Courthouse Rd.	Suite 400	Currituck	 27929		
+dss-table.txt	Dare County DSS	107 Exeter Street		Manteo	 27954		
+dss-table.txt	Davidson County DSS	913 Greensboro Street		Lexington	 27293		
+dss-table.txt	Davie County DSS	228 Hospital St		Mocksville	 27028		
+dss-table.txt	Duplin County DSS	423 North Main Street		Kenansville	 28349		
+dss-table.txt	Durham County DSS	414 East Main Street		Durham	 27702-0810		
+dss-table.txt	Edgecombe County DSS, Tarboro Office	122 E. St. James Street		Tarboro	 27886		
+dss-table.txt	Edgecombe County DSS, Rocky Mount Office	301 South. Fairview Road		Rocky Mount	 27801		
+dss-table.txt	Forsyth County DSS	741 North Highland Avenue		Winston-Salem	 27101		
+dss-table.txt	Franklin County DSS	107 Industrial Drive		Louisburg	 27549		
+dss-table.txt	Gaston County DSS	330 Dr. Martin Luther King Jr. Way		Gastonia	 28052		
+dss-table.txt	Gates County DSS	200 Court Street		Gatesville	 27938		
+dss-table.txt	Graham County DSS	196 Knight Street		Robbinsville	 28771		
+dss-table.txt	Granville County DSS	410 West Spring Street		Oxford	 27565		
+dss-table.txt	Greene County DSS	227 Kingold Boulevard	Suite A	Snow Hill	 28580		
+dss-table.txt	Guilford County DSS	1203 Maple Street (27405)		Greensboro	 27402-3388		
+dss-table.txt	Halifax County DSS	4421 Hwy 301		Halifax	 27839		
+dss-table.txt	Harnett County DSS	311 Cornelius Harnett Boulevard		Lillington	 27546		
+dss-table.txt	Haywood County DSS	157 Paragon Parkway	Suite 300	Clyde	 28721		
+dss-table.txt	Henderson County DSS	1200 Spartanburg Highway	Suite 300	Hendersonville	 28792		
+dss-table.txt	Hertford County DSS	704 King Street		Winton	 27986		
+dss-table.txt	Hoke County DSS	314 S. Magnolia Street		Raeford	 28376		
+dss-table.txt	Hyde County DSS	35015 US Hwy 264		Engelhard	 27824		
+dss-table.txt	Iredell County DSS	549 Eastside Drive		Statesville	 28625		
+dss-table.txt	Jackson County DSS	15 Griffin Street		Sylva	 28779		
+dss-table.txt	Johnston County DSS	714 North Street		Smithfield	 27577		
+dss-table.txt	Jones County DSS	118 Highway 58 North		Trenton	 28585		
+dss-table.txt	Lee County DSS	530 Carthage Street		Sanford	 27330		
+dss-table.txt	Lenoir County DSS	130 West King Street		Kinston	 28502-0006		
+dss-table.txt	Lincoln County DSS	1136 East Main Street		Lincolnton	 28093-0130		
+dss-table.txt	Macon County DSS, Lakeside Government Complex	1832 Lakeside Drive		Franklin	 28734		
+dss-table.txt	Madison County DSS	5707 U.S. Highway 25/70	Unit D	Marshall	 28753		
+dss-table.txt	Martin County DSS	305 East Main Street		Williamston	 27892		
+dss-table.txt	McDowell County DSS	145 East Court Street		Marion	 28752		
+dss-table.txt	Mecklenburg County DSS	301 Billingsley Road		Charlotte	 28222		
+dss-table.txt	Mitchell County DSS	347 Long View Drive		Bakersville	 28705-0365		
+dss-table.txt	Montgomery County DSS	102 E. Spring Street		Troy	 27371		
+dss-table.txt	Moore County DSS	1036 Carriage Oaks Drive		Carthage	 28327		
+dss-table.txt	Nash County DSS	120 West Washington Street		Nashville	 27856		
+dss-table.txt	New Hanover County DSS	1650 Greenfield Street		Wilmington	 28402		
+dss-table.txt	Northampton County DSS	9467 NC 305 Highway		Jackson	 27845		
+dss-table.txt	Onslow County DSS	1915 Onslow Drive Extension		Jacksonville	 28541		
+dss-table.txt	Orange County DSS	113 Mayo St.		Hillsborough	 27278		
+dss-table.txt	Pamlico County Human Services Center	828 Alliance Main St.		Bayboro	 28515		
+dss-table.txt	Pasquotank County DSS	709 Roanoke Avenue		Elizabeth City	 27909		
+dss-table.txt	Pender County DSS	810 South Walker Street		Burgaw	 28425		
+dss-table.txt	Perquimans County DSS	103 Charles Street		Hertford	 27944		
+dss-table.txt	Person County DSS	355B S. Madison Blvd		Roxboro	 27573		
+dss-table.txt	Pitt County DSS	1717 West Fifth Street		Greenville	 27834		
+dss-table.txt	Polk County DSS	231 Wolverine Trail.		Mill Spring	 28756		
+dss-table.txt	Randolph County DSS	1512 North Fayetteville Street		Asheboro	 27204-3239		
+dss-table.txt	Richmond County DSS	125 Caroline Street		Rockingham	 28380		
+dss-table.txt	Robeson County DSS	120 Glen Cowan Road		Lumberton	 28360		
+dss-table.txt	Rockingham County DSS	411 NC Hwy. 65		Wentworth	 27375		
+dss-table.txt	Rowan County DSS	1236 West Innes Street		Salisbury	 28144		
+dss-table.txt	Rutherford County DSS	389 Fairground Road		Spindale	 28160		
+dss-table.txt	Sampson County DSS	360 County Complex Rd.	Suite 100	Clinton	 28328		
+dss-table.txt	Scotland County DSS	1405 West Boulevard		Laurinburg	 28353		
+dss-table.txt	Stanly County DSS	1000 North First Street	Suite 2	Albemarle	 28001		
+dss-table.txt	Stokes County DSS	1010 Highway 8 & 89 North		Danbury	 27016		
+dss-table.txt	Surry County DSS	118 Hamby Road		Dobson	 27017		
+dss-table.txt	Swain County DSS	80 Academy St.		Bryson City	 28713		
+dss-table.txt	Transylvania County DSS	106 E. Morgan St.		Brevard	 28712		
+dss-table.txt	Tyrrell County DSS	102 N. Road Street		Columbia	 27925		
+dss-table.txt	Union County DSS	2330 Concord Avenue		Monroe	 28110		
+dss-table.txt	Vance County DSS	350 Ruin Creek Road		Henderson	 27536		
+dss-table.txt	Wake County Human Services	220 Swinburne Road		Raleigh	 27620-6833		
+dss-table.txt	Warren County DSS	307 North Main Street		Warrenton	 27589		
+dss-table.txt	Washington County DSS	209 East Main Street		Plymouth	 27962		
+dss-table.txt	Watauga County DSS	132 Poplar Grove Road Connector	Suite C	Boone	 28607		
+dss-table.txt	Wayne County DSS	301 North Herman Street		Goldsboro	 27530		
+dss-table.txt	Wilkes County DSS	304 College Street		Wilkesboro	 28697		
+dss-table.txt	Wilson County DSS	100 N.E Gold Street		Wilson	 27894-0459		
+dss-table.txt	Yadkin County DSS	250 Willow Street		Yadkinville	 27055		
+dss-table.txt	Yancey County DSS	320 Pensacola Road		Burnsville	 28714		
+wic-data.txt	Alamance County Health Department	319 N. Graham-Hopedale Rd.		Burlington	27217		
+wic-data.txt	Alexander County Health Department	338 First Avenue SW	Suite 1	Taylorsville	28681		
+wic-data.txt	Alleghany County Health Department (Appalachian Health District)	157 Health Service Rd		Sparta	28675		
+wic-data.txt	Anson County Health Department	110 Ashe St.		Wadesboro	28170		
+wic-data.txt	Ashe County Health Department (Appalachian Health District)	413 McConnell St.		Jefferson	28640		
+wic-data.txt	Avery County Health Department (Toe River Health District)	545 Schultz Circle		Newland	28657		
+wic-data.txt	Beaufort County Health Department	1436 Highland Dr.		Washington	27889		
+wic-data.txt	Bertie County Health Department (Albemarle Regional Health Services)	102 Rhodes Ave.		Windsor	27983		
+wic-data.txt	Bladen County Health Department	300 Mercer Mill Rd.		Elizabethtown	28337		
+wic-data.txt	Brunswick County Health Department	25 Courthouse Dr., N.E.		Bolivia	28422		
+wic-data.txt	Brunswick County Health Department	1492 Village Road		Leland	28451		
+wic-data.txt	Brunswick County Health Department (Eastgate Plaza)	1509 Holden Beach Rd		Shallotte	28470		
+wic-data.txt	Buncombe County Health Center	7 Yorkshire Ave.		Asheville	28803		
+wic-data.txt	Buncombe County Health Center	336 Leicester Highway	Suite 120	Asheville	28806		
+wic-data.txt	Buncombe County Health Center	257 Biltmore Avenue		Asheville	28801		
+wic-data.txt	Buncombe County Health Center	119 Hendersonville Rd		Asheville	28803		
+wic-data.txt	Burke County Health Department	700 East Parker Rd.		Morganton	28655		
+wic-data.txt	Cabarrus Health Alliance	300 Mooresville Rd.		Kannapolis	28081		
+wic-data.txt	Cabarrus Health Alliance (Logan Clinic)	298 Lincoln St.		Concord	28025		
+wic-data.txt	Caldwell County Health Department	2345 Morganton Blvd.	Suite B	Lenoir	28645		
+wic-data.txt	Camden County Health Department (Albemarle Regional Health Services)	160 US Hwy 158 East	Building B	Camden	27921		
+wic-data.txt	Carteret County Health Department	3820 A Bridges St.		Morehead City	28557		
+wic-data.txt	Caswell County Health Department	189 County Park Rd.		Yanceyville	27379		
+wic-data.txt	Caswell County Health Department (Prospect Hill Community Health Center (Piedmont Health Services))	322 Main St.		Prospect Hill	27314		
+wic-data.txt	Catawba County Health Department	3070 11th Ave Dr. SE		Hickory	28602		
+wic-data.txt	Chatham County (Moncure Community Health Center (Piedmont Health Services))	728 Pittsboro-Moncure Rd.		Moncure	27559		
+wic-data.txt	Chatham County (Siler City Community Health Center (Piedmont Health Services))	224 South 10th Ave.		Siler City	27344		
+wic-data.txt	Cherokee County Health Department	228 Hilton St.		Murphy	28906		
+wic-data.txt	Cherokee County Health Department (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719		
+wic-data.txt	Chowan County Health Department (Albemarle Regional Health Services)	202 W. Hicks St.		Edenton	27932		
+wic-data.txt	Clay County Health Department	345 Court House Dr.		Hayesville	28904		
+wic-data.txt	Clay County Health Department (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719		
+wic-data.txt	Cleveland County Health Department	200 S. Post Road		Shelby	28152		
+wic-data.txt	Columbus County Health Department	304 Jefferson St.	Miller Building	Whiteville	28472		
+wic-data.txt	Craven County Health Department	2818 Neuse Blvd		New Bern	28561		
+wic-data.txt	Cumberland County Health Department	1235 Ramsey Street,		Fayetteville	28301		
+wic-data.txt	Cumberland County Health Department (Spring Lake)	103 Laketree Blvd.		Spring Lake	28390		
+wic-data.txt	Cumberland County Health Department (Hope Mills)	2622 Hope Mills Rd.		Hope Mills	28306		
+wic-data.txt	Currituck County Health Department (Albemarle Regional Health Services)	2795 Caratoke Hwy.		Currituck	27929		
+wic-data.txt	Dare County Health Department	109 Exeter St.		Manteo	27954		
+wic-data.txt	Dare County Health Department	50347 NC Hwy 12		Frisco	27936		
+wic-data.txt	Dare County Health Department	2601 N. Croatan Hwy		Kill Devil Hills	27948 252-475-5748		
+wic-data.txt	Davidson County Health Department	915 Greensboro St.		Lexington	27293		
+wic-data.txt	Davie County Health Department	210 Hospital St.		Mocksville	27028		
+wic-data.txt	Duplin County Health Department	340 Seminary Street		Kenansville	28349		
+wic-data.txt	Durham County Health Department (Lincoln Community Health Center)	1301 Fayetteville St.		Durham	27717-2119		
+wic-data.txt	Eastern Band of Cherokee Indians (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719		
+wic-data.txt	Edgecombe County Health Department	122 East James St.		Tarboro	27886		
+wic-data.txt	Edgecombe County Health Department (Rocky Mount Branch)	107 Atlantic Ave.		Rocky Mount	27801		
+wic-data.txt	Forsyth County Health Department	799 N. Highland Ave.		Winston-Salem	27102-0686		
+wic-data.txt	Forsyth County Health Department (Downtown Health Plaza)	1200 N. Martin Luther King, Jr. Dr.		Winston-Salem	27101 336-713-9702		
+wic-data.txt	Forsyth County Health Department (Cleveland Site)	501 N. Cleveland Ave.		Winston-Salem	27101		
+wic-data.txt	Forsyth County Health Department (Kernersville Site)	431 West Bodenhamer St.		Kernersville	27285		
+wic-data.txt	Franklin County Health Department	107 Industrial Dr.		Louisburg	27549		
+wic-data.txt	Gaston County Health Department	991 West Hudson Blvd.		Gastonia	28052		
+wic-data.txt	Gaston County Health Department (Highland Health Center)	609 N. Highland St.		Gastonia	28052		
+wic-data.txt	Gates County Health Department (Albemarle Regional Health Services)	29 Medical Center Rd.		Gates	27937		
+wic-data.txt	Graham County Health Department	21 South Main St.		Robbinsville	28771		
+wic-data.txt	Graham County Health Department (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719		
+wic-data.txt	Granville-Vance District Health Department	101 Hunt Dr.		Oxford	27565		
+wic-data.txt	Greene County Health Department	227 Kingold Blvd., Suite B		Snow Hill	28580		
+wic-data.txt	Guilford County Health Department	1100 E. Wendover Avenue		Greensboro	27405		
+wic-data.txt	Guilford County Health Department	1203 Maple St. Room 308		Greensboro	27404		
+wic-data.txt	Guilford County Health Department	501 East Green St.		High Point	27260		
+wic-data.txt	Halifax County Public Health Authority	204 Evans St.		Hollister	27844		
+wic-data.txt	Halifax County Public Health Authority	116 West 3rd Street	A	Roanoke Rapids	27870		
+wic-data.txt	Halifax County Public Health Authority	19 Dobbs St.		Halifax	27839		
+wic-data.txt	Harnett County Health Department	307 West Cornelius Harnett Blvd.		Lillington	27546		
+wic-data.txt	Harnett County Health Department (CommWell Health)	3331 Easy St.		Dunn	28366		
+wic-data.txt	Haywood County Health Department	157 Paragon Parkway	Suite 800	Clyde	28721		
+wic-data.txt	Haywood County Health Department (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719		
+wic-data.txt	Henderson County Health Department	1200 Spartanburg Hwy.	Suite 100	Hendersonville	28792		
+wic-data.txt	Albemarle Regional Health Services	828 S Academy Street		Ahoskie	27910		
+wic-data.txt	Hoke County Health Department	683 East Palmer Rd.		Raeford	28376		
+wic-data.txt	Hyde County Health Department	1151 Main St.		Swan Quarter	27885		
+wic-data.txt	Iredell County Health Department	318 Turnersburg Hwy.		Statesville	28625		
+wic-data.txt	Iredell County Health Department (Government Center South)	610 E Center Ave.		Mooresville	28115		
+wic-data.txt	Jackson County Department of Public Health	538 Scotts Creek Rd., Ste. 100		Sylva	28779		
+wic-data.txt	Johnston County Public Health Department	517 North Bright Leaf Blvd.		Smithfield	27577-4194		
+wic-data.txt	Johnston County Public Health Department (CommWell Health)	3331 Easy St.		Dunn	28366		
+wic-data.txt	Jones County Health Department	418 Highway 58 North		Trenton	28585		
+wic-data.txt	Lee County Health Department	106 Hillcrest Dr.		Sanford	27331-1528		
+wic-data.txt	Lenoir County Health Department	201 North McLewean St.		Kinston	28502		
+wic-data.txt	Lincoln County Health Department	151 Sigmon Rd.		Lincolnton	28092		
+wic-data.txt	Macon County Health Department	1830 Lakeside Dr.		Franklin	28734		
+wic-data.txt	Madison County Health Department	493 Medical Park Dr.		Marshall	28753		
+wic-data.txt	Martin County Health Department (MTW Health District)	210 West Liberty St.		Williamston	27892		
+wic-data.txt	McDowell County Health Department (Rutherford, Polk, McDowell Health District)	408 Spaulding Rd.		Marion	28752		
+wic-data.txt	Mecklenburg County Health Department	2845 Beatties Ford Rd.		Charlotte	28216		
+wic-data.txt	Mecklenburg County Health Department	5624 Executive Center Dr.	Suite 100	Charlotte	28212		
+wic-data.txt	Mecklenburg County Health Department	801 Clanton Rd.		Charlotte	28217		
+wic-data.txt	Mecklenburg County Health Department	249 Billingsley Rd.		Charlotte	28211		
+wic-data.txt	Mitchell County Health Department (Toe River District)	130 Forest Service Dr.	Suite A	Bakersville	28705		
+wic-data.txt	Montgomery County Health Department	217 South Main St.		Troy	27371		
+wic-data.txt	Moore County Health Department	705 Pinehurst Ave.		Carthage	28327		
+wic-data.txt	Nash County Health Department	214 South Barnes St.		Nashville	27856		
+wic-data.txt	Nash County Health Department (Rocky Mount Office)	322 S. Franklin St.		Rocky Mount	27804		
+wic-data.txt	New Hanover County Health Department	2029 South 17th St.		Wilmington	28401		
+wic-data.txt	Northampton County Health Department	9495 NC Hwy. 305		Jackson	27845		
+wic-data.txt	Onslow County Health Department	612 College St.		Jacksonville	28540		
+wic-data.txt	Onslow County Health Department (Tarawa Terrace)	2455 Iwo Jima Blvd.		Tarawa Terrace	28543		
+wic-data.txt	Orange County Health Department (Piedmont Health Services, Inc. (located within the Orange County Health Department))	300 W. Tryon St.		Hillsborough	27278		
+wic-data.txt	Orange County Health Department (Carrboro Community Health Center (Piedmont Health Services))	301 Lloyd St.		Carrboro	27510		
+wic-data.txt	Pamlico County Health Department	203 North St.		Bayboro	28515		
+wic-data.txt	Pasquotank County Health Department (Albemarle Regional Health Services)	711 Roanoke Ave.		Elizabeth City	27907		
+wic-data.txt	Pender County Health Department	803 South Walker St.		Burgaw	28425		
+wic-data.txt	Perquimans County Health Department (Albemarle Regional Health Services)	103 ARPDC St.		Hertford	27944		
+wic-data.txt	Person County Health Department	355 A South Madison Blvd.		Roxboro	27573		
+wic-data.txt	Pitt County Health Center - WIC	201 Government Circle		Greenville	27834		
+wic-data.txt	Polk County Health Department (Rutherford, Polk, McDowell Health District)	161 Walker St.		Columbus	28722		
+wic-data.txt	Randolph County Health Department	2222 S. Fayetteville St.	B	Asheboro	27205		
+wic-data.txt	Richmond County Health Department	127 Caroline St.		Rockingham	28379		
+wic-data.txt	Robeson County Health Department	460 Country Club Rd.		Lumberton	28360		
+wic-data.txt	Rockingham County Health Department	371 NC Hwy 65 West		Wentworth	27375-0204		
+wic-data.txt	Rowan County Health Department	1811 E. Innes St.		Salisbury	28146		
+wic-data.txt	Rutherford County Health Department (Rutherford, Polk, McDowell Health District)	221 Callahan-Koon Rd.		Spindale	28160		
+wic-data.txt	Sampson County Health Department	360 County Complex Rd.		Clinton	28328		
+wic-data.txt	Scotland County Health Department	1405 West Blvd.		Laurinburg	28352		
+wic-data.txt	Stanly County Health Department	1000 North First St., Ste 3		Albemarle	28001		
+wic-data.txt	Stokes County Health Department	1009 N. Main St.		Danbury	27016		
+wic-data.txt	Stokes County Health Department (Southwest Service Center)	104 Hartgrove Rd.		King	27021		
+wic-data.txt	Surry County Health & Nutrition Center	118 Hamby Rd.		Dobson	27017		
+wic-data.txt	Swain County Health Department	545 Center St.		Bryson City	28713		
+wic-data.txt	Swain County Health Department (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719		
+wic-data.txt	Transylvania County Health Department (Community Services Bldg.)	98 East Morgan St., Suite 170		Brevard	28712		
+wic-data.txt	Tyrrell County Health Department (MTW Health District)	408 Bridge St.		Columbia	27925		
+wic-data.txt	Union County Health Department	2330 Concord Avenue		Monroe	28110		
+wic-data.txt	Vance County (Granville-Vance District Health Department)	115 Charles Rollins Rd.		Henderson	27536		
+wic-data.txt	Wake County Human Services	10 Sunnybrook Rd.		Raleigh	27620-4049		
+wic-data.txt	Wake County Human Services	111 James Jackson Ave.	Suite 201	Cary	27513		
+wic-data.txt	Wake County Human Services	130 N. Judd Parkway Northeast		Fuquay Varina	27526		
+wic-data.txt	Wake County Human Services	2909 E. Millbrook Rd.		Raleigh	27604		
+wic-data.txt	Wake County Human Services	350 E. Holding Ave.		Wake Forest	27587		
+wic-data.txt	Wake County Human Services	1002 Dogwood Dr.		Zebulon	27597		
+wic-data.txt	Warren County Health Department	544 West Ridgeway St.		Warrenton	27589		
+wic-data.txt	Washington County Health Department (MTW Health District)	198 NC Hwy 45 North		Plymouth	27962		
+wic-data.txt	Watauga County Health Department (Appalachian Health District)	126 Poplar Grove Connector Rd.		Boone	28607		
+wic-data.txt	Wayne County Health Department	301 North Herman St.		Goldsboro	27530		
+wic-data.txt	Wayne County Health Department	108 W. Main St.		Mount Olive	28365		
+wic-data.txt	Wayne County Health Department (Seymour Johnson Air Force Base Building 3602)	1200 Wright Brothers Ave.		Goldsboro	27530		
+wic-data.txt	Wilkes County Health Department	306 College St.		Wilkesboro	28697		
+wic-data.txt	Wilson County Health Department	1801 Glendale Dr. SW		Wilson	27893-4401		
+wic-data.txt	Yadkin County Human Services Agency	217 East Willow St.		Yadkinville	27055		
+wic-data.txt	Yancey County Health Department (Toe River District)	202 Medical Campus Dr.		Burnsville	28714		
+dds-vr-data.txt	Albemarle Vocational Rehabilitation Office	702 Henson Street		Albemarle	28001		
+dds-vr-data.txt	Asheboro Vocational Rehabilitation Office	958 S Park Street		Asheboro	27203		
+dds-vr-data.txt	Asheville Vocational Rehabilitation Office	8 Barbetta Drive		Asheville	28806		
+dds-vr-data.txt	Boone Vocational Rehabilitation Office	245 Winklers Creek Road	Suite A	Boone	28607		
+dds-vr-data.txt	Brevard Vocational Rehabilitation Office	106 E Morgan St	Community Services Building	Brevard	28712		
+dds-vr-data.txt	Burlington Vocational Rehabilitation Office	2615 Alamance Rd.		Burlington	27215		
+dds-vr-data.txt	Chapel Hill Vocational Rehabilitation Office	548 Smith Level Road Carrboro		Chapel Hill	27510		
+dds-vr-data.txt	Charlotte Vocational Rehabilitation Office	5501 Executive Center Dr.	Suite 101	Charlotte	28212		
+dds-vr-data.txt	Charlotte Vocational Rehabilitation Office	7140 Forest Point Blvd.	Suite B	Charlotte	28217		
+dds-vr-data.txt	Clinton Vocational Rehabilitation Office	215 W Main Street		Clinton	28328		
+dds-vr-data.txt	Concord Vocational Rehabilitation Office	820 Florence Street, NW		Concord	28027		
+dds-vr-data.txt	Creedmoor Vocational Rehabilitation Office	402 North Main Street		Creedmoor	27522		
+dds-vr-data.txt	Dunn Vocational Rehabilitation Office	214 W Edgerton		Dunn	28334		
+dds-vr-data.txt	Durham Vocational Rehabilitation Office	4312 Western Park Place		Durham	27705		
+dds-vr-data.txt	Elizabeth City Vocational Rehabilitation Office	401 South Griffin St	Suite 100	Elizabeth City	27909		
+dds-vr-data.txt	Elizabethtown Vocational Rehabilitation Office	2948 W Broad Street		Elizabethtown	28337		
+dds-vr-data.txt	Fayetteville Vocational Rehabilitation Office	155 Eastwood Avenue		Fayetteville	28301		
+dds-vr-data.txt	Flat Rock Vocational Rehabilitation Office	578 Upward Road	Unit 6	Flat Rock	28731		
+dds-vr-data.txt	Forest City Vocational Rehabilitation Office	277 Commercial Drive		Forest City	28043		
+dds-vr-data.txt	Gastonia Vocational Rehabilitation Office	109 W Eighth Avenue		Gastonia	28054		
+dds-vr-data.txt	Goldsboro Vocational Rehabilitation Office	2719 Graves Dr., Ste.14		Goldsboro	27534		
+dds-vr-data.txt	Goldsboro WorkSource East Vocational Rehabilitation Office	902 Corporate Drive		Goldsboro	27534		
+dds-vr-data.txt	Graham Vocational Rehabilitation Office	609 Ray Street		Graham	27215		
+dds-vr-data.txt	Greensboro Vocational Rehabilitation Office	3401-A West Wendover Ave		Greensboro	27407		
+dds-vr-data.txt	Greenville Vocational Rehabilitation Office	101 Fox Haven Drive		Greenville	27858		
+dds-vr-data.txt	Henderson Vocational Rehabilitation Office	10 Medical Court		Henderson	27536		
+dds-vr-data.txt	Hickory Vocational Rehabilitation Office	1261 10th Avenue Lane SE		Hickory	28602		
+dds-vr-data.txt	High Point Vocational Rehabilitation Office	919 Phillips Avenue	Suite 105	High Point	27262		
+dds-vr-data.txt	Jacksonville Vocational Rehabilitation Office	39B Office Park Drive		Jacksonville	28546		
+dds-vr-data.txt	Kenansville Vocational Rehabilitation Office	103 W Hill Street		Kenansville	28349		
+dds-vr-data.txt	Kinston Vocational Rehabilitation Office	1003-B Hardee Road		Kinston	28504		
+dds-vr-data.txt	Laurinburg Vocational Rehabilitation Office	915-D South Main Street		Laurinburg	28352		
+dds-vr-data.txt	Lenoir Vocational Rehabilitation Office	675 Pennton Ave SW		Lenoir	28645		
+dds-vr-data.txt	Lexington Vocational Rehabilitation Office	414 Piedmont Drive		Lexington	27295		
+dds-vr-data.txt	Lincolnton Vocational Rehabilitation Office	529 N. Aspen Street		Lincolnton	28092		
+dds-vr-data.txt	Louisburg Vocational Rehabilitation Office	101 North Main Street		Louisburg	27549		
+dds-vr-data.txt	Lumberton Vocational Rehabilitation Office	289 Corporate Drive, Ste. A		Lumberton	28358		
+dds-vr-data.txt	Marion Vocational Rehabilitation Office	451 North Main Street	Suite 107	Marion	28752		
+dds-vr-data.txt	Marshall Vocational Rehabilitation Office	190 Health Care Lane		Marshall	28753		
+dds-vr-data.txt	Matthews Vocational Rehabilitation Office	10801 Monroe Rd.	Suite B	Matthews	28105		
+dds-vr-data.txt	Mocksville Vocational Rehabilitation Office	377 Hospital Street	Suite 100	Mocksville	27028		
+dds-vr-data.txt	Monroe Vocational Rehabilitation Office	1121 Skyway Drive		Monroe	28110		
+dds-vr-data.txt	Morehead City Vocational Rehabilitation Office	310-A Commerce Avenue		Morehead City	28557		
+dds-vr-data.txt	Morganton Vocational Rehabilitation Office	517-F West Fleming Drive		Morganton	28655		
+dds-vr-data.txt	Morganton WorkSource West Vocational Rehabilitation Office	200 Enola Road		Morganton	28655		
+dds-vr-data.txt	Mount Airy Vocational Rehabilitation Office	784 W Lebanon Street		Mount Airy	27030		
+dds-vr-data.txt	Murphy Vocational Rehabilitation Office	510 US 64 West		Murphy	28906		
+dds-vr-data.txt	New Bern Vocational Rehabilitation Office	2832 Neuse Blvd		New Bern	28562		
+dds-vr-data.txt	Newland Vocational Rehabilitation Office	815 Pineola St, Newland, NC		Newland	28657		
+dds-vr-data.txt	North Wilkesboro Vocational Rehabilitation Office	318 Wilkesboro Avenue		North Wilkesboro	28659		
+dds-vr-data.txt	Pinehurst Vocational Rehabilitation Office	150 Blake Blvd		Pinehurst	28374		
+dds-vr-data.txt	Raleigh Vocational Rehabilitation Office	4900 Waters Edge Drive		Raleigh	27606		
+dds-vr-data.txt	Roanoke Rapids Vocational Rehabilitation Office	615 Julian Alsbrook Hwy		Roanoke Rapids	27870		
+dds-vr-data.txt	Rockingham Vocational Rehabilitation Office	1793 E. Broad Ave.		Rockingham	28379		
+dds-vr-data.txt	Rocky Mount Vocational Rehabilitation Office	Station Square	Suite 100	Rocky Mount	27804		
+dds-vr-data.txt	Roxboro Vocational Rehabilitation Office	157 Semora Road		Roxboro	27573		
+dds-vr-data.txt	Salisbury Vocational Rehabilitation Office	205 Guffy Street		Salisbury	28147		
+dds-vr-data.txt	Sanford Vocational Rehabilitation Office	201 Commercial Court		Sanford	27330		
+dds-vr-data.txt	Shelby Vocational Rehabilitation Office	1427 E Marion St	Suite A	Shelby	28150		
+dds-vr-data.txt	Siler City Vocational Rehabilitation Office	104 Village Lake Drive		Siler City	27344		
+dds-vr-data.txt	Smithfield Vocational Rehabilitation Office	18 Noble Street		Smithfield	27577		
+dds-vr-data.txt	Statesville Vocational Rehabilitation Office	2042 Davie Avenue		Statesville	28625		
+dds-vr-data.txt	Sylva Vocational Rehabilitation Office	100 Bonnie Lane	Suite A	Sylva	28779		
+dds-vr-data.txt	Tarboro Vocational Rehabilitation Office	201 St Andrews Street		Tarboro	27886		
+dds-vr-data.txt	Washington Vocational Rehabilitation Office	953 Washington Square Mall		Washington	27889		
+dds-vr-data.txt	Waynesville Vocational Rehabilitation Office	9 Haywood Office Park	Suite 103	Waynesville	28785		
+dds-vr-data.txt	Wentworth Vocational Rehabilitation Office	116 NC 65 Reidsville		Wentworth	27320		
+dds-vr-data.txt	Whiteville Vocational Rehabilitation Office	118 Memory Plaza		Whiteville	28472		
+dds-vr-data.txt	Williamston Vocational Rehabilitation Office	405 East Boulevard		Williamston	27892		
+dds-vr-data.txt	Wilmington Vocational Rehabilitation Office	3340 Jaeckle Drive	Suite 201	Wilmington	28403		
+dds-vr-data.txt	Wilson Vocational Rehabilitation Office	306 W Nash Street		Wilson	27893		
+dds-vr-data.txt	Winston-Salem Vocational Rehabilitation Office	2201 Brewer Road		Winston-Salem	27127		
+dsb.txt	Asheville District Office	50 S. French Broad Avenue		Asheville	28801		
+dsb.txt	Charlotte District Office	5501 Executive Center Drive	Suite 102	Charlotte	28212		
+dsb.txt	Fayetteville District Office	2950 Village Drive	Suite 201	Fayetteville	28304		
+dsb.txt	Greenville District Office	404 St. Andrews Drive		Greenville	27834		
+dsb.txt	Raleigh District Office	307 Ashe Avenue		Raleigh	27606		
+dsb.txt	Wilmington District Office	3240 Burnt Mill Drive	Suite 7	Wilmington	28403		
+dsb.txt	Winston-Salem District Office	4265 Brownsboro Road	Suite 100	Winston-Salem	27106		
+deaf-hard-of-hearing.txt	Asheville Regional Center	12 Barbetta Drive		Asheville	28806		
+deaf-hard-of-hearing.txt	Charlotte Regional Center	5501 Executive Ctr. Dr.	Suite 200	Charlotte	28212		
+deaf-hard-of-hearing.txt	Greensboro Regional Center	122 North Elm Street	Suite 900	Greensboro	27401		
+deaf-hard-of-hearing.txt	Morganton Regional Center	107 Foothills Drive		Morganton	28655		
+deaf-hard-of-hearing.txt	Raleigh Regional Center	4900 Waters Edge Drive		Raleigh	27606		
+deaf-hard-of-hearing.txt	Wilmington Regional Center	3240 Burnt Mill Drive	Suite 5	Wilmington	28403		
+deaf-hard-of-hearing.txt	Wilson Regional Center	2705 Wooten Boulevard		Wilson	27893		
