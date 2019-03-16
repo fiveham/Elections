@@ -987,10 +987,6 @@ Yadkin Success Academy	733 East Main Street		Yadkinville	27055	36.1360231	-80.64
 Mountain Heritage High	333 Mtn Heritage HS Road		Burnsville	28714	35.9086347	-82.33318750000001	High School
 Edgecombe Youth Development Center	78 Positive Way		Rocky Mount	27801	35.9948386	-77.77071670000001	High School
 Stonewall Jackson Youth Dev Ctr	850 Holshouser Rd		Concord	28027	35.3622589	-80.6007032	High School
-Cumberland - NC State Learning Academy	1911 Coliseum Dr		Fayetteville	28306	35.0169873	-78.8907622	High School
-New Hanover - NC State Learning Academy	3830 Juvenile Center Rd		Castle Hayne	28429	34.3220034	-77.89179109999999	High School
-Pitt - NC State Learning Academy	451 Belvoir Road		Greenville	27834	35.6416382	-77.3751722	High School
-Wake - NC State Learning Academy	700 Beacon Lake Dr		Raleigh	27610	35.7889582	-78.5725172	High School
 Chatham Youth Dev Center	560 Progress Blvd		Siler City	27344	35.7204925	-79.4232865	High School
 Eckerd - Candor	500 E Ku Sumee Rd		Candor	27229	35.26526130000001	-79.7741961	High School
 Eckerd - Boomer	4654 High Rock Rd		Boomer	28606	36.0379825	-81.3185305	High School
