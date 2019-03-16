@@ -1076,7 +1076,6 @@ Ocracoke Branch Library	225 Back Rd		Ocracoke	27960	35.111928	-75.977536	Public 
 Robersonville Public Library	119 S Main St		Robersonville	27871	35.8229835	-77.253402	Public Library
 Bladen County Public Library (Main)	111 N Cypress St		Elizabethtown	28337	34.6294674	-78.60413919999999	Public Library
 Bridger Memorial Library	313 S Main St		Bladenboro	28320	34.5330013	-78.795312	Public Library
-Bladen County Public Library Bookmobile	111 N Cypress St		Elizabethtown	28337	34.6294674	-78.60413919999999	Public Library
 Clarkton Public Library	10413 N College St		Clarkton	28433	34.4885484	-78.6551435	Public Library
 Braswell Memorial Public Library (Main)	727 N Grace St		Rocky Mount	27804	35.9491352	-77.7962506	Public Library
 Wesley Privette Memorial Library	6280 Main St		Bailey	27807	35.7791117	-78.116066	Public Library
@@ -1142,7 +1141,6 @@ Cleveland County Memorial Library (Main)	104 Howie Dr		Shelby	28150	35.293064	-8
 Spangler Branch Library	112 Piedmont Dr		Lawndale	28090	35.4207849	-81.55475179999999	Public Library
 Chadbourn Community Library	301 N Wilson St		Chadbourn	28431	34.3249526	-78.8253235	Public Library
 Columbus County Public Library (Main)	407 N JK Powell Blvd		Whiteville	28472	34.334976	-78.70891259999999	Public Library
-Columbus County Public Library Bookmobile	407 N JK Powell Blvd		Whiteville	28472	34.334976	-78.70891259999999	Public Library
 East Columbus Branch Library	103 Church Rd		Riegelwood	28456	34.340628	-78.22742699999999	Public Library
 Fair Bluff Community Library	315 Railroad St		Fair Bluff	28439	34.3148024	-79.0303603	Public Library
 Rube Mccray Memorial Library	301 Fleming Dr		Lake Waccamaw	28450	34.3189827	-78.5229547	Public Library
@@ -1165,7 +1163,6 @@ Spring Lake Branch Library	101 Laketree Blvd		Spring Lake	28390	35.1814971	-78.9
 West Regional Branch Library	7469 Century Cir		Fayetteville	28306	35.0118141	-79.0444658	Public Library
 Lexington Public Library (Main)	602 S Main St		Lexington	27292	35.8191029	-80.2594438	Public Library
 Denton Public Library	310 W Salisbury St		Denton	27239	35.6340191	-80.1189114	Public Library
-Davidson County Bookmobile	602 S Main St		Lexington	27292	35.8191029	-80.2594438	Public Library
 North Davidson Branch Library	559 Critcher Dr		Welcome	27374	35.9290874	-80.2430967	Public Library
 Thomasville Public Library	14 Randolph St		Thomasville	27360	35.88141299999999	-80.0812052	Public Library
 West Davidson Public Library	246 Tyro School Rd		Lexington	27295	35.8097354	-80.3768577	Public Library
@@ -1188,7 +1185,6 @@ Corolla Branch Library	1123 Ocean Trail		Corolla	27927	36.3789802	-75.8296543	Pu
 Currituck County Library	4261 Caratoke Hwy		Barco	27917	36.3694728	-75.9695919	Public Library
 Kill Devil Hills Branch Library	400 Mustian St		Kill Devil Hills	27948	36.009956	-75.66161269999999	Public Library
 Moyock Public Library	126 Campus Dr		Moyock	27958	36.514555	-76.131642	Public Library
-Pasquotank Library Bookmobile	100 E Colonial Ave		Elizabeth City	27909	36.3012191	-76.2232427	Public Library
 Pasquotank County Library	100 E Colonial Ave		Elizabeth City	27909	36.3012191	-76.2232427	Public Library
 Edgecombe County Memorial Library (Main)	909 Main St		Tarboro	27886	35.9021014	-77.5371315	Public Library
 Pinetops Branch Library	201 S 1st St		Pinetops	27864	35.7900247	-77.63779550000001	Public Library
@@ -1201,7 +1197,6 @@ Nantahala Community Library	128 Nantahala School Rd		Topton	28781	35.253513	-83.
 Carver School Road Branch Library	4915 Lansing Dr		Winston-Salem	27105	36.1502519	-80.21239299999999	Public Library
 Clemmons Branch Library	3554 Clemmons Rd		Clemmons	27012	36.0221845	-80.3768011	Public Library
 Malloy/Jordan East Winston Heritage Center	1110 E 7th St		Winston-Salem	27101	36.102134	-80.231565	Public Library
-Forsyth County Public Library Bookmobile	1110 E 7th St		Winston-Salem	27101	36.102134	-80.231565	Public Library
 Forsyth County Public Library (Main)	660 W Fifth Street		Winston-Salem	27101	36.0984813	-80.2522875	Public Library
 Lewisville Branch Library	6490 Shallowford Rd		Lewisville	27023	36.0964546	-80.4202205	Public Library
 Rural Hall Branch Library	7125 Broad St		Rural Hall	27045	36.226043	-80.2863555	Public Library
@@ -1211,7 +1206,6 @@ Reynolda Manor Branch Library	2839 Fairlawn Dr		Winston-Salem	27106	36.1413912	-
 Bunn Branch Library	610 Main St		Bunn	27508	35.9536868	-78.2466134	Public Library
 Franklin County Library (Main)	906 N Main St		Louisburg	27549	36.1098633	-78.29615059999999	Public Library
 Franklinton Public Library	9 W Mason St		Franklinton	27525	36.10388810000001	-78.4583651	Public Library
-Franklin County Bookmobile	906 N Main St		Louisburg	27549	36.1098633	-78.29615059999999	Public Library
 Youngsville Branch Library	218 US 1A Hwy S		Youngsville	27596	36.0201072	-78.4857415	Public Library
 Belmont Branch Library	125 N Central Ave		Belmont	28012	35.2435617	-81.04255859999999	Public Library
 Bessemer City Branch Library	207 N 12th St		Bessemer City	28016	35.28652	-81.28368999999999	Public Library
@@ -1278,7 +1272,6 @@ Andrews Public Library	871 Main St		Andrews	28901	35.2004649	-83.82704149999999	
 Graham County Public Library	80 Knight St		Robbinsville	28771	35.3265317	-83.8106083	Public Library
 Moss Memorial Library	26 Anderson St		Hayesville	28904	35.0466807	-83.816907	Public Library
 Murphy Public Library	9 Blumenthal St		Murphy	28906	35.086761	-84.03168199999999	Public Library
-Nantahala Regional Library Bookmobile	11 Blumenthal St		Murphy	28906	35.086761	-84.03168199999999	Public Library
 Comfort Branch Library	4889 Highway 41 W		Trenton	28585	35.0025909	-77.52945	Public Library
 Kinston-Lenoir County Public Library	510 N Queen St		Kinston	28501	35.2660564	-77.5815015	Public Library
 La Grange Branch Library	119 E Washington St		La Grange	28551	35.305107	-77.7875366	Public Library
@@ -1302,7 +1295,6 @@ Mount Airy Public Library	145 Rockford St		Mount Airy	27030	36.49818130000001	-8
 Walnut Cove Public Library	106 W Fifth St		Walnut Cove	27052	36.298678	-80.142489	Public Library
 Yadkin County Public Library	233 E Main St		Yadkinville	27055	36.1347367	-80.6571855	Public Library
 Boonville Community Public Library	121 W Main St		Boonville	27011	36.2325481	-80.71005	Public Library
-Danbury Public Library Bookmobile	1104 Main St		Danbury	27016	36.4123605	-80.2193881	Public Library
 Onslow County Public Library (Main)	58 Doris Avenue E		Jacksonville	28540	34.7778504	-77.420845	Public Library
 Richlands Public Library	299 S Wilmington St		Richlands	28574	34.8973498	-77.5474964	Public Library
 Swansboro Branch Library	1460 W Corbett Ave		Swansboro	28584	34.7067808	-77.1597056	Public Library
@@ -1323,7 +1315,6 @@ James Bryan Creech Library	206 W Hatcher St		Four Oaks	27524	35.4502703	-78.4349
 Kenly Public Library	205 Edgerton St		Kenly	27542	35.5915659	-78.12414919999999	Public Library
 Mary Duncan Public Library	100 W Main St		Benson	27504	35.3817291	-78.5478736	Public Library
 Public Library Of Johnston County & Smithfield (Main)	305 Market St		Smithfield	27577	35.5114374	-78.34559759999999	Public Library
-Public Library Of Johnston County & Smithfield Bookmobile	305 Market St		Smithfield	27577	35.5114374	-78.34559759999999	Public Library
 Selma Public Library	301 N Pollock St		Selma	27576	35.538359	-78.28320599999999	Public Library
 Archdale Public Library	10433 S Main St		Archdale	27263	35.8932419	-79.93776419999999	Public Library
 John W. Clark Public Library	111 Sumner Pl		Franklinville	27248	35.7440286	-79.6941897	Public Library
@@ -1339,7 +1330,6 @@ Hector MacLean Public Library	106 S Main St		Fairmont	28340	34.4975806	-79.11452
 Pembroke Public Library	413 S Blaine St		Pembroke	28372	34.6761594	-79.1930972	Public Library
 Robeson County Public Library (Main)	101 N Chestnut St		Lumberton	28358	34.6174997	-79.0080832	Public Library
 Rowland Public Library	113 E Main St		Rowland	28383	34.5366922	-79.2907874	Public Library
-Robeson County Public Library Bookmobile	101 N Chestnut St		Lumberton	28358	34.6174997	-79.0080832	Public Library
 St. Pauls Public Library	221 W Broad St		Saint Pauls	28384	34.8064457	-78.9734982	Public Library
 Eden Branch Library	598 S Pierce St		Eden	27288	36.4942264	-79.7360003	Public Library
 Madison-Mayodan Public Library	611 Burton St		Madison	27025	36.4005448	-79.97257429999999	Public Library
@@ -1348,7 +1338,6 @@ Rockingham County Public Library Bookmobile	527 Boone Rd		Eden	27288	36.4946028	
 Stoneville Branch Library	201 E Main St		Stoneville	27048	36.4668588	-79.9059984	Public Library
 East Branch Library	110 Broad St		Rockwell	28138	35.5515839	-80.4057437	Public Library
 Rowan Public Library (Main)	201 W Fisher St		Salisbury	28144	35.6676897	-80.4730202	Public Library
-Rowan Public Library Bookmobile	201 W Fisher St		Salisbury	28144	35.6676897	-80.4730202	Public Library
 South Rowan Regional Library	920 Kimball Rd		China Grove	28088	35.565406	-80.60098699999999	Public Library
 Mountains Branch Library	150 Bills Creek Rd		Lake Lure	28746	35.4256911	-82.1622435	Public Library
 Rutherford County Library (Main)	255 Callahan Koon Rd		Spindale	28160	35.347956	-81.91067699999999	Public Library
@@ -1356,8 +1345,6 @@ Bryan Memorial Library	302 W Weeksdale St		Newton Grove	28366	35.243159	-78.3551
 Miriam B. Lamb Memorial Library	144 S Church Ave		Garland	28441	34.7856599	-78.3968278	Public Library
 Roseboro Public Library	300 W Roseboro St		Roseboro	28382	34.9524312	-78.5132782	Public Library
 J.C. Holliday Library (Main)	217 Graham St		Clinton	28328	34.9977975	-78.32045629999999	Public Library
-Anson County Bookmobile	120 S Greene St		Wadesboro	28170	34.9656112	-80.0772829	Public Library
-Moore County Bookmobile	101 Saunders St		Carthage	28327	35.344899	-79.4180186	Public Library
 Allen Library	307 Page St		Biscoe	27209	35.3651814	-79.7806123	Public Library
 Currie Memorial Library	138 S School St		Candor	27229	35.2940701	-79.747129	Public Library
 Hamlet Public Library	302 Main St		Hamlet	28345	34.8832696	-79.7093541	Public Library
@@ -1374,13 +1361,11 @@ Robbins Area Library	161 E Magnolia Dr		Robbins	27325	35.4315534	-79.5872299	Pub
 Star Branch Library	222 S Main St		Star	27356	35.397942	-79.78358	Public Library
 Vass Area Library	128 Seaboard St		Vass	28394	35.2559355	-79.2821333	Public Library
 Scotland County Memorial Library	312 W Church St		Laurinburg	28352	34.7754957	-79.465862	Public Library
-Scotland County Memorial Library Bookmobile	312 W Church St		Laurinburg	28352	34.7754957	-79.465862	Public Library
 Blount Library	201 Ives St		Bethel	27812	35.8083172	-77.3783929	Public Library
 Winterville Public Library	2613 Railroad St		Winterville	28590	35.5275752	-77.402013	Public Library
 Carver Branch Library	618 W 14th Ave		Greenville	27834	35.6108269	-77.3875506	Public Library
 East Branch Library	2000 Cedar Ln		Greenville	27858	35.594576	-77.344351	Public Library
 Sheppard Memorial Library (Main)	530 S Evans St		Greenville	27858	35.6097043	-77.3739835	Public Library
-Pitt County Bookmobile	530 S Evans St		Greenville	27858	35.6097043	-77.3739835	Public Library
 Southern Pines Public Library	170 W Connecticut Ave		Southern Pines	28387	35.1761072	-79.3905054	Public Library
 Badin Branch Library	62 Pine St		Badin	28009	35.4049882	-80.1136544	Public Library
 Locust Branch Library	213 Town Centre Dr		Locust	28097	35.2593893	-80.4319338	Public Library
@@ -1388,7 +1373,6 @@ Norwood Branch Library	207 Pee Dee Ave		Norwood	28128	35.22583729999999	-80.1192
 Oakboro Branch Library	214 S Main St		Oakboro	28129	35.220539	-80.32346489999999	Public Library
 Stanly County Public Library (Main)	133 E Main St		Albemarle	28001	35.3505096	-80.1967908	Public Library
 Transylvania County Library	212 S Gaston St		Brevard	28712	35.2313791	-82.7348406	Public Library
-Transylvania County Library Bookmobile	212 S Gaston St		Brevard	28712	35.2313791	-82.7348406	Public Library
 Union West Regional Library	123 Unionville-Indian Trail Rd		Indian Trail	28079	35.0775471	-80.66489059999999	Public Library
 Lois Morgan Edwards Memorial Library	414 Hasty St		Marshville	28103	34.9911903	-80.3637335	Public Library
 Union County Public Library (Main)	316 E Windsor St		Monroe	28112	34.9808926	-80.5460153	Public Library
@@ -1421,7 +1405,6 @@ Crocker Branch Library	114 S Main St		Stantonsburg	27883	35.6066114	-77.8241978	
 Elm City Branch Library	114 N Railroad St		Elm City	27822	35.8065049	-77.86122139999999	Public Library
 Lucama Branch Library	103 E Spring St		Lucama	27851	35.6442752	-78.00917539999999	Public Library
 Wilson County Public Library (Main)	249 Nash St W		Wilson	27893	35.7274907	-77.91433529999999	Public Library
-Wilson County Public Library Bookmobile	249 W Nash St		Wilson	27893	35.7274907	-77.91433529999999	Public Library
 Asheville Regional Center	12 Barbetta Drive		Asheville	28806	35.521242	-82.60067099999999	Services for the Deaf and Hard of Hearing
 Charlotte Regional Center	5501 Executive Ctr. Dr.	Suite 200	Charlotte	28212	35.2027999	-80.7435275	Services for the Deaf and Hard of Hearing
 Greensboro Regional Center	122 North Elm Street	Suite 900	Greensboro	27401	36.0732697	-79.7898125	Services for the Deaf and Hard of Hearing
