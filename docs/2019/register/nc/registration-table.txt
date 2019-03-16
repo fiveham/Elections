@@ -377,7 +377,6 @@ Macon Early College High School	77 Siler Farm Road		Franklin	28734	35.1582638	-8
 Madison High School	5740 US Hwy 25-70		Marshall	28753	35.8149074	-82.6729452	High School
 South Creek Middle/High	21077 NC Hwy 903		Robersonville	27871	35.856241	-77.24359299999999	High School
 Cato Middle College High	8120 Grier Rd	Suite 171-B	Charlotte	28215	35.265033	-80.7310996	High School
-Military and Global Leadership Academy	1411 Hawthorne Lane	Ste A	Charlotte	28205	35.22867240000001	-80.8146806	High School
 Community School of Davidson	404 Armour Street		Davidson	28036	35.5075365	-80.8536285	High School
 Montgomery Learning Academy	310 S Main St		Troy	27371	35.3565285	-79.89378099999999	High School
 Eugene Ashley High	555 Halyburton Memorial Parkway		Wilmington	28412	34.1005137	-77.9110479	High School
@@ -409,7 +408,6 @@ Anson High School	96 Anson High School Road		Wadesboro	28170	34.9768643	-80.1037
 Ashe County High	184 Campus Drive		West Jefferson	28694	36.392264	-81.47811700000001	High School
 Avery County High	401 Avery County High School Road		Newland	28657	36.0692387	-81.91897	High School
 Blue Ridge Academy	76 Old Montezuma Rd		Newland	28657	36.0678483	-81.9163373	High School
-Avery High STEM Academy	401 Avery County High School Rd		Newland	28657	36.0692387	-81.91897	High School
 Grandfather Academy	64 Grandfather Home Drive		Banner Elk	28604	36.1521736	-81.8783765	High School
 Marjorie Williams Academy	129 Allen Circle		Crossnore	28616	36.024783	-81.92845799999999	High School
 B C Ed Tech Center	820 North Bridge St		Washington	27899	35.5523349	-77.05622149999999	High School
@@ -428,14 +426,12 @@ North Brunswick High	114 Scorpion Drive		Leland	28451	34.240696	-78.023383	High 
 West Brunswick High	550 Whiteville Road NW		Shallotte	28470	33.9811785	-78.40993519999999	High School
 Reynolds High	1 Rocket Drive		Asheville	28803	35.545811	-82.47724099999999	High School
 Early College	340 Victoria Road		Asheville	28801	35.574038	-82.554934	High School
-Middle College	340 Victoria Road		Asheville	28801	35.574038	-82.554934	High School
 Owen High	99 Lake Eden Road		Black Mountain	28711	35.6189247	-82.3734121	High School
 Erwin High	60 Lees Creek Road		Asheville	28806	35.6193969	-82.6263057	High School
 Enka High	475 Enka Lake Road		Candler	28715	35.529946	-82.66591	High School
 North Buncombe High	890 Clarks Chapel Road		Weaverville	28787	35.739801	-82.557616	High School
 Roberson High	250 Overlook Road		Asheville	28803	35.487034	-82.5352348	High School
 Asheville High	419 McDowell Street		Asheville	28803	35.57262	-82.5517436	High School
-School of Inquiry and Life Sciences	419 McDowell Street		Asheville	28803	35.57262	-82.5517436	High School
 IC Imagine	1000 Brevard Road	Suite 175	Asheville	28806	35.5250687	-82.6056569	High School
 The Franklin School of Innovation	21 Innovation Dr		Asheville	28806	35.5412452	-82.6301728	High School
 Hallyburton Academy	205 South Main Street		Drexel	28619	35.7559268	-81.6044048	High School
@@ -465,7 +461,6 @@ Hibriten High	1350 Panther Trail SE		Lenoir	28645	35.9257745	-81.4944495	High Sc
 South Caldwell High	7035 Spartan Drive		Hudson	28638	35.82044	-81.452129	High School
 West Caldwell High	300 W Caldwell Drive		Lenoir	28645	35.8868033	-81.5917961	High School
 Camden County High	103 US 158 W		Camden	27921	36.32806	-76.1718451	High School
-Camden Early College High	103 US Highway 158 West	A	Camden	27921	36.32806	-76.1718451	High School
 Bridges School	140 Vashti Dr		Morehead City	28557	34.7382318	-76.7904786	High School
 East Carteret High	3263 Hwy 70 E		Beaufort	28516	34.7815929	-76.62610440000002	High School
 Croatan High	1 Cougar Lane		Newport	28570	34.7161474	-76.9504094	High School
@@ -518,7 +513,6 @@ Jack Britt High	7403 Rockfish Road		Fayetteville	28306	34.977416	-79.0113511	Hig
 Douglas Byrd High	1624 Ireland Drive		Fayetteville	28304	35.032099	-78.950225	High School
 Cape Fear High	4762 Clinton Road		Fayetteville	28312	35.0343853	-78.7637348	High School
 Cumberland International Early College	1200 Murchison Rd	J Knuckles Science Annex	Fayetteville	28301	35.0756898	-78.8925902	High School
-Cross Creek Early College	1200 Murchison Road		Fayetteville	28301	35.0756898	-78.8925902	High School
 Grays Creek High	5301 Celebration Drive		Hope Mills	28348	34.9215266	-78.9046424	High School
 E E Smith High	1800 Seabrook Road		Fayetteville	28301	35.0847821	-78.89575839999999	High School
 Alger B. Wilkins High School	1429 Skibo Road		Fayetteville	28303	35.082547	-78.951898	High School
@@ -568,7 +562,6 @@ Middle College HS @ DTCC	1637 Lawson Street		Durham	27703	35.975381	-78.88068799
 Northern High	117 Tom Wilkinson Road		Durham	27712	36.0933682	-78.9125579	High School
 Riverside High	3218 Rose of Sharon Road		Durham	27712	36.065495	-78.943225	High School
 Southern School of Energy and Sustainabi	800 Clayton Road		Durham	27703	36.0000791	-78.829234	High School
-Hillside New Tech High	3727 Fayetteville St		Durham	27707	35.9545446	-78.9064554	High School
 Voyager Academy	4302 Ben Franklin Blvd		Durham	27704	36.0469596	-78.8936107	High School
 Edgecombe Early College High	2009 West Wilson St		Tarboro	27886	35.879087	-77.572197	High School
 SouthWest Edgecombe High	5912 NC 43 North		Pinetops	27864	35.8366548	-77.657896	High School
@@ -583,7 +576,6 @@ Robert B Glenn High School	1600 Union Cross Road		Kernersville	27284	36.06778	-8
 Main Street Academy	2700 S Main Street		Winston-Salem	27127	36.0625097	-80.2392761	High School
 Homebound/ Hospital Education	2020 E. 12th Street		Winston-Salem	27101	36.1091249	-80.22041089999999	High School
 Kingswood School	1001 Reynolda Road		Winston-Salem	27104	36.1104211	-80.26395769999999	High School
-Middle College of Forsyth Cnty	2100 Silas Creek Parkway		Winston-Salem	27103	36.0694251	-80.2727328	High School
 Mount Tabor High School	342 Petree Road		Winston Salem	27106	36.126799	-80.314093	High School
 North Forsyth High	5705 Shattalon Drive		Winston Salem	27105	36.174504	-80.2813366	High School
 Parkland High	1600 Brewer Road		Winston Salem	27127	36.057116	-80.2573	High School
@@ -621,7 +613,6 @@ Granville Central High	2043 Sanders Rd		Stem	27581	36.2033329	-78.6780082	High S
 Granville Early College High	1552 South Campus Dr		Creedmoor	27522	36.1413341	-78.7211228	High School
 J. F. Webb High	3200 Webb School Rd		Oxford	27565	36.3374749	-78.5980053	High School
 South Granville High	701 N Crescent Dr		Creedmoor	27522	36.123924	-78.675151	High School
-JF Webb HS Of Health And Life Sciences	3200 Webb School Rd		Oxford	27565	36.3374749	-78.5980053	High School
 Falls Lake Academy	1701 East Lyon Station Road		Creedmoor	27522	36.111908	-78.7346385	High School
 Oxford Preparatory	6041 Landis Rd		Oxford	27565	36.3366436	-78.5565582	High School
 Greene Central High	140 School Drive		Snow Hill	28580	35.479783	-77.6703486	High School
@@ -679,7 +670,6 @@ Tuscola High	564 Tuscola School Rd		Waynesville	28786	35.522771	-82.952652	High 
 East Henderson High	150 Eagle Pride Drive		East Flat Rock	28726	35.2976487	-82.42374199999999	High School
 Hendersonville High	1 Bearcat Boulevard		Hendersonville	28791	35.3214055	-82.46421939999999	High School
 North Henderson High	35 Fruitland Road		Hendersonville	28792	35.3603525	-82.4227954	High School
-Henderson County Career Academy	300 East Campus Way		Flat Rock	28731	35.3065189	-82.419705	High School
 West Henderson High	3600 Haywood Road		Hendersonville	28791	35.3650465	-82.51515859999999	High School
 Henderson County Early College	300 East Campus Way		Flat Rock	28731	35.3065189	-82.419705	High School
 Hertford County High	1500 W First St		Ahoskie	27910	36.2962907	-76.997607	High School
@@ -803,7 +793,6 @@ J. C. Roe Center	2875 Worth Drive		Wilmington	28412	34.1848115	-77.9419952	High 
 Career Readiness Academy at Mosley PLC	3702 Princess Place Drive		Wilmington	28405	34.243048	-77.900543	High School
 Wilmington Early College High	4500 Blue Clay Rd	WECHS Bldg.ND122	Castle Hayne	28429	34.3233715	-77.878102	High School
 Northampton County High School	152 Hurricane Drive		Gaston	27832	36.5108559	-77.652447	High School
-Northampton Early College	100 College Dr.		Weldon	27890	36.4281834	-77.61764769999999	High School
 KIPP Gaston College Preparatory	320 Pleasant Hill Road		Gaston	27832	36.504154	-77.640179	High School
 Dixon High	160 Dixon School Rd		Holly Ridge	28445	34.5846325	-77.47999469999999	High School
 Jacksonville High	1021 Henderson Dr		Jacksonville	28540	34.78365	-77.42641170000002	High School
@@ -953,7 +942,6 @@ Panther Creek High	6770 McCrimmon Parkway		Cary	27519	35.8302574	-78.8885985	Hig
 Phillips High	1923 Milburnie Rd		Raleigh	27610	35.7885357	-78.6160225	High School
 Rolesville High	1099 East Young St		Rolesville	27571	35.9059058	-78.44139969999999	High School
 Sanderson High	5500 Dixon Drive		Raleigh	27609	35.861061	-78.64657299999999	High School
-SCORE Academy	5651 Dillard Dr		Cary	27518	35.7546682	-78.7384472	High School
 Southeast Raleigh High	2600 Rock Quarry Road		Raleigh	27610	35.7453552	-78.6040771	High School
 Vernon Malone College and Career Academy	2200 S Wilmington St		Raleigh	27603	35.7528333	-78.64324260000001	High School
 Wake STEM Early College High School	715 Barbour Dr		Raleigh	27603	35.7717648	-78.6662784	High School
@@ -977,7 +965,6 @@ Washington County High	800 E Main St		Plymouth	27962	35.8703381	-76.7385947	High
 Washington Early College High	102 NC Hwy 32 North		Roper	27970	35.8784412	-76.6160668	High School
 Northeast Regional School - Biotech/Agri	1215 Saint Andrews St		Jamesville	27846	35.8095455	-76.8979037	High School
 Watauga High	300 Go Pioneers Drive		Boone	28607	36.216129	-81.6509389	High School
-Watauga Innovation Academy	300 Go Pioneers Drive		Boone	28607	36.216129	-81.6509389	High School
 Charles B Aycock High	5460 US 117 North		Pikeville	27863	35.5094989	-77.97900349999999	High School
 Eastern Wayne High	1135 New Hope Road		Goldsboro	27534	35.3773617	-77.8817899	High School
 Edgewood Cmty Developmental	1601 Peachtree St		Goldsboro	27530	35.3804249	-77.97150049999999	High School
@@ -1006,11 +993,9 @@ Mountain Heritage High	333 Mtn Heritage HS Road		Burnsville	28714	35.9086347	-82
 Edgecombe Youth Development Center	78 Positive Way		Rocky Mount	27801	35.9948386	-77.77071670000001	High School
 Stonewall Jackson Youth Dev Ctr	850 Holshouser Rd		Concord	28027	35.3622589	-80.6007032	High School
 Cumberland - NC State Learning Academy	1911 Coliseum Dr		Fayetteville	28306	35.0169873	-78.8907622	High School
-Cabarrus - NC State Learning Academy	822 McWhorter Road		Concord	28027	35.9083396	-81.17828109999999	High School
 New Hanover - NC State Learning Academy	3830 Juvenile Center Rd		Castle Hayne	28429	34.3220034	-77.89179109999999	High School
 Pitt - NC State Learning Academy	451 Belvoir Road		Greenville	27834	35.6416382	-77.3751722	High School
 Wake - NC State Learning Academy	700 Beacon Lake Dr		Raleigh	27610	35.7889582	-78.5725172	High School
-Alexander - NC State Learning Academy	928 NC HWY 16 South		Taylorsville	28681	35.9083396	-81.17828109999999	High School
 Chatham Youth Dev Center	560 Progress Blvd		Siler City	27344	35.7204925	-79.4232865	High School
 Eckerd - Candor	500 E Ku Sumee Rd		Candor	27229	35.26526130000001	-79.7741961	High School
 Eckerd - Boomer	4654 High Rock Rd		Boomer	28606	36.0379825	-81.3185305	High School
@@ -1253,7 +1238,6 @@ Henderson County Public Library (Main)	301 N Washington St		Hendersonville	28739
 Patrick Beaver Memorial Library (Main)	375 3rd St Ne		Hickory	28601	35.7372656	-81.3347464	Public Library
 Ridgeview Branch Library	706 1st St Sw		Hickory	28602	35.7236143	-81.3398125	Public Library
 High Point Public Library (Main)	901 N Main St		High Point	27262	35.965786	-80.01339519999999	Public Library
-Books & Beyond Mobile Library	901 N Main St		High Point	27262	35.965786	-80.01339519999999	Public Library
 Hocutt-Ellington Memorial Library	100 S Church Street		Clayton	27520	35.652322	-78.4591879	Public Library
 Iredell County Library (Main)	201 N Tradd St		Statesville	28687	35.7875423	-80.8878455	Public Library
 J. Hoyt Hayes Memorial Troutman Branch Library	215 W Church St		Troutman	28166	35.70030089999999	-80.89143279999999	Public Library
