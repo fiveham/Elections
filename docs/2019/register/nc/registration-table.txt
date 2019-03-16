@@ -1392,7 +1392,6 @@ Kinston Vocational Rehabilitation Office	1003 Hardee Road	B	Kinston	28504	35.273
 Laurinburg Vocational Rehabilitation Office	915 South Main Street	D	Laurinburg	28352	34.7662527	-79.46753199999999	Voc-Rehab Office
 Lumberton Vocational Rehabilitation Office	289 Corporate Drive	Ste A	Lumberton	28358	34.6715334	-78.9999129	Voc-Rehab Office
 Morehead City Vocational Rehabilitation Office	310 Commerce Avenue	A	Morehead City	28557	34.7287115	-76.7475846	Voc-Rehab Office
-Morganton Vocational Rehabilitation Office	517 West Fleming Drive	F	Morganton	28655	35.729191	-81.68787209999999	Voc-Rehab Office
 Newland Vocational Rehabilitation Office	815 Pineola St		Newland	28657	36.0791945	-81.9272445	Voc-Rehab Office
 Rocky Mount Vocational Rehabilitation Office	301 South Church Street	Station Square Suite 100	Rocky Mount	27804	35.9395889	-77.7970655	Voc-Rehab Office
 Washington Vocational Rehabilitation Office	953 Washington St	(at Washington Square Mall)	Washington	27889	35.55936	-77.05881	Voc-Rehab Office
