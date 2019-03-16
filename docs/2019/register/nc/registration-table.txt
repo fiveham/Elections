@@ -1507,10 +1507,8 @@ Catawba County Health Department	3070 11th Ave Dr. SE		Hickory	28602	35.7128862	
 Chatham County (Moncure Community Health Center (Piedmont Health Services))	728 Pittsboro-Moncure Rd.		Moncure	27559	35.6999201	-79.1692008	WIC Office
 Chatham County (Siler City Community Health Center (Piedmont Health Services))	224 South 10th Ave.		Siler City	27344	35.7244899	-79.4485012	WIC Office
 Cherokee County Health Department	228 Hilton St.		Murphy	28906	35.0913086	-84.0323142	WIC Office
-Cherokee County Health Department (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719	35.4832581	-83.3203348	WIC Office
 Chowan County Health Department (Albemarle Regional Health Services)	202 W. Hicks St.		Edenton	27932	36.068496	-76.609741	WIC Office
 Clay County Health Department	345 Court House Dr.		Hayesville	28904	35.0423327	-83.8302379	WIC Office
-Clay County Health Department (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719	35.4832581	-83.3203348	WIC Office
 Cleveland County Health Department	200 S. Post Road		Shelby	28152	35.28006	-81.49345749999999	WIC Office
 Columbus County Health Department	304 Jefferson St.	Miller Building	Whiteville	28472	34.3373955	-78.6981035	WIC Office
 Craven County Health Department	2818 Neuse Blvd		New Bern	28561	35.1234183	-77.0820784	WIC Office
@@ -1523,7 +1521,6 @@ Davidson County Health Department	915 Greensboro St.		Lexington	27293	35.8331396
 Davie County Health Department	210 Hospital St.		Mocksville	27028	35.8988591	-80.5710558	WIC Office
 Duplin County Health Department	340 Seminary Street		Kenansville	28349	34.9634938	-77.9673067	WIC Office
 Durham County Health Department (Lincoln Community Health Center)	1301 Fayetteville St.		Durham	27717-2119	35.9806127	-78.8978008	WIC Office
-Eastern Band of Cherokee Indians (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719	35.4832581	-83.3203348	WIC Office
 Edgecombe County Health Department	122 East James St.		Tarboro	27886	35.897954	-77.5339515	WIC Office
 Edgecombe County Health Department (Rocky Mount Branch)	107 Atlantic Ave.		Rocky Mount	27801	35.9412832	-77.79249539999999	WIC Office
 Forsyth County Health Department	799 N. Highland Ave.		Winston-Salem	27102-0686	36.1038725	-80.23236539999999	WIC Office
@@ -1535,7 +1532,6 @@ Gaston County Health Department	991 West Hudson Blvd.		Gastonia	28052	35.2341222
 Gaston County Health Department (Highland Health Center)	609 N. Highland St.		Gastonia	28052	35.2712836	-81.19468619999999	WIC Office
 Gates County Health Department (Albemarle Regional Health Services)	29 Medical Center Rd.		Gates	27937	36.4525765	-76.69994179999999	WIC Office
 Graham County Health Department	21 South Main St.		Robbinsville	28771	35.3221527	-83.806153	WIC Office
-Graham County Health Department (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719	35.4832581	-83.3203348	WIC Office
 Granville-Vance District Health Department	101 Hunt Dr.		Oxford	27565	36.308531	-78.58840119999999	WIC Office
 Guilford County Health Department	1100 E. Wendover Avenue		Greensboro	27405	36.0872694	-79.7714407	WIC Office
 Guilford County Health Department	501 East Green St.		High Point	27260	35.9552795	-79.9989303	WIC Office
@@ -1545,7 +1541,6 @@ Halifax County Public Health Authority	19 Dobbs St.		Halifax	27839	36.3296498	-7
 Harnett County Health Department	307 West Cornelius Harnett Blvd.		Lillington	27546	35.4200622	-78.8109207	WIC Office
 Harnett County Health Department (CommWell Health)	3331 Easy St.		Dunn	28366	35.2432876	-78.451416	WIC Office
 Haywood County Health Department	157 Paragon Parkway	Suite 800	Clyde	28721	35.526147	-82.95655099999999	WIC Office
-Haywood County Health Department (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719	35.4832581	-83.3203348	WIC Office
 Henderson County Health Department	1200 Spartanburg Hwy.	Suite 100	Hendersonville	28792	35.3030812	-82.44091449999999	WIC Office
 Albemarle Regional Health Services	828 S Academy Street		Ahoskie	27910	36.2821962	-76.99788339999999	WIC Office
 Hoke County Health Department	683 East Palmer Rd.		Raeford	28376	34.9676461	-79.22828559999999	WIC Office
@@ -1595,7 +1590,6 @@ Stokes County Health Department	1009 N. Main St.		Danbury	27016	36.414089	-80.21
 Stokes County Health Department (Southwest Service Center)	104 Hartgrove Rd.		King	27021	36.2997179	-80.3572207	WIC Office
 Surry County Health & Nutrition Center	118 Hamby Rd.		Dobson	27017	36.393679	-80.7079679	WIC Office
 Swain County Health Department	545 Center St.		Bryson City	28713	35.4362089	-83.4444711	WIC Office
-Swain County Health Department (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719	35.4832581	-83.3203348	WIC Office
 Tyrrell County Health Department (MTW Health District)	408 Bridge St.		Columbia	27925	35.9187667	-76.2515554	WIC Office
 Union County Health Department	2330 Concord Avenue		Monroe	28110	35.0113594	-80.5460028	WIC Office
 Vance County (Granville-Vance District Health Department)	115 Charles Rollins Rd.		Henderson	27536	36.3295473	-78.4498558	WIC Office
@@ -1613,3 +1607,4 @@ Wilkes County Health Department	306 College St.		Wilkesboro	28697	36.144107	-81.
 Wilson County Health Department	1801 Glendale Dr. SW		Wilson	27893-4401	35.716534	-77.94477359999999	WIC Office
 Yadkin County Human Services Agency	217 East Willow St.		Yadkinville	27055	36.132708	-80.657541	WIC Office
 Yancey County Health Department (Toe River District)	202 Medical Campus Dr.		Burnsville	28714	35.915443	-82.33393	WIC Office
+Cherokee/Clay/Graham/Haywood/Swain County Health Department/Eastern Band of Cherokee Indians (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719	35.4832581	-83.3203348	WIC Office
