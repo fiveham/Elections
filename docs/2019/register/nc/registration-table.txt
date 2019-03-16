@@ -24,7 +24,6 @@ NEW HANOVER COUNTY BOARD OF ELECTIONS	230 GOVERNMENT CENTER DR	SUITE 38	WILMINGT
 NORTHAMPTON COUNTY BOARD OF ELECTIONS	9495 NC HWY 305	JW FAISON ADMIN BLDG	JACKSON	27845	36.412021	-77.436499	County Board of Elections
 PERQUIMANS COUNTY BOARD OF ELECTIONS	601 S EDENTON RD ST	A	HERTFORD	27944	36.178626	-76.474406	County Board of Elections
 SCOTLAND COUNTY BOARD OF ELECTIONS	231 EAST CRONLY ST	SUITE 305	LAURINBURG	28352	34.7746378	-79.459863	County Board of Elections
-STANLY COUNTY BOARD OF ELECTIONS	1000 N FIRST STREET	SUITE 16	ALBEMARLE	28001	35.3658452	-80.1976897	County Board of Elections
 SWAIN COUNTY BOARD OF ELECTIONS	1422 HWY 19 S		BRYSON CITY	28713	35.415317	-83.4651729	County Board of Elections
 UNION COUNTY BOARD OF ELECTIONS	316 EAST WINDSOR ST	B	MONROE	28112	34.9808926	-80.5460153	County Board of Elections
 VANCE COUNTY BOARD OF ELECTIONS	300 S. GARNETT ST	STE C	HENDERSON	27536	36.325955	-78.4049301	County Board of Elections
@@ -56,7 +55,6 @@ DARE COUNTY BOARD OF ELECTIONS	954 MARSHALL COLLINS DRIVE		MANTEO	27954	35.88754
 DUPLIN COUNTY BOARD OF ELECTIONS	160 MALLARD STREET		KENANSVILLE	28349	34.957914	-77.973863	County Board of Elections
 DURHAM COUNTY BOARD OF ELECTIONS	201 N. ROXBORO ST		DURHAM	27701	35.9946801	-78.8979248	County Board of Elections
 FORSYTH COUNTY BOARD OF ELECTIONS	201 N. CHESTNUT STREET		WINSTON SALEM	27101	36.0972476	-80.2413746	County Board of Elections
-FRANKLIN COUNTY BOARD OF ELECTIONS	107 INDUSTRIAL DRIVE		LOUISBURG	27549	36.1044689	-78.2894343	County Board of Elections
 GATES COUNTY BOARD OF ELECTIONS	931 MAIN ST		GATESVILLE	27938	36.4183743	-76.75761589999999	County Board of Elections
 GRAHAM COUNTY BOARD OF ELECTIONS	18 COURT STREET		ROBBINSVILLE	28771	35.323222	-83.806415	County Board of Elections
 GRANVILLE COUNTY BOARD OF ELECTIONS	208 WALL STREET		OXFORD	27565	36.3092438	-78.588748	County Board of Elections
@@ -240,7 +238,6 @@ Wilson Driver License Office	1822 Goldsboro Street SW		Wilson	27893	35.7159043	-
 Yadkinville Driver License Office	225 Ash Street		Yadkinville	27055	36.1168961	-80.6571136	DMV
 Burnsville Driver License Office	116 North Main Street		Burnsville	28714	35.918608	-82.299735	DMV
 Asheville District Office	50 S. French Broad Avenue		Asheville	28801	35.591647	-82.558611	Dept of Services for the Blind
-Charlotte District Office	5501 Executive Center Drive	Suite 102	Charlotte	28212	35.2027999	-80.7435275	Dept of Services for the Blind
 Fayetteville District Office	2950 Village Drive	Suite 201	Fayetteville	28304	35.0319513	-78.9277192	Dept of Services for the Blind
 Greenville District Office	404 St. Andrews Drive		Greenville	27834	35.5754267	-77.3949726	Dept of Services for the Blind
 Raleigh District Office	307 Ashe Avenue		Raleigh	27606	35.7801611	-78.6606923	Dept of Services for the Blind
@@ -291,7 +288,6 @@ Durham County DSS	414 East Main Street		Durham	27702-0810	35.9918143	-78.8963752
 Edgecombe County DSS, Tarboro Office	122 E. St. James Street		Tarboro	27886	35.897954	-77.5339515	Dept of Social Services
 Edgecombe County DSS, Rocky Mount Office	301 South. Fairview Road		Rocky Mount	27801	35.9261968	-77.7737269	Dept of Social Services
 Forsyth County DSS	741 North Highland Avenue		Winston-Salem	27101	36.10330160000001	-80.23195710000002	Dept of Social Services
-Franklin County DSS	107 Industrial Drive		Louisburg	27549	36.1044689	-78.2894343	Dept of Social Services
 Gaston County DSS	330 Dr. Martin Luther King Jr. Way		Gastonia	28052	35.2660513	-81.1813384	Dept of Social Services
 Gates County DSS	200 Court Street		Gatesville	27938	36.4034817	-76.75327159999999	Dept of Social Services
 Graham County DSS	196 Knight Street		Robbinsville	28771	35.3282331	-83.8098007	Dept of Social Services
@@ -332,7 +328,6 @@ Rowan County DSS	1236 West Innes Street		Salisbury	28144	35.6785349	-80.480502	D
 Rutherford County DSS	389 Fairground Road		Spindale	28160	35.3461559	-81.910423	Dept of Social Services
 Sampson County DSS	360 County Complex Rd.	Suite 100	Clinton	28328	34.97941	-78.295298	Dept of Social Services
 Scotland County DSS	1405 West Boulevard		Laurinburg	28353	34.7591214	-79.4910404	Dept of Social Services
-Stanly County DSS	1000 North First Street	Suite 2	Albemarle	28001	35.3658452	-80.1976897	Dept of Social Services
 Stokes County DSS	1010 Highway 8 & 89 North		Danbury	27016	36.4132985	-80.21730509999999	Dept of Social Services
 Surry County DSS	118 Hamby Road		Dobson	27017	36.393679	-80.7079679	Dept of Social Services
 Swain County DSS	80 Academy St.		Bryson City	28713	35.4257754	-83.4454717	Dept of Social Services
@@ -1390,7 +1385,6 @@ Elm City Branch Library	114 N Railroad St		Elm City	27822	35.8065049	-77.8612213
 Lucama Branch Library	103 E Spring St		Lucama	27851	35.6442752	-78.00917539999999	Public Library
 Wilson County Public Library (Main)	249 Nash St W		Wilson	27893	35.7274907	-77.91433529999999	Public Library
 Asheville Regional Center	12 Barbetta Drive		Asheville	28806	35.521242	-82.60067099999999	Services for the Deaf and Hard of Hearing
-Charlotte Regional Center	5501 Executive Ctr. Dr.	Suite 200	Charlotte	28212	35.2027999	-80.7435275	Services for the Deaf and Hard of Hearing
 Greensboro Regional Center	122 North Elm Street	Suite 900	Greensboro	27401	36.0732697	-79.7898125	Services for the Deaf and Hard of Hearing
 Morganton Regional Center	107 Foothills Drive		Morganton	28655	35.7273599	-81.65168779999999	Services for the Deaf and Hard of Hearing
 Raleigh Regional Center	4900 Waters Edge Drive		Raleigh	27606	35.7745567	-78.71996759999999	Services for the Deaf and Hard of Hearing
@@ -1420,7 +1414,6 @@ Asheville Vocational Rehabilitation Office	8 Barbetta Drive		Asheville	28806	35.
 Boone Vocational Rehabilitation Office	245 Winklers Creek Road	Suite A	Boone	28607	36.2028583	-81.6695099	Voc-Rehab Office
 Brevard Vocational Rehabilitation Office	106 E Morgan St	Community Services Building	Brevard	28712	35.2314744	-82.73370659999999	Voc-Rehab Office
 Burlington Vocational Rehabilitation Office	2615 Alamance Rd.		Burlington	27215	36.0688132	-79.4677078	Voc-Rehab Office
-Charlotte Vocational Rehabilitation Office	5501 Executive Center Dr.	Suite 101	Charlotte	28212	35.2027999	-80.7435275	Voc-Rehab Office
 Charlotte Vocational Rehabilitation Office	7140 Forest Point Blvd.	Suite B	Charlotte	28217	35.1427054	-80.90024919999999	Voc-Rehab Office
 Clinton Vocational Rehabilitation Office	215 W Main Street		Clinton	28328	34.995892	-78.3254103	Voc-Rehab Office
 Concord Vocational Rehabilitation Office	820 Florence Street, NW		Concord	28027	35.4278477	-80.60836379999999	Voc-Rehab Office
@@ -1477,7 +1470,6 @@ Greene County Health Department	227 Kingold Blvd	Suite B	Snow Hill	28580	35.4525
 Guilford County Health Department	1203 Maple St	Room 308	Greensboro	27404	36.0913674	-79.77811679999999	WIC Office
 Jackson County Department of Public Health	538 Scotts Creek Rd	Ste. 100	Sylva	28779	35.3886322	-83.20466789999999	WIC Office
 Northampton County Health Department	9495 NC Hwy 305		Jackson	27845	36.412021	-77.436499	WIC Office
-Stanly County Health Department	1000 North First St	Ste 3	Albemarle	28001	35.3658452	-80.1976897	WIC Office
 Transylvania County Health Department (Community Services Bldg.)	98 East Morgan St	Suite 170	Brevard	28712	35.2311577	-82.7339977	WIC Office
 Wake County Human Services	130 North Judd Parkway Northeast		Fuquay Varina	27526	35.5864411	-78.7810834	WIC Office
 Wayne County Health Department	301 North Herman St.		Goldsboro	27530	35.3826313	-77.9833671	WIC Office
@@ -1527,7 +1519,6 @@ Forsyth County Health Department	799 N. Highland Ave.		Winston-Salem	27102-0686	
 Forsyth County Health Department (Downtown Health Plaza)	1200 N. Martin Luther King, Jr. Dr.		Winston-Salem	27101 336-713-9702	36.1043575	-80.2397117	WIC Office
 Forsyth County Health Department (Cleveland Site)	501 N. Cleveland Ave.		Winston-Salem	27101	36.10093	-80.2307379	WIC Office
 Forsyth County Health Department (Kernersville Site)	431 West Bodenhamer St.		Kernersville	27285	36.12923070000001	-80.07922429999999	WIC Office
-Franklin County Health Department	107 Industrial Dr.		Louisburg	27549	36.1044689	-78.2894343	WIC Office
 Gaston County Health Department	991 West Hudson Blvd.		Gastonia	28052	35.2341222	-81.2035547	WIC Office
 Gaston County Health Department (Highland Health Center)	609 N. Highland St.		Gastonia	28052	35.2712836	-81.19468619999999	WIC Office
 Gates County Health Department (Albemarle Regional Health Services)	29 Medical Center Rd.		Gates	27937	36.4525765	-76.69994179999999	WIC Office
@@ -1607,3 +1598,6 @@ Yadkin County Human Services Agency	217 East Willow St.		Yadkinville	27055	36.13
 Yancey County Health Department (Toe River District)	202 Medical Campus Dr.		Burnsville	28714	35.915443	-82.33393	WIC Office
 Cherokee/Clay/Graham/Haywood/Swain County Health Department/Eastern Band of Cherokee Indians (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719	35.4832581	-83.3203348	WIC Office
 Harnett/Johnston County Public Health Department (CommWell Health)	3331 Easy St.		Dunn	28366	35.2432876	-78.451416	WIC Office
+Charlotte Vocational Rehabilitation Office	5501 Executive Center Dr	Suite 101	Charlotte	28212	35.2027999	-80.7435275	Voc-Rehab Office
+FRANKLIN COUNTY BOARD OF ELECTIONS	107 Industrial Dr		Louisburg	27549	36.1044689	-78.2894343	County Board of Elections
+STANLY COUNTY BOARD OF ELECTIONS	1000 North First St	SUITE 16	Albemarle	28001	35.3658452	-80.1976897	County Board of Elections
