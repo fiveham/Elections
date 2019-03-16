@@ -917,7 +917,6 @@ Vance Co Early College	200 Community College Rd		Henderson	27537	36.3232811	-78.
 Henderson Collegiate	1071 Old Epsom Rd		Henderson	27536	36.30807310000001	-78.3974956	High School
 Apex High	7600 Roberts Road		Cary	27519	35.7712734	-78.8999931	High School
 Apex Friendship High	7801 Humie Olive Rd		Apex	27502	35.7025517	-78.9098714	High School
-Athens Drive High	1420 Athens Drive		Raleigh	27606	35.7686517	-78.7113269	High School
 Longview	318 N King Charles Rd		Raleigh	27610	35.7856837	-78.6098873	High School
 Needham Broughton High	723 Saint Mary's St		Raleigh	27605	35.7797802	-78.6506012	High School
 Cary High	638 Walnut St		Cary	27511	35.7718455	-78.766249	High School
@@ -1352,7 +1351,6 @@ Union West Regional Library	123 Unionville-Indian Trail Rd		Indian Trail	28079	3
 Lois Morgan Edwards Memorial Library	414 Hasty St		Marshville	28103	34.9911903	-80.3637335	Public Library
 Union County Public Library (Main)	316 E Windsor St		Monroe	28112	34.9808926	-80.5460153	Public Library
 Waxhaw Library	509 S Providence St		Waxhaw	28173	34.9219148	-80.7406913	Public Library
-Athens Drive High School Library	1420 Athens Dr		Raleigh	27606	35.7686517	-78.7113269	Public Library
 Cameron Village Regional Library	1930 Clark Ave		Raleigh	27605	35.789611	-78.6579744	Public Library
 Cary Community Library	310 S Academy St		Cary	27511	35.7842465	-78.7816445	Public Library
 Duraleigh Road Community Library	5800 Duraleigh Rd		Raleigh	27612	35.8571426	-78.7121423	Public Library
@@ -1597,3 +1595,4 @@ Harnett/Johnston County Public Health Department (CommWell Health)	3331 Easy St.
 Charlotte Vocational Rehabilitation Office	5501 Executive Center Dr	Suite 101	Charlotte	28212	35.2027999	-80.7435275	Voc-Rehab Office
 FRANKLIN COUNTY BOARD OF ELECTIONS	107 Industrial Dr		Louisburg	27549	36.1044689	-78.2894343	County Board of Elections
 STANLY COUNTY BOARD OF ELECTIONS	1000 North First St	SUITE 16	Albemarle	28001	35.3658452	-80.1976897	County Board of Elections
+Athens Drive Community Library	1420 Athens Dr		Raleigh	27606	35.7686517	-78.7113269	Public Library
