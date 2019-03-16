@@ -1379,7 +1379,6 @@ Wilson County Public Library (Main)	249 Nash St W		Wilson	27893	35.7274907	-77.9
 Asheville Regional Center	12 Barbetta Drive		Asheville	28806	35.521242	-82.60067099999999	Services for the Deaf and Hard of Hearing
 Greensboro Regional Center	122 North Elm Street	Suite 900	Greensboro	27401	36.0732697	-79.7898125	Services for the Deaf and Hard of Hearing
 Morganton Regional Center	107 Foothills Drive		Morganton	28655	35.7273599	-81.65168779999999	Services for the Deaf and Hard of Hearing
-Raleigh Regional Center	4900 Waters Edge Drive		Raleigh	27606	35.7745567	-78.71996759999999	Services for the Deaf and Hard of Hearing
 Wilmington Regional Center	3240 Burnt Mill Drive	Suite 5	Wilmington	28403	34.2310236	-77.9013451	Services for the Deaf and Hard of Hearing
 Wilson Regional Center	2705 Wooten Boulevard		Wilson	27893	35.7165762	-77.9536196	Services for the Deaf and Hard of Hearing
 NORTH CAROLINA STATE BOARD OF ELECTIONS	430 N. Salisbury St.	Third floor	Raleigh	27603	35.7862681	-78.639459	State Board of Elections
