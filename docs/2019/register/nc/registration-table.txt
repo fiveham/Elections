@@ -696,7 +696,6 @@ Cleveland High	1892 Polenta Rd		Clayton	27520	35.5536479	-78.4995228	High School
 Corinth Holders High	6875 Applewhite Rd		Wendell	27591	35.724761	-78.33780999999999	High School
 Johnston Co Early College Academy	245 College Rd		Smithfield	27577	35.5019508	-78.33097049999999	High School
 North Johnston High	5915 US Hwy 301 N		Kenly	27542	35.571001	-78.184139	High School
-Princeton High	101 Dr Donnie H Jones Jr Blvd		Princeton	27569	35.467091	-78.15838	High School
 Smithfield-Selma High	700 Booker Dairy Rd		Smithfield	27577	35.5297932	-78.32403409999999	High School
 South Johnston High	10381 US Hwy 301 S		Four Oaks	27524	35.4158295	-78.4955689	High School
 West Johnston High	5935 Raleigh Road		Benson	27504	35.5237203	-78.53818489999999	High School
@@ -1012,7 +1011,6 @@ West Lincoln Branch Library	5545 W NC Hwy 27		Vale	28168	35.4974098	-81.4212907	
 Greene County Library	229 Kingold Blvd	G	Snow Hill	28580	35.4527435	-77.6840043	Public Library
 Pleasure Island Library	1401 North Lake Blvd	Ste 72	Carolina Beach	28428	34.0515993	-77.9011288	Public Library
 Sneads Ferry Branch Library	1330 Highway 210		Sneads Ferry	28460	34.5235854	-77.4415315	Public Library
-Princeton Public Library	101 Doctor Donnie H. Jones, Jr Blvd		Princeton	27569	35.467091	-78.15838	Public Library
 Haynes Public Library	141 N Main St	Ste 110	Henrietta	28076	35.2686019	-81.7923588	Public Library
 East Regional Library	946 Steeple Square Ct		Knightdale	27545	35.8028937	-78.4870042	Public Library
 Leesville Community Library	5105 Country Trail		Raleigh	27613	35.8854077	-78.7152469	Public Library
@@ -1596,3 +1594,4 @@ Charlotte Vocational Rehabilitation Office	5501 Executive Center Dr	Suite 101	Ch
 FRANKLIN COUNTY BOARD OF ELECTIONS	107 Industrial Dr		Louisburg	27549	36.1044689	-78.2894343	County Board of Elections
 STANLY COUNTY BOARD OF ELECTIONS	1000 North First St	SUITE 16	Albemarle	28001	35.3658452	-80.1976897	County Board of Elections
 Athens Drive Community Library	1420 Athens Dr		Raleigh	27606	35.7686517	-78.7113269	Public Library
+Princeton Public Library	101 Dr Donnie H Jones Jr Blvd		Princeton	27569	35.467091	-78.15838	Public Library
