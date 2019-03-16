@@ -1539,7 +1539,6 @@ Halifax County Public Health Authority	204 Evans St.		Hollister	27844	36.2491115
 Halifax County Public Health Authority	116 West 3rd Street	A	Roanoke Rapids	27870	36.4690981	-77.6524333	WIC Office
 Halifax County Public Health Authority	19 Dobbs St.		Halifax	27839	36.3296498	-77.589955	WIC Office
 Harnett County Health Department	307 West Cornelius Harnett Blvd.		Lillington	27546	35.4200622	-78.8109207	WIC Office
-Harnett County Health Department (CommWell Health)	3331 Easy St.		Dunn	28366	35.2432876	-78.451416	WIC Office
 Haywood County Health Department	157 Paragon Parkway	Suite 800	Clyde	28721	35.526147	-82.95655099999999	WIC Office
 Henderson County Health Department	1200 Spartanburg Hwy.	Suite 100	Hendersonville	28792	35.3030812	-82.44091449999999	WIC Office
 Albemarle Regional Health Services	828 S Academy Street		Ahoskie	27910	36.2821962	-76.99788339999999	WIC Office
@@ -1548,7 +1547,6 @@ Hyde County Health Department	1151 Main St.		Swan Quarter	27885	35.420371	-76.31
 Iredell County Health Department	318 Turnersburg Hwy.		Statesville	28625	35.8200414	-80.87545329999999	WIC Office
 Iredell County Health Department (Government Center South)	610 E Center Ave.		Mooresville	28115	35.5798079	-80.8036049	WIC Office
 Johnston County Public Health Department	517 North Bright Leaf Blvd.		Smithfield	27577-4194	35.5140548	-78.3347587	WIC Office
-Johnston County Public Health Department (CommWell Health)	3331 Easy St.		Dunn	28366	35.2432876	-78.451416	WIC Office
 Jones County Health Department	418 Highway 58 North		Trenton	28585	35.0681785	-77.362994	WIC Office
 Lee County Health Department	106 Hillcrest Dr.		Sanford	27331-1528	35.4777028	-79.1855968	WIC Office
 Lenoir County Health Department	201 North McLewean St.		Kinston	28502	35.261888	-77.5790463	WIC Office
@@ -1608,3 +1606,4 @@ Wilson County Health Department	1801 Glendale Dr. SW		Wilson	27893-4401	35.71653
 Yadkin County Human Services Agency	217 East Willow St.		Yadkinville	27055	36.132708	-80.657541	WIC Office
 Yancey County Health Department (Toe River District)	202 Medical Campus Dr.		Burnsville	28714	35.915443	-82.33393	WIC Office
 Cherokee/Clay/Graham/Haywood/Swain County Health Department/Eastern Band of Cherokee Indians (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, & MCC)	73 Kaiser Wilnoty Dr.		Cherokee	28719	35.4832581	-83.3203348	WIC Office
+Harnett/Johnston County Public Health Department (CommWell Health)	3331 Easy St.		Dunn	28366	35.2432876	-78.451416	WIC Office
