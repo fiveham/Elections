@@ -1440,7 +1440,7 @@ Northampton County Health Department	9495 NC Hwy 305		Jackson	27845	36.412021	-7
 Transylvania County Health Department (Community Services Bldg.)	98 East Morgan St	Suite 170	Brevard	28712	35.2311577	-82.7339977	WIC Office
 Wake County Human Services	130 North Judd Parkway Northeast		Fuquay Varina	27526	35.5864411	-78.7810834	WIC Office
 Alamance County Health Department	319 N. Graham-Hopedale Rd.		Burlington	27217	36.1004032	-79.4053706	WIC Office
-Alexander County Health Department	338 First Avenue SW	Suite 1	Taylorsville	28681	35.9198935	-81.18062789999999	WIC Office
+Alexander County Health Department	338 First Avenue SW	Suite 1	Taylorsville	28681	35.920372	-81.179929	WIC Office
 Alleghany County Health Department (Appalachian Health District)	157 Health Service Rd		Sparta	28675	36.4923724	-81.14591	WIC Office
 Anson County Health Department	110 Ashe St.		Wadesboro	28170	34.9612068	-80.07867949999999	WIC Office
 Ashe County Health Department (Appalachian Health District)	413 McConnell St.		Jefferson	28640	36.4170368	-81.4786592	WIC Office
