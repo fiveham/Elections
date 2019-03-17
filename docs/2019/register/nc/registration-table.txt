@@ -197,7 +197,6 @@ Rocky Mount Driver License Office	2617 North Wesleyan Boulevard		Rocky Mount	278
 Jacksonville Driver License Office	299 Wilmington Highway		Jacksonville	28540	34.746138	-77.454154	DMV
 Mobile Unit at Camp Lejeune Hadnot Point Plaza	84 Holcomb Blvd.		Camp Lejeune	28540	34.6694841	-77.3427414	DMV
 Hillsborough Driver License Office	1201 US HIGHWAY 70 W		HILLSBOROUGH	27278-7004	36.085039	-79.124645	DMV
-Mobile Unit at the Pamlico County Human Services Center	828 Alliance St.		BAYBORO	28515	35.1445993	-76.8102629	DMV
 Elizabeth City Driver License Office	1164 US 17 South		Elizabeth City	27909	36.2821092	-76.277515	DMV
 Burgaw Driver License Office	781 U.S. 117 South		Burgaw	28425	34.542667	-77.91019	DMV
 Mobile Unit at the Perquimans County Municipal Building	114 W. Grubb St.		HERTFORD	27944	36.189954	-76.467914	DMV
