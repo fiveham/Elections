@@ -16,7 +16,6 @@ LEE COUNTY BOARD OF ELECTIONS	225 S. STEELE ST.		SANFORD	27330	35.4790055	-79.17
 LENOIR COUNTY BOARD OF ELECTIONS	110 S HERRITAGE ST	C	KINSTON	28501	35.2593988	-77.5821148	County Board of Elections
 LINCOLN COUNTY BOARD OF ELECTIONS	115 W MAIN ST	ROOM 201	LINCOLNTON	28092	35.4705024	-81.2579921	County Board of Elections
 MADISON COUNTY BOARD OF ELECTIONS	5707 HWY 25-70	RM 16	MARSHALL	28753	35.812863	-82.673605	County Board of Elections
-MARTIN COUNTY BOARD OF ELECTIONS	305 E MAIN ST	ROOM 120	WILLIAMSTON	27892	35.8565129	-77.05185900000001	County Board of Elections
 MECKLENBURG COUNTY BOARD OF ELECTIONS	741 KENILWORTH AVE	STE 202	CHARLOTTE	28204	35.20976	-80.837206	County Board of Elections
 NASH COUNTY BOARD OF ELECTIONS	1006 EASTERN AVENUE	RM 109	NASHVILLE	27856	35.9719849	-77.9469156	County Board of Elections
 NEW HANOVER COUNTY BOARD OF ELECTIONS	230 GOVERNMENT CENTER DR	SUITE 38	WILMINGTON	28403	34.2415363	-77.8669649	County Board of Elections
@@ -234,7 +233,6 @@ Fayetteville District Office	2950 Village Drive	Suite 201	Fayetteville	28304	35.
 Greenville District Office	404 St. Andrews Drive		Greenville	27834	35.5754267	-77.3949726	Dept of Services for the Blind
 Raleigh District Office	307 Ashe Avenue		Raleigh	27606	35.7801611	-78.6606923	Dept of Services for the Blind
 Winston-Salem District Office	4265 Brownsboro Road	Suite 100	Winston-Salem	27106	36.1488594	-80.272503	Dept of Services for the Blind
-Camden County DSS	117 North Highway 343		Camden	27921	36.329205	-76.174975	Dept of Social Services
 Cherokee County DSS	4800 W US Highway 64		Murphy	28906	35.065593	-83.9657742	Dept of Social Services
 Guilford County DSS	1203 Maple Street		Greensboro	27402-3388	36.0913674	-79.77811679999999	Dept of Social Services
 Halifax County DSS	4421 Hwy 301		Halifax	27839	36.371488	-77.59112979999999	Dept of Social Services
@@ -250,7 +248,6 @@ Alamance County DSS	319 North Graham Hopedale Road	Suite C	Burlington	27217	36.1
 Alexander County DSS	604 7th Street, SW		Taylorsville	28681	35.9139053	-81.1862489	Dept of Social Services
 Alleghany County DSS	182 Doctor Street		Sparta	28675	36.5087672	-81.1156211	Dept of Social Services
 Anson County DSS	118 North Washington Street		Wadesboro	28170	34.966753	-80.0745768	Dept of Social Services
-Ashe County DSS	150 Government Circle	Suite 1400	Jefferson	28640	36.4183604	-81.459054	Dept of Social Services
 Avery County DSS	175 Linville Street		Newland	28657	36.0851584	-81.9268372	Dept of Social Services
 Beaufort County DSS	632 West 5th Street		Washington	27889	35.551023	-77.05923469999999	Dept of Social Services
 Bertie County DSS	1006 Wayland Street		Windsor	27983	36.001468	-76.9599099	Dept of Social Services
@@ -311,7 +308,6 @@ Pamlico County Human Services Center	828 Alliance Main St.		Bayboro	28515	35.144
 Pasquotank County DSS	709 Roanoke Avenue		Elizabeth City	27909	36.2879081	-76.2284485	Dept of Social Services
 Pender County DSS	810 South Walker Street		Burgaw	28425	34.5445091	-77.9142906	Dept of Social Services
 Perquimans County DSS	103 Charles Street		Hertford	27944	36.191854	-76.479902	Dept of Social Services
-Pitt County DSS	1717 West Fifth Street		Greenville	27834	35.6112291	-77.3982431	Dept of Social Services
 Randolph County DSS	1512 North Fayetteville Street		Asheboro	27204-3239	35.7364761	-79.8070621	Dept of Social Services
 Richmond County DSS	125 Caroline Street		Rockingham	28380	34.939407	-79.77754999999999	Dept of Social Services
 Robeson County DSS	120 Glen Cowan Road		Lumberton	28360	34.6287648	-79.0661411	Dept of Social Services
