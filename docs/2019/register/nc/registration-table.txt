@@ -241,7 +241,6 @@ Asheville District Office	50 S. French Broad Avenue		Asheville	28801	35.591647	-
 Fayetteville District Office	2950 Village Drive	Suite 201	Fayetteville	28304	35.0319513	-78.9277192	Dept of Services for the Blind
 Greenville District Office	404 St. Andrews Drive		Greenville	27834	35.5754267	-77.3949726	Dept of Services for the Blind
 Raleigh District Office	307 Ashe Avenue		Raleigh	27606	35.7801611	-78.6606923	Dept of Services for the Blind
-Wilmington District Office	3240 Burnt Mill Drive	Suite 7	Wilmington	28403	34.2310236	-77.9013451	Dept of Services for the Blind
 Winston-Salem District Office	4265 Brownsboro Road	Suite 100	Winston-Salem	27106	36.1488594	-80.272503	Dept of Services for the Blind
 Camden County DSS	117 North Highway 343		Camden	27921	36.329205	-76.174975	Dept of Social Services
 Cherokee County DSS	4800 W US Highway 64		Murphy	28906	35.065593	-83.9657742	Dept of Social Services
