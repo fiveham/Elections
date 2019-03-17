@@ -1443,7 +1443,6 @@ Siler City Vocational Rehabilitation Office	104 Village Lake Drive		Siler City	2
 Smithfield Vocational Rehabilitation Office	18 Noble Street		Smithfield	27577	35.520911	-78.30480899999999	Voc-Rehab Office
 Statesville Vocational Rehabilitation Office	2042 Davie Avenue		Statesville	28625	35.8054738	-80.8530443	Voc-Rehab Office
 Sylva Vocational Rehabilitation Office	100 Bonnie Lane	Suite A	Sylva	28779	35.3512935	-83.208023	Voc-Rehab Office
-Tarboro Vocational Rehabilitation Office	201 St Andrews Street		Tarboro	27886	35.8965458	-77.5321151	Voc-Rehab Office
 Williamston Vocational Rehabilitation Office	405 East Boulevard		Williamston	27892	35.8434701	-77.0531968	Voc-Rehab Office
 Wilmington Vocational Rehabilitation Office	3340 Jaeckle Drive	Suite 201	Wilmington	28403	34.231668	-77.8981294	Voc-Rehab Office
 Wilson Vocational Rehabilitation Office	306 W Nash Street		Wilson	27893	35.7293144	-77.9136657	Voc-Rehab Office
