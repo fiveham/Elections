@@ -234,7 +234,6 @@ Greenville District Office	404 St. Andrews Drive		Greenville	27834	35.5754267	-7
 Raleigh District Office	307 Ashe Avenue		Raleigh	27606	35.7801611	-78.6606923	Dept of Services for the Blind
 Winston-Salem District Office	4265 Brownsboro Road	Suite 100	Winston-Salem	27106	36.1488594	-80.272503	Dept of Services for the Blind
 Cherokee County DSS	4800 W US Highway 64		Murphy	28906	35.065593	-83.9657742	Dept of Social Services
-Guilford County DSS	1203 Maple Street		Greensboro	27402-3388	36.0913674	-79.77811679999999	Dept of Social Services
 Halifax County DSS	4421 Hwy 301		Halifax	27839	36.371488	-77.59112979999999	Dept of Social Services
 Hyde County DSS	35015 US Hwy 264		Engelhard	27824	35.508517	-75.99947209999999	Dept of Social Services
 Madison County DSS	5707 U.S. Highway 25/70	Unit D	Marshall	28753	35.812834	-82.673484	Dept of Social Services
@@ -244,7 +243,6 @@ Polk County DSS	231 Wolverine Trail		Mill Spring	28756	35.2932219	-82.1702093999
 Rockingham County DSS	411 NC Hwy 65		Wentworth	27375	36.3920869	-79.750688	Dept of Social Services
 Watauga County DSS	132 Poplar Grove Connector Road	Suite C	Boone	28607	36.220473	-81.691654	Dept of Social Services
 Wayne County DSS	301 North Herman Street		Goldsboro	27530	35.3826313	-77.9833671	Dept of Social Services
-Alamance County DSS	319 North Graham Hopedale Road	Suite C	Burlington	27217	36.1004032	-79.4053706	Dept of Social Services
 Alexander County DSS	604 7th Street, SW		Taylorsville	28681	35.9139053	-81.1862489	Dept of Social Services
 Alleghany County DSS	182 Doctor Street		Sparta	28675	36.5087672	-81.1156211	Dept of Social Services
 Anson County DSS	118 North Washington Street		Wadesboro	28170	34.966753	-80.0745768	Dept of Social Services
@@ -273,17 +271,13 @@ Davidson County DSS	913 Greensboro Street		Lexington	27293	35.8323423	-80.243763
 Davie County DSS	228 Hospital St		Mocksville	27028	35.8988715	-80.57101039999999	Dept of Social Services
 Duplin County DSS	423 North Main Street		Kenansville	28349	34.9662028	-77.960822	Dept of Social Services
 Durham County DSS	414 East Main Street		Durham	27702-0810	35.9918143	-78.8963752	Dept of Social Services
-Edgecombe County DSS, Tarboro Office	122 E. St. James Street		Tarboro	27886	35.897954	-77.5339515	Dept of Social Services
 Edgecombe County DSS, Rocky Mount Office	301 South. Fairview Road		Rocky Mount	27801	35.9261968	-77.7737269	Dept of Social Services
 Forsyth County DSS	741 North Highland Avenue		Winston-Salem	27101	36.10330160000001	-80.23195710000002	Dept of Social Services
 Gaston County DSS	330 Dr. Martin Luther King Jr. Way		Gastonia	28052	35.2660513	-81.1813384	Dept of Social Services
 Gates County DSS	200 Court Street		Gatesville	27938	36.4034817	-76.75327159999999	Dept of Social Services
 Graham County DSS	196 Knight Street		Robbinsville	28771	35.3282331	-83.8098007	Dept of Social Services
 Granville County DSS	410 West Spring Street		Oxford	27565	36.3081999	-78.5936292	Dept of Social Services
-Greene County DSS	227 Kingold Boulevard	Suite A	Snow Hill	28580	35.452512	-77.6839439	Dept of Social Services
 Harnett County DSS	311 Cornelius Harnett Boulevard		Lillington	27546	35.420798	-78.811117	Dept of Social Services
-Haywood County DSS	157 Paragon Parkway	Suite 300	Clyde	28721	35.526147	-82.95655099999999	Dept of Social Services
-Henderson County DSS	1200 Spartanburg Highway	Suite 300	Hendersonville	28792	35.3030812	-82.44091449999999	Dept of Social Services
 Hertford County DSS	704 King Street		Winton	27986	36.3967142	-76.9327067	Dept of Social Services
 Hoke County DSS	314 S. Magnolia Street		Raeford	28376	34.9750567	-79.2274044	Dept of Social Services
 Iredell County DSS	549 Eastside Drive		Statesville	28625	35.7829215	-80.85827619999999	Dept of Social Services
@@ -313,8 +307,6 @@ Richmond County DSS	125 Caroline Street		Rockingham	28380	34.939407	-79.77754999
 Robeson County DSS	120 Glen Cowan Road		Lumberton	28360	34.6287648	-79.0661411	Dept of Social Services
 Rowan County DSS	1236 West Innes Street		Salisbury	28144	35.6785349	-80.480502	Dept of Social Services
 Rutherford County DSS	389 Fairground Road		Spindale	28160	35.3461559	-81.910423	Dept of Social Services
-Sampson County DSS	360 County Complex Rd.	Suite 100	Clinton	28328	34.97941	-78.295298	Dept of Social Services
-Scotland County DSS	1405 West Boulevard		Laurinburg	28353	34.7591214	-79.4910404	Dept of Social Services
 Stokes County DSS	1010 Highway 8 & 89 North		Danbury	27016	36.4132985	-80.21730509999999	Dept of Social Services
 Surry County DSS	118 Hamby Road		Dobson	27017	36.393679	-80.7079679	Dept of Social Services
 Swain County DSS	80 Academy St.		Bryson City	28713	35.4257754	-83.4454717	Dept of Social Services
@@ -325,7 +317,7 @@ Vance County DSS	350 Ruin Creek Road		Henderson	27536	36.3338682	-78.4475995	Dep
 Wake County Human Services	220 Swinburne Road		Raleigh	27620-6833	35.77922909999999	-78.5855109	Dept of Social Services
 Warren County DSS	307 North Main Street		Warrenton	27589	36.40231259999999	-78.1539798	Dept of Social Services
 Washington County DSS	209 East Main Street		Plymouth	27962	35.8662247	-76.747269	Dept of Social Services
-Wilkes County DSS	304 College Street		Wilkesboro	28697	36.144107	-81.1569406	Dept of Social Services
+Wilkes County DSS	304 College Street		Wilkesboro	28697	36.144889	-81.155757	Dept of Social Services
 Wilson County DSS	100 N.E Gold Street		Wilson	27894-0459	35.7300015	-77.9059431	Dept of Social Services
 Yadkin County DSS	250 Willow Street		Yadkinville	27055	36.1327489	-80.6575178	Dept of Social Services
 Yancey County DSS	320 Pensacola Road		Burnsville	28714	35.910098	-82.291302	Dept of Social Services
@@ -1447,7 +1439,6 @@ Jackson County Department of Public Health	538 Scotts Creek Rd	Ste. 100	Sylva	28
 Northampton County Health Department	9495 NC Hwy 305		Jackson	27845	36.412021	-77.436499	WIC Office
 Transylvania County Health Department (Community Services Bldg.)	98 East Morgan St	Suite 170	Brevard	28712	35.2311577	-82.7339977	WIC Office
 Wake County Human Services	130 North Judd Parkway Northeast		Fuquay Varina	27526	35.5864411	-78.7810834	WIC Office
-Wayne County Health Department	301 North Herman St.		Goldsboro	27530	35.3826313	-77.9833671	WIC Office
 Alamance County Health Department	319 N. Graham-Hopedale Rd.		Burlington	27217	36.1004032	-79.4053706	WIC Office
 Alexander County Health Department	338 First Avenue SW	Suite 1	Taylorsville	28681	35.9198935	-81.18062789999999	WIC Office
 Alleghany County Health Department (Appalachian Health District)	157 Health Service Rd		Sparta	28675	36.4923724	-81.14591	WIC Office
@@ -1462,10 +1453,8 @@ Brunswick County Health Department (Eastgate Plaza)	1509 Holden Beach Rd		Shallo
 Buncombe County Health Center	7 Yorkshire Ave.		Asheville	28803	35.5570315	-82.5360219	WIC Office
 Buncombe County Health Center	257 Biltmore Avenue		Asheville	28801	35.5852445	-82.5519766	WIC Office
 Buncombe County Health Center	119 Hendersonville Rd		Asheville	28803	35.5608853	-82.543767	WIC Office
-Burke County Health Department	700 East Parker Rd.		Morganton	28655	35.7261084	-81.649227	WIC Office
 Cabarrus Health Alliance	300 Mooresville Rd.		Kannapolis	28081	35.49931960000001	-80.6310439	WIC Office
 Cabarrus Health Alliance (Logan Clinic)	298 Lincoln St.		Concord	28025	35.3983151	-80.5795747	WIC Office
-Caldwell County Health Department	2345 Morganton Blvd.	Suite B	Lenoir	28645	35.891948	-81.57241030000002	WIC Office
 Camden County Health Department (Albemarle Regional Health Services)	160 US Hwy 158 East	Building B	Camden	27921	36.3345592	-76.1648293	WIC Office
 Carteret County Health Department	3820 A Bridges St.		Morehead City	28557	34.72615560000001	-76.7604157	WIC Office
 Caswell County Health Department	189 County Park Rd.		Yanceyville	27379	36.406709	-79.33493299999999	WIC Office
@@ -1478,7 +1467,6 @@ Chowan County Health Department (Albemarle Regional Health Services)	202 W. Hick
 Clay County Health Department	345 Court House Dr.		Hayesville	28904	35.0423327	-83.8302379	WIC Office
 Cleveland County Health Department	200 S. Post Road		Shelby	28152	35.28006	-81.49345749999999	WIC Office
 Columbus County Health Department	304 Jefferson St.	Miller Building	Whiteville	28472	34.3373955	-78.6981035	WIC Office
-Craven County Health Department	2818 Neuse Blvd		New Bern	28561	35.1234183	-77.0820784	WIC Office
 Cumberland County Health Department (Spring Lake)	103 Laketree Blvd.		Spring Lake	28390	35.1812504	-78.9858911	WIC Office
 Cumberland County Health Department (Hope Mills)	2622 Hope Mills Rd.		Hope Mills	28306	34.9980761	-78.96802	WIC Office
 Currituck County Health Department (Albemarle Regional Health Services)	2795 Caratoke Hwy.		Currituck	27929	36.4532229	-76.02165579999999	WIC Office
@@ -1539,7 +1527,6 @@ Pamlico County Health Department	203 North St.		Bayboro	28515	35.1437941	-76.770
 Pasquotank County Health Department (Albemarle Regional Health Services)	711 Roanoke Ave.		Elizabeth City	27907	36.2876717	-76.2279573	WIC Office
 Pender County Health Department	803 South Walker St.		Burgaw	28425	34.5436124	-77.9168349	WIC Office
 Perquimans County Health Department (Albemarle Regional Health Services)	103 ARPDC St.		Hertford	27944	36.1826303	-76.4653688	WIC Office
-Person County Health Department	355 A South Madison Blvd.		Roxboro	27573	36.3911691	-78.9905052	WIC Office
 Pitt County Health Center - WIC	201 Government Circle		Greenville	27834	35.6371834	-77.36357720000001	WIC Office
 Polk County Health Department (Rutherford, Polk, McDowell Health District)	161 Walker St.		Columbus	28722	35.2496012	-82.1974049	WIC Office
 Randolph County Health Department	2222 S. Fayetteville St.	B	Asheboro	27205	35.6760022	-79.82061039999999	WIC Office
@@ -1552,10 +1539,8 @@ Sampson County Health Department	360 County Complex Rd.		Clinton	28328	34.97941	
 Scotland County Health Department	1405 West Blvd.		Laurinburg	28352	34.7591214	-79.4910404	WIC Office
 Stokes County Health Department	1009 N. Main St.		Danbury	27016	36.414089	-80.21452099999999	WIC Office
 Stokes County Health Department (Southwest Service Center)	104 Hartgrove Rd.		King	27021	36.2997179	-80.3572207	WIC Office
-Surry County Health & Nutrition Center	118 Hamby Rd.		Dobson	27017	36.393679	-80.7079679	WIC Office
 Swain County Health Department	545 Center St.		Bryson City	28713	35.4362089	-83.4444711	WIC Office
 Tyrrell County Health Department (MTW Health District)	408 Bridge St.		Columbia	27925	35.9187667	-76.2515554	WIC Office
-Union County Health Department	2330 Concord Avenue		Monroe	28110	35.0113594	-80.5460028	WIC Office
 Vance County (Granville-Vance District Health Department)	115 Charles Rollins Rd.		Henderson	27536	36.3295473	-78.4498558	WIC Office
 Wake County Human Services	10 Sunnybrook Rd.		Raleigh	27620-4049	35.7863928	-78.5865776	WIC Office
 Wake County Human Services	111 James Jackson Ave.	Suite 201	Cary	27513	35.7958928	-78.80255679999999	WIC Office
@@ -1567,7 +1552,6 @@ Washington County Health Department (MTW Health District)	198 NC Hwy 45 North		P
 Watauga County Health Department (Appalachian Health District)	126 Poplar Grove Connector Rd.		Boone	28607	36.2205579	-81.691661	WIC Office
 Wayne County Health Department	108 W. Main St.		Mount Olive	28365	35.196192	-78.06755100000001	WIC Office
 Wayne County Health Department (Seymour Johnson Air Force Base Building 3602)	1200 Wright Brothers Ave.		Goldsboro	27530	35.3526977	-77.966133	WIC Office
-Wilkes County Health Department	306 College St.		Wilkesboro	28697	36.144107	-81.1569406	WIC Office
 Wilson County Health Department	1801 Glendale Dr. SW		Wilson	27893-4401	35.716534	-77.94477359999999	WIC Office
 Yadkin County Human Services Agency	217 East Willow St.		Yadkinville	27055	36.132708	-80.657541	WIC Office
 Yancey County Health Department (Toe River District)	202 Medical Campus Dr.		Burnsville	28714	35.915443	-82.33393	WIC Office
