@@ -102,7 +102,6 @@ Newton Driver License Office	1033 Smyre Farm Road		Newton	28658	35.629737	-81.22
 Siler City Driver License Office	1103 North 2nd Avenue		Siler City	27344	35.734124	-79.466881	DMV
 Shelby Driver License Office	1914 East Dixon Boulevard (US 74 Bypass)		Shelby	28152	35.2665452	-81.4825114	DMV
 Mobile Unit at the Fort Bragg Soldier Support Center	2843 Normandy Drive		Fort Bragg	28307	35.1386719	-79.0006252	DMV
-Mobile Unit at the Hatteras Civic Center	57709 NC Highway 12		Hatteras	27943	35.2191296	-75.6900782	DMV
 Thomasville Driver License Office	1033 Randolph Street	Suite 16	Thomasville	27360	35.865568	-80.070907	DMV
 Mocksville Driver License Office	161 Poplar Street	Suite 101	Mocksville	27028	35.8987753	-80.5561553	DMV
 Shops of Hope Valley Shopping Center Driver License Office	3825 South Roxboro Street	Suite 119	Durham	27713	35.9475799	-78.9220051	DMV
@@ -160,7 +159,6 @@ Mobile Unit at the Gates County Community Center	130 US HIGHWAY 158 W		GATESVILL
 Mobile Unit at Graham County Social Services	196 Knight Street		Robbinsville	28771	35.3281599	-83.810188	DMV
 Oxford Driver License Office	100 PROVIDENCE RD		OXFORD	27565-3162	36.304996	-78.607034	DMV
 Mobile Unit at the South Granville Senior Center	108 Wilton Avenue		Creedmoor	27522	36.1232952	-78.6783957	DMV
-Mobile Unit at the County Office Complex Library	229 Kingold Boulevard		Snow Hill	28580	35.4527435	-77.6840043	DMV
 East Greensboro Driver License Office	2527 E Market Street		Greensboro	27401	36.079311	-79.752739	DMV
 West Greensboro Driver License Office	2391 Coliseum Boulevard		Greensboro	27403	36.0438889	-79.8165865	DMV
 High Point Driver License Office	650 Francis Street		High Point	27263	35.938289	-79.982669	DMV
@@ -218,7 +216,6 @@ Mount Airy Driver License Office	155 Patrol Station Road		Mount Airy	27030	36.52
 Bryson City Driver License Office	2650 GOVERNORS ISLAND RD		BRYSON CITY	28713-7983	35.434678	-83.411912	DMV
 Mobile Unit at the Municipal Library	403 Main Street		Columbia	27925	35.917526	-76.251883	DMV
 Monroe Driver License Office	3122 US 74 West		Monroe	28110	35.0243292	-80.5831194	DMV
-Mobile Unit at Edwards Memorial Library	414 HASTY ST		MARSHVILLE	28103-1242	34.9911903	-80.3637335	DMV
 Avent Ferry Shopping Center Driver License Office	3231 Avent Ferry Road		Raleigh	27606	35.767765	-78.696068	DMV
 Forest Hills Shopping Center Driver License Office	222 Forest Hills Drive		Garner	27529	35.707258	-78.6231171	DMV
 Fuquay -Varina Municipal Building Driver License Office	131 South Fuquay Avenue		Fuquay-Varina	27526	35.583326	-78.797907	DMV
@@ -226,7 +223,6 @@ Freeman Center Driver License Office	1387 SE Maynard Road		Cary	27511	35.788471	
 Wendell Driver License Office	2851 WENDELL BLVD		WENDELL	27591-6904	35.794178	-78.38022	DMV
 Mobile Unit at the Renaissance Center	405 BROOKS ST		WAKE FOREST	27587-2930	35.9741886	-78.5087581	DMV
 Mobile Unit at the Old N.C. National Guard Armory	501 US 158 Business East		WARRENTON	27589	36.4039167	-78.1615606	DMV
-Mobile Unit at the Pettigrew Library	201 E. Third St.		Plymouth	27962	35.86595	-76.746464	DMV
 Goldsboro Driver License Office	701 West Grantham Street		Goldsboro	27530	35.3985879	-78.001919	DMV
 Old Steele Library Building Driver License Office	110 North Chestnut Street		Mount Olive	28365	35.196581	-78.067312	DMV
 Wilkesboro Driver License Office	1230 School Street		Wilkesboro	28697	36.136461	-81.177123	DMV
