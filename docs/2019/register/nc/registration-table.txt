@@ -1402,7 +1402,6 @@ Albemarle Vocational Rehabilitation Office	702 Henson Street		Albemarle	28001	35
 Asheboro Vocational Rehabilitation Office	958 S Park Street		Asheboro	27203	35.6940105	-79.82074899999999	Voc-Rehab Office
 Asheville Vocational Rehabilitation Office	8 Barbetta Drive		Asheville	28806	35.521455	-82.6011599	Voc-Rehab Office
 Boone Vocational Rehabilitation Office	245 Winklers Creek Road	Suite A	Boone	28607	36.2028583	-81.6695099	Voc-Rehab Office
-Brevard Vocational Rehabilitation Office	106 E Morgan St	Community Services Building	Brevard	28712	35.2314744	-82.73370659999999	Voc-Rehab Office
 Burlington Vocational Rehabilitation Office	2615 Alamance Rd.		Burlington	27215	36.0688132	-79.4677078	Voc-Rehab Office
 Charlotte Vocational Rehabilitation Office	7140 Forest Point Blvd.	Suite B	Charlotte	28217	35.1427054	-80.90024919999999	Voc-Rehab Office
 Clinton Vocational Rehabilitation Office	215 W Main Street		Clinton	28328	34.995892	-78.3254103	Voc-Rehab Office
