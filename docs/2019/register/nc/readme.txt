@@ -1,6 +1,11 @@
 This directory shall contain an html file providing the viewer with an interactive map depicting locations within NC where one can pick up a voter registration form.
 
-Such locations include (according to https://www.ncsbe.gov/Voters/Registering-to-Vote):
+Such locations include one-stop (early voting) sites and others according to https://www.ncsbe.gov/Voters/Registering-to-Vote:
+  One-stop sites (https://vt.ncsbe.gov/OSSite/GetSites/?CountyID=XX&ElectionDate=04%2F30%2F2019 for CountyID in {28 (Dare), 27 (Currituck), 15 (Camden), 70 (Pasquotank), 72 (Perquimans), 21 (Chowan), 48 (Hyde), 7 (Beaufort), 89 (Tyrrell) 69 (Pamlico), 16 (Carteret), 25 (Craven), 74 (Pitt), 67 (Onslow), 52 (Jones), 54 (Lenoir), 40 (Greene)})
+    Source:
+      https://vt.ncsbe.gov/OSSite/
+    File:
+      (none yet)
   Board of Elections offices (NCSBE and county boards)
     Source:
       https://www.ncsbe.gov/contact-us
