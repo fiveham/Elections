@@ -213,7 +213,6 @@ Walnut Cove Driver License Office	111 W. Sixth Street		Walnut Cove	27052	36.2995
 Elkin Driver License Office	1687 North Bridge Street		Elkin	28621	36.276533	-80.853234	DMV
 Mount Airy Driver License Office	155 Patrol Station Road		Mount Airy	27030	36.528803	-80.629609	DMV
 Bryson City Driver License Office	2650 GOVERNORS ISLAND RD		BRYSON CITY	28713-7983	35.434678	-83.411912	DMV
-Mobile Unit at the Municipal Library	403 Main Street		Columbia	27925	35.917526	-76.251883	DMV
 Monroe Driver License Office	3122 US 74 West		Monroe	28110	35.0243292	-80.5831194	DMV
 Avent Ferry Shopping Center Driver License Office	3231 Avent Ferry Road		Raleigh	27606	35.767765	-78.696068	DMV
 Forest Hills Shopping Center Driver License Office	222 Forest Hills Drive		Garner	27529	35.707258	-78.6231171	DMV
@@ -241,7 +240,7 @@ Onslow County DSS	1915 Onslow Drive Extension		Jacksonville	28541	34.7520933	-77
 Person County DSS	355 S. Madison Blvd	B	Roxboro	27573	36.3911691	-78.9905052	Dept of Social Services
 Polk County DSS	231 Wolverine Trail		Mill Spring	28756	35.2932219	-82.17020939999999	Dept of Social Services
 Rockingham County DSS	411 NC Hwy 65		Wentworth	27375	36.3920869	-79.750688	Dept of Social Services
-Watauga County DSS	132 Poplar Grove Connector Road	Suite C	Boone	28607	36.220473	-81.691654	Dept of Social Services
+Watauga County DSS	132 Poplar Grove Connector Road	Suite C	Boone	28607	36.219621	-81.692207	Dept of Social Services
 Wayne County DSS	301 North Herman Street		Goldsboro	27530	35.3826313	-77.9833671	Dept of Social Services
 Alexander County DSS	604 7th Street, SW		Taylorsville	28681	35.9139053	-81.1862489	Dept of Social Services
 Alleghany County DSS	182 Doctor Street		Sparta	28675	36.5087672	-81.1156211	Dept of Social Services
@@ -268,7 +267,7 @@ Cumberland County DSS	1225 Ramsey Street		Fayetteville	28301	35.0716496	-78.8823
 Currituck County DSS	153 Courthouse Rd.	Suite 400	Currituck	27929	36.4499012	-76.01632	Dept of Social Services
 Dare County DSS	107 Exeter Street		Manteo	27954	35.9039093	-75.6748549	Dept of Social Services
 Davidson County DSS	913 Greensboro Street		Lexington	27293	35.8323423	-80.2437631	Dept of Social Services
-Davie County DSS	228 Hospital St		Mocksville	27028	35.8988715	-80.57101039999999	Dept of Social Services
+Davie County DSS	228 Hospital St		Mocksville	27028	35.898791	-80.571329	Dept of Social Services
 Duplin County DSS	423 North Main Street		Kenansville	28349	34.9662028	-77.960822	Dept of Social Services
 Durham County DSS	414 East Main Street		Durham	27702-0810	35.9918143	-78.8963752	Dept of Social Services
 Edgecombe County DSS, Rocky Mount Office	301 South. Fairview Road		Rocky Mount	27801	35.9261968	-77.7737269	Dept of Social Services
@@ -287,7 +286,7 @@ Jones County DSS	118 Highway 58 North		Trenton	28585	35.0636582	-77.3544357	Dept
 Lee County DSS	530 Carthage Street		Sanford	27330	35.4777628	-79.1853909	Dept of Social Services
 Lenoir County DSS	130 West King Street		Kinston	28502-0006	35.2585153	-77.58261689999999	Dept of Social Services
 Lincoln County DSS	1136 East Main Street		Lincolnton	28093-0130	35.4747364	-81.2414713	Dept of Social Services
-Macon County DSS, Lakeside Government Complex	1832 Lakeside Drive		Franklin	28734	35.1967941	-83.3715509	Dept of Social Services
+Macon County DSS, Lakeside Government Complex	1832 Lakeside Drive		Franklin	28734	35.196802	-83.371962	Dept of Social Services
 Martin County DSS	305 East Main Street		Williamston	27892	35.8565129	-77.05185900000001	Dept of Social Services
 McDowell County DSS	145 East Court Street		Marion	28752	35.6855984	-82.0069067	Dept of Social Services
 Mecklenburg County DSS	301 Billingsley Road		Charlotte	28222	35.1916135	-80.8065471	Dept of Social Services
@@ -319,7 +318,6 @@ Warren County DSS	307 North Main Street		Warrenton	27589	36.40231259999999	-78.1
 Washington County DSS	209 East Main Street		Plymouth	27962	35.8662247	-76.747269	Dept of Social Services
 Wilkes County DSS	304 College Street		Wilkesboro	28697	36.144889	-81.155757	Dept of Social Services
 Wilson County DSS	100 N.E Gold Street		Wilson	27894-0459	35.7300015	-77.9059431	Dept of Social Services
-Yadkin County DSS	250 Willow Street		Yadkinville	27055	36.1327489	-80.6575178	Dept of Social Services
 Yancey County DSS	320 Pensacola Road		Burnsville	28714	35.910098	-82.291302	Dept of Social Services
 Eastern Alamance High	4040 Mebane Rogers Rd		Mebane	27302	36.1135494	-79.30227699999999	High School
 Western Alamance High	1731 N NC 87		Elon	27244	36.1530606	-79.49759569999999	High School
@@ -1323,7 +1321,7 @@ Locust Branch Library	213 Town Centre Dr		Locust	28097	35.2593893	-80.4319338	Pu
 Norwood Branch Library	207 Pee Dee Ave		Norwood	28128	35.22583729999999	-80.1192167	Public Library
 Oakboro Branch Library	214 S Main St		Oakboro	28129	35.220539	-80.32346489999999	Public Library
 Stanly County Public Library (Main)	133 E Main St		Albemarle	28001	35.3505096	-80.1967908	Public Library
-Transylvania County Library	212 S Gaston St		Brevard	28712	35.2313791	-82.7348406	Public Library
+Transylvania County Library	212 S Gaston St		Brevard	28712	35.230937499999996	-82.7358125	Public Library
 Union West Regional Library	123 Unionville-Indian Trail Rd		Indian Trail	28079	35.0775471	-80.66489059999999	Public Library
 Lois Morgan Edwards Memorial Library	414 Hasty St		Marshville	28103	34.9911903	-80.3637335	Public Library
 Union County Public Library (Main)	316 E Windsor St		Monroe	28112	34.9808926	-80.5460153	Public Library
@@ -1473,7 +1471,7 @@ Currituck County Health Department (Albemarle Regional Health Services)	2795 Car
 Dare County Health Department	109 Exeter St.		Manteo	27954	35.9036406	-75.67451969999999	WIC Office
 Dare County Health Department	2601 N. Croatan Hwy		Kill Devil Hills	27948 252-475-5748	36.0460426	-75.6796722	WIC Office
 Davidson County Health Department	915 Greensboro St.		Lexington	27293	35.8331396	-80.242674	WIC Office
-Davie County Health Department	210 Hospital St.		Mocksville	27028	35.8988591	-80.5710558	WIC Office
+Davie County Health Department	210 Hospital St.		Mocksville	27028	35.89905	-80.57087	WIC Office
 Duplin County Health Department	340 Seminary Street		Kenansville	28349	34.9634938	-77.9673067	WIC Office
 Durham County Health Department (Lincoln Community Health Center)	1301 Fayetteville St.		Durham	27717-2119	35.9806127	-78.8978008	WIC Office
 Edgecombe County Health Department	122 East James St.		Tarboro	27886	35.897954	-77.5339515	WIC Office
@@ -1505,7 +1503,7 @@ Jones County Health Department	418 Highway 58 North		Trenton	28585	35.0681785	-7
 Lee County Health Department	106 Hillcrest Dr.		Sanford	27331-1528	35.4777028	-79.1855968	WIC Office
 Lenoir County Health Department	201 North McLewean St.		Kinston	28502	35.261888	-77.5790463	WIC Office
 Lincoln County Health Department	151 Sigmon Rd.		Lincolnton	28092	35.49193959999999	-81.2468066	WIC Office
-Macon County Health Department	1830 Lakeside Dr.		Franklin	28734	35.1968777	-83.37150969999999	WIC Office
+Macon County Health Department	1830 Lakeside Dr.		Franklin	28734	-83.371539	-83.37150969999999	WIC Office
 Madison County Health Department	493 Medical Park Dr.		Marshall	28753	35.8052001	-82.65185249999999	WIC Office
 Martin County Health Department (MTW Health District)	210 West Liberty St.		Williamston	27892	35.8601964	-77.06143829999999	WIC Office
 McDowell County Health Department (Rutherford, Polk, McDowell Health District)	408 Spaulding Rd.		Marion	28752	35.6667096	-82.0296877	WIC Office
@@ -1549,7 +1547,7 @@ Wake County Human Services	350 E. Holding Ave.		Wake Forest	27587	35.9700668	-78
 Wake County Human Services	1002 Dogwood Dr.		Zebulon	27597	35.8372216	-78.3197653	WIC Office
 Warren County Health Department	544 West Ridgeway St.		Warrenton	27589	36.4065313	-78.1630789	WIC Office
 Washington County Health Department (MTW Health District)	198 NC Hwy 45 North		Plymouth	27962	35.8686417	-76.7007593	WIC Office
-Watauga County Health Department (Appalachian Health District)	126 Poplar Grove Connector Rd.		Boone	28607	36.2205579	-81.691661	WIC Office
+Watauga County Health Department (Appalachian Health District)	126 Poplar Grove Connector Rd.		Boone	28607	36.219879	-81.6931	WIC Office
 Wayne County Health Department	108 W. Main St.		Mount Olive	28365	35.196192	-78.06755100000001	WIC Office
 Wayne County Health Department (Seymour Johnson Air Force Base Building 3602)	1200 Wright Brothers Ave.		Goldsboro	27530	35.3526977	-77.966133	WIC Office
 Wilson County Health Department	1801 Glendale Dr. SW		Wilson	27893-4401	35.716534	-77.94477359999999	WIC Office
