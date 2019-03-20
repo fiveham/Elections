@@ -1,0 +1,9219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
+ <Document>
+  <name>
+   Voter Registration Form Sites
+  </name>
+  
+  
+  <StyleMap id="County_Board_of_Elections">
+	<Pair>
+		<key>normal</key>
+		<styleUrl>#County_Board_of_Elections_normal</styleUrl>
+	</Pair>
+	<Pair>
+		<key>highlight</key>
+		<styleUrl>#County_Board_of_Elections_highlight</styleUrl>
+	</Pair>
+  </StyleMap>
+  <Style id="County_Board_of_Elections_normal">
+	<IconStyle>
+		<scale>1.2</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>00000000</color>
+	</LabelStyle>
+  </Style>
+  <Style id="County_Board_of_Elections_highlight">
+	<IconStyle>
+		<scale>1.4</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffffff</color>
+	</LabelStyle>
+  </Style>
+  
+  
+  <StyleMap id="Public_Library">
+	<Pair>
+		<key>normal</key>
+		<styleUrl>#Public_Library_normal</styleUrl>
+	</Pair>
+	<Pair>
+		<key>highlight</key>
+		<styleUrl>#Public_Library_highlight</styleUrl>
+	</Pair>
+  </StyleMap>
+  <Style id="Public_Library_normal">
+	<IconStyle>
+		<scale>1.4</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/shapes/electronics.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>00000000</color>
+	</LabelStyle>
+  </Style>
+  <Style id="Public_Library_highlight">
+	<IconStyle>
+		<scale>1.6</scale>
+		<Icon>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/bookstack_50x49.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffffff</color>
+	</LabelStyle>
+  </Style>
+  
+  
+  <StyleMap id="Dept_of_Services_for_the_Blind">
+	<Pair>
+		<key>normal</key>
+		<styleUrl>#Dept_of_Services_for_the_Blind_normal</styleUrl>
+	</Pair>
+	<Pair>
+		<key>highlight</key>
+		<styleUrl>#Dept_of_Services_for_the_Blind_highlight</styleUrl>
+	</Pair>
+  </StyleMap>
+  <Style id="Dept_of_Services_for_the_Blind_normal">
+	<IconStyle>
+		<scale>1.2</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>00000000</color>
+	</LabelStyle>
+  </Style>
+  <Style id="Dept_of_Services_for_the_Blind_highlight">
+	<IconStyle>
+		<scale>1.4</scale>
+		<Icon>
+			<href>https://fiveham.github.io/Elections/images/blind-icon_50x40.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffffff</color>
+	</LabelStyle>
+  </Style>
+  
+  
+  <StyleMap id="Services_for_the_Deaf_and_Hard_of_Hearing">
+	<Pair>
+		<key>normal</key>
+		<styleUrl>#Services_for_the_Deaf_and_Hard_of_Hearing_normal</styleUrl>
+	</Pair>
+	<Pair>
+		<key>highlight</key>
+		<styleUrl>#Services_for_the_Deaf_and_Hard_of_Hearing_highlight</styleUrl>
+	</Pair>
+  </StyleMap>
+  <Style id="Services_for_the_Deaf_and_Hard_of_Hearing_normal">
+	<IconStyle>
+		<scale>1.2</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/shapes/subway.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>00000000</color>
+	</LabelStyle>
+  </Style>
+  <Style id="Services_for_the_Deaf_and_Hard_of_Hearing_highlight">
+	<IconStyle>
+		<scale>1.4</scale>
+		<Icon>
+			<href>https://fiveham.github.io/Elections/images/ear_35x50.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffffff</color>
+	</LabelStyle>
+  </Style>
+  
+  
+  <StyleMap id="WIC_Office">
+	<Pair>
+		<key>normal</key>
+		<styleUrl>#WIC_Office_normal</styleUrl>
+	</Pair>
+	<Pair>
+		<key>highlight</key>
+		<styleUrl>#WIC_Office_highlight</styleUrl>
+	</Pair>
+  </StyleMap>
+  <Style id="WIC_Office_normal">
+	<IconStyle>
+		<scale>1.2</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/paddle/pink-circle.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>00000000</color>
+	</LabelStyle>
+  </Style>
+  <Style id="WIC_Office_highlight">
+	<IconStyle>
+		<scale>1.4</scale>
+		<Icon>
+			<href>https://fiveham.github.io/Elections/images/wic_50x50.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffffff</color>
+	</LabelStyle>
+  </Style>
+  
+  
+  <StyleMap id="State_Board_of_Elections">
+	<Pair>
+		<key>normal</key>
+		<styleUrl>#State_Board_of_Elections_normal</styleUrl>
+	</Pair>
+	<Pair>
+		<key>highlight</key>
+		<styleUrl>#State_Board_of_Elections_highlight</styleUrl>
+	</Pair>
+  </StyleMap>
+  <Style id="State_Board_of_Elections_normal">
+	<IconStyle>
+		<scale>1.2</scale>
+		<Icon>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/NC-flag.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>00000000</color>
+	</LabelStyle>
+  </Style>
+  <Style id="State_Board_of_Elections_highlight">
+	<IconStyle>
+		<scale>1.4</scale>
+		<Icon>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/NC-flag.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffffff</color>
+	</LabelStyle>
+  </Style>
+  
+  
+  <StyleMap id="Voc-Rehab_Office">
+	<Pair>
+		<key>normal</key>
+		<styleUrl>#Voc-Rehab_Office_normal</styleUrl>
+	</Pair>
+	<Pair>
+		<key>highlight</key>
+		<styleUrl>#Voc-Rehab_Office_highlight</styleUrl>
+	</Pair>
+  </StyleMap>
+  <Style id="Voc-Rehab_Office_normal">
+	<IconStyle>
+		<scale>1.2</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/paddle/V.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>00000000</color>
+	</LabelStyle>
+  </Style>
+  <Style id="Voc-Rehab_Office_highlight">
+	<IconStyle>
+		<scale>1.4</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/paddle/V.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffffff</color>
+	</LabelStyle>
+  </Style>
+  
+  
+  <StyleMap id="Dept_of_Social_Services">
+	<Pair>
+		<key>normal</key>
+		<styleUrl>#Dept_of_Social_Services_normal</styleUrl>
+	</Pair>
+	<Pair>
+		<key>highlight</key>
+		<styleUrl>#Dept_of_Social_Services_highlight</styleUrl>
+	</Pair>
+  </StyleMap>
+  <Style id="Dept_of_Social_Services_normal">
+	<IconStyle>
+		<scale>1.2</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>00000000</color>
+	</LabelStyle>
+  </Style>
+  <Style id="Dept_of_Social_Services_highlight">
+	<IconStyle>
+		<scale>1.4</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffffff</color>
+	</LabelStyle>
+  </Style>
+  
+  
+  <StyleMap id="DMV">
+	<Pair>
+		<key>normal</key>
+		<styleUrl>#DMV_normal</styleUrl>
+	</Pair>
+	<Pair>
+		<key>highlight</key>
+		<styleUrl>#DMV_highlight</styleUrl>
+	</Pair>
+  </StyleMap>
+  <Style id="DMV_normal">
+	<IconStyle>
+		<scale>1.2</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>00000000</color>
+	</LabelStyle>
+  </Style>
+  <Style id="DMV_highlight">
+	<IconStyle>
+		<scale>1.4</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffffff</color>
+	</LabelStyle>
+  </Style>
+  
+  
+  <StyleMap id="High_School">
+	<Pair>
+		<key>normal</key>
+		<styleUrl>#High_School_normal</styleUrl>
+	</Pair>
+	<Pair>
+		<key>highlight</key>
+		<styleUrl>#High_School_highlight</styleUrl>
+	</Pair>
+  </StyleMap>
+  <Style id="High_School_normal">
+	<IconStyle>
+		<scale>1.2</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>00000000</color>
+	</LabelStyle>
+  </Style>
+  <Style id="High_School_highlight">
+	<IconStyle>
+		<scale>1.4</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+		</Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffffff</color>
+	</LabelStyle>
+  </Style>
+  
+  
+  <Folder>
+   <name>
+    Voter Registration Form Sites
+   </name>
+   <Placemark>
+    <name>
+     ALLEGHANY COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     348 S. MAIN ST, LOWER LEVEL 10, SPARTA, NC 28675
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.11708139999999,36.5013395
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     ASHE COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     150 GOVERNMENT CIRCLE, STE 2100, JEFFERSON, NC 28640
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.459054,36.4183604
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     AVERY COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     200 MONTEZUMA ST, COURT HOUSE ANNEX, SUITE 307, NEWLAND, NC 28657
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.92646239999999,36.0869929
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     BURKE COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     2128 S STERLING ST, STE. 100, MORGANTON, NC 28655
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.661254,35.7247709
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     DAVIE COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     161 POPLAR ST, SUITE 102, MOCKSVILLE, NC 27028
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.555703,35.899421
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     GASTON COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     410 W. FRANKLIN BLVD, STE. 50, GASTONIA, NC 28052
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1879581,35.2628382
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     LINCOLN COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     115 W MAIN ST, ROOM 201, LINCOLNTON, NC 28092
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2579921,35.4705024
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     MADISON COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     5707 HWY 25-70, RM 16, MARSHALL, NC 28753
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.673605,35.812863
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     MECKLENBURG COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     741 KENILWORTH AVE, STE 202, CHARLOTTE, NC 28204
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.837206,35.20976
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     SWAIN COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     1422 HWY 19 S, BRYSON CITY, NC 28713
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.4651729,35.415317
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     WATAUGA COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     842 WEST KING STREET, STE. 6, BOONE, NC 28607
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.6864508,36.2207131
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     WILKES COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     110 NORTH STREET,, RM 315, WILKESBORO, NC 28697
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.153474,36.1492143
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     YADKIN COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     213 EAST ELM STREET, ROOM 100, YADKINVILLE, NC 27055
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.65796569999999,36.1342088
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     YANCEY COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     30 EAST US HWY 19E BYPASS, SUITE 2, BURNSVILLE, NC 28714
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.2808732,35.9160628
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     ALEXANDER COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     370 1ST AVENUE SW, TAYLORSVILLE, NC 28681
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1806158,35.9198757
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     BUNCOMBE COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     77 MCDOWELL STREET, ASHEVILLE, NC 28801
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.5542538,35.5811947
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     CABARRUS COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     369 CHURCH ST N, CONCORD, NC 28025
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.59057949999999,35.4202605
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     CALDWELL COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     905 WEST AVENUE, LENOIR, NC 28645
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.5406586,35.9141795
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     CATAWBA COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     25 GOVERNMENT DRIVE, NEWTON, NC 28658
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2312676,35.6635327
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     CHEROKEE COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     40 PEACHTREE STREET, MURPHY, NC 28906
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -84.033986,35.087131
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     CLAY COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     54 CHURCH STREET, HAYESVILLE, NC 28904
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.817568,35.046134
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     CLEVELAND COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     215 PATTON DR., SHELBY, NC 28150
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.5345081,35.2895924
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     GRAHAM COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     18 COURT STREET, ROBBINSVILLE, NC 28771
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.806415,35.323222
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     HAYWOOD COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     63 ELMWOOD WAY, SUITE A, WAYNESVILLE, NC 28786
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.9886683,35.5184369
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     HENDERSON COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     75 E. CENTRAL ST., HENDERSONVILLE, NC 28792
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.4438773,35.3060807
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     IREDELL COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     203 STOCKTON ST., STATESVILLE, NC 28677
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.88749969999999,35.7890378
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     JACKSON COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     876 SKYLAND DRIVE, SUITE 1, SYLVA, NC 28779
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.2091873,35.3876924
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     MACON COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     5 W MAIN ST, FLOOR 1, FRANKLIN, NC 28734
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.38169340000002,35.182043
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     MCDOWELL COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     60 E. COURT ST, MARION, NC 28752
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.0082269,35.6839474
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     MITCHELL COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     11 N MITCHELL AVE, ROOM 108, BAKERSVILLE, NC 28705
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.1583813,36.015447
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     POLK COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     40 COURTHOUSE ST, COLUMBUS, NC 28722
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.19827599999999,35.251583
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     ROWAN COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     1935 JAKE ALEXANDER BLVD W, SUITE D10, SALISBURY, NC 28147
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.51519239999999,35.6915509
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     RUTHERFORD COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     298 FAIRGROUND ROAD, SPINDALE, NC 28160
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.90810599999999,35.347036
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     SURRY COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     915 E. ATKINS STREET, DOBSON, NC 27017
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7063605,36.3920646
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     TRANSYLVANIA COUNTY BOARD OF ELECTIONS
+    </name>
+    <address>
+     150 SOUTH GASTON STREET, SUITE A, BREVARD, NC 28712
+    </address>
+    <styleUrl>
+     #County_Board_of_Elections
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.73485079999999,35.2313583
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Taylorsville Driver License Office
+    </name>
+    <address>
+     2390 NC Highway 90 E, Taylorsville, NC 28681
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1362046,35.9154291
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Blue Ridge Business Development Center Driver License Office
+    </name>
+    <address>
+     115 Atwood St, Suite 508, Sparta, NC 28675
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.11907,36.51366
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Newton Driver License Office
+    </name>
+    <address>
+     1033 Smyre Farm Road, Newton, NC 28658
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.220523,35.629737
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Shelby Driver License Office
+    </name>
+    <address>
+     1914 East Dixon Boulevard (US 74 Bypass), Shelby, NC 28152
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.4825114,35.2665452
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mocksville Driver License Office
+    </name>
+    <address>
+     161 Poplar Street, Suite 101, Mocksville, NC 27028
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.555789,35.899433
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Design Center Driver License Office
+    </name>
+    <address>
+     533 Patterson Ave, Suite 100, Mooresville, NC 28115
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.806274,35.592263
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Skyland Service Center Driver License Office
+    </name>
+    <address>
+     876 Skyland Drive, Suite 2, Sylva, NC 28779
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.207812,35.388727
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Charlotte Driver License Office
+    </name>
+    <address>
+     6635 Executive Circle, Suite 130, Charlotte, NC 28212
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.731043,35.204432
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     South Charlotte Driver License Office
+    </name>
+    <address>
+     201 West Arrowood Road, H, Charlotte, NC 28217
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.893405,35.133849
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Brevard Driver License Office
+    </name>
+    <address>
+     50 COMMERCE ST, STE 4, BREVARD, NC 28712-4692
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.735221,35.240824
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Boone Driver License Office
+    </name>
+    <address>
+     4469 BAMBOO RD, STE 103, BOONE, NC 28607-6555
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.622937,36.205642
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Ashe County Law Enforcement Center Driver License Office
+    </name>
+    <address>
+     140 Government Circle, Jefferson, NC 28640
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.460168,36.418804
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Newland Town Hall Driver License Office
+    </name>
+    <address>
+     301 Cranberry Street, Newland, NC 28657
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.928203,36.089666
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Asheville Driver License Office
+    </name>
+    <address>
+     1624 Patton Avenue, Asheville, NC 28806
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.618487,35.570658
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Morganton Driver License Office
+    </name>
+    <address>
+     115 Government Drive, Morganton, NC 28655
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.675548,35.718555
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Concord Driver License Office
+    </name>
+    <address>
+     2192 Kannapolis Highway, Concord, NC 28027
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6148351,35.4455385
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hudson Driver License Office
+    </name>
+    <address>
+     309 Pine Mountain Road, Hudson, NC 28638
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.479913,35.8459328
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lenoir-Rhyne Plaza Driver License Office
+    </name>
+    <address>
+     1158 Lenoir-Rhyne Boulevard SE, Hickory, NC 28602
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.3139905,35.7170445
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Andrews Driver License Office
+    </name>
+    <address>
+     1440 Main St., Andrews, NC 28901
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.817793,35.201972
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Gastonia Driver License Office
+    </name>
+    <address>
+     2560 W FRANKLIN BLVD, GASTONIA, NC 28052-1250
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.228515,35.25961
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mount Holly Municipal Building Driver License Office
+    </name>
+    <address>
+     785 W Charlotte Avenue, Mount Holly, NC 28120
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.0271425,35.3035054
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Clyde Driver License Office
+    </name>
+    <address>
+     290 Lee Road, Clyde, NC 28721
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.935746,35.530619
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hendersonville Driver License Office
+    </name>
+    <address>
+     125 Baystone Drive, Hendersonville, NC 28791
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.481329,35.360357
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Statesville Driver License Office
+    </name>
+    <address>
+     905 Carolina Avenue North, Statesville, NC 28677
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.878639,35.806059
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Commercial Driver License Skills Testing Site
+    </name>
+    <address>
+     1028 Turnersburg Hwy, Statesville, NC 28625
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.851143,35.854652
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lincolnton Driver License Office
+    </name>
+    <address>
+     1450 North Aspen Street, Lincolnton, NC 28092
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.249179,35.4898079
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Franklin Driver License Office
+    </name>
+    <address>
+     16 PATTON AVE, FRANKLIN, NC 28734-3043
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.37899,35.182163
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Jackie Ball Building Driver License Office
+    </name>
+    <address>
+     164 North Main Street, Marshall, NC 28753
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.686613,35.798273
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Marion Driver License Office
+    </name>
+    <address>
+     3975 NC 226 South, Marion, NC 28752
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.955681,35.6524443
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Charlotte Driver License Office
+    </name>
+    <address>
+     6016 Brookshire Boulevard, Charlotte, NC 28216
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.903616,35.284753
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Huntersville Driver License Office
+    </name>
+    <address>
+     12101 Mt. Holly-Huntersville Road, Huntersville, NC 28078
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.854668,35.389027
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mobile Unit at Pineville Communication Systems
+    </name>
+    <address>
+     118 COLLEGE ST, PINEVILLE, NC 28134-9706
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.888316,35.086667
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Spruce Pine Driver License Office
+    </name>
+    <address>
+     1032 OAK AVE, SPRUCE PINE, NC 28777-2834
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.0584136,35.9195059
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Salisbury Driver License Office
+    </name>
+    <address>
+     5780 South Main Street, Salisbury, NC 28144
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5425659,35.603619
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Forest City Driver License Office
+    </name>
+    <address>
+     596 Withrow Road, Forest City, NC 28043
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.898223,35.343354
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Elkin Driver License Office
+    </name>
+    <address>
+     1687 North Bridge Street, Elkin, NC 28621
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.853234,36.276533
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mount Airy Driver License Office
+    </name>
+    <address>
+     155 Patrol Station Road, Mount Airy, NC 27030
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.629609,36.528803
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Bryson City Driver License Office
+    </name>
+    <address>
+     2650 GOVERNORS ISLAND RD, BRYSON CITY, NC 28713-7983
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.411912,35.434678
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Monroe Driver License Office
+    </name>
+    <address>
+     3122 US 74 West, Monroe, NC 28110
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5831194,35.0243292
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Wilkesboro Driver License Office
+    </name>
+    <address>
+     1230 School Street, Wilkesboro, NC 28697
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.177123,36.136461
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Yadkinville Driver License Office
+    </name>
+    <address>
+     225 Ash Street, Yadkinville, NC 27055
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6571136,36.1168961
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Burnsville Driver License Office
+    </name>
+    <address>
+     116 North Main Street, Burnsville, NC 28714
+    </address>
+    <styleUrl>
+     #DMV
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.299735,35.918608
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Asheville District Office
+    </name>
+    <address>
+     50 S. French Broad Avenue, Asheville, NC 28801
+    </address>
+    <styleUrl>
+     #Dept_of_Services_for_the_Blind
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.558611,35.591647
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cherokee County DSS
+    </name>
+    <address>
+     4800 W US Highway 64, Murphy, NC 28906
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.9657742,35.065593
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Madison County DSS
+    </name>
+    <address>
+     5707 U.S. Highway 25/70, Unit D, Marshall, NC 28753
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.673484,35.812834
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Polk County DSS
+    </name>
+    <address>
+     231 Wolverine Trail, Mill Spring, NC 28756
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.17020939999999,35.2932219
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Watauga County DSS
+    </name>
+    <address>
+     132 Poplar Grove Connector Road, Suite C, Boone, NC 28607
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.692207,36.219621
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Alexander County DSS
+    </name>
+    <address>
+     604 7th Street, SW, Taylorsville, NC 28681
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1862489,35.9139053
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Alleghany County DSS
+    </name>
+    <address>
+     182 Doctor Street, Sparta, NC 28675
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1156211,36.5087672
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Avery County DSS
+    </name>
+    <address>
+     175 Linville Street, Newland, NC 28657
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.9268372,36.0851584
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Buncombe County DSS
+    </name>
+    <address>
+     40 Coxe Avenue, Asheville, NC 28802
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.5546811,35.5930613
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Burke County DSS
+    </name>
+    <address>
+     700 East Parker Road, Morganton, NC 28680-0549
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.649227,35.7261084
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cabarrus County DSS
+    </name>
+    <address>
+     1303 South Cannon Boulevard, Kannapolis, NC 28083
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6089276,35.4766418
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Caldwell County DSS
+    </name>
+    <address>
+     2345 Morganton Blvd SW, Suite A, Lenoir, NC 28645
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.57241030000002,35.891948
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Catawba County DSS
+    </name>
+    <address>
+     3030 11th Avenue Drive, SE, Hickory, NC 28602
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.272435,35.711657
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Clay County DSS
+    </name>
+    <address>
+     119 Courthouse Dr., Hayesville, NC 28904
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.82852919999999,35.0386893
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cleveland County DSS
+    </name>
+    <address>
+     130 South Post Road, Shelby, NC 28150
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.4931989,35.2818528
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Davie County DSS
+    </name>
+    <address>
+     228 Hospital St, Mocksville, NC 27028
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.571329,35.898791
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Gaston County DSS
+    </name>
+    <address>
+     330 Dr. Martin Luther King Jr. Way, Gastonia, NC 28052
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1813384,35.2660513
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Graham County DSS
+    </name>
+    <address>
+     196 Knight Street, Robbinsville, NC 28771
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.8098007,35.3282331
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Iredell County DSS
+    </name>
+    <address>
+     549 Eastside Drive, Statesville, NC 28625
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.85827619999999,35.7829215
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Jackson County DSS
+    </name>
+    <address>
+     15 Griffin Street, Sylva, NC 28779
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.20772769999999,35.3535358
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lincoln County DSS
+    </name>
+    <address>
+     1136 East Main Street, Lincolnton, NC 28093-0130
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2414713,35.4747364
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Macon County DSS, Lakeside Government Complex
+    </name>
+    <address>
+     1832 Lakeside Drive, Franklin, NC 28734
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.371962,35.196802
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     McDowell County DSS
+    </name>
+    <address>
+     145 East Court Street, Marion, NC 28752
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.0069067,35.6855984
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mecklenburg County DSS
+    </name>
+    <address>
+     301 Billingsley Road, Charlotte, NC 28222
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8065471,35.1916135
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mitchell County DSS
+    </name>
+    <address>
+     347 Long View Drive, Bakersville, NC 28705-0365
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.162452,36.016976
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Rowan County DSS
+    </name>
+    <address>
+     1236 West Innes Street, Salisbury, NC 28144
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.480502,35.6785349
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Rutherford County DSS
+    </name>
+    <address>
+     389 Fairground Road, Spindale, NC 28160
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.910423,35.3461559
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Surry County DSS
+    </name>
+    <address>
+     118 Hamby Road, Dobson, NC 27017
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7079679,36.393679
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Swain County DSS
+    </name>
+    <address>
+     80 Academy St., Bryson City, NC 28713
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.4454717,35.4257754
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Transylvania County DSS
+    </name>
+    <address>
+     106 E. Morgan St., Brevard, NC 28712
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.73370659999999,35.2314744
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Union County DSS
+    </name>
+    <address>
+     2330 Concord Avenue, Monroe, NC 28110
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5460028,35.0113594
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Wilkes County DSS
+    </name>
+    <address>
+     304 College Street, Wilkesboro, NC 28697
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.155757,36.144889
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Yancey County DSS
+    </name>
+    <address>
+     320 Pensacola Road, Burnsville, NC 28714
+    </address>
+    <styleUrl>
+     #Dept_of_Social_Services
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.291302,35.910098
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Community High School
+    </name>
+    <address>
+     235 Old US 70, Swannanoa, NC 28778
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.4042071,35.6027359
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Nesbitt Discovery Academy
+    </name>
+    <address>
+     175 Bingham Rd, Ste 10, Asheville, NC 28806
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.5839146,35.6068121
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Tri-County Early College High
+    </name>
+    <address>
+     4650 E US 64 Alt., Murphy, NC 28906
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.9667778,35.0732165
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Crest High
+    </name>
+    <address>
+     800 Old Boiling Springs Road, Shelby, NC 28152
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.613426,35.274696
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Forsyth High
+    </name>
+    <address>
+     1735 Lewisville-Clemmons Rd, Clemmons, NC 27012
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.38475199999999,36.063327
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Langtree Charter Academy
+    </name>
+    <address>
+     154 Foundation Ct, Mooresville, NC 28117
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8651548,35.5411787
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Lincoln High
+    </name>
+    <address>
+     6471 Hwy 73, Denver, NC 28037
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.0247213,35.4551672
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Macon Early College High School
+    </name>
+    <address>
+     77 Siler Farm Road, Franklin, NC 28734
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.38347739999999,35.1582638
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Madison High School
+    </name>
+    <address>
+     5740 US Hwy 25-70, Marshall, NC 28753
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.6729452,35.8149074
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cato Middle College High
+    </name>
+    <address>
+     8120 Grier Rd, Suite 171-B, Charlotte, NC 28215
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7310996,35.265033
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Community School of Davidson
+    </name>
+    <address>
+     404 Armour Street, Davidson, NC 28036
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8536285,35.5075365
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Wilkes High School
+    </name>
+    <address>
+     13315 Elkin Hwy (NC Hwy 268), Ronda, NC 28670
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.9274269,36.2269797
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Alexander Central High
+    </name>
+    <address>
+     223 School Drive, Taylorsville, NC 28681
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1893043,35.9167533
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Alleghany High
+    </name>
+    <address>
+     404 Trojan Avenue, Sparta, NC 28675
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1228223,36.513866
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Ashe County High
+    </name>
+    <address>
+     184 Campus Drive, West Jefferson, NC 28694
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.47811700000001,36.392264
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Avery County High
+    </name>
+    <address>
+     401 Avery County High School Road, Newland, NC 28657
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.91897,36.0692387
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Blue Ridge Academy
+    </name>
+    <address>
+     76 Old Montezuma Rd, Newland, NC 28657
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.9163373,36.0678483
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Grandfather Academy
+    </name>
+    <address>
+     64 Grandfather Home Drive, Banner Elk, NC 28604
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.8783765,36.1521736
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Marjorie Williams Academy
+    </name>
+    <address>
+     129 Allen Circle, Crossnore, NC 28616
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.92845799999999,36.024783
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Reynolds High
+    </name>
+    <address>
+     1 Rocket Drive, Asheville, NC 28803
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.47724099999999,35.545811
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Early College
+    </name>
+    <address>
+     340 Victoria Road, Asheville, NC 28801
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.554934,35.574038
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Owen High
+    </name>
+    <address>
+     99 Lake Eden Road, Black Mountain, NC 28711
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.3734121,35.6189247
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Erwin High
+    </name>
+    <address>
+     60 Lees Creek Road, Asheville, NC 28806
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.6263057,35.6193969
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Enka High
+    </name>
+    <address>
+     475 Enka Lake Road, Candler, NC 28715
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.66591,35.529946
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Buncombe High
+    </name>
+    <address>
+     890 Clarks Chapel Road, Weaverville, NC 28787
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.557616,35.739801
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Roberson High
+    </name>
+    <address>
+     250 Overlook Road, Asheville, NC 28803
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.5352348,35.487034
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Asheville High
+    </name>
+    <address>
+     419 McDowell Street, Asheville, NC 28803
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.5517436,35.57262
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     IC Imagine
+    </name>
+    <address>
+     1000 Brevard Road, Suite 175, Asheville, NC 28806
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.6056569,35.5250687
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     The Franklin School of Innovation
+    </name>
+    <address>
+     21 Innovation Dr, Asheville, NC 28806
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.6301728,35.5412452
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hallyburton Academy
+    </name>
+    <address>
+     205 South Main Street, Drexel, NC 28619
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.6044048,35.7559268
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Burke Middle College
+    </name>
+    <address>
+     1001 Burkemont Ave, Morganton, NC 28655
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.69335260000001,35.7224938
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Burke High
+    </name>
+    <address>
+     3695 East Burke Boulevard, Connelly Springs, NC 28612
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.48261099999999,35.719945
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Freedom High
+    </name>
+    <address>
+     511 Independence Boulevard, Morganton, NC 28655
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.7176362,35.7446994
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Jimmy C Draughn High School
+    </name>
+    <address>
+     709 Lovelady Road NE, Valdese, NC 28690
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.543868,35.766899
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Liberty
+    </name>
+    <address>
+     523 Enola Road, Morganton, NC 28655
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.6716409,35.7096415
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Robert L. Patton High School
+    </name>
+    <address>
+     701 Enola Road, Morganton, NC 28655
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.669386,35.701655
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cox Mill High School
+    </name>
+    <address>
+     1355 Cox Mill Rd, Concord, NC 28027
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.726908,35.395328
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Central Cabarrus High
+    </name>
+    <address>
+     505 Hwy 49 S, Concord, NC 28025
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.582118,35.362003
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Concord High
+    </name>
+    <address>
+     481 Burrage Road NE, Concord, NC 28025
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5813117,35.4328659
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Jay M Robinson High
+    </name>
+    <address>
+     300 Pitts School Road SW, Concord, NC 28027
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6616217,35.3625802
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cabarrus Co Opportunity School
+    </name>
+    <address>
+     120 Marsh Avenue NW, Concord, NC 28025
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.59011699999999,35.412021
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mount Pleasant High
+    </name>
+    <address>
+     700 Walker Road, Mount Pleasant, NC 28124
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.4821312,35.40764480000001
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Northwest Cabarrus High
+    </name>
+    <address>
+     5130 NW Cabarrus Drive, Concord, NC 28027
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6624834,35.4509811
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hickory Ridge High
+    </name>
+    <address>
+     7321 Raging Ridge Road, Harrisburg, NC 28075
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6348308,35.307899
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Performance Learning Center
+    </name>
+    <address>
+     4521 Weddington Road, Concord, NC 28027
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6522615,35.39869950000001
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cabarrus-Kannapolis Early Coll
+    </name>
+    <address>
+     1531 Trinity Church Rd, Concord, NC 28027
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.659584,35.4375622
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     A L Brown High
+    </name>
+    <address>
+     415 E 1st Street, Kannapolis, NC 28083
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.61865809999999,35.4959688
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Carolina International School
+    </name>
+    <address>
+     9545 Poplar Tent Road, Concord, NC 28027
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7366426,35.4093568
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cabarrus Charter Academy
+    </name>
+    <address>
+     355 Poplar Crossing Dr NW, Concord, NC 28027
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.668976,35.4087319
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Caldwell Career Cen Mid. Coll.
+    </name>
+    <address>
+     2857 Hickory Boulevard, Hudson, NC 28638
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.4851267,35.8555791
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Gateway School
+    </name>
+    <address>
+     1889 Dudley Shoals Road, Granite Falls, NC 28630
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.36846539999999,35.8644054
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Caldwell Early College
+    </name>
+    <address>
+     2859 Hickory Blvd SW, Hudson, NC 28638
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.48268139999999,35.8546639
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hibriten High
+    </name>
+    <address>
+     1350 Panther Trail SE, Lenoir, NC 28645
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.4944495,35.9257745
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     South Caldwell High
+    </name>
+    <address>
+     7035 Spartan Drive, Hudson, NC 28638
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.452129,35.82044
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Caldwell High
+    </name>
+    <address>
+     300 W Caldwell Drive, Lenoir, NC 28645
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.5917961,35.8868033
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Bandys High
+    </name>
+    <address>
+     5040 E Bandys Road, Catawba, NC 28609
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.0839405,35.6452586
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Bunker Hill High
+    </name>
+    <address>
+     4675 Oxford School Road, Claremont, NC 28610
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.119349,35.7540054
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Catawba Rosenwald Education Center
+    </name>
+    <address>
+     403 6th Ave SW, Catawba, NC 28609
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.075758,35.702671
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Challenger Early College High
+    </name>
+    <address>
+     2550 Hwy 70 SE, Hickory, NC 28602
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.28792709999999,35.6998273
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Fred T Foard High
+    </name>
+    <address>
+     3407 Plateau Road, Newton, NC 28658
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.3709299,35.6175845
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Maiden High
+    </name>
+    <address>
+     600 West Main Street, Maiden, NC 28650
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.22417229999999,35.5798238
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Saint Stephens High
+    </name>
+    <address>
+     3205 34th Street Drive NE, Hickory, NC 28601
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.270472,35.774616
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hickory Career Arts Magnet High School
+    </name>
+    <address>
+     409 8th Avenue NE, Hickory, NC 28601
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.33109879999999,35.743252
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hickory High
+    </name>
+    <address>
+     1234 3rd Street NE, Hickory, NC 28601
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.330996,35.750319
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Conover Special Education
+    </name>
+    <address>
+     108 7th Street Place SW, Conover, NC 28613
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.222171,35.701191
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Newton-Conover High
+    </name>
+    <address>
+     338 W 15th Street, Newton, NC 28658
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.22547399999999,35.67907100000001
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Discovery High School
+    </name>
+    <address>
+     301 West 18th St, Newton, NC 28658
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2223326,35.6798213
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Andrews High
+    </name>
+    <address>
+     50 High School Drive, Andrews, NC 28901
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.82432399999999,35.196091
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hiwassee Dam High
+    </name>
+    <address>
+     267 Blue Eagle Circle, Murphy, NC 28906
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -84.2233586,35.1035754
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     The Oaks Academy
+    </name>
+    <address>
+     2230 Airport Road, Marble, NC 28905
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.9205829,35.178443
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Murphy High
+    </name>
+    <address>
+     234 High School Circle, Murphy, NC 28906
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -84.01636,35.100358
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cherokee High
+    </name>
+    <address>
+     200 Ravensford Drive, Cherokee, NC 28719
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.296937,35.5124355
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hayesville High
+    </name>
+    <address>
+     205 Yellow Jacket Drive, Hayesville, NC 28904
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.8153119,35.0406817
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Burns High
+    </name>
+    <address>
+     307 E Stagecoach Trail, Lawndale, NC 28090
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.5324944,35.4193649
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cleveland ECHS
+    </name>
+    <address>
+     1800 E. Marion Street, Shelby, NC 28152
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.49000830000001,35.2780759
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Turning Point Academy
+    </name>
+    <address>
+     409 West Sumter Street, Shelby, NC 28150
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.5453821,35.292995
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Kings Mountain High
+    </name>
+    <address>
+     500 Phifer Road, Kings Mountain, NC 28086
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.3719418,35.2331401
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Shelby
+    </name>
+    <address>
+     1701 Charles Road, Shelby, NC 28152
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.57117339999999,35.2648927
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Shelby High
+    </name>
+    <address>
+     230 E Dixon Boulevard, Shelby, NC 28152
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.53691099999999,35.274073
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Davidson High
+    </name>
+    <address>
+     200 Dragon Drive, Lexington, NC 27295
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.3658593,35.8045448
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     NC School for the Deaf
+    </name>
+    <address>
+     517 W Fleming Dr, Morganton, NC 28655
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.68787209999999,35.729191
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Central Davie Academy
+    </name>
+    <address>
+     160 Martin Luther King Jr. Road, Mocksville, NC 27028
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.55257929999999,35.9069756
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Davie County High
+    </name>
+    <address>
+     180 War Eagle Drive, Mocksville, NC 27028
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.53547069999999,35.9712509
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Davie County Early College High
+    </name>
+    <address>
+     1211 Salisbury Road, Mocksville, NC 27028
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5536407,35.8709119
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Ashbrook High
+    </name>
+    <address>
+     2222 S New Hope Road, Gastonia, NC 28054
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.127487,35.249218
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Bessemer City High
+    </name>
+    <address>
+     119 Yellow Jacket Lane, Bessemer City, NC 28016
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2807176,35.2979309
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Gaston Early College High School
+    </name>
+    <address>
+     201 Hwy 321 South, Lena Sue Beam Bldg, Dallas, NC 28034
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1910328,35.3098704
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cherryville High
+    </name>
+    <address>
+     313 Ridge Avenue, Cherryville, NC 28021
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.3807788,35.3900913
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Warlick Academy
+    </name>
+    <address>
+     1316 Spencer Mountain Road, Gastonia, NC 28054
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.133526,35.2822938
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Stuart W Cramer High
+    </name>
+    <address>
+     101 Lakewood Rd, Belmont, NC 28012
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.063547,35.246313
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Gaston High
+    </name>
+    <address>
+     1744 Lane Road, Mount Holly, NC 28120
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.0758669,35.3152538
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Webb Street School
+    </name>
+    <address>
+     1623 N Webb Street, Gastonia, NC 28052
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2117335,35.2641836
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Forestview High
+    </name>
+    <address>
+     5545 Union Road, Gastonia, NC 28056
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.13327590000002,35.1844584
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Highland Sch of Technology
+    </name>
+    <address>
+     1600 N Morris Street, Gastonia, NC 28052
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.190608,35.280457
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hunter Huss High
+    </name>
+    <address>
+     1518 Edgefield Avenue, Gastonia, NC 28052
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2058749,35.2406312
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Gaston High
+    </name>
+    <address>
+     1133 Ratchford Road, Dallas, NC 28034
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.17749909999999,35.334336
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     South Point High
+    </name>
+    <address>
+     906 South Point Road, Belmont, NC 28012
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.0391507,35.2225744
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Piedmont Community Charter School
+    </name>
+    <address>
+     119 E. 2nd Avenue, Gastonia, NC 28052
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1806115,35.2602083
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mountain Island Charter School
+    </name>
+    <address>
+     13440 Lucia-Riverbend Highway, Mt. Holly, NC 28120
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.9893728,35.3589899
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Robbinsville High
+    </name>
+    <address>
+     301 Sweetwater Road, Robbinsville, NC 28771
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.7983581,35.32534589999999
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Central Haywood High
+    </name>
+    <address>
+     3215 Broad Street, Clyde, NC 28721
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.91276649999999,35.534506
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Haywood Early College
+    </name>
+    <address>
+     185 Freedlander Drive, Clyde, NC 28721
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.92788639999999,35.5259088
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Pisgah High
+    </name>
+    <address>
+     1 Black Bear Drive, Canton, NC 28716
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.8414076,35.5217392
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Tuscola High
+    </name>
+    <address>
+     564 Tuscola School Rd, Waynesville, NC 28786
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.952652,35.522771
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Henderson High
+    </name>
+    <address>
+     150 Eagle Pride Drive, East Flat Rock, NC 28726
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.42374199999999,35.2976487
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hendersonville High
+    </name>
+    <address>
+     1 Bearcat Boulevard, Hendersonville, NC 28791
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.46421939999999,35.3214055
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Henderson High
+    </name>
+    <address>
+     35 Fruitland Road, Hendersonville, NC 28792
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.4227954,35.3603525
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Henderson High
+    </name>
+    <address>
+     3600 Haywood Road, Hendersonville, NC 28791
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.51515859999999,35.3650465
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Henderson County Early College
+    </name>
+    <address>
+     300 East Campus Way, Flat Rock, NC 28731
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.419705,35.3065189
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Agriculture and Science Early College
+    </name>
+    <address>
+     158 Raider Rd, Olin, NC 28660
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8676113,35.9278219
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Career Academy and Technical School
+    </name>
+    <address>
+     350 Old Murdock Rd, Troutman, NC 28166
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.88728499999999,35.714622
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Collaborative College for Technology
+    </name>
+    <address>
+     500 West Broad Street, Statesville, NC 28677
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.893367,35.7830255
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lake Norman High
+    </name>
+    <address>
+     186 Doolie Road, Mooresville, NC 28117
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.9027119,35.5964827
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Iredell High
+    </name>
+    <address>
+     156 Raider Road, Olin, NC 28660
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.86842759999999,35.9298162
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Pressly School
+    </name>
+    <address>
+     222 Knox St, Statesville, NC 28677
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.86370199999999,35.794409
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Statesville High
+    </name>
+    <address>
+     474 N Center St, Statesville, NC 28677
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8918139,35.7935193
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Crossroads Arts Sciences Early College
+    </name>
+    <address>
+     476 N Center St, Statesville, NC 28677
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.893496,35.7923821
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     South Iredell High
+    </name>
+    <address>
+     299 Old Mountain Rd, Statesville, NC 28677
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.9908413,35.7685462
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Iredell High
+    </name>
+    <address>
+     213 Warrior Dr, Statesville, NC 28677
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.9915287,35.7938703
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     NF Woods Campus
+    </name>
+    <address>
+     574 W McLelland Ave, Mooresville, NC 28115
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8232731,35.5862405
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mooresville High School
+    </name>
+    <address>
+     659 E Center Ave, Mooresville, NC 28115
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8019147,35.5779181
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Pine Lake Preparatory
+    </name>
+    <address>
+     104 Yellow Wood Circle, Mooresville, NC 28115
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.844047,35.535746
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Blue Ridge Early College
+    </name>
+    <address>
+     95 Bobcat Dr, Cashiers, NC 28717
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.12020559999999,35.1284311
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Jackson Co Early College
+    </name>
+    <address>
+     404 College Drive, Sylva, NC 28779
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.2050376,35.3483207
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Jackson Co Sch of Alternatives
+    </name>
+    <address>
+     3770 Skyland Drive, Sylva, NC 28779
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.1636688,35.4038085
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Smoky Mountain High School
+    </name>
+    <address>
+     100 Smoky Mountain Drive, Sylva, NC 28779
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.199302,35.3535224
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Asbury Academy
+    </name>
+    <address>
+     221 Salem Church Road, Lincolnton, NC 28092
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2079886,35.4778139
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lincolnton High
+    </name>
+    <address>
+     803 N Aspen St, Lincolnton, NC 28092
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.260353,35.47962
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Lincoln High
+    </name>
+    <address>
+     2737 Lee Lawing Road, Lincolnton, NC 28092
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1197799,35.5334686
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Lincoln High
+    </name>
+    <address>
+     172 Shoal Rd, Lincolnton, NC 28092
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.389974,35.485337
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lincoln Charter School
+    </name>
+    <address>
+     7834 Galway Lane, Denver, NC 28037
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.99772589999999,35.4866232
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Franklin High
+    </name>
+    <address>
+     100 Panther Drive, Franklin, NC 28734
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.3821942,35.1764261
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Highlands School
+    </name>
+    <address>
+     545 Pierson Dr, Highlands, NC 28741
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.1966326,35.0470281
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Nantahala School
+    </name>
+    <address>
+     213 Windingstairs Rd, Topton, NC 28781
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.633891,35.253569
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Union Academy
+    </name>
+    <address>
+     158 Union School Rd, Franklin, NC 28734
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.399607,35.116606
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Madison Early College High
+    </name>
+    <address>
+     5734 US 25/70 Hwy, Marshall, NC 28753
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.675485,35.815043
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     McDowell Academy for Innovation
+    </name>
+    <address>
+     172 Lukin St, Marion, NC 28752
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.0277292,35.6591132
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     McDowell Early College
+    </name>
+    <address>
+     54 College Drive, Marion, NC 28752
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.96204759999999,35.6555866
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     McDowell High School
+    </name>
+    <address>
+     600 McDowell High School Dr, Marion, NC 28752
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.0361162,35.6967833
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Ardrey Kell High
+    </name>
+    <address>
+     10220 Ardrey Kell Rd, Charlotte, NC 28277
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8272254,35.0299517
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     William Amos Hough High
+    </name>
+    <address>
+     12420 Bailey Rd, Cornelius, NC 28031
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8286096,35.467813
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cochrane Collegiate Academy
+    </name>
+    <address>
+     6200 Starhaven Dr, Charlotte, NC 28215
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7503253,35.2461762
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Butler High
+    </name>
+    <address>
+     1810 Matthews-Mint Hill Rd, Matthews, NC 28105
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.691217,35.120552
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Mecklenburg High
+    </name>
+    <address>
+     6800 Monroe Rd, Charlotte, NC 28212
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7579975,35.1752502
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hawthorne Academy of Health Sciences
+    </name>
+    <address>
+     1411 Hawthorne Ln, Charlotte, NC 28205
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8146806,35.22867240000001
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Garinger High
+    </name>
+    <address>
+     1100 Eastway Dr, Charlotte, NC 28205
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7819839,35.2409597
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Harper Middle College High
+    </name>
+    <address>
+     315 W Hebron St, Charlotte, NC 28273
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.895612,35.129643
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Harding University High
+    </name>
+    <address>
+     2001 Alleghany St, Charlotte, NC 28208
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.903264,35.2360718
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hopewell High
+    </name>
+    <address>
+     11530 Beatties Ford Rd, Huntersville, NC 28078
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.9110403,35.3792074
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Independence High
+    </name>
+    <address>
+     1967 Patriot Dr, Charlotte, NC 28227
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6874383,35.1972437
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Turning Point Academy
+    </name>
+    <address>
+     8701 Moores Chapel Rd, Charlotte, NC 28214
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.95057299999999,35.2739059
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Levine Middle College High
+    </name>
+    <address>
+     2728 Campus Ridge Rd, Matthews, NC 28105
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.69215539999999,35.1053146
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mallard Creek High
+    </name>
+    <address>
+     3825 Johnston Oehler Rd, Charlotte, NC 28269
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.76892310000001,35.3641729
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Metro School
+    </name>
+    <address>
+     405 S. Davidson St, Charlotte, NC 28202
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8423631,35.2193713
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Rocky River High
+    </name>
+    <address>
+     10505 Clear Creek Commerce Dr, Mint Hill, NC 28227
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6406798,35.214061
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lincoln Heights Academy
+    </name>
+    <address>
+     1900 Newcastle St, Charlotte, NC 28216
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.84220340000002,35.2590236
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Myers Park High
+    </name>
+    <address>
+     2400 Colony Rd, Charlotte, NC 28209
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.833111,35.17166
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Mecklenburg High
+    </name>
+    <address>
+     11201 Old Statesville Rd, Huntersville, NC 28078
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.83362500000001,35.372836
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Northwest School of the Arts
+    </name>
+    <address>
+     1415 Beatties Ford Rd, Charlotte, NC 28216
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.85630499999999,35.256825
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Olympic High
+    </name>
+    <address>
+     4301 Sandy Porter Rd, Charlotte, NC 28273
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.95237600000002,35.157963
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Phillip O Berry Academy of Technology
+    </name>
+    <address>
+     1430 Alleghany St, Charlotte, NC 28208
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.89164889999999,35.2392789
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Performance Learning Center
+    </name>
+    <address>
+     2300 W Sugar Creek Road, Charlotte, NC 28262
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7966819,35.2950261
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Providence High
+    </name>
+    <address>
+     1800 Pineville-Matthews Rd, Charlotte, NC 28270
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.762742,35.11055899999999
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     South Mecklenburg High
+    </name>
+    <address>
+     8900 Park Rd, Charlotte, NC 28210
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.86089849999999,35.1101144
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Charlotte Engineering Early College-UNCC
+    </name>
+    <address>
+     9000 Robert Snyder Rd, Charlotte, NC 28262
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7440543,35.3089121
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Charlotte High
+    </name>
+    <address>
+     2219 Senior Dr, Charlotte, NC 28216
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8597686,35.2660082
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Mecklenburg High
+    </name>
+    <address>
+     7400 Tuckaseegee Rd, Charlotte, NC 28214
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.9520921,35.2473959
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Vance High
+    </name>
+    <address>
+     7600 IBM Dr, Charlotte, NC 28262
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7689268,35.3001651
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Merancas Middle College High
+    </name>
+    <address>
+     11930 Verhoeff Dr, Huntersville, NC 28078
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8405499,35.3928129
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Sugar Creek Charter
+    </name>
+    <address>
+     4101 N Tryon Street, Charlotte, NC 28206
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.798376,35.258971
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lake Norman Charter
+    </name>
+    <address>
+     12435 Old Statesville Road, Huntersville, NC 28078
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.842956,35.4250093
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Queen's Grant Community School
+    </name>
+    <address>
+     6400 Matthews Mint Hill Road, Mint Hill, NC 28227
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6639448,35.1655762
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Charlotte Secondary
+    </name>
+    <address>
+     8601 McAlpine Park Dr, Charlotte, NC 28211
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7488965,35.1519449
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Bradford Preparatory School
+    </name>
+    <address>
+     2502 Salome Church Rd, Charlotte, NC 28262
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7213251,35.3456415
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Commonwealth High
+    </name>
+    <address>
+     5112 Central Ave, Charlotte, NC 28205
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7584212,35.2095612
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Charlotte Learning Academy
+    </name>
+    <address>
+     800 Briar Creek Rd., DD400, Charlotte, NC 28205
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7988538,35.2057434
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mayland Early College
+    </name>
+    <address>
+     264 Mayland Dr, Spruce Pine, NC 28777
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.0163843,35.9326643
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mitchell High
+    </name>
+    <address>
+     416 Ledger School Rd, Bakersville, NC 28705
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.117424,35.970355
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Stewart Creek High
+    </name>
+    <address>
+     2701 Freedom Dr, F, Charlotte, NC 28208
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.88545479999999,35.2364565
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Polk County Early College
+    </name>
+    <address>
+     1545 East NC 108 Hwy, Columbus, NC 28722
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.1828233,35.2640597
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Polk County High School
+    </name>
+    <address>
+     1681 East NC 108 Hwy, Columbus, NC 28722
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.186425,35.2664199
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Henderson High
+    </name>
+    <address>
+     1215 North Main St, Salisbury, NC 28144
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.45643199999999,35.676846
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Rowan High
+    </name>
+    <address>
+     175 St Luke's Church Rd, Salisbury, NC 28146
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.4225268,35.5931729
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Carson High
+    </name>
+    <address>
+     290 Kress Venture Dr, China Grove, NC 28023
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5436993,35.5621864
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Rowan High
+    </name>
+    <address>
+     300 North Whitehead Ave, Spencer, NC 28159
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.4294357,35.6973332
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Rowan Co Early College
+    </name>
+    <address>
+     1333 Jake Alexander Blvd S, Salisbury, NC 28146
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.48093589999999,35.6402478
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Salisbury High
+    </name>
+    <address>
+     500 Lincolnton Rd, Salisbury, NC 28144
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.4851398,35.6646335
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     South Rowan High
+    </name>
+    <address>
+     1655 Patterson St, China Grove, NC 28023
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.610293,35.572984
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Rowan High
+    </name>
+    <address>
+     8050 NC 801 Hwy, Mount Ulla, NC 28125
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6439773,35.69871810000001
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Chase High School
+    </name>
+    <address>
+     1603 Chase High Rd, Forest City, NC 28043
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.84301289999999,35.2502768
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Rutherford High School
+    </name>
+    <address>
+     331 East High Rd, Bostic, NC 28018
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.81782480000001,35.3408462
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     R-S Central High School
+    </name>
+    <address>
+     641 Hwy 221 North, Rutherfordton, NC 28139
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.96762989999999,35.4026798
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Rutherford Early College High School
+    </name>
+    <address>
+     286 ICC Loop Road, Spindale, NC 28160
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.9131525,35.3362041
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Rutherford Opportunity Center
+    </name>
+    <address>
+     140 Old Caroleen Road, Forest City, NC 28043
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.858392,35.329813
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Thomas Jefferson Class Academy
+    </name>
+    <address>
+     2527 US 221A Hwy, Mooresboro, NC 28114
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.79724100000001,35.2741098
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lake Lure Classical Academy
+    </name>
+    <address>
+     1058 Island Creek Rd., Lake Lure, NC 28746
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.1931355,35.4083003
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Meadowbrook Academy
+    </name>
+    <address>
+     817 Meadowbrook Drive, King, NC 27021
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.38256899999999,36.271391
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Stokes High
+    </name>
+    <address>
+     1400 Priddy Road, King, NC 27021
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.3758359,36.3140098
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Surry High
+    </name>
+    <address>
+     801 W Main Street, Pilot Mountain, NC 27041
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.477023,36.392761
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Surry High
+    </name>
+    <address>
+     2440 W Pine Street, Mount Airy, NC 27030
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.673766,36.504944
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Surry Central High
+    </name>
+    <address>
+     716 South Main Street, Dobson, NC 27017
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.71482739999999,36.3817857
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Surry Early College
+    </name>
+    <address>
+     630 South Main Street, Dobson, NC 27017
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7161576,36.385371
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Elkin High
+    </name>
+    <address>
+     334 Elk Spur St, Elkin, NC 28621
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.86027299999999,36.245632
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mount Airy High
+    </name>
+    <address>
+     1011 N South St, Mount Airy, NC 27030
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.615433,36.5120414
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Millennium Charter Academy
+    </name>
+    <address>
+     500 Old Springs Rd, Mount Airy, NC 27030
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5973901,36.5164742
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cherokee Extension School
+    </name>
+    <address>
+     50 Main Street, Bryson City, NC 28713
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.4468892,35.4261081
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Swain County High School
+    </name>
+    <address>
+     1415 Fontana Road, Bryson City, NC 28713
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.4563177,35.4472269
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Brevard High
+    </name>
+    <address>
+     609 N. Country Club Rd, Brevard, NC 28712
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.73493859999999,35.2172551
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Davidson River School
+    </name>
+    <address>
+     970 Ecusta Rd, Brevard, NC 28712
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.7042754,35.2581964
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Rosman High
+    </name>
+    <address>
+     749 Pickens Hwy, Rosman, NC 28772
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.820739,35.1433969
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cuthbertson High
+    </name>
+    <address>
+     1400 Cuthbertson Rd, Waxhaw, NC 28173
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7391584,34.9754301
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Forest Hills High
+    </name>
+    <address>
+     100 Forest Hills School Rd, Marshville, NC 28103
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.414609,34.979545
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Monroe High
+    </name>
+    <address>
+     1 High School Dr, Monroe, NC 28112
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5257129,34.9728567
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Porter Ridge High School
+    </name>
+    <address>
+     2839 Ridge Road, Indian Trail, NC 28079
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5738762,35.0906014
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Parkwood High
+    </name>
+    <address>
+     3220 Parkwood School Rd, Monroe, NC 28112
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.63056329999999,34.9013369
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Piedmont High
+    </name>
+    <address>
+     3006 Sikes Mill Road, Monroe, NC 28110
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.4916131,35.0952497
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Sun Valley High
+    </name>
+    <address>
+     5211 Old Charlotte Hwy, Monroe, NC 28110
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6460298,35.0448044
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     South Providence
+    </name>
+    <address>
+     500 South Providence Street, Waxhaw, NC 28173
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7416738,34.9213187
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Central Academy of Technology and Arts
+    </name>
+    <address>
+     600 Brewer Dr, Monroe, NC 28112
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5674519,34.9719351
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Union County Early College
+    </name>
+    <address>
+     4209 Old Charlotte Hwy, A, Monroe, NC 28110
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6201597,35.0312594
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Weddington High
+    </name>
+    <address>
+     4901 Monroe-Weddington Road, Matthews, NC 28104
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.72542630000001,35.0013626
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Wolfe School
+    </name>
+    <address>
+     722 Brewer Drive, Monroe, NC 28112
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5681919,34.9698674
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Marvin Ridge High
+    </name>
+    <address>
+     2825 Crane Road, Waxhaw, NC 28173
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7964039,34.9742645
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Union Academy
+    </name>
+    <address>
+     675 North ML King Jr Blvd, Monroe, NC 28110
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.579894,34.9907188
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Watauga High
+    </name>
+    <address>
+     300 Go Pioneers Drive, Boone, NC 28607
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.6509389,36.216129
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Wilkes High School
+    </name>
+    <address>
+     2986 Traphill Rd, Hays, NC 28635
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.09835910000001,36.2824651
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Wilkes High School
+    </name>
+    <address>
+     6598 Boone Trail, Millers Creek, NC 28651
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.25962109999999,36.1858833
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Wilkes Central High School
+    </name>
+    <address>
+     1179 Moravian Falls Rd, Wilkesboro, NC 28697
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1756953,36.1159631
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Wilkes Early College High School
+    </name>
+    <address>
+     1328 S Collegiate Dr, Wilkesboro, NC 28697
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1827759,36.137136
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Boonville Elementary
+    </name>
+    <address>
+     232 East Main Street, Boonville, NC 27011
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7049978,36.2326853
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Forbush High
+    </name>
+    <address>
+     1525 Falcon Road, East Bend, NC 27018
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.557878,36.144049
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Starmount High
+    </name>
+    <address>
+     2516 Longtown Rd, Boonville, NC 27011
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7713097,36.182533
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Yadkin Early College
+    </name>
+    <address>
+     1001 College Drive, Yadkinville, NC 27055
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.673628,36.1479533
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Yadkin Success Academy
+    </name>
+    <address>
+     733 East Main Street, Yadkinville, NC 27055
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6430103,36.1360231
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mountain Heritage High
+    </name>
+    <address>
+     333 Mtn Heritage HS Road, Burnsville, NC 28714
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.33318750000001,35.9086347
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Stonewall Jackson Youth Dev Ctr
+    </name>
+    <address>
+     850 Holshouser Rd, Concord, NC 28027
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6007032,35.3622589
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Eckerd - Boomer
+    </name>
+    <address>
+     4654 High Rock Rd, Boomer, NC 28606
+    </address>
+    <styleUrl>
+     #High_School
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.3185305,36.0379825
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Western Watauga Branch Library
+    </name>
+    <address>
+     1085 Old US Hwy 421, Sugar Grove, NC 28679
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.78304299999999,36.266108
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Buncombe County Law Library
+    </name>
+    <address>
+     60 Court Plz, Asheville, NC 28801
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.548638,35.5959594
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     C. B. Hildebrand Public Library
+    </name>
+    <address>
+     101 Main Ave West, B, Hildebran, NC 28637
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.42446199999999,35.709989
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Valdese Public Library
+    </name>
+    <address>
+     213 Saint Germain Ave Se, Valdese, NC 28690
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.5610566,35.7412453
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mountain Island Branch Library
+    </name>
+    <address>
+     4420 Hoyt Galvin Way, Charlotte, NC 28214
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.9604251,35.3351505
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Steele Creek Branch Library
+    </name>
+    <address>
+     13620 Steele Creek Rd, Charlotte, NC 28273
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.98879579999999,35.1068185
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Macon County Public Library
+    </name>
+    <address>
+     149 Siler Farm Rd, Franklin, NC 28734
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.3822838,35.1595996
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mills River Branch Library
+    </name>
+    <address>
+     124 Town Center Dr, Ste 1, Mills River, NC 28759
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.5499904,35.3838949
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Harmony Branch Library
+    </name>
+    <address>
+     3393 Harmony Hwy, Harmony, NC 28634
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7721218,35.9593287
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Lincoln Branch Library
+    </name>
+    <address>
+     5545 W NC Hwy 27, Vale, NC 28168
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.4212907,35.4974098
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Haynes Public Library
+    </name>
+    <address>
+     141 N Main St, Ste 110, Henrietta, NC 28076
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.7923588,35.2686019
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Alexander County Library (Main)
+    </name>
+    <address>
+     77 1st Ave Sw, Taylorsville, NC 28681
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.17591259999999,35.920707
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Bethlehem Branch Library
+    </name>
+    <address>
+     45 Rink Dam Rd, Hickory, NC 28601
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.3080039,35.8156806
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Stony Point Branch Library
+    </name>
+    <address>
+     431 Ruritan Park Rd, Stony Point, NC 28678
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.0458154,35.8621123
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Ashe County Library
+    </name>
+    <address>
+     148 Library Dr, West Jefferson, NC 28694
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.49388499999999,36.4010383
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Traphill Branch Library
+    </name>
+    <address>
+     6938 Traphill Rd, Traphill, NC 28685
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.055289,36.318479
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Watauga County Public Library
+    </name>
+    <address>
+     140 Queen St, Boone, NC 28607
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.6826865,36.2199456
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Wilkes County Library
+    </name>
+    <address>
+     215 10th St, North Wilkesboro, NC 28659
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1483923,36.1594311
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Avery County Library
+    </name>
+    <address>
+     150 Library Pl, Newland, NC 28657
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.9270222,36.0885033
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Avery-Mitchell-Yancey Regional Library Bookmobile
+    </name>
+    <address>
+     289 Burnsville School Rd, Burnsville, NC 28714
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.2621278,35.9157879
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mitchell County Library
+    </name>
+    <address>
+     18 N Mitchell Ave, Bakersville, NC 28705
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.1579512,36.0153291
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Spruce Pine Public Library
+    </name>
+    <address>
+     142 Walnut Ave, Spruce Pine, NC 28777
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.0658669,35.9164704
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Yancey County Library
+    </name>
+    <address>
+     321 School Cir, Burnsville, NC 28714
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.2930142,35.9218389
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Pack Memorial Library (Main)
+    </name>
+    <address>
+     67 Haywood St, Asheville, NC 28801
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.55485019999999,35.5966413
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Black Mountain Branch Library
+    </name>
+    <address>
+     105 Dougherty St, Black Mountain, NC 28711
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.3227635,35.6161704
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Asheville Branch Library
+    </name>
+    <address>
+     902 Tunnel Rd, Asheville, NC 28805
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.503175,35.58775
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Enka Branch Library
+    </name>
+    <address>
+     1404 Sandhill Rd, Enka, NC 28728
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.6520999,35.5388897
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Fairview Branch Library
+    </name>
+    <address>
+     1 Taylor Rd, Fairview, NC 28730
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.413608,35.5248716
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Leicester Branch Library
+    </name>
+    <address>
+     1561 Alexander Rd, Leicester, NC 28748
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.69399299999999,35.658494
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Asheville Branch Library
+    </name>
+    <address>
+     1230 Merrimon Ave, Asheville, NC 28804
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.56368289999999,35.6358329
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     South Asheville Branch Library
+    </name>
+    <address>
+     749 Fairview Rd, Asheville, NC 28803
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.5135523,35.5642025
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     South Buncombe - Skyland Library
+    </name>
+    <address>
+     260 Overlook Rd, Skyland, NC 28776
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.5370575,35.4880891
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Swannanoa Branch Library
+    </name>
+    <address>
+     101 W Charleston St, Swannanoa, NC 28778
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.3861002,35.6093862
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Weaverville Library
+    </name>
+    <address>
+     41 N Main St, Weaverville, NC 28787
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.56021659999999,35.6985109
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Asheville Branch Library
+    </name>
+    <address>
+     942 Haywood Rd, Asheville, NC 28806
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.6016976,35.5807873
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Burke County Public Library (Main)
+    </name>
+    <address>
+     204 S King St, Morganton, NC 28655
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.6875202,35.7428731
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cabarrus County Public Library (Main)
+    </name>
+    <address>
+     27 Union St N, Concord, NC 28025
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5822934,35.4108255
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Kannapolis Branch Library
+    </name>
+    <address>
+     850 Mountain St, Kannapolis, NC 28081
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6349028,35.5050058
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mt. Pleasant Branch Library
+    </name>
+    <address>
+     8556 Cook St, Mount Pleasant, NC 28124
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.4333061,35.4036204
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Harrisburg Library
+    </name>
+    <address>
+     201 Sims Pkwy, Harrisburg, NC 28075
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6589327,35.3181914
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Caldwell County Public Library (Main)
+    </name>
+    <address>
+     120 Hospital Ave, Lenoir, NC 28645
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.52347449999999,35.922234
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Granite Falls Branch Library
+    </name>
+    <address>
+     24 S Main St, Granite Falls, NC 28630
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.4307956,35.79721720000001
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hudson Branch Library
+    </name>
+    <address>
+     530 Central St, Hudson, NC 28638
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.495772,35.8478039
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Conover Branch Library
+    </name>
+    <address>
+     403 Conover Station Se, Conover, NC 28613
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2188785,35.7017804
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Catawba County Library (Main)
+    </name>
+    <address>
+     115 W C St, Newton, NC 28658
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2246457,35.6614558
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Maiden Branch Library
+    </name>
+    <address>
+     11 S A Ave, Maiden, NC 28650
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2153276,35.5763995
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Sherrills Ford-Terrell Branch
+    </name>
+    <address>
+     9154 Sherrills Ford Rd, Terrell, NC 28682
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.97903459999999,35.5916353
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Southwest Branch Library
+    </name>
+    <address>
+     2944 S NC 127 Hwy, Hickory, NC 28602
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.36655560000001,35.6858799
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     St. Stephens Branch Library
+    </name>
+    <address>
+     3225 Springs Rd, Hickory, NC 28601
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2733482,35.7590103
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Claremont Branch Library
+    </name>
+    <address>
+     3288 E Main St, Claremont, NC 28610
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1460204,35.7156459
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Beatties Ford Road Regional Library
+    </name>
+    <address>
+     2412 Beatties Ford Rd, Charlotte, NC 28216
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8534335,35.267703
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cornelius Branch Library
+    </name>
+    <address>
+     21105 Catawba Ave, Cornelius, NC 28031
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8641131,35.4832898
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Davidson Branch Library
+    </name>
+    <address>
+     119 S Main St, Davidson, NC 28036
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8482877,35.4984628
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hickory Grove Branch Library
+    </name>
+    <address>
+     5935 Hickory Grove Rd, Charlotte, NC 28215
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.72815469999999,35.222942
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Imaginon: The Joe &amp; Joan Martin Center
+    </name>
+    <address>
+     300 E 7th St, Charlotte, NC 28202
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8376924,35.2270185
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Independence Regional Library
+    </name>
+    <address>
+     6015 Conference Dr, Charlotte, NC 28212
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7552353,35.1786722
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Charlotte Mecklenburg Library (Main)
+    </name>
+    <address>
+     310 N Tryon St, Charlotte, NC 28202
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8399939,35.2285943
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Matthews Branch Library
+    </name>
+    <address>
+     230 Matthews Station St, Matthews, NC 28105
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7183273,35.1160048
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mint Hill Branch Library
+    </name>
+    <address>
+     6840 Matthews-Mint Hill Rd, Charlotte, NC 28227
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6588326,35.171705
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Morrison Regional Library
+    </name>
+    <address>
+     7015 Morrison Blvd, Charlotte, NC 28211
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8228566,35.1516718
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Myers Park Branch Library
+    </name>
+    <address>
+     1361 Queens Rd, Charlotte, NC 28207
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8274417,35.1963977
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North County Regional Library
+    </name>
+    <address>
+     16500 Holly Crest Ln, Huntersville, NC 28078
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8639402,35.4406634
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Plaza Midwood Branch Library
+    </name>
+    <address>
+     1623 Central Ave, Charlotte, NC 28205
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.81108979999999,35.2206099
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Scaleybark Branch Library
+    </name>
+    <address>
+     101 Scaleybark Rd, Charlotte, NC 28209
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.875192,35.18908
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     South County Regional Library
+    </name>
+    <address>
+     5801 Rea Rd, Charlotte, NC 28277
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8115699,35.0865451
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Sugar Creek Branch Library
+    </name>
+    <address>
+     4045 N Tryon St, Charlotte, NC 28206
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.79750399999999,35.2574462
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     University City Regional Library
+    </name>
+    <address>
+     301 E W T Harris Rd, Charlotte, NC 28262
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7464718,35.3030845
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Boulevard Branch Library
+    </name>
+    <address>
+     2157 West Blvd, Charlotte, NC 28208
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.89618689999999,35.21114379999999
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cleveland County Memorial Library (Main)
+    </name>
+    <address>
+     104 Howie Dr, Shelby, NC 28150
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.5557862,35.293064
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Spangler Branch Library
+    </name>
+    <address>
+     112 Piedmont Dr, Lawndale, NC 28090
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.55475179999999,35.4207849
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     West Davidson Public Library
+    </name>
+    <address>
+     246 Tyro School Rd, Lexington, NC 27295
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.3768577,35.8097354
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cooleemee Branch Library
+    </name>
+    <address>
+     7796 Hwy 801 S, Cooleemee, NC 27014
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5524823,35.8137285
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Davie County Public Library (Main)
+    </name>
+    <address>
+     371 N Main St, Mocksville, NC 27028
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5597299,35.8977542
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Albert Carlton-Cashiers Community Library
+    </name>
+    <address>
+     249 Frank Allen Rd, Cashiers, NC 28717
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.1033587,35.1101923
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hudson Library
+    </name>
+    <address>
+     554 Main St, Highlands, NC 28741
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.1942887,35.0525482
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Jackson County Public Library
+    </name>
+    <address>
+     310 Keener St, Sylva, NC 28779
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.2280255,35.3738562
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Marianna Black Library
+    </name>
+    <address>
+     33 Fryemont Rd, Bryson City, NC 28713
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.4446378,35.426327
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Nantahala Community Library
+    </name>
+    <address>
+     128 Nantahala School Rd, Topton, NC 28781
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.634149,35.25294
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Clemmons Branch Library
+    </name>
+    <address>
+     3554 Clemmons Rd, Clemmons, NC 27012
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.3768011,36.0221845
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lewisville Branch Library
+    </name>
+    <address>
+     6490 Shallowford Rd, Lewisville, NC 27023
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.4202205,36.0964546
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Belmont Branch Library
+    </name>
+    <address>
+     125 N Central Ave, Belmont, NC 28012
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.04255859999999,35.2435617
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Bessemer City Branch Library
+    </name>
+    <address>
+     207 N 12th St, Bessemer City, NC 28016
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.28368999999999,35.28652
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cherryville Branch Library
+    </name>
+    <address>
+     605 E Main St, Cherryville, NC 28021
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.3734097,35.3810441
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Dallas Branch Library
+    </name>
+    <address>
+     105 S Holland St, Dallas, NC 28034
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.177549,35.3153095
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Ferguson Branch Library
+    </name>
+    <address>
+     913 N Pryor St, Gastonia, NC 28052
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1925335,35.2738507
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Gaston County Public Library (Main)
+    </name>
+    <address>
+     1555 E Garrison Blvd, Gastonia, NC 28054
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1578236,35.252239
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lowell Branch Library
+    </name>
+    <address>
+     203 McAdenville Rd, Lowell, NC 28098
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.09808699999999,35.26733
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mt. Holly Branch Library
+    </name>
+    <address>
+     245 W Catawba Ave, Mount Holly, NC 28120
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.0204907,35.2958167
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Stanley Branch Library
+    </name>
+    <address>
+     205 Peterson St, Stanley, NC 28164
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.0952765,35.3614171
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Union Road Branch Library
+    </name>
+    <address>
+     5800 Union Rd, Gastonia, NC 28056
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1326643,35.1784966
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Fines Creek Branch Library
+    </name>
+    <address>
+     190 Fines Creek Rd, Clyde, NC 28721
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.954685,35.682079
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Canton Branch Library
+    </name>
+    <address>
+     11 Pennsylvania Ave, Canton, NC 28716
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.83570449999999,35.529145
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Haywood County Public Library (Main)
+    </name>
+    <address>
+     678 S Haywood St, Waynesville, NC 28786
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.9919012,35.4870808
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Maggie Valley Branch Library
+    </name>
+    <address>
+     3987 Soco Rd, Maggie Valley, NC 28751
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.0946402,35.5169761
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Edneyville Branch Library
+    </name>
+    <address>
+     2 Firehouse Ln, Hendersonville, NC 28792
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.3470328,35.38923200000001
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Etowah Branch Library
+    </name>
+    <address>
+     101 Brickyard Rd, Etowah, NC 28729
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.594624,35.3188073
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Fletcher Branch Library
+    </name>
+    <address>
+     120 Library Rd, Fletcher, NC 28732
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.5038265,35.4345276
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Green River Branch Library
+    </name>
+    <address>
+     50 Green River Rd, Zirconia, NC 28790
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.4417399,35.2161678
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Henderson County Public Library (Main)
+    </name>
+    <address>
+     301 N Washington St, Hendersonville, NC 28739
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.46300579999999,35.3154621
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Patrick Beaver Memorial Library (Main)
+    </name>
+    <address>
+     375 3rd St Ne, Hickory, NC 28601
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.3347464,35.7372656
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Ridgeview Branch Library
+    </name>
+    <address>
+     706 1st St Sw, Hickory, NC 28602
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.3398125,35.7236143
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Iredell County Library (Main)
+    </name>
+    <address>
+     201 N Tradd St, Statesville, NC 28687
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8878455,35.7875423
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     J. Hoyt Hayes Memorial Troutman Branch Library
+    </name>
+    <address>
+     215 W Church St, Troutman, NC 28166
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.89143279999999,35.70030089999999
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mauney Memorial Library
+    </name>
+    <address>
+     100 S Piedmont Ave, Kings Mountain, NC 28086
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.3427346,35.2406976
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Charles R. Jonas Library (Main)
+    </name>
+    <address>
+     306 W Main St, Lincolnton, NC 28092
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2605732,35.47052
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Florence S. Shanklin Branch Library
+    </name>
+    <address>
+     7837 Fairfield Forest Rd, Denver, NC 28037
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.99440240000001,35.5022881
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hot Springs Branch Library
+    </name>
+    <address>
+     170 Bridge St, Hot Springs, NC 28743
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.82663509999999,35.89293079999999
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Madison County Public Library (Main)
+    </name>
+    <address>
+     1335 N Main St, Marshall, NC 28753
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.691079,35.8100332
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mars Hill Branch Library
+    </name>
+    <address>
+     25 Library St, Mars Hill, NC 28754
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.54794799999999,35.82775900000001
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     McDowell County Public Library (Main)
+    </name>
+    <address>
+     90 W Court St, Marion, NC 28752
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.01061179999999,35.6837667
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Old Fort Branch Library
+    </name>
+    <address>
+     65 E Mitchell St, Old Fort, NC 28762
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.180058,35.626341
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mooresville Public Library
+    </name>
+    <address>
+     304 S Main St, Mooresville, NC 28115
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.816238,35.5792494
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Andrews Public Library
+    </name>
+    <address>
+     871 Main St, Andrews, NC 28901
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.82704149999999,35.2004649
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Graham County Public Library
+    </name>
+    <address>
+     80 Knight St, Robbinsville, NC 28771
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.8106083,35.3265317
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Moss Memorial Library
+    </name>
+    <address>
+     26 Anderson St, Hayesville, NC 28904
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.816907,35.0466807
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Murphy Public Library
+    </name>
+    <address>
+     9 Blumenthal St, Murphy, NC 28906
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -84.03168199999999,35.086761
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Alleghany County Public Library
+    </name>
+    <address>
+     115 Atwood St, Sparta, NC 28675
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.120053,36.512867
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Charles H. Stone Memorial Library
+    </name>
+    <address>
+     319 W Main St, Pilot Mountain, NC 27041
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.4709132,36.3872887
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Dobson Community Library
+    </name>
+    <address>
+     113 Crutchfield St, Dobson, NC 27017
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7231525,36.3948283
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Bend Public Library
+    </name>
+    <address>
+     420 Flint Hill Rd, East Bend, NC 27018
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.506117,36.2113416
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Elkin Public Library
+    </name>
+    <address>
+     111 N Front St, Elkin, NC 28621
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8546009,36.24406889999999
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Jonesville Public Library
+    </name>
+    <address>
+     560 Winston Rd, Jonesville, NC 28642
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8326321,36.2397749
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lowgap Public Library
+    </name>
+    <address>
+     5210 W Pine St, Lowgap, NC 27024
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.76406329999999,36.4798121
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mount Airy Public Library
+    </name>
+    <address>
+     145 Rockford St, Mount Airy, NC 27030
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.60745299999999,36.49818130000001
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Yadkin County Public Library
+    </name>
+    <address>
+     233 E Main St, Yadkinville, NC 27055
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6571855,36.1347367
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Boonville Community Public Library
+    </name>
+    <address>
+     121 W Main St, Boonville, NC 27011
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.71005,36.2325481
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Saluda Library
+    </name>
+    <address>
+     44 West Main St, Saluda, NC 28773
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.3496145,35.2365532
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Columbus Library (Main)
+    </name>
+    <address>
+     1289 W Mills St, Columbus, NC 28722
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.2180829,35.239858
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     East Branch Library
+    </name>
+    <address>
+     110 Broad St, Rockwell, NC 28138
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.4057437,35.5515839
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Rowan Public Library (Main)
+    </name>
+    <address>
+     201 W Fisher St, Salisbury, NC 28144
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.4730202,35.6676897
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     South Rowan Regional Library
+    </name>
+    <address>
+     920 Kimball Rd, China Grove, NC 28088
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.60098699999999,35.565406
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mountains Branch Library
+    </name>
+    <address>
+     150 Bills Creek Rd, Lake Lure, NC 28746
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.1622435,35.4256911
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Rutherford County Library (Main)
+    </name>
+    <address>
+     255 Callahan Koon Rd, Spindale, NC 28160
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.91067699999999,35.347956
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Locust Branch Library
+    </name>
+    <address>
+     213 Town Centre Dr, Locust, NC 28097
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.4319338,35.2593893
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Transylvania County Library
+    </name>
+    <address>
+     212 S Gaston St, Brevard, NC 28712
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.7358125,35.230937499999996
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Union West Regional Library
+    </name>
+    <address>
+     123 Unionville-Indian Trail Rd, Indian Trail, NC 28079
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.66489059999999,35.0775471
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Union County Public Library (Main)
+    </name>
+    <address>
+     316 E Windsor St, Monroe, NC 28112
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5460153,34.9808926
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Waxhaw Library
+    </name>
+    <address>
+     509 S Providence St, Waxhaw, NC 28173
+    </address>
+    <styleUrl>
+     #Public_Library
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7406913,34.9219148
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Asheville Regional Center
+    </name>
+    <address>
+     12 Barbetta Drive, Asheville, NC 28806
+    </address>
+    <styleUrl>
+     #Services_for_the_Deaf_and_Hard_of_Hearing
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.60067099999999,35.521242
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Morganton Regional Center
+    </name>
+    <address>
+     107 Foothills Drive, Morganton, NC 28655
+    </address>
+    <styleUrl>
+     #Services_for_the_Deaf_and_Hard_of_Hearing
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.65168779999999,35.7273599
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Newland Vocational Rehabilitation Office
+    </name>
+    <address>
+     815 Pineola St, Newland, NC 28657
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.9272445,36.0791945
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Waynesville Vocational Rehabilitation Office
+    </name>
+    <address>
+     9 Haywood Office Park, Suite 103, Waynesville, NC 28785
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.9608676,35.5269456
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Asheville Vocational Rehabilitation Office
+    </name>
+    <address>
+     8 Barbetta Drive, Asheville, NC 28806
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.6011599,35.521455
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Boone Vocational Rehabilitation Office
+    </name>
+    <address>
+     245 Winklers Creek Road, Suite A, Boone, NC 28607
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.6695099,36.2028583
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Charlotte Vocational Rehabilitation Office
+    </name>
+    <address>
+     7140 Forest Point Blvd., Suite B, Charlotte, NC 28217
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.90024919999999,35.1427054
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Concord Vocational Rehabilitation Office
+    </name>
+    <address>
+     820 Florence Street, NW, Concord, NC 28027
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.60836379999999,35.4278477
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Flat Rock Vocational Rehabilitation Office
+    </name>
+    <address>
+     578 Upward Road, Unit 6, Flat Rock, NC 28731
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.414709,35.2984109
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Forest City Vocational Rehabilitation Office
+    </name>
+    <address>
+     277 Commercial Drive, Forest City, NC 28043
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.89016389999999,35.3375138
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Gastonia Vocational Rehabilitation Office
+    </name>
+    <address>
+     109 W Eighth Avenue, Gastonia, NC 28054
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1815968,35.2509142
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Hickory Vocational Rehabilitation Office
+    </name>
+    <address>
+     1261 10th Avenue Lane SE, Hickory, NC 28602
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.3142307,35.7205115
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lenoir Vocational Rehabilitation Office
+    </name>
+    <address>
+     675 Pennton Ave SW, Lenoir, NC 28645
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.5330079,35.9072367
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lincolnton Vocational Rehabilitation Office
+    </name>
+    <address>
+     529 N. Aspen Street, Lincolnton, NC 28092
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.25932569999999,35.4766721
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Marion Vocational Rehabilitation Office
+    </name>
+    <address>
+     451 North Main Street, Suite 107, Marion, NC 28752
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.01504059999999,35.6880478
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Marshall Vocational Rehabilitation Office
+    </name>
+    <address>
+     190 Health Care Lane, Marshall, NC 28753
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.69450599999999,35.814403
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Matthews Vocational Rehabilitation Office
+    </name>
+    <address>
+     10801 Monroe Rd., Suite B, Matthews, NC 28105
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7301468,35.1272894
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mocksville Vocational Rehabilitation Office
+    </name>
+    <address>
+     377 Hospital Street, Suite 100, Mocksville, NC 27028
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5752017,35.8991017
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Monroe Vocational Rehabilitation Office
+    </name>
+    <address>
+     1121 Skyway Drive, Monroe, NC 28110
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5491989,34.9926378
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Morganton WorkSource West Vocational Rehabilitation Office
+    </name>
+    <address>
+     200 Enola Road, Morganton, NC 28655
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.6737145,35.7217347
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mount Airy Vocational Rehabilitation Office
+    </name>
+    <address>
+     784 W Lebanon Street, Mount Airy, NC 27030
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.617515,36.518535
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Murphy Vocational Rehabilitation Office
+    </name>
+    <address>
+     510 US 64 West, Murphy, NC 28906
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.96401759999999,35.0701343
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     North Wilkesboro Vocational Rehabilitation Office
+    </name>
+    <address>
+     318 Wilkesboro Avenue, North Wilkesboro, NC 28659
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.1457045,36.1557477
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Salisbury Vocational Rehabilitation Office
+    </name>
+    <address>
+     205 Guffy Street, Salisbury, NC 28147
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5078437,35.6454131
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Shelby Vocational Rehabilitation Office
+    </name>
+    <address>
+     1427 E Marion St, Suite A, Shelby, NC 28150
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.49830209999999,35.292049
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Statesville Vocational Rehabilitation Office
+    </name>
+    <address>
+     2042 Davie Avenue, Statesville, NC 28625
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8530443,35.8054738
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Sylva Vocational Rehabilitation Office
+    </name>
+    <address>
+     100 Bonnie Lane, Suite A, Sylva, NC 28779
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.208023,35.3512935
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Buncombe County Health Center
+    </name>
+    <address>
+     336 Leicester Highway, Suite 120, Asheville, NC 28806
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.62306819999999,35.6010906
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Jackson County Department of Public Health
+    </name>
+    <address>
+     538 Scotts Creek Rd, Ste. 100, Sylva, NC 28779
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.20466789999999,35.3886322
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Transylvania County Health Department (Community Services Bldg.)
+    </name>
+    <address>
+     98 East Morgan St, Suite 170, Brevard, NC 28712
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.7339977,35.2311577
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Alexander County Health Department
+    </name>
+    <address>
+     338 First Avenue SW, Suite 1, Taylorsville, NC 28681
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.179929,35.920372
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Alleghany County Health Department (Appalachian Health District)
+    </name>
+    <address>
+     157 Health Service Rd, Sparta, NC 28675
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.14591,36.4923724
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Ashe County Health Department (Appalachian Health District)
+    </name>
+    <address>
+     413 McConnell St., Jefferson, NC 28640
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.4786592,36.4170368
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Avery County Health Department (Toe River Health District)
+    </name>
+    <address>
+     545 Schultz Circle, Newland, NC 28657
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.927056,36.085929
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Buncombe County Health Center
+    </name>
+    <address>
+     7 Yorkshire Ave., Asheville, NC 28803
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.5360219,35.5570315
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Buncombe County Health Center
+    </name>
+    <address>
+     257 Biltmore Avenue, Asheville, NC 28801
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.5519766,35.5852445
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Buncombe County Health Center
+    </name>
+    <address>
+     119 Hendersonville Rd, Asheville, NC 28803
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.543767,35.5608853
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cabarrus Health Alliance
+    </name>
+    <address>
+     300 Mooresville Rd., Kannapolis, NC 28081
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.6310439,35.49931960000001
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cabarrus Health Alliance (Logan Clinic)
+    </name>
+    <address>
+     298 Lincoln St., Concord, NC 28025
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.5795747,35.3983151
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Catawba County Health Department
+    </name>
+    <address>
+     3070 11th Ave Dr. SE, Hickory, NC 28602
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2702126,35.7128862
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cherokee County Health Department
+    </name>
+    <address>
+     228 Hilton St., Murphy, NC 28906
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -84.0323142,35.0913086
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Clay County Health Department
+    </name>
+    <address>
+     345 Court House Dr., Hayesville, NC 28904
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.8302379,35.0423327
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cleveland County Health Department
+    </name>
+    <address>
+     200 S. Post Road, Shelby, NC 28152
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.49345749999999,35.28006
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Davie County Health Department
+    </name>
+    <address>
+     210 Hospital St., Mocksville, NC 27028
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.57087,35.89905
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Gaston County Health Department
+    </name>
+    <address>
+     991 West Hudson Blvd., Gastonia, NC 28052
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2035547,35.2341222
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Gaston County Health Department (Highland Health Center)
+    </name>
+    <address>
+     609 N. Highland St., Gastonia, NC 28052
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.19468619999999,35.2712836
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Graham County Health Department
+    </name>
+    <address>
+     21 South Main St., Robbinsville, NC 28771
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.806153,35.3221527
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Haywood County Health Department
+    </name>
+    <address>
+     157 Paragon Parkway, Suite 800, Clyde, NC 28721
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.95655099999999,35.526147
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Henderson County Health Department
+    </name>
+    <address>
+     1200 Spartanburg Hwy., Suite 100, Hendersonville, NC 28792
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.44091449999999,35.3030812
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Iredell County Health Department
+    </name>
+    <address>
+     318 Turnersburg Hwy., Statesville, NC 28625
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.87545329999999,35.8200414
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Iredell County Health Department (Government Center South)
+    </name>
+    <address>
+     610 E Center Ave., Mooresville, NC 28115
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8036049,35.5798079
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Lincoln County Health Department
+    </name>
+    <address>
+     151 Sigmon Rd., Lincolnton, NC 28092
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.2468066,35.49193959999999
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Macon County Health Department
+    </name>
+    <address>
+     1830 Lakeside Dr., Franklin, NC 28734
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.371539,35.196822
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Madison County Health Department
+    </name>
+    <address>
+     493 Medical Park Dr., Marshall, NC 28753
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.65185249999999,35.8052001
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     McDowell County Health Department (Rutherford, Polk, McDowell Health District)
+    </name>
+    <address>
+     408 Spaulding Rd., Marion, NC 28752
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.0296877,35.6667096
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mecklenburg County Health Department
+    </name>
+    <address>
+     2845 Beatties Ford Rd., Charlotte, NC 28216
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8558549,35.2740127
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mecklenburg County Health Department
+    </name>
+    <address>
+     5624 Executive Center Dr., Suite 100, Charlotte, NC 28212
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.74452339999999,35.2007054
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mecklenburg County Health Department
+    </name>
+    <address>
+     801 Clanton Rd., Charlotte, NC 28217
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8847334,35.1980588
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mecklenburg County Health Department
+    </name>
+    <address>
+     249 Billingsley Rd., Charlotte, NC 28211
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.8072259,35.1933486
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Mitchell County Health Department (Toe River District)
+    </name>
+    <address>
+     130 Forest Service Dr., Suite A, Bakersville, NC 28705
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.1138507,35.9669916
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Polk County Health Department (Rutherford, Polk, McDowell Health District)
+    </name>
+    <address>
+     161 Walker St., Columbus, NC 28722
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.1974049,35.2496012
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Rowan County Health Department
+    </name>
+    <address>
+     1811 E. Innes St., Salisbury, NC 28146
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.4572554,35.6482354
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Rutherford County Health Department (Rutherford, Polk, McDowell Health District)
+    </name>
+    <address>
+     221 Callahan-Koon Rd., Spindale, NC 28160
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.90995389999999,35.3487218
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Swain County Health Department
+    </name>
+    <address>
+     545 Center St., Bryson City, NC 28713
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.4444711,35.4362089
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Watauga County Health Department (Appalachian Health District)
+    </name>
+    <address>
+     126 Poplar Grove Connector Rd., Boone, NC 28607
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -81.6931,36.219879
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Yadkin County Human Services Agency
+    </name>
+    <address>
+     217 East Willow St., Yadkinville, NC 27055
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.657541,36.132708
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Yancey County Health Department (Toe River District)
+    </name>
+    <address>
+     202 Medical Campus Dr., Burnsville, NC 28714
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -82.33393,35.915443
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Cherokee/Clay/Graham/Haywood/Swain County Health Department/Eastern Band of Cherokee Indians (Qualla Boundary - Cherokee Indian WIC, Baby Love, CSC, &amp; MCC)
+    </name>
+    <address>
+     73 Kaiser Wilnoty Dr., Cherokee, NC 28719
+    </address>
+    <styleUrl>
+     #WIC_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -83.3203348,35.4832581
+     </coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <name>
+     Charlotte Vocational Rehabilitation Office
+    </name>
+    <address>
+     5501 Executive Center Dr, Suite 101, Charlotte, NC 28212
+    </address>
+    <styleUrl>
+     #Voc-Rehab_Office
+    </styleUrl>
+    <Point>
+     <coordinates>
+      -80.7435275,35.2027999
+     </coordinates>
+    </Point>
+   </Placemark>
+  </Folder>
+ </Document>
+</kml>
