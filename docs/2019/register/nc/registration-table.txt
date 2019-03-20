@@ -1496,7 +1496,7 @@ Jones County Health Department	418 Highway 58 North		Trenton	28585	35.0681785	-7
 Lee County Health Department	106 Hillcrest Dr.		Sanford	27331-1528	35.4777028	-79.1855968	WIC Office
 Lenoir County Health Department	201 North McLewean St.		Kinston	28502	35.261888	-77.5790463	WIC Office
 Lincoln County Health Department	151 Sigmon Rd.		Lincolnton	28092	35.49193959999999	-81.2468066	WIC Office
-Macon County Health Department	1830 Lakeside Dr.		Franklin	28734	-83.371539	-83.37150969999999	WIC Office
+Macon County Health Department	1830 Lakeside Dr.		Franklin	28734	35.196822	-83.371539	WIC Office
 Madison County Health Department	493 Medical Park Dr.		Marshall	28753	35.8052001	-82.65185249999999	WIC Office
 Martin County Health Department (MTW Health District)	210 West Liberty St.		Williamston	27892	35.8601964	-77.06143829999999	WIC Office
 McDowell County Health Department (Rutherford, Polk, McDowell Health District)	408 Spaulding Rd.		Marion	28752	35.6667096	-82.0296877	WIC Office
