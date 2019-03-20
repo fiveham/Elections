@@ -52,9 +52,9 @@
   </StyleMap>
   <Style id="Public_Library_normal">
 	<IconStyle>
-		<scale>1.2</scale>
+		<scale>1.4</scale>
 		<Icon>
-			<href>https://github.com/fiveham/Elections/blob/master/docs/images/bookstack_50x49.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/bookstack_50x49.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -63,9 +63,9 @@
   </Style>
   <Style id="Public_Library_highlight">
 	<IconStyle>
-		<scale>1.4</scale>
+		<scale>1.6</scale>
 		<Icon>
-			<href>https://github.com/fiveham/Elections/blob/master/docs/images/bookstack_50x49.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/bookstack_50x49.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -88,7 +88,7 @@
 	<IconStyle>
 		<scale>1.2</scale>
 		<Icon>
-			<href>https://github.com/fiveham/Elections/blob/master/docs/images/blind-icon_50x40.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/blind-icon_50x40.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -99,7 +99,7 @@
 	<IconStyle>
 		<scale>1.4</scale>
 		<Icon>
-			<href>https://github.com/fiveham/Elections/blob/master/docs/images/blind-icon_50x40.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/blind-icon_50x40.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -122,7 +122,7 @@
 	<IconStyle>
 		<scale>1.2</scale>
 		<Icon>
-			<href>https://github.com/fiveham/Elections/blob/master/docs/images/ear_35x50.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ear_35x50.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -133,7 +133,7 @@
 	<IconStyle>
 		<scale>1.4</scale>
 		<Icon>
-			<href>https://github.com/fiveham/Elections/blob/master/docs/images/ear_35x50.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ear_35x50.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -156,7 +156,7 @@
 	<IconStyle>
 		<scale>1.2</scale>
 		<Icon>
-			<href>https://github.com/fiveham/Elections/blob/master/docs/images/wic_50x50.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/wic_50x50.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -167,7 +167,7 @@
 	<IconStyle>
 		<scale>1.4</scale>
 		<Icon>
-			<href>https://github.com/fiveham/Elections/blob/master/docs/images/wic_50x50.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/wic_50x50.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
