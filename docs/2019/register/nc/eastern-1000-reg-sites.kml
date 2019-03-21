@@ -4,7 +4,7 @@
   <name>
    Voter Registration Form Sites
   </name>
-  
+
   
   <StyleMap id="County_Board_of_Elections">
 	<Pair>
@@ -54,7 +54,7 @@
 	<IconStyle>
 		<scale>1.4</scale>
 		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/shapes/electronics.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/bookstack_50x49.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -65,7 +65,7 @@
 	<IconStyle>
 		<scale>1.6</scale>
 		<Icon>
-			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/bookstack_50x49.png</href>
+			<href>http://maps.google.com/mapfiles/kml/shapes/electronics.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -88,7 +88,7 @@
 	<IconStyle>
 		<scale>1.2</scale>
 		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			<href>https://fiveham.github.io/Elections/images/blind-icon_50x40.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -99,7 +99,7 @@
 	<IconStyle>
 		<scale>1.4</scale>
 		<Icon>
-			<href>https://fiveham.github.io/Elections/images/blind-icon_50x40.png</href>
+			<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -122,7 +122,7 @@
 	<IconStyle>
 		<scale>1.2</scale>
 		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/shapes/subway.png</href>
+			<href>https://fiveham.github.io/Elections/images/ear_35x50.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -133,7 +133,7 @@
 	<IconStyle>
 		<scale>1.4</scale>
 		<Icon>
-			<href>https://fiveham.github.io/Elections/images/ear_35x50.png</href>
+			<href>http://maps.google.com/mapfiles/kml/shapes/subway.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -156,7 +156,7 @@
 	<IconStyle>
 		<scale>1.2</scale>
 		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/paddle/pink-circle.png</href>
+			<href>https://fiveham.github.io/Elections/images/wic_50x50.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
@@ -167,7 +167,7 @@
 	<IconStyle>
 		<scale>1.4</scale>
 		<Icon>
-			<href>https://fiveham.github.io/Elections/images/wic_50x50.png</href>
+			<href>http://maps.google.com/mapfiles/kml/paddle/pink-circle.png</href>
 		</Icon>
 	</IconStyle>
 	<LabelStyle>
