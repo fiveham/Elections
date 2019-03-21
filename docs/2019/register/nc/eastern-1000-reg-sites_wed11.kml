@@ -6,343 +6,93 @@
   </name>
 
   
-  <StyleMap id="County_Board_of_Elections">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#County_Board_of_Elections_normal</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#County_Board_of_Elections_highlight</styleUrl>
-	</Pair>
-  </StyleMap>
-  <Style id="County_Board_of_Elections_normal">
+  <Style id="County_Board_of_Elections">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
-  </Style>
-  <Style id="County_Board_of_Elections_highlight">
-	<IconStyle>
-		<scale>1.4</scale>
-		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
-		</Icon>
-	</IconStyle>
-	<LabelStyle>
-		<color>ffffffff</color>
-	</LabelStyle>
   </Style>
   
   
-  <StyleMap id="Public_Library">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#Public_Library_normal</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#Public_Library_highlight</styleUrl>
-	</Pair>
-  </StyleMap>
-  <Style id="Public_Library_normal">
+  <Style id="Public_Library">
 	<IconStyle>
-		<scale>1.4</scale>
 		<Icon>
 			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/bookstack_50x49.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
-  </Style>
-  <Style id="Public_Library_highlight">
-	<IconStyle>
-		<scale>1.6</scale>
-		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/shapes/electronics.png</href>
-		</Icon>
-	</IconStyle>
-	<LabelStyle>
-		<color>ffffffff</color>
-	</LabelStyle>
   </Style>
   
   
-  <StyleMap id="Dept_of_Services_for_the_Blind">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#Dept_of_Services_for_the_Blind_normal</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#Dept_of_Services_for_the_Blind_highlight</styleUrl>
-	</Pair>
-  </StyleMap>
-  <Style id="Dept_of_Services_for_the_Blind_normal">
+  <Style id="Dept_of_Services_for_the_Blind">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>https://fiveham.github.io/Elections/images/blind-icon_50x40.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
-  </Style>
-  <Style id="Dept_of_Services_for_the_Blind_highlight">
-	<IconStyle>
-		<scale>1.4</scale>
-		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
-		</Icon>
-	</IconStyle>
-	<LabelStyle>
-		<color>ffffffff</color>
-	</LabelStyle>
   </Style>
   
   
-  <StyleMap id="Services_for_the_Deaf_and_Hard_of_Hearing">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#Services_for_the_Deaf_and_Hard_of_Hearing_normal</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#Services_for_the_Deaf_and_Hard_of_Hearing_highlight</styleUrl>
-	</Pair>
-  </StyleMap>
-  <Style id="Services_for_the_Deaf_and_Hard_of_Hearing_normal">
+  <Style id="Services_for_the_Deaf_and_Hard_of_Hearing">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>https://fiveham.github.io/Elections/images/ear_35x50.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
-  </Style>
-  <Style id="Services_for_the_Deaf_and_Hard_of_Hearing_highlight">
-	<IconStyle>
-		<scale>1.4</scale>
-		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/shapes/subway.png</href>
-		</Icon>
-	</IconStyle>
-	<LabelStyle>
-		<color>ffffffff</color>
-	</LabelStyle>
   </Style>
   
   
-  <StyleMap id="WIC_Office">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#WIC_Office_normal</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#WIC_Office_highlight</styleUrl>
-	</Pair>
-  </StyleMap>
-  <Style id="WIC_Office_normal">
+  <Style id="WIC_Office">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>https://fiveham.github.io/Elections/images/wic_border_50x50.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
-  </Style>
-  <Style id="WIC_Office_highlight">
-	<IconStyle>
-		<scale>1.4</scale>
-		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/paddle/pink-circle.png</href>
-		</Icon>
-	</IconStyle>
-	<LabelStyle>
-		<color>ffffffff</color>
-	</LabelStyle>
   </Style>
   
-  
-  <StyleMap id="State_Board_of_Elections">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#State_Board_of_Elections_normal</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#State_Board_of_Elections_highlight</styleUrl>
-	</Pair>
-  </StyleMap>
-  <Style id="State_Board_of_Elections_normal">
+
+  <Style id="State_Board_of_Elections">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/NC-flag.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
-  </Style>
-  <Style id="State_Board_of_Elections_highlight">
-	<IconStyle>
-		<scale>1.4</scale>
-		<Icon>
-			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/NC-flag.png</href>
-		</Icon>
-	</IconStyle>
-	<LabelStyle>
-		<color>ffffffff</color>
-	</LabelStyle>
   </Style>
   
   
-  <StyleMap id="Voc-Rehab_Office">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#Voc-Rehab_Office_normal</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#Voc-Rehab_Office_highlight</styleUrl>
-	</Pair>
-  </StyleMap>
-  <Style id="Voc-Rehab_Office_normal">
+  <Style id="Voc-Rehab_Office">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>http://maps.google.com/mapfiles/kml/paddle/V.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
-  </Style>
-  <Style id="Voc-Rehab_Office_highlight">
-	<IconStyle>
-		<scale>1.4</scale>
-		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/paddle/V.png</href>
-		</Icon>
-	</IconStyle>
-	<LabelStyle>
-		<color>ffffffff</color>
-	</LabelStyle>
   </Style>
   
   
-  <StyleMap id="Dept_of_Social_Services">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#Dept_of_Social_Services_normal</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#Dept_of_Social_Services_highlight</styleUrl>
-	</Pair>
-  </StyleMap>
-  <Style id="Dept_of_Social_Services_normal">
+  <Style id="Dept_of_Social_Services">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
-  </Style>
-  <Style id="Dept_of_Social_Services_highlight">
-	<IconStyle>
-		<scale>1.4</scale>
-		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
-		</Icon>
-	</IconStyle>
-	<LabelStyle>
-		<color>ffffffff</color>
-	</LabelStyle>
   </Style>
   
   
-  <StyleMap id="DMV">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#DMV_normal</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#DMV_highlight</styleUrl>
-	</Pair>
-  </StyleMap>
-  <Style id="DMV_normal">
+  <Style id="DMV">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
-  </Style>
-  <Style id="DMV_highlight">
-	<IconStyle>
-		<scale>1.4</scale>
-		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</href>
-		</Icon>
-	</IconStyle>
-	<LabelStyle>
-		<color>ffffffff</color>
-	</LabelStyle>
   </Style>
   
   
-  <StyleMap id="High_School">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#High_School_normal</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#High_School_highlight</styleUrl>
-	</Pair>
-  </StyleMap>
-  <Style id="High_School_normal">
+  <Style id="High_School">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
-  </Style>
-  <Style id="High_School_highlight">
-	<IconStyle>
-		<scale>1.4</scale>
-		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
-		</Icon>
-	</IconStyle>
-	<LabelStyle>
-		<color>ffffffff</color>
-	</LabelStyle>
   </Style>
   
   
