@@ -8,131 +8,91 @@
   
   <Style id="County_Board_of_Elections">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
   </Style>
   
   
   <Style id="Public_Library">
 	<IconStyle>
-		<scale>1.4</scale>
 		<Icon>
 			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/bookstack_50x49.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
   </Style>
   
   
   <Style id="Dept_of_Services_for_the_Blind">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>https://fiveham.github.io/Elections/images/blind-icon_50x40.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
   </Style>
   
   
   <Style id="Services_for_the_Deaf_and_Hard_of_Hearing">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>https://fiveham.github.io/Elections/images/ear_35x50.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
   </Style>
   
   
   <Style id="WIC_Office">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>https://fiveham.github.io/Elections/images/wic_border_50x50.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
   </Style>
   
 
   <Style id="State_Board_of_Elections">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/NC-flag.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
   </Style>
   
   
   <Style id="Voc-Rehab_Office">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>http://maps.google.com/mapfiles/kml/paddle/V.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
   </Style>
   
   
   <Style id="Dept_of_Social_Services">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
   </Style>
   
   
   <Style id="DMV">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
   </Style>
   
   
   <Style id="High_School">
 	<IconStyle>
-		<scale>1.2</scale>
 		<Icon>
 			<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
 		</Icon>
 	</IconStyle>
-	<LabelStyle>
-		<color>00000000</color>
-	</LabelStyle>
   </Style>
   
   
