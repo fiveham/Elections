@@ -9,7 +9,7 @@
   <Style id="County_Board_of_Elections">
 	<IconStyle>
 		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/shapes/COUNTY-C.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/COUNTY-C.png</href>
 		</Icon>
 	</IconStyle>
   </Style>
@@ -27,7 +27,7 @@
   <Style id="Dept_of_Services_for_the_Blind">
 	<IconStyle>
 		<Icon>
-			<href>https://fiveham.github.io/Elections/images/blind-icon_50x40.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/blind-icon_50x40.png</href>
 		</Icon>
 	</IconStyle>
   </Style>
@@ -36,7 +36,7 @@
   <Style id="Services_for_the_Deaf_and_Hard_of_Hearing">
 	<IconStyle>
 		<Icon>
-			<href>https://fiveham.github.io/Elections/images/ear_35x50.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ear_35x50.png</href>
 		</Icon>
 	</IconStyle>
   </Style>
@@ -45,7 +45,7 @@
   <Style id="WIC_Office">
 	<IconStyle>
 		<Icon>
-			<href>https://fiveham.github.io/Elections/images/WIC-W.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/WIC-W.png</href>
 		</Icon>
 	</IconStyle>
   </Style>
@@ -63,7 +63,7 @@
   <Style id="Voc-Rehab_Office">
 	<IconStyle>
 		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/paddle/VOC-REHAB-V.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/VOC-REHAB-V.png</href>
 		</Icon>
 	</IconStyle>
   </Style>
@@ -72,7 +72,7 @@
   <Style id="Dept_of_Social_Services">
 	<IconStyle>
 		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/pushpin/DSS-S.png</href>
+			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/DSS-S.png</href>
 		</Icon>
 	</IconStyle>
   </Style>
