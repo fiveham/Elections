@@ -45,7 +45,7 @@
   <Style id="WIC_Office">
 	<IconStyle>
 		<Icon>
-			<href>https://fiveham.github.io/Elections/images/wic_border_50x50.png</href>
+			<href>https://fiveham.github.io/Elections/images/WIC-W.png</href>
 		</Icon>
 	</IconStyle>
   </Style>
@@ -63,7 +63,7 @@
   <Style id="Voc-Rehab_Office">
 	<IconStyle>
 		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/paddle/V.png</href>
+			<href>http://maps.google.com/mapfiles/kml/paddle/VOC-REHAB-V.png</href>
 		</Icon>
 	</IconStyle>
   </Style>
@@ -72,7 +72,7 @@
   <Style id="Dept_of_Social_Services">
 	<IconStyle>
 		<Icon>
-			<href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+			<href>http://maps.google.com/mapfiles/kml/pushpin/DSS-S.png</href>
 		</Icon>
 	</IconStyle>
   </Style>
