@@ -32,21 +32,21 @@
         var t = (new Date()).getTime();
 
         var eastern1000 = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/register/nc/reg-sites-1000-e.kml' + '?a=' + t,
+          url: 'https://fiveham.github.io/Elections/2019/register/nc/reg-sites-1000-e.kml',
           map: map,
           preserveViewport: true,
           zIndex: 1
         });
         
         var western554 = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/register/nc/reg-sites-554-w.kml' + '?a=' + t,
+          url: 'https://fiveham.github.io/Elections/2019/register/nc/reg-sites-554-w.kml',
           map: map,
           preserveViewport: true,
           zIndex: 1
         });
         
         var ncbg = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/register/nc/NC-outline.kml' + '?a=' + t,
+          url: 'https://fiveham.github.io/Elections/2019/register/nc/NC-outline.kml',
           map: map,
           preserveViewPort: false,
           zIndex: 0
