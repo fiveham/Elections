@@ -223,11 +223,11 @@ Wilkesboro Driver License Office	1230 School Street		Wilkesboro	28697	36.136461	
 Wilson Driver License Office	1822 Goldsboro Street SW		Wilson	27893	35.7159043	-77.9237774	DMV
 Yadkinville Driver License Office	225 Ash Street		Yadkinville	27055	36.1168961	-80.6571136	DMV
 Burnsville Driver License Office	116 North Main Street		Burnsville	28714	35.918608	-82.299735	DMV
-Asheville District Office	50 S. French Broad Avenue		Asheville	28801	35.591647	-82.558611	Dept of Services for the Blind
-Fayetteville District Office	2950 Village Drive	Suite 201	Fayetteville	28304	35.0319513	-78.9277192	Dept of Services for the Blind
-Greenville District Office	404 St. Andrews Drive		Greenville	27834	35.5754267	-77.3949726	Dept of Services for the Blind
-Raleigh District Office	307 Ashe Avenue		Raleigh	27606	35.7801611	-78.6606923	Dept of Services for the Blind
-Winston-Salem District Office	4265 Brownsboro Road	Suite 100	Winston-Salem	27106	36.1488594	-80.272503	Dept of Services for the Blind
+Asheville DSB District Office	50 S. French Broad Avenue		Asheville	28801	35.591647	-82.558611	Dept of Services for the Blind
+Fayetteville DSB District Office	2950 Village Drive	Suite 201	Fayetteville	28304	35.0319513	-78.9277192	Dept of Services for the Blind
+Greenville DS District Office	404 St. Andrews Drive		Greenville	27834	35.5754267	-77.3949726	Dept of Services for the Blind
+Raleigh DSB District Office	307 Ashe Avenue		Raleigh	27606	35.7801611	-78.6606923	Dept of Services for the Blind
+Winston-Salem DSB District Office	4265 Brownsboro Road	Suite 100	Winston-Salem	27106	36.1488594	-80.272503	Dept of Services for the Blind
 Cherokee County DSS	4800 W US Highway 64		Murphy	28906	35.065593	-83.9657742	Dept of Social Services
 Halifax County DSS	4421 Hwy 301		Halifax	27839	36.371488	-77.59112979999999	Dept of Social Services
 Hyde County DSS	35015 US Hwy 264		Engelhard	27824	35.508517	-75.99947209999999	Dept of Social Services
@@ -1347,11 +1347,11 @@ Crocker Branch Library	114 S Main St		Stantonsburg	27883	35.6066114	-77.8241978	
 Elm City Branch Library	114 N Railroad St		Elm City	27822	35.8065049	-77.86122139999999	Public Library
 Lucama Branch Library	103 E Spring St		Lucama	27851	35.6442752	-78.00917539999999	Public Library
 Wilson County Public Library (Main)	249 Nash St W		Wilson	27893	35.7274907	-77.91433529999999	Public Library
-Asheville Regional Center	12 Barbetta Drive		Asheville	28806	35.521242	-82.60067099999999	Services for the Deaf and Hard of Hearing
-Greensboro Regional Center	122 North Elm Street	Suite 900	Greensboro	27401	36.0732697	-79.7898125	Services for the Deaf and Hard of Hearing
-Morganton Regional Center	107 Foothills Drive		Morganton	28655	35.7273599	-81.65168779999999	Services for the Deaf and Hard of Hearing
-Wilmington Regional Center	3240 Burnt Mill Drive	Suite 5	Wilmington	28403	34.2310236	-77.9013451	Services for the Deaf and Hard of Hearing
-Wilson Regional Center	2705 Wooten Boulevard		Wilson	27893	35.7165762	-77.9536196	Services for the Deaf and Hard of Hearing
+Asheville D/HH Regional Center	12 Barbetta Drive		Asheville	28806	35.521242	-82.60067099999999	Services for the Deaf and Hard of Hearing
+Greensboro D/HH Regional Center	122 North Elm Street	Suite 900	Greensboro	27401	36.0732697	-79.7898125	Services for the Deaf and Hard of Hearing
+Morganton D/HH Regional Center	107 Foothills Drive		Morganton	28655	35.7273599	-81.65168779999999	Services for the Deaf and Hard of Hearing
+Wilmington D/HH Regional Center	3240 Burnt Mill Drive	Suite 5	Wilmington	28403	34.2310236	-77.9013451	Services for the Deaf and Hard of Hearing
+Wilson D/HH Regional Center	2705 Wooten Boulevard		Wilson	27893	35.7165762	-77.9536196	Services for the Deaf and Hard of Hearing
 NORTH CAROLINA STATE BOARD OF ELECTIONS	430 N. Salisbury St.	Third floor	Raleigh	27603	35.7862681	-78.639459	State Board of Elections
 Chapel Hill Vocational Rehabilitation Office	548 Smith Level Road		Chapel Hill	27510	35.8926844	-79.07913549999999	Voc-Rehab Office
 Dunn Vocational Rehabilitation Office	214 W Edgerton St		Dunn	28334	35.3105091	-78.6112782	Voc-Rehab Office
