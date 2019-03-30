@@ -12,6 +12,11 @@
 			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/COUNTY-C.png</href>
 		</Icon>
 	</IconStyle>
+	<BalloonStyle>
+		<text>
+			
+		</text>
+	</BalloonStyle>
   </Style>
   
   
@@ -21,6 +26,11 @@
 			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/bookstack_50x49.png</href>
 		</Icon>
 	</IconStyle>
+	<BalloonStyle>
+		<text>
+			
+		</text>
+	</BalloonStyle>
   </Style>
   
   
@@ -30,6 +40,11 @@
 			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/blind-icon_50x40.png</href>
 		</Icon>
 	</IconStyle>
+	<BalloonStyle>
+		<text>
+			
+		</text>
+	</BalloonStyle>
   </Style>
   
   
@@ -39,6 +54,11 @@
 			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ear_35x50.png</href>
 		</Icon>
 	</IconStyle>
+	<BalloonStyle>
+		<text>
+			
+		</text>
+	</BalloonStyle>
   </Style>
   
   
@@ -48,6 +68,11 @@
 			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/WIC-W.png</href>
 		</Icon>
 	</IconStyle>
+	<BalloonStyle>
+		<text>
+			
+		</text>
+	</BalloonStyle>
   </Style>
   
 
@@ -57,6 +82,11 @@
 			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/NC-flag.png</href>
 		</Icon>
 	</IconStyle>
+	<BalloonStyle>
+		<text>
+			
+		</text>
+	</BalloonStyle>
   </Style>
   
   
@@ -66,6 +96,11 @@
 			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/VOC-REHAB-V.png</href>
 		</Icon>
 	</IconStyle>
+	<BalloonStyle>
+		<text>
+			
+		</text>
+	</BalloonStyle>
   </Style>
   
   
@@ -75,6 +110,11 @@
 			<href>https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/DSS-S.png</href>
 		</Icon>
 	</IconStyle>
+	<BalloonStyle>
+		<text>
+			
+		</text>
+	</BalloonStyle>
   </Style>
   
   
@@ -84,6 +124,11 @@
 			<href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</href>
 		</Icon>
 	</IconStyle>
+	<BalloonStyle>
+		<text>
+			
+		</text>
+	</BalloonStyle>
   </Style>
   
   
@@ -93,6 +138,11 @@
 			<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
 		</Icon>
 	</IconStyle>
+	<BalloonStyle>
+		<text>
+			
+		</text>
+	</BalloonStyle>
   </Style>
   
   
