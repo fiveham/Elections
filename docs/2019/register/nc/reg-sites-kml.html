@@ -30,12 +30,6 @@
         });
         
         var t = (new Date()).getTime();
-        
-        var ncbg = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/register/nc/NC-outline.kml' + '?a=' + t,
-          map: map,
-          preserveViewPort: false
-        });
 
         var ctaLayer = new google.maps.KmlLayer({
           url: 'https://fiveham.github.io/Elections/2019/register/nc/reg-sites-1000-e.kml' + '?a=' + t,
@@ -47,6 +41,12 @@
           url: 'https://fiveham.github.io/Elections/2019/register/nc/reg-sites-554-w.kml' + '?a=' + t,
           map: map,
           preserveViewport: true
+        });
+        
+        var ncbg = new google.maps.KmlLayer({
+          url: 'https://fiveham.github.io/Elections/2019/register/nc/NC-outline.kml' + '?a=' + t,
+          map: map,
+          preserveViewPort: false
         });
       }
     </script>
