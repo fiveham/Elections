@@ -2,7 +2,7 @@ This directory shall contain an html file providing the viewer with an interacti
 
 Two versions of the html page should be tried, in order to determine which is best:
   KmlLayer version, using google.maps.KmlLayer to display points from a KML file.
-    https://fiveham.github.io/Elections/2019/register/nc/reg-sites-kml.html
+    https://fiveham.github.io/Elections/2019/register/nc/sites.html
   Data version: using a Data layer instead to exert more control over the content of the map.
 
 Such locations include one-stop (early voting) sites and others according to https://www.ncsbe.gov/Voters/Registering-to-Vote:
