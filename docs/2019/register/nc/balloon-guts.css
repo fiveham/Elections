@@ -18,3 +18,14 @@ div.gm-style-iw table tr {
 div.gm-style-iw table tr:last-of-type {
   border-bottom: none;
 }
+
+/* Unordered Lists */
+div.gm-style-iw ul {
+  padding-top: 0.5em;
+}
+div.gm-style-iw ul > li {
+  padding-top: 0.5em;
+}
+div.gm-style-iw ul > li:first-of-type {
+  padding-top: 0;
+}
