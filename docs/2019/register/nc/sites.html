@@ -65,6 +65,14 @@
         
         /* Add geolocator button to the map itself */
         map.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById("geolocation"));
+        
+        /* Change opacity of elements added to map to 1 */
+        var triggers = ["tilesloaded","mousemove","zoom_changed","idle"];
+        for(var i = 0; i < triggers.length; i++){
+          google.maps.event.addListenerOnce(map, triggers[i], function(){
+            document.getElementById("geolocation").style.opacity = "1";
+          });
+        }
       }
     </script>
     <script src="geolocator.js"></script>
