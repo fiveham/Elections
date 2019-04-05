@@ -30,7 +30,8 @@
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 7,
-          center: {lat: 35.665577, lng: -80.092859}
+          center: {lat: 35.665577, lng: -80.092859},
+          mapTypeId: 'hybrid'
         });
         
         var t = (new Date()).getTime();
