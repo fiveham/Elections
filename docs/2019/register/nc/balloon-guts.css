@@ -2,14 +2,19 @@
 
 /* Tables */
 /* increase horizontal padding between cells and add border between rows */
+div.gm-style-iw table {
+  border-collapse: collapse;
+}
 div.gm-style-iw table td {
   padding-left:  1px;
   padding-right: 4px;
-  border-bottom: 1px solid black;
 }
 div.gm-style-iw table td:last-of-type {
   padding-right: 1px;
 }
-div.gm-style-iw table tr:last-of-type > td {
+div.gm-style-iw table tr {
+  border-bottom: 1px solid black;
+}
+div.gm-style-iw table tr:last-of-type {
   border-bottom: none;
 }
