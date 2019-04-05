@@ -17,11 +17,17 @@
     
   </head>
   <body>
+    <!-- Geolocator button -->
+    <div id="geolocation" class="geolocate installed-controls top-control" onclick="geolocate();" role="button" title="Go to your geolocation"></div>
+    
+    <!-- The map -->
     <div id="map"></div>
+    
     <script>
-
+      var map;
+      
       function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
+        map = new google.maps.Map(document.getElementById('map'), {
           zoom: 7,
           center: {lat: 35.665577, lng: -80.092859}
         });
@@ -57,6 +63,7 @@
         });
       }
     </script>
+    <script src="geolocator.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
     </script>
