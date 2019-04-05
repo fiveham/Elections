@@ -10,6 +10,7 @@
   background-position: center;
   background-size: contain;
   background-size: 21px 38px;
+  background-repeat: no-repeat;
   /*overflow: hidden;
   text-align: center;*/
 }
