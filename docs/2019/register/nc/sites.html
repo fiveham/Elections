@@ -52,8 +52,15 @@
         var ncbg = new google.maps.KmlLayer({
           url: 'https://fiveham.github.io/Elections/2019/register/nc/NC-outline.kml',
           map: map,
-          preserveViewPort: false,
+          preserveViewport: false,
           zIndex: 0
+        });
+        
+        var ossites = new google.maps.KmlLayer({
+          url: 'https://fiveham.github.io/Elections/2019/register/nc/ossite-nc03-2019.kml',
+          map: map,
+          preserveViewport: true,
+          zIndex: 2
         });
       }
     </script>
