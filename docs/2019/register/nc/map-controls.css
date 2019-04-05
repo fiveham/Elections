@@ -1,0 +1,13 @@
+.installed-controls{
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.top-control{
+  margin: 10px 10px 0 0;
+}
+
+.left-control{
+  margin: 0 0 0 10px;
+}
