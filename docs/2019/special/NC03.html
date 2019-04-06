@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Copied and pasted from Google at https://developers.google.com/maps/documentation/javascript/examples/layer-kml -->
+<html>
+  <head>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta property="og:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-reg-map-screenshot-square.png" />
+    <meta property="og:image:url" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-reg-map-screenshot-square.png" />
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-reg-map-screenshot-square.png" />
+    <meta property="og:image:alt" content="A satelite image of the eastern coast of North America from Maryland to Florida overlaid by a semitransparent gray polygon covering North Carolina. Sites required by the NVRA to provide voter registration forms are marked across the state by icons indicating the type of site." />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1960" />
+    <meta property="og:image:height" content="1960" />
+    <meta property="og:url" content="https://fiveham.github.io/Elections/2019/register/nc/sites.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:determiner" content="" />
+    <meta property="og:title" content="Voter Registration Form Sites 2019 NC" />
+    <meta property="og:description" content="Interactive map of sites in North Carolina required by the NVRA to provide voter registration forms" />
+    
+    <title>Voter Registration Form Sites 2019 NC</title>
+    
+    <link rel="stylesheet" type="text/css" href="fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="map-controls.css">
+    <link rel="stylesheet" type="text/css" href="geolocator.css">
+    
+  </head>
+  <body>
+    <!-- Geolocator button -->
+    <div id="geolocation" class="geolocate installed-controls top-control" onclick="geolocate();" role="button" title="Go to your geolocation"></div>
+    
+    <!-- The map -->
+    <div id="map"></div>
+    
+    <script>
+      var map;
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: {lat: 35.61215525049109, lng: -76.6224810408075},
+          mapTypeId: 'hybrid'
+        });
+        
+        var early = new google.maps.KmlLayer({
+          url: 'ossites-primary.kml',
+          map: map,
+          preserveViewport: true,
+          zIndex: 1
+        });
+        
+        var eday = new google.maps.KmlLayer({
+          url: 'apr30.kml',
+          map: map,
+          preserveViewport: true,
+          zIndex: 1
+        });
+        
+        var nc03_outline; = new google.maps.KmlLayer({
+          url: 'nc03.kml',
+          map: map,
+          preserveViewport: false,
+          zIndex: 0
+        });
+        
+        /* Add geolocator button to the map itself */
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById("geolocation"));
+        
+        /* Change opacity of elements added to map to 1 */
+        var triggers = ["tilesloaded","mousemove","zoom_changed","idle"];
+        for(var i = 0; i < triggers.length; i++){
+          google.maps.event.addListenerOnce(map, triggers[i], function(){
+            document.getElementById("geolocation").style.opacity = "1";
+          });
+        }
+      }
+    </script>
+    <script src="geolocator.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
