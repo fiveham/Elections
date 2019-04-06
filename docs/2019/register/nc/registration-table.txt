@@ -225,7 +225,7 @@ Yadkinville Driver License Office	225 Ash Street		Yadkinville	27055	36.1168961	-
 Burnsville Driver License Office	116 North Main Street		Burnsville	28714	35.918608	-82.299735	DMV
 Asheville DSB District Office	50 S. French Broad Avenue		Asheville	28801	35.591647	-82.558611	Dept of Services for the Blind
 Fayetteville DSB District Office	2950 Village Drive	Suite 201	Fayetteville	28304	35.0319513	-78.9277192	Dept of Services for the Blind
-Greenville DS District Office	404 St. Andrews Drive		Greenville	27834	35.5754267	-77.3949726	Dept of Services for the Blind
+Greenville DSB District Office	404 St. Andrews Drive		Greenville	27834	35.5754267	-77.3949726	Dept of Services for the Blind
 Raleigh DSB District Office	307 Ashe Avenue		Raleigh	27606	35.7801611	-78.6606923	Dept of Services for the Blind
 Winston-Salem DSB District Office	4265 Brownsboro Road	Suite 100	Winston-Salem	27106	36.1488594	-80.272503	Dept of Services for the Blind
 Cherokee County DSS	4800 W US Highway 64		Murphy	28906	35.065593	-83.9657742	Dept of Social Services
