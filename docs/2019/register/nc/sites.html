@@ -65,12 +65,14 @@
           zIndex: 0
         });
         
-        var ossites = new google.maps.KmlLayer({
-          url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc03-30apr2019.kml',
-          map: map,
-          preserveViewport: true,
-          zIndex: 2
-        });
+        if(new Date() < new Date(2019, 4, 26, 19, 0, 0, 0)){
+          var ossites = new google.maps.KmlLayer({
+            url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc03-30apr2019.kml',
+            map: map,
+            preserveViewport: true,
+            zIndex: 2
+          });
+        }
         
         /* Add geolocator button to the map itself */
         map.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById("geolocation"));
