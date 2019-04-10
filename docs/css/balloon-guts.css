@@ -18,6 +18,9 @@ div.gm-style-iw table tr {
 div.gm-style-iw table tr:last-of-type {
   border-bottom: none;
 }
+div.gm-style-iw table > th{
+  text-align: left;
+}
 
 /* Unordered Lists */
 div.gm-style-iw ul {
