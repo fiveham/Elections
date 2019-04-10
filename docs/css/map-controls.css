@@ -6,6 +6,15 @@
 
 .top-control{
   margin: 10px 10px 0 0;
+  height: 40px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.top-control:hover{
+  background-color: #ebebeb;
 }
 
 .left-control{
