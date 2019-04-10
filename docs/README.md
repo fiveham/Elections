@@ -4,6 +4,7 @@ The plan is to populate this repository with single-state election maps for the 
 
 Available maps:
 * [NC's 3rd Congressional District special election April 30th 2019](https://fiveham.github.io/Elections/2019/special/NC03.html)
+* [Where and How to Register to Vote in NC](https://fiveham.github.io/Elections/2019/register/nc/sites.html)
 * [MS precincts with polling place names and addresses](https://fiveham.github.io/Elections/2018/general/MS.html)
 
 Each state map should address
