@@ -89,14 +89,14 @@
         
         var eday = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/special/nc03_apr30.kml',
-          //map: map,
+          map: null,
           preserveViewport: true,
           zIndex: 1
         });
         
         var nc03_outline = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/special/nc03.kml',
-          //map: map,
+          map: map,
           preserveViewport: false,
           zIndex: 0
         });
