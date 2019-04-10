@@ -2,6 +2,7 @@
   position: absolute;
   opacity: 0;
   transition: opacity 1s ease-in;
+  user-select: none;
 }
 
 .top-control{
