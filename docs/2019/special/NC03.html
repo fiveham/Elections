@@ -63,7 +63,7 @@
     
     <!-- Layer-select box -->
     <div id="layer-select" class="installed-controls top-control no-select" onclick="pp_toggle()" role="button" title="Switch active polling place layer">
-      <span id="pp-swap">Switch</span>
+      <span id="pp-swap">Election Day Sites</span>
     </div>
     
     <!-- The map -->
@@ -120,8 +120,7 @@
         layer = eday;
         alt = early;
         if((new Date()) < (new Date(2019, 4, 26, 19, 0, 0, 0))){
-          layer = early;
-          alt = eday;
+          pp_toggle();
         }
         layer.setMap(map);
         alt.setMap(null);
@@ -133,6 +132,10 @@
         layer = temp;
         layer.setMap(map);
         alt.setMap(null);
+        document.getElementById("pp-swap").innerHtml = (
+            document.getElementById("pp-swap").innerHtml.startswith("Early") 
+            ? "Election Day Sites" 
+            : "Early Voting Sites");
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
