@@ -79,12 +79,11 @@
         
         /* When a layer element is clicked, suppress info windows from all other layers */
         for(var i=0; i<layers.length; i++){
-          layers[i].addListener('click', function(event){
-            var layer = layers[i];
+          var ii = i;
+          layer.addListener('click', function(event){
             for(var j=0; j<layers.length; j++){
-              layers[j].setOptions({suppressInfoWindows: true});
+              layers[j].setOptions({suppressInfoWindows: (j===ii ? false : true)});
             }
-            layer.setOptions({suppressInfoWindows: false})
           });
         }
         
