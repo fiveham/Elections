@@ -47,28 +47,28 @@
         var t = (new Date()).getTime();
 
         var eastern1000 = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/register/nc/reg-sites-1000-e.kml',
+          url: 'reg-sites-1000-e.kml',
           map: map,
           preserveViewport: true,
           zIndex: 1
         });
         
         var western554 = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/register/nc/reg-sites-554-w.kml',
+          url: 'reg-sites-554-w.kml',
           map: map,
           preserveViewport: true,
           zIndex: 1
         });
         
         var ncbg = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/register/nc/NC-outline.kml',
+          url: 'NC-outline.kml',
           map: map,
           preserveViewport: false,
           zIndex: 0
         });
         
         var ossites = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/register/nc/ossite-nc03-2019.kml',
+          url: '../../special/ossite-nc03-30apr2019.kml',
           map: map,
           preserveViewport: true,
           zIndex: 2
