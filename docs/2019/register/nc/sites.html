@@ -38,24 +38,18 @@
       var map;
       
       function initMap() {
-        //alert("in initMap");
-        
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 7,
           center: {lat: 35.665577, lng: -80.092859},
           mapTypeId: 'hybrid'
         });
 
-        //alert("created map");
-        
         var eastern1000 = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/register/nc/reg-sites-1000-e.kml',
           map: map,
           preserveViewport: true,
           zIndex: 1
-        });/**/
-        
-        //alert("created e1000");
+        });
         
         var western554 = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/register/nc/reg-sites-554-w.kml',
@@ -64,16 +58,12 @@
           zIndex: 1
         });
         
-        //alert("created w554");
-        
-        /*var ncbg = new google.maps.KmlLayer({
-          url: 'NC-outline.kml',
+        var ncbg = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2019/register/nc/NC-outline.kml',
           map: map,
           preserveViewport: false,
           zIndex: 0
-        });/**/
-        
-        //alert("Created bg");
+        });
         
         /*var ossites = new google.maps.KmlLayer({
           url: '../../special/ossite-nc03-30apr2019.kml',
@@ -82,12 +72,8 @@
           zIndex: 2
         });/**/
         
-        //alert("Created ossites");
-        
         /* Add geolocator button to the map itself */
         map.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById("geolocation"));
-        
-        //alert("added goloc to map");
         
         /* Change opacity of elements added to map to 1 */
         var triggers = ["tilesloaded","mousemove","zoom_changed","idle"];
@@ -96,8 +82,6 @@
             document.getElementById("geolocation").style.opacity = "1";
           });
         }
-        
-        //alert("set geoloc opacity");
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
