@@ -1,6 +1,6 @@
 ## US Elections - In Map Form
 
-The plan is to populate this repository with single-state election maps for the off-year elections in 2019 and 2020 and if possible to do a countywide map for 2020.
+The plan is to populate this repository with single-state election maps for the off-year elections in 2019 and 2020 and if possible to do a countrywide map for 2020.
 
 Available maps:
 * [NC's 3rd Congressional District special election April 30th 2019](https://fiveham.github.io/Elections/2019/special/NC03.html)
