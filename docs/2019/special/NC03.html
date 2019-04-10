@@ -29,13 +29,19 @@
   </head>
   <body>
     <!-- Geolocator button -->
-    <div id="geolocation" class="geolocate installed-controls top-control" onclick="geolocate();" role="button" title="Go to your geolocation"></div>
+    <div id="geolocation" class="geolocate installed-controls top-control no-select" onclick="geolocate();" role="button" title="Go to your geolocation"></div>
+    
+    <!-- Layer-select box -->
+    <div id="layer-select" class="installed-controls top-control no-select" onclick="pp_toggle()" role="button" title="Switch active polling place layer">
+      <span id="pp-swap">Switch</span>
+    </div>
     
     <!-- The map -->
     <div id="map"></div>
     
     <script>
       var map;
+      var layer, alt;
       
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -53,20 +59,23 @@
         
         var eday = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/special/nc03_apr30.kml',
-          map: map,
+          //map: map,
           preserveViewport: true,
           zIndex: 1
         });
         
         var nc03_outline = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/special/nc03.kml',
-          map: map,
+          //map: map,
           preserveViewport: false,
           zIndex: 0
         });
         
         /* Add geolocator button to the map itself */
         map.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById("geolocation"));
+        
+        /* Add layer-toggle to the map */
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById("layer-select"));
         
         /* Change opacity of elements added to map to 1 */
         var triggers = ["tilesloaded","mousemove","zoom_changed","idle"];
@@ -75,6 +84,24 @@
             document.getElementById("geolocation").style.opacity = "1";
           });
         }
+        
+        /* Give real values to layer-pointers */
+        layer = eday;
+        alt = early;
+        if((new Date()) < (new Date(2019, 4, 26, 19, 0, 0, 0))){
+          layer = early;
+          alt = eday;
+        }
+        layer.setMap(map);
+        alt.setMap(null);
+      }
+      
+      function pp_toggle(){
+        var temp = alt;
+        alt = layer;
+        layer = temp;
+        layer.setMap(map);
+        alt.setMap(null);
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
