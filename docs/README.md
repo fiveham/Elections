@@ -2,7 +2,9 @@
 
 The plan is to populate this repository with single-state election maps for the off-year elections in 2019 and 2020 and if possible to do a countywide map for 2020.
 
-For now, the only map available as part of this project is a single-layer map of outdated MS precincts with sometimes-incorrect polling place names and addresses: https://fiveham.github.io/Elections/2018/general/MS
+Available maps:
+* [NC's 3rd Congressional District special election April 30th 2019](https://fiveham.github.io/Elections/2019/special/NC03.html)
+* [MS precincts with polling place names and addresses](https://fiveham.github.io/Elections/2018/general/MS.html)
 
 Each state map should address
 
