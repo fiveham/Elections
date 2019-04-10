@@ -52,6 +52,15 @@
           zIndex: 1
         });
         layers.push(eastern1000);
+        eastern1000.addListener('click', function(event){
+          var index = 0;
+          layers[index].setOptions({suppressInfoWindows: false});
+          for(i=0; i<layers.length; i++){
+            if(i != index){
+              layers[i].setOptions({suppressInfoWindows: true});
+            }
+          }
+        });
         
         var western554 = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/register/nc/reg-sites-554-w.kml',
@@ -60,6 +69,15 @@
           zIndex: 1
         });
         layers.push(western554);
+        western554.addListener('click', function(event){
+          var index = 1;
+          layers[index].setOptions({suppressInfoWindows: false});
+          for(i=0; i<layers.length; i++){
+            if(i != index){
+              layers[i].setOptions({suppressInfoWindows: true});
+            }
+          }
+        });
         
         var ncbg = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/register/nc/NC-outline.kml',
@@ -68,6 +86,15 @@
           zIndex: 0
         });
         layers.push(ncbg);
+        ncbg.addListener('click', function(event){
+          var index = 2;
+          layers[index].setOptions({suppressInfoWindows: false});
+          for(i=0; i<layers.length; i++){
+            if(i != index){
+              layers[i].setOptions({suppressInfoWindows: true});
+            }
+          }
+        });
         
         var ossites = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc03-30apr2019.kml',
@@ -76,16 +103,15 @@
           zIndex: 2
         });
         layers.push(ossites);
-        
-        /* When a layer element is clicked, suppress info windows from all other layers */
-        for(var i=0; i<layers.length; i++){
-          var ii = i;
-          layer.addListener('click', function(event){
-            for(var j=0; j<layers.length; j++){
-              layers[j].setOptions({suppressInfoWindows: (j===ii ? false : true)});
+        ossites.addListener('click', function(event){
+          var index = 0;
+          layers[index].setOptions({suppressInfoWindows: false});
+          for(i=0; i<layers.length; i++){
+            if(i != index){
+              layers[i].setOptions({suppressInfoWindows: true});
             }
-          });
-        }
+          }
+        });
         
         /* Add geolocator button to the map itself */
         map.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById("geolocation"));
