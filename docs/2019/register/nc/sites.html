@@ -73,6 +73,8 @@
     
     <script>
       var map, ossites;
+      var widget_ids = ["geolocation", "os-toggler"];
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
       
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -114,16 +116,24 @@
           ossites.setMap(null);
         }
         
-        /* Add geolocator button to the map itself */
-        map.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById("geolocation"));
+        add_widgets();
+      }
+      
+      /* Add listed widgets to the map and make them visible (set opacity to 1) */
+      function add_widgets(){
+        /* Add widgets to the map */
+        widget_ids.foreach(function(w){
+          map.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById(w));
+        });
         
-        /* Change opacity of elements added to map to 1 */
-        var triggers = ["tilesloaded","mousemove","zoom_changed","idle"];
-        for(var i = 0; i < triggers.length; i++){
-          google.maps.event.addListenerOnce(map, triggers[i], function(){
-            document.getElementById("geolocation").style.opacity = "1";
+        /* Set opacity to 1 */
+        triggers.foreach(function(t){
+          google.maps.event.addListenerOnce(map, t, function(){
+            widget_ids.foreach(function(w){
+              document.getElementById(w).style.opacity = "1";
+            });
           });
-        }
+        });
       }
       
       function os_toggle(){
