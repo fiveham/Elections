@@ -128,8 +128,7 @@
       function add_widgets(){
         widget_ids.forEach(function(w){
           var widget = document.getElementById(w);
-          /* Add widget to the map */
-          map.controls[google.maps.ControlPosition.TOP_LEFT].push(widget);
+          map.controls[google.maps.ControlPosition.TOP_LEFT].push(widget); /* Add widget to the map */
           triggers.forEach(function(t){
             google.maps.event.addListenerOnce(map, t, function(){
               widget.style.opacity = "1"; /* Set opacity to 1 */
