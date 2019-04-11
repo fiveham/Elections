@@ -5,10 +5,14 @@
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-rwb-check.png">
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-    <meta property="og:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-reg-map-screenshot-square.png" />
-    <meta property="og:image:url" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-reg-map-screenshot-square.png" />
-    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-reg-map-screenshot-square.png" />
-    <meta property="og:image:alt" content="A satelite image of the eastern coast of North America from Maryland to Florida overlaid by a semitransparent gray polygon covering North Carolina. Sites required by the NVRA to provide voter registration forms are marked across the state by icons indicating the type of site." />
+    <meta property="og:image" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-reg-map-screenshot-square.png" />
+    <meta property="og:image:url" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-reg-map-screenshot-square.png" />
+    <meta property="og:image:secure_url" 
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-reg-map-screenshot-square.png" />
+    <meta property="og:image:alt" 
+          content="A satelite image of the eastern coast of North America from Maryland to Florida overlaid by a semitransparent gray polygon covering North Carolina. Sites required by the NVRA to provide voter registration forms are marked across the state by icons indicating the type of site." />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1660" />
     <meta property="og:image:height" content="1660" />
@@ -16,7 +20,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:determiner" content="" />
     <meta property="og:title" content="Where to Register to Vote in NC - Interactive Map" />
-    <meta property="og:description" content="Interactive map of sites in North Carolina required by the NVRA to provide voter registration forms" />
+    <meta property="og:description" 
+          content="Interactive map of sites in North Carolina required by the NVRA to provide voter registration forms" />
     
     <title>Where to Register to Vote in NC - Interactive Map</title>
     
@@ -121,12 +126,13 @@
       
       /* Add listed widgets to the map and make them visible (set opacity to 1) */
       function add_widgets(){
-        triggers.forEach(function(t){
-          google.maps.event.addListenerOnce(map, t, function(){
-            widget_ids.forEach(function(w){
-              var widget = document.getElementById(w);
-              map.controls[google.maps.ControlPosition.TOP_LEFT].push(widget); /* Add widget to the map */
-              widget.style.opacity = "1";                                      /* Set opacity to 1 */
+        widget_ids.forEach(function(w){
+          var widget = document.getElementById(w); /* Set opacity to 1 */
+          widget.style.opacity = "1";
+          triggers.forEach(function(t){
+            google.maps.event.addListenerOnce(map, t, function(){
+              /* Add widget to the map */
+              map.controls[google.maps.ControlPosition.TOP_LEFT].push(widget);
             });
           });
         });
