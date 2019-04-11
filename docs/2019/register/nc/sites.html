@@ -25,17 +25,54 @@
     <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
     <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
     <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <style>
+      #os-toggler{
+        line-height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 18px;
+        font-family: Roboto, Arial, sans-serif;
+        display: table;
+        padding-left: 17px;
+        padding-right: 17px;
+        //padding-top: 11px;
+      }
+      #os-toggler > span {
+        padding: 0;
+        margin: 0;
+        border: none;
+        display: table-cell;
+        vertical-align: middle;
+      }
+      
+      .no-select{
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select:   none; /* Safari */
+        -khtml-user-select:    none; /* Konqueror HTML */
+        -moz-user-select:      none; /* Firefox */
+        -ms-user-select:       none; /* Internet Explorer/Edge */
+        user-select:           none; /* Non-prefixed version, currently
+                                        supported by Chrome and Opera */
+      }
+    </style>
     
   </head>
   <body>
     <!-- Geolocator button -->
-    <div id="geolocation" class="geolocate installed-controls top-control" onclick="geolocate();" role="button" title="Go to your geolocation"></div>
+    <div id="geolocation" class="geolocate installed-controls top-control" onclick="geolocate();" role="button" 
+         title="Go to your geolocation"></div>
+    
+    <!-- Toggle one-stop sites button -->
+    <div id="os-toggler" class="installed-controls top-control no-select" onclick="os_toggle()" role="button" 
+         title="Switch active polling place layer">
+      <span id="pp-swap">Toggle One-Stop Sites</span>
+    </div>
     
     <!-- The map -->
     <div id="map"></div>
     
     <script>
-      var map;
+      var map, ossites;
       
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -65,13 +102,16 @@
           zIndex: 0
         });
         
-        if(new Date() < new Date(2019, 4, 26, 19, 0, 0, 0)){
-          var ossites = new google.maps.KmlLayer({
-            url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc03-30apr2019.kml',
-            map: map,
-            preserveViewport: true,
-            zIndex: 2
-          });
+        ossites = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc03-30apr2019.kml',
+          map: map,
+          preserveViewport: true,
+          zIndex: 2
+        });
+        
+        /* Turn one-stop site layer off automagically after 7PM Apr 30, the end of early voting */
+        if(new Date() > new Date(2019, 4, 26, 19, 0, 0, 0)){
+          ossites.setMap(null);
         }
         
         /* Add geolocator button to the map itself */
@@ -84,6 +124,10 @@
             document.getElementById("geolocation").style.opacity = "1";
           });
         }
+      }
+      
+      function os_toggle(){
+        ossites.setMap( ossites.getMap() ? null : map );
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
