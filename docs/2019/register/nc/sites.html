@@ -127,12 +127,12 @@
       /* Add listed widgets to the map and make them visible (set opacity to 1) */
       function add_widgets(){
         widget_ids.forEach(function(w){
-          var widget = document.getElementById(w); /* Set opacity to 1 */
-          widget.style.opacity = "1";
+          var widget = document.getElementById(w);
+          /* Add widget to the map */
+          map.controls[google.maps.ControlPosition.TOP_LEFT].push(widget);
           triggers.forEach(function(t){
             google.maps.event.addListenerOnce(map, t, function(){
-              /* Add widget to the map */
-              map.controls[google.maps.ControlPosition.TOP_LEFT].push(widget);
+              widget.style.opacity = "1"; /* Set opacity to 1 */
             });
           });
         });
