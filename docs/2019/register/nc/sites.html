@@ -87,6 +87,29 @@
         overflow-y: auto;
         margin-top: 25px;
       }
+      /* Based on Google Maps infowindows */
+      #about-modal .has-scrollbar::-webkit-scrollbar {
+        width: 18px;
+        height: 12px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+      }
+      #about-modal .has-scrollbar::-webkit-scrollbar-corner {
+        background: transparent;
+      }
+      #about-modal .has-scrollbar::-webkit-scrollbar-thumb {
+        background-color: rgba(0,0,0,0.12);
+        border: 6px solid transparent;
+        border-radius: 9px;
+        background-clip: content-box;
+      }
+      #about-modal .has-scrollbar::-webkit-scrollbar-track, 
+      #about-modal .has-scrollbar::-webkit-scrollbar-track-piece {
+        background: #fff;
+      }
+      /*#about-modal .has-scrollbar::-webkit-scrollbar-button {}
+      #about-modal .has-scrollbar::-webkit-resizer {}/**/
       
       #about-modal p.heading {
         font-weight: bold;
