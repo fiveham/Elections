@@ -15,9 +15,9 @@
 		<name>Statewide Registration Options</name>
 		<description><![CDATA[
 			<ul>
-                		<li><a target="_blank" href="https://www.ncsbe.gov/Voters/Registering-to-Vote">Register by mail from home</a></li>
-                		<li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdo-TG8rh_nlIsAqytWUK9KwbTiEegf0p6gjMLQGKFNjLN4dA/viewform">Conduct a registration drive</a></li>
-            		</ul>
+        <li><a target="_blank" href="https://www.ncsbe.gov/Voters/Registering-to-Vote">Register by Mail</a></li>
+        <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdo-TG8rh_nlIsAqytWUK9KwbTiEegf0p6gjMLQGKFNjLN4dA/viewform">Conduct a registration drive</a></li>
+      </ul>
 		]]></description>
 		<styleUrl>#gray-bg</styleUrl>
 		<Polygon>
