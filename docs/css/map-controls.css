@@ -1,23 +1,23 @@
-.installed-controls{
+.installed-controls {
   position: absolute;
   opacity: 0;
   transition: opacity 1s ease-in;
   user-select: none;
-}
-
-.top-control{
-  margin: 10px 10px 0 0;
-  height: 40px;
   border-radius: 2px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
   cursor: pointer;
   background-color: #fff;
 }
 
-.top-control:hover{
+.installed-controls:hover {
   background-color: #ebebeb;
 }
 
-.left-control{
+.top-control {
+  margin: 10px 10px 0 0;
+  height: 40px;
+}
+
+.left-control {
   margin: 0 0 0 10px;
 }
