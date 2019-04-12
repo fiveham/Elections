@@ -75,14 +75,20 @@
         visibility: hidden;
         background-color: white;
         /*padding: 0 10px; /* 10px sides, 0 top and bottom */
-        padding: 10px 0 0 10px; /* imitating google popup balloons */
+        /*padding: 10px 0 0 10px; /* imitating google popup balloons */
+        padding: 0 0 0 10px;
+      }
+      
+      #about-modal .content {
+        padding-bottom: 10px;
       }
       
       #about-modal .has-scrollbar {
         overflow-y: auto;
+        margin-top: 25px;
       }
       
-      #about-modal p:first-of-type {
+      #about-modal p.heading {
         font-weight: bold;
         font-size: larger;
       }
@@ -111,7 +117,7 @@
       <div class="has-scrollbar">
         <div class="box" data-balloonish="dims">
           <div class="content">
-            <p>Sites with Voter Registration Forms in North Carolina</p>
+            <p class="heading">Sites with Voter Registration Forms in North Carolina</p>
             <p>DMV driver's license offices, public high schools, the Department of Social Services, WIC offices, public libraries,
                vocational rehabilitation offices, services for the blind, and services for the deaf and hard-of-hearing are required by 
                the NVRA (1993) to provide voter registration services; so, they carry voter registration forms and can return completed 
