@@ -9,13 +9,16 @@
   background-color: #fff;
 }
 
+.text-control {
+  height: 40px;
+}
+
 .installed-controls:hover {
   background-color: #ebebeb;
 }
 
 .top-control {
   margin: 10px 10px 0 0;
-  height: 40px;
 }
 
 .left-control {
