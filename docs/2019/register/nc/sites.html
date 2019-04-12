@@ -74,11 +74,12 @@
         font-size: larger;
         visibility: hidden;
         background-color: white;
-        padding: 0 10px; /* 10px sides, 0 top and bottom */
+        /*padding: 0 10px; /* 10px sides, 0 top and bottom */
+        padding: 10px 0 0 10px; /* imitating google popup balloons */
       }
       
-      #about-modal > .content {
-        overflow-y: scroll;
+      #about-modal .has-scrollbar {
+        overflow-y: auto;
       }
       
       #about-modal p:first-of-type {
@@ -105,24 +106,29 @@
     </div>
     
     <!-- 'About' modal -->
-    <div id="about-modal" data-balloonish="dims">
+    <div id="about-modal">
       <div role="button" class="closer no-select" onclick="toggle_modal()">X</div>
-      <div class="content">
-        <p>Sites with Voter Registration Forms in North Carolina</p>
-        <p>DMV driver's license offices, public high schools, the Department of Social Services, WIC offices, public libraries, and
-           vocational rehabilitation offices are required by the NVRA (1993) to provide voter registration services; so, they carry 
-           voter registration forms and can return completed forms to the appropriate county board of elections at no cost to the 
-           person completing the form.</p>
-        <p>The offices of county boards of elections and of the state board of elections also carry voter registration forms and 
-           provide the same opportunity to send in the form at no cost.</p>
-        <p>One-stop voting sites (early voting) allow an unregistered individual to register to vote and then to immediately 
-           vote, provided that the person registering 
-           <a href="https://www.ncsbe.gov/Voters/Registering-to-Vote#item5_3" target="_blank">brings proof of name and address.</a></p>
-        <p>You can also register by mail by <a href="https://www.ncsbe.gov/Voter-Information/VR-Form" target="_blank">printing a form</a>,
-           filling it out, signing it, and mailing it to your county board of elections.</p>
-        <p>If you want to provide voter registration forms to others, then 
-           <a href="https://www.ncsbe.gov/Voters/Registering-to-Vote#item5_5" target="_blank">state-backed services for a voter 
-           registration drive</a> may interest you.</p>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims">
+          <div class="content">
+            <p>Sites with Voter Registration Forms in North Carolina</p>
+            <p>DMV driver's license offices, public high schools, the Department of Social Services, WIC offices, public libraries,
+               vocational rehabilitation offices, services for the blind, and services for the deaf and hard-of-hearing are required by 
+               the NVRA (1993) to provide voter registration services; so, they carry voter registration forms and can return completed 
+               forms to the appropriate county board of elections at no cost.</p>
+            <p>County boards of elections and the state board of elections also carry voter registration forms and provide the same 
+               opportunity to send in the form at no cost.</p>
+            <p>One-stop voting sites (early voting) allow an unregistered individual to register to vote and then to immediately vote, 
+               provided that the person registering 
+               <a href="https://www.ncsbe.gov/Voters/Registering-to-Vote#item5_3" target="_blank">brings proof of name and 
+               address.</a></p>
+            <p>You can also register by mail by <a href="https://www.ncsbe.gov/Voter-Information/VR-Form" target="_blank">printing the 
+               form</a>, filling it out, signing it, and mailing it to your county board of elections.</p>
+            <p>If you want to provide voter registration forms to others, then 
+               <a href="https://www.ncsbe.gov/Voters/Registering-to-Vote#item5_5" target="_blank">state-backed services for a voter 
+               registration drive</a> may interest you.</p>
+          </div>
+        </div>
       </div>
     </div>
     
