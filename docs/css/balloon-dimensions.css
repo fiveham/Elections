@@ -4,7 +4,7 @@
 /* Specify static fallbacks in case of lack of support for calc functions.
  * Allow a constant buffer size to fit the controls around the edges. */
 div.gm-style-iw > div > div, 
-[data-balloonish="dims"] {
+[data-balloonish~="dims"] {
   max-height: 300px;
   max-height: -webkit-calc(100vh - 150px);
   max-height:   expression(100vh - 150px);
@@ -23,13 +23,13 @@ div.gm-style-iw > div > div,
  * values when the screen is too large. */
 @media only screen and (min-width: 800px) {
   div.gm-style-iw > div > div, 
-  [data-balloonish="dims"] {
+  [data-balloonish~="dims"] {
     max-width: 400px;
   }
 }
 @media only screen and (min-height: 500px) {
   div.gm-style-iw > div > div, 
-  [data-balloonish="dims"] {
+  [data-balloonish~="dims"] {
     max-height: 300px;
   }
 }
@@ -41,7 +41,7 @@ div.gm-style-iw > div > div,
   @media only screen and (orientation: landscape) {
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
       div.gm-style-iw > div > div, 
-      [data-balloonish="dims"] {
+      [data-balloonish~="dims"] {
         max-height: 170px;
         max-width: 268px;
       }
@@ -49,7 +49,7 @@ div.gm-style-iw > div > div,
 
     @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
       div.gm-style-iw > div > div, 
-      [data-balloonish="dims"] {
+      [data-balloonish~="dims"] {
         max-height: 170px;
         max-width: 200px;
       }
@@ -57,7 +57,7 @@ div.gm-style-iw > div > div,
 
     @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
       div.gm-style-iw > div > div, 
-      [data-balloonish="dims"] {
+      [data-balloonish~="dims"] {
         max-height: 225px;
         max-width: 400px;
       }
@@ -65,7 +65,7 @@ div.gm-style-iw > div > div,
 
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
       div.gm-style-iw > div > div, 
-      [data-balloonish="dims"] {
+      [data-balloonish~="dims"] {
         max-height: 225px;
         max-width: 367px;
       }
@@ -73,7 +73,7 @@ div.gm-style-iw > div > div,
 
     @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
       div.gm-style-iw > div > div, 
-      [data-balloonish="dims"] {
+      [data-balloonish~="dims"] {
         max-height: 264px;
         max-width: 400px;
       }
@@ -82,7 +82,7 @@ div.gm-style-iw > div > div,
 
   @media only screen and (orientation: portrait) {
     div.gm-style-iw > div > div, 
-    [data-balloonish="dims"] {
+    [data-balloonish~="dims"] {
       max-height: 300px;
       max-width: 200px;
     }
@@ -90,7 +90,7 @@ div.gm-style-iw > div > div,
 
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     div.gm-style-iw > div > div, 
-    [data-balloonish="dims"] {
+    [data-balloonish~="dims"] {
       max-height: 300px;
       max-width: 400px;
     }
