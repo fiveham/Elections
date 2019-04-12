@@ -11,7 +11,33 @@
     </Style>
     <Placemark>
       <name>BEAUFORT COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>1308 HIGHLAND DR, #104&lt;br&gt;WASHINGTON, NC 27889&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          1308 HIGHLAND DR, #104<br>
+          WASHINGTON, NC 27889<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-77.0363866,35.5497142</coordinates>
@@ -19,7 +45,33 @@
     </Placemark>
     <Placemark>
       <name>CAMDEN COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>117 NC 343 HWY N&lt;br&gt;CAMDEN, NC 27921&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          117 NC 343 HWY N<br>
+          CAMDEN, NC 27921<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-76.174975,36.329205</coordinates>
@@ -27,7 +79,33 @@
     </Placemark>
     <Placemark>
       <name>CARTERET COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>1702 LIVE OAK ST&lt;br&gt;BEAUFORT, NC 28516&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          1702 LIVE OAK ST<br>
+          BEAUFORT, NC 28516<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-76.639015,34.7286057</coordinates>
@@ -35,7 +113,34 @@
     </Placemark>
     <Placemark>
       <name>WESTERN PARK COMMUNITY CENTER</name>
-      <description>(CARTERET COUNTY)&lt;br&gt;275 OLD HIGHWAY 58&lt;br&gt;CEDAR POINT, NC 28584&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          (CARTERET COUNTY)<br>
+          275 OLD HIGHWAY 58<br>
+          CEDAR POINT, NC 28584<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-77.0728635,34.6942241</coordinates>
@@ -43,7 +148,33 @@
     </Placemark>
     <Placemark>
       <name>CHOWAN COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>730 N GRANVILLE ST&lt;br&gt;EDENTON, NC 27932&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          730 N GRANVILLE ST<br>
+          EDENTON, NC 27932<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-76.6078806,36.0693771</coordinates>
@@ -51,7 +182,33 @@
     </Placemark>
     <Placemark>
       <name>CRAVEN COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>406 CRAVEN ST&lt;br&gt;NEW BERN, NC 28560&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          406 CRAVEN ST<br>
+          NEW BERN, NC 28560<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-77.0373312,35.108227</coordinates>
@@ -59,7 +216,33 @@
     </Placemark>
     <Placemark>
       <name>CURRITUCK COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>2811 CARATOKE HWY&lt;br&gt;CURRITUCK, NC 27929&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 3:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 3:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          2811 CARATOKE HWY<br>
+          CURRITUCK, NC 27929<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>9:00 AM - 3:00 PM</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>9:00 AM - 3:00 PM</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-76.020372,36.453015</coordinates>
@@ -67,7 +250,33 @@
     </Placemark>
     <Placemark>
       <name>DARE COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>954 MARSHALL COLLINS DR&lt;br&gt;MANTEO, NC 27954&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;8:30 AM - 1:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          954 MARSHALL COLLINS DR<br>
+          MANTEO, NC 27954<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>8:30 AM - 1:00 PM</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-75.663839,35.890322</coordinates>
@@ -75,7 +284,34 @@
     </Placemark>
     <Placemark>
       <name>BAUM CENTER</name>
-      <description>(DARE COUNTY)&lt;br&gt;300 MUSTIAN ST&lt;br&gt;KILL DEVIL HILLS, NC 27948&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;8:30 AM - 1:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          (DARE COUNTY)<br>
+          300 MUSTIAN ST<br>
+          KILL DEVIL HILLS, NC 27948<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>8:30 AM - 1:00 PM</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-75.66234,36.011032</coordinates>
@@ -83,7 +319,34 @@
     </Placemark>
     <Placemark>
       <name>FESSENDEN ANNEX</name>
-      <description>(DARE COUNTY)&lt;br&gt;47017 BUXTON BACK RD&lt;br&gt;BUXTON, NC 27920&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;8:30 AM - 1:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          (DARE COUNTY)<br>
+          47017 BUXTON BACK RD<br>
+          BUXTON, NC 27920<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>8:30 AM - 1:00 PM</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-75.52942139999999,35.2649636</coordinates>
@@ -91,7 +354,33 @@
     </Placemark>
     <Placemark>
       <name>GREENE COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>110 SE FIRST ST&lt;br&gt;SNOW HILL, NC 28580&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;1:00 PM - 4:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 1:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          110 SE FIRST ST<br>
+          SNOW HILL, NC 28580<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>1:00 PM - 4:00 PM</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>8:00 AM - 1:00 PM</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-77.6694055,35.4556061</coordinates>
@@ -99,7 +388,33 @@
     </Placemark>
     <Placemark>
       <name>HYDE COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>1223 MAIN ST&lt;br&gt;SWAN QUARTER, NC 27885&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          1223 MAIN ST<br>
+          SWAN QUARTER, NC 27885<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-76.319776,35.421323</coordinates>
@@ -107,7 +422,18 @@
     </Placemark>
     <Placemark>
       <name>OCRACOKE VOLUNTEER FIRE DEPARTMENT</name>
-      <description>(HYDE COUNTY)&lt;br&gt;822 IRVIN GARRISH HWY&lt;br&gt;OCRACOKE, NC 27960&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          (HYDE COUNTY)<br>
+          822 IRVIN GARRISH HWY<br>
+          OCRACOKE, NC 27960<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Thu</td><td>4/18/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-75.9772088,35.1086569</coordinates>
@@ -115,7 +441,33 @@
     </Placemark>
     <Placemark>
       <name>JONES COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>367 NC HWY 58 S, #B&lt;br&gt;TRENTON, NC 28585&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          367 NC HWY 58 S, #B<br>
+          TRENTON, NC 28585<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>Closed</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-77.3567139,35.0564287</coordinates>
@@ -123,7 +475,33 @@
     </Placemark>
     <Placemark>
       <name>LENOIR COUNTY COOPERATIVE EXTENSION SERVICE</name>
-      <description>1791 NC HWY 11-55&lt;br&gt;KINSTON, NC 28504&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;8:30 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;8:30 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          1791 NC HWY 11-55<br>
+          KINSTON, NC 28504<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>8:30 AM - 5:00 PM</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>8:30 AM - 5:00 PM</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-77.61932019999999,35.2411991</coordinates>
@@ -131,7 +509,34 @@
     </Placemark>
     <Placemark>
       <name>LAGRANGE COMMUNITY BUILDING</name>
-      <description>(LENOIR COUNTY)&lt;br&gt;410 E WASHINGTON ST&lt;br&gt;LA GRANGE, NC 28551&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;8:30 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;8:30 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          (LENOIR COUNTY)<br>
+          410 E WASHINGTON ST<br>
+          LA GRANGE, NC 28551<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>8:30 AM - 5:00 PM</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>8:30 AM - 5:00 PM</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-77.781825,35.3017353</coordinates>
@@ -139,7 +544,34 @@
     </Placemark>
     <Placemark>
       <name>TEACHERS MEMORIAL GYM</name>
-      <description>(LENOIR COUNTY)&lt;br&gt;500 MARCELLA DR&lt;br&gt;KINSTON, NC 28501&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;8:30 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;8:30 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          (LENOIR COUNTY)<br>
+          500 MARCELLA DR<br>
+          KINSTON, NC 28501<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>8:30 AM - 5:00 PM</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>8:30 AM - 5:00 PM</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-77.574777,35.287202</coordinates>
@@ -147,7 +579,33 @@
     </Placemark>
     <Placemark>
       <name>ONSLOW COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>246 GEORGETOWN RD&lt;br&gt;JACKSONVILLE, NC 28540&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          246 GEORGETOWN RD<br>
+          JACKSONVILLE, NC 28540<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-77.446512,34.743011</coordinates>
@@ -155,7 +613,33 @@
     </Placemark>
     <Placemark>
       <name>PAMLICO COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>202 MAIN ST&lt;br&gt;BAYBORO, NC 28515&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          202 MAIN ST<br>
+          BAYBORO, NC 28515<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-76.77093719999999,35.143263</coordinates>
@@ -163,7 +647,33 @@
     </Placemark>
     <Placemark>
       <name>PASQUOTANK COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>1409 PARKVIEW DR&lt;br&gt;ELIZABETH CITY, NC 27909&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          1409 PARKVIEW DR<br>
+          ELIZABETH CITY, NC 27909<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-76.2073345,36.2841411</coordinates>
@@ -171,7 +681,33 @@
     </Placemark>
     <Placemark>
       <name>PERQUIMANS COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>601 S EDENTON ROAD RD, #A&lt;br&gt;HERTFORD, NC 27944&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;8:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          601 S EDENTON ROAD RD, #A<br>
+          HERTFORD, NC 27944<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>8:00 AM - 5:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-76.474792,36.178433</coordinates>
@@ -179,7 +715,34 @@
     </Placemark>
     <Placemark>
       <name>COMMUNITY SCHOOLS BUILDING</name>
-      <description>(PITT COUNTY)&lt;br&gt;4561 COUNTY HOME RD&lt;br&gt;GREENVILLE, NC 27858&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;7:00 AM - 7:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          (PITT COUNTY)<br>
+          4561 COUNTY HOME RD<br>
+          GREENVILLE, NC 27858<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>7:00 AM - 7:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-77.3490715,35.5491801</coordinates>
@@ -187,7 +750,33 @@
     </Placemark>
     <Placemark>
       <name>TYRRELL COUNTY BOARD OF ELECTIONS OFFICE</name>
-      <description>403 MAIN ST&lt;br&gt;COLUMBIA, NC 27925&lt;br&gt;&lt;br&gt;&lt;b&gt;Early Voting Days and Times&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/10/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/11/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/12/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/13/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/14/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/15/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/16/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/17/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/18/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/19/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sat&lt;/td&gt;&lt;td&gt;4/20/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sun&lt;/td&gt;&lt;td&gt;4/21/2019&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mon&lt;/td&gt;&lt;td&gt;4/22/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Tue&lt;/td&gt;&lt;td&gt;4/23/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Wed&lt;/td&gt;&lt;td&gt;4/24/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thu&lt;/td&gt;&lt;td&gt;4/25/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Fri&lt;/td&gt;&lt;td&gt;4/26/2019&lt;/td&gt;&lt;td&gt;9:00 AM - 5:00 PM&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description>
+      <description>
+        <![CDATA[
+          403 MAIN ST<br>
+          COLUMBIA, NC 27925<br>
+          <br>
+          <b>Early Voting Days and Times</b><br>
+          <table>
+            <tr><td>Wed</td><td>4/10/2019</td><td>9:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/11/2019</td><td>9:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/12/2019</td><td>9:00 AM - 5:00 PM</td></tr>
+            <tr><td>Sat</td><td>4/13/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/14/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/15/2019</td><td>9:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/16/2019</td><td>9:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/17/2019</td><td>9:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/18/2019</td><td>9:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/19/2019</td><td>Closed</td></tr>
+            <tr><td>Sat</td><td>4/20/2019</td><td>Closed</td></tr>
+            <tr><td>Sun</td><td>4/21/2019</td><td>Closed</td></tr>
+            <tr><td>Mon</td><td>4/22/2019</td><td>9:00 AM - 5:00 PM</td></tr>
+            <tr><td>Tue</td><td>4/23/2019</td><td>9:00 AM - 5:00 PM</td></tr>
+            <tr><td>Wed</td><td>4/24/2019</td><td>9:00 AM - 5:00 PM</td></tr>
+            <tr><td>Thu</td><td>4/25/2019</td><td>9:00 AM - 5:00 PM</td></tr>
+            <tr><td>Fri</td><td>4/26/2019</td><td>9:00 AM - 5:00 PM</td></tr>
+          </table>
+        ]]>
+      </description>
       <styleUrl>#nc03</styleUrl>
       <Point>
         <coordinates>-76.2518722,35.9175508</coordinates>
