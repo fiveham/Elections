@@ -119,11 +119,19 @@
       }
       
       #about-modal td {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding-top: 1px;
+        padding-bottom: 1px;
       }
       #about-modal tr {
-        min-height: 28px;
+        min-height: 30px;
+      }
+      
+      #about-modal table td {
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      #about-modal table td:first-of-type {
+        max-width: 25px;
       }
     </style>
     
@@ -154,8 +162,8 @@
             <table>
               <tr><th>Symbol</th><th>Site Type</th></tr>
               <tr>
-                <td><img src="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/COUNTY-C.png" 
-                         title="Capital letter C" height="25" width="25"></td>
+                <td style="background-image: url("https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/COUNTY-C.png");" 
+                    title="Capital letter C"></td>
                 <td>County Board of Elections</td></tr>
               <tr>
                 <td><img src="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/bookstack_50x49.png" 
