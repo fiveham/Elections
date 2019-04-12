@@ -59,18 +59,22 @@
                                         supported by Chrome and Opera */
       }
       
-      .closer[role="button"] {
+      #about-modal .closer[role="button"] {
         position: absolute;
         top: 0;
         right: 0;
+        z-index: 1; /* Place closer over other content of modal */
       }
       
       #about-modal {
         visibility: hidden;
-        max-width: 95%;
-        max-height: 95%;
         background-color: white;
         padding: 10px;
+      }
+      
+      #about-modal > p:first-of-type {
+        font-weight: bold;
+        font-size: larger;
       }
     </style>
     
@@ -92,7 +96,7 @@
     </div>
     
     <!-- 'About' modal -->
-    <div id="about-modal" class="installed-controls">
+    <div id="about-modal" data-balloonish="dims">
       <div role="button" class="closer no-select" onclick="toggle_modal()">X</div>
       <p>Sites with Voter Registration Forms in North Carolina</p>
       <p>DMV driver's license offices, public high schools, the Department of Social Services, WIC offices, public libraries, and
