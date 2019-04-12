@@ -23,8 +23,8 @@ div.gm-style-iw table tr:last-of-type
 [data-balloonish~="guts"] table tr:last-of-type {
   border-bottom: none;
 }
-div.gm-style-iw table > th,
-[data-balloonish~="guts"] table > th {
+div.gm-style-iw table th,
+[data-balloonish~="guts"] table th {
   text-align: left;
 }
 
