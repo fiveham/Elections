@@ -9,6 +9,14 @@
   background-color: #fff;
 }
 
+.installed-controls.left {
+  margin-left: 10px;
+}
+
+.installed-controls.bottom {
+  margin-bottom: 10px;
+}
+
 .text-control {
   height: 40px;
 }
