@@ -20,16 +20,24 @@ div.gm-style-iw table,
 [data-balloonish~="guts"] table {
   border-collapse: collapse;
 }
-div.gm-style-iw table tr,
+/*div.gm-style-iw table tr,
 [data-balloonish~="guts"] table tr {
   border-bottom: 1px solid black;
 }
 div.gm-style-iw table tr:last-of-type
 [data-balloonish~="guts"] table tr:last-of-type {
   border-bottom: none;
+}/**/
+div.gm-style-iw           table tr,
+[data-balloonish~="guts"] table tr {
+  border-top: none;
+}
+div.gm-style-iw           table tr ~ tr,
+[data-balloonish~="guts"] table tr ~ tr {
+  border-top: 1px solid black;
 }
 
-div.gm-style-iw table th,
+div.gm-style-iw           table th,
 [data-balloonish~="guts"] table th {
   text-align: left;
 }
@@ -39,11 +47,11 @@ div.gm-style-iw ul,
 [data-balloonish~="guts"] ul {
   padding-top: 0.5em;
 }
-div.gm-style-iw ul > li,
+div.gm-style-iw           ul > li,
 [data-balloonish~="guts"] ul > li {
   padding-top: 0.5em;
 }
-div.gm-style-iw ul > li:first-of-type,
+div.gm-style-iw           ul > li:first-of-type,
 [data-balloonish~="guts"] ul > li:first-of-type {
   padding-top: 0;
 }
