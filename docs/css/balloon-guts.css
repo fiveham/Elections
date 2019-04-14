@@ -16,7 +16,7 @@ div.gm-style-iw           table th:last-of-type,
   padding-right: 1px;
 }
 
-div.gm-style-iw table,
+div.gm-style-iw           table,
 [data-balloonish~="guts"] table {
   border-collapse: collapse;
 }
@@ -41,9 +41,9 @@ div.gm-style-iw           ul,
 }
 div.gm-style-iw           ul > li,
 [data-balloonish~="guts"] ul > li {
-  padding-top: 0.5em;
-}
-div.gm-style-iw           ul > li:first-of-type,
-[data-balloonish~="guts"] ul > li:first-of-type {
   padding-top: 0;
+}
+div.gm-style-iw           ul > li ~ li,
+[data-balloonish~="guts"] ul > li ~ li {
+  padding-top: 0.5em;
 }
