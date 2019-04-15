@@ -68,9 +68,7 @@
 }
 
 /* Align "Symbol" column heading to the centered symbols */
-#about-modal table th {
+#about-modal table th.center {
   text-align: center;
-}
-#about-modal table th ~ th{
-  text-align: left;
+  padding-right: 1px; /* match 1px left padding */
 }
