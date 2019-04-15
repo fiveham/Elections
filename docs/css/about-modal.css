@@ -80,3 +80,9 @@
   text-align: center;
   padding-right: 1px; /* match 1px left padding */
 }
+
+/* Pad left side of right column to compensate for centering left column */
+#about-modal table th:last-of-type,
+#about-modal table td:last-of-type {
+  padding-left: 5px;
+}
