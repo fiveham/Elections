@@ -3,6 +3,7 @@
   border-radius: 2px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
   background-color: #fff;
+  font-family: Roboto, Arial, sans-serif;
 }
 .installed-controls:hover,
 .installed:hover {
@@ -29,11 +30,25 @@
 
 .installed-controls.left,
 .installed.controls.left {
-  /*margin-left: 10px;*/
   margin: 0 0 0 10px;
 }
 
 .text-control,
 .installed.controls.text {
   height: 40px;
+  padding-left: 17px;
+  padding-right: 17px;
+  font-size: 18px;
+  vertical-align: middle;
+  line-height: 100%;
+  text-align: center;
+  display: table;
+}
+.text-control > span, 
+.installed.controls.text > span {
+  vertical-align: middle;
+  display: table-cell;
+  padding: 0;
+  margin: 0;
+  border: none;
 }
