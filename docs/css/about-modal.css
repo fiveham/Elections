@@ -16,6 +16,8 @@
   padding: 0 0 0 10px;
 }
 
+/* Pad the bottom of the modal a little bit when you scroll down 
+   all the way to the bottom so it won't feel so cramped. */
 #about-modal .content {
   padding-bottom: 10px;
 }
@@ -24,7 +26,8 @@
   overflow-y: auto;
   margin-top: 23px;
 }
-/* Based on Google Maps infowindows */
+
+/* Style scrollbar to match those in Google Maps infowindows */
 #about-modal .has-scrollbar::-webkit-scrollbar {
   width: 18px;
   height: 12px;
@@ -45,9 +48,8 @@
 #about-modal .has-scrollbar::-webkit-scrollbar-track-piece {
   background: #fff;
 }
-/*#about-modal .has-scrollbar::-webkit-scrollbar-button {}
-#about-modal .has-scrollbar::-webkit-resizer {}/**/
 
+/* For paragraphs that are just titles for sections */
 #about-modal p.heading {
   font-weight: bold;
   font-size: larger;
@@ -63,4 +65,9 @@
   background-size:     contain;
   background-position: center;
   background-origin:   padding-box;
+}
+
+/* Align "Symbol" column heading to the centered symbols */
+#about-modal table th:first-of-type {
+  text-align: center;
 }
