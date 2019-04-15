@@ -133,21 +133,6 @@
           zIndex: 0
         });
         
-        /* Add geolocator button to the map itself */
-        /*map.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById("geolocation"));*/
-        
-        /* Add layer-toggle to the map */
-        /*map.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById("layer-select"));*/
-        
-        /* Change opacity of elements added to map to 1 */
-        /*var triggers = ["tilesloaded","mousemove","zoom_changed","idle"];
-        for(var i = 0; i < triggers.length; i++){
-          google.maps.event.addListenerOnce(map, triggers[i], function(){
-            document.getElementById("geolocation").style.opacity = "1";
-            document.getElementById("layer-select").style.opacity = "1";
-          });
-        }*/
-        
         /* Give real values to layer-pointers */
         layer = eday;
         alt = early;
@@ -160,19 +145,6 @@
         add_widgets();
       }
       
-      /* Add listed widgets to the map and make them visible (set opacity to 1) */
-      /*function add_widgets(){
-        widgets.forEach(function(widget){
-          var element = document.getElementById(widget.id);
-          map.controls[widget.where].push(element); // Add widget to the map 
-          triggers.forEach(function(t){             // Make widget visible after any of the triggers 
-            google.maps.event.addListenerOnce(map, t, function(){
-              element.style.opacity = "1";          // Set opacity to 1 
-            });
-          });
-        });
-      }*/
-      
       function pp_toggle(){
         var temp = alt;
         alt = layer;
@@ -184,13 +156,6 @@
             ? "Election Day Sites" 
             : "Early Voting Sites");
       }
-      
-      /*function toggle_modal(){
-        var modal = document.getElementById("about-modal");
-        modal.style.visibility = (modal.style.visibility == "visible" 
-                                  ? "hidden" 
-                                  : "visible");
-      }*/
     </script>
     <script src="/Elections/js/geolocator.js"></script>
     <script src="/Elections/js/about-modal.js"></script>
