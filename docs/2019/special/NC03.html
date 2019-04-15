@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
     <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
     <style>
-      #layer-select{
+      /*#layer-select{
         line-height: 100%;
         text-align: center;
         vertical-align: middle;
@@ -43,7 +43,7 @@
         border: none;
         display: table-cell;
         vertical-align: middle;
-      }
+      }*/
     </style>
     
   </head>
@@ -52,7 +52,7 @@
     <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" title="Go to your geolocation"></div>
     
     <!-- Voting Site Toggle Button -->
-    <div id="layer-select" class="installed controls top text no-select" onclick="pp_toggle()" role="button" title="Switch active polling place layer">
+    <div id="pp-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" title="Switch active polling place layer">
       <span id="pp-swap">Election Day Sites</span>
     </div>
     
