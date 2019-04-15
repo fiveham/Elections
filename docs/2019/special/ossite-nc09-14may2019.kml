@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
- <Style id="os9">
-  <IconStyle>
-   <Icon>
-    <href>
-     https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/NC09-9.png
-    </href>
-   </Icon>
-  </IconStyle>
- </Style>
  <Document>
+  <Style id="os9">
+   <IconStyle>
+    <Icon>
+     <href>
+      https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/NC09-9.png
+     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
   <name>
    NC 9th Congressional District 2019 Primary May 14 Early Voting Sites
   </name>
