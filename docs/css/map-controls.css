@@ -6,7 +6,6 @@
   font-family: Roboto, Arial, sans-serif;
 }
 
-.installed-controls,
 .installed.controls {
   opacity: 0;
   transition: opacity 1s ease-in;
@@ -21,27 +20,22 @@
   user-select:           none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
 }
-.installed-controls:hover,
 .installed.controls:hover {
   background-color: #ebebeb;
 }
 
-.top-control,
 .installed.controls.top {
   margin: 10px 10px 0 0;
 }
 
-.installed-controls.bottom,
 .installed.controls.bottom {
   margin-bottom: 10px;
 }
 
-.installed-controls.left,
 .installed.controls.left {
   margin: 0 0 0 10px;
 }
 
-.text-control,
 .installed.controls.text {
   height: 40px;
   padding-left: 17px;
@@ -52,7 +46,6 @@
   text-align: center;
   display: table;
 }
-.text-control > span, 
 .installed.controls.text > span {
   vertical-align: middle;
   display: table-cell;
