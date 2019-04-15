@@ -1,4 +1,5 @@
-.installed-controls {
+.installed-controls,
+.installed.controls {
   position: absolute;
   opacity: 0;
   transition: opacity 1s ease-in;
@@ -9,26 +10,28 @@
   background-color: #fff;
 }
 
-.installed-controls.left {
-  margin-left: 10px;
-}
-
-.installed-controls.bottom {
-  margin-bottom: 10px;
-}
-
-.text-control {
-  height: 40px;
-}
-
-.installed-controls:hover {
+.installed-controls:hover,
+.installed.controls:hover {
   background-color: #ebebeb;
 }
 
-.top-control {
+.top-control,
+.installed.controls.top {
   margin: 10px 10px 0 0;
 }
 
-.left-control {
+.installed-controls.bottom,
+.installed.controls.bottom {
+  margin-bottom: 10px;
+}
+
+.installed-controls.left,
+.installed.controls.left {
+  /*margin-left: 10px;*/
   margin: 0 0 0 10px;
+}
+
+.text-control,
+.installed.controls.text {
+  height: 40px;
 }
