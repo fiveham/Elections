@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
+ <Style id="os9">
+  <IconStyle>
+   <Icon>
+    <href>
+     https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/NC09-9.png
+    </href>
+   </Icon>
+  </IconStyle>
+ </Style>
+ <Document>
+  <name>
+   NC 9th Congressional District 2019 Primary May 14 Early Voting Sites
+  </name>
+  <Placemark>
+   <name>
+    ANSON COUNTY BOARD OF ELECTIONS OFFICE
+   </name>
+   <description>
+    <![CDATA[402 MORVEN RD<br>WADESBORO, NC 28170<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>Closed</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>Closed</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>8:30 AM - 5:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -80.07588620000001,34.9622563
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    BLADEN COUNTY BOARD OF ELECTIONS OFFICE
+   </name>
+   <description>
+    <![CDATA[301 S CYPRESS ST<br>ELIZABETHTOWN, NC 28337<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>Closed</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>Closed</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>8:30 AM - 5:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>8:30 AM - 5:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -78.6048043,34.6263304
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    CUMBERLAND COUNTY BOARD OF ELECTIONS OFFICE
+   </name>
+   <description>
+    <![CDATA[227 FOUNTAINHEAD LN<br>FAYETTEVILLE, NC 28301<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>8:00 AM - 5:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>8:00 AM - 5:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>8:00 AM - 5:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>Closed</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>8:00 AM - 5:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>8:00 AM - 5:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>8:00 AM - 5:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>8:00 AM - 5:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>8:00 AM - 5:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>Closed</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>8:00 AM - 5:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>8:00 AM - 5:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>8:00 AM - 5:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>8:00 AM - 5:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>8:00 AM - 5:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -78.8897057,35.0537545
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    HAL MARSHALL ANNEX
+   </name>
+   <description>
+    <![CDATA[618 N COLLEGE ST<br>CHARLOTTE, NC 28202<br>(Mecklenburg County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>7:00 AM - 7:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -80.835877,35.2300759
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    ELON PARK RECREATION CENTER
+   </name>
+   <description>
+    <![CDATA[11401 ARDREY KELL RD<br>CHARLOTTE, NC 28277<br>(Mecklenburg County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>7:00 AM - 7:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -80.8434868,35.0206023
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    MAIN BRANCH LIBRARY
+   </name>
+   <description>
+    <![CDATA[310 N TRYON ST<br>CHARLOTTE, NC 28202<br>(Mecklenburg County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>7:00 AM - 7:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -80.8399939,35.2285943
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    MATTHEWS LIBRARY
+   </name>
+   <description>
+    <![CDATA[230 MATTHEWS STATION ST<br>MATTHEWS, NC 28105<br>(Mecklenburg County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>7:00 AM - 7:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -80.7183273,35.1160048
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    MINT HILL LIBRARY
+   </name>
+   <description>
+    <![CDATA[6840 MATTHEWS-MINT HILL RD<br>CHARLOTTE, NC 28227<br>(Mecklenburg County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>7:00 AM - 7:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -80.6588326,35.171705
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    MORRISON REGIONAL LIBRARY
+   </name>
+   <description>
+    <![CDATA[7015 MORRISON BLVD<br>CHARLOTTE, NC 28211<br>(Mecklenburg County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>7:00 AM - 7:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -80.8228566,35.1516718
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    SOUTH COUNTY REGIONAL LIBRARY
+   </name>
+   <description>
+    <![CDATA[5801 REA RD<br>CHARLOTTE, NC 28277<br>(Mecklenburg County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>9:00 AM - 1:00 PM</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>7:00 AM - 7:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -80.8115699,35.0865451
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    COOPERATIVE EXTENSION OFFICE
+   </name>
+   <description>
+    <![CDATA[123 CAROLINE ST<br>ROCKINGHAM, NC 28379<br>(Richmond County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>Closed</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>Closed</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>7:00 AM - 7:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -79.7777476,34.9393058
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    ROBESON COUNTY BOARD OF ELECTIONS OFFICE
+   </name>
+   <description>
+    <![CDATA[800 N WALNUT ST<br>LUMBERTON, NC 28358<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>8:15 AM - 5:15 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>8:15 AM - 5:15 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>8:15 AM - 5:15 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>Closed</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>8:15 AM - 5:15 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>8:15 AM - 5:15 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>8:15 AM - 5:15 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>8:15 AM - 5:15 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>8:15 AM - 5:15 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>Closed</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>8:15 AM - 5:15 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>8:15 AM - 5:15 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>8:15 AM - 5:15 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>8:15 AM - 5:15 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>8:15 AM - 5:15 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -79.0056278,34.6227539
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    PEMBROKE LIBRARY
+   </name>
+   <description>
+    <![CDATA[413 BLAINE ST<br>PEMBROKE, NC 28372<br>(Robeson County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>Closed</td></tr><tr><td>Thu</td><td>April 28</td><td>1:00 PM - 4:00 PM</td></tr><tr><td>Fri</td><td>April 29</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>8:00 AM - 1:00 PM</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>7:00 AM - 7:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -79.1930972,34.6761594
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    SCOTLAND COUNTY BOARD OF ELECTIONS OFFICE
+   </name>
+   <description>
+    <![CDATA[231 E CRONLY ST, #305<br>LAURINBURG, NC 28352<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>Closed</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>Closed</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>7:00 AM - 7:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -79.459863,34.7746378
+    </coordinates>
+   </Point>
+  </Placemark>
+  <Placemark>
+   <name>
+    GRIFFIN ROOM, UNION COUNTY PUBLIC LIBRARY
+   </name>
+   <description>
+    <![CDATA[316 E WINDSOR ST, #A<br>MONROE, NC 28112<br><br><b>Early Voting Days and Times</b><br><table><tr><td>Sun</td><td>April 24</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>April 25</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>April 26</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>April 27</td><td>8:00 AM - 1:00 PM</td></tr><tr><td>Thu</td><td>April 28</td><td>Closed</td></tr><tr><td>Fri</td><td>April 29</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sat</td><td>April 30</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 1</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 2</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 3</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Thu</td><td>May 4</td><td>8:00 AM - 1:00 PM</td></tr><tr><td>Fri</td><td>May 5</td><td>Closed</td></tr><tr><td>Sat</td><td>May 6</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Sun</td><td>May 7</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Mon</td><td>May 8</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Tue</td><td>May 9</td><td>7:00 AM - 7:00 PM</td></tr><tr><td>Wed</td><td>May 10</td><td>7:00 AM - 7:00 PM</td></tr></table>]]>
+   </description>
+   <styleUrl>
+    #os9
+   </styleUrl>
+   <Point>
+    <coordinates>
+     -80.5460153,34.9808926
+    </coordinates>
+   </Point>
+  </Placemark>
+ </Document>
+</kml>
