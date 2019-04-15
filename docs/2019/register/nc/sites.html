@@ -30,6 +30,7 @@
     <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
     <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
     <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
     <style>
       .controls.text {
         padding-left: 17px;
@@ -57,75 +58,6 @@
         -ms-user-select:       none; /* Internet Explorer/Edge */
         user-select:           none; /* Non-prefixed version, currently
                                         supported by Chrome and Opera */
-      }
-      
-      #about-modal .closer[role="button"] {
-        cursor: pointer;
-        font-size: larger;
-        position: absolute;
-        padding: 2px 3px; /* Maybe 0.3em or something would be better */
-        top: 0;
-        right: 0;
-        z-index: 1; /* Place closer over other content of modal */
-      }
-      
-      #about-modal {
-        border-radius: 2px;
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
-        position: absolute;
-        font-size: larger;
-        visibility: hidden;
-        background-color: white;
-        padding: 0 0 0 10px;
-      }
-      
-      #about-modal .content {
-        padding-bottom: 10px;
-      }
-      
-      #about-modal .has-scrollbar {
-        overflow-y: auto;
-        margin-top: 23px;
-      }
-      /* Based on Google Maps infowindows */
-      #about-modal .has-scrollbar::-webkit-scrollbar {
-        width: 18px;
-        height: 12px;
-        -moz-appearance: none;
-        -webkit-appearance: none;
-        appearance: none;
-      }
-      #about-modal .has-scrollbar::-webkit-scrollbar-corner {
-        background: transparent;
-      }
-      #about-modal .has-scrollbar::-webkit-scrollbar-thumb {
-        background-color: rgba(0,0,0,0.12);
-        border: 6px solid transparent;
-        border-radius: 9px;
-        background-clip: content-box;
-      }
-      #about-modal .has-scrollbar::-webkit-scrollbar-track, 
-      #about-modal .has-scrollbar::-webkit-scrollbar-track-piece {
-        background: #fff;
-      }
-      /*#about-modal .has-scrollbar::-webkit-scrollbar-button {}
-      #about-modal .has-scrollbar::-webkit-resizer {}/**/
-      
-      #about-modal p.heading {
-        font-weight: bold;
-        font-size: larger;
-      }
-      
-      #about-modal td {
-        padding-top: 1px;
-        padding-bottom: 1px;
-      }
-      
-      #about-modal table td {
-        background-repeat:   no-repeat;
-        background-size:     contain;
-        background-position: center;
-        background-origin:   padding-box;
       }
     </style>
     
