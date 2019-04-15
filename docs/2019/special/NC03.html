@@ -167,7 +167,7 @@
           map.controls[widget.where].push(element); // Add widget to the map 
           triggers.forEach(function(t){             // Make widget visible after any of the triggers 
             google.maps.event.addListenerOnce(map, t, function(){
-              element.style.opacity = "1"; /* Set opacity to 1 */
+              element.style.opacity = "1";          // Set opacity to 1 
             });
           });
         });
