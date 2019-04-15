@@ -5,10 +5,6 @@
   background-color: #fff;
   font-family: Roboto, Arial, sans-serif;
 }
-.installed-controls:hover,
-.installed:hover {
-  background-color: #ebebeb;
-}
 
 .installed-controls,
 .installed.controls {
@@ -16,6 +12,18 @@
   transition: opacity 1s ease-in;
   user-select: none;
   cursor: pointer;
+  /* Prevent highlighting of controls */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select:   none; /* Safari */
+  -khtml-user-select:    none; /* Konqueror HTML */
+  -moz-user-select:      none; /* Firefox */
+  -ms-user-select:       none; /* Internet Explorer/Edge */
+  user-select:           none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.installed-controls:hover,
+.installed.controls:hover {
+  background-color: #ebebeb;
 }
 
 .top-control,
