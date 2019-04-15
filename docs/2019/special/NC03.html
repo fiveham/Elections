@@ -95,17 +95,14 @@
     
     <script>
       var map;
-      var widgets; /* Create for global access, populate inside initMap */
       var layer, alt;
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-toggler",  where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",   where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal", where: 13 /*google.maps.ControlPosition.CENTER*/}];
       
       function initMap() {
-        /* Populate widgets after google.maps is loaded */
-        widgets = [{id: "geolocation", where: google.maps.ControlPosition.TOP_LEFT}, 
-                   {id: "pp-toggler",  where: google.maps.ControlPosition.TOP_LEFT}, 
-                   {id: "about-btn",   where: google.maps.ControlPosition.LEFT_BOTTOM},
-                   {id: "about-modal", where: google.maps.ControlPosition.CENTER}];
-        
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 8,
           center: {lat: 35.61215525049109, lng: -76.6224810408075},
