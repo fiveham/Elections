@@ -44,13 +44,14 @@
     </div>
     
     <!-- 'About' button -->
-    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal()" role="button" title="About this map">
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
       <span>About</span>
     </div>
     
     <!-- 'About' modal -->
     <div id="about-modal" class="installed">
-      <div role="button" class="closer" onclick="toggle_modal()">X</div>
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
       <div class="has-scrollbar">
         <div class="box" data-balloonish="dims guts">
           <div class="content">
@@ -138,9 +139,7 @@
     <div id="map"></div>
     
     <script>
-      var map, ossites;
-      var widgets;
-      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var map, ossites, widgets, triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
       
       function initMap() {
         /* Populate widgets after google.maps is loaded */
@@ -192,30 +191,31 @@
       }
       
       /* Add listed widgets to the map and make them visible (set opacity to 1) */
-      function add_widgets(){
+      /*function add_widgets(){
         widgets.forEach(function(widget){
           var element = document.getElementById(widget.id);
-          map.controls[widget.where].push(element); /* Add widget to the map */
+          map.controls[widget.where].push(element); // Add widget to the map 
           triggers.forEach(function(t){
             google.maps.event.addListenerOnce(map, t, function(){
               element.style.opacity = "1"; /* Set opacity to 1 */
             });
           });
         });
-      }
+      }*/
       
       function os_toggle(){
         ossites.setMap( ossites.getMap() ? null : map );
       }
       
-      function toggle_modal(){
+      /*function toggle_modal(){
         var modal = document.getElementById("about-modal");
         modal.style.visibility = (modal.style.visibility == "visible" 
                                   ? "hidden" 
                                   : "visible");
-      }
+      }*/
     </script>
     <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
     </script>
