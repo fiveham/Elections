@@ -1,18 +1,20 @@
+.installed {
+  position: absolute;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+  background-color: #fff;
+}
+.installed-controls:hover,
+.installed:hover {
+  background-color: #ebebeb;
+}
+
 .installed-controls,
 .installed.controls {
-  position: absolute;
   opacity: 0;
   transition: opacity 1s ease-in;
   user-select: none;
-  border-radius: 2px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
   cursor: pointer;
-  background-color: #fff;
-}
-
-.installed-controls:hover,
-.installed.controls:hover {
-  background-color: #ebebeb;
 }
 
 .top-control,
