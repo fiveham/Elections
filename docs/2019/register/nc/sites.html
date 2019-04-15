@@ -139,7 +139,8 @@
     <div id="map"></div>
     
     <script>
-      var map, ossites, widgets, triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var map, widgets, triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var os_layers = [];
       
       function initMap() {
         /* Populate widgets after google.maps is loaded */
@@ -175,44 +176,49 @@
           zIndex: 0
         });
         
-        ossites = new google.maps.KmlLayer({
-          url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc03-30apr2019.kml',
-          map: map,
-          preserveViewport: true,
-          zIndex: 2
-        });
+        var now = new Date();
         
-        /* Turn one-stop site layer off automagically after 7PM Apr 30, the end of early voting */
-        if(new Date() > new Date(2019, 4, 26, 19, 0, 0, 0)){
-          ossites.setMap(null);
+        /* load NC03 early voting sites if now is before the end of nc03 early voting */
+        var end3ev = new Date(2019, 4, 26, 19, 0, 0, 0);
+        if(now < end3ev){
+          var ossites3 = new google.maps.KmlLayer({
+            url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc03-30apr2019.kml',
+            map: null,
+            preserveViewport: true,
+            zIndex: 2
+          });
+          os_layers.push(ossites3);
         }
         
+        /* load nc09 one-stop sides if now is before the end of nc09 early voting */
+        var end9ev = new Date(2019, 5, 10, 19, 0, 0, 0);
+        if(now < end9ev){
+          var ossites9 = new google.maps.KmlLayer({
+            url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc09-14may2019.kml',
+            map: null,
+            preserveViewport: true,
+            zIndex: 2
+          });
+          os_layers.push(ossites9);
+        }
+        
+        /* Set all loaded one-stop layers visible */
+        /* Using this function to turn the layers on initially relies on the layers being initialized with map:null */
+        os_toggle(true);
+        
+        /* Add all registered widgets to the map */
         add_widgets();
       }
       
-      /* Add listed widgets to the map and make them visible (set opacity to 1) */
-      /*function add_widgets(){
-        widgets.forEach(function(widget){
-          var element = document.getElementById(widget.id);
-          map.controls[widget.where].push(element); // Add widget to the map 
-          triggers.forEach(function(t){
-            google.maps.event.addListenerOnce(map, t, function(){
-              element.style.opacity = "1"; // Set opacity to 1
-            });
+      function os_toggle(auto){
+        if(os_layers){
+          os_layers.forEach(function(layer){
+            layer.setMap(layer.getMap() ? null : map);
           });
-        });
-      }*/
-      
-      function os_toggle(){
-        ossites.setMap( ossites.getMap() ? null : map );
+        } else if(!auto) {
+          alert("One-stop sites are no longer operating.");
+        }
       }
-      
-      /*function toggle_modal(){
-        var modal = document.getElementById("about-modal");
-        modal.style.visibility = (modal.style.visibility == "visible" 
-                                  ? "hidden" 
-                                  : "visible");
-      }*/
     </script>
     <script src="/Elections/js/geolocator.js"></script>
     <script src="/Elections/js/about-modal.js"></script>
