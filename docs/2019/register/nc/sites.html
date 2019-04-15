@@ -197,7 +197,7 @@
           map.controls[widget.where].push(element); // Add widget to the map 
           triggers.forEach(function(t){
             google.maps.event.addListenerOnce(map, t, function(){
-              element.style.opacity = "1"; /* Set opacity to 1 */
+              element.style.opacity = "1"; // Set opacity to 1
             });
           });
         });
