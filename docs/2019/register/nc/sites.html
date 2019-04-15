@@ -139,16 +139,15 @@
     <div id="map"></div>
     
     <script>
-      var map, widgets, triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var map;
       var os_layers = [];
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "os-toggler",  where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",   where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal", where: 13 /*google.maps.ControlPosition.CENTER*/}];
       
       function initMap() {
-        /* Populate widgets after google.maps is loaded */
-        widgets = [{id: "geolocation", where: google.maps.ControlPosition.TOP_LEFT}, 
-                   {id: "os-toggler",  where: google.maps.ControlPosition.TOP_LEFT}, 
-                   {id: "about-btn",   where: google.maps.ControlPosition.LEFT_BOTTOM},
-                   {id: "about-modal", where: google.maps.ControlPosition.CENTER}];
-        
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 7,
           center: {lat: 35.665577, lng: -80.092859},
