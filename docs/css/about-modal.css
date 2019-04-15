@@ -21,7 +21,7 @@
 #about-modal {
   font-size: larger;
   visibility: hidden;
-  padding: 0 0 0 10px;
+  padding: 0 0 5px 10px;
 }
 
 /* Pad the bottom of the modal a little bit when you scroll down 
