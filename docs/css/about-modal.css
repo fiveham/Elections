@@ -68,6 +68,9 @@
 }
 
 /* Align "Symbol" column heading to the centered symbols */
-#about-modal table th:first-of-type {
+#about-modal table th {
   text-align: center;
+}
+#about-modal table th ~ th{
+  text-align: left;
 }
