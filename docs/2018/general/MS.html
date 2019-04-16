@@ -616,7 +616,21 @@
         }
         
         //turn on the initial map layers
-        updateLayers();
+        //updateLayers();
+        
+        //Load and turn on the north and south halves of the map
+        var north = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2018/general/MS Precincts North.kml',
+          map: map,
+          preserveViewport: true,
+          zIndex: 1
+        });
+        var south = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2018/general/MS Precincts South.kml',
+          map: map,
+          preserveViewport: true,
+          zIndex: 1
+        });
       }
       
       function geolocate() {
