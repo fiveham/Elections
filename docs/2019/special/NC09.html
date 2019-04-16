@@ -4,37 +4,108 @@
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-rwb-check.png">
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-    <meta property="og:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-reg-map-screenshot-square.png" />
-    <meta property="og:image:url" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-reg-map-screenshot-square.png" />
-    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-reg-map-screenshot-square.png" />
-    <meta property="og:image:alt" content="A satelite image of the eastern coast of North America from Maryland to Florida overlaid by a semitransparent gray polygon covering North Carolina. Sites required by the NVRA to provide voter registration forms are marked across the state by icons indicating the type of site." />
+    <meta property="og:image" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc09-special.png" />
+    <meta property="og:image:url" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc09-special.png" />
+    <meta property="og:image:secure_url" 
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc09-special.png" />
+    <meta property="og:image:alt" 
+          content="A satelite image of central North Carolina overlaid by a semitransparent white polygon covering North Carolina's ninth congressional district and multicolored markers indicating election-day polling places." />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1960" />
-    <meta property="og:image:height" content="1960" />
+    <meta property="og:image:width" content="632" />
+    <meta property="og:image:height" content="559" />
     <meta property="og:url" content="https://fiveham.github.io/Elections/2019/special/NC09.html" />
     <meta property="og:type" content="website" />
     <meta property="og:determiner" content="" />
-    <meta property="og:title" content="NC09 Special Election - Interactive Map" />
-    <meta property="og:description" content="Interactive map of polling places and candidates for the 2019 special election in North Carolina's ninth congressional district." />
+    <meta property="og:title" content="NC-09 Congressional Special Election May 14th - Interactive Map" />
+    <meta property="og:description" 
+          content="Interactive map of polling places and candidates for the 2019 special election in North Carolina's ninth congressional district." />
     
-    <title>NC09 Special Election - Interactive Map</title>
+    <title>NC-09 Congressional Special Election May 14th - Interactive Map</title>
     
     <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
     <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
     <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
     <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
     <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
-    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      div.gm-style-iw > div.gm-style-iw-d > div > div > div:before {
+        content: 'May 14th ';
+      }
+      div.gm-style-iw > div.gm-style-iw-d > div > div > div[style]:before, 
+      div.gm-style-iw > div.gm-style-iw-d > div > div > div[style] ~ div:before {
+        content: '';
+      }
+    </style>
   </head>
   <body>
-    <!-- Geolocator button -->
-    <div id="geolocation" class="geolocate installed-controls top-control" onclick="geolocate();" role="button" title="Go to your geolocation"></div>
+    <!-- Geolocator Button -->
+    <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" title="Go to your geolocation"></div>
     
-    <!-- The map -->
+    <!-- Voting Site Toggle Button -->
+    <div id="pp-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" title="Switch active polling place layer">
+      <span id="pp-swap">Election Day Sites</span>
+    </div>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">Legend</p>
+            <table>
+              <tr><th class="center">Symbol</th><th>Site Type</th></tr>
+              <tr>
+                <td style="background-image: url('https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/NC09-9.png');" 
+                    title="The digit 9"></td>
+                <td>One-Stop (Early) Voting Site</td></tr>
+              <tr>
+                <td style="background-image: url('https://maps.google.com/mapfiles/kml/paddle/purple-circle.png');" 
+                    title="Blue, yellow, green, and purple map marker icons"></td>
+                <td>Election-day polling places. Same county, same color.</td></tr>
+            </table>
+            <p class="heading">Candidates and Polling Places for the May 14th Election in NC's 9th Congressional District</p>
+            <p>The white background shape is the district (NC-09). When clicked, it'll pop up an infowindow listing the candidates, 
+               each paired with their party affiliation, all arranged in a table. The rows of the table are sorted in alphabetical 
+               order. Because party is listed before candidate name, this also clusters candidates by party.</p>
+            <p>Sites marked with a 9 are early voting sites, which also allow an unregistered individual to register to vote and 
+               then to vote immediately, provided that the person registering 
+               <a href="https://www.ncsbe.gov/Voters/Registering-to-Vote#item5_3" target="_blank">brings proof of name and 
+               address.</a></p>
+            <p>Sites marked with a blue, yellow, green, or purple generic map marker are election-day (April 30th) polling places. 
+               These are colored by county. Those in the same county have the same color, but each color is used by more than one 
+               county.</p>
+            <p class="heading">Note: Inaccuracies and Data Sources</p>
+            <p>The locations, names, and addresses of these sites were obtained from the North Carolina State Board of Elections's 
+               website, but individual counties are in charge of administering elections. It is possible that the state board's 
+               information may not be up to date in some cases. If so, then the name, address, and/or website photos of one or more 
+               polling places could be incorrect. <a href="https://vt.ncsbe.gov/BOEInfo">Contact your county board of elections</a> 
+               if you need to make sure of the location, name, address, etc. of your (or someone else's) polling place.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
     <div id="map"></div>
     
     <script>
       var map;
+      var layer, alt;
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-toggler",  where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",   where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal", where: 13 /*google.maps.ControlPosition.CENTER*/}];
       
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -43,16 +114,16 @@
           mapTypeId: 'hybrid'
         });
         
-        /*var early = new google.maps.KmlLayer({
-          url: 'ossites-primary-nc09.kml',
+        var early = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc09-14may2019.kml',
           map: map,
           preserveViewport: true,
           zIndex: 1
-        });*/
+        });
         
         var eday = new google.maps.KmlLayer({
-          url: 'may14.kml',
-          map: map,
+          url: 'http://fiveham.github.io/Elections/2019/special/nc09_may14.kml',
+          map: null,
           preserveViewport: true,
           zIndex: 1
         });
@@ -64,19 +135,32 @@
           zIndex: 0
         });
         
-        /* Add geolocator button to the map itself */
-        map.controls[google.maps.ControlPosition.TOP_LEFT].push(document.getElementById("geolocation"));
-        
-        /* Change opacity of elements added to map to 1 */
-        var triggers = ["tilesloaded","mousemove","zoom_changed","idle"];
-        for(var i = 0; i < triggers.length; i++){
-          google.maps.event.addListenerOnce(map, triggers[i], function(){
-            document.getElementById("geolocation").style.opacity = "1";
-          });
+        /* Give real values to layer-pointers */
+        layer = eday;
+        alt = early;
+        if((new Date()) < (new Date(2019, 5, 10, 19, 0, 0, 0))){ //May 10th at 7PM
+          pp_toggle();
         }
+        layer.setMap(map);
+        alt.setMap(null);
+        
+        add_widgets();
+      }
+      
+      function pp_toggle(){
+        var temp = alt;
+        alt = layer;
+        layer = temp;
+        layer.setMap(map);
+        alt.setMap(null);
+        document.getElementById("pp-swap").innerHTML = (
+            document.getElementById("pp-swap").innerHTML.startsWith("Early") 
+            ? "Election Day Sites" 
+            : "Early Voting Sites");
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
     </script>
