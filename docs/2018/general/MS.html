@@ -616,10 +616,13 @@
         }
         
         //turn on the initial map layers
-        //updateLayers();
+        updateLayers();
         
         //Load and turn on the north and south halves of the map
-        var north = new google.maps.KmlLayer({
+        //NOTE This won't work because the file size limit for a loaded file on kmllayers is 3MB
+        //Need to isolate each quarter of the text of the single-layer kml file into a separate 
+        //new file then compress those. That way there'll be four files each having a size under 3MB
+        /*var north = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2018/general/MS Precincts North.kml',
           map: map,
           preserveViewport: true,
@@ -630,7 +633,7 @@
           map: map,
           preserveViewport: true,
           zIndex: 1
-        });
+        });/**/
       }
       
       function geolocate() {
