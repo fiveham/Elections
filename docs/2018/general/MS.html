@@ -216,7 +216,7 @@
       
       /* Specify static fallbacks in case of lack of support for calc functions.
        * Allow a constant buffer size to fit the controls around the edges. */
-      div.googft-info-window{
+      div.gm-style-iw > div > div {
         max-height: 300px;
         max-height: -webkit-calc(100vh - 150px);
         max-height:   expression(100vh - 150px);
@@ -234,12 +234,12 @@
       /* Reduce balloon dimensions to the fallback
        * values when the screen is too large. */
       @media only screen and (min-width: 800px){
-        div.googft-info-window {
+        div.gm-style-iw > div > div {
           max-width: 400px;
         }
       }
       @media only screen and (min-height: 500px){
-        div.googft-info-window {
+        div.gm-style-iw > div > div {
           max-height: 300px;
         }
       }
@@ -250,35 +250,35 @@
       @supports (-webkit-overflow-scrolling: touch) {
         @media only screen and (orientation: landscape){
           @media only screen and (min-device-width: 320px) and (max-device-width: 568px){
-            div.googft-info-window{
+            div.gm-style-iw > div > div {
               max-height: 170px;
               max-width: 268px;
             }
           }
           
           @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
-            div.googft-info-window{
+            div.gm-style-iw > div > div {
               max-height: 170px;
               max-width: 200px;
             }
           }
           
           @media only screen and (min-device-width: 375px) and (max-device-width: 812px){
-            div.googft-info-window{
+            div.gm-style-iw > div > div {
               max-height: 225px;
               max-width: 400px;
             }
           }
           
           @media only screen and (min-device-width: 375px) and (max-device-width: 667px){
-            div.googft-info-window{
+            div.gm-style-iw > div > div {
               max-height: 225px;
               max-width: 367px;
             }
           }
           
           @media only screen and (min-device-width: 414px) and (max-device-width: 736px){
-            div.googft-info-window{
+            div.gm-style-iw > div > div {
               max-height: 264px;
               max-width: 400px;
             }
@@ -286,14 +286,14 @@
         }
         
         @media only screen and (orientation: portrait){
-          div.googft-info-window{
+          div.gm-style-iw > div > div {
             max-height: 300px;
             max-width: 200px;
           }
         }
         
         @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
-          div.googft-info-window{
+          div.gm-style-iw > div > div {
             max-height: 300px;
             max-width: 400px;
           }
