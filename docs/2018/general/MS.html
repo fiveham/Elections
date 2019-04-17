@@ -576,6 +576,8 @@
         return param == "early" ? 2 : 1;
       }
       
+      var part0, part1, part2, part3;
+      
       function initAutocomplete() {
         var url_params = get_url_params();
         map = gen_map(url_params);
@@ -619,25 +621,25 @@
         //updateLayers();
         
         //Load and turn on the four quarters of the state
-        var part0 = new google.maps.KmlLayer({
+        part0 = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2018/general/MS Precincts part 0.kmz',
           map: map,
           preserveViewport: true,
           zIndex: 1
         });
-        var part1 = new google.maps.KmlLayer({
+        part1 = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2018/general/MS Precincts part 1.kmz',
           map: map,
           preserveViewport: true,
           zIndex: 1
         });
-        var part2 = new google.maps.KmlLayer({
+        part2 = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2018/general/MS Precincts part 2.kmz',
           map: map,
           preserveViewport: true,
           zIndex: 1
         });
-        var part3 = new google.maps.KmlLayer({
+        part3 = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2018/general/MS Precincts part 3.kmz',
           map: map,
           preserveViewport: true,
