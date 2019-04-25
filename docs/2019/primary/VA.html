@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/va-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta property="og:image" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/va-2019.png" />
+    <meta property="og:image:url" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/va-2019.png" />
+    <meta property="og:image:secure_url" 
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/va-2019.png" />
+    <meta property="og:image:alt" 
+          content="A map of Virginia's districts for its House of Delegates" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="XXX" />
+    <meta property="og:image:height" content="XXX" />
+    <meta property="og:url" content="https://fiveham.github.io/Elections/2019/primary/VA.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:determiner" content="" />
+    <meta property="og:title" content="Virginia State Legislature Election - Primary June 11th 2019 - Interactive Map" />
+    <meta property="og:description" 
+          content="Interactive map of districts and candidates for the 2019 election for Virginia's state legislature." />
+    
+    <title>Virginia State Legislature Election - Primary June 11th 2019 - Interactive Map</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      /*div.gm-style-iw > div.gm-style-iw-d > div > div > div:before {
+        content: 'June 11th ';
+      }
+      div.gm-style-iw > div.gm-style-iw-d > div > div > div[style]:before, 
+      div.gm-style-iw > div.gm-style-iw-d > div > div > div[style] ~ div:before {
+        content: '';
+      }*/
+    </style>
+  </head>
+  <body>
+    <!-- Geolocator Button -->
+    <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" 
+        title="Go to your geolocation"></div>
+    
+    <!-- Layer Toggle Button (HoD or SS)-->
+    <div id="pp-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" 
+        title="Switch active state legislature layer">
+      <span id="pp-swap">House of Delegates</span>
+    </div>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">Districts and Candidates for the June 11th State Legislature Election in VA</p>
+            <p>Clicking on a district brings up an infowindow listing the candidates, 
+               each paired with their party affiliation, all arranged in a table. The rows of the table are sorted in alphabetical 
+               order. Because party is listed before candidate name, this also clusters candidates by party.</p>
+            <p>The names, party affiliations, and districts of the candidates come 
+               <a href="https://www.elections.virginia.gov/casting-a-ballot/candidate-list/index.html" target="_blank" 
+               title="Virginia Department of Elections">from the Virginia Department of Elections.</a>  Several districts had 
+               no candidates listed at all for some reason.</p>
+            <p class="heading">Polling Places</p>
+            <p>A registered Virginia voter can <a href="https://vote.elections.virginia.gov/VoterInformation/PollingPlaceLookup" 
+               target="_blank" title="Virginia voter polling place lookup">look up his or her polling place online.</a></p>
+            <p>An unregistered non-voter can register to vote 
+               <a href="https://www.elections.virginia.gov/registration/how-to-register/"  target="_blank" 
+               title="Virginia Department of Elections - How to Register">online, in person, or by mail.</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      var vaCenter = {lat: 37.737066, lng: -79.105188}
+      var map;
+      var layer, alt;
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-toggler",  where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",   where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal", where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: vaCenter,
+          mapTypeId: 'roadmap'
+        });
+        
+        var hod0 = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2019/primary/VA-House_split_0.kmz',
+          map: map,
+          preserveViewport: true,
+          zIndex: 1
+        });
+        var hod1 = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2019/primary/VA-House_split_1.kmz',
+          map: map,
+          preserveViewport: true,
+          zIndex: 1
+        });
+        var hod = {stuff: [hod0, hod1]};
+        hod.setMap = function(m){
+          hod.stuff.forEach(function(e){
+            e.setMap(m);
+          });
+        };
+        
+        var sen0 = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2019/primary/VA-Senate_split_0.kmz',
+          map: null,
+          preserveViewport: true,
+          zIndex: 1
+        });
+        var sen1 = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2019/primary/VA-Senate_split_0.kmz',
+          map: null,
+          preserveViewport: true,
+          zIndex: 1
+        });
+        var sen = {stuff: [sen0, sen1]};
+        sen.setMap = function(m){
+          sen.stuff.forEach(function(e){
+            e.setMap(m);
+          });
+        };
+        
+        /* Give real values to layer-pointers */
+        layer = eday;
+        alt = early;
+        layer.setMap(map);
+        alt.setMap(null);
+        
+        add_widgets();
+      }
+      
+      function pp_toggle(){
+        var temp = alt;
+        alt = layer;
+        layer = temp;
+        alt.setMap(null);
+        layer.setMap(map);
+        document.getElementById("pp-swap").innerHTML = (
+            document.getElementById("pp-swap").innerHTML.startsWith("S") 
+            ? "House of Delegates" 
+            : "State Senate");
+      }
+    </script>
+    <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
