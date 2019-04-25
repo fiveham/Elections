@@ -114,12 +114,7 @@
           preserveViewport: true,
           zIndex: 1
         });
-        var hod = {stuff: [hod0, hod1]};
-        hod.setMap = function(m){
-          hod.stuff.forEach(function(e){
-            e.setMap(m);
-          });
-        };
+        var hod = Layer([hod0, hod1]);
         
         var sen0 = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/primary/VA-Senate_split_0.kmz',
@@ -133,16 +128,11 @@
           preserveViewport: true,
           zIndex: 1
         });
-        var sen = {stuff: [sen0, sen1]};
-        sen.setMap = function(m){
-          sen.stuff.forEach(function(e){
-            e.setMap(m);
-          });
-        };
+        var sen = Layer([sen0, sen1]);
         
         /* Give real values to layer-pointers */
-        layer = eday;
-        alt = early;
+        layer = hod;
+        alt = sen;
         layer.setMap(map);
         alt.setMap(null);
         
@@ -163,6 +153,7 @@
     </script>
     <script src="/Elections/js/geolocator.js"></script>
     <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/layer.js"></script>
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
     </script>
