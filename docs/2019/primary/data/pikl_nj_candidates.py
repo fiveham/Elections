@@ -1,3 +1,10 @@
+#Sources
+# Ballotpedia:
+#  https://ballotpedia.org/New_Jersey_General_Assembly_elections,_2019
+# New Jersey Division of Elections
+#  https://www.njelections.org/election-information-2019.shtml
+#   https://www.njelections.org/assets/pdf/election-results/2019/2019-primary-election-challenges-0409.pdf
+
 candidates = [
     {'district': '1',  'house': 'Senate',           'party': 'D', 'name': 'Bob Andrzejczak'},
     {'district': '1',  'house': 'Senate',           'party': 'R', 'name': 'Mike Testa'},
