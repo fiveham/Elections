@@ -351,10 +351,10 @@
         layers.d.obj.forEach(function(theDistrict){
           theDistrict.setProperty("top_D", tops.D[1]);
           theDistrict.setProperty("top_L", tops.L[1]);
-          theDistrict.setProperty("top_R", tops'R[1]);
+          theDistrict.setProperty("top_R", tops.R[1]);
         });
         
-        //apply top vote-getter info info to each county Feature
+        //apply top vote-getter info to each county Feature
         layers.c.obj.forEach(function(county){
           var i = parseInt(county.getProperty("CountyID"));
           var fetched = nc03_county_results[i];
