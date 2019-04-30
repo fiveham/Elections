@@ -45,16 +45,16 @@
     <!-- Layer switcher -->
     <div id="layer-switcher" class="installed controls left">
       <div>
-        <span for="switch-layer">Switch Layer</span>
-        <select id="switch-layer" onchange="build_layers();">
+        <label for="switch-layer">Switch Layer</label>
+        <select id="switch-layer" onchange="switch_layer();">
           <option value="p">Precincts</option>
           <option value="c">Counties</option>
           <option value="d">District</option>
         </select>
       </div>
       <div>
-        <span for="switch-party">Switch Party</span>
-        <select id="switch-party" onchange="build_layers();">
+        <label for="switch-party">Switch Party</label>
+        <select id="switch-party" onchange="switch_party();">
           <option value="D">Democratic</option>
           <option value="L">Libertarian</option>
           <option value="R">Republican</option>
@@ -96,6 +96,7 @@
          6                9
            10    11    12
       */
+      var BASE_URL = "https://er.ncsbe.gov/enr/20190430/data/";
       var map;
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
       var widgets = [
@@ -103,12 +104,63 @@
         {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/},
         {id: "layer-switcher", where: 4  /*LEFT_CENTER*/},
         {id: "legend",         where: 8  /*RIGHT_CENTER*/}];
-      var unreported = "#FFFFFF";
+      var unreported = "#DDDDDD";
       var colors = {
         D: {darker_color: "#0000A0", medium_color: "#0000FF", lighter_color: "#5F5FFF"},
         L: {darker_color: "#A0A000", medium_color: "#FFFF00", lighter_color: "#FFFF5F"},
         R: {darker_color: "#A00000", medium_color: "#FF0000", lighter_color: "#FF5F5F"}};
+      var layers = { //wrappers for google.maps.Data objects
+        d: {value: "d", obj: null, file: "NC03.json"},
+        c: {value: "c", obj: null, file: "NC03_counties.json"},
+        p: {value: "p", obj: null, file: "NC03_precincts.json"}};
+      var tops = { //storage for the top two vote-getters in each party
+        D: {1:null, 2:null},
+        L: {1:null, 2:null},
+        R: {1:null, 2:null}};
       
+      /* Given a list of election-night results (state, county, or precinct level), return true if 
+         the results pertain to a region with no reports as of yet, false otherwise.*/
+      function is_unreported(list){
+        for(var i=0; i<list.length; i++){
+          var rec = list[i];
+          if(parseFloat(rec['pct']) != 0.0){
+            return false;
+          }
+        }
+        return true;
+      }
+      
+      /* Return style options for a feature based on the context of which party is selected for 
+         display in the switch-party menu. */
+      function dynamic_style(feature){
+        var party = document.getElementById('switch-party').value;
+        var top_X = feature.getProperty("top_" + party);
+        var style = {
+          fillOpacity: 0.5,
+          strokeColor: "#FFFFFF",
+          strokeOpacity: 0.5,
+          strokeWeight: 3,
+          clickable: false,
+          zIndex: 0
+        };
+        if(top_X == undefined){ //unreported region
+          style['fillColor'] = unreported;
+        } else if(top_X == tops[party][1]){
+          style['fillColor'] = colors[party].darker_color;
+        } else if(top_X == tops[party][2]){
+          style['fillColor'] = colors[party].medium_color;
+        } else{
+          style['fillColor'] = colors[party].lighter_color;
+        }
+        return style;
+      }
+      
+      /* Callback function after loading maps API. Link the map object to a document element. 
+         Add widgets to the map. Initialize the layers. Fetch election result data for the 
+         first time and apply the top voter-getters-by-party info to the layers as feature 
+         properties. Apply color styles according to the selected party and the top vote-
+         getter (or unreported status) of each feature. Turn on only the layer indicated by 
+         the current selected layer in the switch-layer dropdown. */
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 8,
@@ -116,12 +168,224 @@
           mapTypeId: 'roadmap'
         });
         
-        map.data.loadGeoJson('/Elections/2019/special/primary/NC03.json');
-        
         add_widgets();
+        
+        for(var key in layers){
+          var layer = layers[key];
+          layer.obj = new google.maps.Data();
+          //layer.obj.setStyle(dynamic_style);
+          layer.obj.loadGeoJson('/Elections/2019/special/primary/' + layer.file);
+        }
+        
+        build_layers();
+        switch_party();
+        switch_layer();
+      }
+      
+      var nc03_results;
+      var nc03_county_results = {}, nc03_precinct_results = {};
+      var nc03_county_ids = [7,15,16,21,25,27,28,40,48,52,54,67,69,70,72,74,89];
+      for(var i=0; i < nc03_county_ids.length; i++){
+        var j = nc03_county_ids[i];
+        nc03_county_results[j] = null;
+        nc03_precinct_results[j] = null;
+      }
+      
+      /* Fetches election results from the NCSBE. If there has been a change since the last data-fetch, 
+         sets the top voter-getter properties for each party in each feature. */
+      function build_layers(){
+        if(fetch_data()){
+          apply_data();
+        }
+      }
+      
+      /* Make all 35 requests synchronously to ensure that info is updated before trying to apply data */
+      /* Fetch election results from the NCSBE. First get the statewide results. If they are the same 
+         as they were the last time they were looked up, don't bother with any of the other requests. */
+      function fetch_data(){
+        var now = new Date();
+        var date = now.getDate();
+        var minute = now.getMinutes();
+        var hour = now.getHours();
+        
+        //District
+        var state = new XMLHttpRequest();
+        state.open("GET", (BASE_URL + 'results_0.txt?v=' + date + '-' + hour + '-' + minute), false);
+        state.send(null);
+        var new_nc03_results = JSON.parse(state.responseText);
+        if(new_nc03_results == nc03_results){
+          return false;
+        }
+        nc03_results = new_nc03_results;
+        
+        //County
+        for(var i in nc03_county_results){
+          var county = XMLHttpRequest();
+          county.open("GET", (BASE_URL + 'results_' + i + '.txt?v=' + date + '-' + hour + '-' + minute), false);
+          county.send(null);
+          nc03_county_results[i] = JSON.parse(county.responseText);
+        }
+        
+        //Precincts
+        for(var i in nc03_precinct_results){
+          var pre = XMLHttpRequest();
+          pre.open("GET", (BASE_URL + 'precinct_' + i + '.txt?v=' + date + '-' + hour + '-' + minute), false);
+          pre.send(null);
+          nc03_precinct_results[i] = JSON.parse(pre.responseText);
+        }
+        
+        return true;
+      }
+      
+      /* Sorting function that returns a negative value if a has a higher "percent" (pct property) 
+         than b, zero if they have the same pct, and a positive value if a's is lower than b's. */
+      function topper(a,b){
+        return parseFloat(b['pct']) - parseFloat(a['pct']);
+      }
+      
+      /* Pull the current selected party, retrieve that party's color palette, and apply that 
+         pallette to the legend. Then retrieve that party's top two vote-getters and insert 
+         those names into the legend. */
+      function update_legend(){
+        update_legend_color();
+        update_legend_names();
+      }
+      
+      /* Recolor the background-color properties of the color-square divs in the 
+         legend depending on the current selected party. */
+      function update_legend_color(){
+        var v = document.getElementById('switch-party').value;
+        var c = colors[v];
+        document.getElementById("darker-color").style.backgroundColor = c["darker-color"];
+        document.getElementById("medium-color").style.backgroundColor = c["medium-color"];
+        document.getElementById("lighter-color").style.backgroundColor = c["lighter-color"];
+      }
+      
+      /* Fill in the top-two candidate names in the legend based on the current 
+         selected party. */
+      function update_legend_names(){
+        document.getElementById("cand1").innerHtml = tops[v][1];
+        document.getElementById("cand2").innerHtml = tops[v][2];
+      }
+      
+      /* Split the list into three lists, one for each party, then sort each list, placing higher 
+         voter-getters closer to the zero end of the array. Return an object mapping from each 
+         party's three-letter shorthand name to that party's sorted list. */
+      function sort_by_party(list){
+        var by_party = {'DEM':[], 'LIB':[], 'REP':[]};
+        for(var i=0; list.length; i++){
+          var res = list[i];
+          var p = res['pty'];
+          by_party[p].push(res);
+        }
+        
+        by_party['DEM'].sort(topper);
+        by_party['LIB'].sort(topper);
+        by_party['REP'].sort(topper);
+        
+        return by_party;
+      }
+      
+      /* Apply or re-apply the dynamic_style function to each Data layer, forcing the 
+         function to run again, causing it to check the current selected party and then 
+         to style all the features of all the layers according to the new value of the 
+         switch-party dropdown. Then recolor the legend.*/
+      function switch_party(){
+        for(var key in layers){
+          var layer = layers[key];
+          layer.obj.setStyle(dynamic_style);
+        }
+        update_legend();
+      }
+      
+      /* Deactivate all Data layers then activate the layer indicated by the current state 
+         of the switch-layer drowndown.*/
+      function switch_layer(){
+        for(var key in layers){
+          var layer = layers[key];
+          layer.obj.setMap(null);
+        }
+        layers[document.getElementById('switch-layer').value].obj.setMap(map);
+      }
+      
+      /* Split the list of precinct-level ENR results into multiple shorter lists, each of 
+         which pertains to exactly one precinct. Return an object mapping from each precinct's
+         identifier to the list of results that pertain to that precinct. Results are not 
+         actually sorted, just grouped. */
+      function sort_by_precinct(list){
+        var sorted = {};
+        for(var i=0; i<list.length; i++){
+          var res = list[i];
+          var aid = res['aid'];
+          if(!sorted.hasOwnProperty(aid)){
+            sorted[aid] = [];
+          }
+          sorted[aid].push(res);
+        }
+        return sorted; //No need to sort by vote percent.
+      }
+      
+      /* Assign top vote-getter info to each Feature based on current available data from 
+         the NCSBE stored in "results" vars by fetch_data(). */
+      function apply_data(){
+        if(is_unreported(nc03_results)){
+          return;
+        }
+        //group results by party
+        //sort each party's results to move the highest vote-getters to the 0 end of the array
+        var by_party = sort_by_party(nc03_results);
+        
+        //then record them in the tops var
+        tops.D[1] = by_party.DEM[0]['bnm'];
+        tops.D[2] = by_party.DEM[1]['bnm'];
+        tops.L[1] = by_party.LIB[0]['bnm'];
+        tops.L[2] = by_party.LIB[1]['bnm'];
+        tops.R[1] = by_party.REP[0]['bnm'];
+        tops.R[2] = by_party.REP[1]['bnm'];
+        
+        //Add updated top candidates to legend
+        update_legend_names();
+        
+        //apply top vote-getter info to the district layer Feature
+        //There is only one Feature in the d layer
+        layers.d.obj.forEach(function(theDistrict){
+          theDistrict.setProperty("top_D", tops.D[1]);
+          theDistrict.setProperty("top_L", tops.L[1]);
+          theDistrict.setProperty("top_R", tops'R[1]);
+        });
+        
+        //apply top vote-getter info info to each county Feature
+        layers.c.obj.forEach(function(county){
+          var i = parseInt(county.getProperty("CountyID"));
+          var fetched = nc03_county_results[i];
+          if(!is_unreported(fetched)){
+            var by_party = sort_by_party(fetched);
+            county.setProperty('top_D', by_party['DEM'][0]);
+            county.setProperty('top_L', by_party['LIB'][0]);
+            county.setProperty('top_R', by_party['REP'][0]);
+          }
+        });
+        
+        //apply top vote-getter info to each precinct Feature
+        layers.p.obj.forEach(function(precinct){
+          var countyID = parseInt(precinct.getProperty("CountyID"));
+          var fetched = nc03_precinct_results[countyID];
+          //partition fetched by precinct label or something
+          //then for each partition, do the by_party partitioning, property-setting, etc.
+
+          var by_precinct = sort_by_precinct(fetched);
+          for(var aid in by_precinct){
+            var fetched_in_pre = by_precinct[aid];
+            if(!is_unreported(fetched_in_pre)){
+              var by_party = sort_by_party(fetched_in_pre);
+              precinct.setProperty('top_D', by_party['DEM'][0]);
+              precinct.setProperty('top_L', by_party['LIB'][0]);
+              precinct.setProperty('top_R', by_party['REP'][0]);
+            }
+          }
+        });
       }
     </script>
-    <script src="/Elections/js/geolocator.js"></script>
     <script src="/Elections/js/about-modal.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
