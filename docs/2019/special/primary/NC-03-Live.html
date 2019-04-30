@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta property="og:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc03-special.png" />
+    <meta property="og:image:url" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc03-special.png" />
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc03-special.png" />
+    <meta property="og:image:alt" content="A satelite image of eastern North Carolina overlaid by a semitransparent white polygon covering North Carolina's third congressional district and multicolored markers indicating election-day polling places." />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="632" />
+    <meta property="og:image:height" content="559" />
+    <meta property="og:url" content="https://fiveham.github.io/Elections/2019/special/NC03.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:determiner" content="" />
+    <meta property="og:title" content="Live NC-03 Congressional Special Election Primary Results in an Interactive Map" />
+    <meta property="og:description" content="Live NC-03 Congressional Special Election Primary Results in an Interactive Map." />
+    
+    <title>Live NC-03 Congressional Special Election Primary Results in an Interactive Map</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      div.square {
+        height: 20px;
+        width: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Legend -->
+    <div id="legend" class="installed controls right bottom">
+      <table>
+        <tr><th>Color</th><th>Candidate</th></tr>
+        <tr><td><div id="darker_color" class="square darker"></div></td><td id="cand1"></td></tr>
+        <tr><td><div id="medium_color" class="square color"></div></td><td id="cand2"></td></tr>
+        <tr><td><div id="lighter_color" class="square lighter"></div></td><td>others</td></tr>
+      </table>
+    </div>
+    
+    <!-- Layer switcher -->
+    <div id="layer-switcher" class="installed controls left">
+      <div>
+        <span for="switch-layer">Switch Layer</span>
+        <select id="switch-layer" onchange="build_layers();">
+          <option value="p">Precincts</option>
+          <option value="c">Counties</option>
+          <option value="d">District</option>
+        </select>
+      </div>
+      <div>
+        <span for="switch-party">Switch Party</span>
+        <select id="switch-party" onchange="build_layers();">
+          <option value="D">Democratic</option>
+          <option value="L">Libertarian</option>
+          <option value="R">Republican</option>
+        </select>
+      </div>
+    </div>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">Live Updates for the NC-03 Congressional Special Primary Election</p>
+            <p>Once per minute, this page queries the state board of elections website for elections results and displays the 
+               information provided.</p>
+            <p>The top vote-getter in a party is indicated on the map by the darkest version of that party's color. The second-highest 
+               voter-getter is marked with a slightly lighter version of the color. All others are marked with the same, very light 
+               shade of the color.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      /* Note about ControlPosition:
+           1      2    3
+         5                7
+         4       13       8
+         6                9
+           10    11    12
+      */
+      var map;
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [
+        {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+        {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/},
+        {id: "layer-switcher", where: 4  /*LEFT_CENTER*/},
+        {id: "legend",         where: 8  /*RIGHT_CENTER*/}];
+      var unreported = "#FFFFFF";
+      var colors = {
+        D: {darker_color: "#0000A0", medium_color: "#0000FF", lighter_color: "#5F5FFF"},
+        L: {darker_color: "#A0A000", medium_color: "#FFFF00", lighter_color: "#FFFF5F"},
+        R: {darker_color: "#A00000", medium_color: "#FF0000", lighter_color: "#FF5F5F"}};
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: {lat: 35.61215525049109, lng: -76.6224810408075},
+          mapTypeId: 'roadmap'
+        });
+        
+        map.data.addGeoJson('/Elections/2019/special/primary/NC03.json');
+        
+        add_widgets();
+      }
+    </script>
+    <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
