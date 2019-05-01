@@ -1,0 +1,85 @@
+import requests
+import time
+import datetime
+
+def fill_blanks(cid=None):
+  now = str(datetime.datetime.now())
+  day = int(now.split()[0].split('-')[-1])
+  hour,minute = (int(x) for x in now.split()[1].split(':')[0:2])
+  return (day, hour, minute) if cid is None else (cid, day, hour, minute)
+
+def minute():
+  return fill_blanks()[-1]
+
+def cache_it(label, json):
+  times = fill_blanks()
+  content = tuple(label) + times
+  with open('./cache/%s_%d-%d-%d.txt' % content, 'w') as into:
+    into.write(str(json)+'\n')
+
+#TODO check for the difference between 'all precincts reported' vs 'every county fully reported'
+def all_precincts_have_reported(state_result_list):
+  sample = next(iter(state_result_list))
+  return sample['prt'] == sample['ptl']
+
+#Fetch data at the statewide level for the election of interest.
+#If all precincts have reported, exit
+def run():
+  election_day = "20190514"
+  nc09_counties = {
+     4:'Anson',
+     9:'Bladen',
+    26:'Cumberland',
+    60:'Mecklenburg',
+    77:'Richmond',
+    78:'Robeson',
+    83:'Scotland',
+    90:'Union'}
+
+  AutoDown(election_day, nc09_counties).run()
+
+class AutoDown:
+  def __init__(self, date_string, countyIDs):
+    self.base_url = 'https://er.ncsbe.gov/enr/%s/data/' % date_string
+    self.countyIDs = list(countyIDs)
+  
+  def get_county(self, countyID):
+    return requests.get(
+      self.base_url + 'results_%d.txt?v=%d-%d-%d' % fill_blanks(countyID)).json()
+
+  def get_state_results(self):
+    return self.get_county(0)
+
+  def get_precincts(self, countyID):
+    return requests.get(
+      self.base_url + 'precinct_%d.txt?v=%d-%d-%d' % fill_blanks(countyID)).json()
+  
+  def run(self):
+    prev_state_results = None
+    
+    while True:
+      prev_minute = minute()
+      
+      state_results = self.get_state_results()
+      if state_results != prev_state_results:
+        prev_state_results = state_results
+        print("Change of state")
+        cache_it("state",state_results)
+
+        counties = {county:self.get_county(county) for county in self.countyIDs}
+        cache_it("counties",counties)
+
+        precincts = {county:self.get_precincts(county) for county in self.countyIDs}
+        cache_it("precincts",precincts)
+
+      if all_precincts_have_reported(state_results):
+        print("All precincts reported. Done.")
+        return
+      
+      while minute() == prev_minute:
+        time.sleep(10)
+      print("Doing it again: "+minute())
+
+
+
+
