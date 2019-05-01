@@ -178,7 +178,7 @@
         var now = new Date();
         
         /* load NC03 early voting sites if now is before the end of nc03 early voting */
-        var end3ev = new Date(2019, 4, 26, 19, 0, 0, 0);
+        var end3ev = new Date(2019, 3, 26, 19, 0, 0, 0); //January is Month Zero
         if(now < end3ev){
           var ossites3 = new google.maps.KmlLayer({
             url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc03-30-apr-2019.kml',
@@ -190,7 +190,7 @@
         }
         
         /* load nc09 one-stop sides if now is before the end of nc09 early voting */
-        var end9ev = new Date(2019, 5, 10, 19, 0, 0, 0);
+        var end9ev = new Date(2019, 4, 10, 19, 0, 0, 0); //January is Month Zero
         if(now < end9ev){
           var ossites9 = new google.maps.KmlLayer({
             url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc09-14-may-2019.kml',
