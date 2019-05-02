@@ -37,7 +37,7 @@ class AutoDown:
     #if cache_path is falsey, step-by-step results are not cached
     self.base_url = 'https://er.ncsbe.gov/enr/%s/data/' % date_string
     self.countyIDs = list(countyIDs)
-    self.repo_path = repo_path + ("" if repo_path.endswith('/') else '/')
+    self.repo_path = repo_path[:-1] if repo_path.endswith('/') else repo_path
     self.cache_path = ((cache_path + '/') 
                        if cache_path and not cache_path.endswith('/') 
                        else cache_path)
@@ -49,6 +49,25 @@ class AutoDown:
     content = tuple(label) + times
     with open(self.cache_path + '%s_%d-%d-%d.txt' % content, 'w') as into:
       into.write(str(json)+'\n')
+      
+  def upload(self, state, county, prec):
+    with open(self.repo_path + "/results_0.txt", 'w') as into:
+        into.write(str(state))
+    for County,json in county.items():
+        with open(self.repo_path + "/results_%d.txt" % County,
+                  'w') as into:
+            into.write(str(json))
+    for County,json in prec_dict.items():
+        with open(self.repo_path + "/precinct_%d.txt" % County,
+                  'w') as into:
+            into.write(str(json))
+    subprocess.run("git add .".split(),
+                   cwd=self.repo_path)
+    subprocess.run(('git commit -m "auto-upload_%d-%d-%d"' %
+                    (fill_blanks()[1:])).split(),
+                   cwd=self.repo_path)
+    subprocess.run("git push origin master".split(),
+                   cwd=self.repo_path)
   
   def get_county(self, countyID):
     return requests.get(
@@ -79,6 +98,8 @@ class AutoDown:
 
         precincts = {county:self.get_precincts(county) for county in self.countyIDs}
         self.cache_it("precincts",precincts)
+        
+        self.upload(state_results, counties, precincts)
 
       if all_precincts_have_reported(state_results, precincts):
         print("All precincts reported. Done.")
