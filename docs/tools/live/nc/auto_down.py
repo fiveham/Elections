@@ -11,12 +11,6 @@ def fill_blanks(cid=None):
 def minute():
   return fill_blanks()[-1]
 
-def cache_it(label, json):
-  times = fill_blanks()
-  content = tuple(label) + times
-  with open('./cache/%s_%d-%d-%d.txt' % content, 'w') as into:
-    into.write(str(json)+'\n')
-
 def all_precincts_have_reported(state_result_list, precinct_result_dict):
   sample = next(iter(state_result_list))
   return (sample['prt'] == sample['ptl'] and 
@@ -39,9 +33,22 @@ def run():
   AutoDown(election_day, nc09_counties).run()
 
 class AutoDown:
-  def __init__(self, date_string, countyIDs):
+  def __init__(self, date_string, countyIDs, repo_path, cache_path='./cache/'):
+    #if cache_path is falsey, step-by-step results are not cached
     self.base_url = 'https://er.ncsbe.gov/enr/%s/data/' % date_string
     self.countyIDs = list(countyIDs)
+    self.repo_path = repo_path + ("" if repo_path.endswith('/') else '/')
+    self.cache_path = ((cache_path + '/') 
+                       if cache_path and not cache_path.endswith('/') 
+                       else cache_path)
+    
+  def cache_it(self, label, json):
+    if not self.cache_path:
+      return
+    times = fill_blanks()
+    content = tuple(label) + times
+    with open(self.cache_path + '%s_%d-%d-%d.txt' % content, 'w') as into:
+      into.write(str(json)+'\n')
   
   def get_county(self, countyID):
     return requests.get(
@@ -65,13 +72,13 @@ class AutoDown:
       if state_results != prev_state_results:
         prev_state_results = state_results
         print("Change of state")
-        cache_it("state",state_results)
+        self.cache_it("state",state_results)
 
         counties = {county:self.get_county(county) for county in self.countyIDs}
-        cache_it("counties",counties)
+        self.cache_it("counties",counties)
 
         precincts = {county:self.get_precincts(county) for county in self.countyIDs}
-        cache_it("precincts",precincts)
+        self.cache_it("precincts",precincts)
 
       if all_precincts_have_reported(state_results, precincts):
         print("All precincts reported. Done.")
