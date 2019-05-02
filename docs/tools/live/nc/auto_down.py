@@ -17,10 +17,10 @@ def cache_it(label, json):
   with open('./cache/%s_%d-%d-%d.txt' % content, 'w') as into:
     into.write(str(json)+'\n')
 
-#TODO check for the difference between 'all precincts reported' vs 'every county fully reported'
-def all_precincts_have_reported(state_result_list):
+def all_precincts_have_reported(state_result_list, precinct_result_dict):
   sample = next(iter(state_result_list))
-  return sample['prt'] == sample['ptl']
+  return (sample['prt'] == sample['ptl'] and 
+          all(all('final' in d['sta'].lower() for d in v) for v in precinct_result_dict.values()))
 
 #Fetch data at the statewide level for the election of interest.
 #If all precincts have reported, exit
@@ -61,6 +61,7 @@ class AutoDown:
       prev_minute = minute()
       
       state_results = self.get_state_results()
+      precincts = None
       if state_results != prev_state_results:
         prev_state_results = state_results
         print("Change of state")
@@ -72,7 +73,7 @@ class AutoDown:
         precincts = {county:self.get_precincts(county) for county in self.countyIDs}
         cache_it("precincts",precincts)
 
-      if all_precincts_have_reported(state_results):
+      if all_precincts_have_reported(state_results, precincts):
         print("All precincts reported. Done.")
         return
       
