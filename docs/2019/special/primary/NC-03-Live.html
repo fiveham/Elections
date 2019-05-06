@@ -31,13 +31,13 @@
       }
       
       /* Undo .installed.controls:hover from map-controls.css */
-      #layer-switcher:hover,
-      #legend:hover {
+      #layer-switcher:hover {
         background-color: white; 
       }
       
       #layer-switcher,
       #legend {
+        cursor: auto;
         padding-top: 4px;
         padding-right: 4px;
         padding-left: 4px;
@@ -54,19 +54,26 @@
       
       #layer-switcher label {
         font-weight: bold;
-        width: 100%;
         margin-bottom: 4px;
+      }
+      
+      #layer-switcher label,
+      #layer-switcher div,
+      #layer-switcher select {
+        width: 100%;
       }
       
       div.hr-bottom {
         border-bottom: 1px solid black;
+        margin-bottom: 4px;
+        padding-bottom: 4px;
       }
     </style>
   </head>
   <body>
     <!-- Legend -->
-    <div id="legend" class="installed controls bottom right">
-      <div id="final-results" style="visibility: hidden;"><span>(Final Results)</span></div>
+    <div id="legend" class="installed bottom right">
+      <div id="final-results" style="visibility: hidden; display: none;"><span>(Final Results)</span></div>
       <table>
         <!-- <tr><th>Color</th><th>Candidate</th></tr> -->
         <tr>
@@ -85,6 +92,7 @@
     <div id="layer-switcher" class="installed controls left">
       <div class="hr-bottom">
         <label for="switch-layer">Layer</label>
+        <br>
         <select id="switch-layer" onchange="switch_layer();">
           <option value="p">Precincts</option>
           <option value="c">Counties</option>
@@ -93,6 +101,7 @@
       </div>
       <div>
         <label for="switch-party">Party</label>
+        <br>
         <select id="switch-party" onchange="switch_party();">
           <option value="D">Democratic</option>
           <option value="L">Libertarian</option>
@@ -207,7 +216,9 @@
       function mailbox(event){
         if(event.data.an_hero){ //kill worker and update visible aspects of the page
           worker.terminate();
-          document.getElementById('final-results').style.visibility = 'visible';
+          var finalLabel = document.getElementById('final-results');
+          finalLabel.style.visibility = 'visible';
+          finalLabel.style.display = 'inline';
         } else{
           results = event.data;
           update_legend_names();
