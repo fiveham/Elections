@@ -4,12 +4,11 @@
   box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
   background-color: #fff;
   font-family: Roboto, Arial, sans-serif;
+  opacity: 0;
+  transition: opacity 1s ease-in;
 }
 
 .installed.controls {
-  opacity: 0;
-  transition: opacity 1s ease-in;
-  user-select: none;
   cursor: pointer;
   /* Prevent highlighting of controls */
   -webkit-touch-callout: none; /* iOS Safari */
@@ -24,20 +23,20 @@
   background-color: #ebebeb;
 }
 
-.installed.controls.top {
+.installed.top {
   margin-top: 10px;
   margin-right: 10px;
 }
 
-.installed.controls.right {
+.installed.right {
   margin-right: 10px;
 }
 
-.installed.controls.bottom {
+.installed.bottom {
   margin-bottom: 10px;
 }
 
-.installed.controls.left {
+.installed.left {
   margin-left: 10px;
 }
 
