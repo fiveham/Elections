@@ -198,6 +198,9 @@
           layer.obj.setStyle(dynamic_style);
         }
         
+        //Color the legend's color samples
+        update_legend_color();
+        
         //Hook proper first layer to the map
         var pfl = document.getElementById('switch-layer').value;
         layers[pfl].obj.setMap(map);
