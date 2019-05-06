@@ -153,15 +153,15 @@
         layers[pfl].obj.setMap(map);
         
         //Create the worker thread
-        worker = new Worker('/Live-Elections/poll_worker.js');
+        //TEST OFF worker = new Worker('/Live-Elections/poll_worker.js');
         
         //Create mailbox to receive messages from worker
-        worker.addEventListener("message", mailbox, false);
+        //TEST OFF worker.addEventListener("message", mailbox, false);
         
         //Start the worker thread and tell it the URL for result summaries
         //This may quickly result in a message being sent to the main thread
         //with result summary data, causing the map to recolor.
-        worker.postMessage('https://fiveham.github.io/Live-Elections/2019/apr/30/nc03/summary.txt');
+        //TEST OFF worker.postMessage('https://fiveham.github.io/Live-Elections/2019/apr/30/nc03/summary.txt');
       }
       
       
