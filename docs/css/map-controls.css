@@ -25,7 +25,12 @@
 }
 
 .installed.controls.top {
-  margin: 10px 10px 0 0;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.installed.controls.right {
+  margin-right: 10px;
 }
 
 .installed.controls.bottom {
@@ -33,7 +38,7 @@
 }
 
 .installed.controls.left {
-  margin: 0 0 0 10px;
+  margin-left: 10px;
 }
 
 .installed.controls.text {
