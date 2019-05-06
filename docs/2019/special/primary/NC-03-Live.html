@@ -34,6 +34,7 @@
   <body>
     <!-- Legend -->
     <div id="legend" class="installed controls right bottom">
+      <div id="final-results" style="visibility: hidden;"><span>(Final Results)</span></div>
       <table>
         <tr><th>Color</th><th>Candidate</th></tr>
         <tr><td><div id="darker_color" class="square darker"></div></td><td id="cand1"></td></tr>
@@ -118,6 +119,62 @@
         c: {value: "c", obj: null, file: "NC03_counties.json"},   //County
         p: {value: "p", obj: null, file: "NC03_precincts.json"}}; //Precinct
       var results = null;
+      var worker = null;
+      
+      
+      
+      /* Callback function after loading maps API. Link the map object to a document element. 
+         Add widgets to the map. Initialize the layers. Fetch election result data for the 
+         first time and apply the top voter-getters-by-party info to the layers as feature 
+         properties. Apply color styles according to the selected party and the top vote-
+         getter (or unreported status) of each feature. Turn on only the layer indicated by 
+         the current selected layer in the switch-layer dropdown. */
+      function initMap() {
+        //Create the map
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: {lat: 35.61215525049109, lng: -76.6224810408075},
+          mapTypeId: 'roadmap'
+        });
+        
+        //Add the registered widgets to the map
+        add_widgets();
+        
+        //Create and colorize the Data layers
+        for(var key in layers){ //keys are 'd', 'c', and 'p'
+          var layer = layers[key];
+          layer.obj = new google.maps.Data();
+          layer.obj.loadGeoJson('/Elections/2019/special/primary/' + layer.file);
+          layer.obj.setStyle(dynamic_style);
+        }
+        
+        //Hook proper first layer to the map
+        var pfl = document.getElementById('switch-layer').value;
+        layers[pfl].obj.setMap(map);
+        
+        //Create the worker thread
+        worker = new Worker('/Live-Elections/poll_worker.js');
+        
+        //Create mailbox to receive messages from worker
+        worker.addEventListener("message", mailbox, false);
+        
+        //Start the worker thread and tell it the URL for result summaries
+        worker.postMessage('https://fiveham.github.io/Live-Elections/2019/apr/30/nc03/summary.txt');
+      }
+      
+      
+      /* Handle messages posted from the worker */
+      function mailbox(event){
+        if(event.data.an_hero){ //kill worker and update visible aspects of the page
+          worker.terminate();
+          document.getElementById('final-results').style.visibility = 'visible';
+        } else{
+          results = event.data;
+          update_legend_names();
+          var layerValue = document.getElementById('switch-layer').value;
+          layers[layerValue].obj.setStyle(dynamic_style);
+        }
+      }
       
       /* Return style options for a feature based on the context of which party is selected for 
          display in the switch-party menu. */
@@ -161,33 +218,6 @@
         return style;
       }
       
-      /* Callback function after loading maps API. Link the map object to a document element. 
-         Add widgets to the map. Initialize the layers. Fetch election result data for the 
-         first time and apply the top voter-getters-by-party info to the layers as feature 
-         properties. Apply color styles according to the selected party and the top vote-
-         getter (or unreported status) of each feature. Turn on only the layer indicated by 
-         the current selected layer in the switch-layer dropdown. */
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 8,
-          center: {lat: 35.61215525049109, lng: -76.6224810408075},
-          mapTypeId: 'roadmap'
-        });
-        
-        add_widgets();
-        
-        for(var key in layers){ //keys are 'd', 'c', and 'p'
-          var layer = layers[key];
-          layer.obj = new google.maps.Data();
-          //layer.obj.setStyle(dynamic_style);
-          layer.obj.loadGeoJson('/Elections/2019/special/primary/' + layer.file);
-        }
-        
-        build_layers();
-        switch_party();
-        switch_layer();
-      }
-      
       /* Pull the current selected party, retrieve that party's color palette, and apply that 
          pallette to the legend. Then retrieve that party's top two vote-getters and insert 
          those names into the legend. */
@@ -199,10 +229,10 @@
       /* Recolor the background-color properties of the color-square divs in the 
          legend depending on the current selected party. */
       function update_legend_color(){
-        var v = document.getElementById('switch-party').value;
-        var c = colors[v];
+        var partyInitial = document.getElementById('switch-party').value;
+        var colorScheme = colors[partyInitial];
         for(var term in ['darker-color', 'medium-color', 'lighter-color']){
-          document.getElementById(term).style.backgroundColor = c[term];
+          document.getElementById(term).style.backgroundColor = colorScheme[term];
         }
       }
       
@@ -210,8 +240,8 @@
          selected party. */
       function update_legend_names(){
         var v = document.getElementById('switch-party').value;
-        document.getElementById("cand1").innerHtml = tops[v][1];
-        document.getElementById("cand2").innerHtml = tops[v][2];
+        document.getElementById("cand1").innerHtml = results.top[v][0];
+        document.getElementById("cand2").innerHtml = results.top[v][1];
       }
       
       /* Apply or re-apply the dynamic_style function to each Data layer, forcing the 
@@ -235,13 +265,6 @@
         var data = layers[layer_key].obj;
         data.setStyle(dynamic_style);
         data.setMap(map);
-      }
-      
-      /* Assign top vote-getter info to each Feature based on current available data from 
-         the NCSBE stored in "results" vars by fetch_data(). */
-      function apply_data(){
-        //Add updated top candidates to legend
-        update_legend_names();
       }
     </script>
     <script src="/Elections/js/about-modal.js"></script>
