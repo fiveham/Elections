@@ -33,7 +33,7 @@
   </head>
   <body>
     <!-- Legend -->
-    <div id="legend" class="installed controls right bottom">
+    <div id="legend" class="installed controls bottom right">
       <div id="final-results" style="visibility: hidden;"><span>(Final Results)</span></div>
       <table>
         <tr><th>Color</th><th>Candidate</th></tr>
@@ -108,8 +108,8 @@
       var widgets = [
         {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
         {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/},
-        {id: "layer-switcher", where: 4  /*LEFT_CENTER*/},
-        {id: "legend",         where: 8  /*RIGHT_CENTER*/}];
+        {id: "layer-switcher", where: 4  /*google.maps.ControlPosition.LEFT_CENTER*/},
+        {id: "legend",         where: 12 /*google.maps.ControlPosition.BOTTOM_RIGHT*/}];
       var unreported = "#DDDDDD";
       var colors = {
         D: {darker_color: "#0000A0", medium_color: "#0000FF", lighter_color: "#5F5FFF"},
