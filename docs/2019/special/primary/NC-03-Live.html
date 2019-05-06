@@ -29,6 +29,37 @@
         height: 20px;
         width: 20px;
       }
+      
+      /* Undo .installed.controls:hover from map-controls.css */
+      #layer-switcher:hover,
+      #legend:hover {
+        background-color: white; 
+      }
+      
+      #layer-switcher {
+        padding-top: 4px;
+        padding-right: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        border: 1px solid #a9a9a9;
+        font-size: 14px;
+      }
+      
+      #layer-switcher select {
+        cursor: pointer;
+        padding-top: 6px;
+        padding-bottom: 6px;
+      }
+      
+      #layer-switcher label {
+        font-weight: bold;
+        width: 100%;
+        margin-bottom: 4px;
+      }
+      
+      div.hr-bottom {
+        border-bottom: 1px solid black;
+      }
     </style>
   </head>
   <body>
@@ -51,8 +82,8 @@
     
     <!-- Layer Switcher -->
     <div id="layer-switcher" class="installed controls left">
-      <div>
-        <label for="switch-layer">Switch Layer</label>
+      <div class="hr-bottom">
+        <label for="switch-layer">Layer</label>
         <select id="switch-layer" onchange="switch_layer();">
           <option value="p">Precincts</option>
           <option value="c">Counties</option>
@@ -60,7 +91,7 @@
         </select>
       </div>
       <div>
-        <label for="switch-party">Switch Party</label>
+        <label for="switch-party">Party</label>
         <select id="switch-party" onchange="switch_party();">
           <option value="D">Democratic</option>
           <option value="L">Libertarian</option>
