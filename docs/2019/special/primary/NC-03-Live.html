@@ -37,9 +37,15 @@
       <div id="final-results" style="visibility: hidden;"><span>(Final Results)</span></div>
       <table>
         <tr><th>Color</th><th>Candidate</th></tr>
-        <tr><td><div id="darker_color" class="square darker"></div></td><td id="cand1"></td></tr>
-        <tr><td><div id="medium_color" class="square color"></div></td><td id="cand2"></td></tr>
-        <tr><td><div id="lighter_color" class="square lighter"></div></td><td>others</td></tr>
+        <tr>
+          <td><div id="darker_color" class="square darker" style="background-color: #202020"></div></td>
+          <td id="cand1">Top Candidate</td></tr>
+        <tr>
+          <td><div id="medium_color" class="square color" style="background-color: #505050"></div></td>
+          <td id="cand2">Second Candidate</td></tr>
+        <tr>
+          <td><div id="lighter_color" class="square lighter" style="background-color: #909090"></div></td>
+          <td>Other(s)</td></tr>
       </table>
     </div>
     
@@ -254,9 +260,11 @@
       /* Fill in the top-two candidate names in the legend based on the current 
          selected party and current results. */
       function update_legend_names(){
-        var v = document.getElementById('switch-party').value;
-        document.getElementById("cand1").innerHtml = results.top[v][0];
-        document.getElementById("cand2").innerHtml = results.top[v][1];
+        var party = document.getElementById('switch-party').value;
+        if(results && results.top){
+          document.getElementById('cand1').innerHtml = results.top[party][0];
+          document.getElementById('cand2').innerHtml = results.top[party][1];
+        }
       }
     </script>
     <script src="/Elections/js/about-modal.js"></script>
