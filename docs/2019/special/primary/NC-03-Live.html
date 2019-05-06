@@ -299,6 +299,7 @@
         var partyInitial = document.getElementById('switch-party').value;
         var colorScheme = colors[partyInitial];
         for(var term in colorScheme){
+          console.log(term);
           document.getElementById(term).style.backgroundColor = colorScheme[term];
         }
       }
