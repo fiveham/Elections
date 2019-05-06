@@ -40,6 +40,10 @@
   margin-left: 10px;
 }
 
+.installed.left.not-alone {
+  margin-top: 10px;
+}
+
 .installed.controls.text {
   height: 40px;
   padding-left: 17px;
