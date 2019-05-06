@@ -246,7 +246,7 @@
       function update_legend_color(){
         var partyInitial = document.getElementById('switch-party').value;
         var colorScheme = colors[partyInitial];
-        for(var term in ['darker-color', 'medium-color', 'lighter-color']){
+        for(var term in ['darker_color', 'medium_color', 'lighter_color']){
           document.getElementById(term).style.backgroundColor = colorScheme[term];
         }
       }
