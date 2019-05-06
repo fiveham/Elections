@@ -159,6 +159,8 @@
         worker.addEventListener("message", mailbox, false);
         
         //Start the worker thread and tell it the URL for result summaries
+        //This may quickly result in a message being sent to the main thread
+        //with result summary data, causing the map to recolor.
         worker.postMessage('https://fiveham.github.io/Live-Elections/2019/apr/30/nc03/summary.txt');
       }
       
@@ -176,8 +178,29 @@
         }
       }
       
+      /* Handle event when user switches parties via the dropdown. */
+      function switch_party(){ //just recolor the current visible layer
+        update_legend_color();
+        update_legend_names();
+        //Color the layers
+        for(var key in layers){ //keys are 'd', 'c', and 'p'
+          var layer = layers[key];
+          layer.obj.setStyle(dynamic_style);
+        }
+      }
+      
+      /* Handle event when user switches layers via the dropdown. */
+      function switch_layer(){
+        for(var key in layers){
+          var layer = layers[key];
+          layer.obj.setMap(null);
+        }
+        var active_layer = document.getElementById('switch-layer').value;
+        layers[active_layer].obj.setMap(map);
+      }
+      
       /* Return style options for a feature based on the context of which party is selected for 
-         display in the switch-party menu. */
+         display in the switch-party dropdown and based on the current content of results. */
       function dynamic_style(feature){
         var party = document.getElementById('switch-party').value; //'D', 'L', or 'R'
         var layer_category = document.getElementById('switch-layer').value;
@@ -198,11 +221,11 @@
         //Determine which kind of Feature we're dealing with.
         //Rather than inspect the Feature's properties, we can just check which layer 
         //type is currently selected.
-        if(layer_category == 'd'){
-          style['fillColor'] = colors[party].darker_color
+        if(layer_category == 'd'){ //district layer
+          style['fillColor'] = colors[party].darker_color;
         } else{
           var i;
-          if(layer_category == 'c'){
+          if(layer_category == 'c'){ //county layer
             var COUNTYNAME = feature.getProperty('Name').toUpperCase().valueOf();
             i = results.by_county[COUNTYNAME].top[party];
           } else{ //precinct layer
@@ -218,14 +241,6 @@
         return style;
       }
       
-      /* Pull the current selected party, retrieve that party's color palette, and apply that 
-         pallette to the legend. Then retrieve that party's top two vote-getters and insert 
-         those names into the legend. */
-      function update_legend(){
-        update_legend_color();
-        update_legend_names();
-      }
-      
       /* Recolor the background-color properties of the color-square divs in the 
          legend depending on the current selected party. */
       function update_legend_color(){
@@ -237,34 +252,11 @@
       }
       
       /* Fill in the top-two candidate names in the legend based on the current 
-         selected party. */
+         selected party and current results. */
       function update_legend_names(){
         var v = document.getElementById('switch-party').value;
         document.getElementById("cand1").innerHtml = results.top[v][0];
         document.getElementById("cand2").innerHtml = results.top[v][1];
-      }
-      
-      /* Apply or re-apply the dynamic_style function to each Data layer, forcing the 
-         function to run again, causing it to check the current selected party and then 
-         to style all the features of all the layers according to the new value of the 
-         switch-party dropdown. Then recolor the legend.*/
-      function switch_party(){ //just recolor the current visible layer
-        var layer_key = document.getElementById('switch-layer').value;
-        layers[layer_key].obj.setStyle(dynamic_style); //Only update the style of the actual visible layer
-        update_legend();
-      }
-      
-      /* Deactivate all Data layers, activate the layer indicated by the current state 
-         of the switch-layer drowndown, then colorize the newly visible layer.*/
-      function switch_layer(){
-        for(var key in layers){
-          var layer = layers[key];
-          layer.obj.setMap(null);
-        }
-        var layer_key = document.getElementById('switch-layer').value;
-        var data = layers[layer_key].obj;
-        data.setStyle(dynamic_style);
-        data.setMap(map);
       }
     </script>
     <script src="/Elections/js/about-modal.js"></script>
