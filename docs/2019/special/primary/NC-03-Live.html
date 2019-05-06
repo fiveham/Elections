@@ -133,6 +133,11 @@
           zIndex: 0
         };
         
+        if(!results){
+          style['fillColor'] = unreported;
+          return style;
+        }
+        
         //Determine which kind of Feature we're dealing with.
         //Rather than inspect the Feature's properties, we can just check which layer 
         //type is currently selected.
