@@ -75,7 +75,7 @@
   </head>
   <body>
     <!-- Legend -->
-    <div id="legend" class="installed bottom right">
+    <div id="legend" class="installed left">
       <div id="final-results" style="visibility: hidden; display: none; text-align: center;"><span>(Final Results)</span></div>
       <table>
         <!-- <tr><th>Color</th><th>Candidate</th></tr> -->
@@ -152,8 +152,8 @@
       var widgets = [
         {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
         {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/},
-        {id: "layer-switcher", where: 4  /*google.maps.ControlPosition.LEFT_CENTER*/},
-        {id: "legend",         where: 12 /*google.maps.ControlPosition.BOTTOM_RIGHT*/}];
+        {id: "legend",         where: 4  /*google.maps.ControlPosition.LEFT_CENTER*/},
+        {id: "layer-switcher", where: 4  /*google.maps.ControlPosition.LEFT_CENTER*/}];
       var unreported = "#DDDDDD";
       var colors = {
         D: {darker_color: "#0000A0", medium_color: "#0000FF", lighter_color: "#5F5FFF"},
@@ -299,7 +299,7 @@
         var partyInitial = document.getElementById('switch-party').value;
         var colorScheme = colors[partyInitial];
         for(var term in colorScheme){
-          console.log(term);
+          //console.log(term);
           document.getElementById(term).style.backgroundColor = colorScheme[term];
         }
       }
