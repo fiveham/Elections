@@ -223,14 +223,14 @@
       
       /* Handle messages posted from the worker */
       function mailbox(event){
+        results = event.data;
+        update_legend_names();
         if(event.data.an_hero){ //kill worker and update visible aspects of the page
           worker.terminate();
           var finalLabel = document.getElementById('final-results');
           finalLabel.style.visibility = 'visible';
           finalLabel.style.display = 'inline';
         } else{
-          results = event.data;
-          update_legend_names();
           var layerValue = document.getElementById('switch-layer').value;
           layers[layerValue].obj.setStyle(dynamic_style);
         }
