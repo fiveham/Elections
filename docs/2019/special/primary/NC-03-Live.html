@@ -223,8 +223,6 @@
       
       /* Handle messages posted from the worker */
       function mailbox(event){
-        console.log('message');
-        console.log(event);
         if(event.data.an_hero){ //kill worker and update visible aspects of the page
           worker.terminate();
           var finalLabel = document.getElementById('final-results');
@@ -316,8 +314,8 @@
       function update_legend_names(){
         var party = document.getElementById('switch-party').value;
         if(results && results.top){
-          document.getElementById('cand1').innerHtml = results.top[party][0];
-          document.getElementById('cand2').innerHtml = results.top[party][1];
+          document.getElementById('cand1').innerHTML = results.top[party][0];
+          document.getElementById('cand2').innerHTML = results.top[party][1];
         }
       }
     </script>
