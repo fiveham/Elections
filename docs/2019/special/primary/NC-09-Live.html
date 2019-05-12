@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <title>Live NC-09 Congressional Special Election Republican Primary Results in an Interactive Map</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      div.square {
+        height: 18px;
+        width: 18px;
+        border: 1px solid #a9a9a9;
+      }
+      
+      /* Undo .installed.controls:hover from map-controls.css */
+      #layer-switcher:hover {
+        background-color: white; 
+      }
+      
+      #layer-switcher,
+      #legend {
+        cursor: auto;
+        padding-top: 4px;
+        padding-right: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        border: 1px solid #a9a9a9;
+        font-size: 14px;
+      }
+      
+      #layer-switcher select {
+        cursor: pointer;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        width: 100%;
+      }
+      
+      #layer-switcher label {
+        font-weight: bold;
+        margin-bottom: 4px;
+      }
+      
+      #layer-switcher div {
+        width: 100%;
+        text-align: center;
+      }
+      
+      div.hr-bottom {
+        border-bottom: 1px solid black;
+        margin-bottom: 4px;
+        padding-bottom: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Legend -->
+    <div id="legend" class="installed left not-alone">
+      <div id="final-results" style="visibility: hidden; display: none; text-align: center;"><span>(Final Results)</span></div>
+      <table>
+        <tr>
+          <td><div id="darker_color" class="square darker" style="background-color: #202020"></div></td>
+          <td id="cand1">Top Candidate</td></tr>
+        <tr>
+          <td><div id="medium_color" class="square color" style="background-color: #505050"></div></td>
+          <td id="cand2">Second Candidate</td></tr>
+        <tr>
+          <td><div id="lighter_color" class="square lighter" style="background-color: #909090"></div></td>
+          <td>Other(s)</td></tr>
+      </table>
+    </div>
+    
+    <!-- Layer Switcher -->
+    <div id="layer-switcher" class="installed controls left not-alone">
+      <div class="hr-bottom">
+        <label for="switch-layer">Layer</label>
+        <br>
+        <select id="switch-layer" onchange="switch_layer();">
+          <option value="c">Counties</option>
+          <option value="d">District</option>
+          <option value="p">Precincts</option>
+        </select>
+      </div>
+      <div>
+        <label for="switch-party">Party</label>
+        <br>
+        <select id="switch-party" onchange="switch_party();">
+          <option value="D">Democratic</option>
+          <option value="L">Libertarian</option>
+          <option value="R">Republican</option>
+        </select>
+      </div>
+    </div>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">Live Updates for the NC-09 Congressional Special Election Republican Primary</p>
+            <p>Once per minute, this page queries the state board of elections website for elections results and displays the 
+               information provided.</p>
+            <p>The top vote-getter in a party is indicated on the map by the darkest version of that party's color. The second-highest 
+               voter-getter is marked with a slightly lighter version of the color. All others are marked with the same, very light 
+               shade of the color.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      /* Note about ControlPosition:
+           1      2    3
+         5                7
+         4       13       8
+         6                9
+           10    11    12
+      */
+      var map;
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [
+        {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+        {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/},
+        {id: "layer-switcher", where: 4  /*google.maps.ControlPosition.LEFT_CENTER*/},
+        {id: "legend",         where: 4  /*google.maps.ControlPosition.LEFT_CENTER*/}];
+      var unreported = "#DDDDDD";
+      var colors = {
+        D: {darker_color: "#000055", medium_color: "#0000FF", lighter_color: "#AAAAFF"},
+        L: {darker_color: "#555500", medium_color: "#FFFF00", lighter_color: "#FFFFAA"},
+        R: {darker_color: "#AA0000", medium_color: "#FF0000", lighter_color: "#FFAAAA"}};
+      var legend_color_index_to_name = {
+        0: 'darker_color',
+        1: 'medium_color',
+        2: 'lighter_color'
+      };
+      var layers = { //wrappers for google.maps.Data objects
+        d: {value: "d", obj: null, file: "NC03.json"},            //District
+        c: {value: "c", obj: null, file: "NC03_counties.json"},   //County
+        p: {value: "p", obj: null, file: "NC03_precincts.json"}}; //Precinct
+      var colorBoxLookup = {
+        darker_color:  document.getElementById('darker_color'), 
+        medium_color:  document.getElementById('medium_color'), 
+        lighter_color: document.getElementById('lighter_color')};
+      var results = null;
+      var worker = null;
+      
+      
+      
+      /* Callback function after loading maps API. Link the map object to a document element. 
+         Add widgets to the map. Initialize the layers. Fetch election result data for the 
+         first time and apply the top voter-getters-by-party info to the layers as feature 
+         properties. Apply color styles according to the selected party and the top vote-
+         getter (or unreported status) of each feature. Turn on only the layer indicated by 
+         the current selected layer in the switch-layer dropdown. */
+      function initMap() {
+        //Create the map
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: {lat: 35.61215525049109, lng: -76.6224810408075},
+          mapTypeId: 'roadmap'
+        });
+        
+        //Add the registered widgets to the map
+        add_widgets();
+        
+        //Create and colorize the Data layers
+        for(var key in layers){ //keys are 'd', 'c', and 'p'
+          var layer = layers[key];
+          layer.obj = new google.maps.Data();
+          layer.obj.loadGeoJson('/Elections/2019/special/primary/' + layer.file);
+          layer.obj.setStyle(dynamic_style);
+        }
+        
+        //Color the legend's color samples
+        update_legend_color();
+        
+        //Hook proper first layer to the map
+        var pfl = document.getElementById('switch-layer').value;
+        layers[pfl].obj.setMap(map);
+        
+        //Create the worker thread
+        worker = new Worker('/Live-Elections/poll_worker.js');
+        
+        //Create mailbox to receive messages from worker
+        worker.addEventListener("message", mailbox, false);
+        
+        //Start the worker thread and tell it the URL for result summaries
+        //This may quickly result in a message being sent to the main thread
+        //with result summary data, causing the map to recolor.
+        worker.postMessage('https://fiveham.github.io/Live-Elections/2019/apr/30/nc03/summary.txt');
+      }
+      
+      
+      /* Handle messages posted from the worker */
+      function mailbox(event){
+        if(event.data.an_hero){ //kill worker and update visible aspects of the page
+          worker.terminate();
+          var finalLabel = document.getElementById('final-results');
+          finalLabel.style.visibility = 'visible';
+          finalLabel.style.display = 'inline';
+        } else{
+          results = event.data;
+          update_legend_names();
+          var layerValue = document.getElementById('switch-layer').value;
+          layers[layerValue].obj.setStyle(dynamic_style);
+        }
+      }
+      
+      /* Handle event when user switches parties via the dropdown. */
+      function switch_party(){ //just recolor the current visible layer
+        update_legend_color();
+        update_legend_names();
+        //Color the layers
+        for(var key in layers){ //keys are 'd', 'c', and 'p'
+          var layer = layers[key];
+          layer.obj.setStyle(dynamic_style);
+        }
+      }
+      
+      /* Handle event when user switches layers via the dropdown. */
+      function switch_layer(){
+        for(var key in layers){
+          var layer = layers[key];
+          layer.obj.setMap(null);
+        }
+        var active_layer = document.getElementById('switch-layer').value;
+        layers[active_layer].obj.setMap(map);
+      }
+      
+      /* Return style options for a feature based on the context of which party is selected for 
+         display in the switch-party dropdown and based on the current content of results. */
+      function dynamic_style(feature){
+        var party = document.getElementById('switch-party').value; //'D', 'L', or 'R'
+        var layer_category = document.getElementById('switch-layer').value;
+        var style = {
+          fillOpacity: 0.5,
+          strokeColor: "#1B1B1B",
+          strokeOpacity: 0.5,
+          strokeWeight: 3,
+          clickable: false,
+          zIndex: 0
+        };
+        
+        if(!results){
+          style['fillColor'] = unreported;
+          return style;
+        }
+        
+        //Determine which kind of Feature we're dealing with.
+        //Rather than inspect the Feature's properties, we can just check which layer 
+        //type is currently selected.
+        if(layer_category == 'd'){ //district layer
+          style['fillColor'] = colors[party].darker_color;
+        } else{
+          var i;
+          if(layer_category == 'c'){ //county layer
+            var COUNTYNAME = feature.getProperty('Name').toUpperCase().valueOf();
+            i = results.by_county[COUNTYNAME].top[party];
+          } else{ //precinct layer
+            var COUNTYNAME = feature.getProperty('COUNTY'); //ALL-CAPS
+            var PREC_LABEL = feature.getProperty('Label');
+            i = results.by_county[COUNTYNAME].by_precinct[PREC_LABEL].top[party];
+          }
+          style['fillColor'] = (i == -1 
+                                ? unreported 
+                                : colors[party][legend_color_index_to_name[i]]);
+        }
+        
+        return style;
+      }
+      
+      /* Recolor the background-color properties of the color-square divs in the 
+         legend depending on the current selected party. */
+      function update_legend_color(){
+        var partyInitial = document.getElementById('switch-party').value;
+        var colorScheme = colors[partyInitial];
+        for(var term in colorScheme){
+          colorBoxLookup[term].style.backgroundColor = colorScheme[term];
+        }
+      }
+      
+      /* Fill in the top-two candidate names in the legend based on the current 
+         selected party and current results. */
+      function update_legend_names(){
+        var party = document.getElementById('switch-party').value;
+        if(results && results.top){
+          document.getElementById('cand1').innerHTML = results.top[party][0];
+          document.getElementById('cand2').innerHTML = results.top[party][1];
+        }
+      }
+    </script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
