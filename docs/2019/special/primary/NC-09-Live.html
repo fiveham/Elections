@@ -240,7 +240,7 @@
           zIndex: 0
         };
         
-        if(!results){
+        if(!results || !results.by_county){
           style['fillColor'] = unreported;
           return style;
         }
