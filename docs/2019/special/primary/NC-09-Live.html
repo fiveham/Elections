@@ -68,13 +68,22 @@
       <table>
         <tr>
           <td><div id="darker_color" class="square darker" style="background-color: #202020"></div></td>
-          <td id="cand1">Top Candidate</td></tr>
+          <td id="cand1">Top Candidate</td>
+          <td id="vct0">0</td>
+          <td id="pct0">0%</td>
+        </tr>
         <tr>
           <td><div id="medium_color" class="square color" style="background-color: #505050"></div></td>
-          <td id="cand2">Second Candidate</td></tr>
+          <td id="cand2">Second Candidate</td>
+          <td id="vct1">0</td>
+          <td id="pct1">0%</td>
+        </tr>
         <tr>
           <td><div id="lighter_color" class="square lighter" style="background-color: #909090"></div></td>
-          <td>Other(s)</td></tr>
+          <td>Other(s)</td>
+          <td id="vct2">0</td>
+          <td id="pct2">0%</td>
+        </tr>
       </table>
     </div>
     
@@ -201,7 +210,7 @@
           finalLabel.style.display = 'inline';
         } else{
           results = event.data;
-          update_legend_names();
+          update_legend_text();
           var layerValue = document.getElementById('switch-layer').value;
           layers[layerValue].obj.setStyle(dynamic_style);
         }
@@ -259,12 +268,31 @@
         return style;
       }
       
+      function format_percent(pct){
+        pct *= 100;
+        var intPart = Math.floor(pct);
+        var decPart = pct - intPart;
+        decPart = Math.floor(decPart*100);
+        decPart = decPart.toString();
+        while(decPart.length < 2){
+          decPart = decPart + "0";
+        }
+        intPart = intPart.toString();
+        return intPart + "." + decPart + "%";
+      }
+      
       /* Fill in the top-two candidate names in the legend based on the current results. */
-      function update_legend_names(){
+      function update_legend_text(){
         var party = 'R';
         if(results && results.top){
           document.getElementById('cand1').innerHTML = results.top[party][0];
           document.getElementById('cand2').innerHTML = results.top[party][1];
+          document.getElementById('vct0').innerHTML  = ""+results.votes[party][0]['count'];
+          document.getElementById('vct1').innerHTML  = ""+results.votes[party][1]['count'];
+          document.getElementById('vct2').innerHTML  = ""+results.votes[party][2]['count'];
+          document.getElementById('pct0').innerHTML  = format_percent(results.votes[party][0]['percent']);
+          document.getElementById('pct1').innerHTML  = format_percent(results.votes[party][1]['percent']);
+          document.getElementById('pct2').innerHTML  = format_percent(results.votes[party][2]['percent']);
         }
       }
     </script>
