@@ -77,7 +77,9 @@
     <!-- Legend -->
     <div id="legend" class="installed left not-alone">
       <div id="final-results" style="visibility: hidden; display: none; text-align: center;">
-        <div style="display: inline-block;">(Final Results)</div>
+        <div style="display: inline-block;">
+          <span>(Final Results)</span>
+        </div>
       </div>
       <table>
         <tr>
@@ -229,7 +231,7 @@
           worker.terminate();
           var finalLabel = document.getElementById('final-results');
           finalLabel.style.visibility = 'visible';
-          finalLabel.style.display = 'inline';
+          finalLabel.style.display = 'block';
         } else{
           results = event.data;
           update_legend_names();
