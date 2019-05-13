@@ -241,7 +241,7 @@
           finalLabel.style.display = 'block';
         } else{
           results = event.data;
-          update_legend_names();
+          update_legend_text();
           var layerValue = document.getElementById('switch-layer').value;
           layers[layerValue].obj.setStyle(dynamic_style);
         }
@@ -250,7 +250,7 @@
       /* Handle event when user switches parties via the dropdown. */
       function switch_party(){ //just recolor the current visible layer
         update_legend_color();
-        update_legend_names();
+        update_legend_text();
         //Color the layers
         for(var key in layers){ //keys are 'd', 'c', and 'p'
           var layer = layers[key];
@@ -320,13 +320,32 @@
         }
       }
       
+      function format_percent(pct){
+        pct *= 100;
+        var intPart = Math.floor(pct);
+        var decPart = pct - intPart;
+        decPart = Math.floor(decPart*100);
+        decPart = decPart.toString();
+        while(decPart.length < 2){
+          decPart = decPart + "0";
+        }
+        intPart = intPart.toString();
+        return intPart + "." + decPart + "%";
+      }
+      
       /* Fill in the top-two candidate names in the legend based on the current 
          selected party and current results. */
-      function update_legend_names(){
+      function update_legend_text(){
         var party = document.getElementById('switch-party').value;
         if(results && results.top){
           document.getElementById('cand1').innerHTML = results.top[party][0];
           document.getElementById('cand2').innerHTML = results.top[party][1];
+          document.getElementById('vct0').innerHTML  = ""+results.votes[party][0]['count'];
+          document.getElementById('vct1').innerHTML  = ""+results.votes[party][1]['count'];
+          document.getElementById('vct2').innerHTML  = ""+results.votes[party][2]['count'];
+          document.getElementById('pct0').innerHTML  = format_percent(results.votes[party][0]['percent']);
+          document.getElementById('pct1').innerHTML  = format_percent(results.votes[party][1]['percent']);
+          document.getElementById('pct2').innerHTML  = format_percent(results.votes[party][2]['percent']);
         }
       }
     </script>
