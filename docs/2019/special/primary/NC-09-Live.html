@@ -27,10 +27,10 @@
       #layer-switcher,
       #legend {
         cursor: auto;
-        padding-top: 4px;
+        padding-top: 2px;
         padding-right: 4px;
         padding-left: 4px;
-        padding-bottom: 4px;
+        padding-bottom: 2px;
         border: 1px solid #a9a9a9;
         font-size: 14px;
       }
@@ -52,12 +52,13 @@
       #layer-switcher div {
         width: 100%;
         text-align: center;
+        margin-top: 4px;
+        margin-bottom: 4px;
       }
       
-      div.hr-bottom {
-        border-bottom: 1px solid black;
+      #legend > * {
+        margin-top: 4px;
         margin-bottom: 4px;
-        padding-bottom: 4px;
       }
     </style>
   </head>
@@ -85,6 +86,9 @@
           <td id="pct2">0%</td>
         </tr>
       </table>
+      <div id="updates">
+        <b>Last Update:</b> <span id="update-time">Never?</span>
+      </div>
     </div>
     
     <!-- Layer Switcher -->
@@ -156,7 +160,6 @@
         p: {value: "p", obj: null, file: "NC09_precincts.geo.json"}}; //Precinct
       var results = null;
       var worker = null;
-      
       
       
       /* Callback function after loading maps API. Link the map object to a document element. 
@@ -293,6 +296,14 @@
           document.getElementById('pct0').innerHTML  = format_percent(results.votes[party][0]['percent']);
           document.getElementById('pct1').innerHTML  = format_percent(results.votes[party][1]['percent']);
           document.getElementById('pct2').innerHTML  = format_percent(results.votes[party][2]['percent']);
+          var splut = results.updated.split('-');
+          var min = splut[4];
+          if(min.length < 2){
+            min = '0' + min;
+          }
+          var hr = parseInt(splut[3], 10);
+          hr %= 12;
+          document.getElementById('update-time').innerHTML = hr + ":" + min;
         }
       }
     </script>
