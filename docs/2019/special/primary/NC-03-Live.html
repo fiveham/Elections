@@ -77,7 +77,7 @@
     <!-- Legend -->
     <div id="legend" class="installed left not-alone">
       <div id="final-results" style="visibility: hidden; display: none; text-align: center;">
-        <span>(Final Results)</span>
+        <span>Final Results (Unofficial)</span>
       </div>
       <table>
         <tr>
@@ -99,6 +99,9 @@
           <td id="pct2">0%</td>
         </tr>
       </table>
+      <div id="updates">
+        Last Update: <span id="update-time">Never?</span>
+      </div>
     </div>
     
     <!-- Layer Switcher -->
@@ -346,6 +349,14 @@
           document.getElementById('pct0').innerHTML  = format_percent(results.votes[party][0]['percent']);
           document.getElementById('pct1').innerHTML  = format_percent(results.votes[party][1]['percent']);
           document.getElementById('pct2').innerHTML  = format_percent(results.votes[party][2]['percent']);
+          var splut = results.updated.split('-');
+          var min = splut[4];
+          if(min.length < 2){
+            min = '0' + min;
+          }
+          var hr = parseInt(splut[3], 10);
+          hr %= 12;
+          document.getElementById('update-time').innerHTML = hr + ":" + min;
         }
       }
     </script>
