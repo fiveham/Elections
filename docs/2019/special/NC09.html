@@ -50,7 +50,7 @@
     </div>
     
     <!-- "About" Button -->
-    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal_plus('about-modal')" role="button" 
          title="About this map">
       <span>About</span>
     </div>
@@ -157,6 +157,13 @@
             document.getElementById("pp-swap").innerHTML.startsWith("Early") 
             ? "Election Day Sites" 
             : "Early Voting Sites");
+      }
+      
+      /* Toggle the modal but also ensure that it will show up above the other elements 
+         added to the map. */
+      function toggle_modal_plus(id){
+        document.getElementById(id).style.zIndex = 1;
+        toggle_modal(id);
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
