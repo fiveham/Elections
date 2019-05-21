@@ -3,18 +3,16 @@ get_share_buttons(names, url){
   if(!url){
     url = document.location.href;
   }
-  return share_buttons.filter(function(e){return e.name in names;}).map(function(e){return get_share_button(e,url);});
+  return names.map(function(name){return get_share_button(share_buttons[name], url);});
 }
 
 get_share_button(btn, url){
   if(typeof btn === "string"){
-    for(var sb in share_buttons){
-      if(sb.name === btn){
-        btn = sb;
-        break;
-      }
+    var err = "Button name '" + btn + "' not found";
+    btn = share_buttons[btn];
+    if(!btn){
+      throw err;
     }
-    throw "Button name '" + btn + "' not found";
   }
   if(!url){
     url = document.location.href;
@@ -37,29 +35,41 @@ get_share_button(btn, url){
   a.style.backgroundImage = btn.bgimgs.map(function(x){return "url('" + x + "')"}).join(', ');
 }
 
-share_buttons = [
-  { name:'facebook',  bgc: 'rgb(59,87,157)', bgimgs: ['/Elections/images/social/Facebook/600px-Facebook_logo_square.png'],  
+share_buttons = {
+  facebook: {
+    bgc: 'rgb(59,87,157)', 
+    bgimgs: ['/Elections/images/social/Facebook/600px-Facebook_logo_square.png'],  
     get_href:function(url){
       var params = [['u', url]];
       return as_url('https://www.facebook.com/sharer/sharer.php', params);
-    }},
-  { name:'twitter',   bgc: 'rgb(29,161,242)', bgimgs: ['/Elections/images/social/Twitter/Twitter_Logo_WhiteOnBlue.png'], 
+    }
+  },
+  twitter: {
+    bgc: 'rgb(29,161,242)', 
+    bgimgs: ['/Elections/images/social/Twitter/Twitter_Logo_WhiteOnBlue.png'], 
     get_href:function(url){
       var params = [
         ['text', "Testing sharing body text and whatnot"], 
         ['url', url]
       ];
       return as_url('https://twitter.com/intent/tweet/', params);
-    }},
-  { name:'reddit',    bgc: 'rgb(255,69,0)', bgimgs: ['/Elections/images/social/Reddit/Artboard 1_48.png'], 
+    }
+  },
+  reddit: {
+    bgc: 'rgb(255,69,0)', 
+    bgimgs: ['/Elections/images/social/Reddit/Artboard 1_48.png'], 
     get_href:function(url){
       var params = [
         ['title', 'Testing sharing title text, doo-dah, doo-dah'], 
         ['url', url]
       ];
       return as_url('https://www.reddit.com/submit', params);
-    }},
-  { name:'tumblr',    bgc: 'rgb(0,25,53)', bgimgs: ['/Elections/images/social/Tumblr/Tumblr_Logos_2018.03.06_t Icon White.png'], 
+    }
+  },
+  tumblr: {
+    bgc: 'rgb(0,25,53)', 
+    bgimgs: ['/Elections/images/social/Tumblr/Tumblr_Logos_2018.03.06_t Icon White.png'], 
+    initStyle: "background-size: 35.5% 62.5%; background-position: center center;", 
     get_href:function(url){
       var params = [
         ['canonicalUrl', get_meta('og:url')],
@@ -72,17 +82,26 @@ share_buttons = [
         ['show-via',     'Sorry_not_via_anything']                             //Not showing up
       ];
       return as_url('https://www.tumblr.com/widgets/share/tool', params);
-    }, initStyle: "background-size: 35.5% 62.5%; background-position: center center;"},
-  { name:'pinterest', bgc: 'rgb(206,40,44)', bgimgs: ['/Elections/images/social/Pinterest/icon_64x64.png'],   
+    }
+  },
+  pinterest: {
+    'rgb(206,40,44)', 
+    bgimgs: ['/Elections/images/social/Pinterest/icon_64x64.png'],   
     get_href:function(url){
       var params = [
         ['url',         url],
         ['media',       get_meta('og:image:secure_url')],
         ['description', get_meta('og:description')]];
       return as_url('https://pinterest.com/pin/create/button/', params);
-    }},
-  { name:'linkedin', bgc: 'rgb(10,102,194)', 
-    bgimgs: ['/Elections/images/social/LinkedIn/In-Blue-72.png', '/Elections/images/social/LinkedIn/linkedin-uncornerer.png'],   
+    }
+  },
+  linkedin: {
+    bgc: 'rgb(10,102,194)', 
+    bgimgs: [
+      '/Elections/images/social/LinkedIn/In-Blue-72.png', 
+      '/Elections/images/social/LinkedIn/linkedin-uncornerer.png'
+    ], 
+    forTitle: 'LinkedIn',   
     get_href:function(url){
       var params = [
         ['mini',    'true'],
@@ -92,28 +111,42 @@ share_buttons = [
         ['source',  'fiveham.github.io']
       ];
       return as_url('https://www.linkedin.com/shareArticle', params);
-    }, forTitle: 'LinkedIn'},
-  { name:'googleplus', bgc: 'rgb(221,78,65)', bgimgs: ['https://www.gstatic.com/images/icons/gplus-64.png'], 
+    }
+  },
+  googleplus: {
+    bgc: 'rgb(221,78,65)', 
+    bgimgs: ['https://www.gstatic.com/images/icons/gplus-64.png'], 
+    forTitle: 'Google+', 
     get_href:function(url){
       var params = [['url', url]];
       return as_url('https://plus.google.com/share', params);
-    }, forTitle: 'Google+'},
-  { name:'mix', bgc:'rgb(244, 129, 44)', bgimgs: ['/Elections/images/social/Mix/mix-manual.png'], get_href:function(url){
+    }
+  },
+  mix: {
+    bgc:'rgb(244, 129, 44)', 
+    bgimgs: ['/Elections/images/social/Mix/mix-manual.png'], 
+    get_href:function(url){
       var params = [['url', url]];
       return as_url('https://mix.com/mixit', params); //Or /add instead of /mixit
-    }},
-  { name:'myspace', bgc:'rgb(39,39,39)', forTitle:'MySpace', 
-   initStyle: "background-size: 66.7% 40.6%; background-position: center center;", 
-   bgimgs:['/Elections/images/social/MySpace/37c71da0f463cb268b47fb9118992bd9fd9bdc6b.png'],  
-   get_href:function(url){
+    }
+  },
+  myspace: {
+    bgc:'rgb(39,39,39)', 
+    forTitle:'MySpace', 
+    initStyle: "background-size: 66.7% 40.6%; background-position: center center;", 
+    bgimgs:['/Elections/images/social/MySpace/37c71da0f463cb268b47fb9118992bd9fd9bdc6b.png'],  
+    get_href:function(url){
       var params = [
         ['u', url],
         ['t', get_meta('og:title')],
         ['c', get_meta('og:description')]
       ];
       return as_url('https://myspace.com/post', params);
-    }},
-  { name:'hackernews', bgc:'rgb(241,102,36)', forTitle:'HackerNews', 
+    }
+  },
+  hackernews: {
+    bgc:'rgb(241,102,36)', 
+    forTitle:'HackerNews', 
     bgimgs:['/Elections/images/social/HackerNews/hacker-y.png'], 
     get_href:function(url){
       var params = [
@@ -121,8 +154,11 @@ share_buttons = [
         ['t', get_meta('og:title')]
       ];
       return as_url('https://news.ycombinator.com/submitlink', params);
-    }},
-  { name:'diaspora', bgc:'rgb(100,100,100)', forTitle:'diaspora*', 
+    }
+  },
+  diaspora: {
+    bgc:'rgb(100,100,100)', 
+    forTitle:'diaspora*', 
     initStyle: "background-size: 66.7% 66.7%; background-position: center center;", 
     bgimgs:['data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAABkklEQVQoUwXBPUhUAQAA4O/de5737qfS89AoEsEhFIciiiYjCAohCNrbWtpLcM1ojaCgVYcGJyGoLcekP4IGQbKUrqQ0z5877873Xt8XDIBQr1I+nsyP0FltLrWStkSGiECPSlib7puOyyESrcbO87+zjf2uTDAgrzpy8mX1YlGmJVOQc2h7pX7jy1pNMKgvP/x+cKJXYNd9mXkNoY7N1fUL241crDbTPxFJpA6dc14olYlUR2sPC3Llof6ZXrFBW5qga1dLQeTE3XJ/rng9DhNjHnnqqg1k7pk3qSvOx9ei/JlQoIxTHoAnYBSh/EgUxIEebyw4645xNLywZktZW5CPuj8TobLAoXFw3Hf/HJPT1F3PNV+3pRKpWTwzh8dIpTpaS7n91Z2FtsQVFXVvLaqrmJLq2H11sBYMqdWGv1ZrbcNCGzitalnBTuPHpT8rYeyomX2ObpYKTQd6RPZsCjX267c/LReERanVb4W5bCw3SipxpGVr6detj+8oCgYQiJRULpemohrd383FvQ9NXRn+A1iPlomQUIqjAAAAAElFTkSuQmCC'], 
     get_href:function(url){
@@ -131,8 +167,10 @@ share_buttons = [
         ['url',   url]
       ];
       return as_url('https://share.diasporafoundation.org/', params);
-    }},
-  { name:'buffer', bgc:'rgb(25,37,52)', 
+    }
+  },
+  buffer: {
+    bgc:'rgb(25,37,52)', 
     initStyle: "background-size: 66.7% 66.7%; background-position: center center;", 
     bgimgs:['/Elections/images/social/Buffer/buffer-logo.png'], 
     get_href:function(url){
@@ -141,8 +179,10 @@ share_buttons = [
         ['url',   url]
       ];
       return as_url('https://buffer.com/add', params);
-    }},
-  { name:'skype', bgc:'rgb(0,175,240)', 
+    }
+  },
+  skype: {
+    bgc:'rgb(0,175,240)', 
     initStyle: "background-size: 23px 23px; background-position: center center;", 
     bgimgs:['/Elections/images/social/Skype/s_logo.svg'], 
     get_href:function(url){
@@ -151,8 +191,9 @@ share_buttons = [
         ['url',   url]
       ];
       return as_url('https://web.skype.com/share', params);
-    }}
-  ];
+    }
+  }
+};
 
 function get_meta(property){
   var metas = document.getElementsByTagName('meta');
