@@ -17,7 +17,6 @@ function add_share_buttons(parent, names, url){
   get_share_buttons(names, url).forEach(function(a){
     parent.appendChild(a);
   });
-  parent.appendChild(get_share_button(name, url));
 }
 
 function add_share_button(parent, name, url){
