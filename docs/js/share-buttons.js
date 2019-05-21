@@ -1,12 +1,36 @@
+/* ====================================================================== */
+/* This script provides easy access to some social-media sharing buttons. */
+/* Just ask for the ones you want by name (in lowercase, alphabetic       */
+/* characters only) using get_share_button or get_share_buttons, and the  */
+/* function will return an <a> tag with all the appropriate attributes.   */
+/* If no url is specified, it defaults to document.location.href.         */
+/* add_share_button and add_share_buttons are also available to not only  */
+/* generate the <a> tags but also append them to a specified DOM element. */
+/* ====================================================================== */
 
-get_share_buttons(names, url){
-  if(!url){
-    url = document.location.href;
-  }
+function ensure_url(url){
+  return url ? url : document.location.href;
+}
+
+function add_share_buttons(parent, names, url){
+  url = ensure_url(url);
+  get_share_buttons(names, url).forEach(function(a){
+    parent.appendChild(a);
+  });
+  parent.appendChild(get_share_button(name, url));
+}
+
+function add_share_button(parent, name, url){
+  parent.appendChild(get_share_button(name, url));
+}
+
+function get_share_buttons(names, url){
+  url = ensure_url(url);
   return names.map(function(name){return get_share_button(share_buttons[name], url);});
 }
 
-get_share_button(btn, url){
+function get_share_button(btn, url){
+  url = ensure_url(url);
   if(typeof btn === "string"){
     var err = "Button name '" + btn + "' not found";
     btn = share_buttons[btn];
@@ -14,9 +38,7 @@ get_share_button(btn, url){
       throw err;
     }
   }
-  if(!url){
-    url = document.location.href;
-  }
+  
   var a = document.createElement('a');
   
   a.id = 'share-' + e.name;
@@ -35,7 +57,7 @@ get_share_button(btn, url){
   a.style.backgroundImage = btn.bgimgs.map(function(x){return "url('" + x + "')"}).join(', ');
 }
 
-share_buttons = {
+var share_buttons = {
   facebook: {
     bgc: 'rgb(59,87,157)', 
     bgimgs: ['/Elections/images/social/Facebook/600px-Facebook_logo_square.png'],  
