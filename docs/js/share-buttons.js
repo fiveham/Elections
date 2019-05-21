@@ -96,7 +96,7 @@ var share_buttons = {
     name:'tumblr',
     bgc: 'rgb(0,25,53)', 
     bgimgs: ['/Elections/images/social/Tumblr/Tumblr_Logos_2018.03.06_t Icon White.png'], 
-    initStyle: "background-size: 35.5% 62.5%; background-position: center center;", 
+    initStyle: "background-size: 35.47297%; background-position: center center;", 
     get_href:function(url){
       var params = [
         ['canonicalUrl', get_meta('og:url')],
