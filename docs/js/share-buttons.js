@@ -107,7 +107,7 @@ var share_buttons = {
     }
   },
   pinterest: {
-    'rgb(206,40,44)', 
+    bgc: 'rgb(206,40,44)', 
     bgimgs: ['/Elections/images/social/Pinterest/icon_64x64.png'],   
     get_href:function(url){
       var params = [
