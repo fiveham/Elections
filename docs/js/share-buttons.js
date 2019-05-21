@@ -59,6 +59,7 @@ function get_share_button(btn, url){
 
 var share_buttons = {
   facebook: {
+    name:'facebook',
     bgc: 'rgb(59,87,157)', 
     bgimgs: ['/Elections/images/social/Facebook/600px-Facebook_logo_square.png'],  
     get_href:function(url){
@@ -67,6 +68,7 @@ var share_buttons = {
     }
   },
   twitter: {
+    name:'twitter',
     bgc: 'rgb(29,161,242)', 
     bgimgs: ['/Elections/images/social/Twitter/Twitter_Logo_WhiteOnBlue.png'], 
     get_href:function(url){
@@ -78,6 +80,7 @@ var share_buttons = {
     }
   },
   reddit: {
+    name:'reddit',
     bgc: 'rgb(255,69,0)', 
     bgimgs: ['/Elections/images/social/Reddit/Artboard 1_48.png'], 
     get_href:function(url){
@@ -89,6 +92,7 @@ var share_buttons = {
     }
   },
   tumblr: {
+    name:'tumblr',
     bgc: 'rgb(0,25,53)', 
     bgimgs: ['/Elections/images/social/Tumblr/Tumblr_Logos_2018.03.06_t Icon White.png'], 
     initStyle: "background-size: 35.5% 62.5%; background-position: center center;", 
@@ -107,6 +111,7 @@ var share_buttons = {
     }
   },
   pinterest: {
+    name:'pinterest',
     bgc: 'rgb(206,40,44)', 
     bgimgs: ['/Elections/images/social/Pinterest/icon_64x64.png'],   
     get_href:function(url){
@@ -118,6 +123,7 @@ var share_buttons = {
     }
   },
   linkedin: {
+    name:'linkedin',
     bgc: 'rgb(10,102,194)', 
     bgimgs: [
       '/Elections/images/social/LinkedIn/In-Blue-72.png', 
@@ -136,6 +142,7 @@ var share_buttons = {
     }
   },
   googleplus: {
+    name:'googleplus',
     bgc: 'rgb(221,78,65)', 
     bgimgs: ['https://www.gstatic.com/images/icons/gplus-64.png'], 
     forTitle: 'Google+', 
@@ -145,6 +152,7 @@ var share_buttons = {
     }
   },
   mix: {
+    name:'mix',
     bgc:'rgb(244, 129, 44)', 
     bgimgs: ['/Elections/images/social/Mix/mix-manual.png'], 
     get_href:function(url){
@@ -153,6 +161,7 @@ var share_buttons = {
     }
   },
   myspace: {
+    name:'myspace',
     bgc:'rgb(39,39,39)', 
     forTitle:'MySpace', 
     initStyle: "background-size: 66.7% 40.6%; background-position: center center;", 
@@ -167,6 +176,7 @@ var share_buttons = {
     }
   },
   hackernews: {
+    name:'hackernews',
     bgc:'rgb(241,102,36)', 
     forTitle:'HackerNews', 
     bgimgs:['/Elections/images/social/HackerNews/hacker-y.png'], 
@@ -179,6 +189,7 @@ var share_buttons = {
     }
   },
   diaspora: {
+    name:'diaspora',
     bgc:'rgb(100,100,100)', 
     forTitle:'diaspora*', 
     initStyle: "background-size: 66.7% 66.7%; background-position: center center;", 
@@ -192,6 +203,7 @@ var share_buttons = {
     }
   },
   buffer: {
+    name:'buffer',
     bgc:'rgb(25,37,52)', 
     initStyle: "background-size: 66.7% 66.7%; background-position: center center;", 
     bgimgs:['/Elections/images/social/Buffer/buffer-logo.png'], 
@@ -204,6 +216,7 @@ var share_buttons = {
     }
   },
   skype: {
+    name:'skype',
     bgc:'rgb(0,175,240)', 
     initStyle: "background-size: 23px 23px; background-position: center center;", 
     bgimgs:['/Elections/images/social/Skype/s_logo.svg'], 
