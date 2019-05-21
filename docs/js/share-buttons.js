@@ -55,6 +55,8 @@ function get_share_button(btn, url){
   }
   a.style.backgroundColor = btn.bgc;
   a.style.backgroundImage = btn.bgimgs.map(function(x){return "url('" + x + "')"}).join(', ');
+  
+  return a;
 }
 
 var share_buttons = {
