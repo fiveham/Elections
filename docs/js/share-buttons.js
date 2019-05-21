@@ -41,7 +41,7 @@ function get_share_button(btn, url){
   
   var a = document.createElement('a');
   
-  a.id = 'share-' + e.name;
+  a.id = 'share-' + btn.name;
   a.href = btn.get_href(url);
   a.target = "_blank";
 
