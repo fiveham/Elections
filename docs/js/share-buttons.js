@@ -192,7 +192,7 @@ var share_buttons = {
   hackernews: {
     name:'hackernews',
     bgc:'rgb(241,102,36)', 
-    forTitle:'HackerNews', 
+    forTitle:'Hacker News', 
     bgimgs:['/Elections/images/social/HackerNews/hacker-y.png'], 
     get_href:function(url){
       var params = [
