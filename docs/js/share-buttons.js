@@ -204,7 +204,7 @@ var share_buttons = {
   },
   diaspora: {
     name:'diaspora',
-    bgc:'rgb(100,100,100)', 
+    bgc:'rgb(34,34,34)', 
     forTitle:'diaspora*', 
     initStyle: "background-size: 70%; background-position: center center;", 
     bgimgs:['/Elections/images/social/diaspora/00e35d93c8dd77363bff3d52908cd44aa71739e7.png'], 
