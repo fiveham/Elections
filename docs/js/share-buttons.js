@@ -178,7 +178,7 @@ var share_buttons = {
     name:'myspace',
     bgc:'rgb(39,39,39)', 
     forTitle:'MySpace', 
-    initStyle: "background-size: 66.7% 40.6%; background-position: center center;", 
+    initStyle: "background-size: 66.7%; background-position: center center;", 
     bgimgs:['/Elections/images/social/MySpace/37c71da0f463cb268b47fb9118992bd9fd9bdc6b.png'],  
     get_href:function(url){
       var params = [
@@ -206,7 +206,7 @@ var share_buttons = {
     name:'diaspora',
     bgc:'rgb(100,100,100)', 
     forTitle:'diaspora*', 
-    initStyle: "background-size: 66.7% 66.7%; background-position: center center;", 
+    initStyle: "background-size: 70%; background-position: center center;", 
     bgimgs:['data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAABkklEQVQoUwXBPUhUAQAA4O/de5737qfS89AoEsEhFIciiiYjCAohCNrbWtpLcM1ojaCgVYcGJyGoLcekP4IGQbKUrqQ0z5877873Xt8XDIBQr1I+nsyP0FltLrWStkSGiECPSlib7puOyyESrcbO87+zjf2uTDAgrzpy8mX1YlGmJVOQc2h7pX7jy1pNMKgvP/x+cKJXYNd9mXkNoY7N1fUL241crDbTPxFJpA6dc14olYlUR2sPC3Llof6ZXrFBW5qga1dLQeTE3XJ/rng9DhNjHnnqqg1k7pk3qSvOx9ei/JlQoIxTHoAnYBSh/EgUxIEebyw4645xNLywZktZW5CPuj8TobLAoXFw3Hf/HJPT1F3PNV+3pRKpWTwzh8dIpTpaS7n91Z2FtsQVFXVvLaqrmJLq2H11sBYMqdWGv1ZrbcNCGzitalnBTuPHpT8rYeyomX2ObpYKTQd6RPZsCjX267c/LReERanVb4W5bCw3SipxpGVr6detj+8oCgYQiJRULpemohrd383FvQ9NXRn+A1iPlomQUIqjAAAAAElFTkSuQmCC'], 
     get_href:function(url){
       var params = [
@@ -219,7 +219,7 @@ var share_buttons = {
   buffer: {
     name:'buffer',
     bgc:'rgb(25,37,52)', 
-    initStyle: "background-size: 66.7% 66.7%; background-position: center center;", 
+    initStyle: "background-size: 65%; background-position: center center;", 
     bgimgs:['/Elections/images/social/Buffer/buffer-logo.png'], 
     get_href:function(url){
       var params = [
