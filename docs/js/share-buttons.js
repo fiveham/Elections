@@ -207,7 +207,7 @@ var share_buttons = {
     bgc:'rgb(100,100,100)', 
     forTitle:'diaspora*', 
     initStyle: "background-size: 70%; background-position: center center;", 
-    bgimgs:['/Elections/images/social/diaspora/Diaspora-asterisk.svg'], 
+    bgimgs:['/Elections/images/social/diaspora/00e35d93c8dd77363bff3d52908cd44aa71739e7.png'], 
     get_href:function(url){
       var params = [
         ['title', get_meta('og:title')],
