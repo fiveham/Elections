@@ -72,6 +72,33 @@ function get_share_button(btn, url){
 }
 
 var share_buttons = {
+  buffer: {
+    name:'buffer',
+    bgc:'rgb(25,37,52)', 
+    initStyle: "background-size: 65%; background-position: center center;", 
+    bgimgs:['/Elections/images/social/Buffer/buffer-logo.png'], 
+    get_href:function(url){
+      var params = [
+        ['text', get_meta('og:title')], //Maybe should be description instead
+        ['url',   url]
+      ];
+      return as_url('https://buffer.com/add', params);
+    }
+  },
+  diaspora: {
+    name:'diaspora',
+    bgc:'rgb(34,34,34)', 
+    forTitle:'diaspora*', 
+    initStyle: "background-size: 70%; background-position: center center;", 
+    bgimgs:['/Elections/images/social/diaspora/00e35d93c8dd77363bff3d52908cd44aa71739e7.png'], 
+    get_href:function(url){
+      var params = [
+        ['title', get_meta('og:title')],
+        ['url',   url]
+      ];
+      return as_url('https://share.diasporafoundation.org/', params);
+    }
+  },
   facebook: {
     name:'facebook',
     bgc: 'rgb(59,87,157)', 
@@ -81,59 +108,27 @@ var share_buttons = {
       return as_url('https://www.facebook.com/sharer/sharer.php', params);
     }
   },
-  twitter: {
-    name:'twitter',
-    bgc: 'rgb(29,161,242)', 
-    bgimgs: ['/Elections/images/social/Twitter/Twitter_Logo_WhiteOnBlue.png'], 
+  googleplus: {
+    name:'googleplus',
+    bgc: 'rgb(221,78,65)', 
+    bgimgs: ['https://www.gstatic.com/images/icons/gplus-64.png'], 
+    forTitle: 'Google+', 
     get_href:function(url){
-      var params = [
-        ['text', "Testing sharing body text and whatnot"], 
-        ['url', url]
-      ];
-      return as_url('https://twitter.com/intent/tweet/', params);
+      var params = [['url', url]];
+      return as_url('https://plus.google.com/share', params);
     }
   },
-  reddit: {
-    name:'reddit',
-    bgc: 'rgb(255,69,0)', 
-    bgimgs: ['/Elections/images/social/Reddit/Artboard 1_48.png'], 
+  hackernews: {
+    name:'hackernews',
+    bgc:'rgb(241,102,36)', 
+    forTitle:'Hacker News', 
+    bgimgs:['/Elections/images/social/HackerNews/hacker-y.png'], 
     get_href:function(url){
       var params = [
-        ['title', 'Testing sharing title text, doo-dah, doo-dah'], 
-        ['url', url]
+        ['u', url],
+        ['t', get_meta('og:title')]
       ];
-      return as_url('https://www.reddit.com/submit', params);
-    }
-  },
-  tumblr: {
-    name:'tumblr',
-    bgc: 'rgb(0,25,53)', 
-    bgimgs: ['/Elections/images/social/Tumblr/Tumblr_Logos_2018.03.06_t Icon White.png'], 
-    initStyle: "background-size: 35.47297%; background-position: center center;", 
-    get_href:function(url){
-      var params = [
-        ['canonicalUrl', get_meta('og:url')],
-        ['url',          url],
-        ['posttype',     'link'],
-        ['tags',         'testing,experiment'],
-        ['title',        'This is the post title. Expeeeeeerimeeeeent.'],      //og:title overrides, followed by og:description
-        ['content',      url],                                                 //content is url for link posts
-        ['caption',      "closed captions provided by: ...uh, I don't know."], //Your own personal reblogging remarks.
-        ['show-via',     'Sorry_not_via_anything']                             //Not showing up
-      ];
-      return as_url('https://www.tumblr.com/widgets/share/tool', params);
-    }
-  },
-  pinterest: {
-    name:'pinterest',
-    bgc: 'rgb(206,40,44)', 
-    bgimgs: ['/Elections/images/social/Pinterest/icon_64x64.png'],   
-    get_href:function(url){
-      var params = [
-        ['url',         url],
-        ['media',       get_meta('og:image:secure_url')],
-        ['description', get_meta('og:description')]];
-      return as_url('https://pinterest.com/pin/create/button/', params);
+      return as_url('https://news.ycombinator.com/submitlink', params);
     }
   },
   linkedin: {
@@ -153,16 +148,6 @@ var share_buttons = {
         ['source',  'fiveham.github.io']
       ];
       return as_url('https://www.linkedin.com/shareArticle', params);
-    }
-  },
-  googleplus: {
-    name:'googleplus',
-    bgc: 'rgb(221,78,65)', 
-    bgimgs: ['https://www.gstatic.com/images/icons/gplus-64.png'], 
-    forTitle: 'Google+', 
-    get_href:function(url){
-      var params = [['url', url]];
-      return as_url('https://plus.google.com/share', params);
     }
   },
   mix: {
@@ -189,44 +174,28 @@ var share_buttons = {
       return as_url('https://myspace.com/post', params);
     }
   },
-  hackernews: {
-    name:'hackernews',
-    bgc:'rgb(241,102,36)', 
-    forTitle:'Hacker News', 
-    bgimgs:['/Elections/images/social/HackerNews/hacker-y.png'], 
+  pinterest: {
+    name:'pinterest',
+    bgc: 'rgb(206,40,44)', 
+    bgimgs: ['/Elections/images/social/Pinterest/icon_64x64.png'],   
     get_href:function(url){
       var params = [
-        ['u', url],
-        ['t', get_meta('og:title')]
-      ];
-      return as_url('https://news.ycombinator.com/submitlink', params);
+        ['url',         url],
+        ['media',       get_meta('og:image:secure_url')],
+        ['description', get_meta('og:description')]];
+      return as_url('https://pinterest.com/pin/create/button/', params);
     }
   },
-  diaspora: {
-    name:'diaspora',
-    bgc:'rgb(34,34,34)', 
-    forTitle:'diaspora*', 
-    initStyle: "background-size: 70%; background-position: center center;", 
-    bgimgs:['/Elections/images/social/diaspora/00e35d93c8dd77363bff3d52908cd44aa71739e7.png'], 
+  reddit: {
+    name:'reddit',
+    bgc: 'rgb(255,69,0)', 
+    bgimgs: ['/Elections/images/social/Reddit/Artboard 1_48.png'], 
     get_href:function(url){
       var params = [
-        ['title', get_meta('og:title')],
-        ['url',   url]
+        ['title', 'Testing sharing title text, doo-dah, doo-dah'], 
+        ['url', url]
       ];
-      return as_url('https://share.diasporafoundation.org/', params);
-    }
-  },
-  buffer: {
-    name:'buffer',
-    bgc:'rgb(25,37,52)', 
-    initStyle: "background-size: 65%; background-position: center center;", 
-    bgimgs:['/Elections/images/social/Buffer/buffer-logo.png'], 
-    get_href:function(url){
-      var params = [
-        ['text', get_meta('og:title')], //Maybe should be description instead
-        ['url',   url]
-      ];
-      return as_url('https://buffer.com/add', params);
+      return as_url('https://www.reddit.com/submit', params);
     }
   },
   skype: {
@@ -240,6 +209,37 @@ var share_buttons = {
         ['url',   url]
       ];
       return as_url('https://web.skype.com/share', params);
+    }
+  },
+  tumblr: {
+    name:'tumblr',
+    bgc: 'rgb(0,25,53)', 
+    bgimgs: ['/Elections/images/social/Tumblr/Tumblr_Logos_2018.03.06_t Icon White.png'], 
+    initStyle: "background-size: 35.47297%; background-position: center center;", 
+    get_href:function(url){
+      var params = [
+        ['canonicalUrl', get_meta('og:url')],
+        ['url',          url],
+        ['posttype',     'link'],
+        ['tags',         'testing,experiment'],
+        ['title',        'This is the post title. Expeeeeeerimeeeeent.'],      //og:title overrides, followed by og:description
+        ['content',      url],                                                 //content is url for link posts
+        ['caption',      "closed captions provided by: ...uh, I don't know."], //Your own personal reblogging remarks.
+        ['show-via',     'Sorry_not_via_anything']                             //Not showing up
+      ];
+      return as_url('https://www.tumblr.com/widgets/share/tool', params);
+    }
+  },
+  twitter: {
+    name:'twitter',
+    bgc: 'rgb(29,161,242)', 
+    bgimgs: ['/Elections/images/social/Twitter/Twitter_Logo_WhiteOnBlue.png'], 
+    get_href:function(url){
+      var params = [
+        ['text', "Testing sharing body text and whatnot"], 
+        ['url', url]
+      ];
+      return as_url('https://twitter.com/intent/tweet/', params);
     }
   }
 };
