@@ -50,13 +50,13 @@ function get_share_button(btn, url){
   a.title = "Share this map on " + ft;
 
   var baseStyle = [
-    "display: inline-block;"
-    "height: 40px;"
-    "width: 40px;"
-    "margin: 5px;"
-    "background-color: gray;"
-    "background-repeat: no-repeat;"
-    "background-size: contain;"
+    "display: inline-block;",
+    "height: 40px;",
+    "width: 40px;",
+    "margin: 5px;",
+    "background-color: gray;",
+    "background-repeat: no-repeat;",
+    "background-size: contain;",
     "border-radius: 2px;"
   ];
   var newStyle = baseStyle.join(' ');
