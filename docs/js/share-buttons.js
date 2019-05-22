@@ -207,7 +207,7 @@ var share_buttons = {
     bgc:'rgb(100,100,100)', 
     forTitle:'diaspora*', 
     initStyle: "background-size: 70%; background-position: center center;", 
-    bgimgs:['data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAABkklEQVQoUwXBPUhUAQAA4O/de5737qfS89AoEsEhFIciiiYjCAohCNrbWtpLcM1ojaCgVYcGJyGoLcekP4IGQbKUrqQ0z5877873Xt8XDIBQr1I+nsyP0FltLrWStkSGiECPSlib7puOyyESrcbO87+zjf2uTDAgrzpy8mX1YlGmJVOQc2h7pX7jy1pNMKgvP/x+cKJXYNd9mXkNoY7N1fUL241crDbTPxFJpA6dc14olYlUR2sPC3Llof6ZXrFBW5qga1dLQeTE3XJ/rng9DhNjHnnqqg1k7pk3qSvOx9ei/JlQoIxTHoAnYBSh/EgUxIEebyw4645xNLywZktZW5CPuj8TobLAoXFw3Hf/HJPT1F3PNV+3pRKpWTwzh8dIpTpaS7n91Z2FtsQVFXVvLaqrmJLq2H11sBYMqdWGv1ZrbcNCGzitalnBTuPHpT8rYeyomX2ObpYKTQd6RPZsCjX267c/LReERanVb4W5bCw3SipxpGVr6detj+8oCgYQiJRULpemohrd383FvQ9NXRn+A1iPlomQUIqjAAAAAElFTkSuQmCC'], 
+    bgimgs:['/Elections/images/social/diaspora/Diaspora-asterisk.svg'], 
     get_href:function(url){
       var params = [
         ['title', get_meta('og:title')],
