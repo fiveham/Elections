@@ -49,9 +49,22 @@ function get_share_button(btn, url){
       : (btn.name.charAt(0).toUpperCase() + btn.name.slice(1));
   a.title = "Share this map on " + ft;
 
+  var baseStyle = [
+    "display: inline-block;"
+    "height: 40px;"
+    "width: 40px;"
+    "margin: 5px;"
+    "background-color: gray;"
+    "background-repeat: no-repeat;"
+    "background-size: contain;"
+    "border-radius: 2px;"
+  ];
+  var newStyle = baseStyle.join(' ');
   if(btn.initStyle){
-    a.style = btn.initStyle;
+    newStyle += btn.initStyle;
   }
+  a.style = newStyle;
+  
   a.style.backgroundColor = btn.bgc;
   a.style.backgroundImage = btn.bgimgs.map(function(x){return "url('" + x + "')"}).join(', ');
   
