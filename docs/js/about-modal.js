@@ -7,22 +7,22 @@
    map: the map object */
 
 /* Add listed widgets to the map and make them visible (set opacity to 1) */
-function add_widgets(){
+/*function add_widgets(){
   widgets.forEach(function(widget){
     var element = document.getElementById(widget.id);
-    map.controls[widget.where].push(element); /* Add widget to the map */
+    map.controls[widget.where].push(element); // Add widget to the map
     triggers.forEach(function(t){
       google.maps.event.addListenerOnce(map, t, function(){
-        element.style.opacity = "1"; /* Set opacity to 1 */
+        element.style.opacity = "1";
       });
     });
   });
-}
+}/**/
 
 /* Find the modal and switch its visibility */
 function toggle_modal(element_id){
   var modal = document.getElementById(element_id);
-  modal.style.visibility = (modal.style.visibility == "visible" 
+  modal.style.visibility = (modal.style.visibility === "visible" 
                             ? "hidden" 
                             : "visible");
 }
