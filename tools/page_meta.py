@@ -229,12 +229,16 @@ def page_check(page, url=None):
 def pretty_print_issues(issues_by_url, ignore=[]):
     if ignore:
         print("Ignoring these issues:")
-        for i in ignore:
-            print('\t'+i)
-    for issues_for_url in issues_by_url:
-        print('='*60)
-        print(issues_for_url['url'])
         print()
-        for issue in issues_for_url['issues']:
-            if issue not in ignore:
+        for i in ignore:
+            print(i)
+    for issues_for_url in issues_by_url:
+        printables = [issue
+                      for issue in issues_for_url['issues']
+                      if issue not in ignore]
+        if printables:
+            print('='*60)
+            print(issues_for_url['url'])
+            print()
+            for issue in printables:
                 print(issue)
