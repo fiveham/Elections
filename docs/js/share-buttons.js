@@ -41,6 +41,7 @@ function get_share_button(btn, url){
   var a = document.createElement('a');
   
   a.id = 'share-' + btn.name;
+  a.rel = 'nofollow';
   a.href = btn.get_href(url);
   a.target = "_blank";
 
