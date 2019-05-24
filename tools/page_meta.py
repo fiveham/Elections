@@ -41,7 +41,8 @@ def from_github(start_url):
 std_tags = [
     "title"]
 std_links = [
-    "canonical"]
+    "canonical",
+    "shortcut icon"] #favicon icon beside title in tab
 std_metas = [
     "robots",
     "description",
