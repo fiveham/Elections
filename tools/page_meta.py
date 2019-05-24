@@ -42,7 +42,8 @@ std_tags = [
     "title"]
 std_links = [
     "canonical",
-    "shortcut icon"] #favicon icon beside title in tab
+    "shortcut", #favicon icon beside title in tab
+    "icon"]     #favicon icon beside title in tab
 std_metas = [
     "robots",
     "description",
@@ -85,11 +86,13 @@ def page_check(page, url=None):
               else meta['property']):" ".join(meta['content'].split())
              for meta in page.head('meta')
              if meta.has_attr('content')}
-    links = {link['rel']:link['href']
-             for link in page.head('link')
-             if ('rel' in link.attrs and
-                 'href' in link.attrs and
-                 link['rel'] in std_links)}
+    links = {}
+    for link in page.head('link'):
+        if ('rel' in link.attrs and
+            'href' in link.attrs and
+            any(x in std_links for x in link['rel'])):
+            for r in link['rel']:
+                links[r] = link['href']
     tags = {tag.name:tag.string
             for tag in (page.head.find(name)
                         for name in std_tags)}
