@@ -39,7 +39,7 @@ def from_github(start_url):
     return result
         
 
-std_metas = {
+std_metas = [
     "og:image",
     "og:image:url",
     "og:image:secure_url",
@@ -57,12 +57,12 @@ std_metas = {
     "twitter:title",
     "twitter:description",
     "twitter:image",
-    "twitter:image:alt"}
-known_nonstd_metas = {
+    "twitter:image:alt"] #A list for consistent order
+known_nonstd_metas = [
     "og:site_name",
     "twitter:site",
     "twitter:creator",
-    "twitter:url"}
+    "twitter:url"]
 
 #given a BeautifulSoup of an html page and (preferably) the url of the page,
 #return a list of problems with the page's meta tags
@@ -91,14 +91,16 @@ def page_check(page, url=None):
     del urls
     
     #Note any missing standard metas to remind me to add them
-    for std_meta in (std_metas - set(metas)):
-        issues.append("Missing std meta "+std_meta)
+    for std_meta in std_metas:
+        if std_meta not in metas:
+            issues.append("Missing std meta "+std_meta)
     
     #Note any weird extra metas
-    for meta in (set(metas) - std_metas):
-        issues.append(("Known but nonstandard "
-                       if meta in known_nonstd_metas
-                       else "Unexpected meta ") + meta)
+    for meta in sorted(metas):
+        if meta not in std_metas:
+            issues.append(("Known but nonstandard "
+                           if meta in known_nonstd_metas
+                           else "Unexpected meta ") + meta)
     
     #Constraint-checks
     
@@ -156,7 +158,7 @@ def page_check(page, url=None):
                 continue
             m = metas[thing]
             if t.lower() != m[m.rfind('.')+1:].lower():
-                issues.append("og:image:type mismatch with %s extension" % thing)
+                issues.append("og:image:type mismatch with %s extension"%thing)
     
     #og:image and twitter:image need alt text
     for thing in ('og','twitter'):
