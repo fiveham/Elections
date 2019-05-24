@@ -37,9 +37,14 @@ def from_github(start_url):
                 path = tr.a['href']
                 result.extend(from_github('https://github.com'+path))
     return result
-        
 
+std_tags = [
+    "title"]
+std_links = [
+    "canonical"]
 std_metas = [
+    "robots",
+    "description",
     "og:image",
     "og:image:url",
     "og:image:secure_url",
@@ -57,12 +62,12 @@ std_metas = [
     "twitter:title",
     "twitter:description",
     "twitter:image",
-    "twitter:image:alt"] #A list for consistent order
+    "twitter:image:alt",
+    "twitter:url"] #A list for consistent order
 known_nonstd_metas = [
     "og:site_name",
-    "twitter:site",
-    "twitter:creator",
-    "twitter:url"]
+    "twitter:site", #Twitter handle for the website
+    "twitter:creator"] #Twitter handle for the creator as a person
 
 #given a BeautifulSoup of an html page and (preferably) the url of the page,
 #return a list of problems with the page's meta tags
@@ -79,12 +84,22 @@ def page_check(page, url=None):
               else meta['property']):" ".join(meta['content'].split())
              for meta in page.head('meta')
              if meta.has_attr('content')}
+    links = {link['rel']:link['href']
+             for link in page.head('link')
+             if ('rel' in link.attrs and
+                 'href' in link.attrs and
+                 link['rel'] in std_links)}
+    tags = {tag.name:tag.string
+            for tag in (page.head.find(name)
+                        for name in std_tags)}
     del page
     
     #Collect canonical urls
-    urls = {metas[key]
-            for key in (pre+":url" for pre in ('og','twitter'))
-            if key in metas}
+    urls = {d[key]
+            for d,key in [[metas, 'og:url'],
+                          [metas, 'twitter:url'],
+                          [links, 'canonical']]
+            if key in d}
     #Note whether there are too many
     if len(urls) != 1:
         issues.append("Multiple canonical urls: " + str(urls))
@@ -94,6 +109,16 @@ def page_check(page, url=None):
     for std_meta in std_metas:
         if std_meta not in metas:
             issues.append("Missing std meta "+std_meta)
+    
+    #Note any missing standard links
+    for std_link in std_links:
+        if std_link not in links:
+            issues.append("Missing std link "+std_link)
+    
+    #Note any missing standard tags
+    for std_tag in std_tags:
+        if std_tag not in tags:
+            issues.append("Missing std tag "+std_tag)
     
     #Note any weird extra metas
     for meta in sorted(metas):
