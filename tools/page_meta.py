@@ -196,3 +196,11 @@ def page_check(page, url=None):
             issues.append("Image alt text mismatch og/twitter")
     
     return issues
+
+def pretty_print_issues(issues_by_url):
+    for issues_for_url in issues_by_url:
+        print(issues_for_url['url'])
+        print()
+        for issue in issues_for_url['issues']:
+            print(issue)
+        print('='*60)
