@@ -6,11 +6,14 @@
 def from_github(start_url):
     import requests
     from bs4 import BeautifulSoup
-    start_resp = requests.get(start_url)
-    start_page = BeautifulSoup(start_resp.text, 'html.parser')
     result = []
-    if '.' in start_url[start_url.rfind("/")+1:]: #page represents file
-        if start_url.endswith(".html"): #html file's page
+    if ('.' not in start_url[start_url.rfind("/")+1:] #page represents file
+        or start_url.endswith(".html")): #file is not html page
+        
+        start_resp = requests.get(start_url)
+        start_page = BeautifulSoup(start_resp.text, 'html.parser')
+        
+        if start_url.endswith(".html"): #html file page
             t = start_page.find(lambda tag:(tag.name == 'td' and
                                             'data-line-number' in tag.attrs and
                                             tag['data-line-number'] == '1'))
@@ -20,19 +23,19 @@ def from_github(start_url):
             issues = page_check(soup)
             put_in = {'url':start_url, 'issues':issues}
             result.append(put_in)
-    else: #page represents directory
-        table = start_page.find(
-                lambda tag : (tag.name == 'table' and
-                              'class' in tag.attrs and
-                              all(x in tag['class'] 
-                                  for x in ('files','js-navigation-container'))))
-        tbody = table.tbody
-        trs = tbody(lambda tag : (tag.name=="tr" and
+        else: #page represents directory
+            table = start_page.find(
+                    lambda tag : (tag.name == 'table' and
                                   'class' in tag.attrs and
-                                  'js-navigation-item' in tag['class']))
-        for tr in trs:
-            path = tr.a['href']
-            result.extend(from_github('https://github.com'+path))
+                                  all(x in tag['class'] 
+                                      for x in ('files','js-navigation-container'))))
+            tbody = table.tbody
+            trs = tbody(lambda tag : (tag.name=="tr" and
+                                      'class' in tag.attrs and
+                                      'js-navigation-item' in tag['class']))
+            for tr in trs:
+                path = tr.a['href']
+                result.extend(from_github('https://github.com'+path))
     return result
         
 
