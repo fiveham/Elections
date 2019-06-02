@@ -1,0 +1,132 @@
+<html>
+<head>
+  <title>NJ Primary Election 6/4/2019 &bull; Fiveham Maps</title>
+  
+  <link rel="shortcut icon" href="/Elections/images/favicon/nj-rwb-check.png">
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <link rel="canonical" href="https://fiveham.github.io/Elections/2019/primary/NJ.html" />
+  <meta name="robots" content="index,follow" />
+  <meta name="description" content="New Jersey state legislature election 2019: Interactive map of polling places and the districts 
+                                    and candidates for the General Assembly and the state senate." />
+  
+  <!-- TODO -->
+  <meta property="og:image" 
+        content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nj-2019.png" />
+  <meta property="og:image:url" 
+        content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nj-2019.png" />
+  <meta property="og:image:secure_url" 
+        content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nj-2019.png" />
+        
+  <meta property="og:image:alt" content="" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="" />
+  <meta property="og:image:height" content="" />
+  <meta property="og:url" content="https://fiveham.github.io/Elections/2019/primary/NJ.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:determiner" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://fiveham.github.io/Elections/2019/primary/NJ.html" />
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+        
+  <!-- TODO -->
+  <meta name="twitter:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nj-2019.png">
+  <meta name="twitter:image:alt" content="">
+
+  <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+  <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+  <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+  <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+  <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+  <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+  
+  <style>
+    
+  </style>
+</head>
+<body>
+  <!-- Geolocator Button -->
+  <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" 
+      title="Go to your geolocation"></div>
+
+  <!-- Polling Place Toggle Button -->
+  <div id="pp-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" 
+      title="Turn polling place layer on or off">
+    <span id="pp-swap">Polling Places</span>
+  </div>
+
+  <!-- "About" Button -->
+  <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+       title="About this map">
+    <span>About</span>
+  </div>
+
+  <!-- "About" Modal -->
+  <div id="about-modal" class="installed">
+    <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+    <div class="has-scrollbar">
+      <div class="box" data-balloonish="dims guts">
+        <div class="content">
+          <div class="social share"></div>
+          <p class="heading">Polling Places, Districts, and Candidates for the June 4th State Legislature Primary Election in NJ</p>
+          <p>Clicking on a district brings up an infowindow listing the candidates, 
+             each paired with their party affiliation, all arranged in a table. The rows of the table are sorted in alphabetical 
+             order. Because party is listed before candidate name, this also clusters candidates by party.</p>
+          <p>Clicking on a polling place brings up an infowindow with the name and address of the polling place as retrieved from 
+             <a target="_blank" title="Polling place lookup - NJ Dept. of State" rel="nofollow" 
+             href="https://voter.njsvrs.com/elections/polling-lookup.html">the NJ polling place lookup system.</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Map -->
+  <div id="map"></div>
+  
+  <script>
+    var nj_center = {lat: 40.07303999999999, lng: -74.72432299999997};
+    var map, pp_layer;
+    var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+    var widgets = [{id: "geolocation", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                   {id: "pp-toggler",  where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                   {id: "about-btn",   where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                   {id: "about-modal", where: 13 /*google.maps.ControlPosition.CENTER*/}];
+    
+    function initMap(){
+      map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 8,
+        center: nj_center,
+        mapTypeId: 'roadmap'
+      });
+      
+      var leg = new google.maps.KmlLayer({
+        url: 'http://fiveham.github.io/Elections/2019/primary/NJ_State_Leg_2019.kmz',
+        map: map,
+        preserveViewport: false,
+        zIndex: 1
+      });
+      
+      //TODO polling place layer
+      
+      add_widgets();
+    }
+    
+    function pp_toggle(){
+      pp_layer.setMap(pp_layer.getMap() ? null : map);
+    }
+  </script>
+  <script src="/Elections/js/geolocator.js"></script>
+  <script src="/Elections/js/about-modal.js"></script>
+  <script src="/Elections/js/add-widgets.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+  </script>
+</body>
+</html>
