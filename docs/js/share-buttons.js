@@ -31,10 +31,9 @@ function get_share_buttons(names, url){
 function get_share_button(btn, url){
   url = ensure_url(url);
   if(typeof btn === "string"){
-    var err = "Button name '" + btn + "' not found";
     btn = share_buttons[btn];
     if(!btn){
-      throw err;
+      throw "Button name '" + btn + "' not found";
     }
   }
   
