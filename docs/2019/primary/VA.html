@@ -62,7 +62,7 @@
         title="Go to your geolocation"></div>
     
     <!-- Layer Toggle Button (HoD or SS)-->
-    <div id="pp-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" 
+    <div id="hodss-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" 
         title="Switch active state legislature layer">
       <span id="pp-swap">House of Delegates</span>
     </div>
@@ -106,10 +106,10 @@
       var map;
       var layer, alt;
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
-      var widgets = [{id: "geolocation", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
-                     {id: "pp-toggler",  where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
-                     {id: "about-btn",   where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
-                     {id: "about-modal", where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "hodss-toggler",  where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
       
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
