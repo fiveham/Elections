@@ -57,33 +57,16 @@
   <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
   
   <style>
-    div[data-balloonish] [data-has-primary='F'] {
-      display: none;
-      visibility: hidden;
-    }
-    
-    div[data-balloonish] [data-count='1'], 
-    div[data-balloonish] [data-count='2'] {
-      color: rgba(127, 127, 127, 0.5); //color text gray
-      
-      //completely conceal the rows
-      display: none;
-      visibility: hidden;
-    }
-    
-    div[data-balloonish] span {
+    div.gm-style-iw span {
       margin-top: 1em;
       margin-bottom: 0.5em;
     }
     
+    a#pp-link, 
     a#pp-link:visited,
     a#pp-link:hover {
       text-decoration: none;
       color: rgb(86,86,86);
-    }
-    
-    div[data-balloonish][data-has-primary='F']::after {
-      content: 'There is no primary for this office on 6/4/2019.';
     }
   </style>
 </head>
