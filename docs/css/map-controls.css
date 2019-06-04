@@ -9,6 +9,7 @@
 }
 
 .installed.controls {
+  color: rgb(86,86,86);
   cursor: pointer;
   /* Prevent highlighting of controls */
   -webkit-touch-callout: none; /* iOS Safari */
