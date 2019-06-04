@@ -57,7 +57,19 @@
   <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
   
   <style>
+    div[data-balloonish] [data-has-primary='F'] {
+      display: none;
+      visibility: hidden;
+    }
     
+    div[data-balloonish] [data-count='1'], 
+    div[data-balloonish] [data-count='2'] {
+      color: rgba(127, 127, 127, 0.5); //color text gray
+      
+      //completely conceal the rows
+      //display: none;
+      //visibility: hidden;
+    }
   </style>
 </head>
 <body>
