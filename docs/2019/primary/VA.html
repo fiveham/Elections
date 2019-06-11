@@ -75,14 +75,14 @@
     </div> -->
     
     <!-- Layer-switcher dropdown -->
-    <select id="layer-switcher" class="installed controls top" onchange="reset_layers()" title="Switch to another category of offices">
+    <select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" title="Switch to another category of offices">
       <option value="senate">State Senate</option>
       <option value="house">House of Delegates</option>
       <option value="local">Local Offices</option>
     </select>
     
     <!-- Polling Place lookup link -->
-    <a id="pp-lookup" class="installed top text" href="https://www.elections.virginia.gov/citizen-portal/index.html" target="_blank" 
+    <a id="pp-lookup" class="installed controls top text" href="https://www.elections.virginia.gov/citizen-portal/index.html" target="_blank" 
        rel="nofollow" title="Virginia Dept of Elections - Polling Place Lookup"><span>Where's Your Polling Place?</span></a>
     
     <!-- "About" Button -->
@@ -148,42 +148,42 @@
           mapTypeId: 'hybrid'
         });
         
-        var hodP = new google.maps.KmlLayer({
-          url: 'http://fiveham.github.io/Elections/2019/primary/va-hod-p2-6-11-19.kmz',
-          map: map,
-          preserveViewport: true,
-          zIndex: 1
-        });
-        var hodBG = new google.maps.KmlLayer({
-          url: 'http://fiveham.github.io/Elections/2019/primary/va-hod-bg2-6-11-19.kml',
-          map: map,
-          preserveViewport: true,
-          zIndex: 0
-        });
-        var hod = new Layer([hodP, hodBG]);
-        
         var senP = new google.maps.KmlLayer({
-          url: 'http://fiveham.github.io/Elections/2019/primary/va-ss-p2-6-11-19.kmz',
+          url: 'http://fiveham.github.io/Elections/2019/primary/va-ss-fg-ge-6-11-19.kmz',
           map: null,
           preserveViewport: true,
           zIndex: 1
         });
         var senBG = new google.maps.KmlLayer({
-          url: 'http://fiveham.github.io/Elections/2019/primary/va-ss-bg2-6-11-19.kml',
+          url: 'http://fiveham.github.io/Elections/2019/primary/va-ss-bg-ge-6-11-19.kmz',
           map: null,
           preserveViewport: true,
           zIndex: 0
         });
         var sen = new Layer([senP, senBG]);
         
+        var hodP = new google.maps.KmlLayer({
+          url: 'https://fiveham.github.io/Elections/2019/primary/va-hd-fg-ge-6-11-19.kmz',
+          map: map,
+          preserveViewport: true,
+          zIndex: 1
+        });
+        var hodBG = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2019/primary/va-hd-bg-ge-6-11-19.kmz',
+          map: map,
+          preserveViewport: true,
+          zIndex: 0
+        });
+        var hod = new Layer([hodP, hodBG]);
+        
         var locP = new google.maps.KmlLayer({
-          url: 'http://fiveham.github.io/Elections/2019/primary/va-local-p2-6-11-19.kmz',
+          url: 'http://fiveham.github.io/Elections/2019/primary/va-lc-fg-ge-6-11-19.kmz',
           map: null,
           preserveViewport: true,
           zIndex: 1
         });
         var locBG = new google.maps.KmlLayer({
-          url: 'http://fiveham.github.io/Elections/2019/primary/va-local-bg2-6-11-19.kml',
+          url: 'http://fiveham.github.io/Elections/2019/primary/va-lc-bg-ge-6-11-19.kmz',
           map: null,
           preserveViewport: true,
           zIndex: 0
