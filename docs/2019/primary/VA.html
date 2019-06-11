@@ -102,6 +102,7 @@
     <div id="map"></div>
     
     <script>
+      var layers = [];
       var vaCenter = {lat: 38.003432, lng: -79.42091499999998};
       var map;
       var layer, alt;
@@ -118,26 +119,56 @@
           mapTypeId: 'hybrid'
         });
         
-        var hod = new google.maps.KmlLayer({
-          url: 'http://fiveham.github.io/Elections/2019/primary/va-hod-r-6-11-19.kmz',
-          map: null,
-          preserveViewport: true,
-          zIndex: 1
-        });
-        
-        var sen = new google.maps.KmlLayer({
-          url: 'http://fiveham.github.io/Elections/2019/primary/va-ss-r-6-11-19.kmz',
+        var hodP = new google.maps.KmlLayer({
+          //url: 'http://fiveham.github.io/Elections/2019/primary/va-hod-p-6-11-19.kmz',
+          url: 'https://git.io/fjgBj',
           map: map,
           preserveViewport: true,
           zIndex: 1
         });
+        var hodBG = new google.maps.KmlLayer({
+          //url: 'http://fiveham.github.io/Elections/2019/primary/va-hod-bg-6-11-19.kml',
+          url: 'https://git.io/fjgRe',
+          map: map,
+          preserveViewport: true,
+          zIndex: 0
+        });
+        var hod = new Layer([hodP, hodBG]);
+        layers.push(hod);
         
-        var loc = new google.maps.KmlLayer({
-          url: 'http://fiveham.github.io/Elections/2019/primary/va-primary-local-6-11-19.kmz',
+        var senP = new google.maps.KmlLayer({
+          //url: 'http://fiveham.github.io/Elections/2019/primary/va-ss-p-6-11-19.kmz',
+          url: 'https://git.io/fjgRv',
           map: null,
           preserveViewport: true,
           zIndex: 1
         });
+        var senBG = new google.maps.KmlLayer({
+          //url: 'http://fiveham.github.io/Elections/2019/primary/va-ss-bg-6-11-19.kml',
+          url: 'https://git.io/fjgRf',
+          map: null,
+          preserveViewport: true,
+          zIndex: 0
+        });
+        var sen = new Layer([senP, senBG]);
+        layers.push(sen);
+        
+        var locP = new google.maps.KmlLayer({
+          //url: 'http://fiveham.github.io/Elections/2019/primary/va-local-p-6-11-19.kmz',
+          url: 'https://git.io/fjgRJ',
+          map: null,
+          preserveViewport: true,
+          zIndex: 1
+        });
+        var locBG = new google.maps.KmlLayer({
+          //url: 'http://fiveham.github.io/Elections/2019/primary/va-local-bg-6-11-19.kml',
+          url: 'https://git.io/fjgRU',
+          map: null,
+          preserveViewport: true,
+          zIndex: 0
+        });
+        var loc = new Layer([senP, senBG]);
+        layers.push(loc);
         
         /* Give real values to layer-pointers */
         layer = hod;
