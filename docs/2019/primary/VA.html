@@ -148,7 +148,7 @@
           mapTypeId: 'hybrid'
         });
         
-        var senP = new google.maps.KmlLayer({
+        var senFG = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/primary/va-ss-fg-ge-6-11-19.kmz',
           map: map,
           preserveViewport: true,
@@ -160,9 +160,9 @@
           preserveViewport: true,
           zIndex: 0
         });
-        var sen = new Layer([senP, senBG]);
+        var sen = new Layer([senFG, senBG]);
         
-        var hodP = new google.maps.KmlLayer({
+        var hodFG = new google.maps.KmlLayer({
           url: 'https://fiveham.github.io/Elections/2019/primary/va-hd-fg-ge-6-11-19.kmz',
           map: null,
           preserveViewport: true,
@@ -174,9 +174,9 @@
           preserveViewport: true,
           zIndex: 0
         });
-        var hod = new Layer([hodP, hodBG]);
+        var hod = new Layer([hodFG, hodBG]);
         
-        var locP = new google.maps.KmlLayer({
+        var locFG = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/primary/va-lc-fg-ge-6-11-19.kmz',
           map: null,
           preserveViewport: true,
@@ -188,7 +188,7 @@
           preserveViewport: true,
           zIndex: 0
         });
-        var loc = new Layer([locP, locBG]);
+        var loc = new Layer([locFG, locBG]);
         
         //Maintain same sequence as dropdown list
         layers.push(sen);
