@@ -61,11 +61,22 @@
     <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" 
         title="Go to your geolocation"></div>
     
-    <!-- Layer Toggle Button (HoD or SS)-->
+    <!-- Layer Toggle Button (HoD or SS)
     <div id="hodss-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" 
         title="Switch active state legislature layer">
       <span id="pp-swap">House of Delegates</span>
-    </div>
+    </div> -->
+    
+    <!-- Layer-switcher dropdown -->
+    <select id="layer-switcher" class="installed controls top" onchange="reset_layers()" title="Switch to another category of offices">
+      <option value="senate">State Senate</option>
+      <option value="house">House of Delegates</option>
+      <option value="local">Local Offices</option>
+    </select>
+    
+    <!-- Polling Place lookup link -->
+    <a id="pp-lookup" class="installed top" href="https://www.elections.virginia.gov/citizen-portal/index.html" target="_blank" 
+       rel="nofollow" title="Virginia Dept of Elections - Polling Place Lookup"><span>Where's Your Polling Place?</span></a>
     
     <!-- "About" Button -->
     <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
@@ -116,10 +127,10 @@
       var layers = [];
       var vaCenter = {lat: 38.003432, lng: -79.42091499999998};
       var map;
-      var layer, alt;
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
       var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
-                     {id: "hodss-toggler",  where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-lookup",      where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
                      {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
                      {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
       
@@ -145,7 +156,6 @@
           zIndex: 0
         });
         var hod = new Layer([hodP, hodBG]);
-        layers.push(hod);
         
         var senP = new google.maps.KmlLayer({
           //url: 'http://fiveham.github.io/Elections/2019/primary/va-ss-p-6-11-19.kmz',
@@ -162,7 +172,6 @@
           zIndex: 0
         });
         var sen = new Layer([senP, senBG]);
-        layers.push(sen);
         
         var locP = new google.maps.KmlLayer({
           //url: 'http://fiveham.github.io/Elections/2019/primary/va-local-p-6-11-19.kmz',
@@ -179,18 +188,25 @@
           zIndex: 0
         });
         var loc = new Layer([senP, senBG]);
-        layers.push(loc);
         
-        /* Give real values to layer-pointers */
-        layer = hod;
-        alt = sen;
-        layer.setMap(map);
-        alt.setMap(null);
+        //Maintain same sequence as dropdown list
+        layers.push(sen);
+        layers.push(hod);
+        layers.push(loc);
         
         add_widgets();
       }
       
-      function pp_toggle(){
+      function reset_layers(){
+        for(var layer in layers){
+          layer.setMap(null);
+        }
+        var index = document.getElementById('layer-switcher').selectedIndex;
+        var layer = layers[index];
+        layer.setMap(map);
+      }
+      
+      /*function pp_toggle(){
         var temp = alt;
         alt = layer;
         layer = temp;
@@ -200,7 +216,7 @@
             document.getElementById("pp-swap").innerHTML.startsWith("S") 
             ? "House of Delegates" 
             : "State Senate");
-      }
+      }/**/
     </script>
     <script src="/Elections/js/geolocator.js"></script>
     <script src="/Elections/js/about-modal.js"></script>
