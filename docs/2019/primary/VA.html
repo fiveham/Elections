@@ -199,7 +199,8 @@
       }
       
       function reset_layers(){
-        for(var layer in layers){
+        for(var i = 0; i < layers.length; i++){
+          var layer = layers[i];
           layer.setMap(null);
         }
         var index = document.getElementById('layer-switcher').selectedIndex;
