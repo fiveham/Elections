@@ -1,251 +1,251 @@
 <?xml version="1.0" encoding="utf-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
- <Document>
-  <name>
+<kml:kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
+<kml:Document>
+<kml:name>
    Early voting sites for the July 9, 2019 NC-03 special R runoff
-  </name>
-  <Style id="nc03">
-   <IconStyle>
-    <Icon>
-     <href>
+  </kml:name>
+<kml:Style id="nc03">
+<kml:IconStyle>
+<kml:Icon>
+<kml:href>
       https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/NC03-3.png
-     </href>
-    </Icon>
-   </IconStyle>
-  </Style>
-  <Placemark>
-   <styleUrl>
+     </kml:href>
+</kml:Icon>
+</kml:IconStyle>
+</kml:Style>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>BEAUFORT COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//1308+HIGHLAND+DR+%23+104+WASHINGTON%2C+NC+27889">1308 HIGHLAND DR # 104<br>WASHINGTON, NC 27889</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>8:00AM - 5:00PM</td></tr><tr><td>FRI 5 JUL</td><td>8:00AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>BEAUFORT COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//1308+HIGHLAND+DR+%23+104+WASHINGTON%2C+NC+27889" target="_blank" title="Directions to this address">1308 HIGHLAND DR # 104<br/>WASHINGTON, NC 27889</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>8:00AM - 5:00PM</td></tr><tr><td>Fri 5 Jul</td><td>8:00AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -77.036292,35.549683
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>CARTERET COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//1702+LIVE+OAK+ST+BEAUFORT%2C+NC+28516">1702 LIVE OAK ST<br>BEAUFORT, NC 28516</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>SAT 29 JUN</td><td>8:00AM - 1:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>8:00AM - 5:00PM</td></tr><tr><td>FRI 5 JUL</td><td>8:00AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>CARTERET COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//1702+LIVE+OAK+ST+BEAUFORT%2C+NC+28516" target="_blank" title="Directions to this address">1702 LIVE OAK ST<br/>BEAUFORT, NC 28516</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Sat 29 Jun</td><td>8:00AM - 1:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>8:00AM - 5:00PM</td></tr><tr><td>Fri 5 Jul</td><td>8:00AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -76.639015,34.728606
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>CHOWAN COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//730+N+GRANVILLE+ST+%23+D+EDENTON%2C+NC+27932">730 N GRANVILLE ST # D<br>EDENTON, NC 27932</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>8:00AM - 5:00PM</td></tr><tr><td>FRI 5 JUL</td><td>8:00AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>CHOWAN COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//730+N+GRANVILLE+ST+%23+D+EDENTON%2C+NC+27932" target="_blank" title="Directions to this address">730 N GRANVILLE ST # D<br/>EDENTON, NC 27932</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>8:00AM - 5:00PM</td></tr><tr><td>Fri 5 Jul</td><td>8:00AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -76.608242,36.070603
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>CRAVEN COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//406+CRAVEN+ST+NEW+BERN%2C+NC+28560">406 CRAVEN ST<br>NEW BERN, NC 28560</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>7:00AM - 7:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>7:00AM - 7:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>7:00AM - 7:00PM</td></tr><tr><td>FRI 5 JUL</td><td>7:00AM - 7:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>CRAVEN COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//406+CRAVEN+ST+NEW+BERN%2C+NC+28560" target="_blank" title="Directions to this address">406 CRAVEN ST<br/>NEW BERN, NC 28560</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>7:00AM - 7:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>7:00AM - 7:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>7:00AM - 7:00PM</td></tr><tr><td>Fri 5 Jul</td><td>7:00AM - 7:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -77.037331,35.108227
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>CURRITUCK COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//2811+CARATOKE+HWY+CURRITUCK%2C+NC+27929">2811 CARATOKE HWY<br>CURRITUCK, NC 27929</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>8:00AM - 5:00PM</td></tr><tr><td>FRI 5 JUL</td><td>8:00AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>CURRITUCK COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//2811+CARATOKE+HWY+CURRITUCK%2C+NC+27929" target="_blank" title="Directions to this address">2811 CARATOKE HWY<br/>CURRITUCK, NC 27929</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>8:00AM - 5:00PM</td></tr><tr><td>Fri 5 Jul</td><td>8:00AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -76.022784,36.452613
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>BAUM CENTER</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//300+MUSTIAN+ST+KILL+DEVIL+HILLS%2C+NC+27948">300 MUSTIAN ST<br>KILL DEVIL HILLS, NC 27948</a><br>(Dare County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>7:00AM - 7:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>7:00AM - 7:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>7:00AM - 7:00PM</td></tr><tr><td>FRI 5 JUL</td><td>7:00AM - 7:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>BAUM CENTER</b><br/><a href="https://www.google.com/maps/dir//300+MUSTIAN+ST+KILL+DEVIL+HILLS%2C+NC+27948" target="_blank" title="Directions to this address">300 MUSTIAN ST<br/>KILL DEVIL HILLS, NC 27948</a><br/>(Dare County)<br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>7:00AM - 7:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>7:00AM - 7:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>7:00AM - 7:00PM</td></tr><tr><td>Fri 5 Jul</td><td>7:00AM - 7:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -75.663399,36.01071
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>DARE COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//954+MARSHALL+COLLINS+DR+MANTEO%2C+NC+27954">954 MARSHALL COLLINS DR<br>MANTEO, NC 27954</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>7:00AM - 7:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>7:00AM - 7:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>7:00AM - 7:00PM</td></tr><tr><td>FRI 5 JUL</td><td>7:00AM - 7:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>DARE COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//954+MARSHALL+COLLINS+DR+MANTEO%2C+NC+27954" target="_blank" title="Directions to this address">954 MARSHALL COLLINS DR<br/>MANTEO, NC 27954</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>7:00AM - 7:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>7:00AM - 7:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>7:00AM - 7:00PM</td></tr><tr><td>Fri 5 Jul</td><td>7:00AM - 7:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -75.671792,35.887545
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>FESSENDEN ANNEX</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//47017+BUXTON+BACK+RD+BUXTON%2C+NC+27920">47017 BUXTON BACK RD<br>BUXTON, NC 27920</a><br>(Dare County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>7:00AM - 7:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>7:00AM - 7:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>7:00AM - 7:00PM</td></tr><tr><td>FRI 5 JUL</td><td>7:00AM - 7:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>FESSENDEN ANNEX</b><br/><a href="https://www.google.com/maps/dir//47017+BUXTON+BACK+RD+BUXTON%2C+NC+27920" target="_blank" title="Directions to this address">47017 BUXTON BACK RD<br/>BUXTON, NC 27920</a><br/>(Dare County)<br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>7:00AM - 7:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>7:00AM - 7:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>7:00AM - 7:00PM</td></tr><tr><td>Fri 5 Jul</td><td>7:00AM - 7:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -75.529421,35.264964
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>GREENE COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//110+SE+FIRST+ST+SNOW+HILL%2C+NC+28580">110 SE FIRST ST<br>SNOW HILL, NC 28580</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>8:00AM - 5:00PM</td></tr><tr><td>FRI 5 JUL</td><td>8:00AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>GREENE COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//110+SE+FIRST+ST+SNOW+HILL%2C+NC+28580" target="_blank" title="Directions to this address">110 SE FIRST ST<br/>SNOW HILL, NC 28580</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>8:00AM - 5:00PM</td></tr><tr><td>Fri 5 Jul</td><td>8:00AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -77.669406,35.455606
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>HYDE COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//1223+MAIN+ST+SWAN+QUARTER%2C+NC+27885">1223 MAIN ST<br>SWAN QUARTER, NC 27885</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>8:00AM - 5:00PM</td></tr><tr><td>FRI 5 JUL</td><td>8:00AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>HYDE COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//1223+MAIN+ST+SWAN+QUARTER%2C+NC+27885" target="_blank" title="Directions to this address">1223 MAIN ST<br/>SWAN QUARTER, NC 27885</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>8:00AM - 5:00PM</td></tr><tr><td>Fri 5 Jul</td><td>8:00AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -76.318641,35.420817
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>OCRACOKE VOLUNTEER FIRE DEPARTMENT</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//822+IRVIN+GARRISH+HWY+OCRACOKE%2C+NC+27960">822 IRVIN GARRISH HWY<br>OCRACOKE, NC 27960</a><br>(Hyde County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>MON 1 JUL</td><td>8:00AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>OCRACOKE VOLUNTEER FIRE DEPARTMENT</b><br/><a href="https://www.google.com/maps/dir//822+IRVIN+GARRISH+HWY+OCRACOKE%2C+NC+27960" target="_blank" title="Directions to this address">822 IRVIN GARRISH HWY<br/>OCRACOKE, NC 27960</a><br/>(Hyde County)<br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Mon 1 Jul</td><td>8:00AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -75.977209,35.108657
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>JONES COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//367+NC+HWY+58+S+%23+B+TRENTON%2C+NC+28585">367 NC HWY 58 S # B<br>TRENTON, NC 28585</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 1 JUL - FRI 5 JUL</td><td>8:00AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>JONES COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//367+NC+HWY+58+S+%23+B+TRENTON%2C+NC+28585" target="_blank" title="Directions to this address">367 NC HWY 58 S # B<br/>TRENTON, NC 28585</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 1 Jul - Fri 5 Jul</td><td>8:00AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -77.356784,35.056414
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>LENOIR COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//110+S+HERRITAGE+ST+%23+C+KINSTON%2C+NC+28501">110 S HERRITAGE ST # C<br>KINSTON, NC 28501</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - SAT 22 JUN</td><td>8:30AM - 5:00PM</td></tr><tr><td>MON 24 JUN - SAT 29 JUN</td><td>8:30AM - 5:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>8:30AM - 5:00PM</td></tr><tr><td>FRI 5 JUL</td><td>8:30AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>LENOIR COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//110+S+HERRITAGE+ST+%23+C+KINSTON%2C+NC+28501" target="_blank" title="Directions to this address">110 S HERRITAGE ST # C<br/>KINSTON, NC 28501</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Sat 22 Jun</td><td>8:30AM - 5:00PM</td></tr><tr><td>Mon 24 Jun - Sat 29 Jun</td><td>8:30AM - 5:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>8:30AM - 5:00PM</td></tr><tr><td>Fri 5 Jul</td><td>8:30AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -77.582115,35.259399
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>ONSLOW COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//246+GEORGETOWN+RD+JACKSONVILLE%2C+NC+28540">246 GEORGETOWN RD<br>JACKSONVILLE, NC 28540</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>8:00AM - 5:00PM</td></tr><tr><td>FRI 5 JUL</td><td>8:00AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>ONSLOW COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//246+GEORGETOWN+RD+JACKSONVILLE%2C+NC+28540" target="_blank" title="Directions to this address">246 GEORGETOWN RD<br/>JACKSONVILLE, NC 28540</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>8:00AM - 5:00PM</td></tr><tr><td>Fri 5 Jul</td><td>8:00AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -77.447574,34.742454
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>PAMLICO COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//202+MAIN+ST+BAYBORO%2C+NC+28515">202 MAIN ST<br>BAYBORO, NC 28515</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>8:00AM - 5:00PM</td></tr><tr><td>FRI 5 JUL</td><td>8:00AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>PAMLICO COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//202+MAIN+ST+BAYBORO%2C+NC+28515" target="_blank" title="Directions to this address">202 MAIN ST<br/>BAYBORO, NC 28515</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>8:00AM - 5:00PM</td></tr><tr><td>Fri 5 Jul</td><td>8:00AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -76.770937,35.143263
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>PASQUOTANK COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//1409+PARKVIEW+DR+ELIZABETH+CITY%2C+NC+27909">1409 PARKVIEW DR<br>ELIZABETH CITY, NC 27909</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>8:00AM - 5:00PM</td></tr><tr><td>FRI 5 JUL</td><td>8:00AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>PASQUOTANK COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//1409+PARKVIEW+DR+ELIZABETH+CITY%2C+NC+27909" target="_blank" title="Directions to this address">1409 PARKVIEW DR<br/>ELIZABETH CITY, NC 27909</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>8:00AM - 5:00PM</td></tr><tr><td>Fri 5 Jul</td><td>8:00AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -76.207335,36.284141
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>PERQUIMANS COUNTY BOARD OF ELECTIONS OFFICE</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//601+S+EDENTON+ROAD+RD+%23+A+HERTFORD%2C+NC+27944">601 S EDENTON ROAD RD # A<br>HERTFORD, NC 27944</a><br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>8:00AM - 5:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>8:00AM - 5:00PM</td></tr><tr><td>FRI 5 JUL</td><td>8:00AM - 5:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>PERQUIMANS COUNTY BOARD OF ELECTIONS OFFICE</b><br/><a href="https://www.google.com/maps/dir//601+S+EDENTON+ROAD+RD+%23+A+HERTFORD%2C+NC+27944" target="_blank" title="Directions to this address">601 S EDENTON ROAD RD # A<br/>HERTFORD, NC 27944</a><br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>8:00AM - 5:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>8:00AM - 5:00PM</td></tr><tr><td>Fri 5 Jul</td><td>8:00AM - 5:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -76.474406,36.178626
-    </coordinates>
-   </Point>
-  </Placemark>
-  <Placemark>
-   <styleUrl>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+<kml:Placemark>
+<kml:styleUrl>
     #nc03
-   </styleUrl>
-   <description>
-    <![CDATA[<div><span>One-Stop Site</span><br><b>COMMUNITY SCHOOLS BUILDING</b><br><a target="_blank" title="Directions to this address" href="https://www.google.com/maps/dir//4561+COUNTY+HOME+RD+GREENVILLE%2C+NC+27858">4561 COUNTY HOME RD<br>GREENVILLE, NC 27858</a><br>(Pitt County)<br><br><b>Early Voting Days and Times</b><br><table><tr><td>WED 19 JUN - FRI 21 JUN</td><td>7:00AM - 7:00PM</td></tr><tr><td>MON 24 JUN - FRI 28 JUN</td><td>7:00AM - 7:00PM</td></tr><tr><td>MON 1 JUL - WED 3 JUL</td><td>7:00AM - 7:00PM</td></tr><tr><td>FRI 5 JUL</td><td>7:00AM - 7:00PM</td></tr></table></div>]]>
-   </description>
-   <Point>
-    <coordinates>
+   </kml:styleUrl>
+<kml:description><![CDATA[
+<div><span>One-Stop Site</span><br/><b>COMMUNITY SCHOOLS BUILDING</b><br/><a href="https://www.google.com/maps/dir//4561+COUNTY+HOME+RD+GREENVILLE%2C+NC+27858" target="_blank" title="Directions to this address">4561 COUNTY HOME RD<br/>GREENVILLE, NC 27858</a><br/>(Pitt County)<br/><br/><b>Early Voting Days and Times</b><br/><table><tr><td>Wed 19 Jun - Fri 21 Jun</td><td>7:00AM - 7:00PM</td></tr><tr><td>Mon 24 Jun - Fri 28 Jun</td><td>7:00AM - 7:00PM</td></tr><tr><td>Mon 1 Jul - Wed 3 Jul</td><td>7:00AM - 7:00PM</td></tr><tr><td>Fri 5 Jul</td><td>7:00AM - 7:00PM</td></tr></table></div>
+]]></kml:description>
+<kml:Point>
+<kml:coordinates>
      -77.349072,35.54918
-    </coordinates>
-   </Point>
-  </Placemark>
- </Document>
-</kml>
+    </kml:coordinates>
+</kml:Point>
+</kml:Placemark>
+</kml:Document>
+</kml:kml>
