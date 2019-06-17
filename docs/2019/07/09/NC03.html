@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="canonical" href="https://fiveham.github.io/Elections/2019/07/09/NC03.html">
+    <meta name="robots" content="index,follow">
+    <meta name="description" 
+          content="Interactive map of election-day polling places, early voting sites, and the candidates for the July 9, 2019 
+          Republican primary runoff between Greg Murphy and Joan Perry in the special election in North Carolina's third congressional 
+          district.">
+    
+    <meta property="og:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc03-special.png">
+    <meta property="og:image:url" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc03-special.png">
+    <meta property="og:image:secure_url" 
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc03-special.png">
+    <meta property="og:image:alt" 
+          content="A satelite image of eastern North Carolina overlaid by a semitransparent white polygon covering North Carolina's 
+                   third congressional district and multicolored markers indicating polling places.">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://fiveham.github.io/Elections/2019/07/09/NC03.html">
+    <meta property="og:type" content="website">
+    <meta property="og:determiner" content="">
+    <meta property="og:title" content="NC-03 Special: Republican Runoff, July 9, 2019 - Interactive Map">
+    <meta property="og:description" 
+          content="Interactive map of election-day polling places, early voting sites, and the candidates for the July 9, 2019 
+          Republican primary runoff between Greg Murphy and Joan Perry in the special election in North Carolina's third congressional 
+          district.">
+    
+    <meta property="og:locale" content="en_US" />
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://fiveham.github.io/Elections/2019/07/09/NC03.html" />
+    <meta name="twitter:title" content="NC-03 Special: Republican Runoff, July 9, 2019 - Interactive Map">
+    <meta name="twitter:description" 
+          content="Interactive map of election-day polling places, early voting sites, and the candidates for the July 9, 2019 
+          Republican primary runoff between Greg Murphy and Joan Perry in the special election in North Carolina's third congressional 
+          district.">
+    <meta name="twitter:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc03-special.png">
+    <meta name="twitter:image:alt" 
+          content="A satelite image of eastern North Carolina overlaid by a semitransparent white polygon covering North Carolina's 
+                   third congressional district and multicolored markers indicating polling places.">
+    
+    <title>NC-03 Special: Republican Runoff, July 9, 2019 - Interactive Map</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+    /*
+      div.gm-style-iw > div.gm-style-iw-d > div > div > div:before {
+        content: 'April 30th ';
+      }
+      div.gm-style-iw > div.gm-style-iw-d > div > div > div[style]:before, 
+      div.gm-style-iw > div.gm-style-iw-d > div > div > div[style] ~ div:before {
+        content: '';
+      }*/
+    </style>
+  </head>
+  <body>
+    <!-- Geolocator Button -->
+    <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" title="Go to your geolocation"></div>
+    
+    <!-- Voting Site Toggle Button -->
+    <div id="pp-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" title="Switch active polling place layer">
+      <span id="pp-swap">Election Day Sites</span>
+    </div>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal_plus('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">Legend</p>
+            <table>
+              <tr><th class="center">Symbol</th><th>Site Type</th></tr>
+              <tr>
+                <td style="background-image: url('https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/NC03-3.png');" 
+                    title="The digit 3"></td>
+                <td>One-Stop (Early) Voting Site</td></tr>
+              <tr>
+                <td style="background-image: url('https://maps.google.com/mapfiles/kml/paddle/purple-circle.png');" 
+                    title="Blue, yellow, green, and purple map marker icons"></td>
+                <td>Election-day polling places. Same county, same color.</td></tr>
+            </table>
+            <p class="heading">Candidates and Polling Places for the July 9th Republican primary runoff election in NC's 3rd 
+               Congressional District</p>
+            <p>The white background shape is the district (NC-03). When clicked, it'll pop up an infowindow listing the candidates, 
+               each paired with their party affiliation, arranged in a table. The rows of the table are sorted in alphabetical 
+               order.</p>
+            <p>Sites marked with a 3 are early voting sites, which allow an unregistered individual to register to vote and then to 
+               immediately vote, provided that the person registering 
+               <a href="https://www.ncsbe.gov/Voters/Registering-to-Vote#item5_3" target="_blank">brings proof of name and 
+               address.</a></p>
+            <p>Sites marked with a blue, yellow, green, or purple generic map marker are election-day (July 9th) polling places. 
+               These are colored by county. Those in the same county have the same color, but each color is used by more than one 
+               county.</p>
+            <p class="heading">Sources</p>
+            <p><ul>
+            <li>NC-03 district polygon: <a href="" title="" target="_blank" rel="nofollow">Not sure. Maybe the US Censuse Bureau.</a>
+            <li>Election-day polling places: <a href="https://vt.ncsbe.gov/PPLkup/" title="Polling Place Search" target="_blank" rel="nofollow">NC State Board of Elections Polling Place Search Tool</a>
+            <li>Early voting (one-stope) sites: <a href="https://vt.ncsbe.gov/ossite" rel="nofollow" title="Early voting (one-stop) site locator" target="_blank">NC State Board of Elections One-Stop (Early Voting) Site Locator</a>
+            </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      var map;
+      var layer, alt;
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-toggler",  where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",   where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal", where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: {lat: 35.61215525049109, lng: -76.6224810408075},
+          mapTypeId: 'hybrid'
+        });
+        
+        var early = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2019/07/09/7-9-19-ossites.kml',
+          map: null,
+          preserveViewport: true,
+          zIndex: 1
+        });
+        
+        var eday = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2019/09/07/7-9-19-polling-places.kml',
+          map: map,
+          preserveViewport: true,
+          zIndex: 1
+        });
+        
+        var nc03_outline = new google.maps.KmlLayer({
+          url: 'http://fiveham.github.io/Elections/2019/09/07/7-9-19-nc03.kml',
+          map: map,
+          preserveViewport: false,
+          zIndex: 0
+        });
+        
+        /* Give real values to layer-pointers */
+        layer = eday;
+        alt = early;
+        if((new Date()) < (new Date(2019, 6, 5, 17, 0, 0, 0))){ //January is Month Zero
+          pp_toggle();
+        }
+        layer.setMap(map);
+        alt.setMap(null);
+        
+        add_widgets();
+      }
+      
+      function pp_toggle(){
+        var temp = alt;
+        alt = layer;
+        layer = temp;
+        layer.setMap(map);
+        alt.setMap(null);
+        document.getElementById("pp-swap").innerHTML = (
+            document.getElementById("pp-swap").innerHTML.startsWith("Early") 
+            ? "Election Day Sites" 
+            : "Early Voting Sites");
+      }
+      
+      /* Toggle the modal but also ensure that it will show up above the other elements 
+         added to the map. */
+      function toggle_modal_plus(id){
+        document.getElementById(id).style.zIndex = 1;
+        toggle_modal(id);
+      }
+    </script>
+    <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/add-widgets.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
