@@ -63,7 +63,7 @@
          title="Go to your geolocation"></div>
     
     <!-- Toggle one-stop sites button -->
-    <div id="os-toggler" class="installed controls top text" onclick="os_toggle()" role="button" 
+    <div id="os-toggler" class="installed controls top text" onclick="os_toggle(false)" role="button" 
          title="Turn one-stop (early voting) site layer on or off.">
       <span id="pp-swap">Toggle One-Stop Sites</span>
     </div>
@@ -203,10 +203,10 @@
         var now = new Date();
         
         /* load NC03 early voting sites if now is before the end of nc03 early voting */
-        var end3ev = new Date(2019, 3, 26, 19, 0, 0, 0); //January is Month Zero
+        var end3ev = new Date(2019, 6, 5, 17, 0, 0, 0); //January is Month Zero
         if(now < end3ev){
           var ossites3 = new google.maps.KmlLayer({
-            url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc03-30-apr-2019.kml',
+            url: 'http://fiveham.github.io/Elections/2019/07/09/7-9-19-ossites.kml',
             map: null,
             preserveViewport: true,
             zIndex: 2
@@ -215,7 +215,7 @@
         }
         
         /* load nc09 one-stop sides if now is before the end of nc09 early voting */
-        var end9ev = new Date(2019, 4, 10, 19, 0, 0, 0); //January is Month Zero
+        /*var end9ev = new Date(2019, 4, 10, 19, 0, 0, 0); //January is Month Zero
         if(now < end9ev){
           var ossites9 = new google.maps.KmlLayer({
             url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc09-14-may-2019.kml',
@@ -224,7 +224,7 @@
             zIndex: 2
           });
           os_layers.push(ossites9);
-        }
+        }*/
         
         /* Set all loaded one-stop layers visible */
         /* Using this function to turn the layers on initially relies on the layers being initialized with map:null */
@@ -240,7 +240,7 @@
             layer.setMap(layer.getMap() ? null : map);
           });
         } else if(!auto) {
-          alert("One-stop sites are no longer operating.");
+          alert("One-stop sites are not operating.");
         }
       }
     </script>
