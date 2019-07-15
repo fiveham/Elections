@@ -164,14 +164,14 @@
         });
         
         var sen = new Layer([
-            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-ss-fg-ge-6-11-19.kmz', 1, 'senate foreground'), 
-            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-ss-bg-ge-6-11-19.kmz', 0, 'senate background')]);
+            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-ss-fg-ge-6-11-19.kmz', 1), 
+            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-ss-bg-ge-6-11-19.kmz', 0)]);
         var hod = new Layer([
-            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-hd-fg-ge-6-11-19.kmz', 1, 'house foreground'), 
-            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-hd-bg-ge-6-11-19.kmz', 0, 'house background')]);
+            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-hd-fg-ge-6-11-19.kmz', 1), 
+            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-hd-bg-ge-6-11-19.kmz', 0)]);
         var loc = new Layer([
-            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-lc-fg-ge-6-11-19.kmz', 1, 'local foreground'), 
-            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-lc-bg-ge-6-11-19.kmz', 0, 'local background')]);
+            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-lc-fg-ge-6-11-19.kmz', 1), 
+            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-lc-bg-ge-6-11-19.kmz', 0)]);
         
         //Maintain same sequence as dropdown list
         layers.push(sen);
@@ -181,29 +181,15 @@
         reset_layers(); //turn first layer on
         
         add_widgets();
-        
-        for(var i=0; i < layers.length; i++){
-          for(var j=0; j<2; j++){
-            var sheet = layers[i].members[j];
-            if(sheet.status != undefined && sheet.status != "OK"){
-              alert("Weird status '"+sheet.status+"' for layer "+sheet.url);
-            }
-          }
-        }
       }
       
-      function kmllayer(url, zIndex, layer_name){
+      function kmllayer(url, zIndex){
         var result = new google.maps.KmlLayer({
           url: url,
           map: null,
           preserveViewport: true,
           zIndex: zIndex
         });
-        if(result.status != "OK"){
-          var issue = "Weird status loading "+layer_name+": "+result.status;
-          console.log(issue);
-          //alert(issue);
-        }
         return result;
       }
       
@@ -215,6 +201,15 @@
         var index = document.getElementById('layer-switcher').selectedIndex;
         var layer = layers[index];
         layer.setMap(map);
+        
+        var sheet = layer.members[0];
+        if(sheet.status !== undefined && sheet.status !== "OK"){
+          alert("Weird status '"+sheet.status+"' for layer "+sheet.url);
+        }
+        sheet = layer.members[1];
+        if(sheet.status !== undefined && sheet.status !== "OK"){
+          alert("Weird status '"+sheet.status+"' for layer "+sheet.url);
+        }
       }
       
     </script>
