@@ -1,6 +1,6 @@
 ## US Elections - In Map Form
 
-The plan is to populate this repository with single-state election maps for the off-year elections in 2019 and 2020 and if possible to do a countrywide map for 2020.
+There are so many elected offices with so many different kinds and shapes of districts that the sheer volume of information involved can be a turn-off to potential voters. One way to resolve part of that is with multi-layered interactive maps of the districts and candidates (and sometimes polling places) for a given election. To that end, I've cooked up election maps like that for several elections.
 
 Available maps:
 * [NC-03 Republican runoff, July 9th 2019](https://fiveham.github.io/Elections/2019/07/09/NC03.html)
@@ -11,23 +11,5 @@ Available maps:
 * [Where and How to Register to Vote in NC](https://fiveham.github.io/Elections/2019/register/nc/sites.html)
 * [MS precincts with polling place names and addresses (2018)](https://fiveham.github.io/Elections/2018/general/MS.html)
 
-Each state map should address
-
-* State legislature districts
-* Congressional districts
-* Statewide offices on the ballot
-* County/Parish/Borough-level offices
-* Judges and other judicial positions (in applicable states)
-* Polling places
-    * Maybe even early voting locations
-* Precincts/Wards/VTD districts
-
-Other map information that would be nice, but which may not make it into final maps:
-
-* How to register to vote
-* How to vote absentee
-    * Need an excuse?
-* Early voting
-    * Not available?
-* ID requirements
-    * None?
+Unavailable maps:
+* NC statewide midterm map (2018)
