@@ -193,6 +193,8 @@
         return result;
       }
       
+      var layer_warnings = [];
+      
       function reset_layers(){
         for(var i = 0; i < layers.length; i++){
           var layer = layers[i];
@@ -203,12 +205,16 @@
         layer.setMap(map);
         
         var sheet = layer.members[0];
-        if(sheet.status !== undefined && sheet.status !== "OK"){
+        var key = index + "0";
+        if(!layer_warnings.includes(key) && sheet.status !== undefined && sheet.status !== "OK"){
           alert("Weird status '"+sheet.status+"' for layer "+sheet.url);
+          layer_warnings.push(key);
         }
         sheet = layer.members[1];
-        if(sheet.status !== undefined && sheet.status !== "OK"){
+        key = index + "1";
+        if(!layer_warnings.includes(key) && sheet.status !== undefined && sheet.status !== "OK"){
           alert("Weird status '"+sheet.status+"' for layer "+sheet.url);
+          layer_warnings.push(key);
         }
       }
       
