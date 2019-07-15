@@ -178,6 +178,8 @@
         layers.push(hod);
         layers.push(loc);
         
+        reset_layers(); //turn first layer on
+        
         add_widgets();
       }
       
@@ -191,7 +193,7 @@
         if(result.status != "OK"){
           var issue = "Weird status loading "+layer_name+": "+result.status;
           console.log(issue);
-          alert(issue);
+          //alert(issue);
         }
         return result;
       }
