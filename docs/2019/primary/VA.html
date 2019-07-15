@@ -181,6 +181,15 @@
         reset_layers(); //turn first layer on
         
         add_widgets();
+        
+        for(var i=0; i < layers.length; i++){
+          for(var j=0; j<2; j++){
+            var sheet = layers[i].members[j];
+            if(sheet.status != undefined && sheet.status != "OK"){
+              alert("Weird status '"+sheet.status+"' for layer "+sheet.url);
+            }
+          }
+        }
       }
       
       function kmllayer(url, zIndex, layer_name){
