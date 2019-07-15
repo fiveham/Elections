@@ -163,47 +163,15 @@
           mapTypeId: 'hybrid'
         });
         
-        var senFG = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/primary/va-ss-fg-ge-6-11-19.kmz',
-          map: map,
-          preserveViewport: true,
-          zIndex: 1
-        });
-        var senBG = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/primary/va-ss-bg-ge-6-11-19.kmz',
-          map: map,
-          preserveViewport: true,
-          zIndex: 0
-        });
-        var sen = new Layer([senFG, senBG]);
-        
-        var hodFG = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/primary/va-hd-fg-ge-6-11-19.kmz',
-          map: null,
-          preserveViewport: true,
-          zIndex: 1
-        });
-        var hodBG = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/primary/va-hd-bg-ge-6-11-19.kmz',
-          map: null,
-          preserveViewport: true,
-          zIndex: 0
-        });
-        var hod = new Layer([hodFG, hodBG]);
-        
-        var locFG = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/primary/va-lc-fg-ge-6-11-19.kmz',
-          map: null,
-          preserveViewport: true,
-          zIndex: 1
-        });
-        var locBG = new google.maps.KmlLayer({
-          url: 'https://fiveham.github.io/Elections/2019/primary/va-lc-bg-ge-6-11-19.kmz',
-          map: null,
-          preserveViewport: true,
-          zIndex: 0
-        });
-        var loc = new Layer([locFG, locBG]);
+        var sen = new Layer([
+            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-ss-fg-ge-6-11-19.kmz', 1, 'senate foreground'), 
+            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-ss-bg-ge-6-11-19.kmz', 0, 'senate background')]);
+        var hod = new Layer([
+            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-hd-fg-ge-6-11-19.kmz', 1, 'house foreground'), 
+            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-hd-bg-ge-6-11-19.kmz', 0, 'house background')]);
+        var loc = new Layer([
+            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-lc-fg-ge-6-11-19.kmz', 1, 'local foreground'), 
+            kmllayer('https://fiveham.github.io/Elections/2019/primary/va-lc-bg-ge-6-11-19.kmz', 0, 'local background')]);
         
         //Maintain same sequence as dropdown list
         layers.push(sen);
@@ -211,6 +179,21 @@
         layers.push(loc);
         
         add_widgets();
+      }
+      
+      function kmllayer(url, zIndex, layer_name){
+        var result = new google.maps.KmlLayer({
+          url: url,
+          map: null,
+          preserveViewport: true,
+          zIndex: zIndex
+        });
+        if(result.status != "OK"){
+          var issue = "Weird status loading "+layer_name+": "+result.status;
+          console.log(issue);
+          alert(issue);
+        }
+        return result;
       }
       
       function reset_layers(){
@@ -223,17 +206,6 @@
         layer.setMap(map);
       }
       
-      /*function pp_toggle(){
-        var temp = alt;
-        alt = layer;
-        layer = temp;
-        alt.setMap(null);
-        layer.setMap(map);
-        document.getElementById("pp-swap").innerHTML = (
-            document.getElementById("pp-swap").innerHTML.startsWith("S") 
-            ? "House of Delegates" 
-            : "State Senate");
-      }/**/
     </script>
     <script src="/Elections/js/geolocator.js"></script>
     <script src="/Elections/js/about-modal.js"></script>
