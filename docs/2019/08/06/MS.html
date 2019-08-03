@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/Elections/images/favicon/ms-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="canonical" href="https://fiveham.github.io/Elections/2019/08/06/MS.html">
+    <meta name="robots" content="index,follow">
+    <meta name="description" 
+          content="Mississippi primary election 2019: Interactive map of districts and candidates for the state house of representatives,
+          state senate, statewide offices, and north/central/south district offices, plus electoral precincts (VTDs), polling places, and
+          county registrar info.">
+    
+    <meta property="og:image" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ms-2019.png">
+    <meta property="og:image:url" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ms-2019.png">
+    <meta property="og:image:secure_url" 
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ms-2019.png">
+    <meta property="og:image:alt" 
+          content="A map of electoral districts for Mississippi's House of Representatives"> <!-- TODO create that image and upload it -->
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://fiveham.github.io/Elections/2019/08/06/MS.html">
+    <meta property="og:type" content="website">
+    <meta property="og:determiner" content="">
+    <meta property="og:title" content="Mississippi Primaries August 6th 2019 - Interactive Map">
+    <meta property="og:description" 
+          content="Interactive map of districts and candidates for the August 6th 2019 primary elections in Mississippi">
+    
+    <meta property="og:locale" content="en_US">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://fiveham.github.io/Elections/2019/08/06/MS.html">
+    <meta name="twitter:title" content="Mississippi Primaries August 6th 2019 - Interactive Map">
+    <meta name="twitter:description" 
+          content="Interactive map of districts and candidates for the August 6th 2019 primary elections in Mississippi">
+    <meta name="twitter:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ms-2019.png">
+    <meta name="twitter:image:alt" content="A map of electoral districts for Mississippi's House of Representatives">
+    
+    <title>Mississippi Primaries August 6th 2019 - Interactive Map</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <!-- Geolocator Button -->
+    <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" title="Go to your geolocation"></div>
+    
+    <!-- Layer-switcher dropdown -->
+    <select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" title="Switch to another category of offices">
+      <option value="house" >State House</option>
+      <option value="senate">State Senate</option>
+      <option value="state" >Statewide</option>
+      <option value="ncs"   >N/C/S Offices</option>
+      <option value="da"    >District Attorney</option>
+      <option value="county">County Registrars</option>
+      <option value="vtd"   >Precincts (VTDs)</option>
+    </select>
+    
+    <!-- Polling Place Toggler -->
+    <div id="pp-toggle" class="installed controls top" onclick="pp_toggle()" role="button" title="Show or hide polling places"></div>
+    
+    <!-- Polling Place lookup link -->
+    <a id="pp-lookup" class="installed controls top text" 
+       href="http://www.sos.ms.gov/PollingPlace/Pages/default.aspx" target="_blank" 
+       rel="nofollow" title="Mississippi Secretary of State - Polling Place Lookup"><span>Where's Your Polling Place?</span></a>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">Districts and Candidates for the August 6th Primaries in MS</p>
+            <p>Clicking on a legislative district brings up an infowindow listing the candidates, each paired with their party 
+               affiliation, all arranged in a table. Candidate entries are sorted in alphabetical order as rows; with party listed before
+               the candidate's name, this also clusters candidates by party.</p>
+            <p class="heading">Polling Places</p>
+            <p>You can <a href="http://www.sos.ms.gov/PollingPlace/Pages/default.aspx" target="_blank" title="MS polling place lookup" 
+               rel="nofollow">look up your polling place</a> on the MS Secretary of State website.</p>
+            <p class="heading">Sources</p>
+            <p><ul>
+              <li>Democratic Candidates: 
+                <a target="_blank" rel="nofollow" 
+                  href="http://www.sos.ms.gov/Elections-Voting/Documents/Sample%20DEM%20Primary%20Ballot%202019.pdf" 
+                  title="D sample ballot - Mississippi Secretary of State">
+                 D sample ballot - MS Secretary of State</a>
+              <li>Republican Candidates:
+                <a target="_blank" rel="nofollow"
+                   href="http://www.sos.ms.gov/Elections-Voting/Documents/Sample%20REP%20Primary%20Ballot%202019.pdf" 
+                   title="R sample ballot - Mississippi Secretary of State">
+                  R sample ballot - MS Secretary of State</a>
+              <li>State Senate district polygons: <!-- TODO Get and use the less-gerrymandered ones due to the lawsuit -->
+                <a target="_blank" rel="nofollow"
+                   title="US Census Bureau" 
+                   href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2018&layergroup=State+Legislative+Districts">
+                  US Census Bureau</a>
+              <li>House of Representatives district polygons: 
+                <a target="_blank" rel="nofollow"
+                   title="US Census Bureau" 
+                   href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2018&layergroup=State+Legislative+Districts">
+                  US Census Bureau</a>
+              <li>County polygons: 
+                <a target="_blank" rel="nofollow"
+                   title="Mississippi Automated Resource Information System" 
+                   href="https://www.maris.state.ms.us/HTM/DownloadData/Statewide.html">
+                  Mississippi Automated Resource Information System (MARIS)</a>
+              <li>Precinct (VTD) polygons: 
+                <a target="_blank" rel="nofollow"
+                   title="Mississippi Automated Resource Information System" 
+                   href="https://www.maris.state.ms.us/HTM/DownloadData/Statewide.html">
+                  MARIS (2012 Voting Precincts)</a>
+              <li>Polling Places: 
+                <a target="_blank" rel="nofollow"
+                   title="Polling Place Lookup - Mississippi Secretary of State" 
+                   href="http://www.sos.ms.gov/PollingPlace/Pages/default.aspx">
+                  MS Secretary of State</a>
+              <li>North/Central/South district polygons: 
+                <a target="_blank" rel="nofollow"
+                   title="Mississippi Automated Resource Information System" 
+                   href="https://www.maris.state.ms.us/HTM/DownloadData/Statewide.html">
+                  MARIS (Supreme Court Districts)</a>
+              <li>North/Central/South district definitions: 
+                <ul>
+                  <li><a target="_blank" rel="nofollow"
+                         title="MDOT Commission and Maintenance Districts" 
+                         href="http://mdot.ms.gov/documents/planning/Maps/MDOT%20Commission%20and%20Maintenance%20Districts.pdf">
+                        MS Dept. of Transportation (PDF)</a>
+                  <li><a target="_blank" rel="nofollow"
+                         href="https://www.psc.ms.gov/home/districts"
+                         title="">
+                        MS Public Service Commission</a>
+                </ul>
+              <li>District Attorney district definitions: 
+                <a target="_blank" rel="nofollow"
+                   title="" 
+                   href="https://criminal.findlaw.com/criminal-legal-help/mississippi-district-attorneys.html">
+                  FindLaw</a>
+            </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      var layers = [];
+      var pp_layer;
+      var msCenter = {lat: 32.585, lng: -89.876};
+      var map;
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-toggle",      where: 1  /*google.maps.ControlPosition.TOP_LEFT*/},
+                     {id: "pp-lookup",      where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: msCenter,
+          mapTypeId: 'hybrid'
+        });
+        
+        var house     = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/house.kml', 0);
+        var senate    = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/senate.kml', 0);
+        var statewide = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/statewide.kml', 0);
+        var ncs_dists = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/ncs-districts.kml', 0);
+        var dist_atts = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/district-attorney.kml', 0);
+        var county    = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/counties.kml', 0);
+        var precincts = new Layer([
+            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/precincts-north.kml', 0),
+            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/precincts-south.kml', 0)]);
+        
+        pp_layer      = new Layer([
+            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/polling-places-north.kml', 1),
+            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/polling-places-south.kml', 1)]);
+        
+        //Maintain same sequence as dropdown list
+        layers.push(house);
+        layers.push(senate);
+        layers.push(statewide);
+        layers.push(ncs_dists);
+        layers.push(dist_atts);
+        layers.push(county);
+        layers.push(precincts);
+        
+        reset_layers(); //turn first layer on
+        
+        add_widgets();
+      }
+      
+      function kmllayer(url, zIndex){
+        var result = new google.maps.KmlLayer({
+          url: url,
+          map: null,
+          preserveViewport: true,
+          zIndex: zIndex
+        });
+        return result;
+      }
+      
+      function reset_layers(){
+        for(var i = 0; i < layers.length; i++){
+          var layer = layers[i];
+          layer.setMap(null);
+        }
+        var index = document.getElementById('layer-switcher').selectedIndex;
+        var layer = layers[index];
+        layer.setMap(map);
+      }
+      
+      function pp_toggle(){
+        pp_layer.setMap( pp_layer.getMap() ? null : map );
+      }
+    </script>
+    <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/add-widgets.js"></script>
+    <script src="/Elections/js/layer.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
