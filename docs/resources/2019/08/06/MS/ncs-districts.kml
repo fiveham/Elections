@@ -44,9 +44,9 @@
    <styleUrl>
     #color1
    </styleUrl>
+   <name>Northern District</name>
    <description>
    <![CDATA[
-    <div><p><b>Northern District</b></p></div>
     <div>
 	 <p><b>Public Service Commissioner</b></p>
 	 <table>
@@ -80,9 +80,9 @@
    <styleUrl>
     #color2
    </styleUrl>
+   <name>Central District</name>
    <description>
    <![CDATA[
-    <div><p><b>Central District</b></p></div>
     <div>
 	 <p><b>Public Service Commissioner</b></p>
 	 <table>
@@ -119,9 +119,9 @@
    <styleUrl>
     #color3
    </styleUrl>
+   <name>Southern District</name>
    <description>
    <![CDATA[
-    <div><p><b>Southern District</b></p></div>
     <div>
 	 <p><b>Public Service Commissioner</b></p>
 	 <table>
