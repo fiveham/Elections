@@ -9,4 +9,7 @@ class Layer{
       e.setMap(map);
     });
   }
+  getMap(){
+    return this.members[0].getMap();
+  }
 }
