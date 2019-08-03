@@ -11,5 +11,7 @@ function geolocate() {
       });
       map.fitBounds(circle.getBounds());
     });
-  }
+  } /*else {
+    alert("Not sure why, but I can't geolocate you.");
+  }*/
 }
