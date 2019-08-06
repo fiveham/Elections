@@ -176,7 +176,9 @@
           mapTypeId: 'hybrid'
         });
         
-        var house     = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/house.kmz', 0);
+        var house     = new Layer([
+            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/house_split_0.kmz', 0),
+            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/house_split_1.kmz', 0)]);
         var senate    = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/senate.kmz', 0);
         var statewide = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/statewide.kml', 0);
         var ncs_dists = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/ncs-districts.kml', 0);
