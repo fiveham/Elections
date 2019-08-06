@@ -163,7 +163,6 @@
     
     <script>
       var layers = [];
-      var pp_layer;
       var msCenter = {lat: 32.585, lng: -89.876};
       var map;
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
@@ -186,14 +185,11 @@
         var statewide = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/statewide.kml', 0);
         var ncs_dists = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/ncs-districts.kml', 0);
         var dist_atts = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/district-attorney.kml', 0);
-        var county    = kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/counties.kml', 0);
         var precincts = new Layer([
-            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/precincts-north.kml', 0),
-            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/precincts-south.kml', 0)]);
-        
-        pp_layer      = new Layer([
-            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/polling-places-north.kml', 1),
-            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/polling-places-south.kml', 1)]);
+            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/precincts-split-0.kmz', 0),
+            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/precincts-split-1.kmz', 0),
+            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/precincts-split-2.kmz', 0),
+            kmllayer('https://fiveham.github.io/Elections/resources/2019/08/06/MS/precincts-split-3.kmz', 0)]);
         
         //Maintain same sequence as dropdown list
         layers.push(house);
@@ -201,7 +197,6 @@
         layers.push(statewide);
         layers.push(ncs_dists);
         layers.push(dist_atts);
-        layers.push(county);
         layers.push(precincts);
         
         reset_layers(); //turn first layer on
@@ -227,10 +222,6 @@
         var index = document.getElementById('layer-switcher').selectedIndex;
         var layer = layers[index];
         layer.setMap(map);
-      }
-      
-      function pp_toggle(){
-        pp_layer.setMap( pp_layer.getMap() ? null : map );
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
