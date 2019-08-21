@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/Elections/images/favicon/nc-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="canonical" href="https://fiveham.github.io/Elections/2019/09/10/NC.html">
+    <meta name="robots" content="index,follow">
+    <meta name="description" 
+          content="Interactive map of districts, candidates, and polling places for the NC-03 and NC-09 special congressional elections
+          September 10, 2019 and for the partisan primaries for Charlotte city council and mayor">
+    
+    <meta property="og:image" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-09-10-2019.png">
+    <meta property="og:image:url" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-09-10-2019.png">
+    <meta property="og:image:secure_url" 
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-09-10-2019.png">
+    <meta property="og:image:alt" 
+          content="NC congressional districts 3 and 9 over a satelite image of the state">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://fiveham.github.io/Elections/2019/09/10/NC.html">
+    <meta property="og:type" content="website">
+    <meta property="og:determiner" content="">
+    <meta property="og:title" content="NC-03, NC-09 special election map">
+    <meta property="og:description" 
+          content="Interactive map of districts, candidates, and polling places for the Sep 10, 2019 congressional special elections 
+                   in NC and the Charlotte primaries">
+    
+    <meta property="og:locale" content="en_US">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://fiveham.github.io/Elections/2019/09/10/NC.html">
+    <meta name="twitter:title" content="NC-03, NC-09 special election map">
+    <meta name="twitter:description" 
+          content="Interactive map of districts, candidates, and polling places for the Sep 10, 2019 congressional special elections 
+                   in NC and the Charlotte primaries">
+    <meta name="twitter:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-09-10-2019.png">
+    <meta name="twitter:image:alt" content="NC congressional districts 3 and 9 over a satelite image of the state">
+    
+    <title>September 10, 2019 special election map for NC-03 and NC-09, with districts, candidates, and polling places</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <!-- Geolocator Button -->
+    <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" title="Go to your geolocation"></div>
+    
+    <!-- Layer-switcher dropdown -->
+    <select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" 
+            title="Switch to another map layer">
+      <option value="congress" >Congress</option>
+      <option value="charlotte">Charlotte</option>
+    </select>
+    
+    <!-- Voting Site Toggle Button -->
+    <div id="pp-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" 
+         title="Switch active polling place layer">
+      <span id="pp-swap">Election Day Sites</span>
+    </div>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">Districts, Candidates, and Polling Places for the September 10th Special Elections in North Carolina and 
+               for the municipal primaries in Charlotte</p>
+            <p>Clicking a district brings up an infowindow listing the candidates and their party affiliation. These are sorted in 
+               alphabetical order.</p>
+            <p class="heading">Sources</p>
+            <p><ul>
+              <li>Congressional districts: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2018&layergroup=Congressional+Districts+%28116%29" 
+                  title="download nationwide congressional district shapefile - US Census Bureau">
+                 US Census Bureau</a>
+              <li>Charlotte City Council districts:
+                <a target="_blank" rel="nofollow"
+                   href="http://maps.co.mecklenburg.nc.us/openmapping/data.html" 
+                   title="Mecklenburg County Open Mapping">
+                  Mecklenburg County Open Mapping</a>
+              <li>Candidates:
+                <a target="_blank" rel="nofollow"
+                   href="https://dl.ncsbe.gov/?prefix=Elections/2019/Candidate%20Filing/" 
+                   title="Downloads - NC State Board of Elections">
+                  NC State Board of Elections</a>
+              <li>Polling Places:
+                <a target="_blank" rel="nofollow"
+                   title="Polling Place lookup tool - NC State Board of Elections" 
+                   href="https://vt.ncsbe.gov/PPLkup/">
+                  NC State Board of Elections's polling place lookup tool</a>
+            </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      var layers = [];
+      var alt, layer;
+      var center = {lat: 35.652, , lng: -78.279};
+      var map;
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-toggler",     where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 7,
+          center: center,
+          mapTypeId: 'hybrid'
+        });
+        
+        var congress  = kmllayer('https://fiveham.github.io/Elections/resources/09/10/cd-3-9.kml', 0);
+        var charlotte = kmllayer('https://fiveham.github.io/Elections/resources/09/10/clt-city-council.kml', 0);
+        
+        //Maintain same sequence as dropdown list
+        layers.push(congress);
+        layers.push(charlotte);
+        
+        var eday  = kmllayer('https://fiveham.github.io/Elections/resources/09/10/ed-sites.kml', 1);
+        var early = kmllayer('https://fiveham.github.io/Elections/resources/09/10/os-sites.kml', 1);
+        
+        /* Give real values to layer-pointers */
+        layer = eday;
+        alt   = early;
+        if((new Date()) < (new Date(2019, 8, 6, 19, 0, 0, 0))){ //Sep 6th at 7PM (January is Month Zero)
+          pp_toggle();
+        }
+        alt.setMap(null);
+        layer.setMap(map);
+        
+        reset_layers(); //turn first layer on
+        
+        add_widgets();
+      }
+      
+      function kmllayer(url, zIndex){
+        var result = new google.maps.KmlLayer({
+          url: url,
+          map: null,
+          preserveViewport: true,
+          zIndex: zIndex
+        });
+        return result;
+      }
+      
+      function reset_layers(){
+        for(var i = 0; i < layers.length; i++){
+          var layer = layers[i];
+          layer.setMap(null);
+        }
+        var index = document.getElementById('layer-switcher').selectedIndex;
+        var layer = layers[index];
+        layer.setMap(map);
+      }
+      
+      function pp_toggle(){
+        var temp = alt;
+        alt = layer;
+        layer = temp;
+        alt.setMap(null);
+        layer.setMap(map);
+        document.getElementById("pp-swap").innerHTML = (
+            document.getElementById("pp-swap").innerHTML.startsWith("Early") 
+            ? "Election Day Sites" 
+            : "Early Voting Sites");
+      }
+      
+    </script>
+    <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/add-widgets.js"></script>
+    <script src="/Elections/js/layer.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
