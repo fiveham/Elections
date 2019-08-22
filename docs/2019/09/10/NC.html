@@ -173,6 +173,7 @@
           } else if(context.includes('9')){
             return nc09Bounds;
           } else if(context.includes('c') || context.includes('C')){
+            document.getElementById('layer-switcher').selectedIndex = 1;
             return charBounds;
           }
         }
@@ -208,11 +209,10 @@
         alt.setMap(null);
         layer.setMap(map);
         
-        reset_layers(); //turn first layer on
-        
         add_widgets();
-        
         map.fitBounds(choose_bounds());
+        
+        reset_layers(); //turn first layer on
       }
       
       function kmllayer(url, zIndex){
