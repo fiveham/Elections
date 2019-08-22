@@ -133,6 +133,10 @@
       var alt, layer, map;
       
       var center = {lat: 35.652, lng: -78.279};
+      var charBounds = {west: -81.009628, east: -80.634950, south: 35.010511, north: 35.400255};
+      var nc03Bounds = {west: -77.834249, east: -75.400119, south: 34.399705, north: 36.550916};
+      var nc09Bounds = {west: -80.877444, east: -78.373933, south: 34.299342, north: 35.234105};
+      var wideBounds = {west: -81.009628, east: -75.400119, south: 34.299342, north: 36.550916};
       var endOfOneStop = new Date(2019, 8, 6, 19, 0, 0, 0) //Sep 6th at 7PM (January is Month Zero)
       
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
@@ -141,6 +145,39 @@
                      {id: "pp-toggler",     where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
                      {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
                      {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function get_url_params(){
+        var url = window.location.href;
+        var q = url.indexOf("?");
+        var h = url.indexOf("#");
+        if(h < 0){
+          h = url.length;
+        }
+        var params = (q == -1
+            ? []
+            : url.slice(q+1,h).split("&"));
+        var param_dict = {};
+        for(var i = 0; i < params.length; i++){
+          var kv = params[i].split("=");
+          param_dict[kv[0]] = kv[1] ? kv[1] : null;
+        }
+        return param_dict;
+      }
+      
+      function choose_bounds(){
+        params = get_url_params();
+        var context = params['context'];
+        if(context){
+          if(context.includes('3')){
+            return nc03Bounds;
+          } else if(context.includes('9')){
+            return nc09Bounds;
+          } else if(context.includes('c') || context.includes('C')){
+            return charBounds;
+          }
+        }
+        return wideBounds;
+      }
       
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -174,6 +211,8 @@
         reset_layers(); //turn first layer on
         
         add_widgets();
+        
+        map.fitbounds(choose_bounds());
       }
       
       function kmllayer(url, zIndex){
