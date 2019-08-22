@@ -62,6 +62,7 @@
             title="Switch to another map layer">
       <option value="congress" >Congress</option>
       <option value="charlotte">Charlotte</option>
+      <option value="precincts">VTDs</option>
     </select>
     
     <!-- Voting Site Toggle Button -->
@@ -113,6 +114,11 @@
                    title="One-stop site locator - NC State Board of Elections" 
                    href="https://vt.ncsbe.gov/OSSite/">
                    NC State Board of Elections's one-stop site locator tool</a>
+              <li>VTDs/Precincts:
+                <a target="_blank" rel="nofollow"
+                   title="Downloads - NC State Board of Elections" 
+                   href="https://dl.ncsbe.gov/?prefix=PrecinctMaps/">
+                   NC State Board of Elections</a>
             </ul></p>
           </div>
         </div>
@@ -145,10 +151,13 @@
         
         var congress  = kmllayer('https://fiveham.github.io/Elections/resources/2019/09/10/NC/cd-3-9.kml', 0);
         var charlotte = kmllayer('https://fiveham.github.io/Elections/resources/2019/09/10/NC/clt-city-council.kml', 0);
+        var vtds = new Layer([kmllayer('https://fiveham.github.io/Elections/resources/2019/09/10/NC/precincts-03.kmz', 0), 
+                              kmllayer('https://fiveham.github.io/Elections/resources/2019/09/10/NC/precincts-09.kmz', 0)]);
         
         //Maintain same sequence as dropdown list
         layers.push(congress);
         layers.push(charlotte);
+        layers.push(vtds);
         
         var eday  = kmllayer('https://fiveham.github.io/Elections/resources/2019/09/10/NC/ed-sites.kml', 1);
         var early = kmllayer('https://fiveham.github.io/Elections/resources/2019/09/10/NC/os-sites.kml', 1);
