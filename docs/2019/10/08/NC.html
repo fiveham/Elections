@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/Elections/images/nc-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="canonical" href="https://fiveham.github.io/Elections/2019/10/08/NC.html">
+    <meta name="robots" content="index,follow">
+    <meta name="description" 
+          content="Interactive map of districts, candidates, and polling places for the October 8th, 2019 municipal elections in 
+          certain towns in North Carolina">
+    
+    <meta property="og:image" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-10-08-2019.png">
+    <meta property="og:image:url" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-10-08-2019.png">
+    <meta property="og:image:secure_url" 
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-10-08-2019.png">
+    <meta property="og:image:alt" 
+          content="">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://fiveham.github.io/Elections/2019/10/08/NC.html">
+    <meta property="og:type" content="website">
+    <meta property="og:determiner" content="">
+    <meta property="og:title" content="Interactive election map of towns, candidates, precincts, and polling places for the NC 
+                                       municipal elections on Oct 8, 2019">
+    <meta property="og:description" 
+          content="Interactive election map of towns, candidates, precincts, and polling places for the NC 
+                                       municipal elections on Oct 8, 2019">
+    
+    <meta property="og:locale" content="en_US">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://fiveham.github.io/Elections/2019/10/08/NC.html">
+    <meta name="twitter:title" content="Interactive election map of towns, candidates, precincts, and polling places for the NC 
+                                        municipal elections on Oct 8, 2019">
+    <meta name="twitter:description" 
+          content="Interactive election map of towns, candidates, precincts, and polling places for the NC 
+                   municipal elections on Oct 8, 2019">
+    <meta name="twitter:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-10-08-2019.png">
+    <meta name="twitter:image:alt" content="">
+    
+    <title>NC Muncipal Elections Oct 8, 2019 - Interactive Map</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      #pp-swap:before {
+        content: 'Using: '
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Geolocator Button -->
+    <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" 
+         title="Your location"></div>
+    
+    <!-- Layer-switcher dropdown -->
+    <select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" 
+            title="Switch to another map layer">
+      <option>Municipal</option>
+      <option>Precincts</option>
+    </select>
+    
+    <!-- Voting Site Toggle Button -->
+    <div id="pp-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" 
+         title="Switch polling place layer">
+      <span id="pp-swap">Election Day Sites</span>
+    </div>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">NC Municipal Elections, October 8th, 2019</p>
+            <p>Twenty municipalities in NC will hold elections for local offices on October 8th, 2019. In alphabetical order, these 
+               are: Burlington; Dunn; Durham; Elizabeth City; Fayettevillle; Goldsboro; Henderson; Hickory; High Point; Mount Airy; 
+               Raleigh; Rocky Mount; Shelby; Statesville; Cary; Dobbins Heights; Erwin; Fletcher; Matthews, and; Mooresville. Many 
+               more will hold theirs on November 5th.</p>
+            <p class="heading">Sources</p>
+            <p><ul>
+              <li>Thing: 
+                <a target="_blank" rel="nofollow" 
+                  href="" 
+                  title="">
+                 Place/Entity</a>
+            </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      var layers = [];
+      var alt, layer, map;
+      
+      var ncCenter = {lat: 35.5, lng: -79.9};
+      //TODO populate with real values
+      var bounds = {
+        burlington     : {west:null, east:null, south:null, north:null},
+        dunn           : {west:null, east:null, south:null, north:null},
+        durham         : {west:null, east:null, south:null, north:null},
+        elizabeth_city : {west:null, east:null, south:null, north:null},
+        fayettevillle  : {west:null, east:null, south:null, north:null},
+        goldsboro      : {west:null, east:null, south:null, north:null},
+        henderson      : {west:null, east:null, south:null, north:null},
+        hickory        : {west:null, east:null, south:null, north:null},
+        high_point     : {west:null, east:null, south:null, north:null},
+        mount_airy     : {west:null, east:null, south:null, north:null},
+        raleigh        : {west:null, east:null, south:null, north:null},
+        rocky_mount    : {west:null, east:null, south:null, north:null},
+        shelby         : {west:null, east:null, south:null, north:null},
+        statesville    : {west:null, east:null, south:null, north:null},
+        cary           : {west:null, east:null, south:null, north:null},
+        dobbins_heights: {west:null, east:null, south:null, north:null},
+        erwin          : {west:null, east:null, south:null, north:null},
+        fletcher       : {west:null, east:null, south:null, north:null},
+        matthews       : {west:null, east:null, south:null, north:null},
+        mooresville    : {west:null, east:null, south:null, north:null}};
+      var wideBounds = sum_bounds(bounds);
+      var endOfOneStop = new Date(2019, 9, 4, 19, 0, 0, 0) //Sep 6th at 7PM (January is Month Zero)
+      
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-toggler",     where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function get_url_params(){
+        var url = window.location.href;
+        var q = url.indexOf("?");
+        var h = ((url.indexOf("#") + 1) || url.length + 1) - 1;
+        var params = (q == -1
+            ? []
+            : url.slice(q+1,h).split("&"));
+        var param_dict = {};
+        for(var i = 0; i < params.length; i++){
+          var kv = params[i].split("=");
+          param_dict[kv[0]] = kv[1] ? kv[1] : null;
+        }
+        return param_dict;
+      }
+      
+      function choose_bounds(){
+        params = get_url_params();
+        var context = params['context'];
+        if(context){
+          var b = bounds[context];
+          if(b){
+            return b;
+          }
+        }
+        return wideBounds;
+      }
+      
+      function min(a,b){
+        return a < b ? a : b;
+      }
+      
+      function max(a,b){
+        return a > b ? a : b;
+      }
+      
+      var compare = {west:min, east:max, south:min, north:max};
+      
+      function sum_bounds(bounds){
+        var sum = {west:null, east:null, south:null, north:null};
+        for(var k in bounds){
+          var v = bounds[k];
+          for(var c in v){
+            sum[c] = sum[c] !== null ? compare[c](sum[c], v[c]) : v[c];
+          }
+        }
+      }
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: ncCenter,
+          mapTypeId: 'hybrid'
+        });
+        
+        var muni  = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/muni.kmz', 0);
+        var vtds  = new LazyLayer(['https://fiveham.github.io/Elections/resources/2019/10/08/NC/vtd-0.kmz', 
+                                   'https://fiveham.github.io/Elections/resources/2019/10/08/NC/vtd-1.kmz'],
+                                  0);
+        
+        //Maintain same sequence as dropdown list
+        layers.push(muni);
+        layers.push(vtds);
+        
+        var eday  = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/ed-sites.kml', 1);
+        var early = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/os-sites.kml', 1);
+        
+        /* Give real values to layer-pointers */
+        layer = eday;
+        alt   = early;
+        if((new Date()) < endOfOneStop){ //Show election-day sites starting Sep 6th at 7PM when early voting ends.
+          pp_toggle();
+        }
+        
+        add_widgets();
+        map.fitBounds(choose_bounds());
+        
+        reset_layers(); //turn first layer on
+      }
+      
+      function kmllayer(url, zIndex){
+        var result = new google.maps.KmlLayer({
+          url: url,
+          map: null,
+          preserveViewport: true,
+          zIndex: zIndex
+        });
+        return result;
+      }
+      
+      function reset_layers(){
+        for(var i = 0; i < layers.length; i++){
+          var layer = layers[i];
+          layer.setMap(null);
+        }
+        var index = document.getElementById('layer-switcher').selectedIndex;
+        var layer = layers[index];
+        layer.setMap(map);
+      }
+      
+      function pp_toggle(){
+        var temp = alt;
+        alt = layer;
+        layer = temp;
+        alt.setMap(null);
+        layer.setMap(map);
+        document.getElementById("pp-swap").innerHTML = (
+            document.getElementById("pp-swap").innerHTML.startsWith("Early") 
+            ? "Election Day Sites" 
+            : "Early Voting Sites");
+      }
+    </script>
+    <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/add-widgets.js"></script>
+    <script src="/Elections/js/lazy-layer.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
