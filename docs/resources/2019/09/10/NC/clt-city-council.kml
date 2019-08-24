@@ -2,35 +2,29 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Charlotte City Council 2019</name>
-	
 	<Style id="ORANGE">
 		<PolyStyle>
 			<color>7f065fb4</color>
 		</PolyStyle>
 	</Style>
-	
 	<Style id="orange">
 		<PolyStyle>
 			<color>7f6bb2f6</color>
 		</PolyStyle>
 	</Style>
-	
 	<Style id="green">
 		<PolyStyle>
 			<color>7fa8d7b6</color>
 		</PolyStyle>
 	</Style>
-	
 	<Style id="GREEN">
 		<PolyStyle>
 			<color>7f4fa86a</color>
 		</PolyStyle>
 	</Style>
-	
 	<Placemark>
 		<name>City Council district 1</name>
-		<description><![CDATA[<b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
-
+		<description><![CDATA[Partisan Primaries, Sep 10th, 2019<br><br><b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
 <table>
 <tr><td>DEM</td><td>Braxton David Winston II</td></tr>
 <tr><td>DEM</td><td>Chad Stachowicz</td></tr>
@@ -42,14 +36,12 @@
 </table>
 <br>
 <b>CITY OF CHARLOTTE CITY COUNCIL DISTRICT 01</b>
-
 <table>
 <tr><td>DEM</td><td>Larken Egleston</td></tr>
 <tr><td>DEM</td><td>Sean Smith</td></tr>
 </table>
 <br>
 <b>CITY OF CHARLOTTE MAYOR</b>
-
 <table>
 <tr><td>DEM</td><td>Joel Odom</td></tr>
 <tr><td>DEM</td><td>Lucille Puckett</td></tr>
@@ -70,8 +62,7 @@
 	</Placemark>
 	<Placemark>
 		<name>City Council district 2</name>
-		<description><![CDATA[<b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
-
+		<description><![CDATA[Partisan Primaries, Sep 10th, 2019<br><br><b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
 <table>
 <tr><td>DEM</td><td>Braxton David Winston II</td></tr>
 <tr><td>DEM</td><td>Chad Stachowicz</td></tr>
@@ -82,7 +73,6 @@
 <tr><td>DEM</td><td>LaWana Slack-Mayfield</td></tr>
 </table>
 <br>
-
 <b>CITY OF CHARLOTTE CITY COUNCIL DISTRICT 02</b>
 <table>
 <tr><td>DEM</td><td>Antoinette (Toni) Green</td></tr>
@@ -92,7 +82,6 @@
 </table>
 <br>
 <b>CITY OF CHARLOTTE MAYOR</b>
-
 <table>
 <tr><td>DEM</td><td>Joel Odom</td></tr>
 <tr><td>DEM</td><td>Lucille Puckett</td></tr>
@@ -113,8 +102,7 @@
 	</Placemark>
 	<Placemark>
 		<name>City Council district 3</name>
-		<description><![CDATA[<b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
-
+		<description><![CDATA[Partisan Primaries, Sep 10th, 2019<br><br><b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
 <table>
 <tr><td>DEM</td><td>Braxton David Winston II</td></tr>
 <tr><td>DEM</td><td>Chad Stachowicz</td></tr>
@@ -126,7 +114,6 @@
 </table>
 <br>
 <b>CITY OF CHARLOTTE CITY COUNCIL DISTRICT 03</b>
-
 <table>
 <tr><td>DEM</td><td>Caleb Theodros</td></tr>
 <tr><td>DEM</td><td>Terry Brown</td></tr>
@@ -134,7 +121,6 @@
 </table>
 <br>
 <b>CITY OF CHARLOTTE MAYOR</b>
-
 <table>
 <tr><td>DEM</td><td>Joel Odom</td></tr>
 <tr><td>DEM</td><td>Lucille Puckett</td></tr>
@@ -167,8 +153,7 @@
 	</Placemark>
 	<Placemark>
 		<name>City Council district 4</name>
-		<description><![CDATA[<b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
-
+		<description><![CDATA[Partisan Primaries, Sep 10th, 2019<br><br><b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
 <table>
 <tr><td>DEM</td><td>Braxton David Winston II</td></tr>
 <tr><td>DEM</td><td>Chad Stachowicz</td></tr>
@@ -180,7 +165,6 @@
 </table>
 <br>
 <b>CITY OF CHARLOTTE CITY COUNCIL DISTRICT 04</b>
-
 <table>
 <tr><td>DEM</td><td>Charlene Henderson El</td></tr>
 <tr><td>DEM</td><td>Charles Robinson</td></tr>
@@ -191,7 +175,6 @@
 </table>
 <br>
 <b>CITY OF CHARLOTTE MAYOR</b>
-
 <table>
 <tr><td>DEM</td><td>Joel Odom</td></tr>
 <tr><td>DEM</td><td>Lucille Puckett</td></tr>
@@ -212,8 +195,7 @@
 	</Placemark>
 	<Placemark>
 		<name>City Council district 5</name>
-		<description><![CDATA[<b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
-
+		<description><![CDATA[Partisan Primaries, Sep 10th, 2019<br><br><b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
 <table>
 <tr><td>DEM</td><td>Braxton David Winston II</td></tr>
 <tr><td>DEM</td><td>Chad Stachowicz</td></tr>
@@ -225,7 +207,6 @@
 </table>
 <br>
 <b>CITY OF CHARLOTTE CITY COUNCIL DISTRICT 05</b>
-
 <table>
 <tr><td>DEM</td><td>Mark L. Vincent</td></tr>
 <tr><td>DEM</td><td>Matt Newton</td></tr>
@@ -233,7 +214,6 @@
 </table>
 <br>
 <b>CITY OF CHARLOTTE MAYOR</b>
-
 <table>
 <tr><td>DEM</td><td>Joel Odom</td></tr>
 <tr><td>DEM</td><td>Lucille Puckett</td></tr>
@@ -254,8 +234,7 @@
 	</Placemark>
 	<Placemark>
 		<name>City Council district 6</name>
-		<description><![CDATA[<b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
-
+		<description><![CDATA[Partisan Primaries, Sep 10th, 2019<br><br><b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
 <table>
 <tr><td>DEM</td><td>Braxton David Winston II</td></tr>
 <tr><td>DEM</td><td>Chad Stachowicz</td></tr>
@@ -267,7 +246,6 @@
 </table>
 <br>
 <b>CITY OF CHARLOTTE MAYOR</b>
-
 <table>
 <tr><td>DEM</td><td>Joel Odom</td></tr>
 <tr><td>DEM</td><td>Lucille Puckett</td></tr>
@@ -288,8 +266,7 @@
 	</Placemark>
 	<Placemark>
 		<name>City Council district 7</name>
-		<description><![CDATA[<b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
-
+		<description><![CDATA[Partisan Primaries, Sep 10th, 2019<br><br><b>CITY OF CHARLOTTE CITY COUNCIL AT-LARGE</b> (vote for 4)
 <table>
 <tr><td>DEM</td><td>Braxton David Winston II</td></tr>
 <tr><td>DEM</td><td>Chad Stachowicz</td></tr>
@@ -301,14 +278,12 @@
 </table>
 <br>
 <b>CITY OF CHARLOTTE CITY COUNCIL DISTRICT 07</b>
-
 <table>
 <tr><td>REP</td><td>Ed Driggs</td></tr>
 <tr><td>REP</td><td>Victoria Nwasike</td></tr>
 </table>
 <br>
 <b>CITY OF CHARLOTTE MAYOR</b>
-
 <table>
 <tr><td>DEM</td><td>Joel Odom</td></tr>
 <tr><td>DEM</td><td>Lucille Puckett</td></tr>

@@ -9,7 +9,7 @@
 	</Style>
 	<Placemark>
 		<name>Congressional District 3</name>
-		<description><![CDATA[<table>
+		<description><![CDATA[General Election, September 10th, 2019<br><br><table>
 <tr><td>CST</td><td>Greg Holt</td></tr>
 <tr><td>DEM</td><td>Allen Thomas</td></tr>
 <tr><td>LIB</td><td>Tim Harris</td></tr>
@@ -28,7 +28,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Congressional District 9</name>
-		<description><![CDATA[<table>
+		<description><![CDATA[General Election, September 10th, 2019<br><br><table>
 <tr><td>DEM</td><td>Dan McCready</td></tr>
 <tr><td>GRE</td><td>Allen Smith</td></tr>
 <tr><td>LIB</td><td>Jeff Scott</td></tr>
