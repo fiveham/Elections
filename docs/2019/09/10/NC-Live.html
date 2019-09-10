@@ -304,6 +304,9 @@
             top_party = party;
           }
         }
+        if(results_by_party[top_party] == 0){
+          return 'u';
+        }
         return top_party;
       }
       
