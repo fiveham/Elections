@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/favicon/nc-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="canonical" href="https://fiveham.github.io/Elections/2019/09/10/NC-Live.html" />
+    <meta name="twitter:url" content="https://fiveham.github.io/Elections/2019/special/primary/NC-09-Live.html" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="Election results, LIVE, for the NC-03 and NC-09 special congressional elections Sep 10, 2019. 
+                                      Watch results trickle in, fresh from the NC state board of elections." />
+    
+    <meta property="og:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc/nc-3-9-live.png" />
+    <meta property="og:image:url" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc/nc-3-9-live.png" />
+    <meta property="og:image:secure_url" 
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc/nc-3-9-live.png" />
+    <meta property="og:image:alt" 
+          content="A composite satelite image of central and eastern North Carolina overlaid by two semitransparent white polygon 
+                   covering North Carolina's third and ninth congressional districts" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://fiveham.github.io/Elections/2019/09/10/NC-Live.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:determiner" content="" />
+    <meta property="og:title" content="Live Updating Election Map NC-03/09 Special Congressional Election Sep 10, 2019" />
+    <meta property="og:description" content="Minute-to-minute updates of election returns from the NCSBE as a map" />
+    
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Live Updating Election Map NC-03/09 Special Congressional Election Sep 10, 2019" />
+    <meta name="twitter:description" content="Minute-to-minute updates of election returns from the NCSBE as a map" />
+    <meta name="twitter:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc/nc-3-9-live.png" />
+    <meta name="twitter:image:alt" 
+          content="A composite satelite image of central and eastern North Carolina overlaid by two semitransparent white polygon 
+                   covering North Carolina's third and ninth congressional districts" />
+    
+    <title>Live Updating Interactive Election Map for the NC-03/09 Special Congressional Election Sep 10, 2019</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      #legend > table tr.party > div {
+        display: block;
+        height: 18px;
+        width: 18px;
+        border 1px solid rgb(169,169,169);
+      }
+      .cst > div {
+        background-color: rgb(236,209,138); /*parchment*/
+      }
+      .dem > div {
+        background-color: rgb(0,0,200); /*blue*/
+      }
+      .gre > div {
+        background-color: rgb(0,200,0); /*green*/
+      }
+      .lib > div {
+        background-color: rgb(200,200,0); /*yellow*/
+      }
+      .rep > div {
+        background-color: rgb(200,0,0); /*red*/
+      }
+      td[role="percent"]::after {
+        text-content: "%";
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Legend -->
+    <div id="legend" class="installed left">
+      <div id="final-results" style="visibility: hidden; display: none; text-align: center;"><span>(Final Results)</span></div>
+      <table id="nc03-returns" style="display: none; visibility: hidden;">
+        <tr data-party="C">
+          <td class="party cst"><div role="color"></div></td>
+          <td>Greg Holt</td>
+          <td id="cd3-c-count">0</td>
+          <td id="cd3-c-percent">0</td></tr>
+        <tr data-party="D">
+          <td class="party dem"><div role="color"></div></td>
+          <td>Allen Thomas</td>
+          <td id="cd3-d-count">0</td>
+          <td id="cd3-d-percent">0</td></tr>
+        <tr data-party="L">
+          <td class="party lib"><div role="color"></div></td>
+          <td>Tim Harris</td>
+          <td id="cd3-l-count">0</td>
+          <td id="cd3-l-percent">0</td></tr>
+        <tr data-party="R">
+          <td class="party rep"><div role="color"></div></td>
+          <td>Greg Murphy</td>
+          <td id="cd3-r-count">0</td>
+          <td id="cd3-r-percent">0</td></tr>
+      </table>
+      <table id="nc09-returns" style="display: none; visibility: hidden;">
+        <tr data-party="D">
+          <td class="party dem"><div role="color"></div></td>
+          <td>Dan McCready</td>
+          <td id="cd9-d-count">0</td>
+          <td id="cd9-d-percent">0</td></tr>
+        <tr data-party="G">
+          <td class="party gre"><div role="color"></div></td>
+          <td>Allen Smith</td>
+          <td id="cd9-g-count">0</td>
+          <td id="cd9-g-percent">0</td></tr>
+        <tr data-party="L">
+          <td class="party lib"><div role="color"></div></td>
+          <td>Jeff Scott</td>
+          <td id="cd9-l-count">0</td>
+          <td id="cd9-l-percent">0</td></tr>
+        <tr data-party="R">
+          <td class="party rep"><div role="color"></div></td>
+          <td>Dan Bishop</td>
+          <td id="cd9-r-count">0</td>
+          <td id="cd9-r-percent">0</td></tr>
+      </table>
+      <div id="updates">
+        <b>Last Update:</b> <span id="update-time">Never?</span>
+      </div>
+    </div>
+    
+    <!-- District/County/VTD Switcher -->
+    <select id="switch-scale" class="installed controls top" onchange="switch_scale();">
+      <option value="c">Counties</option>
+      <option value="d">District</option>
+      <option value="p">Precincts</option>
+    </select>
+    
+    <!-- NC03/NC09 Switcher -->
+    <select id="switch-contest" class="installed controls top" onchange="switch_contest();">
+      <option value="3">NC-03</option>
+      <option value="9">NC-09</option>
+    </select>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">Live Updating Interactive Election Map for the NC-03/09 Special Congressional Election Sep 10, 2019</p>
+            <p>Once per minute, <a href="https://er.ncsbe.gov/">election results from the NCSBE</a> are summarized and uploaded to this 
+               site. This page requests and checks that on-site summary file once a minute. If and when the file changes, this page 
+               updates the coloring of the map and the vote numbers in the table on the left-hand side.</p>
+            <p class="heading">Counties colored in while none of their precincts are</p>
+            <p>That just means that a county board sent in their absentee and one-stop figures before any of that county's precincts 
+               had reported.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      /* Note about ControlPosition:
+           1      2    3
+         5                7
+         4       13       8
+         6                9
+           10    11    12
+      */
+      var map;
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [
+        {id: "about-btn",      where: 5  },
+        {id: "about-modal",    where: 13 },
+        {id: "switch-scale",   where: 1  },
+        {id: "switch-contest", where: 1  },
+        {id: "legend",         where: 6  }];
+      var unreported = "#DDDDDD";
+      var parties = ['C', 'D', 'G', 'L', 'R'];
+      var colors = { //TODO use #codes because Data layers may not understand rgb()
+        C: 'rgb(236,209,138)',
+        D: 'rgb(0,0,200)',
+        G: 'rgb(0,200,0)',
+        L: 'rgb(200,200,0)',
+        R: 'rgb(200,0,0)',
+        u:  unreported};
+      var layers = { //wrappers for google.maps.Data objects
+        d: {value: "d", obj: null, file: "NC-03-09.geo.json"},            //District
+        c: {value: "c", obj: null, file: "NC-03-09_counties.geo.json"},   //County
+        p: {value: "p", obj: null, file: "NC-03-09_precincts.geo.json"}}; //Precinct
+      var results = null;
+      var worker = null;
+      
+      
+      /* Callback function after loading maps API. Link the map object to a document element. 
+         Add widgets to the map. Initialize the layers. Fetch election result data for the 
+         first time and apply the top voter-getters-by-party info to the layers as feature 
+         properties. Apply color styles according to the selected party and the top vote-
+         getter (or unreported status) of each feature. Turn on only the layer indicated by 
+         the current selected layer in the switch-layer dropdown. */
+      function initMap() {
+        //Create the map
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 9,
+          center: {lat: 34.8111641198561, lng: -79.69163727400341},
+          mapTypeId: 'roadmap'
+        });
+        
+        //set the map bounds to a tight box around nc03 and 09
+        map.setBounds({west: -80.877444, east: -75.400119, south: 34.29924, north: 36.550922});
+        
+        //Add the registered widgets to the map
+        add_widgets();
+        
+        //Create and colorize the Data layers
+        for(var key in layers){ //keys are 'd', 'c', and 'p'
+          var layer = layers[key];
+          layer.obj = new google.maps.Data();
+          layer.obj.loadGeoJson('/Elections/2019/09/10/' + layer.file);
+          layer.obj.setStyle(dynamic_style);
+        }
+        
+        //Hook proper first layer to the map
+        var pfl = document.getElementById('switch-scale').value;
+        layers[pfl].obj.setMap(map);
+        
+        //Create the worker thread
+        worker = new Worker('/Live-Elections/poll_worker.js');
+        
+        //Create mailbox to receive messages from worker
+        worker.addEventListener("message", mailbox, false);
+        
+        //Start the worker thread and tell it the URL for result summaries
+        //This may quickly result in a message being sent to the main thread
+        //with result summary data, causing the map to recolor.
+        worker.postMessage('https://fiveham.github.io/Live-Elections/2019/may/14/nc09/summary.txt');
+      }
+      
+      
+      /* Handle messages posted from the worker */
+      function mailbox(event){
+        if(event.data.an_hero){ //kill worker and update visible aspects of the page
+          worker.terminate();
+          var finalLabel = document.getElementById('final-results');
+          finalLabel.style.visibility = 'visible';
+          finalLabel.style.display = 'block';
+        } else{
+          results = event.data;
+          update_legend_text();
+          var layerValue = document.getElementById('switch-layer').value;
+          layers[layerValue].obj.setStyle(dynamic_style);
+        }
+      }
+      
+      /* Handle event when user switches layers via the dropdown. */
+      function switch_scale(){
+        for(var key in layers){
+          var layer = layers[key];
+          layer.obj.setMap(null);
+        }
+        var active_layer = document.getElementById('switch-layer').value;
+        layers[active_layer].obj.setMap(map);
+      }
+      
+      /*Return the top vote-getting party, or 'u' if the results correspond to an unreported region*/
+      function get_top_party(results_by_party){
+        top_party = 'u'; //unreported
+        for(var party in parties){
+          if(results_by_party[party] > results_by_party[top_party]){ //[number] > undefined; is false in all cases
+            top_party = party;
+          }
+        }
+        return top_party;
+      }
+      
+      /* Return style options for a feature based on the current content of `results`. */
+      function dynamic_style(feature){
+        var district = document.getElementById('switch-contest').value; // 3 or 9
+        var scale_category = document.getElementById('switch-scale').value; //d, c, or p
+        var style = {
+          fillOpacity: 0.5,
+          strokeColor: "#1B1B1B",
+          strokeOpacity: 0.5,
+          strokeWeight: 3,
+          clickable: false,
+          zIndex: 0
+        };
+        
+        if(!results){
+          style['fillColor'] = unreported;
+          return style;
+        }
+        
+        //Determine which kind of Feature we're dealing with.
+        //Rather than inspect the Feature's properties, we can just check which layer 
+        //type is currently selected.
+        var by_party = results.by_district[district];
+        if(scale_category == 'c'){ //county scale
+          var COUNTYNAME = feature.getProperty('Name').toUpperCase().valueOf();
+          by_party = by_party.by_county[COUNTYNAME];
+        } else if(scale_category == 'p'){ //precinct scale
+          var COUNTYNAME = feature.getProperty('COUNTY'); //ALL-CAPS
+          var PREC_LABEL = feature.getProperty('Label');
+          by_party = by_party.by_county[COUNTYNAME].by_precinct[PREC_LABEL];
+        }
+        style['fillColor'] = colors[get_top_party(by_party)];
+        
+        return style;
+      }
+      
+      /* Turn the float `pct` which is between 0 and 1 into a percentage string of the form 'XX.XX'*/
+      function format_percent(pct){
+        return (Math.round(pct*10000)/100).toString();
+      }
+      
+      /* Identify the current district whose info is displayed in the table */
+      function get_district(){
+        return document.getElementById('switch-contest').value; // '3' or '9'
+      }
+      
+      /* Repopulate the vote counts and percents in the legend based on the current results. */
+      function update_legend_text(){
+        if(!results){
+          return;
+        }
+        var bd3 = results.by_district['3'];
+        
+        document.getElementById('cd3-c-count').innerHTML = bd3.C;
+        document.getElementById('cd3-d-count').innerHTML = bd3.D;
+        document.getElementById('cd3-l-count').innerHTML = bd3.L;
+        document.getElementById('cd3-r-count').innerHTML = bd3.R;
+        
+        var total3 = bd3.C + bd3.D + bd3.L + bd3.R;
+        
+        document.getElementById('cd3-c-percent').innerHTML = format_percent(bd3.C / total3);
+        document.getElementById('cd3-d-percent').innerHTML = format_percent(bd3.D / total3);
+        document.getElementById('cd3-l-percent').innerHTML = format_percent(bd3.L / total3);
+        document.getElementById('cd3-r-percent').innerHTML = format_percent(bd3.R / total3);
+        
+        var bd9 = results.by_district['9'];
+        
+        document.getElementById('cd9-d-count').innerHTML = bd3.D;
+        document.getElementById('cd9-g-count').innerHTML = bd3.G;
+        document.getElementById('cd9-l-count').innerHTML = bd3.L;
+        document.getElementById('cd9-r-count').innerHTML = bd3.R;
+        
+        var total9 = bd9.D + bd9.G + bd9.L + bd9.R;
+        
+        document.getElementById('cd9-d-percent').innerHTML = format_percent(bd3.D / total9);
+        document.getElementById('cd9-g-percent').innerHTML = format_percent(bd3.G / total9);
+        document.getElementById('cd9-l-percent').innerHTML = format_percent(bd3.L / total9);
+        document.getElementById('cd9-r-percent').innerHTML = format_percent(bd3.R / total9);
+        
+        document.getElementById('update-time').innerHTML = time_text(results.updated);
+      }
+      
+      function time_text(updated){
+        var splut = updated.split('-');
+        var hr = parseInt(splut[3], 10) % 12;
+        var min = splut[4];
+        if(min.length < 2){
+          min = '0' + min;
+        }
+        return hr + ':' + min;
+      }
+    </script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/add-widgets.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
