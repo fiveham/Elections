@@ -291,7 +291,7 @@
           zIndex: 0
         };
         
-        if(!results){
+        if(!results || !results.by_district){
           style['fillColor'] = unreported;
           return style;
         }
