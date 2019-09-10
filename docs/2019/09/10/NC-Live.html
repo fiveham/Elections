@@ -298,7 +298,8 @@
       /*Return the top vote-getting party, or 'u' if the results correspond to an unreported region*/
       function get_top_party(results_by_party){
         top_party = 'u'; //unreported
-        for(var party in parties){
+        for(var i=0; i <= parties.length; i++){
+          var party = parties[i];
           if(!(results_by_party[party] <= results_by_party[top_party])){ //[number] > undefined; is false in all cases
             top_party = party;
           }
