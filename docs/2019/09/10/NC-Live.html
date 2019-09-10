@@ -125,14 +125,14 @@
     </div>
     
     <!-- District/County/VTD Switcher -->
-    <select id="switch-scale" class="installed controls top" onchange="switch_scale();">
+    <select id="switch-scale" class="installed controls top text" onchange="switch_scale();">
       <option value="c">Counties</option>
       <option value="d">District</option>
       <option value="p">Precincts</option>
     </select>
     
     <!-- NC03/NC09 Switcher -->
-    <select id="switch-contest" class="installed controls top" onchange="switch_contest();">
+    <select id="switch-contest" class="installed controls top text" onchange="switch_contest();">
       <option value="3">NC-03</option>
       <option value="9">NC-09</option>
     </select>
@@ -265,6 +265,21 @@
         }
         var active_layer = document.getElementById('switch-layer').value;
         layers[active_layer].obj.setMap(map);
+      }
+      
+      function switch_contest(){
+        var district = document.getElementById('switch-contest');
+        var other_district = district == '3' ? '9' : '3';
+        var id = "nc0" + district + "-returns";
+        var other_id = "nc0" + other_district + "-returns";
+        
+        var viz = document.getElementById(id);
+        var inviz = document.getElementById(other_id);
+        
+        inviz.style.visibility = 'hidden';
+        inviz.style.display = 'none';
+        viz.style.visibility = 'visible';
+        viz.style.display = 'block';
       }
       
       /*Return the top vote-getting party, or 'u' if the results correspond to an unreported region*/
