@@ -258,7 +258,6 @@
       /* Handle messages posted from the worker */
       function mailbox(event){
         if(event.data.an_hero){ //kill worker and update visible aspects of the page
-          console.log('Suicide Kings');
           worker.terminate();
           var finalLabel = document.getElementById('final-results');
           finalLabel.style.visibility = 'visible';
@@ -322,6 +321,7 @@
         
         if(!results || !results.by_district){
           style['fillColor'] = unreported;
+          console.log("skipping out early. unreported.");
           return style;
         }
         
@@ -373,17 +373,17 @@
         
         var bd9 = results.by_district['9'];
         
-        document.getElementById('cd9-d-count').innerHTML = bd3.D;
-        document.getElementById('cd9-g-count').innerHTML = bd3.G;
-        document.getElementById('cd9-l-count').innerHTML = bd3.L;
-        document.getElementById('cd9-r-count').innerHTML = bd3.R;
+        document.getElementById('cd9-d-count').innerHTML = bd9.D;
+        document.getElementById('cd9-g-count').innerHTML = bd9.G;
+        document.getElementById('cd9-l-count').innerHTML = bd9.L;
+        document.getElementById('cd9-r-count').innerHTML = bd9.R;
         
         var total9 = bd9.D + bd9.G + bd9.L + bd9.R;
         
-        document.getElementById('cd9-d-percent').innerHTML = format_percent(bd3.D / total9);
-        document.getElementById('cd9-g-percent').innerHTML = format_percent(bd3.G / total9);
-        document.getElementById('cd9-l-percent').innerHTML = format_percent(bd3.L / total9);
-        document.getElementById('cd9-r-percent').innerHTML = format_percent(bd3.R / total9);
+        document.getElementById('cd9-d-percent').innerHTML = format_percent(bd9.D / total9);
+        document.getElementById('cd9-g-percent').innerHTML = format_percent(bd9.G / total9);
+        document.getElementById('cd9-l-percent').innerHTML = format_percent(bd9.L / total9);
+        document.getElementById('cd9-r-percent').innerHTML = format_percent(bd9.R / total9);
         
         document.getElementById('update-time').innerHTML = time_text(results.updated);
       }
