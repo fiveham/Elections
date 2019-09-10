@@ -196,6 +196,7 @@
         d: {value: "d", obj: null, file: "NC-03-09.geo.json"},            //District
         c: {value: "c", obj: null, file: "NC-03-09_counties.geo.json"},   //County
         p: {value: "p", obj: null, file: "NC-03-09_precincts.geo.json"}}; //Precinct
+      var summary_url = 'https://fiveham.github.io/Live-Elections/2019/sep/10/nc/summary.txt';
       var results = null;
       var worker = null;
       
@@ -244,7 +245,7 @@
         //Start the worker thread and tell it the URL for result summaries
         //This may quickly result in a message being sent to the main thread
         //with result summary data, causing the map to recolor.
-        worker.postMessage('https://fiveham.github.io/Live-Elections/2019/may/14/nc09/summary.txt');
+        worker.postMessage(summary_url);
       }
       
       
