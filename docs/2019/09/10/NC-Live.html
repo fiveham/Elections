@@ -336,8 +336,8 @@
           var COUNTYNAME = feature.getProperty('Name').toUpperCase().valueOf();
           by_party = by_party.by_county[COUNTYNAME];
         } else if(scale_category == 'p'){ //precinct scale
-          var COUNTYNAME = feature.getProperty('COUNTY'); //ALL-CAPS
-          var PREC_LABEL = feature.getProperty('Label');
+          var COUNTYNAME = feature.getProperty('county_nam'); //ALL-CAPS
+          var PREC_LABEL = feature.getProperty('prec_id');
           by_party = by_party.by_county[COUNTYNAME].by_precinct[PREC_LABEL];
         } else if(scale_category == 'd'){
           var dist = feature.getProperty('district').toString().valueOf();
