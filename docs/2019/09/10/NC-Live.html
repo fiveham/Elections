@@ -268,7 +268,7 @@
       }
       
       function switch_contest(){
-        var district = document.getElementById('switch-contest');
+        var district = document.getElementById('switch-contest').value;
         var other_district = district == '3' ? '9' : '3';
         var id = "nc0" + district + "-returns";
         var other_id = "nc0" + other_district + "-returns";
