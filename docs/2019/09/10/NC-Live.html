@@ -336,6 +336,9 @@
           var COUNTYNAME = feature.getProperty('COUNTY'); //ALL-CAPS
           var PREC_LABEL = feature.getProperty('Label');
           by_party = by_party.by_county[COUNTYNAME].by_precinct[PREC_LABEL];
+        } else if(scale_category == 'd'){
+          var dist = feature.getProperty('district').toString().valueOf();
+          by_party = results.by_district[dist];
         }
         style['fillColor'] = colors[get_top_party(by_party)];
         
