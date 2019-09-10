@@ -232,6 +232,9 @@
         var pfl = document.getElementById('switch-scale').value;
         layers[pfl].obj.setMap(map);
         
+        //Populate the legend with info for the selected contest
+        switch_contest();
+        
         //Create the worker thread
         worker = new Worker('/Live-Elections/poll_worker.js');
         
