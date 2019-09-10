@@ -340,7 +340,7 @@
       
       /* Repopulate the vote counts and percents in the legend based on the current results. */
       function update_legend_text(){
-        if(!results){
+        if(!results || !results.by_district){
           return;
         }
         var bd3 = results.by_district['3'];
