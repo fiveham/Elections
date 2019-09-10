@@ -251,6 +251,7 @@
       /* Handle messages posted from the worker */
       function mailbox(event){
         if(event.data.an_hero){ //kill worker and update visible aspects of the page
+          console.log('Suicide Kings');
           worker.terminate();
           var finalLabel = document.getElementById('final-results');
           finalLabel.style.visibility = 'visible';
