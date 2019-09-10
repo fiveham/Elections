@@ -309,7 +309,7 @@
       
       /* Return style options for a feature based on the current content of `results`. */
       function dynamic_style(feature){
-        var district = document.getElementById('switch-contest').value; // 3 or 9
+        var district = feature.getProperty('district');//document.getElementById('switch-contest').value; // 3 or 9
         var scale_category = document.getElementById('switch-scale').value; //d, c, or p
         var style = {
           fillOpacity: 0.5,
