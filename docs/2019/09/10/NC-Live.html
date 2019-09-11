@@ -298,15 +298,15 @@
       
       /*Return the top vote-getting party, or 'u' if the results correspond to an unreported region*/
       function get_top_party(results_by_party){
-        var top_party = 'u'; //unreported
-        for(var i=0; i < parties.length; i++){
+        var top_party = 'u';
+        var top_votes = -1;
+        for(var i = 0; i < parties.length; i++){
           var party = parties[i];
-          if(party in results_by_party && !(results_by_party[party] <= results_by_party[top_party])){
+          var votes = results_by_party[party]; //will be undefined in some cases
+          if(votes && votes > top_votes){
             top_party = party;
+            top_votes = votes;
           }
-        }
-        if(results_by_party[top_party] == 0){
-          return 'u';
         }
         return top_party;
       }
