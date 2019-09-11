@@ -350,11 +350,11 @@
       }
       
       /* Turn the float `pct` which is between 0 and 1 into a percentage string of the form 'XX.XX'*/
-      function format_percent(numerator, total){
+      function format_percent(count, total){
         if(total == 0){
           return '0';
         }
-        var frac = numerator / total;
+        var frac = count / total;
         return (Math.round(frac * 10000)/100).toString();
       }
       
