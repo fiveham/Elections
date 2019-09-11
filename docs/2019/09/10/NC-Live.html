@@ -267,6 +267,7 @@
           update_legend_text();
           var layerValue = document.getElementById('switch-scale').value;
           layers[layerValue].obj.setStyle(dynamic_style);
+          switch_scale(); //apparently the other thing doesn't work
         }
       }
       
