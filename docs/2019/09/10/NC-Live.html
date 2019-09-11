@@ -302,7 +302,7 @@
         var top_votes = -1;
         for(var i = 0; i < parties.length; i++){
           var party = parties[i];
-          var votes = results_by_party[party]; //will be undefined in some cases
+          var votes = parseInt(results_by_party[party], 10); //will be undefined in some cases
           if(votes && votes > top_votes){
             top_party = party;
             top_votes = votes;
