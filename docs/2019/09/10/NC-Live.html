@@ -375,7 +375,7 @@
         document.getElementById('cd3-l-count').innerHTML = bd3.L;
         document.getElementById('cd3-r-count').innerHTML = bd3.R;
         
-        var total3 = bd3.C + bd3.D + bd3.L + bd3.R;
+        var total3 = parseInt(bd3.C, 10) +  parseInt(bd3.D, 10) +  parseInt(bd3.L, 10) +  parseInt(bd3.R, 10);
         
         document.getElementById('cd3-c-percent').innerHTML = format_percent(bd3.C, total3);
         document.getElementById('cd3-d-percent').innerHTML = format_percent(bd3.D, total3);
@@ -389,7 +389,7 @@
         document.getElementById('cd9-l-count').innerHTML = bd9.L;
         document.getElementById('cd9-r-count').innerHTML = bd9.R;
         
-        var total9 = bd9.D + bd9.G + bd9.L + bd9.R;
+        var total9 = parseInt(bd9.D, 10) +  parseInt(bd9.G, 10) +  parseInt(bd9.L, 10) +  parseInt(bd9.R, 10);
         
         document.getElementById('cd9-d-percent').innerHTML = format_percent(bd9.D, total9);
         document.getElementById('cd9-g-percent').innerHTML = format_percent(bd9.G, total9);
