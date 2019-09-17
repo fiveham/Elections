@@ -1,9 +1,6 @@
-#Given a starting point in a repo on Github (which should be the root directory
-#of the repo's Github Pages website), recurse through the repo, checking every
-#html file in the repo by calling page_check.
-#For the repo I have in mind right now,
-#start_url="https://github.com/fiveham/Elections/tree/master/docs"
-def from_github(start_url):
+#Given a starting point in a repo on Github, recurse through the repo, checking
+#every html file in the repo by calling page_check.
+def from_github(start_url, manual_url=None):
     import requests
     from bs4 import BeautifulSoup
     result = []
@@ -20,7 +17,7 @@ def from_github(start_url):
             table = t.parent.parent
             html_text = table.get_text()
             soup = BeautifulSoup(html_text, 'html.parser')
-            issues = page_check(soup)
+            issues = page_check(soup, manual_url)
             put_in = {'url':start_url, 'issues':issues}
             result.append(put_in)
         else: #page represents directory
@@ -138,14 +135,18 @@ def page_check(page, url=None):
         if not metas['og:image:secure_url'].startswith("https:"):
             issues.append("Insecure og:image:secure_url")
     
-    #og:image:width and :height should be ints
-    for dim in ('width','height'):
-        key = 'og:image:'+dim
+    #og:image:width and :height should be ints, preferably 1200x630px
+    for dim in (('width',1200), ('height',630)):
+        key = 'og:image:' + dim[0]
         if key in metas:
+            x = None
             try:
-                int(metas[key])
+                x = int(metas[key])
             except ValueError:
-                issues.append(key+" not int")
+                issues.append(key + " not int")
+            else:
+                if x != dim[1]:
+                    issues.append("%s is %d but %d is best" % (key,x,dim[1]))
     
     #twitter:image has many constraints, but only one can
     #be assessed without loading the file
@@ -163,6 +164,21 @@ def page_check(page, url=None):
     #End of Unary Tests
     
     #Multi-ary Tests:
+
+    #og:image:width and :height should have a ratio between 1 and 2
+    if 'og:image:width' in metas and 'og:image:height' in metas:
+        x,y = None,None
+        try:
+            x = int(metas['og:image:width'])
+            y = int(metas['og:image:height'])
+        except ValueError:
+            pass
+        else:
+            r = x/y
+            if r > 2:
+                issues.append('og:image:width more than double og:image:height')
+            elif r < 1:
+                issues.append('O.G. image is taller than it is wide.')
     
     #image:url is the same as image
     tested = {'og:image', 'og:image:url'}
@@ -214,7 +230,7 @@ def page_check(page, url=None):
             if metas['og:'+thing] != metas['twitter:'+thing]:
                 issues.append(thing+" mismatch og/twitter")
     
-    #tw:img should be the same as og:img
+    #twitter:img should be the same as og:img
     #alt text should be the same if imgs are the same
     if 'twitter:image' in metas:
         if not any(metas['twitter:image'] == metas['og:image'+x]
