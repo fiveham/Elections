@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Oct 8, 2019 early voting</name>
+  <Style id="color1">
+   <IconStyle>
+    <Icon>
+     <href>
+      http://maps.google.com/mapfiles/kml/paddle/blu-circle.png
+     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Style id="color2">
+   <IconStyle>
+    <Icon>
+     <href>
+      http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png
+     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Style id="color3">
+   <IconStyle>
+    <Icon>
+     <href>
+      http://maps.google.com/mapfiles/kml/paddle/grn-circle.png
+     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Style id="color4">
+   <IconStyle>
+    <Icon>
+     <href>
+      http://maps.google.com/mapfiles/kml/paddle/purple-circle.png
+     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>ALAMANCE COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//115+S+MAPLE+ST+GRAHAM%2C+NC+27253" title="Driving directions" target="_blank">115 S MAPLE ST<br>GRAHAM, NC 27253<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>9 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-79.402556,36.068239,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>CAMDEN COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//117+NC++343+HWY+N+CAMDEN%2C+NC+27921" title="Driving directions" target="_blank">117 NC  343 HWY N<br>CAMDEN, NC 27921<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-76.174182,36.329061,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>HIGHLAND RECREATION CENTER</b><br><br><a href="https://www.google.com/maps/dir//1451+8TH+ST+DR+NE+HICKORY%2C+NC+28601" title="Driving directions" target="_blank">1451 8TH ST DR NE<br>HICKORY, NC 28601<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-81.31602700000001,35.749522,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>CHATHAM COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//984+THOMPSON+ST+PITTSBORO%2C+NC+27312" title="Driving directions" target="_blank">984 THOMPSON ST<br>PITTSBORO, NC 27312<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>9 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-79.160453,35.720506,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>CLEVELAND COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//215+PATTON+DR+SHELBY%2C+NC+28150" title="Driving directions" target="_blank">215 PATTON DR<br>SHELBY, NC 28150<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-81.534508,35.289592,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>CUMBERLAND COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//227+FOUNTAINHEAD+LN+FAYETTEVILLE%2C+NC+28301" title="Driving directions" target="_blank">227 FOUNTAINHEAD LN<br>FAYETTEVILLE, NC 28301<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-78.889706,35.053755,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>DAVIDSON COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//945+N+MAIN+ST+%23+A+LEXINGTON%2C+NC+27292" title="Driving directions" target="_blank">945 N MAIN ST # A<br>LEXINGTON, NC 27292<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-80.24225800000001,35.831504,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>CRIMINAL JUSTICE RESOURCES CENTER</b><br><br><a href="https://www.google.com/maps/dir//326+E+MAIN+ST+DURHAM%2C+NC+27701" title="Driving directions" target="_blank">326 E MAIN ST<br>DURHAM, NC 27701<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>8:30 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td>12 pm</td><td>- 4 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>8:30 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>12 pm</td><td>- 4 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8:30 am</td><td>- 6 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-78.89774800000001,35.992816,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>NORTH REGIONAL LIBRARY</b><br><br><a href="https://www.google.com/maps/dir//221+MILTON+RD+DURHAM%2C+NC+27712" title="Driving directions" target="_blank">221 MILTON RD<br>DURHAM, NC 27712<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>8:30 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td>12 pm</td><td>- 4 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>8:30 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>12 pm</td><td>- 4 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8:30 am</td><td>- 6 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-78.91444199999999,36.087554,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>SOUTH REGIONAL LIBRARY</b><br><br><a href="https://www.google.com/maps/dir//4505+S+ALSTON+AVE+DURHAM%2C+NC+27713" title="Driving directions" target="_blank">4505 S ALSTON AVE<br>DURHAM, NC 27713<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>8:30 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td>12 pm</td><td>- 4 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>8:30 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>12 pm</td><td>- 4 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8:30 am</td><td>- 6 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-78.888463,35.90304,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>NCCU ONESTOP</b><br><br><a href="https://www.google.com/maps/dir//640+NELSON+ST+DURHAM%2C+NC+27707" title="Driving directions" target="_blank">640 NELSON ST<br>DURHAM, NC 27707<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>8:30 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td>12 pm</td><td>- 4 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>8:30 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>12 pm</td><td>- 4 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8:30 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8:30 am</td><td>- 6 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-78.89559199999999,35.971774,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>EDGECOMBE COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//201+ST+ANDREW+ST+%23+434+TARBORO%2C+NC+27886" title="Driving directions" target="_blank">201 ST ANDREW ST # 434<br>TARBORO, NC 27886<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>8 am</td><td>- 12 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 6 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-77.53211500000001,35.896546,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>ROCKY MOUNT DEPARTMENT OF SOCIAL SERVICES</b><br><br><a href="https://www.google.com/maps/dir//301+S+FAIRVIEW+RD+ROCKY+MOUNT%2C+NC+27801" title="Driving directions" target="_blank">301 S FAIRVIEW RD<br>ROCKY MOUNT, NC 27801<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>8 am</td><td>- 12 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 6 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-77.77372699999999,35.926197,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>FORSYTH COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//201+N+CHESTNUT+ST+WINSTON+SALEM%2C+NC+27101" title="Driving directions" target="_blank">201 N CHESTNUT ST<br>WINSTON SALEM, NC 27101<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-80.24137500000001,36.097248,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>WASHINGTON TERRACE PARK</b><br><br><a href="https://www.google.com/maps/dir//101+GORDON+ST+HIGH+POINT%2C+NC+27260" title="Driving directions" target="_blank">101 GORDON ST<br>HIGH POINT, NC 27260<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>10 am</td><td>- 5 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>10 am</td><td>- 5 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-79.983864,35.968293,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>DEEP RIVER RECREATION CENTER</b><br><br><a href="https://www.google.com/maps/dir//1529+SKEET+CLUB+RD+HIGH+POINT%2C+NC+27265" title="Driving directions" target="_blank">1529 SKEET CLUB RD<br>HIGH POINT, NC 27265<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>10 am</td><td>- 6:30 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>10 am</td><td>- 5 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>10 am</td><td>- 5 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>10 am</td><td>- 6:30 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>10 am</td><td>- 6:30 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>10 am</td><td>- 6:30 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>10 am</td><td>- 6:30 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>10 am</td><td>- 6:30 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-79.97932900000001,36.038672,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>GUILFORD COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//301+W+MARKET+ST+GREENSBORO%2C+NC+27401" title="Driving directions" target="_blank">301 W MARKET ST<br>GREENSBORO, NC 27401<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>10 am</td><td>- 6:30 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>10 am</td><td>- 5 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>10 am</td><td>- 5 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>10 am</td><td>- 6:30 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>10 am</td><td>- 6:30 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>10 am</td><td>- 6:30 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>10 am</td><td>- 6:30 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>10 am</td><td>- 6:30 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-79.79266200000001,36.072165,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>HARNETT COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//308+W+DUNCAN+ST+LILLINGTON%2C+NC+27546" title="Driving directions" target="_blank">308 W DUNCAN ST<br>LILLINGTON, NC 27546<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-78.81963,35.406023,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>HENDERSON COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//75+E+CENTRAL+ST+HENDERSONVILLE%2C+NC+28792" title="Driving directions" target="_blank">75 E CENTRAL ST<br>HENDERSONVILLE, NC 28792<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8:30 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-82.443877,35.306081,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>IREDELL COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//203+STOCKTON+ST+STATESVILLE%2C+NC+28677" title="Driving directions" target="_blank">203 STOCKTON ST<br>STATESVILLE, NC 28677<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 6 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-80.8875,35.789038,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>MECKLENBURG COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//741+KENILWORTH+AVE+%23+202+CHARLOTTE%2C+NC+28204" title="Driving directions" target="_blank">741 KENILWORTH AVE # 202<br>CHARLOTTE, NC 28204<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>9 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>1 pm</td><td>- 4 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 7 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-80.837182,35.209816,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>MATTHEWS LIBRARY</b><br><br><a href="https://www.google.com/maps/dir//230+MATTHEWS+STATION+ST+MATTHEWS%2C+NC+28105" title="Driving directions" target="_blank">230 MATTHEWS STATION ST<br>MATTHEWS, NC 28105<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>9 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>1 pm</td><td>- 4 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>10 am</td><td>- 7 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-80.718327,35.116005,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>BRASWELL MEMORIAL LIBRARY</b><br><br><a href="https://www.google.com/maps/dir//727+N+GRACE+ST+ROCKY+MOUNT%2C+NC+27804" title="Driving directions" target="_blank">727 N GRACE ST<br>ROCKY MOUNT, NC 27804<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>10 am</td><td>- 2 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 6 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-77.796251,35.949135,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>NASH COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//1006+EASTERN+AVE+%23+109+NASHVILLE%2C+NC+27856" title="Driving directions" target="_blank">1006 EASTERN AVE # 109<br>NASHVILLE, NC 27856<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>10 am</td><td>- 2 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 6 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 6 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-77.947107,35.972006,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>ORANGE COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//208+S+CAMERON+ST+HILLSBOROUGH%2C+NC+27278" title="Driving directions" target="_blank">208 S CAMERON ST<br>HILLSBOROUGH, NC 27278<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-79.09667500000001,36.073349,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>PASQUOTANK COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//1409+PARKVIEW+DR+ELIZABETH+CITY%2C+NC+27909" title="Driving directions" target="_blank">1409 PARKVIEW DR<br>ELIZABETH CITY, NC 27909<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-76.207335,36.284141,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>RANDOLPH COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//1457+N+FAYETTEVILLE+ST+ASHEBORO%2C+NC+27203" title="Driving directions" target="_blank">1457 N FAYETTEVILLE ST<br>ASHEBORO, NC 27203<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-79.80997000000001,35.734862,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>RICHMOND COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//221+S+HANCOCK+ST+ROCKINGHAM%2C+NC+28379" title="Driving directions" target="_blank">221 S HANCOCK ST<br>ROCKINGHAM, NC 28379<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>10 am</td><td>- 12 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-79.773061,34.937417,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>SURRY COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//915+E+ATKINS+ST+DOBSON%2C+NC+27017" title="Driving directions" target="_blank">915 E ATKINS ST<br>DOBSON, NC 27017<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8:15 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8:15 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8:15 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8:15 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8:15 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8:15 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8:15 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8:15 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8:15 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8:15 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8:15 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8:15 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8:15 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-80.706361,36.392065,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>MA MUNICIPAL BUILDING</b><br><br><a href="https://www.google.com/maps/dir//300+S+MAIN+ST+MOUNT+AIRY%2C+NC+27030" title="Driving directions" target="_blank">300 S MAIN ST<br>MOUNT AIRY, NC 27030<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8:30 am</td><td>- 8 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8:30 am</td><td>- 8 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8:30 am</td><td>- 8 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-80.60764500000001,36.496482,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>VANCE COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//300+S+GARNETT+ST+HENDERSON%2C+NC+27536" title="Driving directions" target="_blank">300 S GARNETT ST<br>HENDERSON, NC 27536<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8:30 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8:30 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-78.40492999999999,36.325955,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>WAKE COUNTY BOARD OF ELECTIONS OFFICE</b><br><br><a href="https://www.google.com/maps/dir//337+S+SALISBURY+ST+RALEIGH%2C+NC+27601" title="Driving directions" target="_blank">337 S SALISBURY ST<br>RALEIGH, NC 27601<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>8:30 am</td><td>- 5:15 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-78.640007,35.775885,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>GLEN EDEN PILOT PARK NEIGHBORHOOD CENTER</b><br><br><a href="https://www.google.com/maps/dir//1500+GLEN+EDEN+DR+RALEIGH%2C+NC+27612" title="Driving directions" target="_blank">1500 GLEN EDEN DR<br>RALEIGH, NC 27612<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td>1 pm</td><td>- 6 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>1 pm</td><td>- 6 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>10 am</td><td>- 7 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-78.684477,35.827334,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>RB - ROBERTS COMMUNITY CENTER</b><br><br><a href="https://www.google.com/maps/dir//1300+E+MARTIN+ST+RALEIGH%2C+NC+27610" title="Driving directions" target="_blank">1300 E MARTIN ST<br>RALEIGH, NC 27610<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td>1 pm</td><td>- 6 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>1 pm</td><td>- 6 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>10 am</td><td>- 7 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-78.618301,35.775519,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>GREEN ROAD COMMUNITY CENTER</b><br><br><a href="https://www.google.com/maps/dir//4201+GREEN+RD+RALEIGH%2C+NC+27604" title="Driving directions" target="_blank">4201 GREEN RD<br>RALEIGH, NC 27604<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td>1 pm</td><td>- 6 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>1 pm</td><td>- 6 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>10 am</td><td>- 7 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-78.591129,35.841128,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>MILLBROOK EXCHANGE TENNIS CENTER</b><br><br><a href="https://www.google.com/maps/dir//1905+SPRING+FOREST+RD+RALEIGH%2C+NC+27615" title="Driving directions" target="_blank">1905 SPRING FOREST RD<br>RALEIGH, NC 27615<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td>1 pm</td><td>- 6 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>1 pm</td><td>- 6 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>10 am</td><td>- 7 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-78.606234,35.868534,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>CA - HERBERT C YOUNG COMMUNITY CENTER</b><br><br><a href="https://www.google.com/maps/dir//101+WILKINSON+AVE+CARY%2C+NC+27513" title="Driving directions" target="_blank">101 WILKINSON AVE<br>CARY, NC 27513<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td>1 pm</td><td>- 6 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>1 pm</td><td>- 6 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>10 am</td><td>- 7 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-78.780469,35.790667,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>MT - METHOD ROAD COMMUNITY CENTER</b><br><br><a href="https://www.google.com/maps/dir//514+METHOD+RD+RALEIGH%2C+NC+27607" title="Driving directions" target="_blank">514 METHOD RD<br>RALEIGH, NC 27607<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td>1 pm</td><td>- 6 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>8 am</td><td>- 1 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td>1 pm</td><td>- 6 pm</td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>10 am</td><td>- 7 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>10 am</td><td>- 7 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-78.694459,35.792778,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[One-stop site (early voting) for Oct 8, 2019<br><b>LIBRARY</b><br><br><a href="https://www.google.com/maps/dir//1001+ASH+ST+GOLDSBORO%2C+NC+27530" title="Driving directions" target="_blank">1001 ASH ST<br>GOLDSBORO, NC 27530<br>(directions)</a><br><br><b>Operating hours</b><br><table>
+<tr><td>Wed</td><td>Sep</td><td>18</td><td>9 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>19</td><td>9 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>20</td><td>9 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>21</td><td>10 am</td><td>- 2 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>22</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>23</td><td>9 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Sep</td><td>24</td><td>9 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Sep</td><td>25</td><td>9 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Sep</td><td>26</td><td>9 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Sep</td><td>27</td><td>9 am</td><td>- 5 pm</td></tr>
+<tr><td>Sat</td><td>Sep</td><td>28</td><td>10 am</td><td>- 2 pm</td></tr>
+<tr><td>Sun</td><td>Sep</td><td>29</td><td><i>Not</i></td><td><i>Open</i></td></tr>
+<tr><td>Mon</td><td>Sep</td><td>30</td><td>9 am</td><td>- 5 pm</td></tr>
+<tr><td>Tue</td><td>Oct</td><td>1</td><td>9 am</td><td>- 5 pm</td></tr>
+<tr><td>Wed</td><td>Oct</td><td>2</td><td>9 am</td><td>- 5 pm</td></tr>
+<tr><td>Thu</td><td>Oct</td><td>3</td><td>9 am</td><td>- 5 pm</td></tr>
+<tr><td>Fri</td><td>Oct</td><td>4</td><td>9 am</td><td>- 5 pm</td></tr>
+</table>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-77.980248,35.381887,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
