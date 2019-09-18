@@ -87,16 +87,57 @@
           <div class="content">
             <p class="heading">NC Municipal Elections, October 8th, 2019</p>
             <p>Twenty municipalities in NC will hold elections for local offices on October 8th, 2019. In alphabetical order, these 
-               are: Burlington; Dunn; Durham; Elizabeth City; Fayettevillle; Goldsboro; Henderson; Hickory; High Point; Mount Airy; 
-               Raleigh; Rocky Mount; Shelby; Statesville; Cary; Dobbins Heights; Erwin; Fletcher; Matthews, and; Mooresville. Many 
-               more will hold theirs on November 5th.</p>
+               are: <ul>
+              <li>Burlington
+              <li>Dunn
+              <li>Durham
+              <li>Elizabeth City
+              <li>Fayettevillle
+              <li>Goldsboro
+              <li>Henderson
+              <li>Hickory
+              <li>High Point
+              <li>Mount Airy
+              <li>Raleigh
+              <li>Rocky Mount
+              <li>Shelby
+              <li>Statesville
+              <li>Cary
+              <li>Dobbins Heights
+              <li>Erwin
+              <li>Fletcher
+              <li>Matthews
+              <li>Mooresville</ul>
+            Many more will hold theirs on November 5th.</p>
+            <p class="heading">Legend</p>
+          <p><table>
+              <tr><th class="center">Symbol</th><th>Site Type</th></tr>
+              <tr>
+                <td style="background-image: url('https://maps.google.com/mapfiles/kml/paddle/purple-circle.png');" 
+                    title="Blue, yellow, green, and purple map marker icons"></td>
+                <td>One-stop (early voting) sites. Same county, same color.</td></tr>
+              <tr>
+                <td style="background-image: url('https://maps.google.com/mapfiles/kml/shapes/ranger_station.png');" 
+                    title="Building with a flag on top"></td>
+                <td>City/Town</td></tr>
+            </table></p>
             <p class="heading">Sources</p>
             <p><ul>
-              <li>Thing: 
+              <li>Candidates: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://dl.ncsbe.gov/?prefix=Elections/2019/Candidate%20Filing/" 
+                  title="NCSBE downloads - 2019 candidate filing">
+                 NCSBE Candidate Listing File</a>
+              <li>One-stop (early voting) sites: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://vt.ncsbe.gov/ossite" 
+                  title="NCSBE one-stop site locator">
+                 NCSBE early voting site lookup</a>
+              <!--<li>Thing: 
                 <a target="_blank" rel="nofollow" 
                   href="" 
                   title="">
-                 Place/Entity</a>
+                 Place/Entity</a>-->
             </ul></p>
           </div>
         </div>
@@ -198,7 +239,7 @@
         });
         
         var muni = new Layer([kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/Munis.kml', 1),
-                              kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/counties.kml?', 0)]);
+                              kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/counties.kml?a', 0)]);
         //var muni  = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/muni.kmz', 0);
         /*var vtds  = new LazyLayer(['https://fiveham.github.io/Elections/resources/2019/10/08/NC/vtd-0.kmz', 
                                    'https://fiveham.github.io/Elections/resources/2019/10/08/NC/vtd-1.kmz'],
