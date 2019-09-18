@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
+<Document><name>Oct 8, 2019, NC</name>
+  <Style id="municipality">
+   <IconStyle>
+    <Icon>
+     <href>
+      http://maps.google.com/mapfiles/kml/shapes/ranger_station.png
+     </href>
+    </Icon>
+   </IconStyle>
+  </Style>
+<Placemark><name>BURLINGTON</name><description><![CDATA[<b>CITY OF BURLINGTON MAYOR</b>
+<p><ul>
+<li>Ian Baltutis
+<li>Joey Cook, Sr.
+<li>Lisa Patrick
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-79.444414,36.091325,0</coordinates></Point></Placemark><Placemark><name>DUNN</name><description><![CDATA[<b>CITY OF DUNN COMMISSIONER WARD 01</b>
+<p><ul>
+<li>J. Wesley Sills
+</ul></p>
+
+<b>CITY OF DUNN COMMISSIONER WARD 02</b>
+<p><ul>
+<li>April Gaulden
+<li>Gwendolyn McNeill
+</ul></p>
+
+<b>CITY OF DUNN COMMISSIONER WARD 03</b>
+<p><ul>
+<li>Frank McLean
+<li>Vincent O'Connors Pressley
+</ul></p>
+
+<b>CITY OF DUNN COMMISSIONER WARD 04</b>
+<p><ul>
+<li>Billy N. Tart
+<li>Jennifer M. Fortin
+</ul></p>
+
+<b>CITY OF DUNN COMMISSIONER WARD 05</b>
+<p><ul>
+<li>Chuck Turnage
+</ul></p>
+
+<b>CITY OF DUNN COMMISSIONER WARD 06</b>
+<p><ul>
+<li>David Bradham
+</ul></p>
+
+<b>CITY OF DUNN MAYOR</b>
+<p><ul>
+<li>William P. Elmore, Jr.
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-78.61286200000001,35.309934,0</coordinates></Point></Placemark><Placemark><name>DURHAM</name><description><![CDATA[<b>CITY OF DURHAM CITY COUNCIL AT-LARGE</b> (vote for 3)
+<p><ul>
+<li>Charlie Reece
+<li>Charlitta Burruss
+<li>Daniel Meier
+<li>Jacqueline Wagstaff
+<li>Javiera Caballero
+<li>Jillian Johnson
+<li>John Tarantino
+<li>Joshua Gunn
+<li>Ricardo Correa
+<li>Victoria Peterson
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-78.907595,35.9878,0</coordinates></Point></Placemark><Placemark><name>ELIZABETH CITY</name><description><![CDATA[<b>CITY OF ELIZABETH CITY COUNCILMAN 1ST WARD</b> (vote for 2)
+<p><ul>
+<li>Billy Caudle
+<li>Jeannie Young
+</ul></p>
+
+<b>CITY OF ELIZABETH CITY COUNCILMAN 2ND WARD</b> (vote for 2)
+<p><ul>
+<li>Anita Hummer
+<li>Chris Ruffieux
+<li>Gabriel Adkins
+</ul></p>
+
+<b>CITY OF ELIZABETH CITY COUNCILMAN 3RD WARD</b> (vote for 2)
+<p><ul>
+<li>Kem Spence
+<li>Michael E. Brooks
+<li>Rickey E. King
+</ul></p>
+
+<b>CITY OF ELIZABETH CITY COUNCILMAN 4TH WARD</b> (vote for 2)
+<p><ul>
+<li>Darius J. Horton
+<li>Johnnie Walton
+</ul></p>
+
+<b>CITY OF ELIZABETH CITY MAYOR</b>
+<p><ul>
+<li>Bettie J. Parker
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-76.235242,36.296721,0</coordinates></Point></Placemark><Placemark><name>FAYETTEVILLE</name><description><![CDATA[<b>CITY OF FAYETTEVILLE CITY COUNCIL DISTRICT 02</b>
+<p><ul>
+<li>Arnita Mace Bristol
+<li>Janene M. Ackles
+<li>Shakeyla M. Ingram
+</ul></p>
+
+<b>CITY OF FAYETTEVILLE CITY COUNCIL DISTRICT 06</b>
+<p><ul>
+<li>Carlos Swinger
+<li>Chris Davis
+<li>Mary Johnson Ferguson
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-78.928524,35.065955,0</coordinates></Point></Placemark><Placemark><name>GOLDSBORO</name><description><![CDATA[<b>CITY OF GOLDSBORO COUNCILMAN DISTRICT 01</b>
+<p><ul>
+<li>Antonio Williams
+<li>Hiawatha Jones
+<li>Zachary E. Lilly
+</ul></p>
+
+<b>CITY OF GOLDSBORO COUNCILMAN DISTRICT 05</b>
+<p><ul>
+<li>Adrian Worrell
+<li>Constance Bryant Coram
+<li>David Ham
+<li>Jermaine Dawson
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-77.980836,35.385406,0</coordinates></Point></Placemark><Placemark><name>HENDERSON</name><description><![CDATA[<b>CITY OF HENDERSON ALDERMAN 1ST WARD</b>
+<p><ul>
+<li>Marion Brodie Williams
+</ul></p>
+
+<b>CITY OF HENDERSON ALDERMAN 2ND WARD</b>
+<p><ul>
+<li>Mike Rainey
+</ul></p>
+
+<b>CITY OF HENDERSON ALDERMAN AT-LARGE 3RD WARD</b>
+<p><ul>
+<li>Melissa Elliott
+</ul></p>
+
+<b>CITY OF HENDERSON ALDERMAN AT-LARGE 4TH WARD</b>
+<p><ul>
+<li>George M. Daye
+<li>Jason A. Spriggs
+</ul></p>
+
+<b>CITY OF HENDERSON MAYOR</b>
+<p><ul>
+<li>Eddie Ellington
+<li>Sharon K. Owens
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-78.413549,36.32844,0</coordinates></Point></Placemark><Placemark><name>HICKORY</name><description><![CDATA[<b>CITY OF HICKORY ALDERMAN WARD 01</b>
+<p><ul>
+<li>Carmen Eckard
+<li>Dustin Strickland
+<li>Tony Wood
+</ul></p>
+
+<b>CITY OF HICKORY ALDERMAN WARD 02</b>
+<p><ul>
+<li>Charlotte Williams
+<li>Ernie Masche
+<li>Louis Wetmore
+</ul></p>
+
+<b>CITY OF HICKORY ALDERMAN WARD 03</b>
+<p><ul>
+<li>Danny Seaver
+<li>Daria Jackson
+<li>Nathan Hefner
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-81.32929,35.744628,0</coordinates></Point></Placemark><Placemark><name>HIGH POINT</name><description><![CDATA[<b>CITY OF HIGH POINT CITY COUNCIL AT-LARGE</b> (vote for 2)
+<p><ul>
+<li>Britt W. Moore
+<li>Joshua (Fox) Brown
+<li>Mason Garner
+<li>Patrick Harman
+<li>Tyrone E. Johnson
+</ul></p>
+
+<b>CITY OF HIGH POINT CITY COUNCIL WARD 01</b>
+<p><ul>
+<li>Cyril Jefferson
+<li>Jerry L. Archie
+<li>Willie H. Davis
+</ul></p>
+
+<b>CITY OF HIGH POINT MAYOR</b>
+<p><ul>
+<li>Bruce Davis
+<li>Carlvena Foster
+<li>Jay Wagner
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-80.001887,35.968073,0</coordinates></Point></Placemark><Placemark><name>MOUNT AIRY</name><description><![CDATA[<b>CITY OF MOUNT AIRY COMMISSIONER AT-LARGE</b>
+<p><ul>
+<li>Jim Armbrister
+<li>Rob Livengood
+<li>Ron Niland
+</ul></p>
+
+<b>CITY OF MOUNT AIRY COMMISSIONER NORTH WARD</b>
+<p><ul>
+<li>Dean Brown
+<li>Frank Clawson
+<li>Thomas C. Koch
+</ul></p>
+
+<b>CITY OF MOUNT AIRY COMMISSIONER SOUTH WARD</b>
+<p><ul>
+<li>Gene Clark
+<li>Julia F. Mitchell
+<li>Marie T. Wood
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-80.605964,36.501398,0</coordinates></Point></Placemark><Placemark><name>RALEIGH</name><description><![CDATA[<b>CITY OF RALEIGH CITY COUNCIL AT-LARGE</b> (vote for 2)
+<p><ul>
+<li>Carlie Allison Spencer
+<li>James Garland Bledsoe
+<li>Jonathan Melton
+<li>Nicole Stewart
+<li>Portia Wilson Rochelle
+<li>Russ Stephenson
+</ul></p>
+
+<b>CITY OF RALEIGH CITY COUNCIL DISTRICT A</b>
+<p><ul>
+<li>Joshua Bradley
+<li>Patrick Buffkin
+<li>Sam Hershey
+</ul></p>
+
+<b>CITY OF RALEIGH CITY COUNCIL DISTRICT B</b>
+<p><ul>
+<li>Brian Fitzsimmons
+<li>David Cox
+</ul></p>
+
+<b>CITY OF RALEIGH CITY COUNCIL DISTRICT C</b>
+<p><ul>
+<li>Corey Branch
+<li>Ricky Scott
+<li>Shelia Alamin-Khashoggi
+<li>Wanda Hunter
+</ul></p>
+
+<b>CITY OF RALEIGH CITY COUNCIL DISTRICT D</b>
+<p><ul>
+<li>April Parker
+<li>Brittany Bryan
+<li>Kay C. Crowder
+<li>Saige Martin
+</ul></p>
+
+<b>CITY OF RALEIGH CITY COUNCIL DISTRICT E</b>
+<p><ul>
+<li>David Knight
+<li>Stef Mendell
+</ul></p>
+
+<b>CITY OF RALEIGH MAYOR</b>
+<p><ul>
+<li>Caroline Sullivan
+<li>Charles Francis
+<li>George Knott
+<li>Justin L. Sutton
+<li>Mary-Ann Baldwin
+<li>Zainab Baloch
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-78.640316,35.806862,0</coordinates></Point></Placemark><Placemark><name>ROCKY MOUNT</name><description><![CDATA[<b>CITY OF ROCKY MOUNT CITY COUNCIL WARD 01</b>
+<p><ul>
+<li>Andre' D. Knight
+<li>Tarrick Pittman
+</ul></p>
+
+<b>CITY OF ROCKY MOUNT CITY COUNCIL WARD 03 (UNEXPIRED TERM)</b>
+<p><ul>
+<li>Gwen Wilkins
+<li>Nellene Richardson
+<li>Richard Joyner
+</ul></p>
+
+<b>CITY OF ROCKY MOUNT CITY COUNCIL WARD 04</b>
+<p><ul>
+<li>Elaine B. Williams
+<li>T.J. Walker, Jr.
+</ul></p>
+
+<b>CITY OF ROCKY MOUNT CITY COUNCIL WARD 05</b>
+<p><ul>
+<li>Elijah (Lige) Daughtridge
+<li>Robert E. Cordell
+</ul></p>
+
+<b>CITY OF ROCKY MOUNT MAYOR</b>
+<p><ul>
+<li>Bronson Williams
+<li>Kevin B. Jones
+<li>Robert L. Alston
+<li>Sandy Roberson
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-77.808933,35.963045,0</coordinates></Point></Placemark><Placemark><name>SHELBY</name><description><![CDATA[<b>CITY OF SHELBY CITY COUNCIL WARD 03</b>
+<p><ul>
+<li>David Causby
+<li>Ken Howell
+<li>Nicholas Berryhill
+</ul></p>
+
+<b>CITY OF SHELBY MAYOR</b>
+<p><ul>
+<li>Brandon James Matheson
+<li>Stan Anthony
+<li>Tanzy Barrow Wallace
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-81.541316,35.288838,0</coordinates></Point></Placemark><Placemark><name>STATESVILLE</name><description><![CDATA[<b>CITY OF STATESVILLE COUNCILMAN WARD 01</b>
+<p><ul>
+<li>Chris Lamberth
+<li>David L. Jones
+<li>Mark Kleinhenz
+<li>Tammy Wyatt
+<li>Tim Dearman
+</ul></p>
+
+<b>CITY OF STATESVILLE COUNCILMAN WARD 04</b>
+<p><ul>
+<li>Amy Lawton
+<li>James H. Pressly
+<li>Julius Hoke
+<li>Kyle Houston
+</ul></p>
+
+<b>CITY OF STATESVILLE COUNCILMAN WARD 06</b>
+<p><ul>
+<li>David Jackson
+<li>David Mayes, Jr.
+<li>Frederick Foster
+<li>James T. Neal
+<li>Marvin Odell Laxton
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-80.87693400000001,35.791647,0</coordinates></Point></Placemark><Placemark><name>CARY</name><description><![CDATA[<b>TOWN OF CARY MAYOR</b>
+<p><ul>
+<li>Dero-Asha Davis-Weeks
+<li>Harold Weinbrecht
+</ul></p>
+
+<b>TOWN OF CARY TOWN COUNCIL AT-LARGE</b>
+<p><ul>
+<li>Lori Bush
+</ul></p>
+
+<b>TOWN OF CARY TOWN COUNCIL DISTRICT B</b>
+<p><ul>
+<li>Don Frantz
+</ul></p>
+
+<b>TOWN OF CARY TOWN COUNCIL DISTRICT D</b>
+<p><ul>
+<li>Beth Friedrich
+<li>Ken George
+<li>Ya Liu
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-78.79594299999999,35.783044,0</coordinates></Point></Placemark><Placemark><name>DOBBINS HEIGHTS</name><description><![CDATA[<b>TOWN OF DOBBINS HEIGHTS MAYOR</b>
+<p><ul>
+<li>Antonio Blue
+<li>Laperria Andrews
+<li>Rhonda Gore
+</ul></p>
+
+<b>TOWN OF DOBBINS HEIGHTS TOWN COUNCIL</b> (vote for 2)
+<p><ul>
+<li>Edward L. Tender
+<li>Mary Ann Gibson
+<li>Revonna C. Magee
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-79.693108,34.90662,0</coordinates></Point></Placemark><Placemark><name>ERWIN</name><description><![CDATA[<b>TOWN OF ERWIN COMMISSIONER WARD 02</b>
+<p><ul>
+<li>Ricky W. Blackmon
+</ul></p>
+
+<b>TOWN OF ERWIN COMMISSIONER WARD 04</b>
+<p><ul>
+<li>Frankie Ballard
+<li>J. Erin Harrington
+<li>Mindy Alvarado
+</ul></p>
+
+<b>TOWN OF ERWIN COMMISSIONER WARD 06</b>
+<p><ul>
+<li>William (Billy) Turnage
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-78.672231,35.327925,0</coordinates></Point></Placemark><Placemark><name>FLETCHER</name><description><![CDATA[<b>TOWN OF FLETCHER TOWN COUNCIL DISTRICT 02</b>
+<p><ul>
+<li>Hugh Clark
+<li>Julia Price-Fogel
+<li>Preston Blakely
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-82.50338100000001,35.432758,0</coordinates></Point></Placemark><Placemark><name>MATTHEWS</name><description><![CDATA[<b>TOWN OF MATTHEWS MAYOR</b>
+<p><ul>
+<li>Jason Majewski
+<li>John Higdon
+<li>Paul Bailey
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-80.711046,35.119849,0</coordinates></Point></Placemark><Placemark><name>MOORESVILLE</name><description><![CDATA[<b>TOWN OF MOORESVILLE MAYOR</b>
+<p><ul>
+<li>Angela Carruba Stutts
+<li>Darryl Cerro
+<li>Miles Atkins
+</ul></p>]]></description><styleUrl>#municipality</styleUrl><Point><coordinates>-80.82328200000001,35.584365,0</coordinates></Point></Placemark></Document></kml>
