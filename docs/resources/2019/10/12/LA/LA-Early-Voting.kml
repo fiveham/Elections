@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LA-Early-Voting.kml</name>
+	<Style id="color242">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>7fcccccc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f065fb4</color>
+		</PolyStyle>
+	</Style>
+	<Style id="color111">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>7fcccccc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fa8d7b6</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="color32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#color30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#color3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="color31">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>7fcccccc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f4fa86a</color>
+		</PolyStyle>
+	</Style>
+	<Style id="color453">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>7fcccccc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f6bb2f6</color>
+		</PolyStyle>
+	</Style>
+	<Style id="color30">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>7fcccccc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f4fa86a</color>
+		</PolyStyle>
+	</Style>
+	<Style id="color3">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>7fcccccc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f4fa86a</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 2">
+		<name>LA Early Voting</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Acadia Parish<br><br><a href="https://www.google.com/maps/dir//568+NW+COURT+CIRCLE+CROWLEY%2C+LA+70526-4363" title="Driving directions on Google Maps" target="_blank">568 NW COURT CIRCLE<br>CROWLEY, LA 70526-4363<br>(directions)</a><br><br><b>Phone</b><br>337-788-8841]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-92.374076,30.21458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Allen Parish<br><br><b>ALLEN PARISH REGISTRAR OF VOTERS OFFICE</b><br><a href="https://www.google.com/maps/dir//105+N+FIFTH+ST+OBERLIN%2C+LA+70655" title="Driving directions on Google Maps" target="_blank">105 N FIFTH ST<br>OBERLIN, LA 70655<br>(directions)</a><br><br><b>Phone</b><br>337-639-4966]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-92.768169,30.620681,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Ascension Parish<br><br><b>COURTHOUSE ANNEX</b><br><a href="https://www.google.com/maps/dir//828+S+IRMA+BLVD+GONZALES%2C+LA+70737-3631" title="Driving directions on Google Maps" target="_blank">828 S IRMA BLVD, RM #205<br>GONZALES, LA 70737-3631<br>(directions)</a><br><br><b>Phone</b><br>225-621-5780]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-90.913196,30.226229,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Ascension Parish<br><br><b>COURTHOUSE WEST</b><br><a href="https://www.google.com/maps/dir//300+HOUMAS+ST+DONALDSONVILLE%2C+LA+70346" title="Driving directions on Google Maps" target="_blank">300 HOUMAS ST, STE B<br>DONALDSONVILLE, LA 70346<br>(directions)</a><br><br><b>Phone</b><br>225-473-7906]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-90.990233,30.104747,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Ascension Parish<br><br><b>*OAK GROVE COMMUNITY CENTER</b><br><a href="https://www.google.com/maps/dir//37433+HWY+42+PRAIRIEVILLE%2C+LA+70769" title="Driving directions on Google Maps" target="_blank">37433 HWY 42<br>PRAIRIEVILLE, LA 70769<br>(directions)</a><br><br><b>Phone</b><br>225-621-5780<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-90.976193,30.320017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Assumption Parish<br><br><b>COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//4809+HIGHWAY+1+NAPOLEONVILLE%2C+LA+70390-0578" title="Driving directions on Google Maps" target="_blank">4809 HIGHWAY 1<br>NAPOLEONVILLE, LA 70390-0578<br>(directions)</a><br><br><b>Phone</b><br>985-369-7347]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-91.02441399999999,29.941344,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Avoyelles Parish<br><br><b>AVOYELLES PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//312+N+MAIN+MARKSVILLE%2C+LA+71351-2409" title="Driving directions on Google Maps" target="_blank">312 N MAIN, SUITE E<br>MARKSVILLE, LA 71351-2409<br>(directions)</a><br><br><b>Phone</b><br>318-253-7129]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-92.065673,31.127185,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Beauregard Parish<br><br><a href="https://www.google.com/maps/dir//204+S+STEWART+DERIDDER%2C+LA+70634-4050" title="Driving directions on Google Maps" target="_blank">204 S STEWART<br>DERIDDER, LA 70634-4050<br>(directions)</a><br><br><b>Phone</b><br>337-463-7955]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-93.28723699999999,30.845077,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Bienville Parish<br><br><b>BIENVILLE PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//200+GAP+FARMS+RD+ARCADIA%2C+LA+71001-1001" title="Driving directions on Google Maps" target="_blank">200 GAP FARMS RD, STE 1400<br>ARCADIA, LA 71001-1001<br>(directions)</a><br><br><b>Phone</b><br>318-263-7407]]></description>
+			<styleUrl>#color32</styleUrl>
+			<Point>
+				<coordinates>-92.91885499999999,32.567387,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Bossier Parish<br><br><b>BOSSIER PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//204+BURT+BLVD+BENTON%2C+LA+71006" title="Driving directions on Google Maps" target="_blank">204 BURT BLVD, SECOND FLOOR<br>BENTON, LA 71006<br>(directions)</a><br><br><b>Phone</b><br>318-965-2301]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-93.743471,32.679922,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Bossier Parish<br><br><b>*BOSSIER PARISH LIBRARY HISTORY CENTER</b><br><a href="https://www.google.com/maps/dir//2206+BECKETT+ST+BOSSIER+CITY%2C+LA+71111" title="Driving directions on Google Maps" target="_blank">2206 BECKETT ST<br>BOSSIER CITY, LA 71111<br>(directions)</a><br><br><b>Phone</b><br>318-965-2301<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-93.715988,32.52606,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Caddo Parish<br><br><a href="https://www.google.com/maps/dir//525+MARSHALL+SHREVEPORT%2C+LA+71101" title="Driving directions on Google Maps" target="_blank">525 MARSHALL, SUITE 103<br>SHREVEPORT, LA 71101<br>(directions)</a><br><br><b>Phone</b><br>318-226-6891]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-93.748896,32.512366,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Calcasieu Parish<br><br><b>PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//1000+RYAN+ST+LAKE+CHARLES%2C+LA+70601-5250" title="Driving directions on Google Maps" target="_blank">1000 RYAN ST, RM 7<br>LAKE CHARLES, LA 70601-5250<br>(directions)</a><br><br><b>Phone</b><br>337-721-4000]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-93.21837100000001,30.22631,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Calcasieu Parish<br><br><b>*WEST CALCASIEU BUSINESS CENTER</b><br><a href="https://www.google.com/maps/dir//500+A+N.+HUNTINGTON+ST.+SULPHUR%2C+LA+70663" title="Driving directions on Google Maps" target="_blank">500 A N. HUNTINGTON ST., BLDG B<br>SULPHUR, LA 70663<br>(directions)</a><br><br><b>Phone</b><br>337-721-4000<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-93.37702900000001,30.242805,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Calcasieu Parish<br><br><b>*MOSS BLUFF LIBRARY</b><br><a href="https://www.google.com/maps/dir//261+PARISH+RD+MOSS+BLUFF%2C+LA+70611" title="Driving directions on Google Maps" target="_blank">261 PARISH RD<br>MOSS BLUFF, LA 70611<br>(directions)</a><br><br><b>Phone</b><br>337-721-4000<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-93.200619,30.302969,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Caldwell Parish<br><br><b>COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//201+MAIN+ST.+COLUMBIA%2C+LA+71418-1107" title="Driving directions on Google Maps" target="_blank">201 MAIN ST., SUITE 4<br>COLUMBIA, LA 71418-1107<br>(directions)</a><br><br><b>Phone</b><br>318-649-7364]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-92.07466199999999,32.105411,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Cameron Parish<br><br><b>CAMERON WEST ANNEX</b><br><a href="https://www.google.com/maps/dir//148+SMITH+CIRCLE+CAMERON%2C+LA+70631-0001" title="Driving directions on Google Maps" target="_blank">148 SMITH CIRCLE<br>CAMERON, LA 70631-0001<br>(directions)</a><br><br><b>Phone</b><br>337-775-5493]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-93.32572299999998,29.798681,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Cameron Parish<br><br><b>*GRAND LAKE LIBRARY</b><br><a href="https://www.google.com/maps/dir//10200+GULF+HWY+GRAND+LAKE%2C+LA+70607" title="Driving directions on Google Maps" target="_blank">10200 GULF HWY<br>GRAND LAKE, LA 70607<br>(directions)</a><br><br><b>Phone</b><br>337-775-5493<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-93.21328,30.023824,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Cameron Parish<br><br><b>*HACKBERRY COMMUNITY CENTER</b><br><a href="https://www.google.com/maps/dir//980+MAIN+ST+HACKBERRY%2C+LA+70645" title="Driving directions on Google Maps" target="_blank">980 MAIN ST<br>HACKBERRY, LA 70645<br>(directions)</a><br><br><b>Phone</b><br>337-775-5493<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-93.364853,29.994552,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Catahoula Parish<br><br><b>COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//301+BUSHLEY+ST+HARRISONBURG%2C+LA+71340" title="Driving directions on Google Maps" target="_blank">301 BUSHLEY ST, RM 103<br>HARRISONBURG, LA 71340<br>(directions)</a><br><br><b>Phone</b><br>318-744-5745]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-91.82142399999999,31.771641,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Claiborne Parish<br><br><b>CLAIBORNE PARISH POLICE JURY OFFICE COMPLEX</b><br><a href="https://www.google.com/maps/dir//507+W.+MAIN+ST+HOMER%2C+LA+71040-3929" title="Driving directions on Google Maps" target="_blank">507 W. MAIN ST, STE 1<br>HOMER, LA 71040-3929<br>(directions)</a><br><br><b>Phone</b><br>318-927-3332]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-93.05563100000001,32.791539,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Concordia Parish<br><br><b>NEW COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//4001+CARTER+ST.+VIDALIA%2C+LA+71373-3021" title="Driving directions on Google Maps" target="_blank">4001 CARTER ST., SUITE K<br>VIDALIA, LA 71373-3021<br>(directions)</a><br><br><b>Phone</b><br>318-336-7770]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-91.45797600000002,31.575302,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in DeSoto Parish<br><br><a href="https://www.google.com/maps/dir//105+FRANKLIN+ST+MANSFIELD%2C+LA+71052-2046" title="Driving directions on Google Maps" target="_blank">105 FRANKLIN ST<br>MANSFIELD, LA 71052-2046<br>(directions)</a><br><br><b>Phone</b><br>318-872-1149]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-93.71060699999998,32.039137,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in DeSoto Parish<br><br><a href="https://www.google.com/maps/dir//104+CROSBY+ST.+MANSFIELD%2C+LA+71052" title="Driving directions on Google Maps" target="_blank">104 CROSBY ST.<br>MANSFIELD, LA 71052<br>(directions)</a><br><br><b>Phone</b><br>318-872-1149<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-93.70497700000001,32.036598,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in East Baton Rouge Parish<br><br><b>CITY HALL</b><br><a href="https://www.google.com/maps/dir//222+ST.LOUIS+ST+BATON+ROUGE%2C+LA+70802-5860" title="Driving directions on Google Maps" target="_blank">222 ST.LOUIS ST, #201<br>BATON ROUGE, LA 70802-5860<br>(directions)</a><br><br><b>Phone</b><br>225-389-3940]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-91.187952,30.44597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in East Baton Rouge Parish<br><br><b>MOTOR VEHICLE BLDG</b><br><a href="https://www.google.com/maps/dir//2250+MAIN+ST+BAKER%2C+LA+70714-2529" title="Driving directions on Google Maps" target="_blank">2250 MAIN ST<br>BAKER, LA 70714-2529<br>(directions)</a><br><br><b>Phone</b><br>225-389-5206]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-91.165426,30.599469,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in East Baton Rouge Parish<br><br><b>FIRE STATION BLDG</b><br><a href="https://www.google.com/maps/dir//11010+COURSEY+BLVD+BATON+ROUGE%2C+LA+70816" title="Driving directions on Google Maps" target="_blank">11010 COURSEY BLVD<br>BATON ROUGE, LA 70816<br>(directions)</a><br><br><b>Phone</b><br>225-389-7682]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-91.05835500000001,30.414502,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in East Baton Rouge Parish<br><br><b>*LOUISIANA STATE ARCHIVES BLDG</b><br><a href="https://www.google.com/maps/dir//3851+ESSEN+LANE+BATON+ROUGE%2C+LA+70809" title="Driving directions on Google Maps" target="_blank">3851 ESSEN LANE<br>BATON ROUGE, LA 70809<br>(directions)</a><br><br><b>Phone</b><br><br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-91.09766800000001,30.414604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in East Baton Rouge Parish<br><br><b>*CENTRAL BRANCH LIBRARY</b><br><a href="https://www.google.com/maps/dir//11260+JOOR+RD+BATON+ROUGE%2C+LA+70818" title="Driving directions on Google Maps" target="_blank">11260 JOOR RD<br>BATON ROUGE, LA 70818<br>(directions)</a><br><br><b>Phone</b><br><br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-91.051823,30.550634,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in East Carroll Parish<br><br><b>NEW COURTHOUSE BLDG.</b><br><a href="https://www.google.com/maps/dir//400+1ST+ST.+LAKE+PROVIDENCE%2C+LA+71254-2695" title="Driving directions on Google Maps" target="_blank">400 1ST ST.<br>LAKE PROVIDENCE, LA 71254-2695<br>(directions)</a><br><br><b>Phone</b><br>318-559-2015]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-91.17327999999999,32.803747,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in East Feliciana Parish<br><br><a href="https://www.google.com/maps/dir//11048+BANK+ST.+CLINTON%2C+LA+70722" title="Driving directions on Google Maps" target="_blank">11048 BANK ST.<br>CLINTON, LA 70722<br>(directions)</a><br><br><b>Phone</b><br>225-683-3105]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-91.019351,30.863017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Evangeline Parish<br><br><b>EVANGELINE PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//200+COURT+ST+VILLE+PLATTE%2C+LA+70586-4463" title="Driving directions on Google Maps" target="_blank">200 COURT ST, STE 102<br>VILLE PLATTE, LA 70586-4463<br>(directions)</a><br><br><b>Phone</b><br>337-363-5538]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-92.279327,30.688405,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Franklin Parish<br><br><a href="https://www.google.com/maps/dir//6560+MAIN+ST+WINNSBORO%2C+LA+71295-2750" title="Driving directions on Google Maps" target="_blank">6560 MAIN ST<br>WINNSBORO, LA 71295-2750<br>(directions)</a><br><br><b>Phone</b><br>318-435-4489]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-91.71370300000001,32.165746,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Grant Parish<br><br><b>COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//200+MAIN+ST+COLFAX%2C+LA+71417-1828" title="Driving directions on Google Maps" target="_blank">200 MAIN ST<br>COLFAX, LA 71417-1828<br>(directions)</a><br><br><b>Phone</b><br>318-627-9938]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-92.71243299999999,31.516518,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Iberia Parish<br><br><b>IBERIA PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//300+S.+IBERIA+ST.+NEW+IBERIA%2C+LA+70560-4543" title="Driving directions on Google Maps" target="_blank">300 S. IBERIA ST., STE 110<br>NEW IBERIA, LA 70560-4543<br>(directions)</a><br><br><b>Phone</b><br>337-369-4407]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-91.82132500000002,30.004351,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Iberville Parish<br><br><b>IBERVILLE PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//58050+MERIAM+ST.+PLAQUEMINE%2C+LA+70764-2717" title="Driving directions on Google Maps" target="_blank">58050 MERIAM ST.<br>PLAQUEMINE, LA 70764-2717<br>(directions)</a><br><br><b>Phone</b><br>225-687-5201]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-91.23657,30.287225,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Jackson Parish<br><br><b>JACKSON PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//500+E.+COURT+ST.+JONESBORO%2C+LA+71251-3400" title="Driving directions on Google Maps" target="_blank">500 E. COURT ST., ROOM 102<br>JONESBORO, LA 71251-3400<br>(directions)</a><br><br><b>Phone</b><br>318-259-2486]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-92.71602900000001,32.240333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Jefferson Parish<br><br><b>JOSEPH YENNI PARISH BUILDING</b><br><a href="https://www.google.com/maps/dir//1221+ELMWOOD+PARK+BLVD.+HARAHAN%2C+LA+70123" title="Driving directions on Google Maps" target="_blank">1221 ELMWOOD PARK BLVD., RM 502<br>HARAHAN, LA 70123<br>(directions)</a><br><br><b>Phone</b><br>504-736-6191]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-90.189401,29.96539,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Jefferson Parish<br><br><b>CHARLES ODOM BUILDING</b><br><a href="https://www.google.com/maps/dir//5001+WEST+BANK+EXPRESSWAY+MARRERO%2C+LA+70072" title="Driving directions on Google Maps" target="_blank">5001 WEST BANK EXPRESSWAY, SUITE C-2<br>MARRERO, LA 70072<br>(directions)</a><br><br><b>Phone</b><br>504-349-5690]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-90.10136300000001,29.893554,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Jefferson Parish<br><br><a href="https://www.google.com/maps/dir//408+MINOR+ST+KENNER%2C+LA+70062" title="Driving directions on Google Maps" target="_blank">408 MINOR ST<br>KENNER, LA 70062<br>(directions)</a><br><br><b>Phone</b><br>504-467-5168]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-90.24716199999999,29.974885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Jefferson Parish<br><br><b>*GRAND ISLE MULTIPLEX</b><br><a href="https://www.google.com/maps/dir//3101+HWY+1+GRAND+ISLE%2C+LA+70358" title="Driving directions on Google Maps" target="_blank">3101 HWY 1<br>GRAND ISLE, LA 70358<br>(directions)</a><br><br><b>Phone</b><br>504-349-5690<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-89.997444,29.231749,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Jefferson Davis Parish<br><br><a href="https://www.google.com/maps/dir//302+N+CUTTING+AVE+JENNINGS%2C+LA+70546-5361" title="Driving directions on Google Maps" target="_blank">302 N CUTTING AVE<br>JENNINGS, LA 70546-5361<br>(directions)</a><br><br><b>Phone</b><br>337-824-0834]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-92.65460799999998,30.222893,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Lafayette Parish<br><br><a href="https://www.google.com/maps/dir//1010+LAFAYETTE+ST.+LAFAYETTE%2C+LA+70501-6885" title="Driving directions on Google Maps" target="_blank">1010 LAFAYETTE ST., SUITE 313<br>LAFAYETTE, LA 70501-6885<br>(directions)</a><br><br><b>Phone</b><br>337-291-7140]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-92.02107899999999,30.222459,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Lafourche Parish<br><br><b>LAFOURCHE GOVERNMENT COMPLEX</b><br><a href="https://www.google.com/maps/dir//307+WEST+4TH+STREET+THIBODAUX%2C+LA+70301-3105" title="Driving directions on Google Maps" target="_blank">307 WEST 4TH STREET<br>THIBODAUX, LA 70301-3105<br>(directions)</a><br><br><b>Phone</b><br>985-447-3256]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-90.82022400000001,29.796868,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Lafourche Parish<br><br><b>SOUTH LAFOURCHE LIBRARY</b><br><a href="https://www.google.com/maps/dir//16241+EAST+MAIN+STREET+GALLIANO%2C+LA+70354" title="Driving directions on Google Maps" target="_blank">16241 EAST MAIN STREET, SUITE B23<br>GALLIANO, LA 70354<br>(directions)</a><br><br><b>Phone</b><br>985-632-5520]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-90.31383399999999,29.474191,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Lafourche Parish<br><br><b>*LAFOURCHE PARISH GOVERNMENT COMPLEX</b><br><a href="https://www.google.com/maps/dir//4876+HIGHWAY+1+MATHEWS%2C+LA+70375" title="Driving directions on Google Maps" target="_blank">4876 HIGHWAY 1<br>MATHEWS, LA 70375<br>(directions)</a><br><br><b>Phone</b><br>985-447-3256<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-90.55199099999999,29.691557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in LaSalle Parish<br><br><b>LASALLE PARISH HOMELAND SECURITY BLDG</b><br><a href="https://www.google.com/maps/dir//1009+COURTHOUSE+ST+JENA%2C+LA+71342" title="Driving directions on Google Maps" target="_blank">1009 COURTHOUSE ST, SUITE B<br>JENA, LA 71342<br>(directions)</a><br><br><b>Phone</b><br>318-992-2254]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-92.13214600000001,31.684852,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Lincoln Parish<br><br><b>LINCOLN PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//100+W.+TEXAS+AVE.+RUSTON%2C+LA+71270-4463" title="Driving directions on Google Maps" target="_blank">100 W. TEXAS AVE., RM 10<br>RUSTON, LA 71270-4463<br>(directions)</a><br><br><b>Phone</b><br>318-251-5110]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-92.638841,32.527094,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Livingston Parish<br><br><a href="https://www.google.com/maps/dir//29938+S+MAGNOLIA+ST+LIVINGSTON%2C+LA+70754" title="Driving directions on Google Maps" target="_blank">29938 S MAGNOLIA ST<br>LIVINGSTON, LA 70754<br>(directions)</a><br><br><b>Phone</b><br>225-686-3054]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-90.749585,30.502195,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Livingston Parish<br><br><b>*DENHAM SPRINGS-WALKER BRANCH LIBRARY</b><br><a href="https://www.google.com/maps/dir//8101+US+HWY+190+DENHAM+SPRINGS%2C+LA+70706" title="Driving directions on Google Maps" target="_blank">8101 US HWY 190<br>DENHAM SPRINGS, LA 70706<br>(directions)</a><br><br><b>Phone</b><br><br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-90.92747799999999,30.483786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Madison Parish<br><br><b>COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//100+N+CEDAR+ST.+TALLULAH%2C+LA+71282-3892" title="Driving directions on Google Maps" target="_blank">100 N CEDAR ST.<br>TALLULAH, LA 71282-3892<br>(directions)</a><br><br><b>Phone</b><br>318-574-2193]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-91.18747000000001,32.408256,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Morehouse Parish<br><br><b>COURTHOUSE ANNEX</b><br><a href="https://www.google.com/maps/dir//129+N.+FRANKLIN+BASTROP%2C+LA+71220-3815" title="Driving directions on Google Maps" target="_blank">129 N. FRANKLIN<br>BASTROP, LA 71220-3815<br>(directions)</a><br><br><b>Phone</b><br>318-281-1434]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-91.91344599999999,32.779135,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Natchitoches Parish<br><br><b>NATCHITOCHES PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//200+CHURCH+ST.+NATCHITOCHES%2C+LA+71457-4673" title="Driving directions on Google Maps" target="_blank">200 CHURCH ST., OFFICE 103<br>NATCHITOCHES, LA 71457-4673<br>(directions)</a><br><br><b>Phone</b><br>318-357-2211]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-93.088466,31.761294,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Orleans Parish<br><br><b>CITY HALL</b><br><a href="https://www.google.com/maps/dir//1300+PERDIDO+ST.+NEW+ORLEANS%2C+LA+70112-2127" title="Driving directions on Google Maps" target="_blank">1300 PERDIDO ST., #1W24<br>NEW ORLEANS, LA 70112-2127<br>(directions)</a><br><br><b>Phone</b><br>504-658-8300]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-90.07705900000001,29.952033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Orleans Parish<br><br><b>ALGIERS COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//225+MORGAN+ST+NEW+ORLEANS%2C+LA+70114" title="Driving directions on Google Maps" target="_blank">225 MORGAN ST, RM#105<br>NEW ORLEANS, LA 70114<br>(directions)</a><br><br><b>Phone</b><br>504-658-8323]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-90.05404999999999,29.953668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Orleans Parish<br><br><b>*VOTING MACHINE WAREHOUSE</b><br><a href="https://www.google.com/maps/dir//8870+CHEF+MENTEUR+HWY+NEW+ORLEANS%2C+LA+70127" title="Driving directions on Google Maps" target="_blank">8870 CHEF MENTEUR HWY<br>NEW ORLEANS, LA 70127<br>(directions)</a><br><br><b>Phone</b><br>504-658-8300<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-89.982648,30.014876,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Orleans Parish<br><br><b>*LAKE VISTA COMMUNITY CENTER</b><br><a href="https://www.google.com/maps/dir//6500+SPANISH+FORT+BLVD+NEW+ORLEANS%2C+LA+70124" title="Driving directions on Google Maps" target="_blank">6500 SPANISH FORT BLVD, 2ND FLOOR MEETING ROOM<br>NEW ORLEANS, LA 70124<br>(directions)</a><br><br><b>Phone</b><br>504-658-8300<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-90.09078599999999,30.023387,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Ouachita Parish<br><br><b>REGISTRAR OF VOTERS</b><br><a href="https://www.google.com/maps/dir//1650+DESIARD+ST+MONROE%2C+LA+71201-7722" title="Driving directions on Google Maps" target="_blank">1650 DESIARD ST, SUITE 125<br>MONROE, LA 71201-7722<br>(directions)</a><br><br><b>Phone</b><br>318-327-1436]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-92.102831,32.509389,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Ouachita Parish<br><br><b>*WEST OUACHITA SENIOR CENTER</b><br><a href="https://www.google.com/maps/dir//1800+N+7TH+STREET+WEST+MONROE%2C+LA+71291" title="Driving directions on Google Maps" target="_blank">1800 N 7TH STREET<br>WEST MONROE, LA 71291<br>(directions)</a><br><br><b>Phone</b><br>318-327-1436<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-92.14518700000001,32.51131,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Plaquemines Parish<br><br><b>PLAQUEMINES PARISH GOVT. BLDG.</b><br><a href="https://www.google.com/maps/dir//28028+HWY+23+PORT+SULPHUR%2C+LA+70083" title="Driving directions on Google Maps" target="_blank">28028 HWY 23<br>PORT SULPHUR, LA 70083<br>(directions)</a><br><br><b>Phone</b><br>504-934-3620]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-89.692669,29.477602,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Plaquemines Parish<br><br><b>*BELLE CHASSE LIBRARY</b><br><a href="https://www.google.com/maps/dir//301+MAIN+STREET+BELLE+CHASSE%2C+LA+70037" title="Driving directions on Google Maps" target="_blank">301 MAIN STREET<br>BELLE CHASSE, LA 70037<br>(directions)</a><br><br><b>Phone</b><br>504-934-3620<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-89.98364700000001,29.856812,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Plaquemines Parish<br><br><b>*REV PERCY M. GRIFFIN COMMUNITY CENTER</b><br><a href="https://www.google.com/maps/dir//15577+HWY+15+DAVANT%2C+LA+70040" title="Driving directions on Google Maps" target="_blank">15577 HWY 15<br>DAVANT, LA 70040<br>(directions)</a><br><br><b>Phone</b><br>504-934-3620<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-89.861752,29.61023,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Pointe Coupee Parish<br><br><b>COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//215+EAST+MAIN+STREET+NEW+ROADS%2C+LA+70760-3661" title="Driving directions on Google Maps" target="_blank">215 EAST MAIN STREET<br>NEW ROADS, LA 70760-3661<br>(directions)</a><br><br><b>Phone</b><br>225-638-5537]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-91.432552,30.693924,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Rapides Parish<br><br><b>RAPIDES PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//701+MURRAY+ST.+ALEXANDRIA%2C+LA+71301-8060" title="Driving directions on Google Maps" target="_blank">701 MURRAY ST.<br>ALEXANDRIA, LA 71301-8060<br>(directions)</a><br><br><b>Phone</b><br>318-473-6770]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-92.44705,31.308709,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Rapides Parish<br><br><b>*KEES PARK COMMUNITY CENTER</b><br><a href="https://www.google.com/maps/dir//2450+HWY+28+E+PINEVILLE%2C+LA+71360" title="Driving directions on Google Maps" target="_blank">2450 HWY 28 E<br>PINEVILLE, LA 71360<br>(directions)</a><br><br><b>Phone</b><br><br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-92.41286899999999,31.333007,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Red River Parish<br><br><b>RED RIVER PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//615+E.+CARROLL+ST+COUSHATTA%2C+LA+71019-8537" title="Driving directions on Google Maps" target="_blank">615 E. CARROLL ST, #104<br>COUSHATTA, LA 71019-8537<br>(directions)</a><br><br><b>Phone</b><br>318-932-5027]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-93.34041000000001,32.014468,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Richland Parish<br><br><b>COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//708+JULIA+ST.+RAYVILLE%2C+LA+71269-0368" title="Driving directions on Google Maps" target="_blank">708 JULIA ST., #B-102<br>RAYVILLE, LA 71269-0368<br>(directions)</a><br><br><b>Phone</b><br>318-728-3582]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-91.759151,32.476831,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Sabine Parish<br><br><b>COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//400+CAPITOL+ST.+MANY%2C+LA+71449-3098" title="Driving directions on Google Maps" target="_blank">400 CAPITOL ST., #107<br>MANY, LA 71449-3098<br>(directions)</a><br><br><b>Phone</b><br>318-256-3697]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-93.483895,31.567339,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Bernard Parish<br><br><b>ST BERNARD PARISH GOVERNMENT</b><br><a href="https://www.google.com/maps/dir//8201+W.+JUDGE+PEREZ+DR.+CHALMETTE%2C+LA+70043-1696" title="Driving directions on Google Maps" target="_blank">8201 W. JUDGE PEREZ DR., RM #104<br>CHALMETTE, LA 70043-1696<br>(directions)</a><br><br><b>Phone</b><br>504-278-4232]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-89.98226699999999,29.956285,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Charles Parish<br><br><b>COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//15045+RIVER+RD.+HAHNVILLE%2C+LA+70057-2106" title="Driving directions on Google Maps" target="_blank">15045 RIVER RD., #189<br>HAHNVILLE, LA 70057-2106<br>(directions)</a><br><br><b>Phone</b><br>985-783-5120]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-90.40660800000001,29.963755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Charles Parish<br><br><a href="https://www.google.com/maps/dir//14564+RIVER+ROAD+NEW+SARPY%2C+LA+70078" title="Driving directions on Google Maps" target="_blank">14564 RIVER ROAD<br>NEW SARPY, LA 70078<br>(directions)</a><br><br><b>Phone</b><br>985-783-5120<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-90.38968800000001,29.976527,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Helena Parish<br><br><b>NFC BUILDING</b><br><a href="https://www.google.com/maps/dir//48+KENDRICK+STREET+GREENSBURG%2C+LA+70441" title="Driving directions on Google Maps" target="_blank">48 KENDRICK STREET, 1ST FLOOR<br>GREENSBURG, LA 70441<br>(directions)</a><br><br><b>Phone</b><br>225-222-4440]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-90.667417,30.829039,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. James Parish<br><br><b>ST JAMES PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//5800+LA+44+CONVENT%2C+LA+70723-0106" title="Driving directions on Google Maps" target="_blank">5800 LA 44, THIRD FLOOR<br>CONVENT, LA 70723-0106<br>(directions)</a><br><br><b>Phone</b><br>225-562-2445]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-90.817494,29.993988,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. James Parish<br><br><b>ST JAMES PARISH COURTHOUSE ANNEX</b><br><a href="https://www.google.com/maps/dir//2631+LA+20+WEST+VACHERIE%2C+LA+70090" title="Driving directions on Google Maps" target="_blank">2631 LA 20 WEST<br>VACHERIE, LA 70090<br>(directions)</a><br><br><b>Phone</b><br>225-562-2403]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-90.724503,29.993579,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. James Parish<br><br><b>*SECRETARY OF STATE MACHINE WAREHOUSE</b><br><a href="https://www.google.com/maps/dir//1611+LUTCHER+AVE+LUTCHER%2C+LA+70071" title="Driving directions on Google Maps" target="_blank">1611 LUTCHER AVE<br>LUTCHER, LA 70071<br>(directions)</a><br><br><b>Phone</b><br>225-562-2445<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-90.70170499999999,30.050386,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. John the Baptist Parish<br><br><a href="https://www.google.com/maps/dir//1811+W.+AIRLINE+HWY.+LAPLACE%2C+LA+70068-3345" title="Driving directions on Google Maps" target="_blank">1811 W. AIRLINE HWY.<br>LAPLACE, LA 70068-3345<br>(directions)</a><br><br><b>Phone</b><br>985-359-0175]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-90.500277,30.072939,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. John the Baptist Parish<br><br><a href="https://www.google.com/maps/dir//2393+HWY.+18+EDGARD%2C+LA+70049-3344" title="Driving directions on Google Maps" target="_blank">2393 HWY. 18<br>EDGARD, LA 70049-3344<br>(directions)</a><br><br><b>Phone</b><br>985-331-4559]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-90.559611,30.045591,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Landry Parish<br><br><b>COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//118+S.+COURT+ST.+OPELOUSAS%2C+LA+70570-5166" title="Driving directions on Google Maps" target="_blank">118 S. COURT ST., SUITE 114<br>OPELOUSAS, LA 70570-5166<br>(directions)</a><br><br><b>Phone</b><br>337-948-0572]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-92.08341000000002,30.533679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Landry Parish<br><br><b>EUNICE CITY HALL</b><br><a href="https://www.google.com/maps/dir//300+S.+SECOND+STREET+EUNICE%2C+LA+70535" title="Driving directions on Google Maps" target="_blank">300 S. SECOND STREET<br>EUNICE, LA 70535<br>(directions)</a><br><br><b>Phone</b><br>337-948-0572]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-92.41544500000001,30.492272,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Martin Parish<br><br><b>ST. MARTIN PARISH COURTHOUSE ANNEX</b><br><a href="https://www.google.com/maps/dir//415+SAINT+MARTIN+STREET+ST+MARTINVILLE%2C+LA+70582-4549" title="Driving directions on Google Maps" target="_blank">415 SAINT MARTIN STREET<br>ST MARTINVILLE, LA 70582-4549<br>(directions)</a><br><br><b>Phone</b><br>337-394-2204]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-91.829167,30.119496,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Martin Parish<br><br><b>*ST. MARTIN PARISH WATER DISTRICT #1 BUILDING</b><br><a href="https://www.google.com/maps/dir//1073+TOWER+TANK+RD+MORGAN+CITY%2C+LA+70380" title="Driving directions on Google Maps" target="_blank">1073 TOWER TANK RD<br>MORGAN CITY, LA 70380<br>(directions)</a><br><br><b>Phone</b><br>337-394-2204<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-91.16451600000001,29.772975,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Martin Parish<br><br><b>*SYDNIE MAE DURAND SENIOR CITIZEN CENTER</b><br><a href="https://www.google.com/maps/dir//391+CANNERY+ROAD+BREAUX+BRIDGE%2C+LA+70517" title="Driving directions on Google Maps" target="_blank">391 CANNERY ROAD<br>BREAUX BRIDGE, LA 70517<br>(directions)</a><br><br><b>Phone</b><br>337-394-2204<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-91.916533,30.276513,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Mary Parish<br><br><b>ST MARY PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//500+MAIN+ST.+FRANKLIN%2C+LA+70538-6144" title="Driving directions on Google Maps" target="_blank">500 MAIN ST., STE. 301<br>FRANKLIN, LA 70538-6144<br>(directions)</a><br><br><b>Phone</b><br>337-828-4100]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-91.49943399999998,29.791271,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Mary Parish<br><br><b>ST MARY PARISH ANNEX BUILDING</b><br><a href="https://www.google.com/maps/dir//301+THIRD+ST+MORGAN+CITY%2C+LA+70380" title="Driving directions on Google Maps" target="_blank">301 THIRD ST<br>MORGAN CITY, LA 70380<br>(directions)</a><br><br><b>Phone</b><br>985-384-8638]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-91.205805,29.692959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Tammany Parish<br><br><b>ST. TAMMANY JUSTICE CENTER PARKING GARAGE</b><br><a href="https://www.google.com/maps/dir//601+N+JEFFERSON+AVE+COVINGTON%2C+LA+70433" title="Driving directions on Google Maps" target="_blank">601 N JEFFERSON AVE<br>COVINGTON, LA 70433<br>(directions)</a><br><br><b>Phone</b><br>985-809-5500]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-90.09747,30.480155,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Tammany Parish<br><br><b>THE TOWERS BUILDING</b><br><a href="https://www.google.com/maps/dir//520+OLD+SPANISH+TRAIL+SLIDELL%2C+LA+70458" title="Driving directions on Google Maps" target="_blank">520 OLD SPANISH TRAIL, SUITE 2F<br>SLIDELL, LA 70458<br>(directions)</a><br><br><b>Phone</b><br>985-646-4125]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-89.78385299999999,30.26513,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in St. Tammany Parish<br><br><b>*ST. TAMMANY ADMINISTRATIVE COMPLEX</b><br><a href="https://www.google.com/maps/dir//21490+KOOP+DR+MANDEVILLE%2C+LA+70448" title="Driving directions on Google Maps" target="_blank">21490 KOOP DR, BUILDING A (COUNCIL CHAMBERS)<br>MANDEVILLE, LA 70448<br>(directions)</a><br><br><b>Phone</b><br>985-809-5500<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-90.04212199999999,30.417767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Tangipahoa Parish<br><br><b>TANGIPAHOA PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//110+N.+BAY+ST.+AMITE%2C+LA+70422-2599" title="Driving directions on Google Maps" target="_blank">110 N. BAY ST., #103<br>AMITE, LA 70422-2599<br>(directions)</a><br><br><b>Phone</b><br>985-748-3215]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-90.50420200000001,30.727679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Tangipahoa Parish<br><br><b>TANGIPAHOA SHERIFF'S OFFICE SUBSTATION</b><br><a href="https://www.google.com/maps/dir//15475+CLUB+DELUXE+RD+HAMMOND%2C+LA+70403" title="Driving directions on Google Maps" target="_blank">15475 CLUB DELUXE RD<br>HAMMOND, LA 70403<br>(directions)</a><br><br><b>Phone</b><br>985-345-3717]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-90.467902,30.476757,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Tensas Parish<br><br><b>COURTHOUSE ANNEX</b><br><a href="https://www.google.com/maps/dir//203+HANCOCK+ST.+ST+JOSEPH%2C+LA+71366" title="Driving directions on Google Maps" target="_blank">203 HANCOCK ST.<br>ST JOSEPH, LA 71366<br>(directions)</a><br><br><b>Phone</b><br>318-766-3931]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-91.23666299999998,31.914623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Terrebonne Parish<br><br><a href="https://www.google.com/maps/dir//8026+W+MAIN+STREET+HOUMA%2C+LA+70360-3407" title="Driving directions on Google Maps" target="_blank">8026 W MAIN STREET, SUITE 101<br>HOUMA, LA 70360-3407<br>(directions)</a><br><br><b>Phone</b><br>985-873-6533]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-90.718188,29.598157,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Union Parish<br><br><b>COURTHOUSE ANNEX</b><br><a href="https://www.google.com/maps/dir//303+E.+WATER+ST+FARMERVILLE%2C+LA+71241-3000" title="Driving directions on Google Maps" target="_blank">303 E. WATER ST, #107<br>FARMERVILLE, LA 71241-3000<br>(directions)</a><br><br><b>Phone</b><br>318-368-8660]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-92.403038,32.774023,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Vermilion Parish<br><br><b>VERMILION PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//100+N.+STATE+ST.+ABBEVILLE%2C+LA+70510-5170" title="Driving directions on Google Maps" target="_blank">100 N. STATE ST., #120<br>ABBEVILLE, LA 70510-5170<br>(directions)</a><br><br><b>Phone</b><br>337-898-4324]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-92.135098,29.973932,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Vernon Parish<br><br><b>ANNEX</b><br><a href="https://www.google.com/maps/dir//301+E.+COURTHOUSE+ST.+LEESVILLE%2C+LA+71446-4330" title="Driving directions on Google Maps" target="_blank">301 E. COURTHOUSE ST.<br>LEESVILLE, LA 71446-4330<br>(directions)</a><br><br><b>Phone</b><br>337-239-3690]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-93.26065199999998,31.14232700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Washington Parish<br><br><b>WASHINGTON PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//908+WASHINGTON+ST.+FRANKLINTON%2C+LA+70438-1719" title="Driving directions on Google Maps" target="_blank">908 WASHINGTON ST.<br>FRANKLINTON, LA 70438-1719<br>(directions)</a><br><br><b>Phone</b><br>985-839-7850]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-90.15515999999998,30.84428,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Washington Parish<br><br><b>*NORTHSHORE TECHNICAL COLLEGE</b><br><a href="https://www.google.com/maps/dir//1710+SULLIVAN+DRIVE+BOGALUSA%2C+LA+70427" title="Driving directions on Google Maps" target="_blank">1710 SULLIVAN DRIVE<br>BOGALUSA, LA 70427<br>(directions)</a><br><br><b>Phone</b><br>985-839-7850<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-89.845293,30.759588,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Webster Parish<br><br><b>WEBSTER PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//410+MAIN+STREET+MINDEN%2C+LA+71055-3382" title="Driving directions on Google Maps" target="_blank">410 MAIN STREET<br>MINDEN, LA 71055-3382<br>(directions)</a><br><br><b>Phone</b><br>318-377-9272]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-93.28837300000001,32.613711,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Webster Parish<br><br><b>*SPRINGHILL CIVIC CENTER</b><br><a href="https://www.google.com/maps/dir//101+MACHEN+DR+SPRINGHILL%2C+LA+71075" title="Driving directions on Google Maps" target="_blank">101 MACHEN DR<br>SPRINGHILL, LA 71075<br>(directions)</a><br><br><b>Phone</b><br>318-377-9272<br><br><i>*Open limited dates. Contact <a href="https://voterportal.sos.la.gov/Registrar" target="_blank" title="Registrar of Voters by Parish - LA Sec. of State">parish registrar</a> for information.</i>]]></description>
+			<styleUrl>#color242</styleUrl>
+			<Point>
+				<coordinates>-93.45956700000001,33.005529,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in West Baton Rouge Parish<br><br><b>COURTHOUSE ANNEX BUILDING</b><br><a href="https://www.google.com/maps/dir//883+7TH+STREET+PORT+ALLEN%2C+LA+70767-0031" title="Driving directions on Google Maps" target="_blank">883 7TH STREET, SUITE A<br>PORT ALLEN, LA 70767-0031<br>(directions)</a><br><br><b>Phone</b><br>225-336-2421]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-91.208714,30.460468,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in West Carroll Parish<br><br><b>WEST CARROLL PARISH COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//305+E.+MAIN+ST.+OAK+GROVE%2C+LA+71263" title="Driving directions on Google Maps" target="_blank">305 E. MAIN ST., RM. 108<br>OAK GROVE, LA 71263<br>(directions)</a><br><br><b>Phone</b><br>318-428-2381]]></description>
+			<styleUrl>#color31</styleUrl>
+			<Point>
+				<coordinates>-91.38746499999999,32.860486,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in West Feliciana Parish<br><br><b>GOVERNMENTAL COMPLEX</b><br><a href="https://www.google.com/maps/dir//5932+COMMERCE+ST+ST+FRANCISVILLE%2C+LA+70775" title="Driving directions on Google Maps" target="_blank">5932 COMMERCE ST<br>ST FRANCISVILLE, LA 70775<br>(directions)</a><br><br><b>Phone</b><br>225-635-6161]]></description>
+			<styleUrl>#color111</styleUrl>
+			<Point>
+				<coordinates>-91.379656,30.785192,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<visibility>0</visibility>
+			<description><![CDATA[Early Voting site for Oct 12, 2019 in Winn Parish<br><br><b>COURTHOUSE</b><br><a href="https://www.google.com/maps/dir//119+W.+MAIN+ST.+WINNFIELD%2C+LA+71483-3238" title="Driving directions on Google Maps" target="_blank">119 W. MAIN ST., #105<br>WINNFIELD, LA 71483-3238<br>(directions)</a><br><br><b>Phone</b><br>318-628-6133]]></description>
+			<styleUrl>#color453</styleUrl>
+			<Point>
+				<coordinates>-92.6391,31.926224,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
