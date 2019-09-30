@@ -10,30 +10,12 @@
 			<color>7fffffff</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="color02">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#color000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#color0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="color000">
-		<LineStyle>
-			<color>7fcccccc</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>7fffffff</color>
-		</PolyStyle>
-	</Style>
 	<Folder id="layer 4">
 		<name>LA Statewide</name>
 		<visibility>0</visibility>
 		<Placemark>
 			<visibility>0</visibility>
-			<description><![CDATA[<b>Statewide Offices and Issues</b><br><br>
+			<description><![CDATA[<b>Statewide Offices and Issues</b><br><br> Strikethrough indicates a deceased, disqualified, or withdrawn candidate.<br><br>
 <hr><br>
 <b>Constitutional Amendments</b> (yes/no)<br>
 <ul>
@@ -46,15 +28,19 @@
 <b>Governor</b><br>
 <table>
 <tr><td>Democrat</td><td>John Edwards</td></tr>
+<tr><td>Democrat</td><td><del>M. V. 'Vinny' Mendoza</del></td></tr>
 <tr><td>Democrat</td><td>Oscar Dantzler</td></tr>
 <tr><td>Independent</td><td>Gary Landrieu</td></tr>
 <tr><td>Republican</td><td>Eddie Rispone</td></tr>
+<tr><td>Republican</td><td><del>Manuel Russell Leach</del></td></tr>
+<tr><td>Republican</td><td><del>Patrick J. Doguet</del></td></tr>
 <tr><td>Republican</td><td>Patrick Landry</td></tr>
 <tr><td>Republican</td><td>Ralph Abraham</td></tr>
 </table>
 <hr><br>
 <b>Lieutenant governor</b><br>
 <table>
+<tr><td>Democrat</td><td><del>Rao M. Uppu</del></td></tr>
 <tr><td>Democrat</td><td>Willie Jones</td></tr>
 <tr><td>Republican</td><td>Billy Nungesser</td></tr>
 </table>
@@ -94,7 +80,7 @@
 <tr><td>No Party</td><td>Teresa Kenny</td></tr>
 <tr><td>Republican</td><td>John Schroder</td></tr>
 </table>]]></description>
-			<styleUrl>#color02</styleUrl>
+			<styleUrl>#color0</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
