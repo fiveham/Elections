@@ -215,7 +215,8 @@ def page_check(page, url=None):
     if 'twitter:description' in metas:
         d = metas['twitter:description']
         if len(d) > 280:
-            issues.append("twitter:description is longer than a tweet")
+            issues.append("twitter:description is longer than a tweet "+
+                          f"({len(d)} > 280)")
         if url:
             if len(d) + 1 + len(url) > 280:
                 issues.append(
