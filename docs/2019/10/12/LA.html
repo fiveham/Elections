@@ -1,1 +1,280 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/Elections/images/favicon/la-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="canonical" href="https://fiveham.github.io/Elections/2019/10/12/LA.html">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Interactive election map of districts and candidates for state house and senate, statewide offices, BESE, District Court, and Supreme Court district 1, parishes and candidates for local offices, and registrars' offices for early voting for the Louisiana jungle primaries on November 12th, 2019">
+    
+    <meta property="og:image"
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/la-10-12-2019.png">
+    <meta property="og:image:url"
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/la-10-12-2019.png">
+    <meta property="og:image:secure_url"
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/la-10-12-2019.png">
+    <meta property="og:image:alt"
+          content="A composite satelite image of Louisiana covered with semitransparent green and orange shapes covering the state 
+                   house districts">
+    <meta property="og:image:type"       content="image/png">
+    <meta property="og:image:width"      content="1200">
+    <meta property="og:image:height"     content="630">
+    <meta property="og:url"              content="https://fiveham.github.io/Elections/2019/10/12/LA.html">
+    <meta property="og:type"             content="website">
+    <meta property="og:determiner"       content="">
+    <meta property="og:title"
+          content="Interactive election map of districts and candidates for state house and senate, statewide offices, BESE, District 
+                   Court, and Supreme Court district 1, parishes and candidates for local offices, and registrars' offices for early 
+                   voting for the Louisiana jungle primaries on November 12th, 2019">
+    <meta property="og:description"
+          content="Interactive election map of districts and candidates for state house and senate, statewide offices, BESE, District 
+                   Court, and Supreme Court district 1, parishes and candidates for local offices, and registrars' offices for early 
+                   voting for the Louisiana jungle primaries on November 12th, 2019">
+    
+    <meta property="og:locale" content="en_US">
+    
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:url"         content="https://fiveham.github.io/Elections/2019/10/12/LA.html">
+    <meta name="twitter:title"
+          content="Interactive election map of districts and candidates for state house and senate, statewide offices, BESE, District 
+                   Court, and Supreme Court district 1, parishes and candidates for local offices, and registrars' offices for early 
+                   voting for the Louisiana jungle primaries on November 12th, 2019">
+    <meta name="twitter:description"
+          content="Interactive election map of districts and candidates for state house and senate, statewide offices, BESE, District 
+                   Court, and Supreme Court district 1, parishes and candidates for local offices, and registrars' offices for early 
+                   voting for the Louisiana jungle primaries on November 12th, 2019">
+    <meta name="twitter:image"
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/la-10-12-2019.png">
+    <meta name="twitter:image:alt"
+          content="A composite satelite image of Louisiana covered with semitransparent green and orange shapes covering the state 
+                   house districts">
+    
+    <title>LA jungle primaries November 12th, 2019 - Interactive Map</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <!-- Geolocator Button -->
+    <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" 
+         title="Your location"></div>
+    
+    <!-- Layer-switcher dropdown -->
+    <select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" 
+            title="Change the district set">
+      <option>State House</option>
+      <option>State Senate</option>
+      <option>Parishes</option>
+      <option>BESE</option>
+      <option>Statewide</option>
+      <option>Supreme Court</option>
+      <option>District Court</option>
+    </select>
+    
+    <!-- Voting Site Toggle Button -->
+    <!--<div id="pp-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" 
+         title="Switch polling place layer">
+      <span id="pp-swap">Election Day Sites</span>
+    </div>-->
+    
+    <!-- LA SOS Link -->
+    <a id="pplkup" rel="nofollow" target="_blank" title="LA SOS Voter Portal" href="https://voterportal.sos.la.gov"><span>State Voter Portal</span></a>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">Map of the Jungle</p>
+            <p>Describe the map here.</p>
+            <p class="heading">Unofficial district shapes</p>
+            <p>Official shapefiles were not available for state supreme court districts or BESE districts. The districts of those two
+               layers of this map are a best-effort approximation constructed by combining voting tabulation district (voting 
+               precinct) shapes from 2017 after using the LA Secretary of State's sample ballot lookup to identify which precincts 
+               pertain to which districts. There were naming mismatches between the SOS precincts and the precincts from the 2017 
+               shapefile whose geometries were used to build the districts seen in this map. As such, some judgement calls were needed 
+               to assign certain precinct shapes to districts, even with a rich description of the canonical correspondence between 
+               official existing precincts and their districts.</p>
+            <p class="heading">Sources</p>
+            <p><ul>
+              <li>BESE district shapes, in a broad sense: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://bese.louisiana.gov/about-bese/map-of-bese-districts" 
+                  title="Static map of BESE districts">
+                 BESE website</a>
+              <li>Supreme Court districts, in a broad sense: 
+                <a target="_blank" rel="nofollow" 
+                  href="http://www.lasc.org/about_the_court/2008_LA%20Supreme%20Court%20map.jpg" 
+                  title="Static map of Supreme Court districts">
+                 LA Supreme Court website</a>
+              <li>Supreme Court districts, in a slightly narrower sense: 
+                <a target="_blank" rel="nofollow" 
+                  href="http://www.legis.la.gov/Legis/Law.aspx?d=76718" 
+                  title="Statutory definition of Supreme Court district shapes">
+                 LA Revised Statutes, Title 13, Chapter 2, Part 2, Section 101</a>
+              <li>Early Voting Sites: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://voterportal.sos.la.gov/earlyvoting" 
+                  title="Early voting sites by parish">
+                 LA Secretary of State website</a>
+              <li>Candidates: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://voterportal.sos.la.gov/sampleballot" 
+                  title="LA Secretary of State - Sample Ballots">
+                 LA Secretary of State website</a>
+              <li>Something: 
+                <a target="_blank" rel="nofollow" 
+                  href="example.com" 
+                  title="on-hover description of linked page">
+                 Visible, clickable text</a>
+              <li>Something: 
+                <a target="_blank" rel="nofollow" 
+                  href="example.com" 
+                  title="on-hover description of linked page">
+                 Visible, clickable text</a>
+            </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+<script>
+      var layers = [];
+      var map;
+      
+      var initCenter = {lat: 30.9, lng: -91.4};;
+      var preferredBounds = {west:-94.043352, east:-88.758388, south:28.855127, north:33.019543};
+      var endOfEarlyVoting = new Date(2019, 9, 5, 18, 0, 0); //Oct 5, 6PM local time (January is Month Zero)
+      
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/},
+                     {id: "pplkup",         where: 1  /*google.maps.ControlPosition.TOP_LEFT*/},  
+                     //{id: "pp-toggler",     where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function get_url_params(){
+        var url = window.location.href;
+        var q = url.indexOf("?");
+        var h = ((url.indexOf("#") + 1) || url.length + 1) - 1;
+        var params = (q == -1
+            ? []
+            : url.slice(q+1,h).split("&"));
+        var param_dict = {};
+        for(var i = 0; i < params.length; i++){
+          var kv = params[i].split("=");
+          param_dict[kv[0]] = kv[1] ? kv[1] : null;
+        }
+        return param_dict;
+      }
+      
+      var bounds = {};
+      
+      function choose_bounds(){
+        params = get_url_params();
+        var context = params['context'];
+        if(context){
+          var b = bounds[context];
+          if(b){
+            return b;
+          }
+        }
+        return preferredBounds;
+      }
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: initCenter,
+          mapTypeId: 'hybrid'
+        });
+        
+        //Polygon layers
+        var house          = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/12/LA/LA-State-House.kmz');
+        var senate         = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/12/LA/LA-State-Senate.kmz');
+        var parishes       = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/12/LA/LA-Parishes.kmz');
+        var bese           = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/12/LA/BESE.kmz');
+        var statewide      = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/12/LA/LA-Statewide.kml');
+        var supreme_court  = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/12/LA/LA-Supreme-Court.kml');
+        var district_court = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/12/LA/LA-District-Court.kmz');
+        
+        //Maintain same sequence as dropdown list
+        layers.push(house);
+        layers.push(senate);
+        layers.push(parishes);
+        layers.push(bese);
+        layers.push(statewide);
+        layers.push(supreme_court);
+        layers.push(district_court);
+        
+        //Point layers
+        var early = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/12/LA/LA-Early-Voting.kml');
+        
+        add_widgets();
+        map.fitBounds(preferredBounds);
+        
+        //turn first layer(s) on
+        layers[0].setMap(map);
+        early.setMap(map);
+      }
+      
+      function kmllayer(url, zIndex){
+        var result = new google.maps.KmlLayer({
+          url: url,
+          map: null,
+          preserveViewport: true,
+          zIndex: zIndex || 0
+        });
+        return result;
+      }
+      
+      function reset_layers(){
+        for(var i = 0; i < layers.length; i++){
+          layers[i].setMap(null);
+        }
+        var index = document.getElementById('layer-switcher').selectedIndex;
+        layers[index].setMap(map);
+      }
+      
+      function pp_toggle(){
+        var temp = alt;
+        alt = layer;
+        layer = temp;
+        alt.setMap(null);
+        layer.setMap(map);
+        document.getElementById("pp-swap").innerHTML = (
+            document.getElementById("pp-swap").innerHTML.startsWith("Early") 
+            ? "Election Day Sites" 
+            : "Early Voting Sites");
+      }
+    </script>
+    <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/add-widgets.js"></script>
+    <script src="/Elections/js/layer.js"></script>
+    <script src="/Elections/js/lazy-layer.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
