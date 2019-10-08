@@ -23,6 +23,9 @@ class LazyLayer{
           zIndex: this.zIndex
         }));
       }
+    } else{
+      alert(!!map);
+      alert(!this.members)
     }
     this.members.forEach(function(e){
       e.setMap(map);
