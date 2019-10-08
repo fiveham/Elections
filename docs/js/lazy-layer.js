@@ -12,7 +12,9 @@ class LazyLayer{
   
   setMap(map){
     if(map && !this.members){
+      alert('almost');
       this.members = [];
+      alert('did it');
       for(var i=0; i<this.urls.length; i++){
         this.members.push(new google.maps.KmlLayer({
           url: this.urls[i],
