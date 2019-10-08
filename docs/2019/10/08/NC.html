@@ -61,17 +61,17 @@
          title="Your location"></div>
     
     <!-- Layer-switcher dropdown -->
-    <!--<select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" 
+    <select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" 
             title="Switch to another map layer">
       <option>Municipal</option>
       <option>Precincts</option>
-    </select>-->
+    </select>
     
     <!-- Voting Site Toggle Button -->
-    <!--<div id="pp-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" 
+    <div id="pp-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" 
          title="Switch polling place layer">
       <span id="pp-swap">Election Day Sites</span>
-    </div>-->
+    </div>
     
     <!-- "About" Button -->
     <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
@@ -180,8 +180,8 @@
       
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
       var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
-                     //{id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
-                     //{id: "pp-toggler",     where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-toggler",     where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
                      {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
                      {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
       
@@ -242,21 +242,22 @@
         var muni = new Layer([kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/Munis.kml', 1),
                               kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/counties.kml?a', 0)]);
         //var muni  = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/muni.kmz', 0);
-        /*var vtds  = new LazyLayer(['https://fiveham.github.io/Elections/resources/2019/10/08/NC/vtd-0.kmz', 
-                                   'https://fiveham.github.io/Elections/resources/2019/10/08/NC/vtd-1.kmz'],
-                                  0);*/
+        var vtds  = new LazyLayer(['https://fiveham.github.io/Elections/resources/2019/10/08/NC/vtds_0.kmz', 
+                                   'https://fiveham.github.io/Elections/resources/2019/10/08/NC/vtds_1.kmz', 
+                                   'https://fiveham.github.io/Elections/resources/2019/10/08/NC/vtds_2.kmz', 
+                                   'https://fiveham.github.io/Elections/resources/2019/10/08/NC/vtds_3.kmz'],
+                                  0);
         
         //Maintain same sequence as dropdown list
         layers.push(muni);
-        //layers.push(vtds);
+        layers.push(vtds);
         
-        //var eday  = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/ed-sites.kml', 1);
+        var eday  = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/eday.kml', 1);
         var early = kmllayer('https://fiveham.github.io/Elections/resources/2019/10/08/NC/os-sites.kml', 1);
         
         /* Give real values to layer-pointers */
-        layer = early;
-        //layer = eday;
-        //alt   = early;
+        layer = eday;
+        alt   = early;
         /*if((new Date()) < endOfOneStop){ //Show election-day sites starting Sep 6th at 7PM when early voting ends.
           pp_toggle();
         }*/
