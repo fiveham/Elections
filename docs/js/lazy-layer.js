@@ -11,10 +11,8 @@ class LazyLayer{
   }
   
   setMap(map){
-    if(map && !this.members){
-      alert('almost');
+    if(!this.members && map){
       this.members = [];
-      alert('did it');
       for(var i=0; i<this.urls.length; i++){
         this.members.push(new google.maps.KmlLayer({
           url: this.urls[i],
@@ -23,13 +21,12 @@ class LazyLayer{
           zIndex: this.zIndex
         }));
       }
-    } else{
-      alert(!!map);
-      alert(!this.members)
     }
-    this.members.forEach(function(e){
-      e.setMap(map);
-    });
+    if(this.members){
+      this.members.forEach(function(e){
+        e.setMap(map);
+      });
+    }
   }
   
   getMap(){
