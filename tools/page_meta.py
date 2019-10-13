@@ -1,39 +1,66 @@
+"""Module to scan interactive map webpages in a Github repo and report problems
+with those html files' <meta> tags for social media sharing and a few other
+potential problems."""
+
+import io, requests
+from bs4 import BeautifulSoup
+from PIL import Image
+
 #Given a starting point in a repo on Github, recurse through the repo, checking
 #every html file in the repo by calling page_check.
 def from_github(start_url, manual_url=None):
-    import requests
-    from bs4 import BeautifulSoup
+    """Scan a Github repo for issues starting from the page at `start_url`.
+
+       Get (request) the Github page at `start_url`. Look for the <table> in
+       which files and subdirectories in a directory are placed. If there is one,
+       then recursively call `from_github` on each Github page linked in that
+       table. If there is not one, then the page is a document. If the document
+       is not html, ignore it; otherwise, grab the text content of a specific
+       part of the page where the document is presented, parse it with
+       BeautifulSoup, and send it to `page_check`.
+
+       Return a list of url-issues pairs describing the issues with each html
+       document at each url.
+
+       :param start_url: Scan this page and any pages it links to as files or
+       subdirectories within the repo.
+
+       :param manual_url: If specified, the canonical url read from an html file
+       in the repo is checked for equality with this url."""
+    
+    start_page = read_html_doc(start_url)
+    
     result = []
-    if ('.' not in start_url[start_url.rfind("/")+1:] #page represents file
-        or start_url.endswith(".html")): #file is not html page
-        
-        start_resp = requests.get(start_url)
-        start_page = BeautifulSoup(start_resp.text, 'html.parser')
-        
-        if start_url.endswith(".html"): #html file page
-            t = start_page.find(lambda tag:(tag.name == 'td' and
-                                            'data-line-number' in tag.attrs and
-                                            tag['data-line-number'] == '1'))
-            table = t.parent.parent
-            html_text = table.get_text()
-            soup = BeautifulSoup(html_text, 'html.parser')
-            issues = page_check(soup, manual_url)
-            put_in = {'url':start_url, 'issues':issues}
-            result.append(put_in)
-        else: #page represents directory
-            table = start_page.find(
-                    lambda tag : (tag.name == 'table' and
+    if start_url.endswith('.html'): #html file
+        t = start_page.find(
+                lambda tag:(tag.name == 'td' and
+                            'data-line-number' in tag.attrs and
+                            tag['data-line-number'] == '1'))
+        table = t.parent.parent
+        html_text = table.get_text()
+        soup = BeautifulSoup(html_text, 'html.parser')
+        issues = page_check(soup, manual_url)
+        put_in = {'url':start_url, 'issues':issues}
+        result.append(put_in)
+    elif '.' not in start_url[start_url.rfind("/")+1:]: #directory
+        table = start_page.find(
+                lambda tag : (tag.name == 'table' and
+                              'class' in tag.attrs and
+                              all(x in tag['class'] 
+                                  for x in ('files','js-navigation-container'))))
+        tbody = table.tbody
+        trs = tbody(lambda tag : (tag.name=="tr" and
                                   'class' in tag.attrs and
-                                  all(x in tag['class'] 
-                                      for x in ('files','js-navigation-container'))))
-            tbody = table.tbody
-            trs = tbody(lambda tag : (tag.name=="tr" and
-                                      'class' in tag.attrs and
-                                      'js-navigation-item' in tag['class']))
-            for tr in trs:
-                path = tr.a['href']
-                result.extend(from_github('https://github.com'+path))
+                                  'js-navigation-item' in tag['class']))
+        for tr in trs:
+            path = tr.a['href']
+            result.extend(from_github('https://github.com'+path))
     return result
+
+def read_html_doc(github_url):
+    assert github_url.endswith('.html')
+    start_resp = requests.get(github_url)
+    return BeautifulSoup(start_resp.text, 'html.parser')
 
 std_tags = [
     "title"]
@@ -68,6 +95,67 @@ known_nonstd_metas = [
     "twitter:site", #Twitter handle for the website
     "twitter:creator"] #Twitter handle for the creator as a person
 
+_HOST = 'https://fiveham.github.io'
+
+def image_issues(page, metas):
+    """Fetch the images mentioned on the page and check that they match criteria
+       for them specified on the page or specified in this script.
+
+       :param page: an html document (bs4.BeautifulSoup)."""
+    
+    
+    
+    img_issues = []
+
+    # Check the favicon
+    favicon = page.find('link', rel='shortcut icon')
+    favicon_url = _HOST + favicon['href']
+    favicon_response = requests.get(favicon_url)
+
+    #Check that the file exists
+    if favicon_response.status_code != 200:
+        img_issues.append('Favicon not found (status ' +
+                          f'{favicon_response.status_code})')
+    else: # the file does exist
+        # check that it is square (ideal for favicons)
+        i = Image.open(io.BytesIO(favicon_response.content))
+        x, y = i.size
+        if x != y:
+            img_issues.append(f'Favicon not square ({x} wide by {y} high)')
+
+        # check that the Content-Type header for the image response matches the
+        # extension on the file name as requested
+        filetype = favicon_url[favicon_url.rfind('.')+1:]
+        try:
+            content_type = favicon_response.headers['Content-Type']
+        except KeyError:
+            # If there isn't even a Content-Type header, that's weird
+            img_issues.apppend('Favicon file response has no Content-Type')
+        else:
+            file_content_type = 'image/' + filetype.lower()
+            if content_type != 'image/' + filetype.lower():
+                img_issues.append(
+                        'Favicon file response: content-type ' +
+                        f'mismatch: {content_type} != {file_content_type}')
+    # Done checking favicon
+    
+    # Check the og and twitter image(s)
+    width = int(metas['og:image:width'])
+    height = int(metas['og:image:height'])
+    for meta in ('og:image', 'og:image:url', 'og:image:secure_url', 'twitter:image'):
+        url = metas[meta]
+        response = requests.get(url)
+        if response.status_code != 200:
+            img_issues.append(f'{meta} file not found')
+        else:
+            i = Image.open(io.BytesIO(response.content))
+            w, h = i.size
+            if not (w == width and h == height):
+                img_issues.append(f'{meta} dimension mismatch: ' +
+                                  f'{width}x{height} promised; ' +
+                                  f'{w}x{h} received')
+    return img_issues
+
 #given a BeautifulSoup of an html page and (preferably) the url of the page,
 #return a list of problems with the page's meta tags
 #For the meta tags to not have any problems, they just need to provide adequate
@@ -83,6 +171,10 @@ def page_check(page, url=None):
               else meta['property']):" ".join(meta['content'].split())
              for meta in page.head('meta')
              if meta.has_attr('content')}
+    
+    #isses based on actually loading images
+    issues.extend(image_issues(page, metas))
+    
     links = {}
     for link in page.head('link'):
         if ('rel' in link.attrs and
@@ -101,7 +193,7 @@ def page_check(page, url=None):
                           [metas, 'twitter:url'],
                           [links, 'canonical']]
             if key in d}
-    #Note whether there are too many
+    #Note whether there are too many canonical urls
     if len(urls) != 1:
         issues.append("Multiple canonical urls: " + str(urls))
     del urls
