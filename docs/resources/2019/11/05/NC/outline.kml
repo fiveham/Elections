@@ -2,16 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>NC Outline</name>
-	<Style id="failed">
-		<PolyStyle>
-			<color>7fffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="failed0">
-		<PolyStyle>
-			<color>7fffffff</color>
-		</PolyStyle>
-	</Style>
 	<StyleMap id="failed1">
 		<Pair>
 			<key>normal</key>
@@ -22,6 +12,22 @@
 			<styleUrl>#failed</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="failed">
+		<LineStyle>
+			<color>ff8d8d8d</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed0">
+		<LineStyle>
+			<color>ff8d8d8d</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffffff</color>
+		</PolyStyle>
+	</Style>
 	<Placemark>
 		<name>North Carolina</name>
 		<styleUrl>#failed1</styleUrl>
