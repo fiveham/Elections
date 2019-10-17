@@ -1,1 +1,222 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/Elections/images/nc-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="canonical" href="https://fiveham.github.io/Elections/2019/10/08/NC.html">
+    <meta name="robots" content="index,follow">
+    <meta name="description" 
+          content="Interactive election map of municipalities, candidates, and polling places for the November 5th, 2019 municipal 
+                   elections in North Carolina">
+    
+    <meta property="og:image" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-11-05-2019.png">
+    <meta property="og:image:url" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-11-05-2019.png">
+    <meta property="og:image:secure_url" 
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-11-05-2019.png">
+    <meta property="og:image:alt" 
+          content="">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://fiveham.github.io/Elections/2019/10/08/NC.html">
+    <meta property="og:type" content="website">
+    <meta property="og:determiner" content="">
+    <meta property="og:title" content="Interactive election map of towns, candidates, precincts, and polling places for the NC 
+                                       municipal elections on Oct 8, 2019">
+    <meta property="og:description" 
+          content="Interactive election map of towns, candidates, precincts, and polling places for the NC 
+                                       municipal elections on Oct 8, 2019">
+    
+    <meta property="og:locale" content="en_US">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://fiveham.github.io/Elections/2019/10/08/NC.html">
+    <meta name="twitter:title" content="Interactive election map of towns, candidates, precincts, and polling places for the NC 
+                                        municipal elections on Oct 8, 2019">
+    <meta name="twitter:description" 
+          content="Interactive election map of towns, candidates, precincts, and polling places for the NC 
+                   municipal elections on Oct 8, 2019">
+    <meta name="twitter:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/nc-10-08-2019.png">
+    <meta name="twitter:image:alt" content="">
+    
+    <title>NC Muncipal Elections Oct 8, 2019 - Interactive Map</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <!-- Geolocator Button -->
+    <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" 
+         title="Your location"></div>
+    
+    <!-- Layer-switcher dropdown -->
+    <select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" 
+            title="Switch to another map layer">
+      <option>Municipal</option>
+      <option>Countyish</option>
+    </select>
+    
+    <!-- Voting Site Toggle Button -->
+    <div id="pp-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" 
+         title="Switch polling place layer">
+      <span id="pp-swap">Election Day Sites</span>
+    </div>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">NC Municipal Elections, October 8th, 2019</p>
+            <p>
+            Many more will hold theirs on November 5th.</p>
+            <p>Counties are represented on this map if any part of the county is involved with any municipal election.</p>
+            <p class="heading">Legend</p>
+          <p><table>
+              <tr><th class="center">Symbol</th><th>Site Type</th></tr>
+              <tr>
+                <td style="background-image: url('https://maps.google.com/mapfiles/kml/paddle/purple-circle.png');" 
+                    title="Blue, yellow, green, and purple map marker icons"></td>
+                <td>One-stop (early voting) sites. Same county, same color.</td></tr>
+              <tr>
+                <td style="background-image: url('https://maps.google.com/mapfiles/kml/shapes/ranger_station.png');" 
+                    title="Building with a flag on top"></td>
+                <td>City/Town</td></tr>
+            </table></p>
+            <p class="heading">Sources</p>
+            <p><ul>
+              <li>Candidates: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://dl.ncsbe.gov/?prefix=Elections/2019/Candidate%20Filing/" 
+                  title="NCSBE downloads - 2019 candidate filing">
+                 NCSBE Candidate Listing File</a>
+              <li>One-stop (early voting) sites: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://vt.ncsbe.gov/ossite" 
+                  title="NCSBE one-stop site locator">
+                 NCSBE early voting site lookup</a>
+              <!--<li>Thing: 
+                <a target="_blank" rel="nofollow" 
+                  href="" 
+                  title="">
+                 Place/Entity</a>-->
+            </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      var layers = [];
+      var alt_pp, active_pp, map, state_bg;
+      
+      var ncCenter = {lat: 35.5, lng: -79.9};
+      var wideBounds = {west:-82.745139, east:-75.887027, south:34.805156, north:36.562339};
+      var endOfOneStop = new Date(2019, 10, 1, 19, 0, 0, 0) //Nov 1st at 7PM (January is Month Zero)
+      
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-toggler",     where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: ncCenter,
+          mapTypeId: 'hybrid'
+        }); //todo use bounds
+        
+        state_bg = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/NC/pp_nov5.kml', 0);
+        var muni = new Layer([kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/NC/munis_0.kmz', 1),
+                              kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/NC/munis_0.kmz', 1)]);
+        var county  = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/NC/county.kml', 1);
+        
+        var early = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/NC/ossite.kml', 2);
+        var eday  = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/NC/pp_nov5.kml', 2);
+        
+        //Maintain same sequence as dropdown list
+        layers.push(muni);
+        layers.push(county);
+        
+        /* Give real values to layer-pointers */
+        layer = eday;
+        alt   = early;
+        if((new Date()) < endOfOneStop){
+          pp_toggle();
+        }
+        
+        add_widgets();
+        //map.fitBounds(choose_bounds());
+        map.fitBounds(wideBounds);
+        
+        //reset_layers(); //turn first layer on
+        state_bg.setMap(map);
+        muni.setMap(map);
+        layer.setMap(map);
+      }
+      
+      function kmllayer(url, zIndex){
+        var result = new google.maps.KmlLayer({
+          url: url,
+          map: null,
+          preserveViewport: true,
+          zIndex: zIndex
+        });
+        return result;
+      }
+      
+      function reset_layers(){
+        for(var i = 0; i < layers.length; i++){
+          var layer = layers[i];
+          layer.setMap(null);
+        }
+        var index = document.getElementById('layer-switcher').selectedIndex;
+        var layer = layers[index];
+        layer.setMap(map);
+      }
+      
+      function pp_toggle(){
+        var temp = alt;
+        alt = layer;
+        layer = temp;
+        alt.setMap(null);
+        layer.setMap(map);
+        document.getElementById("pp-swap").innerHTML = (
+            document.getElementById("pp-swap").innerHTML.startsWith("Early") 
+            ? "Election Day Sites" 
+            : "Early Voting Sites");
+      }
+    </script>
+    <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/add-widgets.js"></script>
+    <script src="/Elections/js/layer.js"></script>
+    <script src="/Elections/js/lazy-layer.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
