@@ -162,8 +162,8 @@
         layers.push(county);
         
         /* Give real values to layer-pointers */
-        layer = eday;
-        alt   = early;
+        active_pp = eday;
+        alt_pp    = early;
         if((new Date()) < endOfOneStop){
           pp_toggle();
         }
@@ -175,7 +175,7 @@
         //reset_layers(); //turn first layer on
         state_bg.setMap(map);
         muni.setMap(map);
-        layer.setMap(map);
+        active_pp.setMap(map);
       }
       
       function kmllayer(url, zIndex){
@@ -199,11 +199,11 @@
       }
       
       function pp_toggle(){
-        var temp = alt;
-        alt = layer;
-        layer = temp;
-        alt.setMap(null);
-        layer.setMap(map);
+        var temp = alt_pp;
+        alt_pp = active_pp;
+        active_pp = temp;
+        alt_pp.setMap(null);
+        active_pp.setMap(map);
         document.getElementById("pp-swap").innerHTML = (
             document.getElementById("pp-swap").innerHTML.startsWith("Early") 
             ? "Election Day Sites" 
