@@ -193,8 +193,6 @@
         return result;
       }
       
-      var layer_warnings = [];
-      
       function reset_layers(){
         for(var i = 0; i < layers.length; i++){
           var layer = layers[i];
@@ -203,19 +201,6 @@
         var index = document.getElementById('layer-switcher').selectedIndex;
         var layer = layers[index];
         layer.setMap(map);
-        
-        var sheet = layer.members[0];
-        var key = index + "0";
-        if(!layer_warnings.includes(key) && sheet.status !== undefined && sheet.status !== "OK"){
-          alert("Weird status '"+sheet.status+"' for layer "+sheet.url);
-          layer_warnings.push(key);
-        }
-        sheet = layer.members[1];
-        key = index + "1";
-        if(!layer_warnings.includes(key) && sheet.status !== undefined && sheet.status !== "OK"){
-          alert("Weird status '"+sheet.status+"' for layer "+sheet.url);
-          layer_warnings.push(key);
-        }
       }
       
     </script>
