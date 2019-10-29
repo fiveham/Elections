@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NJ County Clerk offices for early voting 2019</name>
+	<Style id="color3">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="color1">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="color2">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="unsure">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info_circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="color4">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<description><![CDATA[Sussex County Clerk office for early voting<br><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//83+Spring+Street+Newton%2C+NJ+07860-2080">83 Spring Street, Suite 304<br>Newton, NJ 07860-2080<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.sussexcountyclerk.org/">County clerk website</a><li><a target="_blank" rel="nofollow" title="Other county web page" href="https://sussexcountyclerk.org/elections/">Other county web page</a></ul>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-74.752033,41.058444,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Passaic County Clerk office for early voting<br><br><b>County Administration Building</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//401+Grand+Street+Paterson%2C+NJ+07505">401 Grand Street, Room 130<br>Paterson, NJ 07505<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.passaiccountynj.org/government/elected_and_appointed_officials/passaic_county_clerk/vote_by_mail.php">County clerk website</a><li><a target="_blank" rel="nofollow" title="Other county web page" href="http://www.passaiccountynj.org/government/elected_and_appointed_officials/passaic_county_clerk/index.php">Other county web page</a></ul>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-74.170343,40.913406,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Bergen County Clerk office for early voting<br><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//One+Bergen+County+Plaza+Hackensack%2C+NJ+07601">One Bergen County Plaza, Room 130<br>Hackensack, NJ 07601<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.bergencountyclerk.org/">County clerk website</a></ul>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-74.043088,40.87704,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Warren County Clerk office for early voting<br><br><b>County Courthouse</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//413+Second+Street+Belvidere%2C+NJ+07823-1500">413 Second Street<br>Belvidere, NJ 07823-1500<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.co.warren.nj.us/countyclerk/">County clerk website</a></ul>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-75.076475,40.827639,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Morris County Clerk office for early voting<br><br><b>Administration & Records Building</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//10+Court+Street+Morristown%2C+NJ++07963-0315">10 Court Street<br>Morristown, NJ  07963-0315<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.morriscountyclerk.org/">County clerk website</a></ul>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-74.48396,40.796886,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Essex County Clerk office for early voting<br><br><b>Hall of Records</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//465+Dr.+Martin+Luther+King+Jr.+Boulevard+Newark%2C+NJ+07102">465 Dr. Martin Luther King Jr. Boulevard, Room 247<br>Newark, NJ 07102<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.essexclerk.com/">County clerk website</a></ul>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-74.179738,40.73752,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Hudson County Clerk office for early voting<br><br><b>Hudson County Plaza</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//257+Cornelison+Avenue+Jersey+City%2C+NJ+07302">257 Cornelison Avenue, 4th Floor<br>Jersey City, NJ 07302<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.hudsoncountyclerk.org/">County clerk website</a></ul>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-74.06062799999999,40.724408,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Union County Clerk office for early voting<br><br><b>County Courthouse</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//2+Broad+Street+Elizabeth%2C+NJ+07201-2299">2 Broad Street, Room 113<br>Elizabeth, NJ 07201-2299<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://ucnj.org/county-clerk/">County clerk website</a><li><a target="_blank" rel="nofollow" title="Other county web page" href="http://www.unioncountyvotes.com/early-voting/">Other county web page</a></ul>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-74.216058,40.662118,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Union County Clerk office for early voting<br><br><b>Fraser Building</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//300+North+Avenue+East+Westfield%2C+New+Jersey+07090">300 North Avenue East<br>Westfield, New Jersey 07090<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://ucnj.org/county-clerk/">County clerk website</a><li><a target="_blank" rel="nofollow" title="Other county web page" href="http://www.unioncountyvotes.com/early-voting/">Other county web page</a></ul>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-74.34193999999999,40.650644,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Somerset County Clerk office for early voting<br><br><b>County Administration Building</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//20+Grove+Street+Somerville%2C+NJ+08876-1262">20 Grove Street<br>Somerville, NJ 08876-1262<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.co.somerset.nj.us/government/elected-officials/county-clerk">County clerk website</a></ul>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-74.609402,40.567976,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Hunterdon County Clerk office for early voting<br><br><b>Hall of Records</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//71+Main+Street+Flemington%2C+NJ+08822-2900">71 Main Street<br>Flemington, NJ 08822-2900<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.co.hunterdon.nj.us/countyclerk.htm">County clerk website</a></ul>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-74.859281,40.510637,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Middlesex County Clerk office for early voting<br><br><b>County Administration Building</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//75+Bayard+Street+New+Brunswick%2C+NJ+08901-1110">75 Bayard Street, 4th Floor<br>New Brunswick, NJ 08901-1110<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.co.middlesex.nj.us/Government/Departments/CS/Pages/County%20Clerk/County-Clerk---Elections.aspx">County clerk website</a></ul>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-74.44636300000001,40.494448,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Monmouth County Clerk office for early voting<br><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//300+Halls+Mill+Road+Freehold%2C+NJ%C2%A0+07728">300 Halls Mill Road<br>Freehold, NJ 07728<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.monmouthcountyvotes.com/">County clerk website</a></ul>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-74.248091,40.241024,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Mercer County Clerk office for early voting<br><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//209+South+Broad+Street+Trenton%2C+NJ+08650">209 South Broad Street, courthouse annex<br>Trenton, NJ 08650<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.mercercounty.org/government/county-clerk">County clerk website</a></ul>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-74.76266,40.215871,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Ocean County Clerk office for early voting<br>(maybe?)<br><br><b>NORTHERN OCEAN COUNTY RESOURCE CENTER</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//225+4th+Street+Lakewood%2C+NJ">225 4th Street, Room 209<br>Lakewood, NJ<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.oceancountyclerk.com/">County clerk website</a><li><a target="_blank" rel="nofollow" title="Other county web page" href="http://www.oceancountyclerk.com/frmContact">Other county web page</a></ul>]]></description>
+		<styleUrl>#unsure</styleUrl>
+		<Point>
+			<coordinates>-74.213785,40.094481,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Burlington County Clerk office for early voting<br><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//50+Rancocas+Road+Mount+Holly%2C+NJ+08060-1397">50 Rancocas Road, 3rd Floor<br>Mount Holly, NJ 08060-1397<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.co.burlington.nj.us/192/County-Clerk">County clerk website</a></ul>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-74.78990899999999,39.994812,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Ocean County Clerk office for early voting<br>(maybe?)<br><br><b>OCEAN COUNTY MALL</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//1201+Hooper+Avenue+Toms+River%2C+NJ+08753">1201 Hooper Avenue<br>Toms River, NJ 08753<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.oceancountyclerk.com/">County clerk website</a><li><a target="_blank" rel="nofollow" title="Other county web page" href="http://www.oceancountyclerk.com/frmContact">Other county web page</a></ul>]]></description>
+		<styleUrl>#unsure</styleUrl>
+		<Point>
+			<coordinates>-74.17907200000001,39.979738,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Ocean County Clerk office for early voting<br><br><b>Court House</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//118+Washington+Street+Toms+River%2C+NJ+08754-2191">118 Washington Street<br>Toms River, NJ 08754-2191<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.oceancountyclerk.com/">County clerk website</a><li><a target="_blank" rel="nofollow" title="Other county web page" href="http://www.oceancountyclerk.com/frmContact">Other county web page</a></ul>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-74.19501,39.953938,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Gloucester County Clerk office for early voting<br><br><b>Court House</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//1+North+Broad+Street+Woodbury%2C+NJ+08096-7129">1 North Broad Street, 1st Floor<br>Woodbury, NJ 08096-7129<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.co.gloucester.nj.us/depts/c/cclerk/default.asp">County clerk website</a></ul>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-75.15338300000001,39.838584,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Gloucester County Clerk office for early voting<br><br><b>County Store in the Deptford Mall</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//1750+Deptford+Center+Rd+Deptford+Township%2C+NJ+08096">1750 Deptford Center Rd, 2nd level<br>Deptford Township, NJ 08096<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.co.gloucester.nj.us/depts/c/cclerk/default.asp">County clerk website</a></ul>]]></description>
+		<styleUrl>#color4</styleUrl>
+		<Point>
+			<coordinates>-75.097194,39.832604,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Camden County Clerk office for early voting<br><br><b>Camden County Elections and Archive Center</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//100+University+Court+Blackwood%2C+NJ+08012">100 University Court, 1st Floor<br>Blackwood, NJ 08012<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.camdencounty.com/service/county-clerk/">County clerk website</a></ul>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-75.047355,39.775901,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Ocean County Clerk office for early voting<br>(maybe?)<br><br><b>OCEAN COUNTY SOUTHERN SERVICE CENTER</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//179+South+Main+Street+Manahawkin%2C+NJ">179 South Main Street, Room 4<br>Manahawkin, NJ<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.oceancountyclerk.com/">County clerk website</a><li><a target="_blank" rel="nofollow" title="Other county web page" href="http://www.oceancountyclerk.com/frmContact">Other county web page</a></ul>]]></description>
+		<styleUrl>#unsure</styleUrl>
+		<Point>
+			<coordinates>-74.261405,39.692651,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Salem County Clerk office for early voting<br><br><b>Fifth Street Complex</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//110+Fifth+Street+Salem%2C+NJ++08079">110 Fifth Street, Suite 200<br>Salem, NJ  08079<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://salemcountyclerk.org/">County clerk website</a></ul>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-75.46797100000001,39.573327,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Atlantic County Clerk office for early voting<br><br><b>Historic County Building</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//5901+Main+Street+Mays+Landing%2C+NJ+08330-1797">5901 Main Street<br>Mays Landing, NJ 08330-1797<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.atlanticcountyclerk.org/">County clerk website</a></ul>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-74.726052,39.451947,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Cumberland County Clerk office for early voting<br><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//60+W.+Broad+Street+Bridgeton%2C+NJ+08302-2665">60 W. Broad Street, Room A137<br>Bridgeton, NJ 08302-2665<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://ccclerknj.com/">County clerk website</a></ul>]]></description>
+		<styleUrl>#color3</styleUrl>
+		<Point>
+			<coordinates>-75.239192,39.427364,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Atlantic County Clerk office for early voting<br><br><b>Satellite County Clerk's Office</b><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//1333+Atlantic+Ave+Atlantic+City%2C+NJ+08401">1333 Atlantic Ave<br>Atlantic City, NJ 08401<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://www.atlanticcountyclerk.org/">County clerk website</a></ul>]]></description>
+		<styleUrl>#color1</styleUrl>
+		<Point>
+			<coordinates>-74.427984,39.362431,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description><![CDATA[Cape May County Clerk office for early voting<br><br><a target="_blank" rel="nofollow" title="Driving directions" href="https://www.google.com/maps/dir//7+N.+Main+Street+Cape+May+Court+House%2C+NJ+08210-5000">7 N. Main Street<br>Cape May Court House, NJ 08210-5000<br>(directions)</a><br><br><b>County Clerk Website</b><br><ul><li><a target="_blank" rel="nofollow" title="County clerk website" href="http://capemaycountynj.gov/189/County-Clerk">County clerk website</a><li><a target="_blank" rel="nofollow" title="Other county web page" href="https://www.capemaycountyvotes.com/">Other county web page</a></ul>]]></description>
+		<styleUrl>#color2</styleUrl>
+		<Point>
+			<coordinates>-74.823858,39.083449,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
