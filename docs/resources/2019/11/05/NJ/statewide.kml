@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
+	<name>statewide.kml</name>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>40000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffffff</color>
+		</PolyStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin">
+		<LineStyle>
+			<color>40000000</color>
+		</LineStyle>
 		<PolyStyle>
 			<color>7fffffff</color>
 		</PolyStyle>
@@ -16,14 +31,6 @@
 			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin">
-		<IconStyle>
-			<scale>1.2</scale>
-		</IconStyle>
-		<PolyStyle>
-			<color>7fffffff</color>
-		</PolyStyle>
-	</Style>
 	<Placemark>
 		<description><![CDATA[<b>Statewide Issue(s)</b>
 <br>
