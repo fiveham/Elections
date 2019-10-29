@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NJ Elections 11/05/2019 - Interactive Map</title>
+  
+  <link rel="shortcut icon" href="/Elections/images/favicon/nj-rwb-check.png">
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <link rel="canonical" href="https://fiveham.github.io/Elections/2019/primary/NJ.html">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="New Jersey state legislature election 2019: Interactive map of districts 
+                                    and candidates for General Assembly and state senate and county clerks' offices
+                                    for early voting.">
+  
+  <meta property="og:image" 
+        content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/og/nj-2019.png">
+  <meta property="og:image:url" 
+        content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/og/nj-2019.png">
+  <meta property="og:image:secure_url" 
+        content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/og/nj-2019.png">
+  <meta property="og:image:alt" 
+        content="">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <meta property="og:url" content="https://fiveham.github.io/Elections/2019/primary/NJ.html">
+  <meta property="og:type" content="website">
+  <meta property="og:determiner" content="">
+  <meta property="og:title" content="NJ Election 11/05/2019">
+  <meta property="og:description" 
+        content="An interactive map of the districts and candidates for the general election on November 5th 2019 in NJ">
+
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://fiveham.github.io/Elections/2019/11/05/NJ.html">
+  <meta name="twitter:title" content="NJ Election 11/05/2019">
+  <meta name="twitter:description" 
+        content="An interactive map of the districts and candidates for the general election on November 5th 2019 in NJ">
+        
+  <meta name="twitter:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/og/nj-2019.png">
+  <meta name="twitter:image:alt" 
+        content="">
+
+  <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+  <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+  <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+  <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+  <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+  <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+  
+  <style>
+  </style>
+</head>
+<body>
+  <!-- Geolocator Button -->
+  <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" 
+      title="Go to your geolocation"></div>
+    
+    <!-- Layer-switcher dropdown -->
+    <select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" 
+    title="Switch to another map layer">
+      <option>Legislature</option>
+      <option>County/Early-Vote</option>
+      <option>Statewide</option>
+    </select>
+
+  <!-- NJ Dept of State Polling Place Locator Button -->
+  <a id="pp-link" class="installed controls top text" title="NJ Department of State polling place locator" rel="nofollow" 
+     href="https://voter.njsvrs.com/elections/polling-lookup.html" target="_blank">
+    <span id="pp-swap">Find Polling Place</span>
+  </a>
+
+  <!-- "About" Button -->
+  <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+       title="About this map">
+    <span>About</span>
+  </div>
+
+  <!-- "About" Modal -->
+  <div id="about-modal" class="installed">
+    <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+    <div class="has-scrollbar">
+      <div class="box" data-balloonish="dims guts">
+        <div class="content">
+          <div class="social share"></div>
+          
+          <p class="heading">Districts, and Candidates for the November 5th 2019 State Legislature Election in NJ</p>
+          <p>Clicking on a district brings up an infowindow listing the candidates, each paired with their party affiliation, all arranged 
+             in a table. Candidates are sorted alphabetically by party and then by name.</p>
+          
+          <p class="heading">Sources</p>
+          <p><ul>
+          <li>Candidates: <a href="https://ballotpedia.org/New_Jersey_General_Assembly_elections,_2019" rel="nofollow" target="_blank" 
+                             title="New Jersey General Assembly elections 2019 - Ballotpedia">Ballotpedia</a></li>
+          <li>District polygons: 
+            <a href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2018&layergroup=State+Legislative+Districts" 
+               rel="nofollow" target="_blank" 
+               title="2018 TIGER/Line&reg; Shapefiles: State Legislative Districts - US Census Bureau">US Census Bureau</a>
+          </li>
+          <li>County Clerk sites: <a href="https://www.njelections.org/county-election-officals.shtml" rel="nofollow" target="_blank" 
+                                 title="County Election Officials - NJ Department of State">New Jersey Department of State</a></li>
+          <li>County borders: <a 
+          href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=Counties+%28and+equivalent%29" 
+          rel="nofollow" target="_blank" title="">US Census Bureau</a></li>
+          </ul></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Map -->
+  <div id="map"></div>
+  
+  <script>
+    var nj_center = {lat: 40.07303999999999, lng: -74.72432299999997};
+    var nj_bounds = {west: -75.564, east: -73.885, south: 38.789, north: 41.357};
+    var map;
+    var layers = [];
+    var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+    var widgets = [{id: "geolocation", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                   {id: "pp-link",     where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                   {id: "about-btn",   where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                   {id: "about-modal", where: 13 /*google.maps.ControlPosition.CENTER*/}];
+    
+    function initMap(){
+      map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 8,
+        center: nj_center,
+        mapTypeId: 'roadmap'
+      });
+      
+      var leg = kmllayer('http://fiveham.github.io/Elections/resources/2019/11/05/NJ/legislature.kmz');
+      var evs = Layer([
+        kmllayer('http://fiveham.github.io/Elections/resources/2019/11/05/NJ/counties.kmz'),
+        kmllayer('http://fiveham.github.io/Elections/resources/2019/11/05/NJ/early_vote.kml')]);
+      var stw = kmllayer('http://fiveham.github.io/Elections/resources/2019/11/05/NJ/statewide.kml');
+      
+      layers.push(leg);
+      layers.push(evs);
+      layers.push(stw);
+      
+      add_widgets();
+      reset_layers();
+    }
+    
+    function kmllayer(url, zIndex){
+      var result = new google.maps.KmlLayer({
+        url: url,
+        map: null,
+        preserveViewport: true,
+        zIndex: zIndex || 0
+      });
+      return result;
+    }
+    
+    function reset_layers(){
+      for(var i = 0; i < layers.length; i++){
+        var layer = layers[i];
+        layer.setMap(null);
+      }
+      var index = document.getElementById('layer-switcher').selectedIndex;
+      var layer = layers[index];
+      layer.setMap(map);
+    }
+  </script>
+  <script src="/Elections/js/geolocator.js"></script>
+  <script src="/Elections/js/about-modal.js"></script>
+  <script src="/Elections/js/add-widgets.js"></script>
+  <script src="/Elections/js/layer.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+  </script>
+</body>
+</html>
