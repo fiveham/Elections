@@ -63,7 +63,7 @@
     <select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" 
     title="Switch to another map layer">
       <option>Legislature</option>
-      <option>County/Early-Vote</option>
+      <option>Early Vote</option>
       <option>Statewide</option>
     </select>
 
@@ -137,7 +137,7 @@
       var evs = new Layer([
         kmllayer('http://fiveham.github.io/Elections/resources/2019/11/05/NJ/counties.kmz'),
         kmllayer('http://fiveham.github.io/Elections/resources/2019/11/05/NJ/early_vote.kml')]);
-      var stw = kmllayer('http://fiveham.github.io/Elections/resources/2019/11/05/NJ/statewide.kml');
+      var stw = kmllayer('http://fiveham.github.io/Elections/resources/2019/11/05/NJ/statewide.kml?');
       
       layers.push(leg);
       layers.push(evs);
