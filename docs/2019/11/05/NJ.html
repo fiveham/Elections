@@ -120,10 +120,11 @@
     var map;
     var layers = [];
     var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
-    var widgets = [{id: "geolocation", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
-                   {id: "pp-link",     where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
-                   {id: "about-btn",   where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
-                   {id: "about-modal", where: 13 /*google.maps.ControlPosition.CENTER*/}];
+    var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                   {id: "layer-switcher", where: 1 /*TOP_LEFT*/ },
+                   {id: "pp-link",        where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                   {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                   {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
     
     function initMap(){
       map = new google.maps.Map(document.getElementById('map'), {
@@ -133,7 +134,7 @@
       });
       
       var leg = kmllayer('http://fiveham.github.io/Elections/resources/2019/11/05/NJ/legislature.kmz');
-      var evs = Layer([
+      var evs = new Layer([
         kmllayer('http://fiveham.github.io/Elections/resources/2019/11/05/NJ/counties.kmz'),
         kmllayer('http://fiveham.github.io/Elections/resources/2019/11/05/NJ/early_vote.kml')]);
       var stw = kmllayer('http://fiveham.github.io/Elections/resources/2019/11/05/NJ/statewide.kml');
@@ -144,6 +145,7 @@
       
       add_widgets();
       reset_layers();
+      map.fitBounds(nj_bounds);
     }
     
     function kmllayer(url, zIndex){
