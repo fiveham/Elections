@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <link rel="shortcut icon" href="/Elections/images/favicon/ma.png">
+    <link rel="shortcut icon" href="/Elections/images/favicon/ms-rwb-check.png">
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     
@@ -40,7 +40,7 @@
     <meta name="twitter:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/MA/MA-11-05-2019.png">
     <meta name="twitter:image:alt" content="">
     
-    <title>MA Muncipal Elections Nov 5, 2019 - Interactive Map</title>
+    <title>MS Elections Nov 5, 2019 - Interactive Map</title>
     
     <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
     <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
@@ -138,9 +138,9 @@
         });
         
         var files = ['house.kmz', 'senate.kmz', 'das.kml', 'cns.kml', 'statewide.kml', 'county.kml'];
-        for(var i=0; i<urls.length; i++){
-          var url = urls[i];
-          layers.push(kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/MS/' + url));
+        for(var i=0; i<files.length; i++){
+          var url = 'https://fiveham.github.io/Elections/resources/2019/11/05/MS/' + files[i];
+          layers.push(kmllayer(url));
         }
         
         add_widgets();
