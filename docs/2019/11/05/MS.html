@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/Elections/images/favicon/ma.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="canonical" href="https://fiveham.github.io/Elections/2019/11/05/MA.html">
+    <meta name="robots" content="index,follow">
+    <meta name="description" 
+          content="Interactive map of municipalities holding elections or referenda in Massachusetts on November 5th, 2019">
+    
+    <meta property="og:image" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ma/ma-11-05-2019.png">
+    <meta property="og:image:url" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ma/ma-11-05-2019.png">
+    <meta property="og:image:secure_url" 
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ma/ma-11-05-2019.png">
+    <meta property="og:image:alt" 
+          content="">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://fiveham.github.io/Elections/2019/11/05/MA.html">
+    <meta property="og:type" content="website">
+    <meta property="og:determiner" content="">
+    <meta property="og:title" 
+          content="Interactive map of municipalities holding elections or referenda in Massachusetts on November 5th, 2019">
+    <meta property="og:description" 
+          content="Interactive map of municipalities holding elections or referenda in Massachusetts on November 5th, 2019">
+    
+    <meta property="og:locale" content="en_US">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://fiveham.github.io/Elections/2019/11/05/MA.html">
+    <meta name="twitter:title" 
+          content="Interactive map of municipalities holding elections or referenda in Massachusetts on November 5th, 2019">
+    <meta name="twitter:description" 
+          content="Interactive map of municipalities holding elections or referenda in Massachusetts on November 5th, 2019">
+    <meta name="twitter:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/MA/MA-11-05-2019.png">
+    <meta name="twitter:image:alt" content="">
+    
+    <title>MA Muncipal Elections Nov 5, 2019 - Interactive Map</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <!-- Geolocator Button -->
+    <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" 
+         title="Your location"></div>
+    
+    <!-- Layer-switcher dropdown -->
+    <select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" 
+            title="Switch to another category of offices">
+      <option>State House</option>
+      <option>State Senate</option>
+      <option>Dist. Attorney</option>
+      <option>C/N/S Districts</option>
+      <option>Statewide</option>
+      <option>County/Etc</option>
+    </select>
+    
+    <!-- Polling Place Locator Button -->
+    <a id="pp-link" class="installed controls top text" title="MA polling place locator" rel="nofollow" 
+      href="http://www.sec.state.ma.us/wheredoivotema/bal/MyElectionInfo.aspx" target="_blank">
+      <span id="pp-swap">Find Polling Place</span>
+    </a>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            
+            <p class="heading">MA Municipal Elections, November 5th, 2019</p>
+            <p>Fifty-eight towns and cities across Massachusetts will hold elections for municipal offices and some referenda
+               on November 5th.</p>
+            <p>The outlines for municipalites on this map may not necessarily perfectly represent the boundaries controling whether a 
+               voter is qualified to vote for a town's municipal offices. Check your <a title="NCSBE Voter Lookup" rel="nofollow" 
+               target="_blank" href="https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx">voter information</a> 
+               to verify.</p>
+
+            <p class="heading">Sources</p>
+            <p><ul>
+              <li>Municipality borders: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points" 
+                  title="Massachusetts Document Repository">
+                 Massachusetts Document Repository</a>
+              <li>Which towns have elections: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://www.sec.state.ma.us/ele/elemuniele/munieleidx.htm" 
+                  title="November 5, 2019 Elections">
+                  MA Secretary of State</a>
+            </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      var layers = [];
+      var map;
+      
+      var ms_center = {lat: 32.585, lng: -89.876};
+      var ms_bounds = {west: -91.655, east: -88.098, south: 30.174, north: 34.996};
+      
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-link",        where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: ms_center,
+          mapTypeId: 'roadmap'
+        });
+        
+        var files = ['house.kmz', 'senate.kmz', 'das.kml', 'cns.kml', 'statewide.kml', 'county.kml'];
+        for(var i=0; i<urls.length; i++){
+          var url = urls[i];
+          layers.push(kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/MS/' + url));
+        }
+        
+        add_widgets();
+        map.fitBounds(ms_bounds);
+        reset_layers();
+      }
+      
+      function reset_layers(){
+        for(var i = 0; i < layers.length; i++){
+          var layer = layers[i];
+          layer.setMap(null);
+        }
+        var index = document.getElementById('layer-switcher').selectedIndex;
+        var layer = layers[index];
+        layer.setMap(map);
+      }
+    </script>
+    <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/add-widgets.js"></script>
+    <script src="/Elections/js/kmllayer.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
