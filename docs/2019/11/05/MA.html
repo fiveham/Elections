@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/Elections/images/favicon/ma-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="canonical" href="https://fiveham.github.io/Elections/2019/11/05/MA.html">
+    <meta name="robots" content="index,follow">
+    <meta name="description" 
+          content="Interactive map of municipalities holding elections or referenda in Massachusetts on November 5th, 2019">
+    
+    <meta property="og:image" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ma/ma-11-05-2019.png">
+    <meta property="og:image:url" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ma/ma-11-05-2019.png">
+    <meta property="og:image:secure_url" 
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/ma/ma-11-05-2019.png">
+    <meta property="og:image:alt" 
+          content="">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://fiveham.github.io/Elections/2019/11/05/MA.html">
+    <meta property="og:type" content="website">
+    <meta property="og:determiner" content="">
+    <meta property="og:title" 
+          content="Interactive map of municipalities holding elections or referenda in Massachusetts on November 5th, 2019">
+    <meta property="og:description" 
+          content="Interactive map of municipalities holding elections or referenda in Massachusetts on November 5th, 2019">
+    
+    <meta property="og:locale" content="en_US">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://fiveham.github.io/Elections/2019/11/05/MA.html">
+    <meta name="twitter:title" 
+          content="Interactive map of municipalities holding elections or referenda in Massachusetts on November 5th, 2019">
+    <meta name="twitter:description" 
+          content="Interactive map of municipalities holding elections or referenda in Massachusetts on November 5th, 2019">
+    <meta name="twitter:image" content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/MA/MA-11-05-2019.png">
+    <meta name="twitter:image:alt" content="">
+    
+    <title>MA Muncipal Elections Nov 5, 2019 - Interactive Map</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <!-- Geolocator Button -->
+    <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" 
+         title="Your location"></div>
+    
+    <!-- Polling Place Locator Button -->
+    <a id="pp-link" class="installed controls top text" title="MA polling place locator" rel="nofollow" 
+      href="http://www.sec.state.ma.us/wheredoivotema/bal/MyElectionInfo.aspx" target="_blank">
+      <span id="pp-swap">Find Polling Place</span>
+    </a>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">NC Municipal Elections, November 5th, 2019</p>
+            <p>Many municipalities (cities, towns, and villages) across North Carolina will hold elections for mayor, city council, 
+              aldermen, and other offices on November 5th.  Most of these elections are non-partisan, but those for Charlotte and 
+              Sanford are partisan.</p>
+            <p>Some offices up for election don't seem to pertain to a municipality but rather to a county. This map represents those
+              offices on the Countyish layer. Counties without any countyish-level offices up for election are not shown.</p>
+            <p>The outlines for municipalites may not necessarily perfectly represent the boundaries controling whether a voter is 
+            qualified to vote for a town's municipal offices. Check your <a title="NCSBE Voter Lookup" rel="nofollow" target="_blank"
+            href="https://vt.ncsbe.gov/RegLkup">registration information and applicable sample ballots</a> on the NCSBE website to 
+              verify whether you are qualified to vote in this election or not.</p>
+            <p class="heading">Early Voting</p>
+            <p><a rel="nofollow" target="_blank" 
+                  href="https://fiveham.github.io/Elections/2019/11/05/NC.html">Site locator from the NCSBE</a></p>
+            <p><a rel="nofollow" target="_blank" title="NCSBE early voting info page" 
+                  href="https://www.ncsbe.gov/Voting-Options/One-Stop-Early-Voting">See the NCSBE FAQ.</a></p>
+            <p>During early voting you can vote at any early voting site ("one-stop site") in the county in which you are registered.
+            You can also register to vote at an early voting site if you are not registered, as long as you bring certain 
+              proof-of-residence documentation.</p>
+            <p>To vote on election day, you must vote at the polling place for your precinct/VTD of residence. The name and address 
+            of your election day polling place is among the information provided when you look up your voter information.  You can also
+            <a target="_blank" rel="nofollow" title="NCSBE polling place lookup" href="https://vt.ncsbe.gov/PPLkup">look up polling 
+              place by address.</a></p>
+            <p class="heading">Voter ID?</p>
+            <p><a href="https://www.ncsbe.gov/Voter-ID" rel="nofollow" target="_blank" title="NCSBE voter ID info">It's not part of the
+              process until 2020.</a></p>
+            <p class="heading">Election Incidents</p>
+            <p><ul><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfFDJqx8zlzRWXSmNNpC5sEgqMguWsYf1Y_npmeet__E1SFZg/viewform"
+                          title="NCBSE election incident report form" rel="nofollow" target="_blank">NCSBE election incident report 
+            form</a></ul></p>
+            <p>If something inappropriate occurs, report it.</p>
+            <p class="heading">Sources</p>
+            <p><ul>
+              <li>Candidates: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://dl.ncsbe.gov/?prefix=Elections/2019/Candidate%20Filing/" 
+                  title="NCSBE downloads - 2019 candidate filing">
+                 NCSBE Candidate Listing File</a>
+              <li>One-stop (early voting) sites: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://vt.ncsbe.gov/ossite" 
+                  title="NCSBE one-stop site locator">
+                 NCSBE early voting site lookup</a>
+              <li>Election-Day Polling Places: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://vt.ncsbe.gov/PPLkup" 
+                  title="NCSBE Polling Place Lookup">
+                 NCSBE Polling Place Lookup</a>
+              <li>Municipality Borders: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=Places" 
+                  title="US Census Bureau populated places shapefiles">
+                  US Census Bureau</a>
+              <li>County Borders: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=Counties+%28and+equivalent%29" 
+                  title="US Census Bureau nationwide county/equivalent shapefile download">
+                 US Census Bureau</a>
+              <!--<li>Thing: 
+                <a target="_blank" rel="nofollow" 
+                  href="" 
+                  title="">
+                 Place/Entity</a>-->
+            </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      var the_layer;
+      var map;
+      
+      var ma_center = {};
+      var ma_bounds = {};
+      
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-toggler",     where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: ma_center,
+          mapTypeId: 'streetmap'
+        });
+        
+        add_widgets();
+        
+        the_layer = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/MA/towns.kml');
+        the_layer.setMap(map);
+        
+        map.fitBounds(ma_bounds);
+      }
+    </script>
+    <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/add-widgets.js"></script>
+    <script src="/Elections/js/kmllayer.js"></script>
+  </body>
+</html>
