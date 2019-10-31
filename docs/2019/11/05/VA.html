@@ -145,7 +145,8 @@
     
     <script>
       var layers = [];
-      var vaCenter = {lat: 38.003432, lng: -79.42091499999998};
+      var vaCenter = {lat: 38.003, lng: -79.421};
+      var vaBounds = {west: -83.675, east: -75.166, south: 36.541, north: 39.466};
       var map;
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
       var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
@@ -160,6 +161,7 @@
           center: vaCenter,
           mapTypeId: 'hybrid'
         });
+        map.fitBounds(vaBounds);
         
         var sen = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/VA/va_senate.kmz');
         var hod = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/VA/va_house.kmz');
