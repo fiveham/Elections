@@ -150,13 +150,12 @@
       var the_layer;
       var map;
       
-      var ma_center = {};
-      var ma_bounds = {};
+      var ma_center = {lat: 42.063, lng: -71.718};
+      var ma_bounds = {west: -73.508, east: -69.928, south: 41.239, north: 42.887};
       
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
       var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
-                     {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
-                     {id: "pp-toggler",     where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "pp-link",        where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
                      {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
                      {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
       
