@@ -3,6 +3,8 @@
 There are so many elected offices with so many different kinds and shapes of districts that the sheer volume of information involved can be a turn-off to potential voters. One way to resolve part of that is with multi-layered interactive maps of the districts and candidates (and sometimes polling places) for a given election. To that end, I've cooked up election maps like that for several elections.
 
 Available maps:
+* [MA municipals Nov 5 2019](https://fiveham.github.io/Elections/2019/11/05/MA.html)
+* [NJ state legislature, Nov 5 2019](https://fiveham.github.io/Elections/2019/11/05/NJ.html)
 * [VA miscellaneous, Nov 5 2019](https://fiveham.github.io/Elections/2019/11/05/VA.html)
 * [NC municipal elections November 5th, 2019](https://fiveham.github.io/Elections/2019/11/05/NC.html)
 * [LA jungle primaries October 12th, 2019](https://fiveham.github.io/Elections/2019/10/12/LA.html)
