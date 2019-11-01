@@ -67,12 +67,6 @@
     <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" 
         title="Go to your geolocation"></div>
     
-    <!-- Layer Toggle Button (HoD or SS)
-    <div id="hodss-toggler" class="installed controls top text" onclick="pp_toggle()" role="button" 
-        title="Switch active state legislature layer">
-      <span id="pp-swap">House of Delegates</span>
-    </div> -->
-    
     <!-- Layer-switcher dropdown -->
     <select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" title="Switch to another category of offices">
       <option>House of Delegates</option>
@@ -82,9 +76,6 @@
     </select>
     
     <!-- Polling Place lookup link -->
-    <!-- The best actual URL may be https://www.elections.virginia.gov/citizen-portal/index.html, but the one I used, while 
-         weird and unofficial, is friendlier in that it only has one text entry area. Once a user has entered stuff in, they've sunk
-         costs and will be willing, less than rationally, to go through the extra steps afterward.  Science! Psychology! -->
     <a id="pp-lookup" class="installed controls top text" 
        href="https://vote.elections.virginia.gov/VoterInformation" target="_blank" 
        rel="nofollow" title="Virginia Dept of Elections - Polling Place Lookup"><span>Find Polling Place</span></a>
@@ -114,10 +105,17 @@
                <a href="https://www.elections.virginia.gov/registration/how-to-register/" target="_blank" 
                title="Virginia Department of Elections - How to Register" rel="nofollow">online, in person, or by mail.</a></p>
             
+            <p class="heading">Links to Campaign Websites</p>
+            <p>Candidates' campaign websites are included as a hyperlink on the candidate's name for all candidates for whose campaign
+               website addresses are provided in the candidate listing from the VA Dept. of Elections (Candidates by Office - Statewide 
+               and Local (.xlsx)).  All candidates for whom there is no link in this map to a campaign website did not have one listed 
+               in that spreadsheet.</p>
+            
             <p class="heading">Sources</p>
             <p><ul>
                <li>Candidates: <a href="https://www.elections.virginia.gov/casting-a-ballot/candidate-list/index.html" target="_blank" 
-               title="Virginia Department of Elections" rel="nofollow">Virginia Department of Elections</a>
+               title="Virginia Department of Elections" rel="nofollow">Candidates by Office - Statewide and Local (.xlsx) - Virginia 
+                 Department of Elections</a>
                <li>State Senate district polygons: 
                  <a target="_blank" title="US Census Bureau" rel="nofollow" 
                     href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2018&layergroup=State+Legislative+Districts">US 
