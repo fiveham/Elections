@@ -99,17 +99,33 @@
       <div class="has-scrollbar">
         <div class="box" data-balloonish="dims guts">
           <div class="content">
+            
             <p class="heading">Runoff General Election</p>
             <p>This interactive election map shows the districts and candidates for the November 16, 2019 
                runoff general election in Louisiana with spatial context. Instead of the typical presentation 
                where you fill out a form and receive a form in response, an interactive map shows the location
                and shape of each of your districts, and unlike a static map, you can zoom in to examine district borders as closely 
                as you like.</p>
+            
+            <p class="heading">Election Incidents, Voter Intimidation</p>
+            <p>In the event of voter intimidation or other inappropriate stuff, there are several ways to report it as 
+               an election incident. Here are some: 
+            <ul>
+            <li>ACLU Election Protection Hotline: 866-OUR-VOTE (866-687-8683)
+            <li><a href="https://www.votingrightsinstitute.org/report/" rel="nofollow" target="_blank"
+                   title="Report a Voting Rights Problem">Voting Rights Institute</a>
+            <li><a href="https://www.justice.gov/crt/complaint/votintake/index.php" rel="nofollow" target="_blank"
+                   title="Election Complaint Report">United State Dept. of Justice</a>
+            <li><a href="https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2018/11/05/report-voting-problems-on-election-day"
+                   rel="nofollow" target="_blank" title="Report Voting Problems on Election Day">The Pew Charitable Trusts</a>
+            </ul></p>
+            
             <p class="heading">Office and Candidate Sequence</p>
             <p>Candidates for an office are listed in a small table, and the rows of that table are sorted alphabetically. This 
                generally differs from the order on the ballot. The candidate's party is listed before their name so that alphabetization
                will cluster candidates by party.  Incumbency is not indicated.</p>
             <p>Offices on the Parishes+ and District Court layers are sorted alphabetically.</p>
+            
             <p class="heading">Unofficial district shapes</p>
             <p>Official shapefiles are not available for state supreme court districts or BESE districts. The districts of those two
                layers of this map are a best-effort approximation constructed by combining voting tabulation district (voting 
@@ -118,11 +134,13 @@
                pertain to which districts. There were naming mismatches between the SOS precincts and the 2017 precincts whose 
                geometries were used to build these districts. As such, some judgement calls were needed 
                to assign certain precincts to districts.</p>
+            
             <p class="heading">Colors</p>
             <p>The colors mean nothing, generally.  White or light gray generally indicates that that shape doesn't contain any 
                election information, but the lighter and darker shades of green and orange are used purely to help visually 
                distinguish neighboring shapes.</p>
-            <p>The orange and green colors were chosen in the hope of avoiding partisan implications.</p>
+            <p>The orange and green colors were chosen to avoid partisan implications.</p>
+            
             <p class="heading">Sources</p>
             <p><ul>
               <li>BESE district shapes, in a broad sense: 
@@ -204,13 +222,13 @@
         });
         
         //Polygon layers
-        var house          = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/LA/LA-State-House.kmz');
-        var senate         = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/LA/LA-State-Senate.kmz');
-        var parishes       = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/LA/LA-Parishes.kmz');
-        var bese           = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/LA/BESE.kml');
-        var statewide      = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/LA/LA-Statewide.kml');
-        var supreme_court  = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/LA/LA-Supreme-Court.kml');
-        var district_court = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/05/LA/LA-District-Court.kmz');
+        var house          = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/16/LA/LA-State-House.kmz');
+        var senate         = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/16/LA/LA-State-Senate.kmz');
+        var parishes       = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/16/LA/LA-Parishes.kmz');
+        var bese           = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/16/LA/BESE.kml');
+        var statewide      = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/16/LA/LA-Statewide.kml');
+        var supreme_court  = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/16/LA/LA-Supreme-Court.kml');
+        var district_court = kmllayer('https://fiveham.github.io/Elections/resources/2019/11/16/LA/LA-District-Court.kmz');
         
         //Maintain same sequence as dropdown list
         layers.push(house);
