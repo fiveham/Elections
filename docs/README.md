@@ -24,9 +24,9 @@ There are so many elected offices with so many different kinds and shapes of dis
 * [VA state legislature and local primaries June 11th 2019](https://fiveham.github.io/Elections/2019/primary/VA.html)
 * [NJ state legislature primaries, June 4th 2019](https://fiveham.github.io/Elections/2019/primary/NJ.html)
 #### May
-* [NC's 9th Congressional District special election May 14th 2019](https://fiveham.github.io/Elections/2019/special/NC09.html)
+* [NC's 9th Congressional District special election R primary May 14th 2019](https://fiveham.github.io/Elections/2019/special/NC09.html)
 #### April
-* [NC's 3rd Congressional District special election April 30th 2019](https://fiveham.github.io/Elections/2019/special/NC03.html)
+* [NC's 3rd Congressional District special election primaries April 30th 2019](https://fiveham.github.io/Elections/2019/special/NC03.html)
 ### 2018
-* [MS precincts with polling place names and addresses (2018)](https://fiveham.github.io/Elections/2018/general/MS.html)
-* NC statewide midterm map (2018) (to be migrated before Dec 1 2019)
+* [MS precincts with polling place names and addresses (Nov 27, 2018)](https://fiveham.github.io/Elections/2018/general/MS.html)
+* [NC statewide midterm map (Nov 6, 2018)](https://fiveham.github.io/NC-elections/all-districts)
