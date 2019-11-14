@@ -8,9 +8,7 @@ There are so many elected offices with so many different kinds and shapes of dis
 * [NC state house and senate districts before/after Common Cause v. Lewis](https://fiveham.github.io/Elections/2019/redistricting/NC.html)
 
 #### November
-##### 16
 * [LA general/runoff November 16](https://fiveham.github.io/Elections/2019/11/16/LA.html)
-##### 5
 * [MS state legislature, DAs, Gov., other statewide, commissioners, Nov 5 2019](https://fiveham.github.io/Elections/2019/11/05/MS.html)
 * [MA municipals Nov 5 2019](https://fiveham.github.io/Elections/2019/11/05/MA.html)
 * [NJ state legislature, Nov 5 2019](https://fiveham.github.io/Elections/2019/11/05/NJ.html)
