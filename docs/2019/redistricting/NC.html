@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>NC Court-Ordered Redistricting 2019 - Interactive Map</title>
+    <meta property="og:title" 
+          content="">
+    <meta name="twitter:title" 
+          content="">
+    
+    <meta name="description" 
+          content="">     
+    <meta property="og:description" 
+          content="">
+    <meta name="twitter:description" 
+          content="">
+    
+    <link rel="canonical" href="">
+    <meta property="og:url" content="">
+    <meta name="twitter:url" content="">
+    
+    <meta name="twitter:image" 
+          content="">
+    <meta property="og:image" 
+          content="">
+    <meta property="og:image:url" 
+          content="">
+    <meta property="og:image:secure_url" 
+          content="">
+          
+    <meta property="og:image:alt" 
+          content="">
+    <meta name="twitter:image:alt" 
+          content="">
+    
+    <meta property="og:image:type"   content="image/png">
+    <meta property="og:image:width"  content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type"         content="website">
+    <meta property="og:determiner"   content="">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <meta property="og:locale" content="en_US">
+    
+    <link rel="shortcut icon" href="/Elections/images/nc-rwb-check.png">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    
+    <!-- Year Toggle Button -->
+    <div id="year-toggle" class="installed controls top text" onclick="year_toggle()" role="button" 
+         title="Switch map vintage">
+      <span id="year-swap">2018</span>
+    </div>
+    
+    <!-- Layer-toggle dropdown -->
+    <div id="layer-toggle" class="installed controls top text" onclick="layer_toggle()" role="button" 
+         title="Switch house/senate">
+      <span id="layer-swap">House</span>
+    </div>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            
+            <p class="heading">NC Court-Ordered Redistricting 2019</p>
+            <p>Pursuant to the gerrymandering case <a href="https://www.brennancenter.org/our-work/court-cases/common-cause-v-lewis"
+               rel="nofollow" target="_blank">
+               Common Cause v. Lewis</a>, North Carolina's state-legislative electoral districts had to be redrawn due to partisan
+               bias.  The districts also had to be redrawn between 2016 and 2018 due to racial bias, which was handled by the 
+               case <i>North Carolina v. Covington</i>, but that transition isn't detailed on this map.</p>
+            
+            <p class="heading">Colors</p>
+            <p>Each district (for example, house 11, senate 32, or house 103) has a color, and it keeps that color whether the current
+               displayed map is the one that was used for the 2018 midterm elections or the new one which will ostensibly apply for the
+               2020 elections. Since the changes to the shapes of districts from the 2018 maps to the 2020 ones are small, this 
+               makes it easy to see how a district has changed.</p>
+            <p>Five different colors are used, each at a different level of overall brightness. This is intended to ensure that the
+               different colors are distinguishable even to viewers with a form of colorblindness.</p>
+            <p>Normally, four colors would suffice, but the <a href="https://en.wikipedia.org/wiki/Four_color_theorem" 
+               title="" rel="nofollow" target="_blank">four-color theorem</a>
+               does not apply in this case, because the change over time adds another dimension that districts can use to find and 
+               touch one another. In particular, house districts 70 through 74 are all connected to each other, in one year or the 
+               other (or both), which forces the use of a fifth color.</p>
+            <p>Despite the use of shades of red and blue, the color of a given district doesn't really mean anything.</p>
+            
+            <p class="heading">Sources</p>
+            <p><ul>
+              <li>2018 house districts: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://dl.ncsbe.gov/?prefix=ShapeFiles/LegislativeDistricts/Shapefiles/House/" 
+                  title="">NC State Board of Elections</a>
+              <li>2018 senate districts: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://dl.ncsbe.gov/?prefix=ShapeFiles/LegislativeDistricts/Shapefiles/Senate/" 
+                  title="">NC State Board of Elections</a>
+              <li>2020 house districts: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://www.ncleg.gov/BillLookUp/2019/H1020" 
+                  title="House Bill 1020">NC Legislature website</a>
+              <li>2020 senate districts: 
+                <a target="_blank" rel="nofollow" 
+                  href="https://www.ncleg.gov/BillLookUp/2019/S692" 
+                  title="Senate Bill 692">NC Legislature website</a>
+            </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      var layers = null;
+      
+      var ncCenter = {lat: 35.5, lng: -79.9};
+      var ncBounds = {west:-82.745139, east:-75.887027, south:34.805156, north:36.562339};
+      
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "year-toggle",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "layer-toggle",   where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: ncCenter,
+          mapTypeId: 'hybrid'
+        });
+        
+        map.fitBounds(ncBounds);
+        add_widgets();
+        
+        layers = {House:  {'2018': kmllayer('https://fiveham.github.io/Elections/resources/2019/redistricting/NC/house18.kmz'), 
+                           '2020': kmllayer('https://fiveham.github.io/Elections/resources/2019/redistricting/NC/house20.kmz')},
+                  Senate: {'2018': kmllayer('https://fiveham.github.io/Elections/resources/2019/redistricting/NC/senate18.kmz'), 
+                           '2020': kmllayer('https://fiveham.github.io/Elections/resources/2019/redistricting/NC/senate20.kmz')}};
+        
+        reset_layers(); //turn first layer on
+      }
+      
+      var layer = 'House';
+      function layer_toggle(){
+        layer = (layer === 'House' ? 'Senate' : 'House');
+        document.getElementById('layer-swap').innerHTML = layer;
+        reset_layers();
+      }
+      
+      var year = '2018';
+      function year_toggle(){
+        year = (year === '2018' ? '2020' : '2018');
+        document.getElementById('year-swap').innerHTML = year;
+        reset_layers();
+      }
+      
+      function reset_layers(){
+        layers['House']['2018'].setMap(null);
+        layers['House']['2020'].setMap(null);
+        layers['Senate']['2018'].setMap(null);
+        layers['Senate']['2020'].setMap(null);
+        layers[layer][year].setMap(map);
+      }
+    </script>
+    <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/kmllayer.js"></script>
+    <script src="/Elections/js/add-widgets.js"></script>
+    <script src="/Elections/js/layer.js"></script>
+    <script src="/Elections/js/lazy-layer.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
