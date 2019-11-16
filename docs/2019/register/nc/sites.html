@@ -62,12 +62,6 @@
     <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" 
          title="Go to your geolocation"></div>
     
-    <!-- Toggle one-stop sites button -->
-    <div id="os-toggler" class="installed controls top text" onclick="os_toggle(false)" role="button" 
-         title="Turn one-stop (early voting) site layer on or off.">
-      <span id="pp-swap">Toggle One-Stop Sites</span>
-    </div>
-    
     <!-- 'About' button -->
     <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
          title="About this map">
@@ -164,20 +158,22 @@
     <div id="map"></div>
     
     <script>
+      var ncCenter = {lat: 35.5, lng: -79.9};
+      var ncBounds = {west:-82.745139, east:-75.887027, south:34.805156, north:36.562339};
+      
       var map;
-      var os_layers = [];
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
       var widgets = [{id: "geolocation", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
-                     {id: "os-toggler",  where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
                      {id: "about-btn",   where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
                      {id: "about-modal", where: 13 /*google.maps.ControlPosition.CENTER*/}];
       
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 7,
-          center: {lat: 35.665577, lng: -80.092859},
+          zoom: 8,
+          center: ncCenter,
           mapTypeId: 'hybrid'
         });
+        map.fitBounds(ncBounds);
 
         var eastern1000 = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/register/nc/reg-sites-1000-e.kml',
@@ -185,7 +181,6 @@
           preserveViewport: true,
           zIndex: 1
         });
-        
         var western554 = new google.maps.KmlLayer({
           url: 'http://fiveham.github.io/Elections/2019/register/nc/reg-sites-554-w.kml',
           map: map,
@@ -200,48 +195,8 @@
           zIndex: 0
         });
         
-        var now = new Date();
-        
-        /* load NC03 early voting sites if now is before the end of nc03 early voting */
-        var end3ev = new Date(2019, 6, 5, 17, 0, 0, 0); //January is Month Zero
-        if(now < end3ev){
-          var ossites3 = new google.maps.KmlLayer({
-            url: 'http://fiveham.github.io/Elections/2019/07/09/7-9-19-ossites.kml',
-            map: null,
-            preserveViewport: true,
-            zIndex: 2
-          });
-          os_layers.push(ossites3);
-        }
-        
-        /* load nc09 one-stop sides if now is before the end of nc09 early voting */
-        /*var end9ev = new Date(2019, 4, 10, 19, 0, 0, 0); //January is Month Zero
-        if(now < end9ev){
-          var ossites9 = new google.maps.KmlLayer({
-            url: 'http://fiveham.github.io/Elections/2019/special/ossite-nc09-14-may-2019.kml',
-            map: null,
-            preserveViewport: true,
-            zIndex: 2
-          });
-          os_layers.push(ossites9);
-        }*/
-        
-        /* Set all loaded one-stop layers visible */
-        /* Using this function to turn the layers on initially relies on the layers being initialized with map:null */
-        os_toggle(true);
-        
         /* Add all registered widgets to the map */
         add_widgets();
-      }
-      
-      function os_toggle(auto){
-        if(os_layers){
-          os_layers.forEach(function(layer){
-            layer.setMap(layer.getMap() ? null : map);
-          });
-        } else if(!auto) {
-          alert("One-stop sites are not operating.");
-        }
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
