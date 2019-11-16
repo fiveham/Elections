@@ -171,7 +171,10 @@
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 8,
           center: ncCenter,
-          mapTypeId: 'hybrid'
+          mapTypeId: 'hybrid',
+          mapTypeControlOptions: {
+            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+          }
         });
         map.fitBounds(ncBounds);
 
