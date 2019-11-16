@@ -21,9 +21,18 @@
   -ms-user-select:       none; /* Internet Explorer/Edge */
   user-select:           none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
+  border: none;
 }
 .installed.controls:hover {
   background-color: #ebebeb;
+}
+
+select.installed.controls {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url(https://maps.gstatic.com/mapfiles/arrow-down.png);
+  background-repeat: no-repeat;
+  background-position: right 6px top 50%;
 }
 
 .installed.top {
