@@ -64,3 +64,9 @@
   /*vertical-align: middle;*/
   /*display: table-cell;*/
 }
+
+/* No underline on <a>s */
+.installed.controls.text a, 
+a.installed.controls.text {
+  text-decoration: none;
+}
