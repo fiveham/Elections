@@ -9,6 +9,8 @@
 }
 
 .installed.controls {
+  min-width: 38px;
+  min-height: 38px;
   color: rgb(86,86,86);
   cursor: pointer;
   /* Prevent highlighting of controls */
