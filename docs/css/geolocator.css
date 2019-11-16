@@ -1,10 +1,10 @@
 .geolocate{
   display: block;
-  height: 40px;
-  width: 40px;
+  height: 38px;
+  width: 38px;
   background-image: url('/Elections/images/icon-157354_640.png');
   background-position: center;
   background-size: contain;
-  background-size: 21px 38px;
+  background-size: auto 36px;
   background-repeat: no-repeat;
 }
