@@ -147,6 +147,7 @@
         for(var a=0; a < layers.length; a++){
           var times = layers[a].times;
           for(var b=0; b < times.length; b++){
+            var time = times[b];
             var layer = time.layer;
             if(layer){
               layer.setMap(null);
