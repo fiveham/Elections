@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>NC Court-Ordered Redistricting 2019 - Interactive Map</title>
+    <meta property="og:title" 
+          content="Interactive map of NC's state house and senate districts before and after Common Cause v. Lewis">
+    <meta name="twitter:title" 
+          content="Interactive map of NC's state house and senate districts before and after Common Cause v. Lewis">
+    
+    <meta name="description" 
+          content="Toggle between two vintages of the state house and state senate maps to compare new and old districts">     
+    <meta property="og:description" 
+          content="Toggle between two vintages of the state house and state senate maps to compare new and old districts">
+    <meta name="twitter:description" 
+          content="Toggle between two vintages of the state house and state senate maps to compare new and old districts">
+    
+    <link rel="canonical"    href="https://fiveham.github.io/Elections/2019/redistricting/NC.html">
+    <meta property="og:url"  content="https://fiveham.github.io/Elections/2019/redistricting/NC.html">
+    <meta name="twitter:url" content="https://fiveham.github.io/Elections/2019/redistricting/NC.html">
+    
+    <meta name="twitter:image" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/og/2019-redist-nc.png">
+    <meta property="og:image" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/og/2019-redist-nc.png">
+    <meta property="og:image:url" 
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/og/2019-redist-nc.png">
+    <meta property="og:image:secure_url" 
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/og/2019-redist-nc.png">
+          
+    <meta property="og:image:alt" 
+          content="Satelite image of North Carolina covered with 120 polygons in semitransparent white, black, red, blue, and green, 
+                   representing state house of representatives districts">
+    <meta name="twitter:image:alt" 
+          content="Satelite image of North Carolina covered with 120 polygons in semitransparent white, black, red, blue, and green, 
+                   representing state house of representatives districts">
+    
+    <meta property="og:image:type"   content="image/png">
+    <meta property="og:image:width"  content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type"         content="website">
+    <meta property="og:determiner"   content="">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <meta property="og:locale" content="en_US">
+    
+    <link rel="shortcut icon" href="/Elections/images/nc-rwb-check.png">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    
+    <!-- Layer Controller -->
+    <div id="layer-controller" class="installed controls left text">
+      <div style="position: static;">
+      
+        <select title="Choose district type" id="choose-layer" onchange="set_layer()" 
+                style="position: absolute; top: 0; left: 0; width: 100%; display: block;">
+          <option>Congress</option>
+          <option>House</option>
+          <option>Senate</option>
+        </select>
+        
+        <select title="Choose map version" id="choose-vintage" 
+                style="position: absolute; top: 38; left: 0; width: 100%; display: block;">
+          <option>(placeholder)</option>
+        </select>
+        
+        <div style="position: absolute; top: 76; left: 0; width: 100%; display: block;">
+        
+          <div role="button" title="Previous version" onclick="shift_chron(-1);" 
+               style="width: 50%; height: 100%; display: block;">Prev</div>
+          
+          <div role="button" title="Next version" onclick="shift_chron(1);" 
+               style="width: 50%; height: 100%; display: block;">Next</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            <p class="heading">NC Court-Ordered Redistricting 2019</p>
+            <p>North Carolina v. Covington, Common Cause v. Lewis, Harper v. Lewis</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      var url_base = 'https://fiveham.github.io/Elections/resources/2019/redistricting/NC/';
+      var congress = {times: [{name: '2018',    url: 'cong 2018.kml'}, 
+                              {name: '2020 v1', url: 'cong 2020 v1.kml'}, 
+                              {name: '2020 v2', url: 'cong 2020 v2.kml'}, 
+                              {name: '2020 v3', url: 'cong 2020 v3.kml'}]};
+      var house    = {times: [{name: '2016',    url: 'house16.kmz'},
+                              {name: '2018',    url: 'house18.kmz'}, 
+                              {name: '2020',    url: 'house20.kmz'}]};
+      var senate   = {times: [{name: '2016',    url: 'senate16.kmz'}, 
+                              {name: '2018',    url: 'senate18.kmz'}, 
+                              {name: '2020',    url: 'senate20.kmz'}]};
+      var layers   = [congress, house, senate];
+      
+      function set_layer(){
+        var i = document.getElementById('choose-layer').selectedIndex;
+        var layer = layers[i];
+        populate_chrono(layer);
+        set_time(i);
+      }
+
+      function populate_chrono(layer){
+        var times = layer.times;
+        var ih = '';
+        for(var i=0; i<times.length; i++){
+          ih += '<option>' + times[i].name + '</option>';
+        }
+        document.getElementById('choose-vintage').innerHTML = ih;
+      }
+
+      function set_time(i){
+        i = i || document.getElementById(choose-layer').selectedIndex;
+        var j = document.getElementById('choose-vintage').selectedIndex;
+        
+        for(var a=0; a < layers.length; a++){
+          var times = layers[a].times;
+          for(var b=0; b < times.length; b++){
+            var layer = time.layer;
+            if(layer){
+              layer.setMap(null);
+            }
+            time.layer.setMap(null);
+          }
+        }
+        var time = layers[i][j];
+        if(!time.layer){
+          time.layer = kmllayer(url_base + time.url);
+        }
+        time.layer.setMap(map);
+      }
+      
+      function chron_shift(direction){
+        var layer_chrono = document.getElementById('choose-vintage');
+        var i = layer_chrono.selectedIndex;
+        var length = layer_chrono.options.length;
+        i = (i + direction + length) % length; // true modular add/subtract
+        layer_chrono.selectedIndex = i; // should trigger onchange event
+      }
+      
+      var ncCenter = {lat: 35.5, lng: -79.9};
+      var ncBounds = {west:-82.745139, east:-75.887027, south:34.805156, north:36.562339};
+      
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "layer-controller", where: 4  /* left top */}, 
+                     {id: "about-btn",        where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal",      where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: ncCenter,
+          mapTypeId: 'roadmap'
+        });
+        map.fitBounds(ncBounds);
+        
+        add_widgets();
+        
+        set_layer(); // turn initial layer on.
+      }
+    </script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/kmllayer.js"></script>
+    <script src="/Elections/js/add-widgets.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
