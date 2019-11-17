@@ -62,27 +62,27 @@
   <body>
     
     <!-- Layer Controller -->
-    <div id="layer-controller" class="installed controls left text">
+    <div id="layer-controller" class="installed left">
       <div style="position: static;">
       
-        <select title="Choose district type" id="choose-layer" onchange="set_layer()" 
+        <select class="controls text" title="Choose district type" id="choose-layer" onchange="set_layer()" 
                 style="position: absolute; top: 0; left: 0; width: 100%; display: block;">
           <option>Congress</option>
           <option>House</option>
           <option>Senate</option>
         </select>
         
-        <select title="Choose map version" id="choose-vintage" 
+        <select class="controls text" title="Choose map version" id="choose-vintage" 
                 style="position: absolute; top: 38px; left: 0; width: 100%; display: block;">
           <option>(placeholder)</option>
         </select>
         
         <div style="position: absolute; top: 76px; left: 0; width: 100%; display: block;">
         
-          <div role="button" title="Previous version" onclick="shift_chron(-1);" 
+          <div class="controls text" role="button" title="Previous version" onclick="shift_chron(-1);" 
                style="width: 50%; height: 100%; display: block;">Prev</div>
           
-          <div role="button" title="Next version" onclick="shift_chron(1);" 
+          <div class="controls text" role="button" title="Next version" onclick="shift_chron(1);" 
                style="width: 50%; height: 100%; display: block;">Next</div>
         </div>
       </div>
