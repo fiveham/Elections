@@ -57,7 +57,7 @@
     <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
     <style>
       #layer-controller {
-        min-height: 114px;
+        min-height: 116px;
         min-width: 120px;
       }
       
@@ -70,7 +70,7 @@
         left: 0;
         width: 100%;
         display: block;
-        box-shadow: rgba(0,0,0,0.3) 0 1px 0 0;
+        border-bottom: 1px solid rgba(0,0,0,0.3);
         padding-left: 13px;
         padding-right: 13px;
       }
@@ -79,18 +79,16 @@
         top: 0;
       }
       
-      select#choose-vintage.text {
-        top: 38px;
-        box-shadow: rgba(0,0,0,0.3) 0 1px 0 0, rgba(0,0,0,0.3) 0 -1px 0 0;
+      #choose-vintage {
+        top: 39px;
       }
       
       #layer-controller select ~ div {
         position: absolute;
-        top: 76px; 
+        top: 78px; 
         left: 0; 
         width: 100%; 
         display: block;
-        box-shadow: rgba(0,0,0,0.3) 0 -1px 0 0;
       }
       
       #layer-controller .controls.text[role="button"] {
@@ -101,7 +99,6 @@
       
       #layer-controller .controls.text[role="button"][title^="Prev"] {
         float: left;
-        box-shadow: rgba(0,0,0,0.3) 1px 0 0 0;
       }
       
       #layer-controller .controls.text[role="button"][title^="Next"] {
