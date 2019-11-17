@@ -164,11 +164,11 @@
                               {name: '2020 v2', url: 'cong 2020 v2.kml'}, 
                               {name: '2020 v3', url: 'cong 2020 v3.kml'}]};
       var house    = {times: [{name: '2016',    url: 'house16.kmz'},
-                              {name: '2018',    url: 'house18.kmz?a'}, 
-                              {name: '2020',    url: 'house20.kmz?a'}]};
+                              {name: '2018',    url: 'house18.kmz'}, 
+                              {name: '2020',    url: 'house20.kmz'}]};
       var senate   = {times: [{name: '2016',    url: 'senate16.kmz'}, 
-                              {name: '2018',    url: 'senate18.kmz?a'}, 
-                              {name: '2020',    url: 'senate20.kmz?a'}]};
+                              {name: '2018',    url: 'senate18.kmz'}, 
+                              {name: '2020',    url: 'senate20.kmz'}]};
       var layers   = [congress, house, senate];
       
       function set_layer(){
@@ -214,6 +214,7 @@
         var length = layer_chrono.options.length;
         i = (i + direction + length) % length; // true modular add/subtract
         layer_chrono.selectedIndex = i; // should trigger onchange event
+        set_time();
       }
       
       var ncCenter = {lat: 35.5, lng: -79.9};
