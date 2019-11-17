@@ -56,34 +56,79 @@
     <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
     <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
     <style>
+      #layer-controller {
+        min-height: 114px;
+        min-width: 120px;
+      }
       
+      #layer-controller > div {
+        position: static;
+      }
+      
+      #layer-controller select {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid rgba();
+        box-shadow: rgba(0,0,0,0.3) 0 1px 0 0;
+      }
+      
+      #choose-layer {
+        top: 0;
+      }
+      
+      #choose-vintage {
+        top: 38px;
+        box-shadow: rgba(0,0,0,0.3) 0 1px 0 0, rgba(0,0,0,0.3) 0 -1px 0 0;
+      }
+      
+      #layer-controller select ~ div {
+        position: absolute;
+        top: 76px; 
+        left: 0; 
+        width: 100%; 
+        display: block;
+        box-shadow: rgba(0,0,0,0.3) 0 -1px 0 0;
+      }
+      
+      #layer-controller .controls.text[role="button"] {
+        width: 50%; 
+        height: 100%; 
+        display: block;
+      }
+      
+      #layer-controller .controls.text[role="button"][title^="Prev"] {
+        float: left;
+        box-shadow: rgba(0,0,0,0.3) 1px 0 0 0;
+      }
+      
+      #layer-controller .controls.text[role="button"][title^="Next"] {
+        float: right;
+        box-shadow: rgba(0,0,0,0.3) -1px 0 0 0;
+      }
     </style>
   </head>
   <body>
     
     <!-- Layer Controller -->
     <div id="layer-controller" class="installed left">
-      <div style="position: static;">
+      <div>
       
-        <select class="controls text" title="Choose district type" id="choose-layer" onchange="set_layer()" 
-                style="position: absolute; top: 0; left: 0; width: 100%; display: block;">
+        <select class="controls text" title="Choose district type" id="choose-layer" onchange="set_layer()">
           <option>Congress</option>
           <option>House</option>
           <option>Senate</option>
         </select>
         
-        <select class="controls text" title="Choose map version" id="choose-vintage" 
-                style="position: absolute; top: 38px; left: 0; width: 100%; display: block;">
+        <select class="controls text" title="Choose map version" id="choose-vintage">
           <option>(placeholder)</option>
         </select>
         
         <div style="position: absolute; top: 76px; left: 0; width: 100%; display: block;">
         
-          <div class="controls text" role="button" title="Previous version" onclick="shift_chron(-1);" 
-               style="width: 50%; height: 100%; display: block;">Prev</div>
-          
-          <div class="controls text" role="button" title="Next version" onclick="shift_chron(1);" 
-               style="width: 50%; height: 100%; display: block;">Next</div>
+          <div class="controls text" role="button" title="Previous version" onclick="shift_chron(-1);">Prev</div>
+          <div class="controls text" role="button" title="Next version"     onclick="shift_chron(1);" >Next</div>
         </div>
       </div>
     </div>
@@ -182,7 +227,10 @@
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 8,
           center: ncCenter,
-          mapTypeId: 'roadmap'
+          mapTypeId: 'roadmap',
+          mapTypeControlOptions: {
+            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+          }
         });
         map.fitBounds(ncBounds);
         
