@@ -8,7 +8,7 @@
   transition: opacity 1s ease-in;
 }
 
-.installed.controls {
+.controls {
   min-width: 38px;
   min-height: 38px;
   color: rgb(86,86,86);
@@ -23,11 +23,11 @@
                                   supported by Chrome and Opera */
   border: none;
 }
-.installed.controls:hover {
+.controls:hover {
   background-color: #ebebeb;
 }
 
-select.installed.controls {
+select.controls {
   -webkit-appearance: none;
   appearance: none;
   background-image: url(https://maps.gstatic.com/mapfiles/arrow-down.png);
@@ -56,7 +56,7 @@ select.installed.controls {
   margin-top: 10px;
 }
 
-.installed.controls.text {
+.controls.text {
   height:      38px;
   line-height: 38px;
   padding-left: 13px;
@@ -66,7 +66,7 @@ select.installed.controls {
   /*vertical-align: middle;*/
   /*display: table;*/
 }
-.installed.controls.text > span {
+.controls.text > span {
   padding: 0;
   margin: 0;
   border: none;
