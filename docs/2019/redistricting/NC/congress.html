@@ -210,6 +210,9 @@
         var time = layers[i][j];
         if(!time.layer){
           time.layer = kmllayer(url_base + time.url + cache_dodge);
+          time.layer.addListener('status_changed', function(){
+            alert('it works');
+          });
         }
         time.layer.setMap(map);
       }
