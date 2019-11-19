@@ -308,11 +308,9 @@
         }
         
         if(something_is_loading){
-          loading_widget.style.visibility = 'visible';
-          loading_widget.style.display = 'block';
+          loading_icon.style.opacity = '1';
         } else{
-          loading_widget.style.visibility = 'hidden';
-          loading_widget.style.display = 'none';
+          loading_icon.style.opacity = '0';
         }
       }
       
@@ -333,7 +331,7 @@
                      {id: "layer-controller", where: 5  /* left, top */}, 
                      {id: "about-btn",        where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
                      {id: "about-modal",      where: 13 /*google.maps.ControlPosition.CENTER*/}];
-      var loading_widget = document.getElementById('loading-spinner');
+      var loading_icon = document.getElementById('loading-hider');
       
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
