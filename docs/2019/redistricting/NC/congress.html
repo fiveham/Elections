@@ -127,7 +127,6 @@
       }
       
       #loading-hider {
-        transition: opacity 10s ease-in;
         height: 38px;
         width:  38px;
         top:  0px;
@@ -310,9 +309,7 @@
         
         if(something_is_loading){
           loading_icon.style.display = 'block';
-          loading_icon.style.opacity = '1';
         } else{
-          loading_icon.style.opacity = '0';
           loading_icon.style.display = 'none';
         }
       }
