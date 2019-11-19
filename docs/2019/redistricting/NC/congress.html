@@ -308,9 +308,11 @@
         }
         
         if(something_is_loading){
+          loading_icon.style.display = 'none';
           loading_icon.style.opacity = '1';
         } else{
           loading_icon.style.opacity = '0';
+          loading_icon.style.display = 'block';
         }
       }
       
