@@ -115,9 +115,72 @@
         border-bottom-right-radius: 2px;
         box-shadow: rgba(0,0,0,0.3) -1px 0 0 0; /* vertical divider bar */
       }
+      
+      #loading-spinner {
+        overflow: visible;
+        height: 0;
+        width:  0;
+      }
+      
+      #loading-hider {
+        height: 38px;
+        width:  38px;
+        top:  0px;
+        left: 0px;
+        overflow: hidden;
+        visibility: hidden;
+        display: none;
+      }
+      
+      #loading-hider > * {
+        height: 100%;
+        width:  100%;
+      }
+      
+      #loading-rainbow {
+        background-image: repeating-linear-gradient(-45deg, red 0%, red 20%, orange 35%, yellow 50%, green 65%, blue 80%, blue 100%);
+        animation: spinc 5s linear infinite;
+      }
+      
+      #loading-mask {
+        background-image: radial-gradient(circle closest-side, transparent, transparent 95%, white 96%, white);
+      }
+      
+      #loading-oroboros {
+        top: -25%;
+        left: -25%;
+        animation: spincc 5s linear infinite;
+      }
+      
+      @keyframes spinc {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes spincc {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(-360deg);
+        }
+      }
     </style>
   </head>
   <body>
+    
+    <!-- Loading Widget -->
+    <div id="loading-spinner" class="installed top">
+      <div id="loading-hider">
+        <div id="loading-rainbow"></div>
+        <div id="loading-mask"></div>
+        <div id="loading-oroboros"></div>
+      </div>
+    </div>
     
     <!-- Layer Controller -->
     <div id="layer-controller" class="installed left">
@@ -197,6 +260,7 @@
         i = i || document.getElementById('choose-layer').selectedIndex;
         var j = document.getElementById('choose-vintage').selectedIndex;
         
+        /* Turn off all congress/house/senate layers */
         for(var a=0; a < layers.length; a++){
           var times = layers[a];
           for(var b=0; b < times.length; b++){
@@ -207,14 +271,46 @@
             }
           }
         }
+        
+        /* Turn on the correct congress/house/senate layer */
         var time = layers[i][j];
+        /* if the layer doesn't exist yet, create/load it and turn on the loading icon */
         if(!time.layer){
+          /* create the layer */
           time.layer = kmllayer(url_base + time.url + cache_dodge);
-          time.layer.addListener('status_changed', function(){
-            alert('it works');
+          
+          /* turn on loading icon and add a listener to turn it back off after layer loads */
+          var url = time.url;
+          time.layer.addListener('status_changed', 
+                                 function(){
+            mark_loading(url, false);
           });
+          mark_loading(url, true);
         }
+        /* add the layer to the map */
         time.layer.setMap(map);
+      }
+      
+      var load_markers = {};
+      
+      function mark_loading(url, state){
+        load_markers[url] = state;
+        
+        var something_is_loading = false;
+        for(var k in load_markers){
+          if(load_markers[k]){
+            something_is_loading = true;
+            break;
+          }
+        }
+        
+        if(something_is_loading){
+          loading_widget.style.visibility = 'visible';
+          loading_widget.style.display = 'block';
+        } else{
+          loading_widget.style.visibility = 'hidden';
+          loading_widget.style.display = 'none';
+        }
       }
       
       function chron_shift(direction){
@@ -230,9 +326,11 @@
       var ncBounds = {west:-82.745139, east:-75.887027, south:34.805156, north:36.562339};
       
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
-      var widgets = [{id: "layer-controller", where: 5  /* left top */}, 
+      var widgets = [{id: 'loading-spinner',  where: 1  /* top, left */},
+                     {id: "layer-controller", where: 5  /* left, top */}, 
                      {id: "about-btn",        where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
                      {id: "about-modal",      where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      var loading_widget = document.getElementById('loading-widget');
       
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
