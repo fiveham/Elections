@@ -1,0 +1,514 @@
+<html>
+<head>
+<style>
+
+
+/* ================= */
+/* == Base Styles == */
+/* ================= */
+
+/* 
+ * white text
+ * all elements
+ */
+* {
+	color: white;
+}
+
+/*
+ * Even links stay white
+ */
+a {
+	color: white;
+}
+a:visitied {
+	color: rgb(230, 230, 230);
+}
+
+/* 
+ * Timeline element
+ * Base style
+ */
+[data-type] {
+	position: absolute;
+	display: inline-block;
+	border: none;
+	border-radius: 10px;
+	padding: 5px;
+	v-align: center;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+/* 
+ * Sword
+ * Base style
+ * boilerplate
+ * width
+ * stripes
+ */
+[data-type="event"]::after,
+[data-type="case"]::before, 
+[data-type="case"]::after {
+	position: absolute;
+	display: block;
+	content: '';
+	width: 7px;
+	background-image: repeating-linear-gradient(-35deg, 
+	                                  transparent           0, 
+									  transparent           6px, 
+									  rgba(33, 33, 33, 0.5) 6px,
+									  rgba(33, 33, 33, 0.5) 10px)
+}
+
+/* 
+ * Timeline Full-Width Element
+ * Base Style
+ * width
+ * margin
+ * no trailing margin on last element
+ */
+[data-type="axis"], 
+[data-type="layer"],
+[data-type="visualizer"] {
+	width: 1463px;
+}
+div[data-type="year"],
+[data-type="districts"] {
+	position: initial;
+	float: left;
+	margin-right: 0.25em;
+}
+div[data-type="year"]:last-of-type,
+[data-type="districts"]:last-of-type {
+	margin: 0;
+}
+
+
+/* =============== */
+/* == Time Axis == */
+/* =============== */
+
+/*
+ * axis height
+ * and color
+ */
+[data-type="axis"][data-dimension="time"] {
+	background-color: rgba(4, 12, 200, 0.5);
+	height: 38px;
+}
+
+/*
+ * year element
+ */
+div[data-type="year"] {
+	min-width: 100px;
+	height: 370px;
+	background-image: linear-gradient(to bottom, 
+	                                  rgba(30, 40, 252, 0.2) 0,
+									  rgba(30, 40, 252, 0.0) 350px);
+}
+
+
+/* ============ */
+/* == Events == */
+/* ============ */
+
+[data-type="event"] {
+	max-width: 100px;
+	top: 50px;
+}
+
+/* horizontal position of events */
+[data-name="wave"] {
+	left: 117px;
+}
+[data-name="PCRD"] {
+	left: 221px;
+}
+[data-name="census"] {
+	left: 1157px;
+}
+[data-name="PCRD2"] {
+	left: 1261px;
+}
+
+/* Lift case and event elements above map/layer elements that are 
+   defined after them */
+[data-type="case"],
+[data-type="event"] {
+	z-index: 1;
+}
+
+[data-type="event"],
+[data-type="event"]::after {
+	background-color: rgba(120, 30, 30, 0.6);
+}
+
+/* horizontal positions for post-census redistricting down swords */
+/* Vertical position, height, and shape of events' downward swords */
+[data-type="event"][data-name^="PCRD"]::after {
+	content: '';
+	left: 39px;
+	top: 100%;
+	height: 205px;
+	border-bottom-right-radius: 5px;
+}
+
+/* =============================== */
+/* == House, Senate, & Congress == */
+/* =============================== */
+
+/* 
+ * vertical position
+ * background color
+ */
+[data-name="house"] {
+	top: 100px;
+	background-color: rgba(240, 160, 2, 0.6);
+}
+[data-name="senate"] {
+	top: 184px;
+	background-color: rgba(119, 198, 20, 0.6);
+}
+[data-name="congress"] {
+	top: 268px;
+	background-color: rgba(170, 170, 170, 0.6);
+}
+[data-type="districts"] {
+	background-color: inherit;
+}
+
+/*
+ * ad-hoc widths
+ */
+[data-name="h937"],
+[data-name="s455"] {
+	width: 620px;
+}
+[data-name="h927"],
+[data-name="h1020"],
+[data-name="s691"],
+[data-name="s692"],
+[data-name="h1029"] {
+	width: 204px;
+}
+[data-name="s453"] {
+	width: 516px;
+}
+[data-name="s2"] {
+	width: 308px;
+}
+
+/*
+ * fixed widths of future/past
+ */
+[data-name^="old"],
+[data-name$="future"] {
+	width: 150px;
+}
+
+/*
+ * fade out future
+ */
+[data-layer="house"][data-name="hfuture"] {
+	background-color: transparent;
+	background-image: linear-gradient(to right, rgba(240, 160, 2, 0.5), transparent);
+}
+[data-layer="senate"][data-name="sfuture"] {
+	background-color: transparent;
+	background-image: linear-gradient(to right, rgba(119, 198, 20, 0.5), transparent);
+}
+[data-layer="congress"][data-name="cfuture"] {
+	background-color: transparent;
+	background-image: linear-gradient(to right, rgba(170, 170, 170, 0.5), transparent);
+}
+
+[data-type="districts"], 
+[data-type="case"] {
+	text-align: left;
+	padding-left: 10px;
+}
+
+
+/* ================= */
+/* == Court Cases == */
+/* ================= */
+
+/* 
+ * vertical position
+ */
+[data-level="state"]{
+	top: 147px;
+}
+[data-level="federal"]{
+	top: 231px;
+}
+
+/* 
+ * ad-hoc horiztonal positions 
+ * widths
+ * corners
+ */
+[data-name="ncvcovington"] {
+	left: 683px;
+	width: 208px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+[data-name="ccvlewis"] {
+	left: 949px;
+	width: 254px;
+}
+[data-name="harrisvmccrory"] {
+	left: 485;
+	width: 302px;
+	border-bottom-right-radius: 0;
+}
+[data-name="harpervlewis"] {
+	left: 999px;
+	width: 204px;
+}
+
+/*
+ * partisan gerrymandering cases
+ * red and blue two-tone
+ * red sword down
+ * blue sword up
+ */
+[data-topic="partisan"] {
+	background-image: radial-gradient(ellipse farthest-side at 25% 0,
+	                                  rgba(0, 0, 255, 0.5),
+									  rgba(0, 0, 255, 0.5) 35%,
+									  transparent 95%),
+	                  radial-gradient(ellipse farthest-side at 25% 100%, 
+	                                  rgba(255, 0, 0, 0.5),
+									  rgba(255, 0, 0, 0.5) 50%,
+									  transparent 95%);
+}
+[data-topic="partisan"]::before {
+	background-color: rgba(0, 0, 255, 0.5);
+}
+[data-topic="partisan"]::after {
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* 
+ * racial gerrymandering
+ * case and sword
+ * gray background
+ */
+[data-topic="racial"],
+[data-topic="racial"]::after,
+[data-topic="racial"]::before {
+	background-color: rgba(80, 80, 80, 0.5);
+}
+
+/* 
+ * sword length
+ * court cases
+ */
+[data-type="case"][data-level="state"]::before, 
+[data-type="case"]::after {
+	height: 42px;
+}
+
+/*
+ * racial gerrymander
+ * sword position horizontal
+ */
+[data-name="ncvcovington"]::before, 
+[data-name="ncvcovington"]::after, 
+[data-name="harrisvmccrory"]::after {
+	right: 0;
+}
+
+/* 
+ * partisan gerrymander CC v Lewis
+ * sword position horizontal
+ */
+[data-name="ccvlewis"]::before,
+[data-name="ccvlewis"]::after {
+	left: 143px;
+}
+
+/* 
+ * sword horizontal position
+ * partisan gerrymander Harper v. Lewis
+ */
+[data-name="harpervlewis"]::after {
+	left: 93px;
+}
+
+/* 
+ * up sword position vertical
+ * tip shading
+ * and corner
+ */
+[data-type="case"]::before {
+	bottom: 100%;
+	border-top-right-radius: 5px;
+}
+
+/* 
+ * down sword position vertical
+ * tip shading
+ * and corner
+ */
+[data-type="case"]::after {
+	top: 100%;
+	border-bottom-right-radius: 5px;
+}
+
+
+/* ====================== */
+/* == Left-Side Labels == */
+/* ====================== */
+
+/*
+ * Base style
+ */
+[data-name="label"] {
+	font-weight: bold;
+	width: 100px;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*
+ * Label column
+ * Background
+ */
+[data-type="year"][data-name="label"] {
+	background-image: linear-gradient(to bottom, 
+	                                  rgba(30, 40, 252, 0.5) 200px,
+									  rgba(30, 40, 252, 0.0) 350px);
+}
+
+/*
+ * Event label
+ */
+[data-type="event"][data-name="label"] {
+	margin-left: 5px;
+	height: 46px;
+	line-height: 36px;
+}
+
+/*
+ * Court case labels
+ */
+[data-type="case"][data-name="label"] {
+	margin-left: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+[data-type="case"][data-name="label"]::before,
+[data-type="case"][data-name="label"]::after {
+	content: none;
+}
+
+
+/* ===================== */
+/* == Row Visualizers == */
+/* ===================== */
+
+[data-type="visualizer"] {
+	height: 28px;
+	background-image: linear-gradient(to top, 
+	                                  transparent, 
+									  rgba(0, 0, 0, 0.1), 
+									  transparent);
+}
+[data-type="visualizer"]:first-of-type {
+	top: 61px;
+}
+
+</style>
+</head>
+<body>
+
+<div id="timeline">
+	<div data-type="visualizer"></div>
+	<div data-type="visualizer" data-level="state"></div>
+	<div data-type="visualizer" data-level="federal"></div>
+	
+	<div data-type="axis" data-dimension="time" id='years'>
+		<div data-type="year" data-name="label">Year</div>
+		<div data-type="year">2010</div><div data-type="year">2011</div><div data-type="year">2012</div>
+		<div data-type="year">2013</div>
+		<div data-type="year">2014</div><div data-type="year">2015</div><div data-type="year">2016</div>
+		<div data-type="year">2017</div><div data-type="year">2018</div>
+		<div data-type="year">2019</div><div data-type="year">2020</div><div data-type="year">2021</div>
+		<div data-type="year">2022</div>
+	</div>
+	
+	<div data-type="event" data-name="label">Event(s)</div>
+	<div data-type="event" data-name="wave">Census and Red Wave</div>
+	<div data-type="event" data-name="PCRD">Post-Census Redistricting</div>
+	<div data-type="event" data-name="census">Census, April 1st, 2020</div>
+	<div data-type="event" data-name="PCRD2">Post-Census Redistricting</div>
+	
+	<div data-type="layer" data-name="house">
+		<div data-type="districts" data-layer="house" data-name="label">House</div>
+		<div data-type="districts" data-layer="house" data-name="oldhouse">old house districts</div>
+		<div data-type="districts" data-layer="house" data-name="h937">
+			<a title="" rel="nofollow" target="_blank" href="https://www.ncleg.gov/BillLookUp/2011/H937">H937 house districts</a>
+		</div>
+		<div data-type="districts" data-layer="house" data-name="h927">
+			<a title="" rel="nofollow" target="_blank" href="https://www.ncleg.gov/BillLookUp/2017/H927">H927 house districts</a>
+		</div>
+		<div data-type="districts" data-layer="house" data-name="h1020">
+			<a title="" rel="nofollow" target="_blank" href="https://www.ncleg.gov/BillLookUp/2019/H1020">H1020 house districts</a>
+		</div>
+		<div data-type="districts" data-layer="house" data-name="hfuture">future house districts</div>
+	</div>
+	
+	<div data-type="case" data-level="state" data-name="label">st. leg. cases</div>
+	<div data-type="case" data-level="state" data-name="ncvcovington" data-topic="racial">
+		<a title="" rel="nofollow" target="_blank" href="https://www.brennancenter.org/our-work/court-cases/north-carolina-v-covington">North Carolina v. Covington</a>
+	</div>
+	<div data-type="case" data-level="state" data-name="ccvlewis" data-topic="partisan">
+		<a title="" rel="nofollow" target="_blank" href="https://www.brennancenter.org/our-work/court-cases/common-cause-v-lewis">Common Cause v. Lewis</a>
+	</div>
+	
+	<div data-type="layer" data-name="senate">
+		<div data-type="districts" data-layer="senate" data-name="label">Senate</div>
+		<div data-type="districts" data-layer="senate" data-name="oldsenate">old senate districts</div>
+		<div data-type="districts" data-layer="senate" data-name="s455">
+			<a title="" rel="nofollow" target="_blank" href="https://www.ncleg.gov/BillLookUp/2011/S455">S455 senate districts</a>
+		</div>
+		<div data-type="districts" data-layer="senate" data-name="s691">
+			<a title="" rel="nofollow" target="_blank" href="https://www.ncleg.gov/BillLookUp/2017/S691">S691 senate districts</a>
+		</div>
+		<div data-type="districts" data-layer="senate" data-name="s692">
+			<a title="" rel="nofollow" target="_blank" href="https://www.ncleg.gov/BillLookUp/2019/S692">S692 senate districts</a>
+		</div>
+		<div data-type="districts" data-layer="senate" data-name="sfuture">future sen. districts</div>
+	</div>
+	
+	<div data-type="case" data-level="federal" data-name="label">cong. cases</div>
+	<div data-type="case" data-level="federal" data-name="harrisvmccrory" data-topic="racial">
+		<a title="" rel="nofollow" target="_blank" href="https://www.brennancenter.org/our-work/court-cases/cooper-v-harris-amicus-brief">Harris v. McCrory</a>
+	</div>
+	<div data-type="case" data-level="federal" data-name="harpervlewis" data-topic="partisan">
+		<a title="" rel="nofollow" target="_blank" href="https://www.brennancenter.org/our-work/court-cases/harper-v-lewis">Harper v. Lewis</a>
+	</div>
+	
+	<div data-type="layer" data-name="congress">
+		<div data-type="districts" data-layer="congress" data-name="label">Congress</div>
+		<div data-type="districts" data-layer="congress" data-name="oldcongress">old cong. districts</div>
+		<div data-type="districts" data-layer="congress" data-name="s453">
+			<a title="" rel="nofollow" target="_blank" href="https://www.ncleg.gov/BillLookUp/2011/S453">S453 congressional districts</a>
+		</div>
+		<div data-type="districts" data-layer="congress" data-name="s2">
+			<a title="" rel="nofollow" target="_blank" href="https://www.ncleg.gov/BillLookUp/2015E1/S2">S2 congressional districts</a>
+		</div>
+		<div data-type="districts" data-layer="congress" data-name="h1029">
+			<a title="" rel="nofollow" target="_blank" href="https://www.ncleg.gov/BillLookUp/2019/H1029">H1029 cong. districts</a>
+		</div>
+		<div data-type="districts" data-layer="congress" data-name="cfuture">future cong. districts</div>
+	</div>
+</div>
+
+</body>
+</html>
