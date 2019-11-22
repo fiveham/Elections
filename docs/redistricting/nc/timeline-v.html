@@ -7,6 +7,7 @@
 	--gap: 5px;
 	--row-height: calc(var(--cell-height) + var(--gap));
 	--cell-width: calc(var(--column-width) - (2 * var(--gap)));
+	--col-height: calc(14 * var(--cell-height) + 15 * var(--gap));
 	
 	--short-event-width: calc((var(--cell-width) - var(--gap)) * 0.5);
 	
@@ -85,11 +86,16 @@
 	box-sizing: border-box;
 }
 
+#timeline {
+	width: var(--timeline-width);
+	height: var(--col-height);
+}
+
 [type="column"] {
 	border-radius: var(--corner);
 	display: block;
 	width: var(--column-width);
-	height: calc(14 * var(--cell-height) + 15 * var(--gap));
+	height: var(--col-height);
 	float: left;
 	padding: var(--gap);
 }
@@ -430,6 +436,7 @@
 				<span>Red wave</span></div>
 			<div type="event" id="pcrd2011" event="PCRD" class="arm">
 				<span>Post-census redistricting</span></div>
+			
 			<div type="event" id="census2020" event="census">
 				<span>Census,<br>Apr 1st, 2020</span></div>
 			<div type="event" id="pcrd2021" event="PCRD" class="arm">
