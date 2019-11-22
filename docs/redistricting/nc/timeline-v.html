@@ -1,0 +1,564 @@
+<html>
+<head>
+<style>
+:root {
+	--column-width: 145px;
+	--cell-height: 70px;
+	--gap: 5px;
+	--row-height: calc(var(--cell-height) + var(--gap));
+	--cell-width: calc(var(--column-width) - (2 * var(--gap)));
+	
+	--short-event-width: calc((var(--cell-width) - var(--gap)) * 0.5);
+	
+	--one-year-until:    calc(var(--row-height)        + var(--gap));
+	--three-years-until: calc((var(--row-height) * 3)  + var(--gap));
+	--five-years-until:  calc((var(--row-height) * 5)  + var(--gap));
+	--eight-years-until: calc((var(--row-height) * 8)  + var(--gap));
+	--nine-years-until:  calc((var(--row-height) * 9)  + var(--gap));
+	--ten-years-until:   calc((var(--row-height) * 10) + var(--gap));
+	
+	--two-years-long:   calc(2 * var(--row-height) - var(--gap));
+	--three-years-long: calc(3 * var(--row-height) - var(--gap));
+	--four-years-long:  calc(4 * var(--row-height) - var(--gap));
+	--five-years-long:  calc(5 * var(--row-height) - var(--gap));
+	--six-years-long:   calc(6 * var(--row-height) - var(--gap));
+	
+	--timeline-width: calc(7 * var(--column-width));
+	
+	--arm-thickness: 13px;
+	--pen-dist: calc(var(--arm-thickness) * 2);
+	--arm-length: calc(var(--column-width) + var(--pen-dist));
+	--pcrd-arm-length: calc((5 * var(--column-width)) + var(--pen-dist));
+	
+	--corner: 10px;
+	--arm-corner: 5px;
+	--arm-inside-corner: calc(0.5 * var(--arm-corner));
+	
+	--color-col-year:   rgba( 30,  40, 252, 0.3);
+	--color-col-house:  rgba(240, 160,   2, 0.3);
+	--color-col-senate: rgba(119, 198, 20, 0.3);
+	--color-col-cong:   rgba(150, 150, 150, 0.3);
+	
+	--color-topic-racial: rgba(80, 80, 80, 0.5);
+	
+	--half-blue: rgba(0, 0, 255, 0.5);
+	--half-red:  rgba(255, 0, 0, 0.5);
+	
+	--bg-col-uncolored: linear-gradient(
+							to left, 
+							rgba(0, 0, 0, 0.1), 
+							transparent, 
+							rgba(0, 0, 0, 0.1));
+	
+	--color-cell-events:     rgba(120,  30,  30, 0.6);
+	--color-cell-house:      rgba(240, 160,   2, 0.7);
+	--color-cell-case-label: rgba(  0,   0,   0, 0.5);
+	--color-cell-senate:     rgba(119, 198,  20, 0.7);
+	--color-cell-cong:       rgba(150, 150, 150, 0.7);
+	
+	--bg-cell-year: linear-gradient(
+						to right, 
+						var(--color-col-year), 
+						transparent);
+	
+	--stripes: repeating-linear-gradient(
+						-35deg, 
+						transparent 0, 
+						transparent 6px, 
+						rgba(33, 33, 33, 0.5) 6px, 
+						rgba(33, 33, 33, 0.5) 10px);
+	
+	--bg-topic-partisan:	radial-gradient(
+						ellipse farthest-side at 100% 25%, 
+						var(--half-blue), 
+						var(--half-blue) 35%, 
+						transparent 97%), 
+					radial-gradient(
+						ellipse farthest-side at 0 25%, 
+						var(--half-red), 
+						var(--half-red) 35%, 
+						transparent 97%);
+}
+
+* {
+	color: white;
+	box-sizing: border-box;
+}
+
+[type="column"] {
+	border-radius: var(--corner);
+	display: block;
+	width: var(--column-width);
+	height: calc(14 * var(--cell-height) + 15 * var(--gap));
+	float: left;
+	padding: var(--gap);
+}
+
+[type="column"] > div {
+	display: flex;
+	text-align: center;
+	height: var(--cell-height);
+	width: var(--cell-width);
+	margin: 0;
+	padding: var(--gap);
+	border-radius: var(--corner);
+}
+[type="column"] > div:not([type="label"]) {
+	margin-top: var(--gap);
+}
+
+[type="column"] span {
+	margin: auto;
+}
+
+
+/*
+ * All Columns
+ */
+#event-list,
+#st-leg-cases,
+#cong-cases {
+	background-image: var(--bg-col-uncolored);
+}
+#time-axis {
+	background-color: var(--color-col-year);
+}
+#house-maps {
+	background-color: var(--color-col-house);
+}
+#senate-maps {
+	background-color: var(--color-col-senate);
+}
+#cong-maps {
+	background-color: var(--color-col-cong);
+}
+
+
+/*
+ * Years Column
+ */
+#time-axis > div {
+	background-image: var(--bg-cell-year);
+	width: var(--timeline-width);
+	text-align: left;
+	padding-left: calc(0.4 * var(--cell-width));
+}
+#time-axis > div > span {
+	margin-right: 0;
+	margin-left: 0;
+}
+#time-axis > [type="label"] {
+	background-color: var(--color-col-year);
+}
+
+
+/*
+ * House Map column
+ */
+#house-maps > div {
+	background-color: var(--color-cell-house);
+}
+
+
+/*
+ * Senate Map Column
+ */
+#senate-maps > div{
+	background-color: var(--color-cell-senate);
+}
+
+
+/*
+ * Congressional Map Column
+ */
+#cong-maps > div {
+	background-color: var(--color-cell-cong);
+}
+
+
+/*
+ * Events Column
+ */
+#event-list > div {
+	background-color: var(--color-cell-events);
+}
+#census2010, 
+#redwave {
+	width: var(--short-event-width);
+	margin-bottom: var(--gap);
+}
+#census2010 {
+	float: left;
+}
+#redwave {
+	float: right;
+}
+#pcrd2011 {
+	clear: both;
+	margin-top: var(--one-year-until);
+}
+#census2020 {
+	margin-top: var(--ten-years-until);
+}
+
+
+/*
+ * Map Columns
+ */
+[id$="old"],
+#h927,
+#s691,
+#h1020,
+#s692,
+#h1029 {
+	height: var(--two-years-long) !important;
+}
+#s453,
+#s2 {
+	height: var(--four-years-long);
+}
+#h937, 
+#s455 {
+	height: var(--six-years-long);
+}
+/*[id$="new"] {
+	background-color: transparent !important;
+}/**/
+#hnew {
+	background-image: linear-gradient(to top, transparent, var(--color-cell-house));
+}
+#hold {
+	background-image: linear-gradient(to bottom, transparent, var(--color-cell-house));
+}
+#snew {
+	background-image: linear-gradient(to top, transparent, var(--color-cell-senate));
+}
+#sold {
+	background-image: linear-gradient(to bottom, transparent, var(--color-cell-senate));
+}
+#cnew {
+	background-image: linear-gradient(to top, transparent, var(--color-cell-cong));
+}
+#cold {
+	background-image: linear-gradient(to bottom, transparent, var(--color-cell-cong));
+}
+[id$="old"],
+[id$="new"] {
+	background-color: transparent !important;
+}
+[id$="old"] span,
+[id$="new"] span {
+	margin: auto !important;
+}
+
+
+/*
+ * Court Cases
+ */
+[topic="racial"] {
+	background-color: var(--color-topic-racial);
+}
+[topic="partisan"] {
+	background-image: var(--bg-topic-partisan);
+}
+#harris {
+	margin-top: var(--three-years-until);
+	height: var(--five-years-long);
+}
+#harper {
+	margin-top: var(--nine-years-until);
+	height: var(--two-years-long);
+}
+#covington {
+	margin-top: var(--five-years-until);
+	height: var(--three-years-long);
+}
+#commoncause {
+	margin-top: var(--eight-years-until);
+	height: var(--three-years-long);
+}
+
+
+/*
+ * Move labels to tops
+ */
+[type="column"][id$="maps"] span,
+[type="column"][id$="cases"] span {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+[type="column"][id$="maps"] [type="label"] span,
+[type="column"][id$="cases"] [type="label"] span {
+	margin: auto;
+}
+
+
+/*
+ * Things with Arms
+ */
+.arm {
+	position: absolute;
+}
+#pcrd2011::after,
+#pcrd2021::after,
+#covington::before,
+#covington::after,
+#commoncause::before,
+#commoncause::after,
+#harris::after,
+#harper::after {
+	content: '';
+}
+#pcrd2011,
+#pcrd2021,
+#covington {
+	border-bottom-right-radius: 0;
+}
+#covington {
+	border-bottom-left-radius: 0;
+}
+.arm::before,
+.arm::after {
+	position: absolute;
+	height: var(--arm-thickness);
+	width: var(--arm-length);
+	bottom: 0;
+	border-radius: var(--arm-corner);
+}
+.arm[event="PCRD"]::after {
+	width: var(--pcrd-arm-length);
+}
+.arm::before {
+	right: calc(100% - var(--pen-dist));
+	background-image: var(--stripes);
+}
+.arm::after {
+	left: calc(100% - var(--pen-dist));
+	background-image: var(--stripes);
+}
+
+.arm[event="PCRD"]::after {
+	background-image: var(--stripes),
+	                  linear-gradient(to right,
+					                  transparent,
+									  transparent var(--pen-dist),
+									  var(--color-cell-events) var(--pen-dist),
+									  var(--color-cell-events));
+}
+
+.arm[topic="racial"]::after {
+	background-image: var(--stripes),
+	                  linear-gradient(to right,
+									  transparent,
+									  transparent               var(--pen-dist),
+									  var(--color-topic-racial) var(--pen-dist),
+									  var(--color-topic-racial));
+}
+#covington::before {
+	background-image: var(--stripes),
+	                  linear-gradient(to left,
+									  transparent,
+									  transparent               var(--pen-dist),
+									  var(--color-topic-racial) var(--pen-dist),
+									  var(--color-topic-racial));
+}
+
+#harris::after {
+	bottom: calc(2 * var(--row-height));
+}
+
+.arm[topic="partisan"]::after, 
+.arm[topic="partisan"]::before {
+	bottom: var(--row-height);
+}
+.arm[topic="partisan"]::after {
+	--fog-blue: rgba(0, 0, 255, 0.25);
+	--x-off: calc(var(--arm-length) - (0.5 * var(--cell-width)));
+	background-image: var(--stripes), 
+	                  linear-gradient(to right,
+					                  transparent,
+									  var(--fog-blue) var(--pen-dist),
+									  var(--fog-blue)),
+					  radial-gradient(circle farthest-side at var(--x-off) 50%,
+					                  var(--fog-blue),
+									  transparent 95%);
+}
+.arm[topic="partisan"]::before {
+	--fog-red: rgba(255, 0, 0, 0.25);
+	--x-off: calc(0.5 * var(--cell-width));
+	background-image: var(--stripes), 
+	                  linear-gradient(to left,
+					                  transparent,
+									  var(--fog-red) var(--pen-dist),
+									  var(--fog-red)),
+					  radial-gradient(circle farthest-side at var(--x-off) 50%,
+									  var(--fog-red),
+									  transparent 95%);
+}
+
+[type="label"] {
+	font-weight: bold;
+}
+[id$="cases"] [type="label"] {
+	background-color: var(--color-cell-case-label);
+}
+</style>
+</head>
+<body>
+	<div id="timeline">
+		<div type="column" data-continuous="1" id="time-axis">
+			<div type="label"><span>Year</span></div>
+			<div type="year"><span>2010</span></div>
+			<div type="year"><span>2011</span></div>
+			<div type="year"><span>2012</span></div>
+			<div type="year"><span>2013</span></div>
+			<div type="year"><span>2014</span></div>
+			<div type="year"><span>2015</span></div>
+			<div type="year"><span>2016</span></div>
+			<div type="year"><span>2017</span></div>
+			<div type="year"><span>2018</span></div>
+			<div type="year"><span>2019</span></div>
+			<div type="year"><span>2020</span></div>
+			<div type="year"><span>2021</span></div>
+			<div type="year"><span>2022</span></div>
+		</div>
+		<div type="column" data-discrete="1" id="event-list">
+			<div type="label"><span>Event(s)</span></div>
+			<div type="event" id="census2010" event="census">
+				<span>Census</span></div>
+			<div type="event" id="redwave">
+				<span>Red wave</span></div>
+			<div type="event" id="pcrd2011" event="PCRD" class="arm">
+				<span>Post-census redistricting</span></div>
+			<div type="event" id="census2020" event="census">
+				<span>Census,<br>Apr 1st, 2020</span></div>
+			<div type="event" id="pcrd2021" event="PCRD" class="arm">
+				<span>Post-census redistricting</span></div>
+		</div>
+		<div type="column" data-continuous="1" id="house-maps">
+			<div type="label"><span>State House Maps</span></div>
+			<div type="house-map" id="hold"><span>Old State House Districts</span></div>
+			<div type="house-map" id="h937">
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.ncleg.gov/BillLookUp/2011/H937" >
+						H937 house districts <br> (Session Law 2011-404)
+					</a>
+				</span>
+			</div>
+			<div type="house-map" id="h927" >
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.ncleg.gov/BillLookUp/2017/H927">
+						H927 house districts <br> (Session Law 2017-208)
+					</a>
+				</span>
+			</div>
+			<div type="house-map" id="h1020">
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.ncleg.gov/BillLookUp/2019/H1020">
+						H1020 house districts <br> (Session Law 2019-220)
+					</a>
+				</span>
+			</div>
+			<div type="house-map" id="hnew"><span>Future State House Districts</span></div>
+		</div>
+		<div type="column" data-discrete="1" id="st-leg-cases">
+			<div type="label"><span>State legislative court cases</span></div>
+			<div type="case" topic="racial" id="covington" class="arm">
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.brennancenter.org/our-work/court-cases/north-carolina-v-covington">
+						North Carolina v. Covington
+					</a>
+				</span>
+			</div>
+			<div type="case" topic="partisan" id="commoncause" class="arm">
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.brennancenter.org/our-work/court-cases/common-cause-v-lewis">
+						Common Cause v. Lewis
+					</a>
+				</span>
+			</div>
+		</div>
+		<div type="column" data-continuous="1" id="senate-maps">
+			<div type="label"><span>State Senate Maps</span></div>
+			<div type="house-map" id="sold" ><span>Old State Senate Districts</span></div>
+			<div type="map" layer="senate" id="s455">
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.ncleg.gov/BillLookUp/2011/S455">
+						S455 senate districts <br> (Session Law 2011-402)
+					</a>
+				<span>
+			</div>
+			<div type="map" layer="senate" id="s691">
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.ncleg.gov/BillLookUp/2017/S691">
+						S691 senate districts <br> (Session Law 2017-207)
+					</a>
+				</span>
+			</div>
+			<div type="map" layer="senate" id="s692">
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.ncleg.gov/BillLookUp/2019/S692">
+						S692 senate districts <br> (Session Law 2019-219)
+					</a>
+				</span>
+			</div>
+			<div type="house-map" id="snew" ><span>Future State Senate Districts</span></div>
+		</div>
+		<div type="column" data-discrete="1" id="cong-cases">
+			<div type="label"><span>Congressional court cases</span></div>
+			<div type="case" topic="racial" id="harris" class="arm">
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.brennancenter.org/our-work/court-cases/cooper-v-harris-amicus-brief">
+						Harris v. McCrory
+					</a>
+				</span>
+			</div>
+			<div type="case" topic="partisan" id="harper" class="arm">
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.brennancenter.org/our-work/court-cases/harper-v-lewis">
+						Harper v. Lewis
+					</a>
+				</span>
+			</div>
+		</div>
+		<div type="column" data-continuous="1" id="cong-maps">
+			<div type="label"><span>Congressional Maps</span></div>
+			<div type="house-map" id="cold"><span>Old Congressional Districts</span></div>
+			<div type="map" layer="cong" id="s453" >
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.ncleg.gov/BillLookUp/2011/S453">
+						S453 congressional districts <br> (Session Law 2011-403)
+					</a>
+					</div>
+			<div type="map" layer="cong" id="s2"   >
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.ncleg.gov/BillLookUp/2015E1/S2">
+						S2 congressional districts <br> (Session Law 2016-1)
+					</a>
+				<span>
+			</div>
+			<div type="map" layer="cong" id="h1029">
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.ncleg.gov/BillLookUp/2019/H1029">
+						H1029 cong. districts <br> (Session Law SL 2019-249)
+					</a>
+				</span>
+			</div>
+			<div type="house-map" id="cnew" ><span>Future Congressional Districts</span></div>
+		</div>
+	</div>
+</body>
+</html>
