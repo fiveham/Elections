@@ -14,6 +14,7 @@
 	--one-year-until:    calc(var(--row-height)        + var(--gap));
 	--three-years-until: calc((var(--row-height) * 3)  + var(--gap));
 	--five-years-until:  calc((var(--row-height) * 5)  + var(--gap));
+	--six-years-until:   calc((var(--row-height) * 6)  + var(--gap));
 	--eight-years-until: calc((var(--row-height) * 8)  + var(--gap));
 	--nine-years-until:  calc((var(--row-height) * 9)  + var(--gap));
 	--ten-years-until:   calc((var(--row-height) * 10) + var(--gap));
@@ -76,6 +77,26 @@
 						transparent 97%), 
 					radial-gradient(
 						ellipse farthest-side at 0 25%, 
+						var(--half-red), 
+						var(--half-red) 35%, 
+						transparent 97%);
+	--bg-rucho: radial-gradient(
+						ellipse farthest-side at 100% 25%, 
+						var(--half-blue), 
+						var(--half-blue) 35%, 
+						transparent 97%), 
+				radial-gradient(
+						ellipse farthest-side at 0 25%, 
+						var(--half-red), 
+						var(--half-red) 35%, 
+						transparent 97%),
+				radial-gradient(
+						ellipse farthest-side at 0 75%, 
+						var(--half-blue), 
+						var(--half-blue) 35%, 
+						transparent 97%), 
+				radial-gradient(
+						ellipse farthest-side at 100% 75%, 
 						var(--half-red), 
 						var(--half-red) 35%, 
 						transparent 97%);
@@ -269,10 +290,15 @@
 }
 #harris {
 	margin-top: var(--three-years-until);
-	height: var(--five-years-long);
+	height: var(--three-years-long);
+}
+#rucho {
+	margin-top: var(--six-years-until);
+	height: var(--three-years-long);
+	background-image: var(--bg-rucho);
 }
 #harper {
-	margin-top: var(--nine-years-until);
+	margin-top: var(--gap);
 	height: var(--two-years-long);
 }
 #covington {
@@ -317,7 +343,8 @@
 }
 #pcrd2011,
 #pcrd2021,
-#covington {
+#covington,
+#harris {
 	border-bottom-right-radius: 0;
 }
 #covington {
@@ -367,10 +394,6 @@
 									  transparent               var(--pen-dist),
 									  var(--color-topic-racial) var(--pen-dist),
 									  var(--color-topic-racial));
-}
-
-#harris::after {
-	bottom: calc(2 * var(--row-height));
 }
 
 .arm[topic="partisan"]::after, 
@@ -529,6 +552,16 @@
 					</a>
 				</span>
 			</div>
+			
+			<div type="case" topic="partisan" id="rucho">
+				<span class="to_top">
+					<a title="" rel="nofollow" target="_blank" 
+					href="https://www.brennancenter.org/our-work/court-cases/rucho-v-common-cause">
+						Rucho v. Common Cause
+					</a>
+				</span>
+			</div>
+			
 			<div type="case" topic="partisan" id="harper" class="arm">
 				<span class="to_top">
 					<a title="" rel="nofollow" target="_blank" 
