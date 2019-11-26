@@ -2,6 +2,10 @@
 
 There are so many elected offices with so many different kinds and shapes of districts that the sheer volume of information involved can be a turn-off to potential voters. One way to resolve part of that is with multi-layered interactive maps of the districts and candidates (and sometimes polling places) for a given election. To that end, I've cooked up election maps like that for several elections.
 
+## Available non-maps
+
+* [NC redistricting timeline, 2010 - 2022](https://fiveham.github.io/Elections/redistricting/nc/timeline-v.html)
+
 ## Available maps
 ### 2019
 * [Where and How to Register to Vote in NC](https://fiveham.github.io/Elections/2019/register/nc/sites.html)
