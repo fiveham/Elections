@@ -44,8 +44,10 @@
 	
 	--color-topic-racial: rgba(80, 80, 80, 0.5);
 	
-	--half-blue: rgba(0, 0, 255, 0.5);
-	--half-red:  rgba(255, 0, 0, 0.5);
+	--half-blue: rgba(0,   0, 255, 0.5);
+	--fog-blue:  rgba(0,   0, 255, 0.25);
+	--half-red:  rgba(255, 0,   0, 0.5);
+	--fog-red:   rgba(255, 0,   0, 0.25);
 	
 	--bg-col-uncolored: linear-gradient(
 							to left, 
@@ -54,10 +56,15 @@
 							rgba(0, 0, 0, 0.1));
 	
 	--color-cell-events:     rgba(120,  30,  30, 0.6);
+	--color-cell-events-ghostly:     rgba(120,  30,  30, 0.2);
 	--color-cell-house:      rgba(240, 160,   2, 0.7);
 	--color-cell-case-label: rgba(  0,   0,   0, 0.5);
 	--color-cell-senate:     rgba(119, 198,  20, 0.7);
 	--color-cell-cong:       rgba(150, 150, 150, 0.7);
+	
+	--color-hover-partisan: white;
+	--color-hover-racial:   rgba(125, 125, 125, 0.5);
+	--color-hover-event:    rgba(180,  90,  90, 0.6);
 	
 	--scales: url(images/scales.png);
 	--usa: url(images/usa.png);
@@ -105,14 +112,10 @@
 				var(--half-red), 
 				var(--half-red) 35%, 
 				transparent 97%);
-	--bg-commoncause: 
-		var(--scales),
-		var(--nc),
-		var(--yes),
-		var(--bg-topic-partisan);
-	--bg-harper: 
-		var(--state-case),
-		var(--bg-topic-partisan);
+	
+	--size: calc(2 * var(--gap));
+	--hover-connector-offset-hz: calc((0.5 * var(--cell-width)) - var(--size));
+	--hover-connector-offset-vt: calc((0.5 * var(--cell-height)) - var(--size));
 }
 
 * {
@@ -217,11 +220,13 @@
 }
 
 
-/*
- * Events Column
- */
+/* ============ */
+/* == Events == */
+/* ============ */
+
 #event-list > div {
-	background-color: var(--color-cell-events);
+	--bg-color: var(--color-cell-events);
+	background-color: var(--bg-color);
 }
 #census2010, 
 #redwave {
@@ -238,8 +243,14 @@
 	clear: both;
 	margin-top: var(--one-year-until);
 }
+#hoffdeath {
+	margin-top: var(--six-years-until);
+}
 #census2020 {
-	margin-top: var(--eight-years-until);
+	margin-top: var(--one-year-until);
+}
+#pcrd2021 {
+	z-index: 2;
 }
 
 
@@ -293,13 +304,15 @@
 }
 
 
-/*
- * Court Cases
- */
+/* ================= */
+/* == Court Cases == */
+/* ================= */
+
 [topic="racial"] {
 	--place-result-pos: calc(100% - (var(--cell-width) * 0.25));
+	--bg-color: var(--color-topic-racial);
 	
-	background-color: var(--color-topic-racial);
+	background-color: var(--bg-color);
 	background-image:
 		var(--scales),
 		var(--usa),
@@ -327,7 +340,30 @@
 	--place-result-pos: calc(100% - (var(--cell-width) * 0.25));
 	
 	height: var(--three-years-long);
-	background-image: var(--bg-rucho);
+	background-image: 
+		var(--scales), 
+		var(--usa), 
+		var(--no), 
+		radial-gradient(
+			ellipse farthest-side at 100% 25%,
+			var(--half-blue), 
+			var(--half-blue) 35%, 
+			transparent 97%), 
+		radial-gradient( 
+			ellipse farthest-side at 0 25%, 
+			var(--half-red), 
+			var(--half-red) 35%, 
+			transparent 97%), 
+		radial-gradient(
+			ellipse farthest-side at 0 75%, 
+			var(--half-blue), 
+			var(--half-blue) 35%, 
+			transparent 97%), 
+		radial-gradient(
+			ellipse farthest-side at 100% 75%,
+			var(--half-red), 
+			var(--half-red) 35%, 
+			transparent 97%);
 	background-size: 
 		contain,   /* scales */
 		var(--place-result-width) auto,  /* usa    */
@@ -346,6 +382,10 @@
 		0 75%,    /* blue lower left?  */
 		100% 75%; /* red lower right?  */
 }
+#rucho:hover{
+	--half-blue: rgba( 80, 80, 255, 0.5);
+    --half-red:  rgba(255, 80, 80,  0.5);
+}
 #harper {
 	--place:  var(--nc);
 	--result: var(--yes);
@@ -357,7 +397,18 @@
 		var(--scales),
 		var(--place),
 		var(--result),
-		var(--bg-topic-partisan);
+		radial-gradient(
+			ellipse farthest-side at 100% 25%,
+			var(--half-blue),
+			var(--half-blue) 33%,
+			var(--fog-blue) 66%,
+			transparent 97%),
+		radial-gradient(
+			ellipse farthest-side at 0 25%,
+			var(--half-red),
+			var(--half-red) 33%,
+			var(--fog-red) 66%,
+			transparent 97%);
 	background-size:
 		contain,
 		var(--place-result-width) auto,
@@ -385,11 +436,24 @@
 	--place-result-pos: calc(100% - (var(--cell-width) * 0.25));
 	
 	height: var(--three-years-long);
+			
 	background-image: 
 		var(--scales),
 		var(--place),
 		var(--result),
-		var(--bg-topic-partisan);
+		radial-gradient(
+			ellipse farthest-side at 100% 25%, 
+			var(--half-blue), 
+			var(--half-blue) 33%, 
+			var(--fog-blue) 66%,
+			transparent 97%), 
+		radial-gradient(
+			ellipse farthest-side at 0 25%,
+			var(--half-red),
+			var(--half-red) 33%,
+			var(--fog-red) 66%,
+			transparent 97%);
+			
 	background-size:
 		contain,
 		var(--place-result-width) auto,
@@ -420,9 +484,10 @@
 }
 
 
-/*
- * Things with Arms
- */
+/* ====================== */
+/* == Things with Arms == */
+/* ====================== */
+
 .arm {
 	z-index: 1;
 }
@@ -470,8 +535,8 @@
 	                  linear-gradient(to right,
 					                  transparent,
 									  transparent var(--pen-dist),
-									  var(--color-cell-events) var(--pen-dist),
-									  var(--color-cell-events));
+									  var(--bg-color) var(--pen-dist),
+									  var(--bg-color));
 }
 
 .arm[topic="racial"]::after {
@@ -479,16 +544,16 @@
 	                  linear-gradient(to right,
 									  transparent,
 									  transparent               var(--pen-dist),
-									  var(--color-topic-racial) var(--pen-dist),
-									  var(--color-topic-racial));
+									  var(--bg-color) var(--pen-dist),
+									  var(--bg-color));
 }
 #covington::before {
 	background-image: var(--stripes),
 	                  linear-gradient(to left,
 									  transparent,
 									  transparent               var(--pen-dist),
-									  var(--color-topic-racial) var(--pen-dist),
-									  var(--color-topic-racial));
+									  var(--bg-color) var(--pen-dist),
+									  var(--bg-color));
 }
 
 .arm[topic="partisan"]::after, 
@@ -496,28 +561,44 @@
 	bottom: var(--row-height);
 }
 .arm[topic="partisan"]::after {
-	--fog-blue: rgba(0, 0, 255, 0.25);
 	--x-off: calc(var(--arm-length) - (0.5 * var(--cell-width)));
-	background-image: var(--stripes), 
-	                  linear-gradient(to right,
-					                  transparent,
-									  var(--fog-blue) var(--pen-dist),
-									  var(--fog-blue)),
-					  radial-gradient(circle farthest-side at var(--x-off) 50%,
-					                  var(--fog-blue),
-									  transparent 95%);
+	--arm-color: var(--fog-blue);
+	
+	background-image:
+		var(--stripes), 
+		linear-gradient(
+			to right,
+			transparent,
+			transparent      var(--pen-dist),
+			var(--arm-color) var(--pen-dist),
+			var(--arm-color)),
+		radial-gradient(
+			circle farthest-side at var(--x-off) 50%,
+			var(--arm-color),
+			transparent 95%);
 }
 .arm[topic="partisan"]::before {
-	--fog-red: rgba(255, 0, 0, 0.25);
 	--x-off: calc(0.5 * var(--cell-width));
-	background-image: var(--stripes), 
-	                  linear-gradient(to left,
-					                  transparent,
-									  var(--fog-red) var(--pen-dist),
-									  var(--fog-red)),
-					  radial-gradient(circle farthest-side at var(--x-off) 50%,
-									  var(--fog-red),
-									  transparent 95%);
+	--arm-color: var(--fog-red);
+	
+	background-image:
+		var(--stripes), 
+	    linear-gradient(
+			to left,
+			transparent,
+			transparent      var(--pen-dist),
+			var(--arm-color) var(--pen-dist),
+			var(--arm-color)),
+		radial-gradient(
+			circle farthest-side at var(--x-off) 50%,
+			var(--arm-color),
+			transparent 95%);
+}
+.arm[topic="partisan"]:hover::before {
+	--arm-color: rgba(255, 80, 80, 0.25);
+}
+.arm[topic="partisan"]:hover::after {
+	--arm-color: rgba(80, 80, 255, 0.25);
 }
 
 [type="label"] {
@@ -528,23 +609,83 @@
 }
 
 
-/*
- * Hover Details 
- */
+
+#hoffdeath {
+	border-bottom-right-radius: 0;
+}
+#hoffdeath::after {
+	--arrow-shoulder: calc(100% - var(--gap));
+	
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 100%;
+	height: var(--arm-thickness);
+	width: calc(var(--column-width) + (2 * var(--gap)));
+	background-color: inherit;
+	clip-path: polygon(
+		0 0, 
+		0 100%, 
+		var(--arrow-shoulder) 100%,
+		100% 50%,
+		var(--arrow-shoulder) 0);
+}
+#census2020::before {
+	--arrow-shoulder: calc(100% - var(--gap));
+	
+	content: '';
+	height: var(--one-year-until);
+	width: var(--arm-thickness);
+	background-color: transparent;
+	background-image: linear-gradient(
+		to bottom, 
+		var(--bg-color), 
+		var(--color-cell-events-ghostly));
+	clip-path: polygon(
+		0 0,
+		0 var(--arrow-shoulder),
+		50% 100%,
+		100% var(--arrow-shoulder),
+		100% 0);
+	display: block;
+	position: absolute;
+	bottom: 100%;
+	left: var(--corner);
+}
+
+
+
+/* =================== */
+/* == Hover Details == */
+/* =================== */
+
 [type="details"] {
 	position: absolute;
-	background-color: rgba(240, 240, 240, 0.9);
+	background-color: rgba(240, 240, 240, 0.97);
 	padding: 10px 13px;
+	padding-bottom: var(--gap);
 	text-align: left;
 	display: none;
 	border-radius: var(--corner);
 	color: black;
 	z-index: 2;
+	cursor: auto;
 }
-[type="column"] > div:hover > [type="details"] {
-	display: block
+[type="details"] * {
+	color: black;
+}
+[type="details"] p:first-of-type {
+	margin-top: 0;
+}
+[type="details"] p:last-of-type {
+	margin-bottom: 0;
 }
 
+/*
+ * Set location and width according to which side
+ * of the host element the details balloon goes on.
+ */
 [type="details"][side="down"] {
 	top: calc(100% + (2 * var(--gap)));
 	width: calc((3 * var(--column-width)) - (2 * var(--gap)));
@@ -553,16 +694,32 @@
 	right: calc(100% + (2 * var(--gap)));
 	width: calc((2 * var(--column-width)) - (2 * var(--gap)));
 }
+[type="details"][side="up"] {
+	bottom: calc(100% + (2 * var(--gap)));
+	width: calc((3 * var(--column-width)) - (2 * var(--gap)));
+}
+[type="details"][side="right"] {
+	left: calc(100% + (2 * var(--gap)));
+	width: calc((2 * var(--column-width)) - (2 * var(--gap)));
+}
 
+/*
+ * Set location of detail balloon based on direction bias.
+ */
 [type="details"][bias="right"] {
 	left: 0;
+}
+[type="details"][bias="left"] {
+	right: 0;
 }
 [type="details"][bias="up"] {
 	bottom: 0;
 }
+[type="details"][bias="down"] {
+	top: 0;
+}
 
 [type="details"]::before {
-	--size: calc(2 * var(--gap));
 	content: '';
 	display: block;
 	position: absolute;
@@ -575,23 +732,113 @@
 	bottom: 100%;
 	clip-path: polygon(0 100%, 100% 100%, 50% 0);
 }
-[type="details"][side="left"]::before {
+[type="details"][onclick="keep_detail()"][side="left"]::before {
 	height: calc(2 * var(--size));
 	width: var(--size);
 	left: 100%;
 	clip-path: polygon(0 0, 0 100%, 100% 50%);
 }
+[type="details"][side="up"]::before {
+	height: var(--size);
+	width: calc(2 * var(--size));
+	top: 100%;
+	clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+[type="details"][side="right"]::before {
+	height: calc(2 * var(--size));
+	width: var(--size);
+	right: 100%;
+	clip-path: polygon(0 50%, 100% 100%, 100% 0);
+}
 
 [type="details"][bias="right"]::before {
-	left: calc((0.5 * var(--cell-width)) - var(--size));
+	left: var(--hover-connector-offset-hz);
+}
+[type="details"][bias="left"]::before {
+	right: var(--hover-connector-offset-hz);
 }
 [type="details"][bias="up"]::before {
-	bottom: calc((0.5 * var(--cell-height)) - var(--size));
+	bottom: var(--hover-connector-offset-vt);
+}
+[type="details"][bias="down"]::before {
+	top: var(--hover-connector-offset-vt);
+}
+
+/* 
+ * Add enticing glow and pointer cursor to detailed elements on hover.
+ */
+[onclick^="toggle_detail("] {
+	cursor: pointer;
+}
+#event-list [onclick^="toggle_detail("][type="event"]:hover {
+	--bg-color: var(--color-hover-event);
+}
+[onclick^="toggle_detail("][topic="racial"]:hover {
+	--bg-color: var(--color-hover-racial);
+}
+[onclick^="toggle_detail("][topic="partisan"]:hover {
+	background-color: transparent;
+	--half-blue: rgba( 80,  80, 255, 0.5);
+	--half-red:  rgba(255,  80,  80, 0.5);
+}
+[onclick^="toggle_detail("]#rucho:hover {
+	/*--half-blue: rgba( 80,  80, 255, 0.5);
+	--half-red:  rgba(255,  80,  80, 0.5);*/
+	/*--bg-topic-partisan: 
+		radial-gradient(
+			ellipse farthest-side at 100% 25%, 
+			var(--half-blue), 
+			var(--half-blue) 35%, 
+			transparent 97%), 
+		radial-gradient(
+			ellipse farthest-side at 0 25%, 
+			var(--half-red), 
+			var(--half-red) 35%, 
+			transparent 97%);*/
+}
+
+#hoffdeath:hover ~ #census2020::before {
+	--bg-color: var(--color-hover-event);
 }
 </style>
+<script>
+var ignore = false;
+var current_detail = null;
+
+function keep_detail(){
+	ignore = true;
+}
+
+function toggle_detail(id){
+	if(!ignore){
+		var e = document.getElementById(id+'-details');
+		if(e.style.display){
+			e.style.display = '';
+			current_detail = null;
+		} else{
+			e.style.display = 'block';
+			if(current_detail){
+				current_detail.style.display = '';
+			}
+			current_detail = e;
+		}
+		ignore = true;
+	}
+}
+
+function detail_off(){
+	if(!ignore){
+		if(current_detail){
+			current_detail.style.display = '';
+			current_detail = null;
+		}
+	}
+	ignore = false;
+}
+</script>
 </head>
 <body>
-	<div id="timeline">
+	<div id="timeline" onclick="detail_off()">
 		<div type="column" id="time-axis">
 			<div type="label"><span>Year</span></div>
 			<div type="year"><span>2010</span></div>
@@ -611,18 +858,56 @@
 		
 		<div type="column" id="event-list">
 			<div type="label"><span>Event(s)</span></div>
+			
 			<div type="event" id="census2010" event="census">
 				<span>Census</span></div>
-			<div type="event" id="redwave">
-				<span>Red wave</span></div>
-			<div type="event" id="pcrd2011" event="PCRD" class="arm">
-				<span>Post-census redistricting</span>
+			
+			<div type="event" id="redwave" onclick="toggle_detail('redwave')">
+				<span>Red wave</span>
+				<div id="redwave-details" type="details" onclick="keep_detail()" side="right" bias="down">
+					Republicans gained majorities in both houses of the NC legislature 
+					in the 2010 midterm elections.  
+				</div>
 			</div>
 			
-			<div type="event" id="census2020" event="census">
-				<span>Census,<br>Apr 1st, 2020</span></div>
-			<div type="event" id="pcrd2021" event="PCRD" class="arm">
-				<span>Post-census redistricting</span></div>
+			<div type="event" id="pcrd2011" event="PCRD" class="arm" onclick="toggle_detail('pcrd2011')">
+				<span>Post-census redistricting</span>
+				<div id="pcrd2011-details" type="details" onclick="keep_detail()" side="down" bias="right">
+					<p>The new Republican majorities redistricted with extensive consultation 
+					from gerrymandering guru Dr. Thomas Hofeller.</p>
+					<p>The new districts were first used in the 2012 elections.</p>
+				</div>
+			</div>
+			
+			<div type="event" id="hoffdeath" event="death" onclick="toggle_detail('hoffdeath')">
+				<span>Death of<br>Dr. Hofeller</span>
+				<div id="hoffdeath-details" type="details" onclick="keep_detail()" side="up" bias="right">
+					<p>Dr. Thomas Hofeller died in August 2018.</p>
+					<p>He kept his redistricting files on some external hard drives in his home, where his daughter discovered them.</p>
+					<p>These files became material evidence in <i>Common Cause v. Lewis</i> and other cases.</p>
+				</div>
+			</div>
+			
+			<div type="event" id="census2020" event="census" onclick="toggle_detail('census2020')">
+				<span>Census,<br>Apr 1st, 2020</span>
+				<div id="census2020-details" type="details" onclick="keep_detail()" side="right" bias="up">
+					<p>Other files from the late Dr. Hofeller showed that recent plans 
+					to add a citizenship question to the census were developed as a foundation 
+					to later draw districts based only on citizen population figures rather than 
+					total population.</p>
+					<p>That would make district boundaries more flexible in redistricting, 
+					providing more options for gerrymandering.</p>
+				</div>
+			</div>
+			
+			<div type="event" id="pcrd2021" event="PCRD" class="arm" onclick="toggle_detail('pcrd2021')">
+				<span>Post-census redistricting</span>
+				<div id="pcrd2021-details" type="details" onclick="keep_detail()" side="right" bias="up">
+					The party or parties in power in the state legislature after the 2020 
+					election will perfunctorily redraw the maps for state house, state 
+					senate, and Congress.
+				</div>
+			</div>
 		</div>
 		
 		<div type="column" id="house-maps">
@@ -657,21 +942,42 @@
 		
 		<div type="column" id="st-leg-cases">
 			<div type="label"><span>State legislative court cases</span></div>
-			<div type="case" topic="racial" id="covington" class="arm">
+			
+			<div type="case" topic="racial" id="covington" class="arm" onclick="toggle_detail('covington')">
 				<span class="to_top">
 					<a title="" rel="nofollow" target="_blank" 
 					href="https://www.brennancenter.org/our-work/court-cases/north-carolina-v-covington">
 						North Carolina v. Covington
 					</a>
 				</span>
+				<div id="covington-details" type="details" onclick="keep_detail()" side="left" bias="up">
+					<p>
+					In 2015, a suit was filed in federal court over racial gerrymandering 
+					of the 2011 state house senate maps. It succeeded. The legislature 
+					had to redraw the maps.</p>
+					<p>Republicans replaced the racial gerrymander with a partisan one; though, some 
+					districts were redrawn by a court-appointed special master.</p>
+					<p>The new maps were used in the 2018 elections.</p>
+				</div>
 			</div>
-			<div type="case" topic="partisan" id="commoncause" class="arm">
+			
+			<div type="case" topic="partisan" id="commoncause" class="arm" onclick="toggle_detail('commoncause')">
 				<span class="to_top">
 					<a title="" rel="nofollow" target="_blank" 
 					href="https://www.brennancenter.org/our-work/court-cases/common-cause-v-lewis">
 						Common Cause v. Lewis
 					</a>
 				</span>
+				<div id="commoncause-details" type="details" onclick="keep_detail()" side="left" bias="up">
+					<p>In November 2018, a suit was filed in state court over partisan 
+					gerrymandering of NC's state house and senate districts.</p>
+					<p>September 2019 the court ordered the legislature to publicly draw 
+					non-partisan maps within the month.</p>
+					<p>Some district lines were chosen mainly to separate incumbent politicians. 
+					The legislature replaced the partisan gerrymander with an incumbent 
+					gerrymander.</p>
+					<p>The case continues as of late 2019. The new maps will be used in the 2020 elections.</p>
+				</div>
 			</div>
 		</div>
 		
@@ -707,31 +1013,56 @@
 		
 		<div type="column" id="cong-cases">
 			<div type="label"><span>Congressional court cases</span></div>
-			<div type="case" topic="racial" id="harris" class="arm">
+			
+			<div type="case" topic="racial" id="harris" class="arm" onclick="toggle_detail('harris')">
 				<span class="to_top">
 					<a title="" rel="nofollow" target="_blank" 
 					href="https://www.brennancenter.org/our-work/court-cases/cooper-v-harris-amicus-brief">
 						Harris v. McCrory
 					</a>
 				</span>
+				<div id="harris-details" type="details" onclick="keep_detail()" side="left" bias="down">
+					<p>In 2013, a lawsuit was filed in federal court over racial gerrymandering 
+					of the 2011 Congressional district map. It succeeded.</p>
+					<p>The legislature redrew the Congressional map in early 2016. Republicans replaced 
+					the racial gerrymander with a partisan one.</p>
+					<p>The new map was used in the 2016 elections.</p>
+				</div>
 			</div>
 			
-			<div type="case" topic="partisan" id="rucho">
+			<div type="case" topic="partisan" id="rucho" onclick="toggle_detail('rucho')">
 				<span class="to_top">
 					<a title="" rel="nofollow" target="_blank" 
 					href="https://www.brennancenter.org/our-work/court-cases/rucho-v-common-cause">
 						Rucho v. Common Cause
 					</a>
 				</span>
+				<div id="rucho-details" type="details" onclick="keep_detail()" side="left" bias="down">
+					<p>In 2016, a suit was filed in federal court over partisan gerrymandering 
+					of NC's Congressional districts.</p>
+					<p>The case failed.</p>
+					<p>In June 2019 the US supreme court
+					ruled that federal courts have no authority over partisan gerrymandering.</p>
+				</div>
 			</div>
 			
-			<div type="case" topic="partisan" id="harper" class="arm">
+			<div type="case" topic="partisan" id="harper" class="arm" onclick="toggle_detail('harper')">
 				<span class="to_top">
 					<a title="" rel="nofollow" target="_blank" 
 					href="https://www.brennancenter.org/our-work/court-cases/harper-v-lewis">
 						Harper v. Lewis
 					</a>
 				</span>
+				<div id="harper-details" type="details" onclick="keep_detail()" side="left" bias="up">
+					<p>In September 2019, a suit was filed in state court over partisan 
+					gerrymandering of NC's Congressional districts. It succeeded. The legislature 
+					redrew the map in October.</p>
+					<p>The court did not mandate the transparency controls from the <i>Common Cause v.
+					Lewis</i> redistricting a month before.</p>
+					<p>Republicans replaced the partisan gerrymander with a mild partisan gerrymander.</p>
+					<p>The new map will be in effect for the 2020 election cycle.
+					As of late 2019 the case is ongoing.</p>
+				</div>
 			</div>
 		</div>
 		
