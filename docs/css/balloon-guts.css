@@ -51,8 +51,8 @@ div.gm-style-iw           ul > li ~ li,
 }
 
 /* smaller indents for nested lists */
-div.gm-style-iw           ul > ul,
-[data-balloonish~="guts"] ul > ul {
+div.gm-style-iw           ul > li > ul,
+[data-balloonish~="guts"] ul > li > ul {
   padding-left: 2em;
 }
 
@@ -67,6 +67,9 @@ div.gm-style-iw           h3,
 /* Better formatting of heading <p>s */
 div.gm-style-iw           p.heading,
 [data-balloonish~="guts"] p.heading {
-  margin-top: 1.5em;
   margin-bottom: 0;
+}
+div.gm-style-iw           p.heading ~ p.heading,
+[data-balloonish~="guts"] p.heading ~ p.heading {
+  margin-top: 1.5em;
 }
