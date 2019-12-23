@@ -247,6 +247,7 @@
       var layers = [];
       var map;
       
+      var ncCenter = {lat: 35.5, lng: -79.9};
       var ncBounds = {west: -82.745, east: -75.887, south: 34.805, north: 36.562};
       
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
@@ -274,7 +275,7 @@
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 8,
-          center: initCenter,
+          center: ncCenter,
           mapTypeId: 'hybrid',
           mapTypeControlOptions: {
             style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
