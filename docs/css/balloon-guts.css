@@ -34,7 +34,9 @@ div.gm-style-iw           table th,
   text-align: left;
 }
 
+
 /* Unordered Lists */
+/* vertical spacing */
 div.gm-style-iw           ul,
 [data-balloonish~="guts"] ul {
   padding-top: 0.5em;
@@ -46,4 +48,25 @@ div.gm-style-iw           ul > li,
 div.gm-style-iw           ul > li ~ li,
 [data-balloonish~="guts"] ul > li ~ li {
   padding-top: 0.5em;
+}
+
+/* smaller indents for nested lists */
+div.gm-style-iw           ul > ul,
+[data-balloonish~="guts"] ul > ul {
+  padding-left: 2em;
+}
+
+
+/* Less wasted space below h3s */
+div.gm-style-iw           h3,
+[data-balloonish~="guts"] h3 {
+  margin-bottom: 0;
+}
+
+
+/* Better formatting of heading <p>s */
+div.gm-style-iw           p.heading,
+[data-balloonish~="guts"] p.heading {
+  margin-top: 1.5em;
+  margin-bottom: 0;
 }
