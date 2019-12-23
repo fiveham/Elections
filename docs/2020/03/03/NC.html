@@ -288,9 +288,8 @@
         var dist_ct   = kmllayer('https://fiveham.github.io/Elections/resources/2020/03/03/NC/dcd.kmz');
         var prosec    = kmllayer('https://fiveham.github.io/Elections/resources/2020/03/03/NC/prosecutorial.kmz');
         var supr_ct   = kmllayer('https://fiveham.github.io/Elections/resources/2020/03/03/NC/scd.kmz');
-        var county    = new Layer(['https://fiveham.github.io/Elections/resources/2020/03/03/NC/county0.kmz',
-                                   'https://fiveham.github.io/Elections/resources/2020/03/03/NC/county1.kmz'],
-                                   kmllayer);
+        var county    = new Layer([kmllayer('https://fiveham.github.io/Elections/resources/2020/03/03/NC/county0.kmz'),
+                                   kmllayer('https://fiveham.github.io/Elections/resources/2020/03/03/NC/county1.kmz')]);
         var muni      = new Layer([kmllayer('https://fiveham.github.io/Elections/resources/2020/03/03/NC/muni_bg.kml', 0),
                                    kmllayer('https://fiveham.github.io/Elections/resources/2020/03/03/NC/municipal.kmz', 1)]);
         var congress  = kmllayer('https://fiveham.github.io/Elections/resources/2020/03/03/NC/congress.kml');
