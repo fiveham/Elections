@@ -73,3 +73,14 @@ div.gm-style-iw           p.heading ~ p.heading,
 [data-balloonish~="guts"] p.heading ~ p.heading {
   margin-top: 1.5em;
 }
+
+
+/* Vertical spacing of p-based source lists */
+div.gm-style-iw           p.source,
+[data-balloonish~="guts"] p.source {
+  margin-top: 1em;
+}
+div.gm-style-iw           p.source ~ ul,
+[data-balloonish~="guts"] p.source ~ ul {
+  margin-top: 0.5em;
+}
