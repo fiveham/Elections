@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="/Elections/images/favicon/nc-rwb-check.png">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link rel="canonical" href="https://fiveham.github.io/Elections/2020/03/03/NC.html">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Interactive election map of districts and candidates for state house and senate, 
+                                      statewide offices, District Court, Superior Court, District Attorney, and municipal offices
+                                      in North Carolina's partisan primaries on March 3rd, 2020">
+    
+    <meta property="og:image"
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/og/nc-03-03-2020.png">
+    <meta property="og:image:url"
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/og/nc-03-03-2020.png">
+    <meta property="og:image:secure_url"
+          content="https://raw.githubusercontent.com/fiveham/Elections/master/docs/images/og/nc-03-03-2020.png">
+    <meta property="og:image:alt"
+          content="">
+    <meta property="og:image:type"       content="image/png">
+    <meta property="og:image:width"      content="1200">
+    <meta property="og:image:height"     content="630">
+    <meta property="og:url"              content="https://fiveham.github.io/Elections/2020/03/03/NC.html">
+    <meta property="og:type"             content="website">
+    <meta property="og:determiner"       content="">
+    <meta property="og:title"
+          content="NC Primaries 3/3/20">
+    <meta property="og:description"
+          content="Interactive election map of districts and candidates for state house and senate, 
+                  statewide offices, district court and superior court judgeships, district attorney, and 
+                  county/municipal offices">
+    
+    <meta property="og:locale" content="en_US">
+    
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:url"         content="https://fiveham.github.io/Elections/2019/11/16/LA.html">
+    <meta name="twitter:title" content="NC Primaries 3/3/20">
+    <meta name="twitter:description"
+          content="Interactive election map of districts and candidates for state house and senate, 
+                  statewide offices, district court and superior court judgeships, district attorney, and 
+                  county/municipal offices">
+    <meta name="twitter:image"
+          content="http://raw.githubusercontent.com/fiveham/Elections/master/docs/images/og/la-11-16-2019.png">
+    <meta name="twitter:image:alt"
+          content="">
+    
+    <title>Primaries March 3, 2020 - Interactive Election Map of North Carolina</title>
+    
+    <link rel="stylesheet" type="text/css" href="/Elections/css/fullpage-map.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-dimensions.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/balloon-guts.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/map-controls.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/geolocator.css">
+    <link rel="stylesheet" type="text/css" href="/Elections/css/about-modal.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <!-- Geolocator Button -->
+    <div id="geolocation" class="geolocate installed controls top" onclick="geolocate();" role="button" 
+         title="Your location"></div>
+    
+    <!-- Layer-switcher dropdown -->
+    <select id="layer-switcher" class="installed controls top text" onchange="reset_layers()" 
+            title="Change the district set">
+      <option>State House</option>
+      <option>State Senate</option>
+      <option>Statewide</option>
+      <option>District Ct.</option>
+      <option>Prosecutorial</option>
+      <option>Superior Ct.</option>
+      <option>County</option>
+      <option>Municipal</option>
+      <option>Congress</option>
+    </select>
+    
+    <!-- PPLkup Link -->
+    <a id="pplkup" class="installed controls top text" rel="nofollow" target="_blank" title="NCSBE Polling Place Lookup Tool" 
+       href="https://vt.ncsbe.gov/PPLkup">
+      <span>Find Polling Place</span></a>
+    
+    <!-- "About" Button -->
+    <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
+         title="About this map">
+      <span>About</span>
+    </div>
+    
+    <!-- "About" Modal -->
+    <div id="about-modal" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+      <div class="has-scrollbar">
+        <div class="box" data-balloonish="dims guts">
+          <div class="content">
+            
+            <p class="heading">NC Partisan Primaries, Mar 3 2020</p>
+            <p>This interactive election map shows the districts and candidates for the March 3, 2020 partisan primaries in 
+               North Carolina.  Candidates unopposed for their party's nomination are included in this map even though the offices
+               for which they are running may not actually appear on their party's primary ballot.</p>
+            
+            
+            <p class="heading">Fair Warning: Approximate Municipal Borders</p>
+            <p>For technical reasons the municipal layer had to be shrunk (filesize) by rounding the latitude-longitude 
+               coordinates of the corners of shapes without a municipal-level election to 3 places after the 
+               decimal point. In some cases, this visibly moves the border.</p>
+            <p>The decimal precision for corners of municipalities with an election on March 3rd is 6 places after the 
+               decimal point, the same precision used on other layers in general.</p>
+            
+            
+            <p class="heading">Districts Within Counties and Municipalities</p>
+            <p>Some offices included on the county or municipal layers of this map pertain to districts within those counties or 
+               municipalities.</p>
+            <p>In some counties, county commissioner districts are only a residency restriction on candidates
+               such that the candidates are voted on countywide. In some other counties, commissioner districts restrict both candidate 
+               residency and which voters have that contest on their ballots.  In the rest of the counties, commissioners are 
+               simply voted on countywide.</p>
+            <p>Some counties and municipalities elect school board members by district. In some counties, these districts are the same 
+               as those used for county commissioners, if that county even has commissioner districts. In others, school board members
+               are elected according to a different set of district lines altogether.</a>
+            <p>Determine which districts, offices, and candidates apply to you as a voter by looking up your registration information 
+               <a target="_blank" rel="nofollow" title="NCSBE Registration Lookup" href="https://vt.ncsbe.gov/RegLkup">on the 
+               State Elections Board website,</a> which includes sample ballots that apply to you.</p>
+            
+            
+            <p class="heading">Voter ID Requirement</p>
+            <p>This will be the first election since <a target="_blank" rel="nofollow" title="NAACP v. McCrory"
+               href="https://www.brennancenter.org/our-work/court-cases/north-carolina-naacp-v-mccrory">NAACP v. McCrory</a> where
+               photo ID will be required to vote.</p>
+            <p>A <a href="https://s3.amazonaws.com/dl.ncsbe.gov/Voter%20ID/ApprovalApplications/Approved%20Photo%20ID%20List%20December%202019.pdf"
+            title="list of accepted voter IDs" target="_blank" rel="nofollow">list of accepted forms of ID</a> is available 
+            <a href="https://www.ncsbe.gov/Voter-ID" target="_blank" rel="nofollow"
+               title="NCSBE Voter ID FAQ page">on the State Elections Board website.</a></p>
+            <p>Accepted IDs include <ul>
+               <li><a href="https://www.ncsbe.gov/Portals/0/Voter%20ID/Forms/VoterID_Request_201904.pdf" rel="nofollow" target="_blank"
+                  title="Voter ID request form">Voter ID card</a>
+                  from your <a href="https://vt.ncsbe.gov/BOEInfo/" rel="nofollow" target="_blank" title="county elections board 
+                  contact info">county board of elections</a>
+               <li>Driver's license or non-operator ID (doesn't need to be a "REAL ID")<ul>
+                  <li>from North Carolina
+                  <li>From elsewhere in the US (but only if you registered to vote in a 90-day window before the election)</ul>
+               <li>US Passport
+               <li>Student ID from certain colleges and universities
+               <li>Employee ID from certain charter schools, colleges, universities, local governments, and 
+                   state government departments
+               <li>Tribal enrollment card from <ul>
+                  <li>a federal tribe (including but not limited to the EBCI)
+                  <li>a state tribe<ul>
+                    <li>Coharie
+                    <li>Haliwa-Saponi
+                    <li>Lumbee
+                    <li>Sappony
+                    <li>Waccamaw Siouan</ul></ul>
+               <li>Military ID, veteran ID
+               </ul></p>
+            <p>Tribal enrollment cards and military/veteran ID may be expired or have no expiration date.</p>
+            <p>All others must<ul>
+               <li>Be valid and unexpired,
+               <li>be expired for one year or less, or
+               <li>have been unexpired on the voter's 65th birthday if they're 65 or older</ul></p> 
+            
+            
+            <p class="heading">Election Incidents, Voter Intimidation</p>
+            <p>In the event of voter intimidation or other inappropriate stuff, there are several ways to report it as 
+               an election incident. Here are some: 
+            <ul>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfFDJqx8zlzRWXSmNNpC5sEgqMguWsYf1Y_npmeet__E1SFZg/viewform"
+                          title="NCBSE election incident report form" rel="nofollow" target="_blank">
+                          NCSBE election incident report form</a>
+            <li>ACLU Election Protection Hotline: 866-OUR-VOTE (866-687-8683)
+            <li><a href="https://www.votingrightsinstitute.org/report/" rel="nofollow" target="_blank"
+                   title="Report a Voting Rights Problem">Voting Rights Institute</a>
+            <li><a href="https://www.justice.gov/crt/complaint/votintake/index.php" rel="nofollow" target="_blank"
+                   title="Election Complaint Report">United State Dept. of Justice</a>
+            <li><a href="https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2018/11/05/report-voting-problems-on-election-day"
+                   rel="nofollow" target="_blank" title="Report Voting Problems on Election Day">The Pew Charitable Trusts</a>
+            </ul></p>
+            
+            
+            <p class="heading">Office and Candidate Sequence</p>
+            <p>Candidates for an office are listed with their party affiliation, sorted alphabetically. This typically differs 
+               from the order on the ballot. The candidate's party is listed before their name so alphabetization
+               clusters candidates by party.</p>
+            
+            
+            <p class="heading">Incumbents</p>
+            <p>The map does not indicate whether a candidate currently occupies the office that they're running for.</p>
+            
+            
+            <p class="heading">Colors</p>
+            <p>The colors mean nothing, for the most part.</p>
+            <p>Lighter colors are used for shapes with no corresponding election on March 3rd, but the shades of green and orange
+               are used purely to help distinguish adjacent shapes.</p>
+            <p>Orange and green were chosen to avoid partisan implications. Using a different brightness level for each color is 
+               meant to ensure districts can still be distinguished in case of color vision deficiency.</p>
+            
+            
+            <p class="heading">Why have district lines moved?</p>
+            <p>State house and senate districts moved due to a court order coming from the case <a rel="nofollow" target="_blank" 
+               href="https://www.brennancenter.org/our-work/court-cases/common-cause-v-lewis"><i>Common Cause v. Lewis</i></a> due 
+               to partisan gerrymandering.</p>
+            <p>Congressional districts moved due to the case <a rel="nofollow" target="_blank"
+               href="https://www.brennancenter.org/our-work/court-cases/harper-v-lewis"><i>Harper v. Lewis</i></a> due to partisan
+               gerrymandering.</p>
+            <p>A few prosecutorial districts were set to change over the next few election cycles by <a rel="nofolllow" target="_blank"
+               href="https://www.ncleg.gov/BillLookUp/2017/H717">Session Law 2018-121</a>, passed in June 2018.</p>
+            
+            
+            <p class="heading">Sources</p>
+            
+            <p class="source">Candidates</p>
+            <ul>
+              <li><a target="_blank" rel="nofollow"
+                  title="NCSBE downloads - 2020 candidate filing"
+                  href="https://dl.ncsbe.gov/?prefix=Elections/2020/Candidate%20Filing/">
+                  State Elections Board</a></ul>
+            
+            <p class="source">District lines: Congress</p>
+            <ul>
+              <li><a target="_blank" rel="nofollow"
+                  title="Court-ordered redistricting bill"
+                  href="https://www.ncleg.gov/BillLookUp/2019/H1029">
+                  NC Legislature</a></ul>
+            
+            <p class="source">District lines: State House</p>
+            <ul>
+              <li><a target="_blank" rel="nofollow"
+                  title="Court-ordered redistricting bill"
+                  href="https://www.ncleg.gov/BillLookUp/2019/H1020">
+                  NC Legislature</a></ul>
+            
+            <p class="source">District lines: State Senate</p>
+            <ul>
+              <li><a target="_blank" rel="nofollow"
+                  title="Court-ordered redistricting bill"
+                  href="https://www.ncleg.gov/BillLookUp/2019/S692">
+                  NC Legislature</a></ul>
+            
+            <p class="source">District lines: District Court; Prosecutorial (district attorney); Superior Court</p>
+            <ul>
+              <li><a target="_blank" rel="nofollow"
+                  title="Spontaneous redistricting bill"
+                  href="https://www.ncleg.gov/Sessions/2017/Bills/House/PDF/H717v10.pdf">
+                  NC Legislature</a></ul>
+            
+            <p class="source">County lines</p>
+            <ul>
+              <li><a target="_blank" rel="nofollow"
+                  title="County line shapefile"
+                  href="https://dl.ncsbe.gov/?prefix=ShapeFiles/CountyBoundary/">
+                  State Elections Board</a></ul>
+            
+            <p class="source">Municipal borders</p>
+            <ul>
+              <li><a target="_blank" rel="nofollow"
+                  title="download NC places shapefile"
+                  href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=Places">
+                  US Census Bureau</a></ul>
+            
+            <p class="source">Accepted voter IDs</p>
+            <ul>
+              <li><a target="_blank" rel="nofollow"
+                title="Accepted voter ID list"
+                href="https://s3.amazonaws.com/dl.ncsbe.gov/Voter%20ID/ApprovalApplications/Approved%20Photo%20ID%20List%20December%202019.pdf">
+                Accepted voter ID list (PDF)</a>
+              <li><a target="_blank" rel="nofollow"
+                title="NCSBE Voter ID info page"
+                href="https://www.ncsbe.gov/Voter-ID">
+                State Elections Board</a></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- The Map -->
+    <div id="map"></div>
+    
+    <script>
+      var layers = [];
+      var map;
+      
+      var ncCenter = {lat: 35.5, lng: -79.9};
+      var ncBounds = {west: -82.745, east: -75.887, south: 34.805, north: 36.562};
+      
+      var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
+      var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/},
+                     {id: "pplkup",         where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
+                     {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function get_url_params(){
+        var url = window.location.href;
+        var q = url.indexOf("?");
+        var h = ((url.indexOf("#") + 1) || url.length + 1) - 1;
+        var params = (q == -1
+            ? []
+            : url.slice(q+1,h).split("&"));
+        var param_dict = {};
+        for(var i = 0; i < params.length; i++){
+          var kv = params[i].split("=");
+          param_dict[kv[0]] = kv[1] ? kv[1] : null;
+        }
+        return param_dict;
+      }
+      
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: ncCenter,
+          mapTypeId: 'hybrid',
+          mapTypeControlOptions: {
+            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+          }
+        });
+        
+        //Polygon layers
+        var house = new google.maps.Data();
+        house.loadGeoJson(/Elections/resources/2020/03/03/NC/house.geo.json');
+        
+        var senate = new google.maps.Data();
+        senate.loadGeoJson('/Elections/resources/2020/03/03/NC/senate.geo.json');
+        
+        var statewide = new google.maps.Data();
+        statewide.loadGeoJson('/Elections/resources/2020/03/03/NC/state.geo.json');
+        
+        var dist_ct = new google.maps.Data();
+        dist_ct.loadGeoJson('/Elections/resources/2020/03/03/NC/dcd.geo.json');
+        
+        var prosec = new google.maps.Data();
+        prosec.loadGeoJson('/Elections/resources/2020/03/03/NC/prosecutorial.geo.json');
+        
+        var supr_ct = new google.maps.Data();
+        supr_ct.loadGeoJson('/Elections/resources/2020/03/03/NC/scd.geo.json');
+        
+        var county = new google.maps.Data();
+        county.loadGeoJson('/Elections/resources/2020/03/03/NC/county.geo.json');
+        
+        var muni = new google.maps.Data();
+        muni.loadGeoJson('/Elections/resources/2020/03/03/NC/muni_bg.geo.json');
+        
+        var congress = new google.maps.Data();
+        congress.loadGeoJson('/Elections/resources/2020/03/03/NC/congress.geo.json');
+        
+        //Maintain same sequence as dropdown list
+        layers.push(house);
+        layers.push(senate);
+        layers.push(statewide);
+        layers.push(dist_ct);
+        layers.push(prosec);
+        layers.push(supr_ct);
+        layers.push(county);
+        layers.push(muni);
+        layers.push(congress);
+        
+        add_widgets();
+        map.fitBounds(ncBounds);
+        
+        //turn first layer(s) on
+        reset_layers();
+      }
+      
+      function reset_layers(){
+        for(var i = 0; i < layers.length; i++){
+          layers[i].setMap(null);
+        }
+        var index = document.getElementById('layer-switcher').selectedIndex;
+        layers[index].setMap(map);
+      }
+    </script>
+    <script src="/Elections/js/geolocator.js"></script>
+    <script src="/Elections/js/about-modal.js"></script>
+    <script src="/Elections/js/add-widgets.js"></script>
+    <script src="/Elections/js/kmllayer.js"></script>
+    <script src="/Elections/js/layer.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
+    </script>
+  </body>
+</html>
