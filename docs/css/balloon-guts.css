@@ -83,4 +83,5 @@ div.gm-style-iw           p.source,
 div.gm-style-iw           p.source ~ ul,
 [data-balloonish~="guts"] p.source ~ ul {
   margin-top: 0.5em;
+  margin-bottom: 0;
 }
