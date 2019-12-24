@@ -160,6 +160,33 @@ def image_issues(page, metas):
                                   f'{w}x{h} received')
     return img_issues
 
+def a_tag_issues(page):
+    issues = []
+    
+    for a in page('a'):
+        attrs = a.attrs
+        
+        if 'href' not in attrs or not attrs['href']:
+            rep = str(a)
+            issues.append('<a> without href: ' + rep)
+        else:
+            rep = a['href']
+        
+        if 'rel' not in attrs:
+            issues.append('<a> without rel: ' + rep)
+        elif attrs['rel'] != 'nofollow':
+            issues.append('<a> with weird rel: ' + rep)
+        
+        if 'target' not in attrs:
+            issues.append('<a> without target: ' + rep)
+        elif attrs['target'] != '_blank':
+            issues.append('<a> with weird target: ' + rep)
+        
+        if 'title' not in attrs or not attrs['title']:
+            issues.append('<a> without title: ' + rep)
+    
+    return issues
+
 #given a BeautifulSoup of an html page and (preferably) the url of the page,
 #return a list of problems with the page's meta tags
 #For the meta tags to not have any problems, they just need to provide adequate
@@ -168,16 +195,13 @@ def image_issues(page, metas):
 def page_check(page, url=None):
     issues = []
     if not url:
-        issues.append("Not even sure what the current URL is.")
+        issues.append("Not even sure what the correct URL is for this page.")
     
     metas = {(meta['name']
               if meta.has_attr('name')
               else meta['property']):" ".join(meta['content'].split())
              for meta in page.head('meta')
              if meta.has_attr('content')}
-    
-    #isses based on actually loading images
-    issues.extend(image_issues(page, metas))
     
     links = {}
     for link in page.head('link'):
@@ -186,10 +210,16 @@ def page_check(page, url=None):
             any(x in std_links for x in link['rel'])):
             for r in link['rel']:
                 links[r] = link['href']
+    
     tags = {tag.name:tag.string
             for tag in (page.head.find(name)
                         for name in std_tags)}
-    del page
+    
+    #isses based on actually loading images
+    issues.extend(image_issues(page, metas))
+
+    # Check <a> tags for rel, target, title, and href
+    issues.extend(a_tag_issues(page))
     
     #Collect canonical urls
     urls = {d[key]
