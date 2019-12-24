@@ -8,7 +8,7 @@ from PIL import Image
 
 #Given a starting point in a repo on Github, recurse through the repo, checking
 #every html file in the repo by calling page_check.
-def from_github(start_url, manual_url=None):
+def from_github(start_url, manual_url=None, print=False):
     """Scan a Github repo for issues starting from the page at `start_url`.
 
        Get (request) the Github page at `start_url`. Look for the <table> in
@@ -55,10 +55,14 @@ def from_github(start_url, manual_url=None):
         for tr in trs:
             path = tr.a['href']
             result.extend(from_github('https://github.com'+path))
+
+    if print:
+        pretty_print_issues(result)
+    
     return result
 
 def read_html_doc(github_url):
-    assert github_url.endswith('.html')
+    #assert github_url.endswith('.html')
     start_resp = requests.get(github_url)
     return BeautifulSoup(start_resp.text, 'html.parser')
 
