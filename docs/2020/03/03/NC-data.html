@@ -319,8 +319,9 @@
       function contest_text(contest){
         var name = contest.name;
         var vote_for = contest.vote_for;
+        var vf = vote_for === 1 ? '' : ' (choose ' + vote_for + ')';
         var candidates = contest.candidates;
-        return '<b>' + name + '</b><br><br><table>' + candidate_table(candidates).join('') + '</table>';
+        return '<b>' + name + '</b>' + vf + '<br><br><table>' + candidate_table(candidates).join('') + '</table>';
       }
       
       function balloon_text(feature){
