@@ -357,12 +357,17 @@
       function balloon_text(feature){
         var props = feature.h; // 'h' is the key to access a feature's properties directly
         var title = props.title;
-        var contests = props.contests.filter(contest_in_goggles);
+        
+        var all_contests = props.contests;
+        if(all_contests.length == 0){
+          return '<b>' + title + '</b><br><br><i>No elections pertain to this district on 3/3/2020</i>';
+        }
+        
+        var contests = all_contests.filter(contest_in_goggles);
         
         switch(contests.length){
           case 0:
-            var term = party_goggles ? party_goggles + ' candidates' : 'elections';
-            return '<b>' + title + '</b><br><br><i>No ' + term + ' pertain to this district on 3/3/2020</i>';
+            return '<b>' + title + '</b><br><br><i>No ' + party_goggles + ' candidates for to this district for 3/3/2020</i>';
           case 1:
             return contest_text(contests[0]);
           default:
