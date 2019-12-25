@@ -334,7 +334,7 @@
         return rows;
       }
       
-      function filter_candidates(candidate){
+      function candidate_in_goggles(candidate){
         return !party_goggles || (party_goggles === candidate[0]);
       }
       
@@ -342,18 +342,27 @@
         var name = contest.name;
         var vote_for = contest.vote_for;
         var vf = vote_for === 1 ? '' : ' (choose ' + vote_for + ')';
-        var candidates = contest.candidates.filter(filter_candidates);
+        var candidates = contest.candidates.filter(candidate_in_goggles);
         return '<b>' + name + '</b>' + vf + '<br><br><table>' + candidate_table(candidates).join('') + '</table>';
+      }
+      
+      function contest_in_goggles(contest){
+        if(!party_goggles){
+          return true;
+        else{
+          return !!contest.candidates.filter(candidate_in_goggles);
+        }
       }
       
       function balloon_text(feature){
         var props = feature.h; // 'h' is the key to access a feature's properties directly
         var title = props.title;
-        var contests = props.contests;
+        var contests = props.contests.filter(contest_in_goggles);
         
         switch(contests.length){
           case 0:
-            return '<b>' + title + '</b><br><br><i>No elections pertaining to this district on 3/3/2020</i>';
+            var term = party_goggles ? party_goggles + ' candidates' : 'elections';
+            return '<b>' + title + '</b><br><br><i>No ' + term + ' pertain to this district on 3/3/2020</i>';
           case 1:
             return contest_text(contests[0]);
           default:
