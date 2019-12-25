@@ -309,6 +309,9 @@
       function district_clicked(event){
         var content = 'Placeholder'; // TODO
         
+        if(infowindow){
+          infowindow.close();
+        }
         infowindow = new google.maps.InfoWindow({
           content: content,
           position: event.latLng
