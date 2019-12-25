@@ -350,7 +350,7 @@
         if(!party_goggles){
           return true;
         } else{
-          return !!contest.candidates.filter(candidate_in_goggles);
+          return contest.candidates.filter(candidate_in_goggles).length > 0;
         }
       }
       
