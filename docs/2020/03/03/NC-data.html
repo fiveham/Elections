@@ -279,6 +279,7 @@
     <script>
       var layers = [];
       var map;
+      var infowindow;
       
       var ncCenter = {lat: 35.5, lng: -79.9};
       var ncBounds = {west: -82.745, east: -75.887, south: 34.805, north: 36.562};
@@ -306,7 +307,13 @@
       }
       
       function district_clicked(event){
-        console.log(event);
+        var content = 'Placeholder'; // TODO
+        
+        infowindow = new google.maps.InfoWindow({
+          content: content,
+          position: event.latLng
+        });
+        infowindow.open(map);
       }
       
       function initMap() {
