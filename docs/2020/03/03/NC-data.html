@@ -305,6 +305,9 @@
                      {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
       
       function put_on_goggles(){
+        if(infowindow){
+          infowindow.close();
+        }
         var sel = document.getElementById('party_goggles');
         party_goggles = sel.options[(sel.selectedIndex)].value;
       }
