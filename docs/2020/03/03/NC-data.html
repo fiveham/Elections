@@ -280,6 +280,7 @@
       var layers = [];
       var map;
       var infowindow;
+      var party_goggles; // Specify a party, ignore all candidates not of that party
       
       var ncCenter = {lat: 35.5, lng: -79.9};
       var ncBounds = {west: -82.745, east: -75.887, south: 34.805, north: 36.562};
@@ -316,11 +317,15 @@
         return rows;
       }
       
+      function filter_candidates(candidate){
+        return !party_goggles || (party_goggles === candidates[0]);
+      }
+      
       function contest_text(contest){
         var name = contest.name;
         var vote_for = contest.vote_for;
         var vf = vote_for === 1 ? '' : ' (choose ' + vote_for + ')';
-        var candidates = contest.candidates;
+        var candidates = contest.candidates.filter(filter_candidates);
         return '<b>' + name + '</b>' + vf + '<br><br><table>' + candidate_table(candidates).join('') + '</table>';
       }
       
