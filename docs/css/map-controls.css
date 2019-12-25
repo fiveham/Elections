@@ -27,13 +27,13 @@
   background-color: #ebebeb;
 }
 
-select.controls {
+select.controls.text {
   -webkit-appearance: none;
   appearance: none;
   background-image: url(https://maps.gstatic.com/mapfiles/arrow-down.png);
   background-repeat: no-repeat;
   background-position: right 6px top 50%;
-  padding-right: 19px; /* Increase from 13px for symmetrical spacing around down-arrow bgimg */
+  padding-right: 18px; /* Increase from 13px for symmetrical spacing around down-arrow bgimg */
 }
 
 .installed.top {
