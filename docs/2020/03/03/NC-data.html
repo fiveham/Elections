@@ -305,6 +305,10 @@
         return param_dict;
       }
       
+      function district_clicked(event){
+        console.log(event);
+      }
+      
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 8,
@@ -336,13 +340,15 @@
         muni.loadGeoJson(     '/Elections/resources/2020/03/03/NC/municipal.geo.json');
         congress.loadGeoJson( '/Elections/resources/2020/03/03/NC/congress.geo.json');
         
-        //Add click listener
-        //map.data.addListener('click', function(event){
-        //  console.log(event);
-        //});
-        map.data.addListener('click', function(event){
-          alert('clicky');
-        });
+        house.addListener('click', district_clicked);
+        senate.addListener('click', district_clicked);
+        statewide.addListener('click', district_clicked);
+        dist_ct.addListener('click', district_clicked'click', district_clicked);
+        prosec.addListener('click', district_clicked);
+        supr_ct.addListener('click', district_clicked);
+        county.addListener('click', district_clicked);
+        muni.addListener('click', district_clicked);
+        congress.addListener('click', district_clicked);
         
         //Maintain same sequence as dropdown list
         layers.push(house);
