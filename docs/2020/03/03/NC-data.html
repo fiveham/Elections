@@ -306,8 +306,43 @@
         return param_dict;
       }
       
+      function candidate_table(candidates){
+        var rows = [];
+        for(var i=0; i<candidates.length; i++){
+          var party = candidates[i][0];
+          var name = candidates[i][1];
+          rows.push('<tr><td>' + party + '</td><td>' + name + '</td></tr>');
+        }
+      }
+      
+      function contest_text(contest){
+        var name = contest.name;
+        var vote_for = contest.vote_for;
+        var candidates = contest.candidates;
+        return '<b>' + name + '</b><br><br><table>' + candidate_table(candidates).join('') + '</table>';
+      }
+      
+      function balloon_text(feature){
+        var props = feature.h; // 'h' is the key to access a feature's properties directly
+        var title = props.title;
+        var contests = props.contests;
+        
+        switch(contests.length){
+          case 0:
+            return '<i>No elections pertaining to this district on 3/3/2020</i>';
+          case 1:
+            return contest_text(contests[0]);
+          default:
+            var things = ['<b>' + title + '</b>'];
+            for(var i=0; i<contests.length; i++){
+              things.push(contest_text(contests[i]));
+            }
+            return things.join('<br><br>');
+        }
+      }
+      
       function district_clicked(event){
-        var content = 'Placeholder'; // TODO
+        var content = balloon_text(event.feature);
         
         if(infowindow){
           infowindow.close();
