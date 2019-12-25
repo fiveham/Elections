@@ -337,8 +337,11 @@
         congress.loadGeoJson( '/Elections/resources/2020/03/03/NC/congress.geo.json');
         
         //Add click listener
+        //map.data.addListener('click', function(event){
+        //  console.log(event);
+        //});
         map.data.addListener('click', function(event){
-          console.log(event);
+          alert('clicky');
         });
         
         //Maintain same sequence as dropdown list
