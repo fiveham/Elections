@@ -317,31 +317,29 @@
         
         //Polygon layers
         var house = new google.maps.Data();
-        house.loadGeoJson('/Elections/resources/2020/03/03/NC/house.geo.json');
-        
         var senate = new google.maps.Data();
-        senate.loadGeoJson('/Elections/resources/2020/03/03/NC/senate.geo.json');
-        
         var statewide = new google.maps.Data();
-        statewide.loadGeoJson('/Elections/resources/2020/03/03/NC/state.geo.json');
-        
         var dist_ct = new google.maps.Data();
-        dist_ct.loadGeoJson('/Elections/resources/2020/03/03/NC/dcd.geo.json');
-        
         var prosec = new google.maps.Data();
-        prosec.loadGeoJson('/Elections/resources/2020/03/03/NC/prosecutorial.geo.json');
-        
         var supr_ct = new google.maps.Data();
-        supr_ct.loadGeoJson('/Elections/resources/2020/03/03/NC/scd.geo.json');
-        
         var county = new google.maps.Data();
-        county.loadGeoJson('/Elections/resources/2020/03/03/NC/county.geo.json');
-        
         var muni = new google.maps.Data();
-        muni.loadGeoJson('/Elections/resources/2020/03/03/NC/municipal.geo.json');
-        
         var congress = new google.maps.Data();
-        congress.loadGeoJson('/Elections/resources/2020/03/03/NC/congress.geo.json');
+        
+        house.loadGeoJson(    '/Elections/resources/2020/03/03/NC/house.geo.json');
+        senate.loadGeoJson(   '/Elections/resources/2020/03/03/NC/senate.geo.json');
+        statewide.loadGeoJson('/Elections/resources/2020/03/03/NC/state.geo.json');
+        dist_ct.loadGeoJson(  '/Elections/resources/2020/03/03/NC/dcd.geo.json');
+        prosec.loadGeoJson(   '/Elections/resources/2020/03/03/NC/prosecutorial.geo.json');
+        supr_ct.loadGeoJson(  '/Elections/resources/2020/03/03/NC/scd.geo.json');
+        county.loadGeoJson(   '/Elections/resources/2020/03/03/NC/county.geo.json');
+        muni.loadGeoJson(     '/Elections/resources/2020/03/03/NC/municipal.geo.json');
+        congress.loadGeoJson( '/Elections/resources/2020/03/03/NC/congress.geo.json');
+        
+        //Add click listener
+        map.data.addListener('click', function(event){
+          console.log(event);
+        });
         
         //Maintain same sequence as dropdown list
         layers.push(house);
