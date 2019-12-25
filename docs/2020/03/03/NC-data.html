@@ -82,6 +82,17 @@
        href="https://vt.ncsbe.gov/PPLkup">
       <span>Find Polling Place</span></a>
     
+    <!-- Party Goggles -->
+    <select id="party_goggles" class="installed controls left text" title="Ignore other parties"
+            onchange="put_on_goggles()">
+      <option value=""    title="View all candidates">All</option>
+      <option value="CST" title="Constitution Party">CST</option>
+      <option value="DEM" title="Democratic Party">DEM</option>
+      <option value="GRE" title="Green Party">GRE</option>
+      <option value="LIB" title="Libertarian Party">LIB</option>
+      <option value="REP" title="Republican Party">REP</option>
+    </select>
+    
     <!-- "About" Button -->
     <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
          title="About this map">
@@ -291,6 +302,11 @@
                      {id: "pplkup",         where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
                      {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
                      {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      function put_on_goggles(){
+        var sel = document.getElementById('party_goggles');
+        party_goggles = self.options[(sel.selectedIndex)].value;
+      }
       
       function get_url_params(){
         var url = window.location.href;
