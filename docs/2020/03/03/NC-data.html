@@ -293,6 +293,17 @@
       var infowindow;
       var party_goggles; // Specify a party, ignore all candidates not of that party
       
+      var reg_rgb = {
+        1: '#b6d7a8',
+        2: '#b45f06',
+        3: '#6aa84f',
+        4: '#f6b26b'};
+      var empty_rgb = {
+        1: '#b8d1ad',
+        2: '#9e5f1c',
+        3: '#6d9b59',
+        4: '#e4b27c'};
+      
       var ncCenter = {lat: 35.5, lng: -79.9};
       var ncBounds = {west: -82.745, east: -75.887, south: 34.805, north: 36.562};
       
@@ -304,12 +315,41 @@
                      {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
                      {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
       
+      function recolor_polygons(){
+        layers[document.getElementById('layer-switcher').selectedIndex].setStyle(color_func);
+      }
+      
+      function fill_color(feature){
+        var color = feature.getProperty('color');
+        var empty = feature.getProperty('contests').filter(contest_in_goggles).length == 0;
+         
+        return empty ? empty_rgb[color] : reg_rgb[color];
+      }
+      
+      function color_func(feature){
+        var color = feature.getProperty('color');
+        var empty = feature.getProperty('contests').filter(contest_in_goggles).length == 0;
+        
+        var style = {
+          fillColor: (empty ? empty_rgb : reg_rgb)[color],
+          fillOpacity: empty ? 0.4 : 0.5,
+          strokeColor: "#cccccc",
+          strokeOpacity: 0,
+          strokeWeight: 0,
+          clickable: true,
+          zIndex: 0
+        };
+        
+        return style;
+      }
+      
       function put_on_goggles(){
         if(infowindow){
           infowindow.close();
         }
         var sel = document.getElementById('party_goggles');
         party_goggles = sel.options[(sel.selectedIndex)].value;
+        recolor_polygons();
       }
       
       function get_url_params(){
@@ -358,10 +398,9 @@
       }
       
       function balloon_text(feature){
-        var props = feature.h; // 'h' is the key to access a feature's properties directly
-        var title = props.title;
+        var title = feature.getProperty('title');
         
-        var all_contests = props.contests;
+        var all_contests = feature.getProperty('contests');
         if(all_contests.length == 0){
           return '<b>' + title + '</b><br><br><i>No elections pertain to this district on 3/3/2020</i>';
         }
@@ -463,6 +502,7 @@
         }
         var index = document.getElementById('layer-switcher').selectedIndex;
         layers[index].setMap(map);
+        recolor_polygons();
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
