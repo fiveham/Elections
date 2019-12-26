@@ -482,7 +482,7 @@
           case 0:
             return '<b>' + title + '</b><br><br><i>No ' + party_goggles + ' candidates for this district for 3/3/2020</i>';
           case 1:
-            var pointer = document.getElementById().selectedIndex;
+            var pointer = document.getElementById('layer-switcher').selectedIndex;
             if(pointer === 0 || pointer === 1 || pointer === 4 || pointer === 8){
                return contest_text(contests[0]);
             } else{
