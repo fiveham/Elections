@@ -288,7 +288,16 @@
     <div id="map"></div>
     
     <script>
-      var layers = [];
+      var layers = [
+        {file:'house',         data:null},
+        {file:'senate',        data:null},
+        {file:'state',         data:null},
+        {file:'dcd',           data:null},
+        {file:'prosecutorial', data:null},
+        {file:'scd',           data:null},
+        {file:'county',        data:null},
+        {file:'municipal',     data:null},
+        {file:'congress',      data:null}];
       var map;
       var infowindow;
       var party_goggles; // Specify a party, ignore all candidates not of that party
@@ -296,6 +305,7 @@
       var saturation_fraction = 0.35;
       
       var reg_rgb = {
+        0: '#cccccc',
         1: '#b6d7a8',
         2: '#b45f06',
         3: '#6aa84f',
@@ -305,11 +315,6 @@
         2: desaturate(reg_rgb[2]),
         3: desaturate(reg_rgb[3]),
         4: desaturate(reg_rgb[4])};
-      /*var empty_rgb = {
-        1: '#b8d1ad',
-        2: '#9e5f1c',
-        3: '#6d9b59',
-        4: '#e4b27c'};*/
       
       var ncCenter = {lat: 35.5, lng: -79.9};
       var ncBounds = {west: -82.745, east: -75.887, south: 34.805, north: 36.562};
@@ -366,7 +371,10 @@
       }
       
       function recolor_polygons(){
-        layers[document.getElementById('layer-switcher').selectedIndex].setStyle(color_func);
+        var d = layers[document.getElementById('layer-switcher').selectedIndex]
+        if(d){
+          d.setStyle(color_func);
+        }
       }
       
       function fill_color(feature){
@@ -494,48 +502,6 @@
           }
         });
         
-        //Polygon layers
-        var house = new google.maps.Data();
-        var senate = new google.maps.Data();
-        var statewide = new google.maps.Data();
-        var dist_ct = new google.maps.Data();
-        var prosec = new google.maps.Data();
-        var supr_ct = new google.maps.Data();
-        var county = new google.maps.Data();
-        var muni = new google.maps.Data();
-        var congress = new google.maps.Data();
-        
-        house.loadGeoJson(    '/Elections/resources/2020/03/03/NC/house.geo.json');
-        senate.loadGeoJson(   '/Elections/resources/2020/03/03/NC/senate.geo.json');
-        statewide.loadGeoJson('/Elections/resources/2020/03/03/NC/state.geo.json');
-        dist_ct.loadGeoJson(  '/Elections/resources/2020/03/03/NC/dcd.geo.json');
-        prosec.loadGeoJson(   '/Elections/resources/2020/03/03/NC/prosecutorial.geo.json');
-        supr_ct.loadGeoJson(  '/Elections/resources/2020/03/03/NC/scd.geo.json');
-        county.loadGeoJson(   '/Elections/resources/2020/03/03/NC/county.geo.json');
-        muni.loadGeoJson(     '/Elections/resources/2020/03/03/NC/municipal.geo.json');
-        congress.loadGeoJson( '/Elections/resources/2020/03/03/NC/congress.geo.json');
-        
-        house.addListener('click', district_clicked);
-        senate.addListener('click', district_clicked);
-        statewide.addListener('click', district_clicked);
-        dist_ct.addListener('click', district_clicked);
-        prosec.addListener('click', district_clicked);
-        supr_ct.addListener('click', district_clicked);
-        county.addListener('click', district_clicked);
-        muni.addListener('click', district_clicked);
-        congress.addListener('click', district_clicked);
-        
-        //Maintain same sequence as dropdown list
-        layers.push(house);
-        layers.push(senate);
-        layers.push(statewide);
-        layers.push(dist_ct);
-        layers.push(prosec);
-        layers.push(supr_ct);
-        layers.push(county);
-        layers.push(muni);
-        layers.push(congress);
-        
         add_widgets();
         map.fitBounds(ncBounds);
         
@@ -548,10 +514,19 @@
           infowindow.close();
         }
         for(var i = 0; i < layers.length; i++){
-          layers[i].setMap(null);
+          var d = layers[i].data;
+          if(d){
+            d.setMap(null);
+          }
         }
         var index = document.getElementById('layer-switcher').selectedIndex;
-        layers[index].setMap(map);
+        var l = layers[index];
+        if(!l.data){
+          l.data = new google.maps.Data();
+          l.data.loadGeoJson('/Elections/resources/2020/03/03/NC/' + l.file + '.geo.json');
+          l.data.addListener('click', district_clicked);
+        }
+        l.data.setMap(map);
         recolor_polygons();
       }
     </script>
