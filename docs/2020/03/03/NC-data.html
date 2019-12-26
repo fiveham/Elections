@@ -432,6 +432,10 @@
         for(var i=0; i<candidates.length; i++){
           var party = candidates[i][0];
           var name = candidates[i][1];
+          if(!name){ /* Nonpartisan offices */
+            name  = party;
+            party = '';
+          }
           rows.push('<tr><td>' + party + '</td><td>' + name + '</td></tr>');
         }
         return rows;
