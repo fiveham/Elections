@@ -371,7 +371,7 @@
       }
       
       function recolor_polygons(){
-        var d = layers[document.getElementById('layer-switcher').selectedIndex]
+        var d = layers[document.getElementById('layer-switcher').selectedIndex].data;
         if(d){
           d.setStyle(color_func);
         }
