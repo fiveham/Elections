@@ -318,6 +318,12 @@
         3: desaturate(reg_rgb[3]),
         4: desaturate(reg_rgb[4])};
       
+      var full_party_name = {'CST': 'Constitution',
+                             'DEM': 'Democratic',
+                             'GRE': 'Green',
+                             'LIB': 'Libertarian',
+                             'REP': 'Republican'};
+      
       var ncCenter = {lat: 35.5, lng: -79.9};
       var ncBounds = {west: -82.745, east: -75.887, south: 34.805, north: 36.562};
       
@@ -480,7 +486,7 @@
         
         switch(contests.length){
           case 0:
-            return '<b>' + title + '</b><br><br><i>No ' + party_goggles + ' primary for this district for 3/3/2020</i>';
+            return '<b>' + title + '</b><br><br><i>No ' + full_party_name[party_goggles] + ' party primary for this district for 3/3/2020</i>';
           case 1:
             var pointer = document.getElementById('layer-switcher').selectedIndex;
             if(pointer === 0 || pointer === 1 || pointer === 4 || pointer === 8){
