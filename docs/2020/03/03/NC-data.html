@@ -470,7 +470,7 @@
         
         var all_contests = feature.getProperty('contests');
         if(all_contests.length == 0){
-          if(title.contains('Census-designated place')){
+          if(title.includes('Census-designated place')){
             return '<b>' + title + '</b><br><br><i>A CDP does not have its own government</i>';
           }
           return '<b>' + title + '</b><br><br><i>No elections pertain to this district on 3/3/2020</i>';
