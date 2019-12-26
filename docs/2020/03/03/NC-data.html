@@ -469,7 +469,11 @@
           case 0:
             return '<b>' + title + '</b><br><br><i>No ' + party_goggles + ' candidates for to this district for 3/3/2020</i>';
           case 1:
-            return contest_text(contests[0]);
+            if(all_contests.length === 1){
+              return contest_text(contests[0]);
+            } else{
+              return '<b>' + title + '</b><br><br>' + contest_text(contests[0]);
+            }
           default:
             var things = ['<b>' + title + '</b>'];
             for(var i=0; i<contests.length; i++){
