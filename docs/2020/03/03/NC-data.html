@@ -333,7 +333,7 @@
         var l = (max + min) / 2;
         var s = delta === 0 ? 0 : (l < 0.5 ? delta / (max + min) : (l > 0.5 ? delta / (2 - max - min) : false));
         var s2 = s * saturation_fraction;
-        var C = (1-Math.abs(2*l-1))*s;
+        var C = (1-Math.abs(2*l-1))*s2;
         var X = C*(1-Math.abs((h / 60)%2-1));
         r = g = b = 0;
         if(h < 60){
