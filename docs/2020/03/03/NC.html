@@ -468,7 +468,9 @@
       }
       
       function balloon_text(feature){
-        return 'Candidates for<br>' + _balloon_text(feature);
+        var party = document.getElementById('party_goggles').value;
+        var start = party ? full_party_name[party] + ' party candidates' : 'Candidates';
+        return start + ' for<br>' + _balloon_text(feature);
       }
       
       function _balloon_text(feature){
