@@ -6,9 +6,13 @@ popup element itself has a matching data-tab attribute. */
 /* If you only need to shut the popup element off, parameter tab is not needed */
 function pop_tab(popup_id, tab){
   var element = document.getElementById(popup_id);
-  var new_visibility = element.style.visibility === 'hidden' ? 'visible' : 'hidden';
-  if(tab){
+  var current_visibility = element.style.visibility;
+  var current_tab = element.getAttribute('data-tab');
+  
+  if(tab === current_tab){
+    element.style.visibility = current_visibility === 'hidden' ? 'visible' : 'hidden';
+  } else{
     element.setAttribute('data-tab', tab);
+    element.style.visibility = 'visible';
   }
-  element.style.visibility = new_visibility;
 }
