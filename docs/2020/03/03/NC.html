@@ -95,6 +95,19 @@
         background-size: 65%;
         background-position: 30%;
       }
+      
+      .popup [data-tab] {
+        display: none;
+      }
+      .popup[data-tab="settings"] [data-tab="settings"] {
+        display: block;
+      }
+      .popup[data-tab="about"] [data-tab="about"] {
+        display: block;
+      }
+      .popup[data-tab="share"] [data-tab="share"] {
+        display: block;
+      }
     </style>
   </head>
   <body>
@@ -139,27 +152,25 @@
       <div id="sharing"  class="controls text" role="button" title="Share this map" onclick="toggle_popup('share-popup')"></div>
     </div>
     
-    <!-- Settings Popup -->
-    <div id="settings-popup" class="installed popup">
-      <div role="button" class="closer" onclick="toggle_popup('settings-popup')">X</div>
+    <!-- Settings, About, and Sharing Popup -->
+    <div id="popup" class="installed popup" data-tab="about">
+      <div role="button" class="closer" onclick="pop_tab('popup')">X</div>
       <div class="has-scrollbar">
         <div class="box" data-balloonish="dims guts">
-          <div class="content">
+          
+          <div class="content" data-tab="settings">
             <p class="heading">Settings</p>
             <p><input type="checkbox" id="ignore"><label for="ignore">Ignore withdrawn/cancelled candidates</label></p>
             <p><input type="checkbox" id="multicand" checked="checked"><label for="multicand">When filtering by party, ignore contests with
               fewer than 2 candidates in that party</label></p>
           </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- "About" Popup -->
-    <div id="about-popup" class="installed popup">
-      <div role="button" class="closer" onclick="toggle_popup('about-popup')">X</div>
-      <div class="has-scrollbar">
-        <div class="box" data-balloonish="dims guts">
-          <div class="content">
+          
+          <div class="content" data-tab="share">
+            <p class="heading">Share on Social Media</p>
+            <p>There is nothing here yet.</p>
+          </div>
+          
+          <div class="content" data-tab="about">
             
             <p class="heading">NC Partisan Primaries, Mar 3 2020</p>
             <p>This interactive election map shows the districts and candidates for the March 3, 2020 partisan primaries in 
@@ -334,19 +345,6 @@
                 title="NCSBE Voter ID info page"
                 href="https://www.ncsbe.gov/Voter-ID">
                 State Elections Board</a></ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Sharing Popup -->
-    <div id="share-popup" class="installed popup">
-      <div role="button" class="closer" onclick="toggle_popup('share-popup')">X</div>
-      <div class="has-scrollbar">
-        <div class="box" data-balloonish="dims guts">
-          <div class="content">
-            <p class="heading">Share on Social Media</p>
-            <p>There is nothing here yet.</p>
           </div>
         </div>
       </div>
@@ -675,7 +673,7 @@
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
-    <script src="/Elections/js/popups.js"></script>
+    <script src="/Elections/js/popup.js"></script>
     <script src="/Elections/js/add-widgets.js"></script>
     <script src="/Elections/js/kmllayer.js"></script>
     <script src="/Elections/js/layer.js"></script>
