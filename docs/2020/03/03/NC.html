@@ -584,7 +584,7 @@
         var s = parseFloat(params.south);
         var n = parseFloat(params.north);
         
-        return (isNan(w) || isNan(e) || isNaN(s) || isNan(n) || w < -180 || e > 180 || s < -90 || n > 90 || w > e || s > n 
+        return (isNaN(w) || isNaN(e) || isNaN(s) || isNaN(n) || w < -180 || e > 180 || s < -90 || n > 90 || w > e || s > n 
                 ? ncBounds 
                 : {east: e, west: w, south: s, north: n});
       }
