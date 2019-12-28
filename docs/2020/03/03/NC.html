@@ -72,6 +72,7 @@
       }
       
       #settings,
+      #about, 
       #sharing {
         position: absolute;
         top:0;
@@ -84,6 +85,13 @@
         left: 0;
         background-color: orange;
         /*background-image: url('/Elections/images/settings.png');*/
+      }
+      
+      #about {
+        left: 39px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        background-color: purple;
       }
       
       #sharing {
@@ -128,21 +136,22 @@
       <option value="REP" title="Republican Party"   >REP</option>
     </select>
     
-    <!-- Settings and Sharing -->
-    <div id="set-share" class="installed controls left">
-      <div id="settings" class="controls" title="Options"></div>
-      <div id="sharing"  class="controls" title="Share this map"></div>
+    <!-- Settings, About, and Sharing -->
+    <div id="set-share" class="installed left bottom text">
+      <div id="settings" class="controls text" role="button" title="Options"        onclick="alert('clicked options')"></div>
+      <div id="about"    class="controls text" role="button" title="About this map" onclick="toggle_modal('about-popup')"></div>
+      <div id="sharing"  class="controls text" role="button" title="Share this map" onclick="alert('clicked share')"></div>
     </div>
     
-    <!-- "About" Button -->
+    <!-- "About" Button -- >
     <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
          title="About this map">
       <span>About</span>
-    </div>
+    </div> -->
     
-    <!-- "About" Modal -->
-    <div id="about-modal" class="installed">
-      <div role="button" class="closer" onclick="toggle_modal('about-modal')">X</div>
+    <!-- "About" Popup -->
+    <div id="about-popup" class="installed">
+      <div role="button" class="closer" onclick="toggle_modal('about-popup')">X</div>
       <div class="has-scrollbar">
         <div class="box" data-balloonish="dims guts">
           <div class="content">
@@ -389,13 +398,12 @@
       var ncBounds = {west: -82.745, east: -75.887, south: 34.805, north: 36.562};
       
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
-      var widgets = [{id: "geolocation",    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
-                     {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/},
-                     {id: "pplkup",         where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+      var widgets = [{id: 'geolocation',    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     {id: 'layer-switcher', where: 1  /*google.maps.ControlPosition.TOP_LEFT*/},
+                     {id: 'pplkup',         where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
                      {id: 'party_goggles',  where: 5  /* LEFT TOP */ },
-                     {id: 'set-share',      where: 5  /* LEFT TOP */ },
-                     {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
-                     {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+                     {id: 'set-share',      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/ },
+                     {id: 'about-popup',    where: 13 /*google.maps.ControlPosition.CENTER*/}];
       
       function desaturate(hexcode){
         var r = parseInt(hexcode.slice(1,3), 16)/255;
