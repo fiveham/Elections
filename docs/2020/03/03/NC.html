@@ -441,22 +441,21 @@
       function candidate_table(candidates){
         var rows = [];
         for(var i=0; i<candidates.length; i++){
-          var party = candidates[i][0];
-          var name = candidates[i][1];
-          if(!name){ /* Nonpartisan offices */
-            name  = party;
-            party = '';
+          var party = candidates[i].party;
+          var name = candidates[i].name;
+          if(!party){ /* Nonpartisan offices */
+            rows.push('<tr><td' + name + '</td></tr>');
+          } else{
+            rows.push('<tr><td>' + party + '</td><td>' + name + '</td></tr>');
           }
-          rows.push('<tr><td>' + party + '</td><td>' + name + '</td></tr>');
         }
         return rows;
       }
       
       function candidate_in_goggles(candidate){
-        var result = !party_goggles || (party_goggles === candidate[0]);
+        var result = !party_goggles || (party_goggles === candidate.party);
         if(ignore_withdrawn_cancelled){
-          var name = candidate[1] || candidate[0];
-          result = result && !name.split(' ').includes('-');
+          result = result && !candidate.name.split(' ').includes('-');
         }
         return result;
       }
