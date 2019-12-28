@@ -290,6 +290,11 @@
     <div id="map"></div>
     
     <script>
+      /* Settings */
+      var ignore_withdrawn_cancelled = false; /* Are ' - WITHDRAWN' and ' - CANCELLED' candidates ignored? */
+      var goggles_see_singles = false; /* Do party_goggles see contests with only one candidate for the party? */
+      /* End Settings */
+      
       var layers = [
         {file:'house',         data:null},
         {file:'senate',        data:null},
@@ -448,7 +453,12 @@
       }
       
       function candidate_in_goggles(candidate){
-        return !party_goggles || (party_goggles === candidate[0]);
+        var result = !party_goggles || (party_goggles === candidate[0]);
+        if(ignore_withdrawn_cancelled){
+          var name = candidate[1] || candidate[0];
+          result = result && name.split(' ').includes('-');
+        }
+        return result;
       }
       
       function contest_text(contest){
@@ -463,7 +473,8 @@
         if(!party_goggles){
           return true;
         } else{
-          return contest.candidates.filter(candidate_in_goggles).length > 1;
+          var min = goggles_see_singles ? 1 : 2;
+          return contest.candidates.filter(candidate_in_goggles).length >= min;
         }
       }
       
