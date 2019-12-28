@@ -1,5 +1,6 @@
 /* Closer X button in top right */
-#about-modal .closer[role="button"] {
+#about-modal .closer[role="button"],
+.popup       .closer[role="button"] {
   cursor: pointer;
   font-size: larger;
   position: absolute;
@@ -18,7 +19,8 @@
 }
 
 /* The modal itself. */
-#about-modal {
+#about-modal,
+.popup {
   font-size: larger;
   visibility: hidden;
   padding: 0 0 10px 10px;
@@ -26,49 +28,59 @@
 
 /* Pad the bottom of the modal a little bit when you scroll down 
    all the way to the bottom so it won't feel so cramped. */
-#about-modal .content {
+#about-modal .content,
+.popup       .content {
   padding-bottom: 10px;
 }
 
-#about-modal .has-scrollbar {
+#about-modal .has-scrollbar,
+.popup       .has-scrollbar {
   overflow-y: auto;
   margin-top: 23px;
 }
 
 /* Style scrollbar to match those in Google Maps infowindows */
-#about-modal .has-scrollbar::-webkit-scrollbar {
+#about-popup .has-scrollbar::-webkit-scrollbar,
+.popup       .has-scrollbar::-webkit-scrollbar {
   width: 18px;
   height: 12px;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
 }
+.popup .has-scrollbar::-webkit-scrollbar-corner,
 #about-modal .has-scrollbar::-webkit-scrollbar-corner {
   background: transparent;
 }
-#about-modal .has-scrollbar::-webkit-scrollbar-thumb {
+#about-modal .has-scrollbar::-webkit-scrollbar-thumb,
+.popup       .has-scrollbar::-webkit-scrollbar-thumb {
   background-color: rgba(0,0,0,0.12);
   border: 6px solid transparent;
   border-radius: 9px;
   background-clip: content-box;
 }
 #about-modal .has-scrollbar::-webkit-scrollbar-track, 
-#about-modal .has-scrollbar::-webkit-scrollbar-track-piece {
+#about-modal .has-scrollbar::-webkit-scrollbar-track-piece,
+.popup       .has-scrollbar::-webkit-scrollbar-track, 
+.popup       .has-scrollbar::-webkit-scrollbar-track-piece {
   background: #fff;
 }
 
 /* For paragraphs that are just titles for sections */
-#about-modal p.heading {
+#about-modal p.heading,
+.popup       p.heading {
   font-weight: bold;
   font-size: larger;
 }
 
-#about-modal td {
+#about-modal td,
+.popup       td {
   padding-top: 1px;
   padding-bottom: 1px;
 }
 
-#about-modal table td {
+#about-modal table td,
+.popup       table td {
   background-repeat:   no-repeat;
   background-size:     contain;
   background-position: center;
@@ -76,13 +88,16 @@
 }
 
 /* Align "Symbol" column heading to the centered symbols */
-#about-modal table th.center {
+#about-modal table th.center,
+.popup       table th.center {
   text-align: center;
   padding-right: 1px; /* match 1px left padding */
 }
 
 /* Pad left side of right column to compensate for centering left column */
 #about-modal table th:last-of-type,
-#about-modal table td:last-of-type {
+#about-modal table td:last-of-type,
+.popup       table th:last-of-type,
+.popup       table td:last-of-type {
   padding-left: 5px;
 }
