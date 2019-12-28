@@ -679,7 +679,7 @@
         }
         url = url.slice(0,q);
         
-        var bounds = map.getBounds();
+        var bounds = map.getBounds().toJSON();
         var center = map.getCenter();
         
         var x = center.lng;
