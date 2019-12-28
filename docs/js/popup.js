@@ -10,5 +10,5 @@ function pop_tab(popup_id, tab){
   if(tab){
     element.setAttribute('data-tab', tab);
   }
-  element.style.visibility = state;
+  element.style.visibility = new_visibility;
 }
