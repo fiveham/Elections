@@ -421,7 +421,10 @@
                      {id: 'pplkup',         where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
                      {id: 'party_goggles',  where: 5  /* LEFT TOP */ },
                      {id: 'set-share',      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/ },
-                     {id: 'about-popup',    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+                     {id: 'settings-popup', where: 13 /*google.maps.ControlPosition.CENTER*/},
+                     {id: 'about-popup',    where: 13 /*google.maps.ControlPosition.CENTER*/},
+                     {id: 'share-popup',    where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      var popups = [widgets[5], widgets[6], widgets[7]];
       
       function desaturate(hexcode){
         var r = parseInt(hexcode.slice(1,3), 16)/255;
