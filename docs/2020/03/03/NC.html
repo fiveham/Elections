@@ -108,6 +108,12 @@
       .popup[data-tab="share"] [data-tab="share"] {
         display: block;
       }
+      
+      #copier {
+        height: 38px;
+        width: 100%;
+        border 1px solid rgba(255,255,255,0.25);
+      }
     </style>
   </head>
   <body>
@@ -175,12 +181,15 @@
             <p><input type="checkbox" id="url_bounds"><label for="url_bounds">N/S/E/W bounds</label></p>
             <p><input type="checkbox" id="url_party"><label for="url_party">Party for primary</label></p>
             <div>
-              <label for="sharing-url">Link to this map with the current center, zoom, and layers</label>
+              <label for="sharing-url">Link to this map with its current view area and layers.</label>
               <input id="sharing-url" type="text" readonly class="sharing-url" onclick="this.setSelectionRange(0, this.value.length)">
             </div>
-            <div id="copier" title="Copy link to clipboard" onclick="copy_sharing_url();">
+            <div class="controls" id="copier" title="Copy link to clipboard" onclick="copy_sharing_url();">
               Copy to clipboard
             </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.</p>
           </div>
           
           
@@ -421,7 +430,6 @@
                      {id: 'party_goggles',  where: 5  /* LEFT TOP */ },
                      {id: 'set-share',      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/ },
                      {id: 'popup',          where: 13 /*google.maps.ControlPosition.CENTER*/}];
-      var popups = [widgets[5], widgets[6], widgets[7]];
       
       function desaturate(hexcode){
         var r = parseInt(hexcode.slice(1,3), 16)/255;
@@ -671,6 +679,15 @@
         recolor_polygons();
       }
       
+      function trim_float(f){
+        var s = '' + f;
+        var i = s.indexOf('.');
+        if(i === -1){
+          return s;
+        }
+        return s.slice(0, i+4);
+      }
+      
       function gen_sharing_url(){
         var url = location.href;
         var q = url.indexOf("?");
@@ -696,7 +713,7 @@
         var south = y - radius;
         var north = y + radius;
         
-        var url_bounds = 'south=' + south + '&west=' + west + '&north=' + north + '&east=' + east;
+        var url_bounds = 'south=' + trim_float(south) + '&west=' + trim_float(west) + '&north=' + trim_float(north) + '&east=' + trim_float(east);
         var url_layer  = 'layer=' + document.getElementById('layer-switcher').value;
         
         var pp     = document.getElementById('pp-switcher');
