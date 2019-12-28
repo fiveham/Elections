@@ -58,6 +58,31 @@
       #party_goggles {
         width: 120px; /* To match width of basemap control */
       }
+      
+      #settings-sharing {
+        width: 120px;
+        height: 40px;
+      }
+      
+      #settings,
+      #sharing {
+        position: absolute;
+        top:0;
+        bottom: 0;
+        width: 40px;
+      }
+      
+      #settings {
+        left: 0;
+        background-color: orange;
+        /*background-image: url('/Elections/images/settings.png');*/
+      }
+      
+      #sharing {
+        right: 0;
+        background-color: yellow;
+        /*background-image: url('/Elections/images/share.png');*/
+      }
     </style>
   </head>
   <body>
@@ -94,6 +119,12 @@
       <option value="LIB" title="Libertarian Party"  >LIB</option>
       <option value="REP" title="Republican Party"   >REP</option>
     </select>
+    
+    <!-- Settings and Sharing -->
+    <div id="set-share" class="installed controls left">
+      <div id="settings"></div>
+      <div id="sharing"></div>
+    </div>
     
     <!-- "About" Button -->
     <div id="about-btn" class="installed controls left bottom text" onclick="toggle_modal('about-modal')" role="button" 
@@ -354,6 +385,7 @@
                      {id: "layer-switcher", where: 1  /*google.maps.ControlPosition.TOP_LEFT*/},
                      {id: "pplkup",         where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
                      {id: 'party_goggles',  where: 5  /* LEFT TOP */ },
+                     {id: 'set-share',      where: 5  /* LEFT TOP */ },
                      {id: "about-btn",      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/},
                      {id: "about-modal",    where: 13 /*google.maps.ControlPosition.CENTER*/}];
       
