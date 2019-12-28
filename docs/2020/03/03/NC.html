@@ -61,8 +61,13 @@
       
       #set-share {
         width: 120px;
-        height: 40px;
+        height: 0;
         margin-top: 10px;
+        background: transparent;
+        overflow: visible;
+      }
+      #set-share:hover {
+        background: transparent;
       }
       
       #settings,
@@ -70,7 +75,8 @@
         position: absolute;
         top:0;
         bottom: 0;
-        width: 40px;
+        width:  40px;
+        height: 40px;
       }
       
       #settings {
@@ -123,8 +129,8 @@
     
     <!-- Settings and Sharing -->
     <div id="set-share" class="installed controls left">
-      <div id="settings" title="Options"></div>
-      <div id="sharing"  title="Share this map"></div>
+      <div id="settings" class="controls" title="Options"></div>
+      <div id="sharing"  class="controls" title="Share this map"></div>
     </div>
     
     <!-- "About" Button -->
