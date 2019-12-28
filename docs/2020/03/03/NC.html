@@ -122,8 +122,8 @@
     
     <!-- Settings and Sharing -->
     <div id="set-share" class="installed controls left">
-      <div id="settings"></div>
-      <div id="sharing"></div>
+      <div id="settings" title="Options"></div>
+      <div id="sharing"  title="Share this map"></div>
     </div>
     
     <!-- "About" Button -->
@@ -577,6 +577,17 @@
         infowindow.open(map);
       }
       
+      function get_bounds(params){
+        var w = parseFloat(params.west);
+        var e = parseFloat(params.east);
+        var s = parseFloat(params.south);
+        var n = parseFloat(params.north);
+        
+        return (isNan(w) || isNan(e) || isNaN(s) || isNan(n) || w < -180 || e > 180 || s < -90 || n > 90 || w > e || s > n 
+                ? ncBounds 
+                : {east: e, west: w, south: s, north: n});
+      }
+      
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 8,
@@ -588,10 +599,12 @@
         });
         
         add_widgets();
-        map.fitBounds(ncBounds);
+        
+        var params = get_url_params()
+        var bounds = get_bounds(params);
+        map.fitBounds(bounds);
         
         //turn first layer(s) on
-        var params = get_url_params()
         var layer = params.layer;
         if(layer){
           document.getElementById('layer-switcher').selectedIndex = layer_to_index[layer] || 0;
