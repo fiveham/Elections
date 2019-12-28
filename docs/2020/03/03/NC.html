@@ -295,6 +295,23 @@
       var goggles_see_singles = false; /* Do party_goggles see contests with only one candidate for the party? */
       /* End Settings */
       
+      var party_to_index = {
+        CST: 1, 
+        DEM: 2, 
+        GRE: 3, 
+        LIB: 4, 
+        REP: 5};
+      var layer_to_index = {
+        house        : 0, 
+        senate       : 1, 
+        statewide    : 2,
+        district     : 3, 
+        prosecutorial: 4,
+        superior     : 5,
+        county       : 6, 
+        municipal    : 7, 
+        congress     : 8};
+      
       var layers = [
         {file:'house',         data:null},
         {file:'senate',        data:null},
@@ -444,7 +461,7 @@
           var party = candidates[i].party;
           var name = candidates[i].name;
           if(!party){ /* Nonpartisan offices */
-            rows.push('<tr><td' + name + '</td></tr>');
+            rows.push('<tr><td>' + name + '</td></tr>');
           } else{
             rows.push('<tr><td>' + party + '</td><td>' + name + '</td></tr>');
           }
@@ -542,6 +559,15 @@
         map.fitBounds(ncBounds);
         
         //turn first layer(s) on
+        var params = get_url_params()
+        var layer = params.layer;
+        if(layer){
+          document.getElementById('layer-switcher').selectedIndex = layer_to_index[layer] || 0;
+        }
+        var party = params.party;
+        if(party){
+          document.getElementById('party_goggles').selectedIndex = party_to_index[party] || 0;
+        }
         reset_layers();
       }
       
