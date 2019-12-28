@@ -10,9 +10,11 @@ function pop_tab(popup_id, tab){
   var current_tab = element.getAttribute('data-tab');
   
   if(tab === current_tab){
-    element.style.visibility = current_visibility === 'hidden' ? 'visible' : 'hidden';
-  } else{
+    element.style.visibility = current_visibility === 'visible' ? 'hidden' : 'visible';
+  } else if(tab){
     element.setAttribute('data-tab', tab);
     element.style.visibility = 'visible';
+  } else{
+    element.style.visibility = 'hidden';
   }
 }
