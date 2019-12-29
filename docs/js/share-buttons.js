@@ -73,6 +73,19 @@ function get_share_button(btn, url){
 }
 
 var share_buttons = {
+  blogger: {
+    name:     'blogger',
+    bgc:      'rgb(240,106,53)',
+    bgimgs:   ['/Elections/images/sociall/Blogger/Blogger.png'],
+    get_href: function(url){
+      var params = [
+        ['u', url],
+        ['n', get_meta('og:title')],
+        ['t', get_meta('og:description')]
+      ];
+      return as_url('https://www.blogger.com/blog-this.g', params);
+    }
+  },
   buffer: {
     name:      'buffer',
     bgc:       'rgb(25,37,52)', 
@@ -86,6 +99,18 @@ var share_buttons = {
       return as_url('https://buffer.com/add', params);
     }
   },
+  /*delicious: { //The site was acquired and then discontinued
+  *  name:     'delicious',
+  *  bgc:      'rgb()',
+  *  forTitle: 'del.icio.us', 
+  *  bgimgs:   [''],
+  *  get_href: function(url){
+  *    var params = [
+  *      ['','']
+  *    ];
+  *    return as_url('', params);
+  *  }
+  *},*/
   diaspora: {
     name:      'diaspora',
     bgc:       'rgb(34,34,34)', 
@@ -187,11 +212,23 @@ var share_buttons = {
       return as_url('https://pinterest.com/pin/create/button/', params);
     }
   },
+  quora: {
+    name: 'quora',
+    bgc:  'rgb(185,43,39)',
+    bgimgs: ['/Elections/images/social/Quora/quora.png'],
+    get_href: function(url){
+      var params = [
+        ['url', url],
+        ['title', get_meta('og:title')] // maybe should use og:description instead
+      ];
+      return as_url('https://www.quora.com/share', params)
+    }
+  },
   reddit: {
-    name:'reddit',
-    bgc: 'rgb(255,69,0)', 
-    bgimgs: ['/Elections/images/social/Reddit/Artboard 1_48.png'], 
-    get_href:function(url){
+    name:     'reddit',
+    bgc:      'rgb(255,69,0)', 
+    bgimgs:   ['/Elections/images/social/Reddit/Artboard 1_48.png'], 
+    get_href: function(url){
       var params = [
         ['title', get_meta('og:description')], 
         ['url',   url]
@@ -244,6 +281,21 @@ var share_buttons = {
         ['url', url]
       ];
       return as_url('https://twitter.com/intent/tweet/', params);
+    }
+  },
+  wordpress: {
+    name:     'wordpress',
+    bgc:      'rgb(70,70,70)',
+    bgimgs:   ['/Elections/images/social/Wordpress/WordPress_blue_logo.png'],
+    forTitle: 'WordPress', 
+    get_href: function(url){
+      var title = get_meta('og:title');
+      var params = [
+        ['u', url],
+        ['t', title],
+        ['s', title]
+      ];
+      return as_url('https://wordpress.com/wp-admin/press-this.php', params);
     }
   }
 };
