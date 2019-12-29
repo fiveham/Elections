@@ -303,7 +303,7 @@ var share_buttons = {
 function get_meta(property){
   var metas = document.getElementsByTagName('meta');
   for(var i = 0; i<metas.length; i++){
-    if(metas[i].getAttribute('property') === property){
+    if(metas[i].getAttribute('property') === property || metas[i].getAttribute('name') === property){
       return metas[i].getAttribute("content");
     }
   }
