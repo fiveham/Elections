@@ -76,7 +76,7 @@ var share_buttons = {
   blogger: {
     name:     'blogger',
     bgc:      'rgb(240,106,53)',
-    bgimgs:   ['/Elections/images/sociall/Blogger/Blogger.png'],
+    bgimgs:   ['/Elections/images/social/Blogger/Blogger.png'],
     get_href: function(url){
       var params = [
         ['u', url],
