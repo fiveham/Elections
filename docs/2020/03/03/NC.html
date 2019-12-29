@@ -109,7 +109,29 @@
         display: block;
       }
       
+      #copy-sneak {
+        position: relative; /* So that child elements position themselves w/r/t this element */
+      }
+      
+      #sharing-url,
       #copier {
+        position: absolute;
+        display: block;
+      }
+      
+      #sharing-url {
+        width: 50%;
+        left: 25%;
+        right: 25%;
+        height: 50%;
+        top: 25%;
+        bottom: 25%;
+        z-index: -1;
+      }
+      
+      #copier {
+        z-index: 1;
+        top: 0;
         height: 38px;
         width: 100%;
         border-radius: 5px;
@@ -117,10 +139,6 @@
       }
       #copier:hover {
         background-color: #d7d7d7;
-      }
-      
-      #sharing-url {
-        width: 100%;
       }
     </style>
   </head>
@@ -188,12 +206,11 @@
             <p><input type="checkbox" id="url_pp"><label for="url_pp">Polling place layer</label></p>
             <p><input type="checkbox" id="url_bounds"><label for="url_bounds">N/S/E/W bounds</label></p>
             <p><input type="checkbox" id="url_party"><label for="url_party">Party for primary</label></p>
-            <div>
-              <label for="sharing-url">Link to this map with its current view area and layers.</label>
+            <div id="copy-sneak">
               <input id="sharing-url" type="text" readonly class="sharing-url" onclick="this.setSelectionRange(0, this.value.length)">
-            </div>
-            <div class="controls text" id="copier" title="Copy link to clipboard" onclick="copy_sharing_url();">
-              Copy URL
+              <div class="controls text" id="copier" title="Copy link to clipboard" onclick="copy_sharing_url();">
+                Copy URL
+              </div>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
