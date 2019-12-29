@@ -802,12 +802,14 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
       
       function remove_share_buttons(parent){
         var kids = parent.children;
+        var to_kill = [];
         for(var i=0; i<kids.length; i++){
           var kid = kids[i];
           if(kid.id && kid.id.startsWith('share-')){
-            kid.remove();
+            to_kill.push(kid);
           }
         }
+        to_kill.forEach(function(x){ x.remove(); });
       }
       
       function build_shares(){
