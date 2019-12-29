@@ -285,7 +285,7 @@ var share_buttons = {
   },
   wordpress: {
     name:     'wordpress',
-    bgc:      'rgb(70,70,70)',
+    bgc:      'rgb(185,185,185)',
     bgimgs:   ['/Elections/images/social/Wordpress/WordPress_blue_logo.png'],
     forTitle: 'WordPress', 
     get_href: function(url){
