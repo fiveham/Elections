@@ -143,7 +143,9 @@
         width: 100%;
         border-radius: 5px;
         background-color: #ebebeb;
-        background-image: url('/Elections/images/social/copy.png')
+        background-image: url('/Elections/images/social/copy.png');
+        background-position: center center;
+        background-size: contain;
       }
       #copier:hover {
         background-color: #d7d7d7;
@@ -799,9 +801,9 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
         var kids = parent.children;
         for(var i=0; i<kids.length; i++){
           var kid = kids[i];
-          if(kid.id && kid.id.startsWith('share-'){
-           kid.remove();
-         }
+          if(kid.id && kid.id.startsWith('share-')){
+            kid.remove();
+          }
         }
       }
       
