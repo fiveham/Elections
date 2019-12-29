@@ -307,7 +307,7 @@ function get_meta(property){
       return metas[i].getAttribute("content");
     }
   }
-  console.log("No meta found with property "+property);
+  /*console.log("No meta found with property "+property);*/
   return '';
 }
 
