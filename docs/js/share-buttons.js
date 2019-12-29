@@ -14,9 +14,10 @@ function ensure_url(url){
 
 function add_share_buttons(parent, names, url){
   url = ensure_url(url);
-  get_share_buttons(names, url).forEach(function(a){
-    parent.appendChild(a);
-  });
+  var btns = get_share_buttons(names, url);
+  for(var i=0; i<btns.length; i++){
+    parent.appendChild(btns[i]);
+  }
 }
 
 function add_share_button(parent, name, url){
