@@ -93,7 +93,8 @@ std_metas = [
     "twitter:description",
     "twitter:image",
     "twitter:image:alt",
-    "twitter:url"] #A list for consistent order
+    "twitter:url",
+    'tumblr:tags'] #A list for consistent order
 known_nonstd_metas = [
     "og:site_name",
     "twitter:site", #Twitter handle for the website
@@ -113,40 +114,44 @@ def image_issues(page, metas):
 
     # Check the favicon
     favicon = page.find('link', rel='shortcut icon')
-    favicon_url = _HOST + favicon['href']
-    favicon_response = requests.get(favicon_url)
+    if favicon is None:
+        img_issues.append('No favicon specified')
+    else:
+        favicon_url = _HOST + favicon['href']
+        favicon_response = requests.get(favicon_url)
 
-    #Check that the file exists
-    if favicon_response.status_code != 200:
-        img_issues.append('Favicon not found (status ' +
-                          f'{favicon_response.status_code})')
-    else: # the file does exist
-        # check that it is square (ideal for favicons)
-        i = Image.open(io.BytesIO(favicon_response.content))
-        x, y = i.size
-        if x != y:
-            img_issues.append(f'Favicon not square ({x} wide by {y} high)')
+        #Check that the favicon file exists
+        if favicon_response.status_code != 200:
+            img_issues.append('Favicon not found (status ' +
+                              f'{favicon_response.status_code})')
+        else: # the file does exist
+            # check that it is square (ideal for favicons)
+            i = Image.open(io.BytesIO(favicon_response.content))
+            x, y = i.size
+            if x != y:
+                img_issues.append(f'Favicon not square ({x} wide by {y} high)')
 
-        # check that the Content-Type header for the image response matches the
-        # extension on the file name as requested
-        filetype = favicon_url[favicon_url.rfind('.')+1:]
-        try:
-            content_type = favicon_response.headers['Content-Type']
-        except KeyError:
-            # If there isn't even a Content-Type header, that's weird
-            img_issues.apppend('Favicon file response has no Content-Type')
-        else:
-            file_content_type = 'image/' + filetype.lower()
-            if content_type != 'image/' + filetype.lower():
-                img_issues.append(
-                        'Favicon file response: content-type ' +
-                        f'mismatch: {content_type} != {file_content_type}')
+            # check that the Content-Type header for the image response matches the
+            # extension on the file name as requested
+            filetype = favicon_url[favicon_url.rfind('.')+1:]
+            try:
+                content_type = favicon_response.headers['Content-Type']
+            except KeyError:
+                # If there isn't even a Content-Type header, that's weird
+                img_issues.apppend('Favicon file response has no Content-Type')
+            else:
+                file_content_type = 'image/' + filetype.lower()
+                if content_type != file_content_type:
+                    img_issues.append(
+                            'Favicon file response: content-type ' +
+                            f'mismatch: {content_type} != {file_content_type}')
     # Done checking favicon
     
     # Check the og and twitter image(s)
     width = int(metas['og:image:width'])
     height = int(metas['og:image:height'])
-    for meta in ('og:image', 'og:image:url', 'og:image:secure_url', 'twitter:image'):
+    for meta in ('og:image', 'og:image:url', 'og:image:secure_url',
+                 'twitter:image'):
         url = metas[meta]
         response = requests.get(url)
         if response.status_code != 200:
