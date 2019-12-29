@@ -74,57 +74,57 @@ function get_share_button(btn, url){
 
 var share_buttons = {
   buffer: {
-    name:'buffer',
-    bgc:'rgb(25,37,52)', 
-    initStyle: "background-size: 65%; background-position: center center;", 
-    bgimgs:['/Elections/images/social/Buffer/buffer-logo.png'], 
-    get_href:function(url){
+    name:      'buffer',
+    bgc:       'rgb(25,37,52)', 
+    initStyle: 'background-size: 65%; background-position: center center;', 
+    bgimgs:    ['/Elections/images/social/Buffer/buffer-logo.png'], 
+    get_href:  function(url){
       var params = [
-        ['text', get_meta('og:title')], //Maybe should be description instead
-        ['url',   url]
+        ['text', get_meta('og:description')], //Maybe should be title instead
+        ['url',  url]
       ];
       return as_url('https://buffer.com/add', params);
     }
   },
   diaspora: {
-    name:'diaspora',
-    bgc:'rgb(34,34,34)', 
-    forTitle:'diaspora*', 
-    initStyle: "background-size: 70%; background-position: center center;", 
-    bgimgs:['/Elections/images/social/diaspora/00e35d93c8dd77363bff3d52908cd44aa71739e7.png'], 
-    get_href:function(url){
+    name:      'diaspora',
+    bgc:       'rgb(34,34,34)', 
+    forTitle:  'diaspora*', 
+    initStyle: 'background-size: 70%; background-position: center center;', 
+    bgimgs:    ['/Elections/images/social/diaspora/00e35d93c8dd77363bff3d52908cd44aa71739e7.png'], 
+    get_href:  function(url){
       var params = [
-        ['title', get_meta('og:title')],
+        ['title', get_meta('og:title')], //Maybe should be description instead
         ['url',   url]
       ];
       return as_url('https://share.diasporafoundation.org/', params);
     }
   },
   facebook: {
-    name:'facebook',
-    bgc: 'rgb(59,87,157)', 
-    bgimgs: ['/Elections/images/social/Facebook/600px-Facebook_logo_square.png'],  
-    get_href:function(url){
+    name:     'facebook',
+    bgc:      'rgb(59,87,157)', 
+    bgimgs:   ['/Elections/images/social/Facebook/600px-Facebook_logo_square.png'],  
+    get_href: function(url){
       var params = [['u', url]];
       return as_url('https://www.facebook.com/sharer/sharer.php', params);
     }
   },
   googleplus: {
-    name:'googleplus',
-    bgc: 'rgb(221,78,65)', 
-    bgimgs: ['https://www.gstatic.com/images/icons/gplus-64.png'], 
+    name:     'googleplus',
+    bgc:      'rgb(221,78,65)', 
+    bgimgs:   ['https://www.gstatic.com/images/icons/gplus-64.png'], 
     forTitle: 'Google+', 
-    get_href:function(url){
+    get_href: function(url){
       var params = [['url', url]];
       return as_url('https://plus.google.com/share', params);
     }
   },
   hackernews: {
-    name:'hackernews',
-    bgc:'rgb(241,102,36)', 
-    forTitle:'Hacker News', 
-    bgimgs:['/Elections/images/social/HackerNews/hacker-y.png'], 
-    get_href:function(url){
+    name:     'hackernews',
+    bgc:      'rgb(241,102,36)', 
+    forTitle: 'Hacker News', 
+    bgimgs:   ['/Elections/images/social/HackerNews/hacker-y.png'], 
+    get_href: function(url){
       var params = [
         ['u', url],
         ['t', get_meta('og:title')]
@@ -133,14 +133,14 @@ var share_buttons = {
     }
   },
   linkedin: {
-    name:'linkedin',
-    bgc: 'rgb(10,102,194)', 
+    name:   'linkedin',
+    bgc:    'rgb(10,102,194)', 
     bgimgs: [
       '/Elections/images/social/LinkedIn/In-Blue-72.png', 
       '/Elections/images/social/LinkedIn/linkedin-uncornerer.png'
     ], 
     forTitle: 'LinkedIn',   
-    get_href:function(url){
+    get_href: function(url){
       var params = [
         ['mini',    'true'],
         ['url',     url],
@@ -152,21 +152,21 @@ var share_buttons = {
     }
   },
   mix: {
-    name:'mix',
-    bgc:'rgb(244, 129, 44)', 
-    bgimgs: ['/Elections/images/social/Mix/mix-manual.png'], 
-    get_href:function(url){
+    name:     'mix',
+    bgc:      'rgb(244, 129, 44)', 
+    bgimgs:   ['/Elections/images/social/Mix/mix-manual.png'], 
+    get_href: function(url){
       var params = [['url', url]];
       return as_url('https://mix.com/mixit', params); //Or /add instead of /mixit
     }
   },
   myspace: {
-    name:'myspace',
-    bgc:'rgb(39,39,39)', 
-    forTitle:'MySpace', 
-    initStyle: "background-size: 66.7%; background-position: center center;", 
-    bgimgs:['/Elections/images/social/MySpace/37c71da0f463cb268b47fb9118992bd9fd9bdc6b.png'],  
-    get_href:function(url){
+    name:      'myspace',
+    bgc:       'rgb(39,39,39)', 
+    forTitle:  'MySpace', 
+    initStyle: 'background-size: 66.7%; background-position: center center;', 
+    bgimgs:    ['/Elections/images/social/MySpace/37c71da0f463cb268b47fb9118992bd9fd9bdc6b.png'],  
+    get_href:  function(url){
       var params = [
         ['u', url],
         ['t', get_meta('og:title')],
@@ -176,10 +176,10 @@ var share_buttons = {
     }
   },
   pinterest: {
-    name:'pinterest',
-    bgc: 'rgb(206,40,44)', 
-    bgimgs: ['/Elections/images/social/Pinterest/icon_64x64.png'],   
-    get_href:function(url){
+    name:     'pinterest',
+    bgc:      'rgb(206,40,44)', 
+    bgimgs:   ['/Elections/images/social/Pinterest/icon_64x64.png'],   
+    get_href: function(url){
       var params = [
         ['url',         url],
         ['media',       get_meta('og:image:secure_url')],
@@ -193,18 +193,18 @@ var share_buttons = {
     bgimgs: ['/Elections/images/social/Reddit/Artboard 1_48.png'], 
     get_href:function(url){
       var params = [
-        ['title', 'Testing sharing title text, doo-dah, doo-dah'], 
-        ['url', url]
+        ['title', get_meta('og:description')], 
+        ['url',   url]
       ];
       return as_url('https://www.reddit.com/submit', params);
     }
   },
   skype: {
-    name:'skype',
-    bgc:'rgb(0,175,240)', 
-    initStyle: "background-size: 23px 23px; background-position: center center;", 
-    bgimgs:['/Elections/images/social/Skype/s_logo.svg'], 
-    get_href:function(url){
+    name:      'skype',
+    bgc:       'rgb(0,175,240)', 
+    initStyle: 'background-size: 23px 23px; background-position: center center;', 
+    bgimgs:    ['/Elections/images/social/Skype/s_logo.svg'], 
+    get_href:  function(url){
       var params = [
         ['title', get_meta('og:title')], //Maybe should be description instead
         ['url',   url]
@@ -213,31 +213,34 @@ var share_buttons = {
     }
   },
   tumblr: {
-    name:'tumblr',
-    bgc: 'rgb(0,25,53)', 
-    bgimgs: ['/Elections/images/social/Tumblr/Tumblr_Logos_2018.03.06_t Icon White.png'], 
-    initStyle: "background-size: 35.47297%; background-position: center center;", 
-    get_href:function(url){
+    name:      'tumblr',
+    bgc:       'rgb(0,25,53)', 
+    bgimgs:    ['/Elections/images/social/Tumblr/Tumblr_Logos_2018.03.06_t Icon White.png'], 
+    initStyle: 'background-size: 35.47297%; background-position: center center;', 
+    get_href:  function(url){
       var params = [
         ['canonicalUrl', get_meta('og:url')],
         ['url',          url],
         ['posttype',     'link'],
-        ['tags',         'testing,experiment'],
-        ['title',        'This is the post title. Expeeeeeerimeeeeent.'],      //og:title overrides, followed by og:description
-        ['content',      url],                                                 //content is url for link posts
-        ['caption',      "closed captions provided by: ...uh, I don't know."], //Your own personal reblogging remarks.
-        ['show-via',     'Sorry_not_via_anything']                             //Not showing up
+        ['tags',         get_meta('tumblr:tags')],
+        ['title',        get_meta('og:title')],      //og:title overrides, followed by og:description
+        ['content',      url],                       //content is url for link posts
+        ['caption',      get_meta('og:description')] //Your own personal reblogging remarks.
       ];
+      var via = get_meta('og:site_name');
+      if(via){
+        params.push(['show-via', via]);
+      }
       return as_url('https://www.tumblr.com/widgets/share/tool', params);
     }
   },
   twitter: {
-    name:'twitter',
-    bgc: 'rgb(29,161,242)', 
-    bgimgs: ['/Elections/images/social/Twitter/Twitter_Logo_WhiteOnBlue.png'], 
-    get_href:function(url){
+    name:     'twitter',
+    bgc:      'rgb(29,161,242)', 
+    bgimgs:   ['/Elections/images/social/Twitter/Twitter_Logo_WhiteOnBlue.png'], 
+    get_href: function(url){
       var params = [
-        ['text', "Testing sharing body text and whatnot"], 
+        ['text', get_meta('twitter:description')], 
         ['url', url]
       ];
       return as_url('https://twitter.com/intent/tweet/', params);
@@ -253,6 +256,7 @@ function get_meta(property){
     }
   }
   console.log("No meta found with property "+property);
+  return '';
 }
 
 function for_url(text){
