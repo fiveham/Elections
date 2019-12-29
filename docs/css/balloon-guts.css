@@ -79,9 +79,10 @@ div.gm-style-iw           p.heading ~ p.heading,
 div.gm-style-iw           p.source,
 [data-balloonish~="guts"] p.source {
   margin-top: 1em;
+  margin-bottom: 0.25em;
 }
 div.gm-style-iw           p.source ~ ul,
 [data-balloonish~="guts"] p.source ~ ul {
   margin-top: 0;
-  padding-top: 0.35em;
+  padding-top: 0.3em;
 }
