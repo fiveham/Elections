@@ -109,9 +109,15 @@
         display: block;
       }
       
+      #sharing-buttons{
+        height: 40px;
+        width: 40px;
+      }
+      
       #copy-sneak {
         position: relative; /* So that child elements position themselves w/r/t this element */
-        height: 38px;
+        height: 100%;
+        width: 100%;
       }
       
       #sharing-url,
@@ -133,10 +139,11 @@
       #copier {
         z-index: 1;
         top: 0;
-        height: 38px;
+        height: 100%;
         width: 100%;
         border-radius: 5px;
         background-color: #ebebeb;
+        background-image: url('/Elections/images/social/copy.png')
       }
       #copier:hover {
         background-color: #d7d7d7;
@@ -182,7 +189,7 @@
     <div id="set-share" class="installed left bottom">
       <div id="settings" class="controls text" role="button" title="Options"        onclick="pop_tab('popup','settings')"></div>
       <div id="about"    class="controls text" role="button" title="About this map" onclick="pop_tab('popup','about')"></div>
-      <div id="sharing"  class="controls text" role="button" title="Share this map" onclick="pop_tab('popup','share')"></div>
+      <div id="sharing"  class="controls text" role="button" title="Share this map" onclick="build_shares(); pop_tab('popup','share');"></div>
     </div>
     
     <!-- Settings, About, and Sharing Popup -->
@@ -461,6 +468,8 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
                      {id: 'party_goggles',  where: 5  /* LEFT TOP */ },
                      {id: 'set-share',      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/ },
                      {id: 'popup',          where: 13 /*google.maps.ControlPosition.CENTER*/}];
+      
+      var share_sites = []; /* TODO */
       
       function desaturate(hexcode){
         var r = parseInt(hexcode.slice(1,3), 16)/255;
@@ -782,9 +791,26 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
       
       function copy_sharing_url(){
         var share = document.getElementById('sharing-url');
-        share.value = gen_sharing_url();
         share.select();
         document.execCommand('copy');
+      }
+      
+      function remove_share_buttons(parent){
+        var kids = parent.children;
+        for(var i=0; i<kids.length; i++){
+          var kid = kids[i];
+          if(kid.id && kid.id.startsWith('share-'){
+           kid.remove();
+         }
+        }
+      }
+      
+      function build_shares(){
+        var share = document.getElementById('sharing-url');
+        share.value = gen_sharing_url();
+        var parent = document.getElementById('sharing-buttons');
+        remove_share_buttons(parent);
+        add_share_buttons(parent, share_sites, share.value);
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
@@ -792,6 +818,7 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
     <script src="/Elections/js/add-widgets.js"></script>
     <script src="/Elections/js/kmllayer.js"></script>
     <script src="/Elections/js/layer.js"></script>
+    <script src="/Elections/js/share-buttons.js"></script>
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQzE_F2ZqhXc_tIW4sfBOJBOsAKITo2JA&callback=initMap">
     </script>
