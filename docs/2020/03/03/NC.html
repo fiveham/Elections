@@ -592,7 +592,7 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
             return '<b>' + title + '</b><br><br><i>No ' + full_party_name[party_goggles] + ' party primary for this district for 3/3/2020</i>';
           case 1:
             var pointer = document.getElementById('layer-switcher').selectedIndex;
-            if(pointer === 0 || pointer === 1 || pointer === 4 || pointer === 8){
+            if(pointer === 0 || pointer === 1 || pointer === 8){
                return contest_text(contests[0]);
             } else{
               return '<b>' + title + '</b><br><br>' + contest_text(contests[0]);
