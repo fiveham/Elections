@@ -39,3 +39,11 @@ There are so many elected offices and so many different kinds of districts with 
 ### 2018
 * [MS precincts with polling place names and addresses (Nov 27, 2018)](https://fiveham.github.io/Elections/2018/general/MS.html)
 * [NC statewide midterm map (Nov 6, 2018)](https://fiveham.github.io/NC-elections/all-districts)
+
+## Frequently Asked Questions
+
+### What do the colors mean?
+
+The colors mean nothing, generally.  Fainter or grayer versions of the usual colors are generally used to suggest unimportance, as they're used to color districts that have no offices up for election in the election that the map in question describes.
+
+The four different shades of green and orange only serve to visually differentiate neighboring shapes.  The colors were initially chosen in 2018 from a palette of colors in the now-defunct Google Fusion Tables. Each of these four has a different overall brightness level which should keep neighboring districts visually different even for users with color vision deficiency.
