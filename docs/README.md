@@ -1,6 +1,6 @@
 ## US Elections - In Map Form
 
-There are so many elected offices with so many different kinds and shapes of districts that the sheer volume of information involved can be a turn-off to potential voters. One way to resolve part of that is with multi-layered interactive maps of the districts and candidates (and sometimes polling places) for a given election. To that end, I've cooked up election maps like that for several elections.
+There are so many elected offices and so many different kinds of districts with so many different shapes that the sheer volume of information involved in voting can be a turn-off. Multi-layered interactive maps of the districts and candidates (and sometimes polling places) for a given election are one way to smooth part of that steep learning curve. To that end, I've cooked up election maps like that for several elections.
 
 ## Available non-maps
 
