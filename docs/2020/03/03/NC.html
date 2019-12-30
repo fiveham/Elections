@@ -27,7 +27,7 @@
     <meta property="og:image:width"      content="1200">
     <meta property="og:image:height"     content="630">
     
-    <!--
+    <!-- Sharing:
       Tumblr: canonicalUrl
     -->
     <meta property="og:url"              content="https://fiveham.github.io/Elections/2020/03/03/NC.html">
@@ -69,7 +69,7 @@
     <meta name="twitter:image:alt"
           content="">
     
-    <!--
+    <!-- Sharing:
       Tumblr: tags
     -->
     <meta property="tumblr:tags" content="election,map,voting">
@@ -212,6 +212,15 @@
        href="https://vt.ncsbe.gov/PPLkup">
       <span>Find Polling Place</span></a>
     
+    <!-- Polling Place version dropdown -->
+    <!--
+    <select id="pp-switcher" class="installed controls top text" onchange="reset_pps()" title="Show polling places">
+      <option value=""     >Polling Places</option>
+      <option value="eday" title="Election day polling places, 3/3/2020"           >Vote Mar 3</option>
+      <option value="early" title="One-stop (early voting) sites, Feb 13 to Feb 29">Vote Early</option>
+    </select>
+    -->
+    
     <!-- Party Goggles -->
     <select id="party_goggles" class="installed controls left text" title="Filter by partisan primary"
             onchange="put_on_goggles()">
@@ -289,8 +298,15 @@
             <p class="heading">Voter ID?</p>
             <p>Maybe.  There's a court case, <a 
 href="https://www.reuters.com/article/us-usa-politics-north-carolina/north-carolina-naacp-sues-to-stop-republican-backed-voter-id-law-idUSKCN1OJ2W0" 
-              title="NAACP v Cooper" rel="nofollow" target="_blank">NAACP v. Cooper,</a> and things are up in the air right now, as of 
-              late December 2019.</p>
+              title="NAACP v Cooper" rel="nofollow" target="_blank">NAACP v. Cooper,</a> and things are <a rel="nofollow" 
+              target="_blank" title="Voter ID injunction announced"
+              href="https://www.nbcnews.com/politics/elections/federal-judge-block-latest-north-carolina-voter-id-mandate-n1107896">
+              up in the air right now, as of late December 2019.</a></p>
+            <p>In 2018, the legislature put an amendment on the ballot that would mandate photo ID to vote. The amendment <a 
+              rel="nofollow" target="_blank" title="Voter ID amendment vote results" 
+              href="https://er.ncsbe.gov/?election_dt=11/06/2018&county_id=0&office=REF&contest=1425">was approved</a>, 2.05 million to
+              1.64 million. In December 2018, the legislature <a rel="nofollow" target="_blank" title="View bill info: SL 2018-144"
+              href="https://www.ncleg.gov/BillLookup/2017/S824">passed implementing legislation.,</a> and the NAACP sued over it.</p>
             
             <!--
             <p class="heading">Voter ID Requirement</p>
@@ -513,6 +529,7 @@ href="https://www.reuters.com/article/us-usa-politics-north-carolina/north-carol
       var widgets = [{id: 'geolocation',    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
                      {id: 'layer-switcher', where: 1  /*google.maps.ControlPosition.TOP_LEFT*/},
                      {id: 'pplkup',         where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
+                     /*{id: 'pp-switcher', where: 1},*/
                      {id: 'party_goggles',  where: 5  /* LEFT TOP */ },
                      {id: 'set-share',      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/ },
                      {id: 'popup',          where: 13 /*google.maps.ControlPosition.CENTER*/}];
@@ -726,7 +743,8 @@ href="https://www.reuters.com/article/us-usa-politics-north-carolina/north-carol
           mapTypeId: 'hybrid',
           mapTypeControlOptions: {
             style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
-          }
+          },
+          tilt: 0
         });
         
         add_widgets();
