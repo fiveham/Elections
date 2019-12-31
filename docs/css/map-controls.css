@@ -27,6 +27,18 @@
   background-color: #ebebeb;
 }
 
+/* Controls that are nth-children of installed map widgets need
+   to have a background color to contrast against the white 
+   background of their nth-parent installed widget ancestor. 
+   Correspondingly, they need an even darker hover background 
+   color. */
+.installed .controls.text {
+  background-color: #ebebeb;
+}
+.installed .controls.text:hover {
+  background-color: #d7d7d7;
+}
+
 select.controls.text {
   -webkit-appearance: none;
   appearance: none;
