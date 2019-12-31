@@ -249,11 +249,12 @@
           <div class="content" data-tab="settings">
             <p class="heading">Settings</p>
             
-            <p class="heading">Infowindows</p>
+            <p class="heading">Infowindows and District Colors</p>
             <p><input type="checkbox" id="ignore"    checked="checked"><label for="ignore">Ignore withdrawn/cancelled candidates
               </label></p>
             <p><input type="checkbox" id="multicand" checked="checked"><label for="multicand">When filtering by party, ignore 
               contests with fewer than 2 candidates in that party</label></p>
+            <div role="button" onclick="recolor_polygons()" class="controls text">Apply</div>
             
             <p class="heading">Sharing</p>
             <p><input type="checkbox" id="url_layer"><label for="url_layer">District layer</label></p>
@@ -491,6 +492,10 @@ href="https://www.reuters.com/article/us-usa-politics-north-carolina/north-carol
         county       : 6, 
         municipal    : 7, 
         congress     : 8};
+      var pp_to_index = {
+        eday:  1,
+        early: 2
+      };
       
       var layers = [
         {file:'house',         data:null},
@@ -762,6 +767,12 @@ href="https://www.reuters.com/article/us-usa-politics-north-carolina/north-carol
         if(layer){
           document.getElementById('layer-switcher').selectedIndex = layer_to_index[layer] || 0;
         }
+        
+        /*var pp = params.pp;
+        if(pp){
+          document.getElementById('pp-switcher').selectedIndex = pp_to_index[pp] || 0;
+        }*/
+        
         var party = params.party;
         if(party){
           document.getElementById('party_goggles').selectedIndex = party_to_index[party] || 0;
