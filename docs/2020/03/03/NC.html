@@ -254,6 +254,7 @@
             <div role="button" onclick="recolor_polygons()" class="controls text">Apply</div>
             
             <p class="heading">Sharing</p>
+            <p>Add parameters to the url when sharing</p>
             <p><input type="checkbox" id="url_layer"><label for="url_layer">District layer</label></p>
             <!--
             <p><input type="checkbox" id="url_pp"><label for="url_pp">Polling place layer</label></p>
@@ -281,6 +282,12 @@
                North Carolina.  Candidates unopposed for their party's nomination are included in this map even though the offices
                for which they are running may not actually appear on their party's primary ballot.</p>
             
+            <p class="heading">How to Use</p>
+            <p>Choose a party to see the map through the lens of a specific party's primary. This removes candidates not of that 
+              party then removes contests without enough candidates of that party then finally dampens the color of districts 
+              with no remaining contests.</p>
+            <p></p>
+            
             <p class="heading">Parties</p>
             <p>The map refers to political parties using three-letter abbreviations copied from the state elections board's candidate
               listing file.</p>
@@ -296,14 +303,12 @@
             
             <p class="heading">Nonpartisan Contests</p>
             <p>Some offices up for election do not pair candidates' names with party affiliation on the ballot. For these, this map
-              lists candidates by name only, without a party column at all.</p>
+              lists candidates by name only.</p>
             
             <p class="heading">Districts Within Counties and Municipalities</p>
-            <p>County commissioner districts, county school board districts, and any districts within municipalities (such as city 
-              council districts and city school board districts), if such districts exist at all, are not included in this map.</p>
-            <p>In some counties, commissioners are all elected at large; so there are no districts.</p>
-            <p>In some counties, commissioners are elected at large but nominated by district so that the districts are irrelevant
-              to the voters.</p>
+            <p>County commission and school board districts and districts within municipalities are not included in this map.</p>
+            <p>In some counties, commissioners are all elected at large, with no districts.</p>
+            <p>In some counties, commissioners are elected at large but nominated by district; so, districts don't matter to voters.</p>
             <p>In some counties, commissioners are nominated <i>and</i> elected by district.</p>
             <p>In Bladen county, commissioners are nominated and elected by district, but some commission seats are elected by the 
               votes of multiple commissioner districts combined.</p>
@@ -313,19 +318,19 @@
               school board, too, but some use different district lines for commission and school board, and there may be some counties 
               where school board members are elected by district while county commissioners are elected purely at-large with no 
               districts to speak of.</p>
-            <p>Some counties' school board district maps may have holes in them where a municipal school board exists.</p>
-            <p>Accounting for low-level districts is just a huge mess that's nearly impossible to do fairly; so, finding out which 
-              low-level districts apply to a given voter is left up to the reader to determine by reading their sample ballot in 
+            <p>Some counties' school board district maps may have holes in them where a municipal school board exists, voiding 
+              the county board's jurisdiction.</p>
+            <p>Accounting for low-level districts is a huge mess nearly impossible to do fairly; so, finding out which 
+              low-level districts apply to a given voter is left up to the reader to determine by examining their sample ballot in 
               their <a href="https://vt.ncsbe.gov/RegLkup" title="Voter Lookup - NCSBE" target="_blank" rel="nofollow">voter 
-              registration lookup information</a> on the NCSBE website.</p>
+              registration lookup information</a> on the NCSBE website once those are available.</p>
             
             <p class="heading">Voter ID?</p>
             <p><a href="https://www.ncsbe.gov/Voter-ID" rel="nofollow" target="_blank" title="NC state elections board voter ID page">
               Not for the March 3rd primary, no.</a></p>
-            <p>The suit, <a title="" target="_blank" rel="nofollow" href="https://www.reuters.com/article/us-usa-politics-north-carolina/north-carolina-naacp-sues-to-stop-republican-backed-voter-id-law-idUSKCN1OJ2W0">
-              NAACP v. Cooper</a>, which led to the <a href="http://dig.abclocal.go.com/wtvd/docs/voter%20ID%20order.pdf" 
+            <p>The suit NAACP v. Cooper which led to the <a href="http://dig.abclocal.go.com/wtvd/docs/voter%20ID%20order.pdf" 
               title="Court order (PDF)" target="_blank" rel="nofollow">injunction blocking voter ID requirements</a> for the primary, 
-              is ongoing and could wind up reinstating the requirements by the time of the November 3rd general election.</p>
+              is ongoing and could wind up reinstating the requirements by the November 3rd general election.</p>
             
             <!--
             <p class="heading">Voter ID Requirement</p>
@@ -367,7 +372,7 @@
             
             <p class="heading">Referenda, Bonds, Ballot Issues</p>
             <p>Municipalities, counties, school districts, etc. may have yes/no questions on the ballot. These will probably not be 
-              included in this map simply because it is difficult to discover them all in a way that is fair and consistent across 
+              included in this map simply because it is difficult to discover them all in a way that's fair and consistent across 
               the state.</p>
             
             <p class="heading">Election Incidents, Voter Intimidation</p>
@@ -415,7 +420,7 @@
                href="https://www.brennancenter.org/our-work/court-cases/harper-v-lewis"><i>Harper v. Lewis</i></a> due to partisan
                gerrymandering.</p>
             <p>A few prosecutorial districts were set to change over the next few election cycles by <a rel="nofolllow" target="_blank"
-               href="https://www.ncleg.gov/BillLookUp/2017/H717">Session Law 2018-121</a>, passed in June 2018.</p>
+               href="https://www.ncleg.gov/BillLookUp/2017/H717">Session Law 2018-121</a>, from June 2018.</p>
             
             
             <p class="heading">Sources</p>
@@ -425,35 +430,35 @@
               <li><a target="_blank" rel="nofollow"
                   title="NCSBE downloads - 2020 candidate filing"
                   href="https://dl.ncsbe.gov/?prefix=Elections/2020/Candidate%20Filing/">
-                  State Elections Board</a></ul>
+                  Candidate Listing File (csv, 3.1MB) - State Elections Board</a></ul>
             
             <p class="source">District lines: Congress</p>
             <ul>
               <li><a target="_blank" rel="nofollow"
                   title="Court-ordered redistricting bill"
                   href="https://www.ncleg.gov/BillLookUp/2019/H1029">
-                  NC Legislature</a></ul>
+                  H1029 (SL 2019-249) - NC Legislature</a></ul>
             
             <p class="source">District lines: State House</p>
             <ul>
               <li><a target="_blank" rel="nofollow"
                   title="Court-ordered redistricting bill"
                   href="https://www.ncleg.gov/BillLookUp/2019/H1020">
-                  NC Legislature</a></ul>
+                  H1020 (SL 2019-220) - NC Legislature</a></ul>
             
             <p class="source">District lines: State Senate</p>
             <ul>
               <li><a target="_blank" rel="nofollow"
                   title="Court-ordered redistricting bill"
                   href="https://www.ncleg.gov/BillLookUp/2019/S692">
-                  NC Legislature</a></ul>
+                  S692 (SL 2019-219) - NC Legislature</a></ul>
             
             <p class="source">District lines: District Court; Prosecutorial (district attorney); Superior Court</p>
             <ul>
               <li><a target="_blank" rel="nofollow"
                   title="Spontaneous redistricting bill"
-                  href="https://www.ncleg.gov/Sessions/2017/Bills/House/PDF/H717v10.pdf">
-                  NC Legislature</a></ul>
+                  href="https://www.ncleg.gov/BillLookUp/2017/H717">
+                  H717 (SL 2018-121) - NC Legislature</a></ul>
             
             <p class="source">County lines</p>
             <ul>
