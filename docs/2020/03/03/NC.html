@@ -251,6 +251,8 @@
               </label></p>
             <p><input type="checkbox" id="multicand" checked="checked"><label for="multicand">When filtering by party, ignore 
               contests with fewer than 2 candidates in that party</label></p>
+            <p><input type="checkbox" id="nonpart"><label for="nonpart">When filtering by party, include non-partisan 
+              contests</label></p>
             <div role="button" onclick="recolor_polygons()" class="controls text" title="Recolor districts">Apply</div>
             
             <p class="heading">Sharing</p>
@@ -708,7 +710,7 @@
           if(candidate.party){
             prelim_result = prelim_result || (party_goggles === candidate.party);
           } else{
-            prelim_result = true;
+            prelim_result = prelim_result || document.getElementById('nonpart').checked;
           }
         }
         
