@@ -699,11 +699,17 @@
       function candidate_in_goggles(candidate){
         
         // If party_goggles are not on, candidate is probably visible
+        // If they are on, candidate is probably not visible
         var prelim_result = !party_goggles;
         
         // If a party is selected and the candidate has a party, only display the candidate if they have the right party
-        if(party_goggles && candidate.party){
-          prelim_result = prelim_result || (party_goggles === candidate.party);
+        // If a party is selected and the candidate has no party, display the candidate
+        if(party_goggles){
+          if(candidate.party){
+            prelim_result = prelim_result || (party_goggles === candidate.party);
+          } else{
+            prelim_result = true;
+          }
         }
         
         // If ignoring withdrawn/cancelled candidates, don't display candidate if name includes " - WITHDRAWN" or " - CANCELLED"
