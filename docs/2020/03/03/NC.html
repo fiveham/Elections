@@ -742,13 +742,18 @@
       function balloon_text(feature){
         var party = document.getElementById('party_goggles').value;
         
-        var start = 'Candidates';
+        var start = '';
         if(party){
           start = full_party_name[party] + ' party';
+          if(document.getElementById('multicand').checked){
+            start += ' primary';
+          }
           if(document.getElementById('nonpart').checked){
             start += ' and non-partisan';
           }
           start += ' candidates';
+        } else{
+          start = 'Candidates';
         }
         
         return start + ' for<br>' + _balloon_text(feature);
