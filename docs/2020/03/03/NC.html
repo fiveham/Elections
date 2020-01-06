@@ -741,7 +741,16 @@
       
       function balloon_text(feature){
         var party = document.getElementById('party_goggles').value;
-        var start = party ? full_party_name[party] + ' party candidates' : 'Candidates';
+        
+        var start = 'Candidates';
+        if(party){
+          start = full_party_name[party] + ' party';
+          if(document.getElementById('nonpart').checked){
+            start += ' and non-partisan';
+          }
+          start += ' candidates';
+        }
+        
         return start + ' for<br>' + _balloon_text(feature);
       }
       
