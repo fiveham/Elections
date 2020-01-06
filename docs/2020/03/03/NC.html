@@ -255,15 +255,6 @@
               contests</label></p>
             <div role="button" onclick="recolor_polygons()" class="controls text" title="Recolor districts">Apply</div>
             
-            <p class="heading">Sharing</p>
-            <p>Add parameters to the url when sharing</p>
-            <p><input type="checkbox" id="url_layer"><label for="url_layer">District layer</label></p>
-            <!--
-            <p><input type="checkbox" id="url_pp"><label for="url_pp">Polling place layer</label></p>
-            -->
-            <p><input type="checkbox" id="url_bounds"><label for="url_bounds">N/S/E/W bounds</label></p>
-            <p><input type="checkbox" id="url_party"><label for="url_party">Party for primary</label></p>
-            
           </div>
           
           
@@ -274,6 +265,15 @@
                 <input id="sharing-url" type="text" readonly class="sharing-url" onclick="this.setSelectionRange(0, this.value.length)">
                 <div class="controls text" id="copier" title="Copy link to clipboard" onclick="copy_sharing_url();"></div></div>
             </div>
+            
+            <p>Add settings to the shared link</p>
+            <p><input type="checkbox" id="url_layer"><label for="url_layer">District layer</label></p>
+            <!--
+            <p><input type="checkbox" id="url_pp"><label for="url_pp">Polling place layer</label></p>
+            -->
+            <p><input type="checkbox" id="url_bounds"><label for="url_bounds">N/S/E/W bounds</label></p>
+            <p><input type="checkbox" id="url_party"><label for="url_party">Party for primary</label></p>
+            
           </div>
           
           
