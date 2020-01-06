@@ -253,7 +253,8 @@
               contests without more candidates than the number to vote for</label></p>
             <p><input type="checkbox" id="nonpart"><label for="nonpart">When filtering by party, include non-partisan 
               contests</label></p>
-            <div role="button" onclick="recolor_polygons()" class="controls text" title="Recolor districts">Apply</div>
+            
+            <div role="button" onclick="tweak_settings()" class="controls text" title="Recolor districts">Apply</div>
             
           </div>
           
@@ -791,7 +792,10 @@
         }
       }
       
+      var last_click_event;
       function district_clicked(event){
+        last_click_event = event;
+        
         var content = balloon_text(event.feature);
         
         if(infowindow){
@@ -969,6 +973,15 @@
         var parent = document.getElementById('sharing-buttons');
         remove_share_buttons(parent);
         add_share_buttons(parent, share_sites, share.value);
+      }
+      
+      function tweak_settings(){
+        recolor_polygons();
+        
+        // If there is an infowindow object and if it's displayed on a map
+        if(infowindow && infowindow.getMap() && last_click_event){
+          district_clicked(last_click_event);
+        }
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
