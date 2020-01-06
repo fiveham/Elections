@@ -183,10 +183,6 @@
         background-size: 65%;
         background-repeat: no-repeat;
       }
-      
-      .content[data-tab="settings"] [role="button"] {
-        margin-right: 10px;
-      }
     </style>
   </head>
   <body>
@@ -251,15 +247,12 @@
             <p class="heading">Settings</p>
             
             <p class="heading">Infowindows and District Colors</p>
-            <p><input type="checkbox" id="ignore" checked="checked"><label for="ignore">Ignore withdrawn/cancelled candidates
-              </label></p>
-            <p><input type="checkbox" id="multicand" checked="checked"><label for="multicand">When filtering by party, ignore 
-              contests without more candidates than the number to vote for</label></p>
-            <p><input type="checkbox" id="nonpart"><label for="nonpart">When filtering by party, include non-partisan 
-              contests</label></p>
-            
-            <div role="button" onclick="tweak_settings()" class="controls text" title="Recolor districts">Apply</div>
-            
+            <p><input type="checkbox" id="ignore" onchange="tweak_settings()" checked="checked"><label for="ignore">Ignore 
+              withdrawn/cancelled candidates</label></p>
+            <p><input type="checkbox" id="multicand" onchange="tweak_settings()" checked="checked"><label for="multicand">When 
+              filtering by party, ignore contests without more candidates than the number to vote for</label></p>
+            <p><input type="checkbox" id="nonpart" onchange="tweak_settings()"><label for="nonpart">When filtering by party, include 
+              non-partisan contests</label></p>
           </div>
           
           
