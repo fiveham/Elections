@@ -811,11 +811,15 @@
           document.getElementById('pp-switcher').selectedIndex = pp_to_index[pp] || 0;
         }*/
         
+        // Load first layer
+        reset_layers();
+        
+        // If params specify a party, switch to it and manually recolor
         var party = params.party;
         if(party){
           document.getElementById('party_goggles').selectedIndex = party_to_index[party] || 0;
+          recolor_polygons();
         }
-        reset_layers();
       }
       
       function reset_layers(){
