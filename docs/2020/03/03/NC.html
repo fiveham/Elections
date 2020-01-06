@@ -716,8 +716,8 @@
         if(!party_goggles){
           return true;
         } else{
-          var min = document.getElementById('multicand').checked ? 2 : 1;
-          return contest.candidates.filter(candidate_in_goggles).length >= min;
+          var sub_min = document.getElementById('multicand').checked ? contest.vote_for : 0; //Not the minimum, but the minimum minus 1
+          return contest.candidates.filter(candidate_in_goggles).length > sub_min;
         }
       }
       
