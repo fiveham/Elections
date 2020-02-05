@@ -812,13 +812,15 @@
         for(var i=0; i<os_days.length; i++){
           var key = os_days[i];
           var value = hours_obj[key];
-          var row = '';
+          
+          var terms = key.split(' ');
+          var row = '<tr><td>'+terms[0]+'</td><td>'+terms[1]+'</td><td>'+terms[2]+'</td>';
           if(value){
             var open  = parse_time(value[0]);
             var close = parse_time(value[1]);
-            row = '<tr><td>'+key+'</td><td>'+open+'</td><td>'+close+'</td></tr>';
+            row += '<td>'+open+'</td><td>-</td><td>'+close+'</td></tr>';
           } else{
-            row = '<tr><td>'+key+'</td><td colspan="2"><i>Closed</i></td></tr>';
+            row += '<td colspan="3" style="text-align:center;"><i>Closed</i></td></tr>';
           }
           content += row;
         }
@@ -835,7 +837,7 @@
       function parse_time(time){
         var hour = time.slice(0,2);
         var h = parseInt(hour, 10);
-        var min  = time.slice(3);
+        var min  = time.slice(2);
         var meridiem = h > 12 ? 'PM' : 'AM';
         if(min == '00'){
           min = '';
@@ -847,6 +849,8 @@
           hour = '12';
         } else if(h > 12){
           hour = '' + (h-12);
+        } else{
+          hour = '' + hour;
         }
         
         return hour + min + ' ' + meridiem;
