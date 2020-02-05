@@ -658,7 +658,13 @@
         var color = feature.getProperty('color') || feature.getProperty('vtds')[0].color;
         
         var style = {
-          icon: icon_color_urls[color],
+          icon: {
+            url: icon_color_urls[color],
+            size: new google.maps.Size(64, 64),
+            //anchor: new google.maps.Point(17, 34),
+            scaledSize: new google.maps.Size(25, 25)};
+          },
+          //icon: icon_color_urls[color],
           //visible: true,
           //cursor: null,
           //title: null, // mouseover text
