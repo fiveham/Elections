@@ -204,19 +204,17 @@
       <option value="congress">Congress</option>
     </select>
     
-    <!-- PPLkup Link -->
+    <!-- PPLkup Link
     <a id="pplkup" class="installed controls top text" rel="nofollow" target="_blank" title="NCSBE Polling Place Lookup Tool" 
        href="https://vt.ncsbe.gov/PPLkup">
-      <span>Find Polling Place</span></a>
+      <span>Find Polling Place</span></a> -->
     
     <!-- Polling Place version dropdown -->
-    <!--
     <select id="pp-switcher" class="installed controls top text" onchange="reset_pps()" title="Show polling places">
       <option value=""     >Polling Places</option>
       <option value="eday" title="Election day polling places, 3/3/2020"           >Vote Mar 3</option>
       <option value="early" title="One-stop (early voting) sites, Feb 13 to Feb 29">Vote Early</option>
     </select>
-    -->
     
     <!-- Party Goggles -->
     <select id="party_goggles" class="installed controls left text" title="Filter by partisan primary"
@@ -576,8 +574,8 @@
       var triggers = ["tilesloaded", "mousemove", "zoom_changed", "idle"];
       var widgets = [{id: 'geolocation',    where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
                      {id: 'layer-switcher', where: 1  /*google.maps.ControlPosition.TOP_LEFT*/},
-                     {id: 'pplkup',         where: 1  /*google.maps.ControlPosition.TOP_LEFT*/}, 
-                     /*{id: 'pp-switcher', where: 1},*/
+                     /*{id: 'pplkup',         where: 1}, */
+                     {id: 'pp-switcher',    where: 1},
                      {id: 'party_goggles',  where: 5  /* LEFT TOP */ },
                      {id: 'set-share',      where: 6  /*google.maps.ControlPosition.LEFT_BOTTOM*/ },
                      {id: 'popup',          where: 13 /*google.maps.ControlPosition.CENTER*/}];
@@ -635,11 +633,41 @@
         }
       }
       
+      function recolor_pps(){
+        var d = pp_layers[document.getElementById('pp-switcher').selectedIndex].data;
+        if(d){
+          d.setStyle(pp_style_func);
+        }
+      }
+      
       function fill_color(feature){
         var color = feature.getProperty('color');
         var empty = feature.getProperty('contests').filter(contest_in_goggles).length == 0;
          
         return empty ? empty_rgb[color] : reg_rgb[color];
+      }
+      
+      var icon_color_urls = {
+        4: 'https://maps.google.com/mapfiles/kml/paddle/purple-circle.png',
+        3: 'https://maps.google.com/mapfiles/kml/paddle/grn-circle.png',
+        2: 'https://maps.google.com/mapfiles/kml/paddle/ylw-circle.png',
+        1: 'https://maps.google.com/mapfiles/kml/paddle/blu-circle.png'
+      };
+      
+      function pp_style_func(feature){
+        var color = feature.getProperty('color') || feature.getProperty('vtds')[0].color;
+        
+        var style = {
+          icon: icon_color_urls[color],
+          //visible: true,
+          //cursor: null,
+          //title: null, // mouseover text
+          //shape: null, // hitbox for clicking
+          clickable: true,
+          zIndex: 1
+        };
+        
+        return style;
       }
       
       function color_func(feature){
@@ -744,6 +772,120 @@
         }
       }
       
+      function pp_balloon_text(feature){
+        return feature.getProperty('hours') ? os_balloon_text(feature) : ed_balloon_text(feature);
+      }
+      
+      function get_directions_url(addr1, addr2){
+        return 'https://www.google.com/maps/dir//' + encodeURI(addr1 + '\n' + addr2);
+      }
+      
+      function os_balloon_text(feature){
+        var name   = feature.getProperty('Name');
+        var addr1  = feature.getProperty('SiteAddressStreet');
+        var addr2  = feature.getProperty('SiteAddressCSZ');
+        var hours  = feature.getProperty('hours');
+        var county = feature.getProperty('county').name;
+        var directions_url = get_directions_url(addr1, addr2);
+        
+        var content = 'Early voting site for 3/3/2020<br>';
+        content += '<b>' + name + '</b><br>';
+        
+        //add county specifier if county name not in site name
+        if(!name.toUpperCase().includes(county.toUpperCase())){
+          content += county + ' County<br>';
+        }
+        
+        content += '<br>';
+        content += '<a href="' + directions_url + '" title="driving directions" target="_blank">' + addr1 + '<br>';
+        content += addr2 + '</a><br><br>';
+        
+        content += '<b>Hours of Operation</b><br>';
+        content += '<table>';
+        
+        var hours_obj = {};
+        for(var i=0; i<hours.length; i++){
+          var hour = hours[i];
+          hours_obj[hour[0]] = [hour[1], hour[2]];
+        }
+        
+        for(var i=0; i<os_days.length; i++){
+          var key = os_days[i];
+          var value = hours_obj[key];
+          var row = '';
+          if(value){
+            var open  = parse_time(value[0]);
+            var close = parse_time(value[1]);
+            row = '<tr><td>'+key+'</td><td>'+open+'</td><td>'+close+'</td></tr>';
+          } else{
+            row = '<tr><td>'+key+'</td><td colspan="2"><i>Closed</i></td></tr>';
+          }
+          content += row;
+        }
+        
+        content += '</table>';
+        
+        return content;
+      }
+      
+      var os_days = ['Thu 13 Feb', 'Fri 14 Feb', 'Sat 15 Feb', 'Sun 16 Feb', 'Mon 17 Feb', 'Tue 18 Feb', 'Wed 19 Feb', 
+                     'Thu 20 Feb', 'Fri 21 Feb', 'Sat 22 Feb', 'Sun 23 Feb', 'Mon 24 Feb', 'Tue 25 Feb', 'Wed 26 Feb', 
+                     'Thu 27 Feb', 'Fri 28 Feb', 'Sat 29 Feb'];
+      
+      function parse_time(time){
+        var hour = time.slice(0,2);
+        var h = parseInt(hour, 10);
+        var min  = time.slice(3);
+        var meridiem = h > 12 ? 'PM' : 'AM';
+        if(min == '00'){
+          min = '';
+        } else{
+          min = ':' + min;
+        }
+        
+        if(h === 0){
+          hour = '12';
+        } else if(h > 12){
+          hour = '' + (h-12);
+        }
+        
+        return hour + min + ' ' + meridiem;
+      }
+      
+      function ed_balloon_text(feature){
+        var name = feature.getProperty('name');
+        var addr1 = feature.getProperty('addr1');
+        var addr2 = feature.getProperty('addr2');
+        var vtds = feature.getProperty('vtds');
+        var directions_url = get_directions_url(addr1, addr2);
+        
+        var content = '3/3/2020 Polling Place<br><b>' + name + '</b><br>';
+        
+        content += '<a href="' + directions_url + '" title="driving directions" target="_blank">' + addr1 + '<br>';
+        content += addr2 + '</a><br><br>';
+        
+        if(vtds.length > 1){
+          content += '<b>Precincts</b>:<ul>';
+          for(var i=0; i<vtds.length; i++){
+            content += '<li>' + precinct_link(vtds[i]);
+          }
+          content += '</ul>';
+        } else {
+          content += '<b>Precinct</b>: ' + precinct_link(vtds[0]);
+        }
+        
+        return content;
+      }
+      
+      function precinct_link(v){
+        var html = '<a title="NCSBE Polling Place Lookup" target="_blank" ';
+        html += 'href="https://vt.ncsbe.gov/PPLkup/PollingPlaceResult/?CountyID='+v.county.id;
+        html += '&PollingPlaceID='+v.PollingPlaceID+'">';
+        html += v.Description; // Or perhaps .Label
+        html += '</a>'
+        return html;
+      }
+      
       function balloon_text(feature){
         var party = document.getElementById('party_goggles').value;
         
@@ -797,6 +939,7 @@
       }
       
       var last_click_event;
+      
       function district_clicked(event){
         last_click_event = event;
         
@@ -810,6 +953,20 @@
           position: event.latLng
         });
         infowindow.open(map);
+      }
+      
+      function pp_clicked(event){
+        last_click_event = event;
+        
+        var content = pp_balloon_text(event.feature);
+        if(pp_infowindow){
+          pp_infowindow.close();
+        }
+        pp_infowindow = new google.maps.InfoWindow({
+          content: content,
+          position: event.latLng
+        });
+        pp_infowindow.open(map);
       }
       
       function get_bounds(params){
@@ -986,6 +1143,35 @@
         if(infowindow && infowindow.getMap() && last_click_event){
           district_clicked(last_click_event);
         }
+      }
+      
+      var pp_infowindow = null;
+      var pp_layers = [{data:null}, 
+                       {data:null, file:'ossite'}, 
+                       {data:null, file:'pollingplaces'}];
+      
+      function reset_pps() {
+        if(pp_infowindow){
+          pp_infowindow.close();
+        }
+        for(var i = 0; i < pp_layers.length; i++){
+          var d = pp_layers[i].data;
+          if(d){
+            d.setMap(null);
+          }
+        }
+        
+        var index = document.getElementById('pp-switcher').selectedIndex;
+        if(index){ // index 0 means turn them off
+          var p = pp_layers[index];
+          if(!p.data){
+            p.data = new google.maps.Data();
+            p.data.loadGeoJson('/Elections/resources/2020/03/03/NC/' + p.file + '.geo.json');
+            p.data.addListener('click', pp_clicked);
+          }
+          p.data.setMap(map);
+        }
+        recolor_pps(); // Don't know if needed
       }
     </script>
     <script src="/Elections/js/geolocator.js"></script>
