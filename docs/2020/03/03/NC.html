@@ -771,7 +771,7 @@
       function contest_text(contest){
         var name = contest.name;
         var vote_for = contest.vote_for;
-        var vf = vote_for === 1 ? '' : ' (choose ' + vote_for + ')';
+        var vf = vote_for === 1 ? '' : '<br> (choose ' + vote_for + ')';
         var candidates = contest.candidates.filter(candidate_in_goggles);
         return '<b>' + name + '</b>' + vf + '<br><br><table>' + candidate_table(candidates).join('') + '</table>';
       }
