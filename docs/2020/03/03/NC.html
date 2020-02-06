@@ -635,7 +635,7 @@
       
       function recolor_polygons(){
         var d = layers[document.getElementById('layer-switcher').selectedIndex].data;
-        if(d){
+        if(d && d.setStyle){ // the precinct layer does not have a setStyle method
           d.setStyle(color_func);
         }
       }
