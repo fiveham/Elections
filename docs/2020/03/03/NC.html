@@ -202,6 +202,7 @@
       <option value="county">County</option>
       <option value="municipal">Municipal</option>
       <option value="congress">Congress</option>
+      <option value="vtd">Precincts</option>
     </select>
     
     <!-- PPLkup Link
@@ -528,7 +529,8 @@
         superior     : 5,
         county       : 6, 
         municipal    : 7, 
-        congress     : 8};
+        congress     : 8,
+        vtd          : 9};
       var pp_to_index = {
         eday:  1,
         early: 2
@@ -543,7 +545,12 @@
         {file:'scd',           data:null},
         {file:'county',        data:null},
         {file:'municipal',     data:null},
-        {file:'congress',      data:null}];
+        {file:'congress',      data:null},
+        {files: ['vtd0.kml', 
+                 'vtd1.kml', 
+                 'vtd2.kml', 
+                 'vtd3.kml', 
+                 'vtd4.kml'],  data:null}
       var map;
       var infowindow;
       var party_goggles; // Specify a party, ignore all candidates not of that party
@@ -661,8 +668,8 @@
           icon: {
             url: icon_color_urls[color],
             size: new google.maps.Size(64, 64),
-            anchor: new google.maps.Point(16, 31),
-            scaledSize: new google.maps.Size(32, 32)
+            anchor: new google.maps.Point(15, 30),
+            scaledSize: new google.maps.Size(30, 30)
           },
           //icon: icon_color_urls[color],
           //visible: true,
@@ -1042,9 +1049,13 @@
         var index = document.getElementById('layer-switcher').selectedIndex;
         var l = layers[index];
         if(!l.data){
-          l.data = new google.maps.Data();
-          l.data.loadGeoJson('/Elections/resources/2020/03/03/NC/' + l.file + '.geo.json');
-          l.data.addListener('click', district_clicked);
+          if(l.file){
+            l.data = new google.maps.Data();
+            l.data.loadGeoJson('/Elections/resources/2020/03/03/NC/' + l.file + '.geo.json');
+            l.data.addListener('click', district_clicked);
+          } else{
+            l.data = new Layer(l.files, kmllayer);
+          }
         }
         l.data.setMap(map);
         recolor_polygons();
