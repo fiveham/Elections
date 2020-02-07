@@ -1021,17 +1021,14 @@
         
         //turn first layer(s) on
         var layer = params.layer;
-        if(layer){
-          document.getElementById('layer-switcher').selectedIndex = layer_to_index[layer] || 0;
-        }
+        document.getElementById('layer-switcher').selectedIndex = layer ? layer_to_index[layer] : 0;
         
-        /*var pp = params.pp;
-        if(pp){
-          document.getElementById('pp-switcher').selectedIndex = pp_to_index[pp] || 0;
-        }*/
+        var pp = params.pp;
+        document.getElementById('pp-switcher').selectedIndex = pp ? pp_to_index[pp] : 0;
         
-        // Load first layer
         reset_layers();
+        reset_pps();
+        
         
         // If params specify a party, switch to it and manually recolor
         var party = params.party;
