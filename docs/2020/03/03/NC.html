@@ -183,6 +183,15 @@
         background-size: 65%;
         background-repeat: no-repeat;
       }
+      
+      #party_abbrev_container {
+        text-align: center;
+      }
+      
+      #parry_abbrev {
+        text-align: left;
+        display: inline;
+      }
     </style>
   </head>
   <body>
@@ -295,14 +304,16 @@
             <p class="heading">Parties</p>
             <p>This map uses three-letter abbreviations for political parties copied from the state elections board's candidate
               listing file.</p>
-            <table>
-              <tr><th>Abbreviation</th><th>Party Name</th></tr>
-              <tr><td>CST</td><td>Constitution Party</td></tr>
-              <tr><td>DEM</td><td>Democratic Party</td></tr>
-              <tr><td>GRE</td><td>Green Party</td></tr>
-              <tr><td>LIB</td><td>Libertarian Party</td></tr>
-              <tr><td>REP</td><td>Republican Party</td></tr>
-            </table>
+            <div id="party_abbrev_container">
+              <table id="party_abbrev">
+                <tr><th>Abbreviation</th><th>Party Name</th></tr>
+                <tr><td>CST</td><td>Constitution Party</td></tr>
+                <tr><td>DEM</td><td>Democratic Party</td></tr>
+                <tr><td>GRE</td><td>Green Party</td></tr>
+                <tr><td>LIB</td><td>Libertarian Party</td></tr>
+                <tr><td>REP</td><td>Republican Party</td></tr>
+              </table>
+            </div>
             <p>These five are the only political parties the state of North Carolina officially recognizes.</p>
             
             
