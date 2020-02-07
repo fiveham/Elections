@@ -248,7 +248,7 @@
               withdrawn/cancelled candidates</label></p>
             <p><input type="checkbox" id="multicand" onchange="tweak_settings()" checked="checked"><label for="multicand">When 
               filtering by party, ignore contests without more candidates than the number to vote for</label></p>
-            <p><input type="checkbox" id="nonpart" onchange="tweak_settings()"><label for="nonpart">When filtering by party, include 
+            <p><input type="checkbox" id="nonpart" onchange="tweak_settings()" checked="checked"><label for="nonpart">When filtering by party, include 
               non-partisan contests</label></p>
           </div>
           
@@ -276,32 +276,26 @@
           <div class="content" data-tab="about">
             
             <p class="heading">NC Partisan Primaries, Mar 3 2020</p>
-            <p>This interactive election map shows the districts and candidates for the March 3, 2020 partisan primaries in 
-               North Carolina.  Candidates unopposed for their party's nomination are included in this map even though the offices
+            <p>This interactive election map shows the districts, candidates, and polling places for the March 3, 2020 partisan 
+              primaries in North Carolina. Candidates for a district's office(s) are shown in a popup infowindow when the 
+              district is clicked.</p>
+            <p>The district types include a statewide layer for statewide offices and presidential
+              preference, a county layer for county offices, and a precinct layer for voting tabulation districts, though
+              counties and the state are not districts and VTDs don't have elected offices.</p>
+              
+            <p>Candidates unopposed for their party's nomination are included in this map even though the offices
                for which they are running may not actually appear on their party's primary ballot.</p>
             
             <p class="heading">How to Use</p>
-            <p>Choose a party to see the map through the lens of a specific party's primary. This removes candidates not of that 
-              party then removes contests without enough candidates of that party then finally dampens the color of districts 
-              with no remaining contests.  This will also remove nonpartisan contests, even if they would appear on a party's 
-              primary ballot.</p>
-            <p>Change from one district set to another to see the districts of that type and get access to the contest/candidate info
-              available on that layer.</p>
-            <p>Use the geolocator button to jump/zoom/snap to your location (as reported by your browser). Your location data is not
-              sent anywhere.</p>
-            <p>To learn about a candidate, highlight their name, copy it, and search for it using your choice of search engine.</p>
-            
-            <p class="heading">Why to Use</p>
-            <ul>
-              <li>See which districts you live in
-              <li>Learn the shape and extent of the districts you live in
-              <li>Find out whether there are any weird district lines near you
-              <li>Check who's running for which offices
-              <li>Discover what offices are even up for election
-            </ul>
+            <p>Aside from the obvious--panning, zooming, and clicking/tapping--change which type of 
+              districts are shown, turn on either election day or early polling places, or filter 
+              the map and candidates by choosing a partisan primary.</p>
+            <p>There are also some fine-tuning controls in the settings menu (wrench icon).</p>
+            <p>The geolocator button to recenters and rescales the map onto your location as reported 
+              by your browser. Your location data is not sent anywhere.</p>
             
             <p class="heading">Parties</p>
-            <p>Here political parties are referred to by three-letter abbreviations copied from the state elections board's candidate
+            <p>This map uses three-letter abbreviations for political parties copied from the state elections board's candidate
               listing file.</p>
             <table>
               <tr><th>Abbreviation</th><th>Party Name</th></tr>
@@ -313,12 +307,16 @@
             </table>
             <p>These five are the only political parties the state of North Carolina officially recognizes.</p>
             
+            
             <p class="heading">Nonpartisan Contests</p>
-            <p>Some offices on the ballot do not pair candidates' names with party affiliation. This map lists those candidates by 
+            <p>Some offices on the ballot do not show candidates' party affiliation. This map lists those candidates by 
               name only.</p>
             
+            
             <p class="heading">Districts Within Counties and Municipalities</p>
-            <p>County commission and school board districts and districts within municipalities are not included in this map.</p>
+            <p>Sub-county districts for county commissioners, school board districts, and districts within municipalities are not 
+              depicted in this map.  Any offices pertaining to sub-county or sub-municipality districts are included in the 
+              county's or municipality's infowindow respectively.</p>
             <p>In some counties, commissioners are all elected at large, with no districts.</p>
             <p>In some counties, commissioners are elected at large but nominated by district; so, districts don't matter to voters.</p>
             <p>In some counties, commissioners are nominated <i>and</i> elected by district.</p>
@@ -332,17 +330,17 @@
               districts to speak of.</p>
             <p>Some counties' school board district maps may have holes in them where a municipal school board exists, voiding 
               the county board's jurisdiction.</p>
-            <p>Accounting for low-level districts is a huge mess nearly impossible to do fairly; so, finding out which 
+            <p>Accounting for low-level districts is a huge mess nearly impossible to do fairly for this map; so, finding out which 
               low-level districts apply to a given voter is left up to the reader to determine by examining their sample ballot in 
               their <a href="https://vt.ncsbe.gov/RegLkup" title="Voter Lookup - NCSBE" target="_blank" rel="nofollow">voter 
-              registration lookup information</a> on the NCSBE website once those are available.</p>
+              registration lookup information.</a></p>
             
             <p class="heading">Voter ID?</p>
             <p><a href="https://www.ncsbe.gov/Voter-ID" rel="nofollow" target="_blank" title="NC state elections board voter ID page">
               Not for the March 3rd primary, no.</a></p>
             <p>The suit <i>NAACP v. Cooper</i> which led to the <a href="http://dig.abclocal.go.com/wtvd/docs/voter%20ID%20order.pdf" 
               title="Court order (PDF)" target="_blank" rel="nofollow">injunction blocking voter ID requirements</a> for the primary, 
-              is ongoing and could wind up reinstating the requirements by the November 3rd general election.</p>
+              is ongoing and could reinstate the requirements by the November 3rd general election.</p>
             
             <!--
             <p class="heading">Voter ID Requirement</p>
@@ -383,9 +381,9 @@
             -->
             
             <p class="heading">Referenda, Bonds, Ballot Issues</p>
-            <p>Municipalities, counties, school districts, etc. may have yes/no questions on the ballot. These will probably not be 
-              included in this map simply because it is difficult to discover them all in a way that's fair and consistent across 
-              the state.</p>
+            <p>Municipalities, counties, school districts, etc. may have yes/no questions on the ballot. These are not 
+              included in this map if they exist, simply because it is difficult to discover them all in a fair and consistent way 
+              across the state.</p>
             
             <p class="heading">Election Incidents, Voter Intimidation</p>
             <p>In the event of voter intimidation or other inappropriate stuff, there are several ways to report it as 
@@ -418,10 +416,10 @@
             
             <p class="heading">Colors</p>
             <p>The colors mean nothing, for the most part.</p>
-            <p>Orange and green were chosen to avoid partisan implications. Using a different brightness level for each color is 
-               meant to ensure districts can still be distinguished in case of color vision deficiency.</p>
-            <p>Lighter colors are used for shapes with no corresponding election on March 3rd, but the shades of green and orange
-               are used purely to help distinguish adjacent shapes.</p>
+            <p>The shades of green and orange are used purely to help distinguish adjacent shapes. Orange and green were chosen to 
+              avoid partisan implications.</p>
+            <p>A grayer version of a district's color is used for if that district has no corresponding election on March 3rd.
+              </p>
             
             <!--
             <p class="heading">Why have district lines moved?</p>
@@ -485,6 +483,27 @@
                   title="download NC places shapefile"
                   href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=Places">
                   US Census Bureau</a></ul>
+            
+            <p class="source">Precincts</p>
+            <ul>
+              <li><a target="_blank" rel="nofollow"
+                  title="download NC places shapefile"
+                  href="https://dl.ncsbe.gov/?prefix=PrecinctMaps/">
+                  NCSBE</a></ul>
+            
+            <p class="source">Early voting sites</p>
+            <ul>
+              <li><a target="_blank" rel="nofollow"
+                  title="download NC places shapefile"
+                  href="https://vt.ncsbe.gov/ossite">
+                  NCSBE</a></ul>
+            
+            <p class="source">Election day polling places</p>
+            <ul>
+              <li><a target="_blank" rel="nofollow"
+                  title="download NC places shapefile"
+                  href="https://vt.ncsbe.gov/PPLkup">
+                  NCSBE</a></ul>
             
             <!--
             <p class="source">Accepted voter IDs</p>
